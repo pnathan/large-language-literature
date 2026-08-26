@@ -23,6 +23,7 @@ WNOTES = {
   ("OB II 96–98","'Eat the bread — the mark of life; drink the beer — the custom of the land.' The SB text of Tablet II is broken exactly here; this couplet survives only in the old version."),
   ("OB II 149–164","The <i>ius primae noctis</i> passage: the king couples with the destined bride 'he first, and the husband after,' by divine counsel. The late edition keeps only the muffled echo (SB II 108–110); the old tablet says it outright."),
   ("OB II 241–242","The colophon: 'Second tablet' and the catch-line 'Surpassing all kings' — the incipit of the OB series, which the SB prologue absorbed as its line 29."),
+  ("OB II 80 vs 183 — padānam / padattam","The Gilgameš-likeness refrain has <i>mašil padattam</i> 'his image in build' at 183, but <i>padānam</i> ('way, gait') at 80. The English standardizes on 'in outline' and records the variant here."),
  ],
  'CUNES': [
   ("CUNES 2b–3","Enkidu kneels before the harlot 'no longer against his grain': the OB texts insist on his consent to civilization. Cf. SB I 201–203, where the same listening is kept but the phrase is smoothed away."),
