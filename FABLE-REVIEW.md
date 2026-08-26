@@ -110,6 +110,19 @@ But in its current state the translation commits, in miniature, the sins it pros
 6. Re-scope the terminology notes: drop qadr/fanā/tawhīd/taṭhīr as textual claims; add ghayr; cite the ahl-i yaqīn line.
 7. Remove "(Tavazon)"; retitle the Persian as مهمان‌خانه or drop the invented Persian title.
 
+## Addendum: the revised 11-couplet version (commit 40c804a)
+
+While this review was being written, the translation was expanded to 11 couplets. Assessment of the changes:
+
+- **The three added couplets are genuine and correctly ordered.** می‌فشاند برگ زرد…, می‌کند بیخ سرور کهنه…, and غم کند بیخ کژ پوسیده… are V.3680–3682, immediately following 3679 in §157 (verified against the section text). Good addition — this is the "pruning" continuation Nicholson translates.
+- **New mistranslation in Couplet 10.** The Persian تا خرامد ذوق نو از ماورا reads *az mā-warā* — "so that new delight may come strolling in **from the Beyond**." The draft misparses ماورا and renders "might come forth **from you** in turn," which deletes the one explicitly transcendent phrase in the new material — precisely the kind of content the project exists to restore. (The typeset ما ورا with a space invites the misparse; it is one word, ماوراء.)
+- **The apparatus grows further beyond the text.** The revision adds *tajallī*, "radical non-dualism," and a ghayb/shahādat pairing as if textual. Same pattern as qadr/fanā/tawhīd: none of these terms is in the passage, and "radical non-dualism" is an especially anachronistic label for line 3677. The horticultural reading of 3680–82, by contrast, is textual and well handled.
+- **All previously flagged errors persist** in the revision: the "Middle Persian" misnomer, the misquoted line 3644, the undisclosed splice and relocated couplet 4, the inverted negation in Couplet 6 (now "mere person? No, O soul—"), and "open the way for joy" in Couplet 7 (still missing the *rāh zadan* waylaying idiom).
+
+Add to the required-fixes list: **8.** Correct Couplet 10 to "from the Beyond" (ماوراء). **9.** Drop tajallī/"radical non-dualism"/shahādat as textual claims or mark them explicitly as interpretation.
+
+---
+
 ### Sources verified during review
 
 - Ganjoor, Masnavi V §155 (text of 3644–46 and rubric): https://ganjoor.net/moulavi/masnavi/daftar5/sh155
