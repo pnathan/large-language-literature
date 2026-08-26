@@ -1,0 +1,111 @@
+# -*- coding: utf-8 -*-
+# Pericope boundaries: (first line int, running caption)
+PERICOPES = {
+ 'I': [(1,'He who saw the wellspring'),(29,'Surpassing all kings'),(47,'Two-thirds god'),(61,'The tyranny'),
+       (79,'The complaint to heaven'),(99,'Clay in the open land'),(111,'The hunter'),(132,'The father’s counsel'),
+       (147,'Before the king'),(165,'At the watering-place'),(176,'Šamhat'),(194,'The herd turns away'),
+       (204,'The invitation'),(231,'A man glad-and-grieving'),(243,'The first dream'),(271,'The second dream'),
+       (292,'A friend, a counsellor')],
+ 'II': [(1,'The garments; bread and beer'),(59,'Watchman of the shepherds'),(99,'The wedding-house'),
+        (162,'Ninsun on Enkidu'),(178,'Enkidu weeps'),(193,'The proposal'),(216,'The dossier against Humbaba'),
+        (230,'Only wind'),(247,'The forging'),(260,'Before the assembly'),(287,'The counsellors answer')],
+ 'III': [(1,'The elders’ charge'),(13,'To Egalmah'),(35,'Ninsun prepares'),(43,'The prayer to Šamaš'),
+         (100,'The second charge'),(116,'The adoption of Enkidu'),(147,'Rites of departure'),
+         (202,'The vow renewed'),(212,'Farewell at the gate'),(228,'Enkidu answers')],
+ 'IV': [(1,'First camp: the falling mountain'),(34,'Second camp'),(69,'The second dream read'),
+        (79,'Third camp: raining death'),(120,'Fourth camp'),(155,'The fourth dream read'),
+        (163,'Fifth camp'),(210,'At the forest’s edge')],
+ 'V': [(1,'The forest'),(27,'Dread falls'),(34,'Forget death, hunt life'),(55,'Blades drawn'),
+       (61,'Humbaba mutters'),(73,'Two are two'),(87,'Prayer, and the cry from heaven'),(115,'Humbaba mocks'),
+       (125,'The changing face'),(152,'The thirteen winds'),(166,'The plea'),(178,'Enkidu refuses it'),
+       (190,'The second plea'),(196,'Kill him, grind up his mind'),(249,'The bird and the chicks'),
+       (278,'The curse'),(285,'The kill'),(300,'The wasted forest'),(311,'The door for Nippur')],
+ 'VI': [(1,'The proposal'),(22,'The refusal: nine similes'),(44,'The catalogue of lovers'),
+        (80,'Ištar in heaven'),(94,'The Bull demanded'),(116,'The Bull descends'),(128,'The plan'),
+        (141,'The kill'),(151,'The haunch'),(158,'The mourning and the horns'),(167,'Triumph'),(180,'Enkidu dreams')],
+ 'VII': [(1,'The council of the gods'),(28,'To the door'),(37,'The door speech'),(65,'Gilgameš answers'),
+         (84,'What Enlil commands'),(90,'The curse of the hunter'),(100,'The curse of Šamhat'),
+         (132,'Šamaš rebuts'),(151,'The blessing'),(162,'The dream of the captive'),(184,'The house of dust'),
+         (206,'Ereškigal sees him'),(249,'Remember me'),(255,'The numbered days')],
+ 'VIII': [(1,'May they mourn you'),(42,'Hear me, young men'),(55,'What sleep is this'),(65,'The statue'),
+          (84,'The promise'),(92,'The treasury opened'),(131,'The slaughter'),(134,'Gifts to the netherworld'),
+          (211,'The damming of the river')],
+ 'IX': [(1,'Roving'),(13,'Lions in the passes'),(37,'Mount Māšu'),(48,'The scorpion-people'),
+        (75,'Of death and life'),(125,'Scorched'),(136,'Into the tunnel'),(171,'The jeweled garden')],
+ 'X': [(1,'The ale-wife'),(29,'The lament, first telling'),(72,'Which is the road?'),(78,'Sailing directions'),
+       (92,'The Stone Ones smashed'),(112,'The lament, second telling'),(149,'Which is the road? — again'),
+       (163,'Three hundred poles'),(171,'The Waters of Death'),(184,'Ūta-napišti watches'),
+       (207,'The lament, third telling'),(249,'What have I gathered?'),(266,'The fool and the moon'),
+       (297,'The mayfly'),(319,'Death and life set down')],
+ 'XI': [(1,'You are as I am'),(8,'The secret: Šuruppak'),(21,'Reed fence, wall'),(36,'Ea’s evasion'),
+        (48,'The building of the boat'),(81,'The loading'),(97,'The storm'),(114,'The gods take fright'),
+        (128,'Seven days'),(134,'Silence'),(147,'The three birds'),(157,'The sacrifice; the flies'),
+        (172,'Enlil’s fury'),(181,'Ea answers'),(199,'The blessing as exile'),(209,'The test of sleep'),
+        (231,'The loaves'),(242,'Where shall I go?'),(247,'The washing'),(271,'The wife’s question'),
+        (281,'The plant'),(301,'The snake'),(319,'The wall of Uruk')],
+ 'XII': [(1,'The ball and the mallet'),(10,'The taboos'),(31,'Every rule broken'),(51,'The earth seized him'),
+         (55,'The petitions'),(79,'Ea and Šamaš'),(86,'The chink opened'),(90,'Tell me, my friend'),
+         (102,'The census of the dead'),(144,'The special cases')],
+}
+
+# Side assignment for meta.APPARATUS entries, in order: (anchor line str, 'L'|'R')
+APP_SIDE = {
+ 'I': [('1','L'),('2','L'),('15','L'),('22','L'),('102','L'),('105','L'),('246','R'),('192','R')],
+ 'II': [('36','L'),('44','R'),('110','R'),('234','R'),('221','R')],
+ 'III': [('46','L'),('87','R'),('96','L'),('121','R')],
+ 'IV': [('1','R'),('10','L'),('26','R'),('101','R')],
+ 'V': [('15','R'),('42','L'),('132','R'),('156','L'),('300','R'),('307','R')],
+ 'VI': [('12','L'),('33','R'),('46','R'),('99','R'),('104','R'),('162','R')],
+ 'VII': [('37','R'),('102','R'),('184','R'),('196','L'),('266','R')],
+ 'VIII': [('1','R'),('50','L'),('59','R'),('135','R'),('212','L')],
+ 'IX': [('3','L'),('38','R'),('139','R'),('173','R')],
+ 'X': [('40','R'),('79','R'),('102','R'),('174','R'),('301','L'),('313','R'),('319','R')],
+ 'XI': [('21','R'),('31','L'),('46','L'),('116','R'),('141','L'),('142','L'),('148','R'),('163','R'),
+        ('203','R'),('225','R'),('305','R'),('323','R')],
+ 'XII': [('1','R'),('11','R'),('28','L'),('96','R'),('102','R')],
+}
+
+# Additional notes, chiefly OB cross-references: (anchor, side, lemma, html)
+EXTRA = {
+ 'I': [
+  ('193','R','Seven nights, or six — OB II 48','The Old Babylonian Pennsylvania tablet counts seven days and seven nights with Šamhat; the late edition trimmed the count to six-and-seven, aligning it with its other sevens — the mourning vigil (X 235) and the test of sleep (XI 209).'),
+ ],
+ 'II': [
+  ('108','R','The king and the bride — OB II 149–164','The old version states the custom outright: “he couples with the destined wife — he first, and the husband after,” fixed “by the counsel of the god” from the cutting of her birth-cord. The Standard text keeps only this muffled echo around the bed of Išhara.'),
+  ('227','R','Wēr — OB III 131–133','In the old version the forest’s guardianship belongs to Wēr, a storm-god and double of Adad, with Huwawa as his appointee; the Standard edition deletes Wēr and hands the appointment to Enlil.'),
+ ],
+ 'IV': [
+  ('4','R','Ebla — OB Schøyen₂ 26','The Old Babylonian route remembers live Syrian geography: “they drew near the land of Ebla.” The late itinerary knows only Lebanon.'),
+  ('104','R','A stable dream — OB Schøyen₂ 34–42','The fire-storm dream stands nearly verbatim in the Old Babylonian: <i>izannun mūtum</i>, “it was raining death,” in both recensions. Five centuries changed almost nothing here.'),
+ ],
+ 'V': [
+  ('99','R','Seven cloaks, seven glories','The Standard text counts Humbaba’s auras as seven mantles of terror-light, one worn and six shed; the Old Babylonian tradition (Nippur, Ishchali, Schøyen₃) treats them as seven detachable terror-glories, hunted down after the kill “like chicks.”'),
+  ('167','R','The plea by pedigree — OB Harmal₂ 42','Already in the old version Huwawa pleads by the hero’s mother: “The cow of the Sheepfold bore you — Ninsumuna!” The Standard edition keeps the move nearly word for word.'),
+  ('316','R','The door, older and smaller — OB Schøyen₃ 23–29','The Old Babylonian door is a reed-length broad, pivotless, riding in its socket; the Standard door is six rods by two. The same gift to Enlil of Nippur — the dimensions grew with the poem.'),
+ ],
+ 'X': [
+  ('73','R','Šamaš’s rebuke — OB VA+BM 1′–15′','Unique to the old version: mid-wandering, the sun-god bends down — “Gilgameš, where are you wandering? The life you keep hunting you will not find” — and the king answers with the poem’s rawest lines: “Let my eyes look on the sun; when may a dead man ever see the sun’s bright glare?” The Standard edition deleted the exchange; its cadence survives in the ale-wife’s opening words in the parting of the ways below.'),
+  ('59','R','“Perhaps my friend will rise at my cry” — OB VA+BM a+8','The old version gives the reason for the seven-day vigil over the corpse; the late text keeps the vigil and the worm and deletes the hope.'),
+  ('297','R','Moved theology','Ūta-napišti’s discourse absorbs what the Old Babylonian gave to Šiduri and to Šamaš. The late poem centralizes its wisdom at the far shore — see the parting of the ways after X 91.'),
+ ],
+}
+
+# Split spreads: inserted after the pericope whose start == after_start in tablet tab
+SPLITS = [
+ dict(tab='I', after_start=243, title='The dream of the meteor',
+      blurb='Same dream, five centuries apart. The old telling is brisk and bodily — <i>iktabit elīya</i>, “it was too heavy for me”; the late telling reads <i>dān elīya</i>, “too strong for me,” and adds the gathered land, the kissed feet, and the mother’s full oracle. Weight became strength under the redactor’s hand.',
+      left=('OB II (Pennsylvania), 1–23','II',['1','2','3','4-5','6','7','8','9','10','11','12-13','14','15','16','17','18-19','20','21','22-23']),
+      right=('SB Tablet I 243–256','I',[str(i) for i in range(243,257)])),
+ dict(tab='II', after_start=230, title='“Whatever he ever does is only wind”',
+      blurb='The young king’s creed. The old version frames the couplet between heaven and the sun and ends on the wager — “if I fall, I will have planted my name.” The late version keeps the creed, cuts the frame, drops the wager — and then spends nine tablets annulling it.',
+      left=('OB III (Yale), 140–150','III',['140','141','142','143','144','145','146','147','148','149-150']),
+      right=('SB Tablet II 232–240','II',[str(i) for i in range(232,241)])),
+ dict(tab='V', after_start=249, title='The bird and the chicks; the kill',
+      blurb='Enkidu’s cold syllogism for total slaughter survives whole only at Ishchali: kill the parent and the chicks scatter — so hunt the glories “afterward.” The Standard text keeps the opening of the simile and lets the logic go; both then converge on the neck-blow.',
+      left=('OB Ishchali, 14′–25′','Ishchali',["14'","15'","16'","17'","18'","19'","20'","21'","22'","23'","24'","25'"]),
+      right=('SB Tablet V 249–254 · 285–290','V',['249','250','251','252','253','254','ELL','285','286','287','288','289','290'])),
+ dict(tab='X', after_start=78, title='The ale-wife: sermon against sailing directions',
+      blurb='The deleted theology, restored to its place in the reading. The Old Babylonian Šiduri preaches the poem’s only carpe diem — the full belly, the clean garment, the child at the hand, the wife in the lap; the Standard edition hands the same woman a route-map and carries the wisdom across the water to Ūta-napišti (X 297–322).',
+      left=('OB VA+BM (Sippar), a+15–a+30','VABM',[f'a+{i}' for i in range(15,31)]),
+      right=('SB Tablet X 78–91','X',[str(i) for i in range(78,92)])),
+]
