@@ -1,271 +1,296 @@
-# The Guest House (خانه مهمان) — Fresh Translation from Persian
+# The Guest-House (مهمان‌خانه) — A Complete Annotated Translation
 
 ## Source Documentation
 
-**Original Poem**: Jalāl ad-Dīn Muhammad ar-Rūmī (1207-1273)  
-**Location**: *Masnavi*, Book 5  
-**Critical Edition**: Reynold A. Nicholson, Gibb Memorial Trust  
-**Translation Date**: 2026
+**Author**: Jalāl al-Dīn Muḥammad Rūmī (1207–1273)
+**Text**: *Masnavi-yi Maʿnavi*, Book V, lines 3644–3646 and 3676–3707
+**Language**: Classical New Persian (13th century), with two Arabic couplets (V.3694–3695)
+**Critical edition of reference**: Reynold A. Nicholson, *The Mathnawí of Jaláluʾddín Rúmí*, Gibb Memorial Series (1925–1940)
+**Persian text verified against**: the received critical text as reproduced at Ganjoor (V §§155–157) and masnavi.net
+**Translation date**: 2026
+
+### What "The Guest House" actually is
+
+The poem English readers know as "The Guest House" (via Coleman Barks) is a **modern composite**. Rumi wrote no free-standing poem of that name. The material comes from two short didactic passages in Book V of the Masnavi, separated by a story:
+
+| Passage | Lines | Editorial rubric |
+|---|---|---|
+| §155 | V.3644–3646 | "Parable of the human body as a guest-house, and the different thoughts as different guests…" (the rubric invokes Abraham — *Khalīl* — who honored every guest, "believer and infidel, faithful and treacherous") |
+| §156 | V.3647–3675 | The story of the guest whom the householder's wife resented: rain set in, and "the guest is left on our hands" (مهمان در گردن ما ماند) — the very idiom of line 3645 |
+| §157 | V.3676–3707 | "Parable of the thought that comes into the heart each day, likened to a new guest…" |
+
+The popular composite takes the three couplets of §155, a handful of couplets from the opening of §157, and one couplet from its middle (V.3693, "meet them at the door laughing"), and presents them as a single poem. This edition translates **both didactic passages in full, in their true order**, and summarizes the intervening story, so the reader can see exactly what the composite keeps and what it discards.
 
 ---
 
-## Original Persian Text
+## Part I — The Body as Guest-House (V.3644–3646)
 
-This reconstruction is drawn from multiple reliable sources including masnavi.net and scholarly editions. The poem is presented in its rhyming Persian couplets (mathnawī form):
+> هست مهمان‌خانه این تن ای جوان
+> هر صباحی ضیف نو آید دوان
+>
+> هین مگو کین ماند اندر گردنم
+> که هم اکنون باز پرد در عدم
+>
+> هرچه آید از جهان غیب‌وش
+> در دلت ضیف است او را دار خوش
 
-```
-این تن خانه مهمان است ای جوان
-هر صباحی ضیفِ نو آید دوان
+**3644** — This body, O youth, is a guest-house:
+every morning a new guest comes running.
 
-هین مگو کین ماند اندر گردنم
-که هم اکنون باز پرد در عدم
+**3645** — Beware! Do not say, "This one will be left on my hands" —
+for even now it flies back into non-existence.
 
-هرچه آید از جهان غیبِ وش
-در دلت ضیفست او را دار خوش
+**3646** — Whatever comes from the unseen-seeming world
+into your heart is a guest: entertain it well.
 
-فکر در سینه در آید نو به نو
-خند خندان پیش او تو باز رو
+### The intervening story (V.3647–3675, §156)
 
-هر دمی فکری چو مهمان عزیز
-آید اندر سینهات هر روز نیز
-
-فکر را ای جان به جای شخص دان
-زانک شخص از فکر دارد قدر و جان
-
-فکرِ غم گر راه شادی میزند
-کارسازیهای شادی میکند
-
-خانه می‌روبد به تندی او ز غیر
-تا درآید شادی نو ز اصلِ خیر
-
-می‌فشاند برگ زرد از شاخ دل
-تا بروید برگ سبز متصل
-
-می‌کند بیخ سرور کهنه را
-تا خرامد ذوق نو از ما ورا
-
-غم کند بیخ کژ پوسیده را
-تا نماید بیخ رو پوشیده را
-```
+Not translated here in verse: a comic-didactic tale of a host whose wife complains that the rain has set in and the guest "is left on our hands." It dramatizes exactly the attitude line 3645 forbids — the guest treated as a burden rather than a sending — and Rumi returns from it to the parable at 3676. Any edition that omits it (as the popular composite does) should say so; here it is omitted, with this notice.
 
 ---
 
-## Literal, Word-by-Word Translation
+## Part II — The Thought as Daily Guest (V.3676–3707)
 
-**Couplet 1:**
-- این تن = this body
-- خانه مهمان = guest-house / house of guests
-- است = is
-- ای جوان = O youth
-- هر صباحی = every morning
-- ضیف = guest
-- نو = new
-- آید = comes
-- دوان = running
+> هر دمی فکری چو مهمان عزیز
+> آید اندر سینه‌ات هر روز نیز
 
-"This body is a guest house, O youth. Every morning a new guest comes running."
+**3676** — Each moment a thought, like an honored guest,
+arrives in your breast — each day, anew.
 
-**Couplet 2:**
-- هین = beware / take heed
-- مگو = do not say
-- کین = this/this one
-- ماند = lodges/remains/burdens
-- اندر = in
-- گردنم = my neck (idiomatically: my burden)
-- که = that
-- هم اکنون = right now / immediately
-- باز = opens / returns
-- پرد = flies
-- در عدم = into non-being
+> فکر را ای جان به جای شخص دان
+> زانک شخص از فکر دارد قدر و جان
 
-"Take heed! Do not say 'This one burdens me,' for right now it opens and flies back into non-being."
+**3677** — Regard thought, O soul, as a person,
+for a person has worth and life from thought.
 
----
+> فکر غم گر راه شادی می‌زند
+> کارسازیهای شادی می‌کند
 
-## Key Sufi Terminology
+**3678** — If the thought of grief waylays joy on its road,
+it is working joy's preparations.
 
-### ضیف (Dhaif) — Guest
-Not merely a visitor, but in Sufi context: a divine manifestation, a sign (āya), an experience sent by God. The guest is never accidental—it is qadr (divine decree/fate).
+> خانه می‌روبد به تندی او ز غیر
+> تا در آید شادی نو ز اصل خیر
 
-### خانه (Khāneh) — House
-In Islamic mysticism, the heart (qalb), the innermost core of being. The body is the external dwelling; the heart is the true guest house.
+**3679** — It fiercely sweeps the house clear of all that is other,
+so new joy may enter from the origin of good.
 
-### عدم (Adum) — Non-being
-The Sufi concept of the negation of self, the annihilation of ego (fanā). The guest does not "go away"—it dissolves into its non-manifestation.
+> می‌فشاند برگ زرد از شاخ دل
+> تا بروید برگ سبز متصل
 
-### فکر (Fikr) — Thought / Contemplation
-In Sufism, more than cognition—it is the movement of the heart toward divine reality. Unwanted thoughts are still divine guests bringing instruction.
+**3680** — It shakes the yellow leaves from the bough of the heart,
+so green leaves may grow on, one after another.
 
-### شادی (Shādī) — Joy
-Not mere happiness, but the joy of witnessing divine manifestation. It comes from "اصل" (*asl*—the origin/source), meaning divine goodness itself.
+> می‌کند بیخ سرور کهنه را
+> تا خرامد ذوق نو از ماورا
 
----
+**3681** — It uproots the root of stale joy,
+so new delight may come strolling in from the Beyond.
 
-## Fresh Translation (Preserving Sufi Precision)
+> غم کند بیخ کژ پوسیده را
+> تا نماید بیخ رو پوشیده را
 
-### Part One: The Welcoming
+**3682** — Grief pulls up the crooked, rotten root,
+to disclose the root that was hidden from view.
 
-**Couplet 1:**
-Your body, O young seeker, is a guest house—
-Each dawn a new arrival hurries through its door.
+> غم ز دل هر چه بریزد یا برد
+> در عوض حقا که بهتر آورد
 
-**Couplet 2:**
-Do not cry out, "This visitor oppresses me!"
-For even now it unfolds its wings toward non-being.
+**3683** — Whatever grief spills from the heart, or carries off,
+in exchange — in truth — it brings back better.
 
-**Couplet 3:**
-Whatever arises from the unseen realm of mystery—
-Every guest in your heart: receive him with grace.
+> خاصه آن را که یقینش باشد این
+> که بود غم بندهٔ اهل یقین
 
-### Part Two: The Practice of Presence
+**3684** — Above all for the one whose certainty is this:
+that grief is the servant of the people of certainty.
 
-**Couplet 4:**
-Thought after thought pours through your breast—
-Meet them smiling, greet them, turn to face them.
+> گر ترش‌رویی نیارد ابر و برق
+> رز بسوزد از تبسمهای شرق
 
-**Couplet 5:**
-Each moment a thought arrives, an honored guest;
-Each day too, O friend, receives new guests of thought.
+**3685** — If cloud and lightning brought no sour faces,
+the vine would be scorched by the smiles of the sun.
 
-**Couplet 6:**
-Take the thought as mere person? No, O soul—
-The self draws its very life and worth from thought itself.
+> سعد و نحس اندر دلت مهمان شود
+> چون ستاره خانه خانه می‌رود
 
-### Part Three: The Sacred Function of Sorrow
+**3686** — Fortune and misfortune lodge as guests in your heart,
+going house to house, as a star through its mansions.
 
-**Couplet 7:**
-Should a sorrowful thought open the way for joy—
-It clears the house, accomplishes joy's work!
+> آن زمان که او مقیم برج تست
+> باش هم‌چون طالعش شیرین و چست
 
-**Couplet 8:**
-It sweeps the dwelling vigorously, emptying it clean,
-So that fresh joy might enter from its true source.
+**3687** — While it resides in your tower,
+be sweet and nimble, as befits its ascendant —
 
-**Couplet 9:**
-It scatters the yellow leaf from the branch of the heart
-So that the green leaf might grow in its place.
+> تا که با مه چون شود او متصل
+> شکر گوید از تو با سلطان دل
 
-**Couplet 10:**
-It uproots the old root of joy that has served its time,
-So that fresh delight might come forth from you in turn.
+**3688** — so that when it comes into conjunction with the moon,
+it may speak thanks of you to the Sultan of the heart.
 
-**Couplet 11:**
-Sorrow pulls up the crooked, rotten root exposed,
-To reveal the hidden root, veiled beneath the earth.
+> هفت سال ایوب با صبر و رضا
+> در بلا خوش بود با ضیف خدا
 
----
+**3689** — Seven years Job, in patience and contentment,
+was gracious in affliction toward God's guest —
 
-## Comparative Analysis: What Gets Lost
+> تا چو وا گردد بلای سخت‌رو
+> پیش حق گوید به صدگون شکر او
 
-### Coleman Barks / Popular Versions
+**3690** — so that when hard-faced affliction turned back,
+it would speak of him before God with a hundred thanksgivings:
 
-**Typical rendering:**
-> "Welcome and entertain them all! / Even if they're a crowd of sorrows / Who violently sweep your house empty of its furniture"
+> کز محبت با من محبوب‌کش
+> رو نکرد ایوب یک لحظه ترش
 
-**The fuller Barks version** adds:
-> "...still, treat each guest honourably / He may be clearing you out for some new delight"
+**3691** — "Out of love, Job never for one moment
+turned a sour face on me — the slayer of loved ones."
 
-**What's systematically removed:**
-1. **Islamic framework**: No mention of divine decree (qadr), mystery (ghayb), or divine manifestation
-2. **Sufi psychology**: The "thought" (fikr) is emotion/feeling, not divine instruction or cosmic principle
-3. **Metaphysical precision**: "Non-being" (عدم) becomes passive departure, not active fanā (ego-annihilation)
-4. **The source of joy**: "from its true source" (اصل خیر)—explicitly divine/cosmic origin—usually omitted entirely
-5. **Active agency of the guest**: Sorrow doesn't just "clear" — it performs sacred work; it "scatters yellow leaves," "uproots old joy," "pulls up crooked roots"
-6. **The ecology of growth**: The poem isn't just acceptance — it's depicting organic, necessary cycles of death and rebirth in spiritual practice
-7. **The self's unreality**: Line 6 argues the self has no independent existence (radical non-dualism), which Barks completely misses
-8. **Theological depth**: These aren't abstract emotional guests—they're manifestations of divine reality (tajallī)
+> از وفا و خجلت علم خدا
+> بود چون شیر و عسل او با بلا
 
-### This Translation's Approach
+**3692** — From faithfulness, and from shame before God's knowledge,
+he was as milk and honey with affliction.
 
-1. Preserves **Islamic monotheism**: Everything comes from God (divine qadr)
-2. Maintains **Sufi technical precision**: Recognizes fanā, fikr, qalb as lived experiences
-3. Keeps the **paradoxical instruction**: Sorrow is not just accepted—it performs sacred function
-4. Restores **the cosmology**: There is a source (asl), an origin, a divine goodness
-5. Shows **ambiguity where it exists**: "Thought" (fikr) could mean intrusive thought, contemplation, or divine instruction simultaneously
+> فکر در سینه در آید نو به نو
+> خند خندان پیش او تو باز رو
 
----
+**3693** — Thought comes into the breast ever anew:
+go out to meet it laughing and smiling —
 
-## Translation Notes: Extended Analysis
+> که اعذنی خالقی من شره
+> لا تحرمنی انل من بره
 
-### Additional Verses (9-11): The Metaphor of Pruning
+**3694** — *(Arabic)* "My Creator, shield me from its evil;
+do not deprive me — let me attain its good.
 
-These final couplets extend the Guest House parable into an ecology of spiritual growth:
+> رب اوزعنی لشکر ما اری
+> لا تعقب حسرة لی ان مضی
 
-**Verse 9**: Yellow leaves (sorrow, depression) are scattered so green ones (joy, renewal) can grow
-**Verse 10**: Old joy is uprooted so new joy can emerge—nothing remains static
-**Verse 11**: The crooked, rotten root (false self, ego) must be pulled up to reveal the true hidden root
+**3695** — *(Arabic)* Lord, dispose me to give thanks for what I see;
+let no regret pursue me once it has passed."
 
-This section transforms the poem from mere acceptance into active participation in spiritual ecology. The guest (sorrow) is not just tolerated—it performs horticultural work on the soul.
+> آن ضمیر رو ترش را پاس‌دار
+> آن ترش را چون شکر شیرین شمار
 
----
+**3696** — Keep watch over that sour-faced thought within;
+reckon that sour one sweet as sugar.
 
-## Translation Notes & Ambiguities
+> ابر را گر هست ظاهر رو ترش
+> گلشن آرنده‌ست ابر و شوره‌کش
 
-### Line 2: "This one burdens me"
-Persian: "این کین ماند اندر گردنم"
-- Could mean: "This guest lodges in my neck" (physical burden)
-- Or: "This oppresses me" (emotional burden)
-- Rumi uses both simultaneously—the guest is literally occupying the body-house
+**3697** — Though the cloud is outwardly sour of face,
+the cloud brings the rose-garden and draws off the salt-waste.
 
-### Line 6: "The self draws worth from thought"
-Persian: "زانک شخص از فکر دارد قدر و جان"
-- شخص (person/self) literally means "face" or "form"
-- The paradox: the self has no independent reality—it depends on what passes through it
-- This inverts Western psychology: thoughts are not products of the self; the self is a product of what thinks through it
+> فکر غم را تو مثال ابر دان
+> با ترش تو رو ترش کم کن چنان
 
-### Line 7-8: "The sorrowful thought makes way for joy"
-Persian: "فکرِ غم گر راه شادی میزند"
-- میزند = strikes/makes/opens
-- The sorrow *opens the path*—not by being overcome, but by being servant to joy
-- Sacred function: the guest's role is housecleaning (تطهیر—purification)
+**3698** — Take the thought of grief to be like the cloud:
+do not turn so sour a face upon the sour.
 
----
+> بوک آن گوهر به دست او بود
+> جهد کن تا از تو او راضی رود
 
-## What This Translation Restores
+**3699** — It may be that the pearl is in its hand:
+strive, then, that it leave you well pleased.
 
-1. **The Sufi cosmology**: A universe where nothing is random; everything manifests divine intention
-   - Thoughts aren't accidental; they are divine guests (ضیف) sent to the heart
-   - The unseen realm (غیب) is constantly communicating with manifestation (شهادت)
+> ور نباشد گوهر و نبود غنی
+> عادت شیرین خود افزون کنی
 
-2. **The ethical instruction**: Not "accept your feelings," but "recognize divine presence in all that arrives"
-   - Meeting guests "with laughter and smile" isn't passive; it's active recognition of the divine
+**3700** — And if there is no pearl, and it is not rich,
+you will have added to your own sweet habit.
 
-3. **The metaphysical claim**: The self has no independent reality
-   - Line 6: "The self draws its very life and worth from thought itself" — radical non-dualism
-   - The self exists only as a locus for divine manifestations; it has no ontological independence
+> جای دیگر سود دارد عادتت
+> ناگهان روزی بر آید حاجتت
 
-4. **The active function of sorrow**: Suffering isn't inflicted—it's sacred work
-   - Sorrow "scatters yellow leaves" (removes old patterns)
-   - It "uproots old joy" (prevents spiritual stagnation)
-   - It "pulls up crooked roots" (removes false self structures)
-   - This is horticultural, organic, necessary work
+**3701** — Elsewhere that habit will profit you;
+one day, suddenly, your need will be met.
 
-5. **The ecology of spiritual growth**: The poem teaches cyclical renewal
-   - Nothing stays; everything transforms
-   - Death and renewal are woven together
-   - The "source of good" (اصل خیر) requires the clearing work that sorrow does
+> فکرتی کز شادیت مانع شود
+> آن به امر و حکمت صانع شود
 
-6. **The Islamic framework**: This is explicitly Islamic mysticism
-   - Not generic "spirituality lite"
-   - Rooted in Qur'anic concepts of divine manifestation and human dependence
-   - Built on tawhīd (the absolute unity and oneness of God)
-   - Draws on Sufi technical vocabulary and epistemology
+**3702** — The thought that holds you back from your joy
+comes by the command and wisdom of the Maker.
+
+> تو مخوان دو چار دانگش ای جوان
+> بوک نجمی باشد و صاحب‌قران
+
+**3703** — Do not price it at a few small coins, O youth:
+it may be a star — lord of the conjunction.
+
+> تو مگو فرعیست او را اصل گیر
+> تا بوی پیوسته بر مقصود چیر
+
+**3704** — Do not call it a branch: take it as the root,
+that you may always prevail toward your aim.
+
+> ور تو آن را فرع گیری و مضر
+> چشم تو در اصل باشد منتظر
+
+**3705** — But if you take it as branch, and harmful,
+your eye will sit waiting upon the root —
+
+> زهر آمد انتظار اندر چشش
+> دایما در مرگ باشی زان روش
+
+**3706** — and waiting is poison on the tongue:
+by that road you live forever in death.
+
+> اصل دان آن را بگیرش در کنار
+> بازره دایم ز مرگ انتظار
+
+**3707** — Know it for the root — take it in your embrace —
+and be delivered, forever, from the death of waiting.
 
 ---
 
-## Sources Consulted
+## Notes on the Persian
 
-- Reynold A. Nicholson, *The Mathnawí of Jalāl ad-Dīn Rúmí* (Gibb Memorial Trust, 1925-1940)
-- masnavi.net (Mahdi Azar Yazdi edition, Persian text)
-- Franklin D. Lewis, *Rumi: Past and Present, East and West* (Oxford University Press, 2000)
-- William C. Chittick, *The Sufi Path of Love: The Spiritual Teachings of Rumi* (SUNY Press, 1983)
+- **3644** — The received text is هست مهمان‌خانه این تن ای جوان; *mehmān-khāneh* ("guest-house") is a single compound and Rumi's own word for the conceit. The meter throughout is *ramal-i musaddas-i maḥdhūf* (fāʿilātun fāʿilātun fāʿilun).
+- **3645** — کین = که این, "that this." ماند اندر گردنم, literally "will remain on my neck," is the ordinary idiom "will be left on my hands" — the §156 rubric uses it verbatim. باز پرد = "will fly *back*" (باز as adverb "back/again"), completing the image: what came from non-existence returns to it.
+- **3646** — غیب‌وش is one compound: "resembling the *ghayb*," the unseen — a Qurʾanic category. The line itself, not any imported terminology, is the poem's warrant for reading the guests as sent from beyond.
+- **3677** — دان is a plain imperative: "regard/know." Rumi instructs the reader to treat thought *as* a person, because the person's worth and life derive from thought.
+- **3678** — راه زدن is the highwayman's verb: "to waylay, to rob a traveler." The paradox is exact: grief appears as a robber blocking joy's road while secretly serving as joy's steward. Renderings that make grief "open the way" flatten the image.
+- **3679** — غیر, "other," carries its Sufi resonance here: the house swept of all that is *other* (than God), so that joy may come from the *aṣl-i khayr*, the origin of good.
+- **3681** — از ماورا = *az mā-warā*, "from the Beyond" (one word, ماوراء) — not "from us/from you."
+- **3684** — اهل یقین, "the people of certainty": grief is their *servant* (بنده). This couplet, dropped from popular versions, states the theology the parable teaches.
+- **3689** — ضیف خدا, "God's guest," said of Job's affliction — the poem's own explicit statement that the unwelcome guest is divinely sent.
+- **3694–3695** — Two couplets in Arabic, in the register of prayer; 3695 echoes Qurʾanic اوزعنی ("dispose me to give thanks," cf. Q 27:19, 46:15). Popular versions omit them entirely.
+- **3702** — صانع, "the Maker": the thought that blocks joy comes "by the command and wisdom of the Maker." This — not any word for "decree" — is the text's actual assertion of divine sending.
+- **3703** — دو چار دانگ, "two or four dāngs" (sixths of a dirham): small change. صاحب‌قران, "lord of the (auspicious) conjunction," continues the astrological figure of 3686–3688.
 
----
+## Key Terminology (corrected)
 
-## Next Step
+- **ضیف (ḍayf)** — Arabic loanword, "guest." Not itself a technical Sufi term; the theology is carried by the poem's statements that guests come from the *ghayb* (3646), that affliction is *God's* guest (3689), and that the blocking thought comes from the *Maker* (3702). The §155 rubric ties the whole to Abraham's hospitality (اکرام ضیف, echoing the Qurʾanic guests of Ibrāhīm).
+- **عدم (ʿadam)** — "non-existence." A genuinely weighty term in Rumi's metaphysics: forms continually arise from and return to non-existence, which he elsewhere treats as the hidden reservoir of being (see Chittick, *The Sufi Path of Love*). It is **not** *fanā* (the mystic's annihilation in God); in 3645 it is the *guest* that returns to non-existence.
+- **غیب (ghayb)** — "the unseen," a Qurʾanic category; the guests' point of origin (3646).
+- **فکر (fikr)** — "thought." A real Sufi technical term (discursive reflection, conventionally paired with *dhikr*), and §157's rubric itself likens each day's *fikr* to a new guest. Here it spans intrusive thought, mood, and reflection at once.
+- **غیر (ghayr)** — "other"; in Sufi usage, all that is other than God (*mā siwā Allāh*). The word doing the quiet theological work in 3679.
+- **اصل خیر (aṣl-i khayr)** — "the origin of good." Lexically it names no divine person; in context — the house swept of *ghayr* so joy may enter from the origin of good, and delight "strolling in from the Beyond" (3681) — a divine referent is a natural interpretive reading, offered here as interpretation.
+- **اهل یقین (ahl al-yaqīn)** — "the people of certainty," whose servant grief is (3684).
 
-**This translation is ready for expert review by Fable.** Fable will verify:
-1. Accuracy against Nicholson's scholarly text
-2. Appropriateness of Sufi technical interpretation
-3. Fidelity to Middle Persian grammar and semantics
-4. Quality of philosophical rendering in English
+*(Terms such as qadr, fanā, tawḥīd, tajallī do not occur in this passage and are not claimed for it. Where earlier drafts of this project asserted them as textual content, that has been corrected: the passage's Islamic theology is explicit enough — ghayb, ḍayf-i Khudā, ṣāniʿ, the Arabic prayers, Job — without importing vocabulary it does not use.)*
+
+## What the Popular Composite Removes
+
+Set against the full text above, the Barks-type composite ("This being human is a guest house…") omits or flattens:
+
+1. **The frame of divine sending** — "God's guest" (3689), "by the command and wisdom of the Maker" (3702), the guests arriving from the *ghayb* (3646).
+2. **The Job exemplum** (3689–3692) — the parable's scriptural anchor, shared by Bible and Qurʾan.
+3. **The Arabic prayers** (3694–3695) — the only lines in the passage addressed directly to God, and the model response Rumi actually prescribes to the arriving thought.
+4. **Grief as servant of the people of certainty** (3684) — the doctrinal summary of the whole.
+5. **The waylaying paradox** (3678) — grief as a highway robber secretly in joy's service, not merely a cleaner.
+6. **The sweep "of all that is other"** (3679) — *ghayr*, the one quietly technical Sufi word in the passage.
+7. **The astrological conceit** (3686–3688, 3703) and the closing ethics of the "root" (3704–3707), including the striking final teaching: treat the unwelcome thought as *root*, not branch, and be freed "from the death of waiting."
+8. **The story of §156** — the negative exemplum the composite silently jumps over.
+
+The composite is not thereby worthless — it preserves the guest-house conceit and the welcome-your-sorrow instruction — but it converts a theologically specific Islamic text into generic counsel. The full passage shows what was cut.
+
+## Sources
+
+- Reynold A. Nicholson, *The Mathnawí of Jaláluʾddín Rúmí*, 8 vols., Gibb Memorial Series (1925–1940) — edition of reference for text and line numbering.
+- Ganjoor, Masnavi Book V, §§155–157 (received critical text): ganjoor.net/moulavi/masnavi/daftar5/sh155, /sh156, /sh157.
+- masnavi.net, Book V line index (Persian text with Nicholson's translation).
+- Franklin D. Lewis, *Rumi: Past and Present, East and West* (Oxford: Oneworld, 2000) — on the popular translations.
+- William C. Chittick, *The Sufi Path of Love: The Spiritual Teachings of Rumi* (SUNY Press, 1983) — on *ʿadam* and Rumi's metaphysics.
