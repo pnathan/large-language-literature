@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["claude/gilgamesh-subfolder-setup-9j3kpm"]
+    branches: ["trunk"]
     paths: ["docs/**"]
   workflow_dispatch:
 
