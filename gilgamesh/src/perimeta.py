@@ -79,9 +79,9 @@ EXTRA = {
   ('104','R','A stable dream — OB Schøyen₂ 34–42','The fire-storm dream stands nearly verbatim in the Old Babylonian: <i>izannun mūtum</i>, “it was raining death,” in both recensions. Five centuries changed almost nothing here.'),
  ],
  'V': [
-  ('99','R','Seven cloaks, seven glories','The Standard text counts Humbaba’s auras as seven mantles of terror-light, one worn and six shed; the Old Babylonian tradition (Nippur, Ishchali, Schøyen₃) treats them as seven detachable terror-glories, hunted down after the kill “like chicks.”'),
+  ('99','R','Seven cloaks, seven glories','The Standard text counts Humbaba’s auras as seven mantles of terror-light, one worn and six shed; the Old Babylonian tradition (Schøyen₃, Ishchali, IM) treats them as seven detachable terror-glories, hunted down after the kill “like chicks.”'),
   ('167','R','The plea by pedigree — OB Harmal₂ 42','Already in the old version Huwawa pleads by the hero’s mother: “The cow of the Sheepfold bore you — Ninsumuna!” The Standard edition keeps the move nearly word for word.'),
-  ('316','R','The door, older and smaller — OB Schøyen₃ 23–29','The Old Babylonian door is a reed-length broad, pivotless, riding in its socket; the Standard door is six rods by two. The same gift to Enlil of Nippur — the dimensions grew with the poem.'),
+  ('316','R','The door, older and smaller — OB IM 23–29','The Old Babylonian door is a reed-length broad, pivotless, riding in its socket; the Standard door is six rods by two. The same gift to Enlil of Nippur — the dimensions grew with the poem.'),
  ],
  'X': [
   ('73','R','Šamaš’s rebuke — OB VA+BM 1′–15′','Unique to the old version: mid-wandering, the sun-god bends down — “Gilgameš, where are you wandering? The life you keep hunting you will not find” — and the king answers with the poem’s rawest lines: “Let my eyes look on the sun; when may a dead man ever see the sun’s bright glare?” The Standard edition deleted the exchange; its cadence survives in the ale-wife’s opening words in the parting of the ways below.'),
