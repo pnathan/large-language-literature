@@ -39,9 +39,6 @@ and documents in notes exactly what the popular composite removes.
   typeset presentation of this file's content, verbatim.
 - `guest-house-source-research.md` — source documentation: language stage, critical
   edition of reference, the composite's structure, the translation brief, status.
-- `FABLE-REVIEW-REQUEST.md` — the brief sent to the expert reviewer (editorial history).
-- `FABLE-REVIEW.md` — the expert review of the earlier draft, with its addendum on
-  the revised 11-couplet version and the numbered list of required fixes.
 
 ## Text source
 
@@ -58,7 +55,7 @@ and documents in notes exactly what the popular composite removes.
 
 1. **Draft** — an 8-couplet, then 11-couplet version, presented as a poem, with the
    splice undisclosed.
-2. **Expert review** (`FABLE-REVIEW.md`, 2026-08-26) — verdict *not ready for
+2. **Expert review** (2026-08-26) — verdict *not ready for
    publication*: the "Middle Persian" misnomer, a misquoted opening line, an
    undisclosed splice of non-contiguous passages, two substantive mistranslations
    (an inserted negation; "open the way" for the *rāh zadan* waylaying idiom;

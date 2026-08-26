@@ -53,6 +53,6 @@ Opening couplet, as in the received text:
 
 - ~~Obtain complete Persian text~~ — done; §§155–157 collated against Ganjoor and masnavi.net
 - ~~Line-by-line translation~~ — done; see `guest-house-translation.md` (V.3644–3646 and V.3676–3707 complete)
-- ~~Annotation of terms and theological concepts~~ — done, corrected per expert review (`FABLE-REVIEW.md`)
+- ~~Annotation of terms and theological concepts~~ — done, corrected per expert review
 - ~~Expert review~~ — done; all required fixes applied
 - Remaining: collate against Nicholson's printed volumes before final publication; decide whether to add a verse translation of §156's story; prepare `docs/` HTML edition if this work is to be published on the site

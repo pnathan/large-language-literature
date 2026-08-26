@@ -15,7 +15,7 @@ docs/                   ← GitHub Pages root (deployed on push to trunk)
   guest-house/          ← published Guest-House (Masnavi V) edition
 gilgamesh/              ← Gilgameš source: eBL data, translations, Python builders
 faerie-queene/          ← Faerie Queene source: README, provenance notes
-guest-house/            ← Guest-House source: translation, research, expert review
+guest-house/            ← Guest-House source: translation, source research
 .github/workflows/      ← Pages deployment workflow
 ```
 
