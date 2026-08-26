@@ -1,50 +1,7 @@
-All source material is verified. The three inputs are: `mahabharata-dharma-exposition.md` (philosophy), `mahabharata-source-research.md` (method), and the BORI critical e-texts of Books 1–2 in the scratchpad, from which I have extracted and cross-checked every passage against the philosophical claims. I found several over-interpretations in the exposition (detailed in the Assessment), corrected them against the critical text, and discovered stronger textual support than the exposition itself cited — including Bhima described as literally "bound by the nooses of dharma" (2.63.6). Here is the integrated work.
-
----
-
 # DHARMA BEFORE THE STORY
-## A Teaching Edition of the Mahābhārata's Cosmic Law
-### Twelve passages from the Ādi and Sabhā Parvans, with literal and interpretive translations
+## Twelve passages from the Ādi and Sabhā Parvans
 
-*Sanskrit text: Bhandarkar Oriental Research Institute Critical Edition (Pune, 1927–1966), electronic text © BORI 1999. Transliteration converted from Harvard-Kyoto to IAST. All translations are original to this edition.*
-
----
-
-## INTRODUCTION: WHAT YOU ARE ABOUT TO ENCOUNTER
-
-The Mahābhārata is the longest poem in the world, and its central catastrophe takes place not on a battlefield but in a gambling hall. A king who is called "the Dharma King" — the son of the god Dharma himself — stakes and loses his wealth, his kingdom, his four brothers, his own person, and finally his wife. His wife is dragged into the assembly by her hair, menstruating, wearing a single garment, and a prince attempts to strip her naked before the assembled elders of the dynasty. Her five husbands, the greatest warriors alive, sit and watch. The grandfather of the dynasty, the wisest man in the hall, is asked directly whether this is lawful, and answers that he cannot say. Then the whole sequence happens *a second time*, and the king who lost everything accepts the second invitation too — telling the messenger, in so many words, that he knows it will destroy him.
-
-Read with Western assumptions, this is incomprehensible. The good men look like cowards. The wise men look like moral failures. The king looks like a fool. And the war that follows — eighteen armies annihilated in eighteen days to answer what happened in that hall — looks like revenge on a genocidal scale.
-
-None of those readings is available to the text itself. The Mahābhārata is built on a concept, **dharma**, for which English has no word, and the entire catastrophe of the dicing hall is engineered — by the poem, deliberately — out of dharma's own logic. This edition exists to install that concept in you *before* you meet the narrative, using only the poem's own words.
-
-### The word that will not translate
-
-*Dharma* comes from the Sanskrit root **√dhṛ**, "to hold, to bear, to support." The Śānti Parva states the etymology directly: *dhāraṇād dharma ity āhur dharmo dhārayate prajāḥ* — "they call it dharma from upholding; dharma upholds the creatures" (12.110.11). Dharma is not "duty," not "morality," not "religion," not "law," though translators have used all four. It is *that which holds things up* — the load-bearing structure of the cosmos, of society, of a family, of a single life. When you meet the word in this edition it will be left untranslated, because every English substitute imports a Western frame the text does not share:
-
-- **"Duty"** implies an obligation you could, in principle, decline. Dharma cannot be declined; it can only be upheld or violated, and violation has structural, not merely moral, consequences.
-- **"Morality"** implies universal rules applying identically to everyone. Dharma is *indexed*: a priest's dharma, a warrior's dharma, a wife's dharma, a slave's dharma differ, and may contradict one another.
-- **"Law"** implies a legislator and an enforcer. Dharma has neither. It is closer to load-bearing architecture: remove a supporting wall and no judge condemns you — the roof simply comes down, on the guilty and innocent alike.
-
-Four layers of dharma operate in the passages ahead, and you should learn to see them separately: **universal dharma** (truth, non-cruelty, protection of the helpless — binding on all beings); **class dharma** (*varṇa-dharma* — what a warrior, a priest, a king must do *because of what he is*); **personal dharma** (*svadharma* — the specific obligations of one's own station, vows, and moment); and **crisis dharma** (*āpad-dharma* — what happens when the layers collide). The Mahābhārata's tragedy lives entirely in the fourth layer. Its horror is not that people fail to do what is right; it is that the layers of rightness contradict each other, and the text knows it, and says so.
-
-### Four companion terms
-
-**Ṛta.** The older Vedic word for cosmic order — the regularity by which seasons turn and rivers run. By the epic's period *ṛta* as a noun has largely retired in favor of dharma, but it survives inside the epic's vocabulary in two fossils you will meet in these very passages: *ṛtu*, "season" (the ordered turning of the year, 1.1.37), and *anṛta*, "untruth" — literally the *un-ṛta*, that which runs against the order (2.61.56–57). When Vidura warns the silent assembly that they are incurring the fruit of *anṛta*, the old cosmology is speaking: a lie is not a misdeed but a *disorder*.
-
-**Karma.** Simply "act, deed" — but in this cosmology every deed is load-bearing. Acts do not evaporate; they accumulate consequence with the impersonality of weight added to a scale, across lifetimes if necessary. No one presides over this. It is bookkeeping without a bookkeeper.
-
-**Daiva and the Dhātṛ.** *Daiva* — "the ordained," fate, what comes from beyond human agency; the *Dhātṛ* is "the Placer," the arranging power that distributes good and evil. When Yudhiṣṭhira says (2.52.18) that a man follows the Placer's control "as if bound with nooses," he is not making an excuse. He is stating the physics of his world.
-
-**Tapas** ("heat"). Austerity as accumulated power: renunciation, in this cosmology, is not self-denial but energy storage — heat built up by discipline until it can curse kings and compel gods. It explains why forest hermits are dangerous and why one hermit boy's curse, in our third passage, can kill an emperor.
-
-**Avatāra / aṃśāvataraṇa** ("descent" / "descent by portions"). Divine beings take birth in human wombs — not as metaphor but as mechanism. Our fourth passage shows why this matters catastrophically: the heroes of this story are gods incarnated *for a purpose fixed before their births*.
-
-### How to read this edition
-
-Twelve passages follow, in three movements. **Part I** (Ādi Parva, Book 1) builds the cosmology: cyclical time, dharma as reciprocal upholding, and the divine descent that pre-loads the war. **Part II** (Sabhā Parva, Book 2) shows the trap being built out of dharma itself. **Part III** shows the trap closing: the stake, the question, the disrobing, the paralysis, and the second game. Each passage is given in IAST-romanized Sanskrit from the BORI critical edition, then in a *literal* translation (as close to word-order and syntax as English tolerates), then in a *fresh rendering* (readable English preserving the alien logic), then an annotation. Transitions carry the argument between passages.
-
-One warning. Do not read for heroes and villains. Read for **load paths** — for where the weight of the cosmos is being carried, and what happens when a supporting member is struck.
+*Sanskrit text: Bhandarkar Oriental Research Institute Critical Edition (Pune, 1927–1966). Transliteration: IAST. Translations original to this edition.*
 
 ---
 
