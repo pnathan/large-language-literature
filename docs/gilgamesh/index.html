@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gilgameš — an original translation from the Akkadian</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Gentium+Plus:ital@0;1&family=Gentium+Book+Plus:ital@0;1&family=Alegreya+Sans:ital,wght@0,400;0,500;1,400&family=Noto+Sans+Cuneiform&display=swap" rel="stylesheet">
+<style>
+:root{
+  --lapis:#131b3d;
+  --lapis-deep:#0d1330;
+  --lapis-panel:#1a2450;
+  --bone:#e9e2cd;
+  --bone-dim:#c9c2ad;
+  --gold:#c9a34a;
+  --gold-soft:#a98b45;
+  --dim:#7f8ab2;
+  --rule:#2b3768;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background-color:var(--lapis);
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(201,163,74,.055) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 71% 9%,  rgba(201,163,74,.05)  0 1px, transparent 1.4px),
+    radial-gradient(circle at 38% 64%, rgba(233,226,205,.035) 0 1px, transparent 1.4px),
+    radial-gradient(circle at 88% 47%, rgba(201,163,74,.06)  0 1.2px, transparent 1.8px),
+    radial-gradient(circle at 22% 88%, rgba(201,163,74,.045) 0 1px, transparent 1.5px),
+    linear-gradient(180deg, var(--lapis-deep), var(--lapis) 340px);
+  background-size:487px 431px, 619px 557px, 359px 397px, 733px 691px, 541px 463px, 100% 100%;
+  background-attachment:fixed;
+  color:var(--bone);
+  font-family:"Gentium Book Plus", Georgia, serif;
+  font-size:17px;
+  line-height:1.62;
+}
+::selection{background:var(--gold);color:var(--lapis-deep)}
+header{text-align:center;padding:88px 24px 56px}
+.cune{
+  font-family:"Noto Sans Cuneiform", serif;
+  font-size:56px;color:var(--gold);line-height:1;
+  text-shadow:0 0 32px rgba(201,163,74,.28);
+}
+h1{
+  font-family:Marcellus, serif;font-weight:400;
+  font-size:clamp(38px,7vw,64px);
+  letter-spacing:.32em;text-indent:.32em;
+  color:var(--bone);margin-top:26px;
+}
+.sub{
+  font-family:"Alegreya Sans", sans-serif;
+  font-size:13px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--dim);margin-top:14px;
+}
+.epigraph{
+  margin:44px auto 0;max-width:520px;
+  font-family:"Gentium Plus",serif;font-style:italic;
+  color:var(--gold);font-size:18px;
+}
+.epigraph .en{color:var(--bone-dim);font-style:normal;margin-top:6px;font-size:16px}
+main{max-width:760px;margin:0 auto;padding:0 24px 96px}
+.editions{margin:48px 0 64px}
+.edition{
+  display:block;
+  border:1px solid rgba(201,163,74,.35);
+  border-radius:4px;
+  padding:28px 32px;
+  margin-bottom:20px;
+  text-decoration:none;
+  color:var(--bone);
+  transition:border-color .2s, background .2s;
+}
+.edition:hover{border-color:var(--gold);background:rgba(201,163,74,.06)}
+.edition h2{
+  font-family:Marcellus,serif;font-weight:400;
+  font-size:clamp(20px,3.5vw,26px);color:var(--bone);
+  margin:0 0 6px;letter-spacing:.03em;
+}
+.edition .label{
+  font-family:"Alegreya Sans",sans-serif;
+  font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:10px;display:block;
+}
+.edition .desc{
+  font-family:"Alegreya Sans",sans-serif;
+  font-size:.92rem;line-height:1.65;color:var(--dim);
+}
+.edition .stats{
+  font-family:"Alegreya Sans",sans-serif;
+  font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--gold-soft);margin-top:12px;
+}
+.method{
+  border-top:1px solid var(--rule);
+  padding:30px 0;margin:12px 0 40px;
+  font-size:15.5px;color:var(--bone-dim);
+}
+.method p+p{margin-top:12px}
+.sources{border-top:1px solid var(--rule);padding-top:36px;margin-top:48px}
+.sources h3{
+  font-family:Marcellus,serif;font-weight:400;
+  font-size:22px;color:var(--bone);margin-bottom:16px;
+}
+.sources ul{list-style:none;padding:0}
+.sources li{margin-bottom:14px;font-size:15.5px;color:var(--bone-dim)}
+.sources a{color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(201,163,74,.4)}
+.sources a:hover{border-bottom-color:var(--gold)}
+footer{
+  margin-top:80px;text-align:center;
+  border-top:1px solid var(--rule);padding-top:44px;
+}
+footer .wedge{font-family:"Noto Sans Cuneiform",serif;font-size:20px;color:var(--gold-soft);opacity:.85}
+footer p{font-family:"Gentium Plus",serif;font-style:italic;color:var(--gold);margin-top:20px;font-size:16px}
+footer .en{color:var(--dim);font-size:14px;font-style:normal;margin-top:6px}
+.back{
+  display:inline-block;margin-bottom:24px;
+  font-family:"Alegreya Sans",sans-serif;font-size:.8rem;
+  letter-spacing:.14em;text-transform:uppercase;
+  color:var(--dim);text-decoration:none;
+}
+.back:hover{color:var(--gold)}
+@media(max-width:600px){
+  .edition{padding:20px 18px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="cune" aria-hidden="true">𒀭𒄑𒂆𒈦</div>
+  <h1>Gilgameš</h1>
+  <p class="sub">An original translation from the Akkadian</p>
+  <p class="epigraph">išâm-ma ṭuppi uqnî šitassi<br><span class="en">"lift out the tablet of lapis lazuli and read aloud"</span></p>
+</header>
+<main>
+<a class="back" href="../">&larr; Large-Language Literature</a>
+
+<div class="editions">
+  <a class="edition" href="reader.html">
+    <span class="label">The reader's edition</span>
+    <h2>The Epic Entire, with Commentary</h2>
+    <p class="desc">The Standard Babylonian epic read straight through in 156 titled pericopes, with philological glosses in the inner margin, discursive notes in the outer, a resonance register for Akkadian wordplay the English misses, and four passages where the page splits into Old Babylonian and Standard columns. Seven museum plates.</p>
+    <p class="stats">2,683 lines &middot; 12 tablets &middot; 156 pericopes &middot; 4 partings of the ways</p>
+  </a>
+
+  <a class="edition" href="complete.html">
+    <span class="label">The complete edition</span>
+    <h2>Standard Babylonian &mdash; Parallel Text</h2>
+    <p class="desc">All twelve tablets of the Standard Babylonian epic, Akkadian and English in parallel, with tablet-end apparatus on cruxes and choices.</p>
+    <p class="stats">2,683 lines &middot; 12 tablets &middot; Akkadian / English parallel</p>
+  </a>
+
+  <a class="edition" href="old-babylonian.html">
+    <span class="label">The Old Babylonian witnesses</span>
+    <h2>Fourteen Tablets, ca. 1800 BC</h2>
+    <p class="desc">All fourteen surviving Old Babylonian witnesses &mdash; from the Pennsylvania and Yale tablets to the Sippar ale-wife &mdash; with a three-panel synopsis against the Standard edition and notes reading each witness against the later text.</p>
+    <p class="stats">882 lines &middot; 14 witnesses &middot; 3 synoptic comparisons</p>
+  </a>
+</div>
+
+<div class="method">
+  <p>These are original English translations made line by line against the Akkadian of the electronic Babylonian Library's critical editions (retrieved 25&ndash;26 August 2026 via the eBL API), which rest on A. R. George's 2003 edition and the manuscripts recovered since. The English is not George's wording, not the eBL's, though any honest translation of the same Akkadian will rhyme with its predecessors. <span style="color:var(--dim)">[Bracketed]</span> English translates restored Akkadian; <span style="color:var(--dim)">[ ... ]</span> marks a line too broken to carry; a rule in the text, lines not yet found.</p>
+</div>
+
+<div class="sources">
+  <h3>Sources</h3>
+  <ul>
+    <li><a href="https://www.ebl.lmu.de/corpus/L/1/4">electronic Babylonian Library &mdash; Gilgameš, critical edition</a></li>
+    <li><a href="http://ancientworldonline.blogspot.com/2016/04/the-standard-babylonian-epic-of.html">A. R. George's score transliterations (SOAS)</a></li>
+    <li><a href="https://www.gutenberg.org/files/11000/11000-h/11000-h.htm">Jastrow &amp; Clay, <i>An Old Babylonian Version of the Gilgamesh Epic</i> (1920)</a></li>
+    <li><a href="https://etcsl.orinst.ox.ac.uk/cgi-bin/etcsl.cgi?text=c.1.8.1*">The Sumerian Gilgameš poems (ETCSL)</a></li>
+  </ul>
+</div>
+
+<footer>
+  <div class="wedge" aria-hidden="true">𒀸 𒀸 𒀸</div>
+  <p>kīma labīrīšu šaṭir-ma bari</p>
+  <p class="en">written and collated according to its original</p>
+</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Large-Language Literature</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Gentium+Plus:ital@0;1&family=Gentium+Book+Plus:ital@0;1&family=Alegreya+Sans:ital,wght@0,400;0,500;1,400&family=Noto+Sans+Cuneiform&display=swap" rel="stylesheet">
+<style>
+:root{
+  --lapis:#131b3d;
+  --lapis-deep:#0d1330;
+  --bone:#e9e2cd;
+  --bone-dim:#c9c2ad;
+  --gold:#c9a34a;
+  --gold-soft:#a98b45;
+  --dim:#7f8ab2;
+  --rule:#2b3768;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background-color:var(--lapis);
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(201,163,74,.055) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 71% 9%,  rgba(201,163,74,.05)  0 1px, transparent 1.4px),
+    radial-gradient(circle at 38% 64%, rgba(233,226,205,.035) 0 1px, transparent 1.4px),
+    radial-gradient(circle at 88% 47%, rgba(201,163,74,.06)  0 1.2px, transparent 1.8px),
+    radial-gradient(circle at 22% 88%, rgba(201,163,74,.045) 0 1px, transparent 1.5px),
+    linear-gradient(180deg, var(--lapis-deep), var(--lapis) 340px);
+  background-size:487px 431px, 619px 557px, 359px 397px, 733px 691px, 541px 463px, 100% 100%;
+  background-attachment:fixed;
+  color:var(--bone);
+  font-family:"Gentium Book Plus", Georgia, serif;
+  font-size:17px;
+  line-height:1.62;
+}
+::selection{background:var(--gold);color:var(--lapis-deep)}
+header{text-align:center;padding:96px 24px 64px}
+h1{
+  font-family:Marcellus, serif;font-weight:400;
+  font-size:clamp(28px,5vw,44px);
+  letter-spacing:.18em;text-indent:.18em;
+  color:var(--bone);margin-bottom:16px;
+}
+.sub{
+  font-family:"Alegreya Sans", sans-serif;
+  font-size:13px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--dim);max-width:520px;margin:0 auto;
+}
+main{max-width:700px;margin:0 auto;padding:0 24px 96px}
+.works{margin:48px 0}
+.work{
+  display:block;
+  border:1px solid rgba(201,163,74,.35);
+  border-radius:4px;
+  padding:28px 32px;
+  margin-bottom:20px;
+  text-decoration:none;
+  color:var(--bone);
+  transition:border-color .2s, background .2s;
+}
+.work:hover{border-color:var(--gold);background:rgba(201,163,74,.06)}
+.work .cune{
+  font-family:"Noto Sans Cuneiform",serif;
+  font-size:28px;color:var(--gold);line-height:1;
+  text-shadow:0 0 24px rgba(201,163,74,.25);
+  margin-bottom:12px;display:block;
+}
+.work h2{
+  font-family:Marcellus,serif;font-weight:400;
+  font-size:clamp(22px,4vw,30px);color:var(--bone);
+  margin:0 0 6px;letter-spacing:.04em;
+}
+.work .desc{
+  font-family:"Alegreya Sans",sans-serif;
+  font-size:.92rem;line-height:1.65;color:var(--dim);
+}
+.work .stats{
+  font-family:"Alegreya Sans",sans-serif;
+  font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--gold-soft);margin-top:12px;
+}
+footer{
+  margin-top:64px;text-align:center;
+  border-top:1px solid var(--rule);padding-top:36px;
+  font-family:"Alegreya Sans",sans-serif;
+  font-size:.84rem;color:var(--dim);
+}
+footer a{color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(201,163,74,.4)}
+footer a:hover{border-bottom-color:var(--gold)}
+@media(max-width:600px){
+  .work{padding:20px 18px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Large-Language Literature</h1>
+  <p class="sub">Original translations of ancient texts, made against the critical editions and delivered as self-contained pages</p>
+</header>
+<main>
+<div class="works">
+  <a class="work" href="gilgamesh/">
+    <span class="cune" aria-hidden="true">𒀭𒄑𒂆𒈦</span>
+    <h2>The Epic of Gilgameš</h2>
+    <p class="desc">An original English translation of the complete Akkadian epic, made line by line against the electronic Babylonian Library's critical editions. Three formats: a reader's edition with Talmudic-page commentary, a parallel Akkadian/English complete edition, and the fourteen Old Babylonian witnesses set against the Standard text.</p>
+    <p class="stats">2,683 standard babylonian lines &middot; 882 old babylonian lines &middot; 12 + 14 tablets</p>
+  </a>
+</div>
+
+<footer>
+  <p>Source and build pipeline on <a href="https://github.com/pnathan/large-language-literature">GitHub</a></p>
+</footer>
+</main>
+</body>
+</html>
