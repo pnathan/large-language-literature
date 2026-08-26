@@ -37,15 +37,33 @@ authors), delivered as self-contained HTML on GitHub Pages.
 
 ## Repository structure
 
-- `src/fragments.json` — per-fragment record: id (Voigt numbering), Greek
-  text per witness, witness citations, variant notes.
-- `src/tr_*.json` or similar — the original English translations, keyed by
-  fragment id, plus the Fable review verdict for each.
-- `src/build.py` — assembles `docs/sappho/index.html`.
+- `src/fragments.json` — per-fragment record: id, sourced Greek text
+  (with inline witness/apparatus notes as fetched), structured witness
+  list (source, edition, url, note), variant notes, sourcing caveats.
+- `src/translations.json` — the original English translations, keyed by
+  fragment id: per-line Greek/English pairs, full text, translator's
+  note, and the Fable review verdict (faithful, resemblance check,
+  whether it was revised).
+- `src/raw-fetched/` — verbatim dumps of pages fetched during witness
+  research, kept as an audit trail (see its own README).
+- `src/build.py` — assembles `docs/sappho/index.html` from the two JSON
+  files above. Run `python3 src/build.py` after any data change; no
+  other dependencies (stdlib only).
+
+## Design
+
+Terracotta-and-violet palette (`--accent:#9c3b2e`, `--violet:#6b4a7a`),
+parchment background, Cardo (Greek + Latin polytonic support) for body
+text, Inter for UI chrome. Light/dark theme-aware, matching the landing
+page's convention (CSS custom properties, `prefers-color-scheme`,
+`data-theme` attribute). One scrollable page: sticky fragment-number
+nav, one card per fragment with parallel Greek/English lines, a
+collapsible witness list and textual-variants panel, and a "revised
+after review" badge on any fragment the Fable pass flagged.
 
 ## Published edition
 
-Published to GitHub Pages under `docs/sappho/`.
+Published to GitHub Pages under `docs/sappho/index.html`.
 
 ## Provenance
 
