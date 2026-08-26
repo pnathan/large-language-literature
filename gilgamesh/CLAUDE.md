@@ -33,8 +33,7 @@ self-contained HTML in a lapis-and-gold design. Three published forms:
 - `src/figc_*.jpg` — recompressed plates (Wikimedia Commons, credits in FIGCAP).
 - Builders: `src/build.py` (complete), `src/obbuild.py` (OB), `src/readerbuild.py`
   (reader; env `EMBED_PLATES=0` → hotlinked `-web` variant).
-  All write into `/mnt/user-data/outputs/` — **change the output paths to `../out/`**
-  (they were written for a sandbox; this is the one required edit before first build).
+  All write into `../out/`.
 
 ## Editorial rules (do not violate)
 1. The English is original. Never substitute A. R. George's or eBL's translations.
@@ -47,11 +46,15 @@ self-contained HTML in a lapis-and-gold design. Three published forms:
    Its home is the OB file and the Tablet X parting in the reader.
 6. Plates are real artifacts with credits — no synthetic imagery.
 
+## Published editions
+
+Published to GitHub Pages under `docs/gilgamesh/`:
+- `reader.html` — web variant (hotlinked plates, 698 KB)
+- `complete.html` — SB parallel text (620 KB)
+- `old-babylonian.html` — OB witnesses (226 KB)
+- `index.html` — edition landing page (lapis-and-gold design, links to all three)
+
 ## Known state / open tasks
-- The reader renders correctly as a standalone page in any browser; the claude.ai
-  mobile artifact viewer struggles with it (size + sticky-margin grid). Likely first
-  task: publish properly — e.g. `git init`, push to GitHub Pages / Netlify / Vercel
-  as a static site (no build step needed; the HTML is complete).
 - Possible refinements: fold the sticky margins into <details> on narrow screens;
   split the reader into per-tablet pages with prev/next nav for lighter loads;
   add an index of resonances; print stylesheet tuning for a PDF edition.
