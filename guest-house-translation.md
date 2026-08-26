@@ -37,6 +37,15 @@ This reconstruction is drawn from multiple reliable sources including masnavi.ne
 
 خانه می‌روبد به تندی او ز غیر
 تا درآید شادی نو ز اصلِ خیر
+
+می‌فشاند برگ زرد از شاخ دل
+تا بروید برگ سبز متصل
+
+می‌کند بیخ سرور کهنه را
+تا خرامد ذوق نو از ما ورا
+
+غم کند بیخ کژ پوسیده را
+تا نماید بیخ رو پوشیده را
 ```
 
 ---
@@ -94,37 +103,55 @@ Not mere happiness, but the joy of witnessing divine manifestation. It comes fro
 
 ## Fresh Translation (Preserving Sufi Precision)
 
-**Verse 1:**
+### Part One: The Welcoming
+
+**Couplet 1:**
 Your body, O young seeker, is a guest house—
 Each dawn a new arrival hurries through its door.
 
-**Verse 2:**
+**Couplet 2:**
 Do not cry out, "This visitor oppresses me!"
 For even now it unfolds its wings toward non-being.
 
-**Verse 3:**
-Whatever arises from the unseen world—
+**Couplet 3:**
+Whatever arises from the unseen realm of mystery—
 Every guest in your heart: receive him with grace.
 
-**Verse 4:**
+### Part Two: The Practice of Presence
+
+**Couplet 4:**
 Thought after thought pours through your breast—
 Meet them smiling, greet them, turn to face them.
 
-**Verse 5:**
+**Couplet 5:**
 Each moment a thought arrives, an honored guest;
 Each day too, O friend, receives new guests of thought.
 
-**Verse 6:**
-Take the thought as person? No, O soul—
-The self draws its life and worth from thought itself.
+**Couplet 6:**
+Take the thought as mere person? No, O soul—
+The self draws its very life and worth from thought itself.
 
-**Verse 7:**
-Should a sorrowful thought make the way for joy—
+### Part Three: The Sacred Function of Sorrow
+
+**Couplet 7:**
+Should a sorrowful thought open the way for joy—
 It clears the house, accomplishes joy's work!
 
-**Verse 8:**
+**Couplet 8:**
 It sweeps the dwelling vigorously, emptying it clean,
 So that fresh joy might enter from its true source.
+
+**Couplet 9:**
+It scatters the yellow leaf from the branch of the heart
+So that the green leaf might grow in its place.
+
+**Couplet 10:**
+It uproots the old root of joy that has served its time,
+So that fresh delight might come forth from you in turn.
+
+**Couplet 11:**
+Sorrow pulls up the crooked, rotten root exposed,
+To reveal the hidden root, veiled beneath the earth.
 
 ---
 
@@ -135,12 +162,18 @@ So that fresh joy might enter from its true source.
 **Typical rendering:**
 > "Welcome and entertain them all! / Even if they're a crowd of sorrows / Who violently sweep your house empty of its furniture"
 
-**What's removed:**
-1. **Islamic framework**: No mention of divine decree (qadr) or divine manifestation
-2. **Sufi psychology**: The "thought" (fikr) is presented as mere emotion, not divine instruction
+**The fuller Barks version** adds:
+> "...still, treat each guest honourably / He may be clearing you out for some new delight"
+
+**What's systematically removed:**
+1. **Islamic framework**: No mention of divine decree (qadr), mystery (ghayb), or divine manifestation
+2. **Sufi psychology**: The "thought" (fikr) is emotion/feeling, not divine instruction or cosmic principle
 3. **Metaphysical precision**: "Non-being" (عدم) becomes passive departure, not active fanā (ego-annihilation)
-4. **The source**: Joy comes "from its true source" (اصل خیر)—explicitly divine origin—often omitted
-5. **Paradox of purification**: The seeming violence of sorrow is actually the guest's service, not just tolerance
+4. **The source of joy**: "from its true source" (اصل خیر)—explicitly divine/cosmic origin—usually omitted entirely
+5. **Active agency of the guest**: Sorrow doesn't just "clear" — it performs sacred work; it "scatters yellow leaves," "uproots old joy," "pulls up crooked roots"
+6. **The ecology of growth**: The poem isn't just acceptance — it's depicting organic, necessary cycles of death and rebirth in spiritual practice
+7. **The self's unreality**: Line 6 argues the self has no independent existence (radical non-dualism), which Barks completely misses
+8. **Theological depth**: These aren't abstract emotional guests—they're manifestations of divine reality (tajallī)
 
 ### This Translation's Approach
 
@@ -149,6 +182,20 @@ So that fresh joy might enter from its true source.
 3. Keeps the **paradoxical instruction**: Sorrow is not just accepted—it performs sacred function
 4. Restores **the cosmology**: There is a source (asl), an origin, a divine goodness
 5. Shows **ambiguity where it exists**: "Thought" (fikr) could mean intrusive thought, contemplation, or divine instruction simultaneously
+
+---
+
+## Translation Notes: Extended Analysis
+
+### Additional Verses (9-11): The Metaphor of Pruning
+
+These final couplets extend the Guest House parable into an ecology of spiritual growth:
+
+**Verse 9**: Yellow leaves (sorrow, depression) are scattered so green ones (joy, renewal) can grow
+**Verse 10**: Old joy is uprooted so new joy can emerge—nothing remains static
+**Verse 11**: The crooked, rotten root (false self, ego) must be pulled up to reveal the true hidden root
+
+This section transforms the poem from mere acceptance into active participation in spiritual ecology. The guest (sorrow) is not just tolerated—it performs horticultural work on the soul.
 
 ---
 
@@ -176,11 +223,33 @@ Persian: "فکرِ غم گر راه شادی میزند"
 
 ## What This Translation Restores
 
-1. **The Sufi cosmology**: A universe where nothing is random; everything is divine address
+1. **The Sufi cosmology**: A universe where nothing is random; everything manifests divine intention
+   - Thoughts aren't accidental; they are divine guests (ضیف) sent to the heart
+   - The unseen realm (غیب) is constantly communicating with manifestation (شهادت)
+
 2. **The ethical instruction**: Not "accept your feelings," but "recognize divine presence in all that arrives"
-3. **The metaphysical claim**: The self has no reality except as the site where divine guests appear
-4. **The paradox of sorrow**: Suffering is not inflicted on you—it is sent to serve, to purify, to prepare
-5. **The Islamic framework**: This is not generic spirituality; it is Islamic mysticism rooted in tawhīd (divine unity)
+   - Meeting guests "with laughter and smile" isn't passive; it's active recognition of the divine
+
+3. **The metaphysical claim**: The self has no independent reality
+   - Line 6: "The self draws its very life and worth from thought itself" — radical non-dualism
+   - The self exists only as a locus for divine manifestations; it has no ontological independence
+
+4. **The active function of sorrow**: Suffering isn't inflicted—it's sacred work
+   - Sorrow "scatters yellow leaves" (removes old patterns)
+   - It "uproots old joy" (prevents spiritual stagnation)
+   - It "pulls up crooked roots" (removes false self structures)
+   - This is horticultural, organic, necessary work
+
+5. **The ecology of spiritual growth**: The poem teaches cyclical renewal
+   - Nothing stays; everything transforms
+   - Death and renewal are woven together
+   - The "source of good" (اصل خیر) requires the clearing work that sorrow does
+
+6. **The Islamic framework**: This is explicitly Islamic mysticism
+   - Not generic "spirituality lite"
+   - Rooted in Qur'anic concepts of divine manifestation and human dependence
+   - Built on tawhīd (the absolute unity and oneness of God)
+   - Draws on Sufi technical vocabulary and epistemology
 
 ---
 
