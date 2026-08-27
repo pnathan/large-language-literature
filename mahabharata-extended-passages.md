@@ -790,7 +790,7 @@ And her answer names the mechanism the entire epic runs on (2.60.13):
 > evaṃ nūnaṃ vyadadhāt saṃvidhātā; sparśāv ubhau spṛśato dhīrabālau
 > dharmaṃ tv ekaṃ paramaṃ prāha loke; sa naḥ śamaṃ dhāsyati gopyamānaḥ
 
-*"Surely the Ordainer has arranged it so: both touches touch, the wise man's and the fool's. But he has declared dharma alone supreme in this world; kept guarded, it will set us at peace."*
+*"Surely the Ordainer has arranged it so: touch strikes both the wise man and the child. But he has declared dharma alone supreme in this world; kept guarded, it will set us at peace."*
 
 *Gopyamānaḥ* — "being guarded." Dharma protects those who protect it. She is about to find out what happens when nobody does.
 
