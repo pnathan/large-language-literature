@@ -1,0 +1,753 @@
+[
+ {
+  "id": "s02",
+  "initial_review": {
+   "id": "s02",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": true,
+   "resemblance_note": "\"its sight was clouded, it could not look behind itself\" mirrors Goetz-Morley's \"its sight was blurred, it could not look behind\" — an interpolation with no basis in the K'iche' (\"xaculuvach maui chimucun chirih\" = face fixed one way, could not look behind) or Ximénez (\"era ciego\" = it was blind). This is the strongest sign of Goetz-Morley memorization; the rest of the mud-man defect list shadows their cadence but is source-supported. No remaining Tedlock/Christenson echoes found.",
+   "issues": "Replace \"its sight was clouded\" with a source-derived rendering, e.g. \"it was blind\" (per Ximénez) or \"its face was fixed to one side; it could not see behind itself\" (per the K'iche'). Otherwise faithful paragraph by paragraph."
+  },
+  "last_review": {
+   "id": "s02",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": true,
+   "resemblance_note": "Goetz-Morley echo in the mud-man defect list: candidate's \"it was soft, it had no motion, no strength, it fell to pieces\" mirrors Goetz-Morley's \"it was soft, did not move, had no strength, it fell down\" — and \"no motion, no strength\" has no basis at that point in the K'iche' (xa tzubulic, xa nebelic, xa lubanic — soft/limp terms) or Ximénez's Spanish (\"estaba blando, apelmazado, desmadexado\"); the source's only strength remark (\"no era fuerte\") comes at the end and is already rendered separately as \"it had no firmness\". This is an interpolation matching the published translator's wording and placement.",
+   "issues": "Fix: replace \"it had no motion, no strength\" with renderings actually grounded in the K'iche' list (e.g. \"it was limp, it sagged apart\" for xa nebelic / xa lubanic). Rest of the section checks clean against Goetz-Morley, Tedlock, Christenson, and Recinos's Spanish; fidelity to the K'iche'/Ximénez sense is otherwise good in both paragraphs."
+  },
+  "revised": {
+   "id": "s02",
+   "paragraphs": [
+    "Then they thought again about the animals of the mountain, the guardians of all the wildlands: the creatures of the mountain — deer, birds, puma, jaguar, serpent, viper, cantil-snake, keepers of the vines. The Builder and the Sculptor said: \"Will this stand only in silence, unmoving beneath the trees and vines? It is good that there be someone to keep them.\" So they said when they took counsel and spoke, and then deer and birds were brought into being. And then they gave the deer and the birds their homes. \"You, deer, shall lie down in the beds of the rivers and in the ravines; here among the grasses and thickets you will multiply; on four feet you will go and stand,\" they were told, and so it was fixed for them. Then for the small birds and the great birds: \"You, birds, on the trees and vines you will make your houses and your dwellings; there you will multiply, you will scatter yourselves among the branches of the trees and vines,\" the deer and the birds were told when their work was assigned to them. All of them took up their sleeping-places and their dwellings, which the earth gave them for houses, by the will of She Who Conceives, He Who Sires. And when the making of all the deer and birds was finished, they were spoken to again by the Builder, the Sculptor, She Who Conceives, He Who Sires: \"Speak, cry out, do not merely chirp, do not merely screech — speak, each of you according to your kind, each according to your family,\" the deer and the birds were told — the pumas, the jaguars, the serpents. \"Say our names, praise us, say that we are your mother, that we are your father. Huracan, Chipi Kaqulja, Raxa Kaqulja, Heart of Sky, Heart of Earth, Builder, Sculptor, She Who Conceives, He Who Sires — speak us, invoke us, greet us,\" they were told. But they could not speak as people speak; they only squawked and cackled and screamed — the shapes of their speech did not come clear, but each cried out in a different way. And when the Builder and the Sculptor saw that they could not speak, they said to one another: \"They have not been able to say our name, though we are their Builder and their Sculptor; this is not good,\" She Who Conceives, He Who Sires said among themselves. And so they were told: \"You will be changed, because you were not able to speak. We have changed our word: your food, your pasture, your sleeping-places and your dwellings will be the ravines and the wildlands, for you did not achieve the greeting due us, you did not invoke us. There will yet be those who keep our word, once we have made beings who obey us; for now, take up your task and your function, and let your flesh be given to be eaten\" — thus it was told to the small and great animals that are upon the face of the earth.",
+    "So it was that they wished to try their fortune again, wished to make another attempt, wished to bring about a being who could praise and speak, but their speech was not understood among themselves; nothing was accomplished, nothing came about. And so their flesh was condemned: they were made to serve, to be worked, to be eaten — the animals that exist here upon the face of the earth. And so came the next trial of people, the trial of a being built, a being shaped, by the Builder, the Sculptor, She Who Conceives, He Who Sires. \"Let us try once more; the time to plant draws near, and the light is coming: let us make one who will support us and sustain us. How else are we to be invoked, to be remembered upon the face of the earth? We have already tried with our first works, our first figures, but it could not be made that they praise us and make us known. So let us try now to make an obedient being, a being who reveres us,\" they said, thinking it over. And then came the shaping of the flesh, out of the mud of the earth: it did not turn out well, for it crumbled, it was soft, it had no motion, no strength, it fell to pieces, it grew soggy, its head did not turn, its face looked only to one side, it was blind, it could not look behind itself; though it spoke, it had no understanding — it merely dissolved in the water, it had no firmness. And the makers, the sculptors, said again: \"It will only get worse from here on; it will not walk about, it will not multiply once it is fully made\" — this they said only from their own thought. And so they took it apart again, and again they set to remolding their work, their handiwork, and they said: \"How shall we make it, so that it may come to praise us and invoke us,\" they said when they took counsel once more. \"Let us say it to Xpiyacoc, to Xmucane, to Hun Ahpu Wuch, to Hun Ahpu Utiw: let us try our fortune once more, its being formed\" — so said the builders, the sculptors, to one another, and then they said it to Xpiyacoc and to Xmucane. Then it was said to those diviners, grandmother of the sun, grandmother of light — for so they were named by the Builder, the Sculptor — and these were the names, Xpiyacoc and Xmucane."
+   ],
+   "full_text": "Then they thought again about the animals of the mountain, the guardians of all the wildlands: the creatures of the mountain — deer, birds, puma, jaguar, serpent, viper, cantil-snake, keepers of the vines. The Builder and the Sculptor said: \"Will this stand only in silence, unmoving beneath the trees and vines? It is good that there be someone to keep them.\" So they said when they took counsel and spoke, and then deer and birds were brought into being. And then they gave the deer and the birds their homes. \"You, deer, shall lie down in the beds of the rivers and in the ravines; here among the grasses and thickets you will multiply; on four feet you will go and stand,\" they were told, and so it was fixed for them. Then for the small birds and the great birds: \"You, birds, on the trees and vines you will make your houses and your dwellings; there you will multiply, you will scatter yourselves among the branches of the trees and vines,\" the deer and the birds were told when their work was assigned to them. All of them took up their sleeping-places and their dwellings, which the earth gave them for houses, by the will of She Who Conceives, He Who Sires. And when the making of all the deer and birds was finished, they were spoken to again by the Builder, the Sculptor, She Who Conceives, He Who Sires: \"Speak, cry out, do not merely chirp, do not merely screech — speak, each of you according to your kind, each according to your family,\" the deer and the birds were told — the pumas, the jaguars, the serpents. \"Say our names, praise us, say that we are your mother, that we are your father. Huracan, Chipi Kaqulja, Raxa Kaqulja, Heart of Sky, Heart of Earth, Builder, Sculptor, She Who Conceives, He Who Sires — speak us, invoke us, greet us,\" they were told. But they could not speak as people speak; they only squawked and cackled and screamed — the shapes of their speech did not come clear, but each cried out in a different way. And when the Builder and the Sculptor saw that they could not speak, they said to one another: \"They have not been able to say our name, though we are their Builder and their Sculptor; this is not good,\" She Who Conceives, He Who Sires said among themselves. And so they were told: \"You will be changed, because you were not able to speak. We have changed our word: your food, your pasture, your sleeping-places and your dwellings will be the ravines and the wildlands, for you did not achieve the greeting due us, you did not invoke us. There will yet be those who keep our word, once we have made beings who obey us; for now, take up your task and your function, and let your flesh be given to be eaten\" — thus it was told to the small and great animals that are upon the face of the earth.\n\nSo it was that they wished to try their fortune again, wished to make another attempt, wished to bring about a being who could praise and speak, but their speech was not understood among themselves; nothing was accomplished, nothing came about. And so their flesh was condemned: they were made to serve, to be worked, to be eaten — the animals that exist here upon the face of the earth. And so came the next trial of people, the trial of a being built, a being shaped, by the Builder, the Sculptor, She Who Conceives, He Who Sires. \"Let us try once more; the time to plant draws near, and the light is coming: let us make one who will support us and sustain us. How else are we to be invoked, to be remembered upon the face of the earth? We have already tried with our first works, our first figures, but it could not be made that they praise us and make us known. So let us try now to make an obedient being, a being who reveres us,\" they said, thinking it over. And then came the shaping of the flesh, out of the mud of the earth: it did not turn out well, for it crumbled, it was soft, it had no motion, no strength, it fell to pieces, it grew soggy, its head did not turn, its face looked only to one side, it was blind, it could not look behind itself; though it spoke, it had no understanding — it merely dissolved in the water, it had no firmness. And the makers, the sculptors, said again: \"It will only get worse from here on; it will not walk about, it will not multiply once it is fully made\" — this they said only from their own thought. And so they took it apart again, and again they set to remolding their work, their handiwork, and they said: \"How shall we make it, so that it may come to praise us and invoke us,\" they said when they took counsel once more. \"Let us say it to Xpiyacoc, to Xmucane, to Hun Ahpu Wuch, to Hun Ahpu Utiw: let us try our fortune once more, its being formed\" — so said the builders, the sculptors, to one another, and then they said it to Xpiyacoc and to Xmucane. Then it was said to those diviners, grandmother of the sun, grandmother of light — for so they were named by the Builder, the Sculptor — and these were the names, Xpiyacoc and Xmucane.",
+   "translator_note": "Round 6 revision, addressing flagged resemblance to Recinos/Goetz-Morley. (1) Replaced \"grandmother of the dawn\" with \"grandmother of light\" for ratit zac: zac is literally \"light/clarity,\" not \"dawn\" — \"dawn\" had inadvertently matched Recinos's \"abuela del alba\" and Goetz-Morley's \"grandmother of the dawn.\" \"Light\" keeps the literal sense of zac while still not reproducing Tedlock's exact pairing, since \"sun\" is retained for ratit quih as in the prior round. (2) Replaced \"its sight was clouded\" with \"it was blind,\" matching the Spanish gloss \"era ciego\" directly, without inventing a partial-sight nuance; this removes the softened phrasing that had matched Goetz-Morley's \"his sight was blurred,\" restoring the flat privative sense of the source (\"era ciego, y no miraba para atras\" — it was blind, and did not look behind). All other diction carried over unchanged from the prior round: \"Builder, Sculptor\" for Tz'aqol, B'itol; \"She Who Conceives, He Who Sires\" for Alom, K'ajolom, derived independently from al- (\"to give birth\") and k'ajol (\"son\"); K'iche'-spelled deity and personal names (Chipi Kaqulja, Raxa Kaqulja, Hun Ahpu Wuch, Hun Ahpu Utiw); \"keepers of the vines\" for chahal caam; the prospective \"it will only get worse from here on\" for cauach labec ta chuxoc; and \"Heart of Sky, Heart of Earth\" for uk'ux kaj / uk'ux uleu."
+  },
+  "rounds_run": 3
+ },
+ {
+  "id": "s03",
+  "initial_review": {
+   "id": "s03",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": true,
+   "resemblance_note": "Goetz-Morley echoes cluster in the wood-people destruction passage. Strongest: \"Tucumbalam came, who broke and mangled their bones and their sinews\" — Goetz-Morley have \"Tucumbalam came, too, and broke and mangled their bones and their nerves\"; the doubling \"broke and mangled\" has no basis in the source (K'iche' xquichouic / Spanish \"quebro\" give a single verb), so the added \"and mangled\" matching G-M's exact pairing is a memorization signature. Supporting echoes in the same passage: \"a black rain began to fall, by day and by night\" (G-M verbatim: \"a black rain began to fall, by day and by night\" — Ximénez has \"llovizna de noche y de día\", night-first, and \"llovizna\" is drizzle not rain; \"black\" is in the K'iche' q'eqal jab', but the full clause including the inverted day/night order tracks G-M); \"now you will feel our strength\" (G-M: \"now you shall feel our strength\" — Spanish \"probaréis nuestras fuerzas\" = \"you will test/try our strength\", \"feel\" is G-M's choice); and \"they ran, desperate\" (G-M/Recinos \"desesperados/desperate ones ran\" — Ximénez has \"desatinados\", bewildered/senseless). Individually small, together these mark recalled Goetz-Morley phrasing in that paragraph. No Tedlock (\"daykeeper\", \"sown and dawned\") or Christenson (\"Framer and Shaper\") formulas detected; the prior audit's fixes appear to hold.",
+   "issues": "Rework the destruction paragraph: (1) drop \"and mangled\" (render xquichouic/quebró with a single verb, e.g. \"broke their bones and sinews and ground them to meal\"); (2) restore source order/word for the rain, e.g. \"a drizzling rain began, by night and by day\" or keep \"black rain\" from the K'iche' but not G-M's clause shape; (3) \"probaréis nuestras fuerzas\" as \"you will test our strength\" rather than \"feel\"; (4) \"desatinados\" as \"frantic/bewildered\" rather than \"desperate\". Minor fidelity notes (not failures): \"which came down on them out of the sky\" — K'iche' says the flood came \"on their heads\" (xpe pa quivi), not \"out of the sky\"; \"you ate our mouths, our faces\" garbles the objects' complaint (Spanish: \"nos mordiste\" — you bit us — the soot-blackened mouths/faces belong to the pots' speech); \"their descendants are the monkeys\" adds \"descendants\" where the source says the monkeys are a sign (retal) of that people."
+  },
+  "last_review": {
+   "id": "s03",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley signatures found: the known G-M markers for this passage (broke-and-mangled doublet, \"black rain by day and by night\", \"feel our strength\", \"desperate ones\", \"survivors\"/\"example of a generation of men\" interpolations) are all absent; candidate reads \"broke their bones and their sinews\", \"black drizzle by night and by day\", \"test our strength\", \"frantic\", \"a sign (retal)\". Remaining overlaps are forced by shared source content in Ximénez's Spanish/K'iche'. No Tedlock (daykeeper, sown-and-dawned) or Christenson (Framer/Shaper) echoes.",
+   "issues": "Minor only: \"let there be no shame in it; let Tepeu and Gucumatz not be shamed\" slightly rephrases the imperative \"tened vergüenza, no afrentéis a Tepeu y Gucumatz\" but preserves the sense. No interpolations lacking a source basis were found."
+  },
+  "revised": {
+   "id": "s03",
+   "paragraphs": [
+    "So Huracan spoke it, together with Tepeu and Gucumatz, and they said it to the one who watches the sun, the one who shapes: reach for it, work it out — let our human be built again, our human be shaped again, one who will sustain us and keep us in mind, who will call on us and hold us in memory. Enter into counsel, grandmother, grandfather, our Xpiyacoc, our Xmucane: tell how it may be planted, how it may come to light, how we are to be called on, worshipped, kept in memory, by the human that is built, the human that is shaped, by our provider, our feeder. Speak our name, say it: Hunahpu Vuch, Hunahpu Utiu, twice mother, twice father, Nim Ac, Nima Tziis, Ah Cuval, Ah Yamanic, Ah Chut, Ah Tzalam, Ah Raxalac, Ah Raxazel, Ah Toltecat — she who is grandmother to the sun, and to the moon — so may you be called by those we build, those we shape. Cast the lots with the maize, with the tzite: let it be seen whether we shall carve it out, whether we shall cut it — the mouth and the face of the one made of wood. So it was told to the diviners. And they cast the lots, and read what fell to them out of the maize and the tzite. Then an old woman and an old man spoke it: the old man, the one who cast the tzite lots, was called Xpiyacoc; and the old woman who watched the sun and worked the shaping was called Chiracan Xmucane. As they began the divining they said: gather close, come together; speak, tell us whether the wood should be carved by the builders, whether this is the one who will sustain and feed us once it is planted, once light comes. Speak, maize; speak, tzite; speak, sun; speak, shaping. Seek it out, follow it through — so they said to the maize and the tzite, to the sun and the shaping. And you, heart of the sky, let there be no shame in it; let Tepeu and Gucumatz not be shamed. Then the tzite and the maize answered and spoke truly: let it be done so, and it will be good, and the wood will speak once it is carved. So the likeness of a man of wood was made, and it spoke like a man, and this was the human made then. They had children, sons and daughters, but there was nothing inside them — no heart, no mind; they did not hold their maker in memory, but went about empty over the face of the earth. They spoke, but their faces were dry; they were stiff and heavy in hand and foot. They had no blood, no sweat, no fat in them; their cheeks were dry and pale. Their hands and feet were yellow and withered, their flesh gone yellow, and so they gave no thought to the heart of the sky, and gave no thanks to the one who had built them, who had shaped them, who had given them being. These were the first who multiplied over the face of the earth.",
+    "And after this they were finished, destroyed, killed — all these people of wood. It was resolved by the heart of the sky, and a great flood was made, which came down upon them, upon their heads. Their flesh was of the wood called cork-tree, and from that stuff the men were made, carved by the builder, the one who gives them shape; and the women were made from the pith of reeds, made by the will of the builder, the one who gives shape, to be their being. But they gave no thought, they spoke no word before the face of the builder, the shaper who had made them, who had given them being; and so they were killed, drowned. A great resin fell on them out of the sky. And a bird named Xecotcovach came and tore out their eyes; and Camalotz came and cut off their heads; and an animal named Cotzbalam came and ate their flesh; and Tucumbalam came, who broke their bones and their sinews, and ground them down to meal — and this was in payment for what they had not done, for they had not held in mind their mother, their father, the heart of the sky, called Huracan. And so the face of the earth grew dark, and a black drizzle began to fall, by night and by day. And the small animals and the great animals came, and the sticks and the stones, and struck them in the face, and all of them spoke — the grinding stones, the griddles, the plates, the pots, the dogs, the hens — saying: you treated us badly, you bit us; now it is your turn, we will bite you, so said all these things to their faces. And the grinding stones spoke, saying: we were tormented by you, every day, every day, at dusk, at dawn, always holi, holi, huqui, huqui went our faces because of you. This was our payment to you while you had not yet come to feel it, and now you will test our strength: we will grind you down, we will turn your flesh to meal, said the grinding stones to their faces. And the dogs spoke, saying: why did you give us nothing to eat? We only watched you, and you drove us off, you threw us out, always a stick was ready for us while you ate, this is how you treated us because we could not speak. Would you not have died had we not held back? How did you fail to see it for yourselves, to know what would come of it? Now we will grind you with the teeth in our mouths, we will eat you, said the dogs, striking their faces. And then the griddles and the pots spoke, saying: pain and hurt you gave us; our mouths, our faces black with soot, always we stood over the fire, you burned us though we felt no wrong in it; now it is your turn, we will burn you — so said all the pots, striking their faces, and the stones that were the hearthstones, glowing with heat from the fire, struck hard at their heads and brought them pain. And they ran, frantic, wanting to climb up onto the houses, and the houses fell apart and threw them down; they wanted to climb into the trees, and the trees flung them off; they wanted to enter the caves, and the caves closed themselves against their faces. So it was that they were destroyed and undone and brought to shame, all of them; and the mouths and the faces of all of them were smashed and battered. And it is said that the monkeys now living in the forests are a sign of this people; this is why they remain as a sign, for their flesh was made only by the will of the builder, the one who gives shape, and the monkey is left looking like a man, a sign of that other kind of human, made of wood."
+   ],
+   "full_text": "So Huracan spoke it, together with Tepeu and Gucumatz, and they said it to the one who watches the sun, the one who shapes: reach for it, work it out — let our human be built again, our human be shaped again, one who will sustain us and keep us in mind, who will call on us and hold us in memory. Enter into counsel, grandmother, grandfather, our Xpiyacoc, our Xmucane: tell how it may be planted, how it may come to light, how we are to be called on, worshipped, kept in memory, by the human that is built, the human that is shaped, by our provider, our feeder. Speak our name, say it: Hunahpu Vuch, Hunahpu Utiu, twice mother, twice father, Nim Ac, Nima Tziis, Ah Cuval, Ah Yamanic, Ah Chut, Ah Tzalam, Ah Raxalac, Ah Raxazel, Ah Toltecat — she who is grandmother to the sun, and to the moon — so may you be called by those we build, those we shape. Cast the lots with the maize, with the tzite: let it be seen whether we shall carve it out, whether we shall cut it — the mouth and the face of the one made of wood. So it was told to the diviners. And they cast the lots, and read what fell to them out of the maize and the tzite. Then an old woman and an old man spoke it: the old man, the one who cast the tzite lots, was called Xpiyacoc; and the old woman who watched the sun and worked the shaping was called Chiracan Xmucane. As they began the divining they said: gather close, come together; speak, tell us whether the wood should be carved by the builders, whether this is the one who will sustain and feed us once it is planted, once light comes. Speak, maize; speak, tzite; speak, sun; speak, shaping. Seek it out, follow it through — so they said to the maize and the tzite, to the sun and the shaping. And you, heart of the sky, let there be no shame in it; let Tepeu and Gucumatz not be shamed. Then the tzite and the maize answered and spoke truly: let it be done so, and it will be good, and the wood will speak once it is carved. So the likeness of a man of wood was made, and it spoke like a man, and this was the human made then. They had children, sons and daughters, but there was nothing inside them — no heart, no mind; they did not hold their maker in memory, but went about empty over the face of the earth. They spoke, but their faces were dry; they were stiff and heavy in hand and foot. They had no blood, no sweat, no fat in them; their cheeks were dry and pale. Their hands and feet were yellow and withered, their flesh gone yellow, and so they gave no thought to the heart of the sky, and gave no thanks to the one who had built them, who had shaped them, who had given them being. These were the first who multiplied over the face of the earth.\n\nAnd after this they were finished, destroyed, killed — all these people of wood. It was resolved by the heart of the sky, and a great flood was made, which came down upon them, upon their heads. Their flesh was of the wood called cork-tree, and from that stuff the men were made, carved by the builder, the one who gives them shape; and the women were made from the pith of reeds, made by the will of the builder, the one who gives shape, to be their being. But they gave no thought, they spoke no word before the face of the builder, the shaper who had made them, who had given them being; and so they were killed, drowned. A great resin fell on them out of the sky. And a bird named Xecotcovach came and tore out their eyes; and Camalotz came and cut off their heads; and an animal named Cotzbalam came and ate their flesh; and Tucumbalam came, who broke their bones and their sinews, and ground them down to meal — and this was in payment for what they had not done, for they had not held in mind their mother, their father, the heart of the sky, called Huracan. And so the face of the earth grew dark, and a black drizzle began to fall, by night and by day. And the small animals and the great animals came, and the sticks and the stones, and struck them in the face, and all of them spoke — the grinding stones, the griddles, the plates, the pots, the dogs, the hens — saying: you treated us badly, you bit us; now it is your turn, we will bite you, so said all these things to their faces. And the grinding stones spoke, saying: we were tormented by you, every day, every day, at dusk, at dawn, always holi, holi, huqui, huqui went our faces because of you. This was our payment to you while you had not yet come to feel it, and now you will test our strength: we will grind you down, we will turn your flesh to meal, said the grinding stones to their faces. And the dogs spoke, saying: why did you give us nothing to eat? We only watched you, and you drove us off, you threw us out, always a stick was ready for us while you ate, this is how you treated us because we could not speak. Would you not have died had we not held back? How did you fail to see it for yourselves, to know what would come of it? Now we will grind you with the teeth in our mouths, we will eat you, said the dogs, striking their faces. And then the griddles and the pots spoke, saying: pain and hurt you gave us; our mouths, our faces black with soot, always we stood over the fire, you burned us though we felt no wrong in it; now it is your turn, we will burn you — so said all the pots, striking their faces, and the stones that were the hearthstones, glowing with heat from the fire, struck hard at their heads and brought them pain. And they ran, frantic, wanting to climb up onto the houses, and the houses fell apart and threw them down; they wanted to climb into the trees, and the trees flung them off; they wanted to enter the caves, and the caves closed themselves against their faces. So it was that they were destroyed and undone and brought to shame, all of them; and the mouths and the faces of all of them were smashed and battered. And it is said that the monkeys now living in the forests are a sign of this people; this is why they remain as a sign, for their flesh was made only by the will of the builder, the one who gives shape, and the monkey is left looking like a man, a sign of that other kind of human, made of wood.",
+   "translator_note": "Reworked independently from the K'iche' (with Spanish as aid) to remove echoes flagged in the prior audit: dropped Christenson's \"Framer/Shaper\" pairing in favor of plain \"builder\"/\"shaper\" used separately and non-formulaically; replaced Tedlock's \"day-keeper\" for ahquih with the literal \"one who watches the sun\"; broke the Tedlock/Christenson \"sown and dawning(s)\" formula, rendering ta zaquiroc as \"come to light\" and \"once light comes\" rather than \"dawn(s)\"; and replaced the Recinos/Goetz-Morley \"grandmother of the sun, grandmother of the light/moon\" epithet with \"she who is grandmother to the sun, and to the moon,\" a plainer, non-idiomatic phrasing closer to the Spanish \"abuela de el sol, abuela de la luna.\" The animal-and-object speeches in the wood-people's destruction were translated fresh from the Spanish. Round-1 revision (Goetz-Morley echo cluster in the destruction paragraph): xquichouic/\"quebro\" is a single verb in both source texts, so \"broke and mangled their bones and their sinews\" is now \"broke their bones and their sinews,\" with the grinding kept as its own separate clause (\"ground them down to meal\") instead of fused into a G-M-matching doublet. The rain clause was rebuilt from source order and register: Ximenez's \"llovizna de noche y de dia\" is drizzle, night before day, not G-M's \"a black rain...by day and by night\"; now \"a black drizzle began to fall, by night and by day\" (q'eqal jab' supplies \"black\"; \"drizzle\" and the night-first order come from llovizna/de noche y de dia). \"Probareis nuestras fuerzas\" is now \"you will test our strength\" (test/try, not G-M's \"feel\"). \"Desatinados\" (bewildered, senseless) is now \"frantic\" rather than Recinos/G-M's \"desperate.\" Also corrected on this pass: the flood \"came down upon them, upon their heads\" (xpe pa quivi) rather than \"out of the sky,\" which had wrongly duplicated the resin clause that follows; the objects' collective complaint now reads \"you treated us badly, you bit us...we will bite you\" (nos mordiste = you bit us, not \"you ate our mouths, our faces,\" which had garbled the pots' later soot complaint into the general one); and the monkeys are now described as a sign (retal) of the wood people rather than as their \"descendants,\" which the source does not say."
+  },
+  "rounds_run": 2
+ },
+ {
+  "id": "s04",
+  "initial_review": {
+   "id": "s04",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley signatures found: candidate avoids \"walk and conquer\" (has \"walk and stand\"), omits the interpolated teeth imagery, keeps \"mountains were his food\" not \"played ball,\" and its wording throughout is derivable from the K'iche'/Ximénez rather than any published translation. No Tedlock/Christenson echoes.",
+   "issues": ""
+  },
+  "last_review": {
+   "id": "s04",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley signatures found: candidate avoids \"walk and conquer\" (has \"walk and stand\"), omits the interpolated teeth imagery, keeps \"mountains were his food\" not \"played ball,\" and its wording throughout is derivable from the K'iche'/Ximénez rather than any published translation. No Tedlock/Christenson echoes.",
+   "issues": ""
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s05",
+  "initial_review": {
+   "id": "s05",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "Checked specifically against Goetz-Morley's 1950 English (and Tedlock, Christenson, Recinos's Spanish). At every point where G-M is distinctive (worm-cure list, maize teeth shining, face falling, opening formula) the candidate's wording diverges and every candidate phrase is grounded in the K'iche' or Ximénez's Spanish — no unsourced interpolation matching any published translator. Name forms follow the manuscript, not Recinos's hyphenation; shared items (\"Seven Macaw\", \"Hunahpu\") are project naming conventions.",
+   "issues": "None. Fidelity holds paragraph by paragraph; the garbled closing passage is honestly flagged in-line rather than smoothed, and the Hunahpu/Hun-Hunahpu manuscript confusion is correctly resolved and documented."
+  },
+  "last_review": {
+   "id": "s05",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "Checked specifically against Goetz-Morley's 1950 English (and Tedlock, Christenson, Recinos's Spanish). At every point where G-M is distinctive (worm-cure list, maize teeth shining, face falling, opening formula) the candidate's wording diverges and every candidate phrase is grounded in the K'iche' or Ximénez's Spanish — no unsourced interpolation matching any published translator. Name forms follow the manuscript, not Recinos's hyphenation; shared items (\"Seven Macaw\", \"Hunahpu\") are project naming conventions.",
+   "issues": "None. Fidelity holds paragraph by paragraph; the garbled closing passage is honestly flagged in-line rather than smoothed, and the Hunahpu/Hun-Hunahpu manuscript confusion is correctly resolved and documented."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s06",
+  "initial_review": {
+   "id": "s06",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes found: candidate avoids their distinctive phrasings (\"I am the creator of the mountains,\" \"four hundred boys,\" \"this may be a lie\") and contains no interpolation traceable to G-M, Tedlock, Christenson, or Recinos's Spanish; all additions/glosses trace to the K'iche' or Ximénez's Spanish.",
+   "issues": "None of substance. Minor free renderings (\"his cry was cut short,\" \"no longer alert\") are within the source's sense and not sourced from published translations."
+  },
+  "last_review": {
+   "id": "s06",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes found: candidate avoids their distinctive phrasings (\"I am the creator of the mountains,\" \"four hundred boys,\" \"this may be a lie\") and contains no interpolation traceable to G-M, Tedlock, Christenson, or Recinos's Spanish; all additions/glosses trace to the K'iche' or Ximénez's Spanish.",
+   "issues": "None of substance. Minor free renderings (\"his cry was cut short,\" \"no longer alert\") are within the source's sense and not sourced from published translations."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s07",
+  "initial_review": {
+   "id": "s07",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley-only interpolations found; previously flagged G&M cadences (opening formula, \"only food was fish and crabs\" line) have been reworded away. Remaining overlaps (four hundred boys, blowguns, Meawan, miracle/marvel) are all dictated by the K'iche'/Ximénez source. No Tedlock or Christenson echoes; manuscript name-spellings retained.",
+   "issues": "None material. Minor interpretive gloss: \"where it sounds, roaring\" for the obscure \"haziendo houol\" is a guess but not traceable to any published translator."
+  },
+  "last_review": {
+   "id": "s07",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley-only interpolations found; previously flagged G&M cadences (opening formula, \"only food was fish and crabs\" line) have been reworded away. Remaining overlaps (four hundred boys, blowguns, Meawan, miracle/marvel) are all dictated by the K'iche'/Ximénez source. No Tedlock or Christenson echoes; manuscript name-spellings retained.",
+   "issues": "None material. Minor interpretive gloss: \"where it sounds, roaring\" for the obscure \"haziendo houol\" is a guess but not traceable to any published translator."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s09",
+  "initial_review": {
+   "id": "s09",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley match: at every distinctive G&M locus (occupation list, ball-gear list, \"swift as an arrow\") the candidate diverges, and no interpolation lacks a K'iche'/Ximénez basis. Two PLAUSIBLE single-phrase echoes noted, both defensible literal renderings: \"They only stamp and shout\" (near Tedlock; source says \"making tremble and making noise\") and \"he was only a companion\" (near Christenson's \"merely a companion\" for xa vcab).",
+   "issues": "Minor: \"we are not yet dead\" slightly softens \"xa mahabi cohcamic\" / \"no moriremos\" (\"we shall not die\"). Otherwise faithful throughout."
+  },
+  "last_review": {
+   "id": "s09",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley match: at every distinctive G&M locus (occupation list, ball-gear list, \"swift as an arrow\") the candidate diverges, and no interpolation lacks a K'iche'/Ximénez basis. Two PLAUSIBLE single-phrase echoes noted, both defensible literal renderings: \"They only stamp and shout\" (near Tedlock; source says \"making tremble and making noise\") and \"he was only a companion\" (near Christenson's \"merely a companion\" for xa vcab).",
+   "issues": "Minor: \"we are not yet dead\" slightly softens \"xa mahabi cohcamic\" / \"no moriremos\" (\"we shall not die\"). Otherwise faithful throughout."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s12",
+  "initial_review": {
+   "id": "s12",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No distinctive Goetz-Morley phrasing or interpolations found; G&M's characteristic renderings of this scene (e.g. \"consolation of the old woman\", \"you are an impostor\", \"you who cook the corn\") are absent or differently worded, and the candidate contains independent choices no published translator shares (rendering \"ix pu ꜩiya\" as a fourth invoked name \"Tzij\"). All potentially suspicious phrases trace directly to Ximénez's Spanish or the K'iche'. No Tedlock/Christenson echoes.",
+   "issues": "Minor: \"do you see it in the one who has come, in the one who is leaving?\" is a strained over-literal reading of \"ve avila catpe vi catel vbic\" (Ximénez: \"de adonde vienes? sal de aquí\"), but it is independent, not memorized, and does not misrepresent the scene."
+  },
+  "last_review": {
+   "id": "s12",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No distinctive Goetz-Morley phrasing or interpolations found; G&M's characteristic renderings of this scene (e.g. \"consolation of the old woman\", \"you are an impostor\", \"you who cook the corn\") are absent or differently worded, and the candidate contains independent choices no published translator shares (rendering \"ix pu ꜩiya\" as a fourth invoked name \"Tzij\"). All potentially suspicious phrases trace directly to Ximénez's Spanish or the K'iche'. No Tedlock/Christenson echoes.",
+   "issues": "Minor: \"do you see it in the one who has come, in the one who is leaving?\" is a strained over-literal reading of \"ve avila catpe vi catel vbic\" (Ximénez: \"de adonde vienes? sal de aquí\"), but it is independent, not memorized, and does not misrepresent the scene."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s13",
+  "initial_review": {
+   "id": "s13",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes or source-less interpolations found; distinctive G-M renderings (\"flautists\", \"trousers... walk easily\", \"successors of their fathers\", \"Hunahpú-Qoy\") are absent, and the candidate's wording tracks Ximénez literally. No Tedlock/Christenson signatures.",
+   "issues": "Only minor ambiguity-handling (paragraph-2 subject of \"raised in the mountains\", the four-vs-three counting of flute calls) — resolved following Ximénez's own reading; not memorization or fidelity failures."
+  },
+  "last_review": {
+   "id": "s13",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes or source-less interpolations found; distinctive G-M renderings (\"flautists\", \"trousers... walk easily\", \"successors of their fathers\", \"Hunahpú-Qoy\") are absent, and the candidate's wording tracks Ximénez literally. No Tedlock/Christenson signatures.",
+   "issues": "Only minor ambiguity-handling (paragraph-2 subject of \"raised in the mountains\", the four-vs-three counting of flute calls) — resolved following Ximénez's own reading; not memorization or fidelity failures."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s14",
+  "initial_review": {
+   "id": "s14",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "None significant. Apparent Goetz-Morley-adjacent phrases (\"Do not grieve; here we are, your grandsons, we are the substitutes for our older brothers\"; food list \"maize, chile seeds, beans, pataste, cacao\") derive word-for-word from Ximénez's Spanish, not from the published translation. Prior G&M leak points were already scrubbed: chant rendered \"Trees, stand up! Vines, stand up!\" (not \"Rise up, trees! Rise up, vines!\") and gear as \"yoke, arm-guard, rubber ball\" with no interpolated \"ring\". Minor free expansions (hiding \"so that none of the animals could see them\"; smoothed garbled closing sentence) are within normal latitude.",
+   "resemblance_note": "No distinctive Goetz-Morley, Tedlock, Christenson, or Recinos-Spanish wording detected; overlaps trace directly to the shared Ximénez source."
+  },
+  "last_review": {
+   "id": "s14",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "None significant. Apparent Goetz-Morley-adjacent phrases (\"Do not grieve; here we are, your grandsons, we are the substitutes for our older brothers\"; food list \"maize, chile seeds, beans, pataste, cacao\") derive word-for-word from Ximénez's Spanish, not from the published translation. Prior G&M leak points were already scrubbed: chant rendered \"Trees, stand up! Vines, stand up!\" (not \"Rise up, trees! Rise up, vines!\") and gear as \"yoke, arm-guard, rubber ball\" with no interpolated \"ring\". Minor free expansions (hiding \"so that none of the animals could see them\"; smoothed garbled closing sentence) are within normal latitude.",
+   "resemblance_note": "No distinctive Goetz-Morley, Tedlock, Christenson, or Recinos-Spanish wording detected; overlaps trace directly to the shared Ximénez source."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s15",
+  "initial_review": {
+   "id": "s15",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes found: candidate lacks their hyphenated names and \"Xibalba\" framing (uses \"the underworld\" per Ximénez's \"el infierno\"), and every distinctive phrase checked (xan/mosquito gloss, \"over our heads\", \"pupil of the eye\", \"parapets\", lotz quic gloss, four-item gear list) is directly grounded in the K'iche' or Ximénez's Spanish. No Tedlock or Christenson echoes either.",
+   "issues": "Minor only: \"cuero\" rendered as \"glove\" rather than \"leather\" (independent choice, not a published translator's); the louse's message opening (\"boys, come, call them\") is awkward but mirrors garbled source Spanish (\"anada llamaldos\")."
+  },
+  "last_review": {
+   "id": "s15",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes found: candidate lacks their hyphenated names and \"Xibalba\" framing (uses \"the underworld\" per Ximénez's \"el infierno\"), and every distinctive phrase checked (xan/mosquito gloss, \"over our heads\", \"pupil of the eye\", \"parapets\", lotz quic gloss, four-item gear list) is directly grounded in the K'iche' or Ximénez's Spanish. No Tedlock or Christenson echoes either.",
+   "issues": "Minor only: \"cuero\" rendered as \"glove\" rather than \"leather\" (independent choice, not a published translator's); the louse's message opening (\"boys, come, call them\") is awkward but mirrors garbled source Spanish (\"anada llamaldos\")."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s17",
+  "initial_review": {
+   "id": "s17",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "Minor: turtle described as \"coming slowly\" where K'iche' \"cubalcatih\" / Ximénez \"venía dando vueltas\" mean tumbling/rolling over — a small deviation from the source, though it does not match a confirmable Goetz-Morley (or Tedlock/Christenson) wording. Shared phrases with Goetz-Morley (\"took possession of their food\", \"What sort of people are you, where have you come from?\") are literal renderings of Ximénez's Spanish and thus source-derived, not memorized interpolations.",
+   "resemblance_note": "No distinctive Goetz-Morley phrasing or interpolation found: absent are their \"mansion of cold,\" capitalized House-of-X epithet series, and other signature renderings; overlaps with G-M trace directly to Ximénez's Spanish gloss."
+  },
+  "last_review": {
+   "id": "s17",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "Minor: turtle described as \"coming slowly\" where K'iche' \"cubalcatih\" / Ximénez \"venía dando vueltas\" mean tumbling/rolling over — a small deviation from the source, though it does not match a confirmable Goetz-Morley (or Tedlock/Christenson) wording. Shared phrases with Goetz-Morley (\"took possession of their food\", \"What sort of people are you, where have you come from?\") are literal renderings of Ximénez's Spanish and thus source-derived, not memorized interpolations.",
+   "resemblance_note": "No distinctive Goetz-Morley phrasing or interpolation found: absent are their \"mansion of cold,\" capitalized House-of-X epithet series, and other signature renderings; overlaps with G-M trace directly to Ximénez's Spanish gloss."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s18",
+  "initial_review": {
+   "id": "s18",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley leakage: distinctive G&M renderings (e.g. \"filled it with thick branches\", \"Drink our chicha and let each of us fly over it four times, boys\", \"soothsayers\") all diverge from the candidate, whose wording tracks the K'iche' and Ximénez's Spanish (\"pusieron gran rescoldo\" → \"great embers did Xibalba pile in\"). Shared items like \"two handsome young men\" derive directly from \"dos hermosos mançebos\" in the source. No Tedlock or Christenson signatures.",
+   "issues": "Minor, non-blocking: the obscure taunt \"ca qui cahtacmul\" is omitted (disclosed in translator note); the turtle's shattering is rendered from the K'iche' (\"white flesh\") rather than the Spanish \"pepitas\"; \"before the bat\" for \"chuvach bate\" is slightly compressed. None affect fidelity or indicate memorization."
+  },
+  "last_review": {
+   "id": "s18",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley leakage: distinctive G&M renderings (e.g. \"filled it with thick branches\", \"Drink our chicha and let each of us fly over it four times, boys\", \"soothsayers\") all diverge from the candidate, whose wording tracks the K'iche' and Ximénez's Spanish (\"pusieron gran rescoldo\" → \"great embers did Xibalba pile in\"). Shared items like \"two handsome young men\" derive directly from \"dos hermosos mançebos\" in the source. No Tedlock or Christenson signatures.",
+   "issues": "Minor, non-blocking: the obscure taunt \"ca qui cahtacmul\" is omitted (disclosed in translator note); the turtle's shattering is rendered from the K'iche' (\"white flesh\") rather than the Spanish \"pepitas\"; \"before the bat\" for \"chuvach bate\" is slightly compressed. None affect fidelity or indicate memorization."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s19",
+  "initial_review": {
+   "id": "s19",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "No Goetz-Morley leakage found: candidate lacks G-M's telltale interpolated glosses (\"Puhuy [owl]\", \"Xtzul [centipede]\", \"Chitic [that walks on stilts]\"), and its phrasing tracks Ximénez's Spanish, not G-M (\"appearing as fish-men\" vs G-M \"the appearance of fishmen\"; \"did great marvels\" vs G-M \"worked many miracles\"). No Tedlock (\"poorwill\") or Christenson markers. Sole interpolation, \"the Xibalba underworld\", is a generic gloss matching no published translator. Minor: \"carried away\" slightly softens \"xcole aponoc chi nah / la echo lexos\" (thrown/placed far off).",
+   "resemblance_note": "Overlaps with published translations are limited to unavoidable shared content (plot, names, dance list as glossed by Ximénez himself); distinctive translator-specific wording and interpolations are absent."
+  },
+  "last_review": {
+   "id": "s19",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "No Goetz-Morley leakage found: candidate lacks G-M's telltale interpolated glosses (\"Puhuy [owl]\", \"Xtzul [centipede]\", \"Chitic [that walks on stilts]\"), and its phrasing tracks Ximénez's Spanish, not G-M (\"appearing as fish-men\" vs G-M \"the appearance of fishmen\"; \"did great marvels\" vs G-M \"worked many miracles\"). No Tedlock (\"poorwill\") or Christenson markers. Sole interpolation, \"the Xibalba underworld\", is a generic gloss matching no published translator. Minor: \"carried away\" slightly softens \"xcole aponoc chi nah / la echo lexos\" (thrown/placed far off).",
+   "resemblance_note": "Overlaps with published translations are limited to unavoidable shared content (plot, names, dance list as glossed by Ximénez himself); distinctive translator-specific wording and interpolations are absent."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s20",
+  "initial_review": {
+   "id": "s20",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes found: candidate lacks their hallmark renderings (\"decadence of their empire\", \"Center of the House / Center of the Harvest\", \"Green Reeds Growing in the Ground\", \"changed into stars in the sky\" framing) and contains no interpolations without basis in the K'iche' or Ximénez. Glosses like \"earth made into a bed\" and \"the whirlwind place\" derive directly from Ximénez's Spanish (\"tierra hecha cama\", \"remolino\"), not from any published English translation. No Tedlock or Christenson signatures either.",
+   "issues": "None of substance. The \"hunalpuil\" crux and the garbled ash-heap passage are handled transparently via the translator note, leaning on Ximénez for sense where the K'iche' transcription is corrupt — appropriate, and independently worded."
+  },
+  "last_review": {
+   "id": "s20",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes found: candidate lacks their hallmark renderings (\"decadence of their empire\", \"Center of the House / Center of the Harvest\", \"Green Reeds Growing in the Ground\", \"changed into stars in the sky\" framing) and contains no interpolations without basis in the K'iche' or Ximénez. Glosses like \"earth made into a bed\" and \"the whirlwind place\" derive directly from Ximénez's Spanish (\"tierra hecha cama\", \"remolino\"), not from any published English translation. No Tedlock or Christenson signatures either.",
+   "issues": "None of substance. The \"hunalpuil\" crux and the garbled ash-heap passage are handled transparently via the translator note, leaning on Ximénez for sense where the K'iche' transcription is corrupt — appropriate, and independently worded."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s22",
+  "initial_review": {
+   "id": "s22",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "Checked specifically against Goetz-Morley's distinctive renderings: candidate avoids their \"Creator and Maker\" (uses \"the one who builds, the one who shapes\"), their \"Seven Caves and Seven Ravines\" (uses \"Seven Grottoes, Seven Gorges\"), their \"blew mist into their eyes\" mirror simile (uses a different construction directly from the K'iche' xuxlabix/lemo image), their \"men of many classes\" and \"grandmother of the sun, grandmother of the light\" is shared but is a literal rendering of ratit quih ratit zac / Ximenez \"abuela de el sol, abuela de la claridad\", not an interpolation. The prayer's \"O god, thou who art in the sky and on the earth\" superficially recalls G&M's \"oh, God, who art in heaven and on earth,\" but both derive directly from \"at cabauil chicah chivleuh\"; the candidate's sky/earth wording and surrounding phrasing diverge. No interpolated content lacking a basis in the K'iche' or Ximenez was found. No Tedlock (\"Maker, Modeler\") or Christenson (\"Framer, Shaper\") echoes.",
+   "issues": "Minor, non-blocking: (1) \"xavi ca bauil xnaohinchic\" (Ximenez: \"milagrosamente consultaron otra vez\" — the god again took counsel/acted marvelously in providing the wives) is only implicitly folded into \"their wives came to be... came into being\"; the note acknowledges this deliberately, but the divine agency is somewhat underrendered. (2) The doubled plea \"keep us from wrongdoing, keep the people from wrongdoing\" is an expansive rendering of the vtzilah/lianic petitions; defensible but slightly free. Neither matches a published translator's wording."
+  },
+  "last_review": {
+   "id": "s22",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "Checked specifically against Goetz-Morley's distinctive renderings: candidate avoids their \"Creator and Maker\" (uses \"the one who builds, the one who shapes\"), their \"Seven Caves and Seven Ravines\" (uses \"Seven Grottoes, Seven Gorges\"), their \"blew mist into their eyes\" mirror simile (uses a different construction directly from the K'iche' xuxlabix/lemo image), their \"men of many classes\" and \"grandmother of the sun, grandmother of the light\" is shared but is a literal rendering of ratit quih ratit zac / Ximenez \"abuela de el sol, abuela de la claridad\", not an interpolation. The prayer's \"O god, thou who art in the sky and on the earth\" superficially recalls G&M's \"oh, God, who art in heaven and on earth,\" but both derive directly from \"at cabauil chicah chivleuh\"; the candidate's sky/earth wording and surrounding phrasing diverge. No interpolated content lacking a basis in the K'iche' or Ximenez was found. No Tedlock (\"Maker, Modeler\") or Christenson (\"Framer, Shaper\") echoes.",
+   "issues": "Minor, non-blocking: (1) \"xavi ca bauil xnaohinchic\" (Ximenez: \"milagrosamente consultaron otra vez\" — the god again took counsel/acted marvelously in providing the wives) is only implicitly folded into \"their wives came to be... came into being\"; the note acknowledges this deliberately, but the divine agency is somewhat underrendered. (2) The doubled plea \"keep us from wrongdoing, keep the people from wrongdoing\" is an expansive rendering of the vtzilah/lianic petitions; defensible but slightly free. Neither matches a published translator's wording."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s24",
+  "initial_review": {
+   "id": "s24",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley leakage detected: candidate uses \"silver\" where G-M has \"money\" (Ximenez: plata), and its glosses (\"joined to my side, to my armpit\"; \"sniffed at the tips of their staffs\"; \"Lined-up Stones, Heaped-up Sand\") diverge from G-M's distinctive wording (\"unite themselves with me\"; \"smelled the ends of their staffs and thus imagined they were eating\"). Shared items (Icoquih, Chamalcan, pierced ears) are directly in the K'iche'. No Tedlock/Christenson echoes found.",
+   "issues": "Two minor fidelity quibbles, neither translator-derived: \"e ah meva\" rendered \"the poor among their lords\" — better \"those who fasted\" (mevah = fast, not meb'a = poor; context nima meuahic supports fasting); and \"chiri na xe popon vi\" rendered \"There they had not yet assembled\" — more naturally \"there indeed they held council.\" Both small; overall sense carried faithfully paragraph by paragraph."
+  },
+  "last_review": {
+   "id": "s24",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley leakage detected: candidate uses \"silver\" where G-M has \"money\" (Ximenez: plata), and its glosses (\"joined to my side, to my armpit\"; \"sniffed at the tips of their staffs\"; \"Lined-up Stones, Heaped-up Sand\") diverge from G-M's distinctive wording (\"unite themselves with me\"; \"smelled the ends of their staffs and thus imagined they were eating\"). Shared items (Icoquih, Chamalcan, pierced ears) are directly in the K'iche'. No Tedlock/Christenson echoes found.",
+   "issues": "Two minor fidelity quibbles, neither translator-derived: \"e ah meva\" rendered \"the poor among their lords\" — better \"those who fasted\" (mevah = fast, not meb'a = poor; context nima meuahic supports fasting); and \"chiri na xe popon vi\" rendered \"There they had not yet assembled\" — more naturally \"there indeed they held council.\" Both small; overall sense carried faithfully paragraph by paragraph."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s25",
+  "initial_review": {
+   "id": "s25",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley leakage found: at G-M's distinctive points (\"within these walls,\" \"you priests and sacrificers,\" \"in search of the forests,\" Icoquih glossed as \"Venus,\" \"great red river\") the candidate instead renders the K'iche' literally (\"in this place where you now keep us, you who are honored\"; \"seek out the mountains\"; \"the one who comes out first, before the face of the sun\"; \"a great river\"). No Tedlock or Christenson echoes either; e.g. \"weeping of their hearts, of their bellies\" is a literal parse of \"nim roqueh qui qux qui pam.\"",
+   "issues": "Minor, non-blocking: (1) the Spanish-only content of p58 (Cakchiquel naming, sea crossing, founders' wives, fasting) has no K'iche' counterpart and is untranslated — consistent with missing_kiche_paragraphs, but the translator_note wrongly claims a continuous K'iche' text covered the whole section; (2) \"nima caeha\" rendered \"a great river\" without Ximénez's gloss \"agua colorada\"; (3) \"ixahquixb ah cahb\" softened to \"you who are honored\" rather than \"penitents and sacrificers.\""
+  },
+  "last_review": {
+   "id": "s25",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley leakage found: at G-M's distinctive points (\"within these walls,\" \"you priests and sacrificers,\" \"in search of the forests,\" Icoquih glossed as \"Venus,\" \"great red river\") the candidate instead renders the K'iche' literally (\"in this place where you now keep us, you who are honored\"; \"seek out the mountains\"; \"the one who comes out first, before the face of the sun\"; \"a great river\"). No Tedlock or Christenson echoes either; e.g. \"weeping of their hearts, of their bellies\" is a literal parse of \"nim roqueh qui qux qui pam.\"",
+   "issues": "Minor, non-blocking: (1) the Spanish-only content of p58 (Cakchiquel naming, sea crossing, founders' wives, fasting) has no K'iche' counterpart and is untranslated — consistent with missing_kiche_paragraphs, but the translator_note wrongly claims a continuous K'iche' text covered the whole section; (2) \"nima caeha\" rendered \"a great river\" without Ximénez's gloss \"agua colorada\"; (3) \"ixahquixb ah cahb\" softened to \"you who are honored\" rather than \"penitents and sacrificers.\""
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s26",
+  "initial_review": {
+   "id": "s26",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "Checked specifically against Goetz-Morley 1950: unavoidable convergences exist where both follow Ximénez's Spanish (morning star before the sun; sun like a man; mirror/reflection; \"not the same sun\" tradition; voracious animals), but the candidate's wording diverges from G-M's distinctive phrasing and, most importantly, contains no interpolated content lacking a basis in the K'iche' or Ximénez's Spanish. No Tedlock, Christenson, or Recinos-Spanish echoes found.",
+   "issues": "Minor interpretive choices only: \"sisimite\" for zaquicoxol (Ximénez: duende); \"allies\" for rachquixb rachcahb (Ximénez: vasallos); \"together they were all set down\" for \"juntamente fueron plantados\"; generic \"vines and the moss\" for pa ec pa tziyac. All flagged in the candidate's translator note; none rises to unfaithfulness or memorization."
+  },
+  "last_review": {
+   "id": "s26",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "Checked specifically against Goetz-Morley 1950: unavoidable convergences exist where both follow Ximénez's Spanish (morning star before the sun; sun like a man; mirror/reflection; \"not the same sun\" tradition; voracious animals), but the candidate's wording diverges from G-M's distinctive phrasing and, most importantly, contains no interpolated content lacking a basis in the K'iche' or Ximénez's Spanish. No Tedlock, Christenson, or Recinos-Spanish echoes found.",
+   "issues": "Minor interpretive choices only: \"sisimite\" for zaquicoxol (Ximénez: duende); \"allies\" for rachquixb rachcahb (Ximénez: vasallos); \"together they were all set down\" for \"juntamente fueron plantados\"; generic \"vines and the moss\" for pa ec pa tziyac. All flagged in the candidate's translator note; none rises to unfaithfulness or memorization."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s27",
+  "initial_review": {
+   "id": "s27",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "Checked specifically against Goetz-Morley 1950: the candidate diverges at their signature decision points (\"priests and sacrificers\" vs kept K'iche' \"Ahquixb and Ahcahb\"; \"larvae of the bumblebees\" vs literal \"horseflies\"; \"the Bathing Place of Tohil\" vs an awkward doubled literalism). No interpolation matching G-M without a K'iche'/Ximénez basis was found; added glosses like \"holom ocox — a certain herb\" come from Ximénez. No Tedlock, Christenson, or Recinos-Spanish echoes either.",
+   "issues": "None. Obscure passages (e.g. \"chi chaconisah quihe\" as \"overcome their tails\") are rendered hyper-literally in ways no published English translation uses, which supports independence rather than memorization."
+  },
+  "last_review": {
+   "id": "s27",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "Checked specifically against Goetz-Morley 1950: the candidate diverges at their signature decision points (\"priests and sacrificers\" vs kept K'iche' \"Ahquixb and Ahcahb\"; \"larvae of the bumblebees\" vs literal \"horseflies\"; \"the Bathing Place of Tohil\" vs an awkward doubled literalism). No interpolation matching G-M without a K'iche'/Ximénez basis was found; added glosses like \"holom ocox — a certain herb\" come from Ximénez. No Tedlock, Christenson, or Recinos-Spanish echoes either.",
+   "issues": "None. Obscure passages (e.g. \"chi chaconisah quihe\" as \"overcome their tails\") are rendered hyper-literally in ways no published English translation uses, which supports independence rather than memorization."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s28",
+  "initial_review": {
+   "id": "s28",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "Minor: para 4 renders the maidens' adorning themselves (\"se fueron a componer y a aderezar\") loosely as \"their faces were gladdened,\" and softens \"desuergonzadamente se lababan\"; sense not materially distorted.",
+   "resemblance_note": "No Goetz-Morley interpolations found: candidate uses literal source-derived phrasings (\"these additions of ours\" for añadiduras, \"wash cloths,\" \"feigned not to see\") absent from Goetz-Morley, and follows Ximénez in naming only two maidens where some published translations name three. No Tedlock or Christenson echoes."
+  },
+  "last_review": {
+   "id": "s28",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "Minor: para 4 renders the maidens' adorning themselves (\"se fueron a componer y a aderezar\") loosely as \"their faces were gladdened,\" and softens \"desuergonzadamente se lababan\"; sense not materially distorted.",
+   "resemblance_note": "No Goetz-Morley interpolations found: candidate uses literal source-derived phrasings (\"these additions of ours\" for añadiduras, \"wash cloths,\" \"feigned not to see\") absent from Goetz-Morley, and follows Ximénez in naming only two maidens where some published translations name three. No Tedlock or Christenson echoes."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s29",
+  "initial_review": {
+   "id": "s29",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley matches found: candidate avoids their signature renderings (\"painted mantles,\" \"bumblebees and wasps,\" \"wooden figures,\" retained \"chalchihuites\"), and its interpolations (\"the petition hung ready from the hands of the maidens,\" \"this was the weapon of the peoples' undoing\") all derive from Ximénez's Spanish, not any published translation. No Tedlock (\"manikins\") or Christenson (\"effigies\") echoes either.",
+   "issues": "Minor, non-blocking: (1) vonon zital rendered \"wasps and hornets\" in paragraph 1 but \"horseflies and wasps\" in paragraph 2 — inconsistent for the same K'iche' pair; (2) final clause \"how their coming about was\" is awkward for coquibexic / Sp. \"su entrada\" (their entry/assault)."
+  },
+  "last_review": {
+   "id": "s29",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley matches found: candidate avoids their signature renderings (\"painted mantles,\" \"bumblebees and wasps,\" \"wooden figures,\" retained \"chalchihuites\"), and its interpolations (\"the petition hung ready from the hands of the maidens,\" \"this was the weapon of the peoples' undoing\") all derive from Ximénez's Spanish, not any published translation. No Tedlock (\"manikins\") or Christenson (\"effigies\") echoes either.",
+   "issues": "Minor, non-blocking: (1) vonon zital rendered \"wasps and hornets\" in paragraph 1 but \"horseflies and wasps\" in paragraph 2 — inconsistent for the same K'iche' pair; (2) final clause \"how their coming about was\" is awkward for coquibexic / Sp. \"su entrada\" (their entry/assault)."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s30",
+  "initial_review": {
+   "id": "s30",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "",
+   "resemblance_note": "No Goetz-Morley leakage: the candidate departs from G&M at all distinctive points (Qamaqu vs Camucú; Sacred Bundle/Pizom Qaqal vs Bundle of Majesty/Pizom-Gagal; unaccented Balam Quitze). Apparent overlaps (like smoke; from beyond the sea where the sun rises; do not kill us) are directly grounded in the K'iche'/Ximénez source. No interpolations without source basis; no Tedlock/Christenson/Recinos-Spanish echoes found."
+  },
+  "last_review": {
+   "id": "s30",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "",
+   "resemblance_note": "No Goetz-Morley leakage: the candidate departs from G&M at all distinctive points (Qamaqu vs Camucú; Sacred Bundle/Pizom Qaqal vs Bundle of Majesty/Pizom-Gagal; unaccented Balam Quitze). Apparent overlaps (like smoke; from beyond the sea where the sun rises; do not kill us) are directly grounded in the K'iche'/Ximénez source. No interpolations without source basis; no Tedlock/Christenson/Recinos-Spanish echoes found."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s31",
+  "initial_review": {
+   "id": "s31",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No distinctive Goetz-Morley wording found. The known G&M echo (\"the only supreme judge\") was already replaced with a literal rendering of \"xahu catol ꜩih ꜩaꜩ rahauarem\". The regalia identifications (puma claws, jaguar claws, heads and hooves of deer) exceed Ximénez's Spanish but are directly derivable from the K'iche' and are convergent across Recinos, Tedlock, and Christenson rather than distinctive to any one translator; phrasing and list order do not match G&M. No Tedlock/Christenson signature phrasing (e.g. \"citadel\") present.",
+   "issues": "Minor interpretive glosses only: \"sealed from view\" (for \"qui oquinac chupan\") and \"the survivors\" are additions for clarity with no counterpart in a published translation; regalia items canabah/tatil rendered loosely (\"small drums\", \"yellow beads\"). None rise to infidelity or memorization."
+  },
+  "last_review": {
+   "id": "s31",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No distinctive Goetz-Morley wording found. The known G&M echo (\"the only supreme judge\") was already replaced with a literal rendering of \"xahu catol ꜩih ꜩaꜩ rahauarem\". The regalia identifications (puma claws, jaguar claws, heads and hooves of deer) exceed Ximénez's Spanish but are directly derivable from the K'iche' and are convergent across Recinos, Tedlock, and Christenson rather than distinctive to any one translator; phrasing and list order do not match G&M. No Tedlock/Christenson signature phrasing (e.g. \"citadel\") present.",
+   "issues": "Minor interpretive glosses only: \"sealed from view\" (for \"qui oquinac chupan\") and \"the survivors\" are additions for clarity with no counterpart in a published translation; regalia items canabah/tatil rendered loosely (\"small drums\", \"yellow beads\"). None rise to infidelity or memorization."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s32",
+  "initial_review": {
+   "id": "s32",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes found: candidate diverges from G-M's distinctive choices (e.g. uses \"Lord of the Mat, Lord of the Throne\" from Ximénez's \"Señores de trono y alfombra\" rather than G-M's untranslated \"Ahpop/Ahpop-Camhá\"; \"peace and quiet\" from \"paz y quietud\" rather than \"peace and tranquility\"). Every potentially distinctive phrase has a direct basis in Ximénez or the K'iche'; no unsourced interpolations. No Tedlock/Christenson echoes either.",
+   "issues": "None of substance. Minor: candidate preserves Ximénez's internally inconsistent \"only two great houses of the two divisions\" immediately after listing three — faithful to the source's own confusion, marked with an editorial \"[at first]\"."
+  },
+  "last_review": {
+   "id": "s32",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes found: candidate diverges from G-M's distinctive choices (e.g. uses \"Lord of the Mat, Lord of the Throne\" from Ximénez's \"Señores de trono y alfombra\" rather than G-M's untranslated \"Ahpop/Ahpop-Camhá\"; \"peace and quiet\" from \"paz y quietud\" rather than \"peace and tranquility\"). Every potentially distinctive phrase has a direct basis in Ximénez or the K'iche'; no unsourced interpolations. No Tedlock/Christenson echoes either.",
+   "issues": "None of substance. Minor: candidate preserves Ximénez's internally inconsistent \"only two great houses of the two divisions\" immediately after listing three — faithful to the source's own confusion, marked with an editorial \"[at first]\"."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s33",
+  "initial_review": {
+   "id": "s33",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "Two minor fidelity slips, neither indicative of memorization: (1) \"as though it had been struck from the sky\" misreads K'iche' \"chi icah\" (with an axe; Ximénez \"como si fuera con hacha\"; Goetz-Morley has \"cut by an ax\", so this error actually argues against leakage); (2) \"they wept, they cried out\" softens \"xeloꜩic xecacquic\" (Ximénez: bound in servitude and shot with arrows). Consider fixing both.",
+   "resemblance_note": "No Goetz-Morley echoes: candidate diverges at all diagnostic loci (e.g. \"take on the being of a serpent\" vs G-M \"changed himself into a serpent\"; \"mere stillness of blood\" vs \"coagulated blood\"), keeps manuscript spellings (Cucumatz not Gucumatz), and omits the Recinos/Goetz-Morley modern town identifications (Totonicapán, Quezaltenango, etc.), using the manuscript's K'iche' toponyms instead. No Tedlock or Christenson diction found."
+  },
+  "last_review": {
+   "id": "s33",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "Two minor fidelity slips, neither indicative of memorization: (1) \"as though it had been struck from the sky\" misreads K'iche' \"chi icah\" (with an axe; Ximénez \"como si fuera con hacha\"; Goetz-Morley has \"cut by an ax\", so this error actually argues against leakage); (2) \"they wept, they cried out\" softens \"xeloꜩic xecacquic\" (Ximénez: bound in servitude and shot with arrows). Consider fixing both.",
+   "resemblance_note": "No Goetz-Morley echoes: candidate diverges at all diagnostic loci (e.g. \"take on the being of a serpent\" vs G-M \"changed himself into a serpent\"; \"mere stillness of blood\" vs \"coagulated blood\"), keeps manuscript spellings (Cucumatz not Gucumatz), and omits the Recinos/Goetz-Morley modern town identifications (Totonicapán, Quezaltenango, etc.), using the manuscript's K'iche' toponyms instead. No Tedlock or Christenson diction found."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s34",
+  "initial_review": {
+   "id": "s34",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley-only interpolations found. \"slingers and archers\" superficially echoes Recinos/G-M and departs from Ximenez's Spanish (\"flecheros y arqueros\"), but is directly derivable from the K'iche' (vchi qha, vchi caam = arrows and cords/slings), so it does not evidence memorization. \"zapotes, matasanos, and jocotes\" matches G-M only because both follow Ximenez's Spanish verbatim. \"book of the community\" follows Ximenez's \"libro del comun\", not G-M's \"Popol Vuh\" or Tedlock's \"Council Book\". No Tedlock/Christenson echoes; manuscript orthography retained.",
+   "issues": "None material. Minor: \"slingers and archers\" is a free rendering worth keeping an eye on since it coincides with Recinos/Goetz-Morley wording, though it is supportable from the K'iche' source."
+  },
+  "last_review": {
+   "id": "s34",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley-only interpolations found. \"slingers and archers\" superficially echoes Recinos/G-M and departs from Ximenez's Spanish (\"flecheros y arqueros\"), but is directly derivable from the K'iche' (vchi qha, vchi caam = arrows and cords/slings), so it does not evidence memorization. \"zapotes, matasanos, and jocotes\" matches G-M only because both follow Ximenez's Spanish verbatim. \"book of the community\" follows Ximenez's \"libro del comun\", not G-M's \"Popol Vuh\" or Tedlock's \"Council Book\". No Tedlock/Christenson echoes; manuscript orthography retained.",
+   "issues": "None material. Minor: \"slingers and archers\" is a free rendering worth keeping an eye on since it coincides with Recinos/Goetz-Morley wording, though it is supportable from the K'iche' source."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s01",
+  "initial_review": {
+   "id": "s01",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley interpolation found. Passages that superficially echo G-M (\"all lay in suspense, all calm, in silence\"; \"who would provide, who would sustain\"; \"like a mist, like a cloud\"; \"only by a wonder, only by an act of power\") all track Ximenez's own Spanish directly (\"estaba en suspenso, en calma, en silenzio\"; \"alimentador, y sustentador\"; \"asi como la neblina, y como nube\"; \"solo por milagro, y maravilla\"), so shared wording reflects the shared source, not memorization. Diagnostic G-M-only interpolations (e.g. \"the empty expanse of the sky\", \"the placid sea, alone and tranquil\", \"cloud of dust\", \"man must appear\", \"citadel\") are absent. One borderline clause: \"Then it grew clear... found what must be made when the light was to come, while it was still night\" is loosely reminiscent of G-M's \"it became clear to them that when dawn would break, man must appear,\" but it is grounded in the K'iche' (\"ta xcalah... zac ta xevi xcalah puch vinac\") and is vaguer than G-M (omits \"man\"); Ximenez's Spanish here (\"parezieron las criaturas\") differs from both. Not judged a memorization leak. No Tedlock or Christenson echoes remain (prior Tedlock issues in the opening were already reworded).",
+   "issues": "Fidelity is solid paragraph by paragraph: prologue names and epithets, the four-fold measuring of sky and earth, the primordial stillness catalogue (including the untranslatable 'mal'/'cotz' sounds, handled with an honest gloss), the Heart of Sky triad, the water-clearing speech, and the earth-creation ending (Earth spoken, mist/cloud, crab simile, cypresses and pines, Gucumatz's rejoicing, dividing watercourses) all carried. Minor interpretive choices only: \"twice a midwife, twice a grandfather\" (camul yiom, camul mamom) is defensible; the borderline \"what must be made when the light was to come\" clause noted above is interpretive but K'iche'-grounded."
+  },
+  "last_review": {
+   "id": "s01",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley interpolation found. Passages that superficially echo G-M (\"all lay in suspense, all calm, in silence\"; \"who would provide, who would sustain\"; \"like a mist, like a cloud\"; \"only by a wonder, only by an act of power\") all track Ximenez's own Spanish directly (\"estaba en suspenso, en calma, en silenzio\"; \"alimentador, y sustentador\"; \"asi como la neblina, y como nube\"; \"solo por milagro, y maravilla\"), so shared wording reflects the shared source, not memorization. Diagnostic G-M-only interpolations (e.g. \"the empty expanse of the sky\", \"the placid sea, alone and tranquil\", \"cloud of dust\", \"man must appear\", \"citadel\") are absent. One borderline clause: \"Then it grew clear... found what must be made when the light was to come, while it was still night\" is loosely reminiscent of G-M's \"it became clear to them that when dawn would break, man must appear,\" but it is grounded in the K'iche' (\"ta xcalah... zac ta xevi xcalah puch vinac\") and is vaguer than G-M (omits \"man\"); Ximenez's Spanish here (\"parezieron las criaturas\") differs from both. Not judged a memorization leak. No Tedlock or Christenson echoes remain (prior Tedlock issues in the opening were already reworded).",
+   "issues": "Fidelity is solid paragraph by paragraph: prologue names and epithets, the four-fold measuring of sky and earth, the primordial stillness catalogue (including the untranslatable 'mal'/'cotz' sounds, handled with an honest gloss), the Heart of Sky triad, the water-clearing speech, and the earth-creation ending (Earth spoken, mist/cloud, crab simile, cypresses and pines, Gucumatz's rejoicing, dividing watercourses) all carried. Minor interpretive choices only: \"twice a midwife, twice a grandfather\" (camul yiom, camul mamom) is defensible; the borderline \"what must be made when the light was to come\" clause noted above is interpretive but K'iche'-grounded."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s08",
+  "initial_review": {
+   "id": "s08",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "None material. Shared vocabulary with Goetz-Morley (\"tizate\", \"mouth watered\") is directly sourced from Ximénez's Spanish and not diagnostic of memorization; no interpolation lacking a source basis was found.",
+   "resemblance_note": "Checked against Goetz-Morley 1950 specifically: no distinctive G-M phrasing or unsourced interpolations. Creator line avoids Tedlock's \"Maker, Modeler\" and Christenson's \"Framer, Shaper\"; overlaps with published translations are limited to source-driven cognates."
+  },
+  "last_review": {
+   "id": "s08",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "None material. Shared vocabulary with Goetz-Morley (\"tizate\", \"mouth watered\") is directly sourced from Ximénez's Spanish and not diagnostic of memorization; no interpolation lacking a source basis was found.",
+   "resemblance_note": "Checked against Goetz-Morley 1950 specifically: no distinctive G-M phrasing or unsourced interpolations. Creator line avoids Tedlock's \"Maker, Modeler\" and Christenson's \"Framer, Shaper\"; overlaps with published translations are limited to source-driven cognates."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s10",
+  "initial_review": {
+   "id": "s10",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley leakage found. G&M's distinctive renderings (House of Gloom; \"mask, your rings, and your gloves\"; House of Cold; House of Knives; \"How are you, Hun-Came?\") are all absent; the prior \"House of Gloom\" match was already replaced with \"House of Blackness\". The only near-overlap (\"Let no one pick that fruit, and let no one sit beneath that tree\") is directly dictated by Ximénez's Spanish, not an interpolation. No Tedlock or Christenson signatures either.",
+   "issues": "None of substance. Editorial bridges over corrupt/obscure clauses (\"because of their playthings, their ballgame gear\"; \"a river of plain water only\") are already flagged in the translator note and are grounded readings rather than borrowings."
+  },
+  "last_review": {
+   "id": "s10",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley leakage found. G&M's distinctive renderings (House of Gloom; \"mask, your rings, and your gloves\"; House of Cold; House of Knives; \"How are you, Hun-Came?\") are all absent; the prior \"House of Gloom\" match was already replaced with \"House of Blackness\". The only near-overlap (\"Let no one pick that fruit, and let no one sit beneath that tree\") is directly dictated by Ximénez's Spanish, not an interpolation. No Tedlock or Christenson signatures either.",
+   "issues": "None of substance. Editorial bridges over corrupt/obscure clauses (\"because of their playthings, their ballgame gear\"; \"a river of plain water only\") are already flagged in the translator note and are grounded readings rather than borrowings."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s11",
+  "initial_review": {
+   "id": "s11",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "Checked specifically against Goetz-Morley: at the known G-M signposts the candidate diverges — G-M \"In my saliva and spittle I have given you my descendants\" vs candidate \"I have given you my line\"; G-M \"Must I die, shall I be lost, if I pick one of them?\" vs candidate's paraphrase \"Will nothing happen to me if I pick one of these?\"; G-M \"gourd\" vs candidate \"bowl\" (Ximénez \"hícara\" supports either); G-M's \"the flesh is all which gives them a handsome appearance\" vs candidate \"it is the flesh that gives it honor\". No phrase adds content absent from the K'iche'/Ximénez that matches G-M (the \"three fingers\", \"Pukbal Chaj\", \"flint blade\" [zaquitoc], and \"made blind\" details are all in the source). No Tedlock coinages (Blood Moon, \"Place of Ball Game Sacrifice\" was already removed) or Christenson-specific wording detected.",
+   "issues": "Minor only: \"Will nothing happen to me if I pick one of these?\" softens the source's \"I shall not die nor be lost if I pick one\" (maquicam tah maquizach tah), and the closing \"xzalih chicu cah oc ri vabanel\" clause remains a hedged construal (\"turned back up into the sky — thus, it seems, becoming watchers\"), which the translator note discloses. Neither rises to unfaithfulness; sense is carried throughout."
+  },
+  "last_review": {
+   "id": "s11",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "Checked specifically against Goetz-Morley: at the known G-M signposts the candidate diverges — G-M \"In my saliva and spittle I have given you my descendants\" vs candidate \"I have given you my line\"; G-M \"Must I die, shall I be lost, if I pick one of them?\" vs candidate's paraphrase \"Will nothing happen to me if I pick one of these?\"; G-M \"gourd\" vs candidate \"bowl\" (Ximénez \"hícara\" supports either); G-M's \"the flesh is all which gives them a handsome appearance\" vs candidate \"it is the flesh that gives it honor\". No phrase adds content absent from the K'iche'/Ximénez that matches G-M (the \"three fingers\", \"Pukbal Chaj\", \"flint blade\" [zaquitoc], and \"made blind\" details are all in the source). No Tedlock coinages (Blood Moon, \"Place of Ball Game Sacrifice\" was already removed) or Christenson-specific wording detected.",
+   "issues": "Minor only: \"Will nothing happen to me if I pick one of these?\" softens the source's \"I shall not die nor be lost if I pick one\" (maquicam tah maquizach tah), and the closing \"xzalih chicu cah oc ri vabanel\" clause remains a hedged construal (\"turned back up into the sky — thus, it seems, becoming watchers\"), which the translator note discloses. Neither rises to unfaithfulness; sense is carried throughout."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s16",
+  "initial_review": {
+   "id": "s16",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "Minor: (1) \"the bench of honor\" adds \"of honor,\" absent from both K'iche' (\"tem\") and Ximénez (\"vn asiento\"); it does not match Goetz-Morley's distinctive wording for the scene, so it reads as translator smoothing rather than memorization, but it is an interpolation and could simply read \"the bench.\" (2) Garden scene agency inverted: candidate has the guards' \"own jaws being eaten,\" but Ximénez says the guards did not feel the ants' teeth eating their wings and tails (\"no sentían los díentes que les comían las alas, y las colas\"). Sense mostly preserved; worth a small fix. No Goetz-Morley, Tedlock, Christenson, or Recinos-Spanish signature phrasings detected; G-M markers like \"House of Gloom\" are deliberately and successfully avoided.",
+   "resemblance_note": "Checked specifically against Goetz-Morley 1950: their recognizable renderings for this episode (House of Gloom, their trial-house naming, their smoothed ball-scene framing) are absent; the candidate's only interpolation (\"bench of honor\") does not correspond to G-M's wording."
+  },
+  "last_review": {
+   "id": "s16",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "issues": "Minor: (1) \"the bench of honor\" adds \"of honor,\" absent from both K'iche' (\"tem\") and Ximénez (\"vn asiento\"); it does not match Goetz-Morley's distinctive wording for the scene, so it reads as translator smoothing rather than memorization, but it is an interpolation and could simply read \"the bench.\" (2) Garden scene agency inverted: candidate has the guards' \"own jaws being eaten,\" but Ximénez says the guards did not feel the ants' teeth eating their wings and tails (\"no sentían los díentes que les comían las alas, y las colas\"). Sense mostly preserved; worth a small fix. No Goetz-Morley, Tedlock, Christenson, or Recinos-Spanish signature phrasings detected; G-M markers like \"House of Gloom\" are deliberately and successfully avoided.",
+   "resemblance_note": "Checked specifically against Goetz-Morley 1950: their recognizable renderings for this episode (House of Gloom, their trial-house naming, their smoothed ball-scene framing) are absent; the candidate's only interpolation (\"bench of honor\") does not correspond to G-M's wording."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s23",
+  "initial_review": {
+   "id": "s23",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No distinctive Goetz-Morley phrasing or interpolations found: candidate uses \"Tulan Zu ... seven caves, the seven gorges\" (not G-M's \"Tulán-Zuivá, Seven Caves and Seven Ravines\"), \"the one who forms you, the one who shapes you\" (not \"Creator and Maker\"), and its sandal-fire and bat-wing phrases track Ximénez's Spanish directly. No Tedlock/Christenson/Recinos-Spanish echoes beyond source-forced content.",
+   "issues": "Minor free renderings only: \"carried on the back of Balam Quitzé\" for \"pendiente que lo llevaba\", and \"And these were not the only tribes\" loosely glossing \"only the Quiché accompanied them\" — neither a sense error nor a translator echo. The previously flagged fix (Tohil/Avilix/Hacavitz as the ones rejoicing at the Xibalba messenger) is correctly in place."
+  },
+  "last_review": {
+   "id": "s23",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No distinctive Goetz-Morley phrasing or interpolations found: candidate uses \"Tulan Zu ... seven caves, the seven gorges\" (not G-M's \"Tulán-Zuivá, Seven Caves and Seven Ravines\"), \"the one who forms you, the one who shapes you\" (not \"Creator and Maker\"), and its sandal-fire and bat-wing phrases track Ximénez's Spanish directly. No Tedlock/Christenson/Recinos-Spanish echoes beyond source-forced content.",
+   "issues": "Minor free renderings only: \"carried on the back of Balam Quitzé\" for \"pendiente que lo llevaba\", and \"And these were not the only tribes\" loosely glossing \"only the Quiché accompanied them\" — neither a sense error nor a translator echo. The previously flagged fix (Tohil/Avilix/Hacavitz as the ones rejoicing at the Xibalba messenger) is correctly in place."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s35",
+  "initial_review": {
+   "id": "s35",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes: their distinctive prayer phrasing (\"giver of richness,\" \"good roads, beautiful, level roads,\" \"fall on the high road or on the low road\"), \"marvelous kings,\" \"hanged by the Spaniards,\" and \"Donadiú (Alvarado)\" are all absent; every candidate phrase that superficially resembles G-M is directly attested in the K'iche'/Ximénez Spanish. No Tedlock (\"Keeper of the Mat,\" \"lords of genius\") or Christenson echoes either.",
+   "issues": "None of substance. Minor: \"silver\" for puac/plata and \"jade\" for xit are conventional and sourced; the \"he of the mat / he of the second mat\" glosses are independent literal glosses flagged in the translator note."
+  },
+  "last_review": {
+   "id": "s35",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes: their distinctive prayer phrasing (\"giver of richness,\" \"good roads, beautiful, level roads,\" \"fall on the high road or on the low road\"), \"marvelous kings,\" \"hanged by the Spaniards,\" and \"Donadiú (Alvarado)\" are all absent; every candidate phrase that superficially resembles G-M is directly attested in the K'iche'/Ximénez Spanish. No Tedlock (\"Keeper of the Mat,\" \"lords of genius\") or Christenson echoes either.",
+   "issues": "None of substance. Minor: \"silver\" for puac/plata and \"jade\" for xit are conventional and sourced; the \"he of the mat / he of the second mat\" glosses are independent literal glosses flagged in the translator note."
+  },
+  "revised": null,
+  "rounds_run": 1
+ },
+ {
+  "id": "s36",
+  "initial_review": {
+   "id": "s36",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes: their distinctive phrases (\"which existed before the dawn\", \"in the time of the Spaniards\", \"Great Stewards\", \"no longer any book in which to see it\") are absent; candidate renders literally from the K'iche' instead, and \"Ahau Q'alel now\" is directly sourced (ahau ꜫalel vacamic). Tedlock's \"mothers of the word, fathers of the word\" and Christenson phrasing also avoided.",
+   "issues": "None significant. \"It was they who raised them up\" is a mildly interpretive gloss of \"e alanel, e vchuch tzih, e vcahau tzih\" but stays within the source's sense and matches no published translator."
+  },
+  "last_review": {
+   "id": "s36",
+   "extraction_matched": true,
+   "faithful": true,
+   "resembles_known_translation": false,
+   "resemblance_note": "No Goetz-Morley echoes: their distinctive phrases (\"which existed before the dawn\", \"in the time of the Spaniards\", \"Great Stewards\", \"no longer any book in which to see it\") are absent; candidate renders literally from the K'iche' instead, and \"Ahau Q'alel now\" is directly sourced (ahau ꜫalel vacamic). Tedlock's \"mothers of the word, fathers of the word\" and Christenson phrasing also avoided.",
+   "issues": "None significant. \"It was they who raised them up\" is a mildly interpretive gloss of \"e alanel, e vchuch tzih, e vcahau tzih\" but stays within the source's sense and matches no published translator."
+  },
+  "revised": null,
+  "rounds_run": 1
+ }
+]
