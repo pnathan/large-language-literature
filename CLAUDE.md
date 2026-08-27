@@ -12,9 +12,11 @@ docs/                   ← GitHub Pages root (deployed on push to trunk)
   index.html            ← neutral top-level landing page (links to each work)
   gilgamesh/            ← published Gilgameš editions
   faerie-queene/        ← published Faerie Queene edition
+  sappho/               ← published Sappho edition
   guest-house/          ← published Guest-House (Masnavi V) edition
 gilgamesh/              ← Gilgameš source: eBL data, translations, Python builders
 faerie-queene/          ← Faerie Queene source: README, provenance notes
+sappho/                 ← Sappho source: witness/fragment data, translations, Python builder
 guest-house/            ← Guest-House source: translation, source research
 .github/workflows/      ← Pages deployment workflow
 ```
@@ -50,10 +52,35 @@ pattern (sigil, title, language/author line, description, stats).
 4. Add a card to `docs/index.html`.
 5. Push to `trunk` (or merge a PR) — Pages deploys automatically.
 
+## Working practices for new translation works
+
+- **One PR per work.** All commits for a given work — scaffolding, sourced witness
+  data, translations, the published page — land on a single branch/PR from start to
+  finish. Don't split one work's development across multiple PRs; open the next PR
+  only when starting the next work.
+- **Model/effort tiers for subagents.** Default to the cheapest tier that can do the
+  job: Haiku for mechanical work (fetching, formatting, list compilation); Sonnet at
+  low effort for translation and source-verification agents (literary/philological
+  judgment still needs Sonnet-class capability, but rarely needs high effort).
+  Reserve higher tiers/effort only when a task demonstrably needs it. The Fable
+  review pass (below) is chosen for an independent voice, not swapped for cost
+  reasons.
+- **No existing translations.** Translate only from primary-source witnesses
+  (manuscripts, papyri, testimonia, or equivalent) fetched and cited for real —
+  never from a model's memory of the source text, and never by consulting an
+  existing published translation. Record every distinct witness/recension and its
+  variants rather than silently collapsing to one "best" text. Each work's own
+  `CLAUDE.md` documents its specific source landscape; this is the shared baseline.
+- **Fable review.** Every subagent-produced translation gets an independent review
+  pass on the Fable model, checking fidelity to the source and flagging any
+  suspicious resemblance to a known published translation (a sign of memorization
+  leakage rather than genuine translation).
+
 ## Current works
 
 | Work | Source | Language | Scale |
 |------|--------|----------|-------|
 | The Epic of Gilgameš | eBL critical editions (Akkadian) | Akkadian → English | 2,683 SB lines, 882 OB lines, 3 editions |
 | The Faerie Queene | J. C. Smith, Clarendon 1909 | Early Modern English → modernized | 3,856 stanzas, 75 cantos, 38 plates |
+| Sappho | Papyri and quoting ancient authors (Greek) | Greek → English | 33 fragments, avg. 3.7 witnesses each |
 | The Guest-House passages | Nicholson critical edition (Masnavi V) | Classical Persian → English | 35 couplets, 2 passages + framing |
