@@ -13,9 +13,11 @@ docs/                   ← GitHub Pages root (deployed on push to trunk)
   gilgamesh/            ← published Gilgameš editions
   faerie-queene/        ← published Faerie Queene edition
   sappho/               ← published Sappho edition
+  guest-house/          ← published Guest-House (Masnavi V) edition
 gilgamesh/              ← Gilgameš source: eBL data, translations, Python builders
 faerie-queene/          ← Faerie Queene source: README, provenance notes
 sappho/                 ← Sappho source: witness/fragment data, translations, Python builder
+guest-house/            ← Guest-House source: translation, source research
 .github/workflows/      ← Pages deployment workflow
 ```
 
@@ -81,3 +83,4 @@ pattern (sigil, title, language/author line, description, stats).
 | The Epic of Gilgameš | eBL critical editions (Akkadian) | Akkadian → English | 2,683 SB lines, 882 OB lines, 3 editions |
 | The Faerie Queene | J. C. Smith, Clarendon 1909 | Early Modern English → modernized | 3,856 stanzas, 75 cantos, 38 plates |
 | Sappho | Papyri and quoting ancient authors (Greek) | Greek → English | 33 fragments, avg. 3.7 witnesses each |
+| The Guest-House passages | Nicholson critical edition (Masnavi V) | Classical Persian → English | 35 couplets, 2 passages + framing |

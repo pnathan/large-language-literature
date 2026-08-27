@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Guest-House &middot; Rumi, Masnavi V</title>
+<meta name="description" content="A complete annotated translation of Masnavi V.3644–3646 and V.3676–3707 — the two didactic passages behind the popular poem &quot;The Guest House&quot; — with the Persian text, line numbers, notes, and an account of what the popular composite removes.">
+<meta property="og:title" content="The Guest-House · Rumi, Masnavi V">
+<meta property="og:description" content="Not a poem: the two Masnavi passages behind &quot;The Guest House,&quot; translated in full and in order.">
+<meta property="og:type" content="book">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&family=Noto+Naskh+Arabic:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6efe1;
+  --bg2:#fcf8f0;
+  --ink:#2b2118;
+  --dim:#665748;
+  --faint:#93826d;
+  --lapis:#2b4a8c;
+  --gold:#a07c2a;
+  --rule:rgba(43,33,24,.14);
+  --edge:rgba(43,33,24,.10);
+  --wash:rgba(160,124,42,.06);
+}
+@media(prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#15120d;
+    --bg2:#1d1912;
+    --ink:#e8dfcb;
+    --dim:#ab9b84;
+    --faint:#7f7160;
+    --lapis:#96b0e4;
+    --gold:#d2ab4d;
+    --rule:rgba(232,223,203,.15);
+    --edge:rgba(232,223,203,.11);
+    --wash:rgba(210,171,77,.07);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15120d;
+  --bg2:#1d1912;
+  --ink:#e8dfcb;
+  --dim:#ab9b84;
+  --faint:#7f7160;
+  --lapis:#96b0e4;
+  --gold:#d2ab4d;
+  --rule:rgba(232,223,203,.15);
+  --edge:rgba(232,223,203,.11);
+  --wash:rgba(210,171,77,.07);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  background-color:var(--bg);
+  color:var(--ink);
+  font-family:"EB Garamond",Georgia,'Times New Roman',serif;
+  font-size:18px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+::selection{background:var(--gold);color:var(--bg)}
+a{color:var(--lapis)}
+
+/* ---------- header ---------- */
+header{
+  text-align:center;
+  padding:clamp(52px,10vh,92px) 22px clamp(28px,5vh,46px);
+  border-bottom:1px solid var(--rule);
+  background:linear-gradient(180deg,var(--wash),transparent 78%);
+}
+.ornament{
+  font-family:"Amiri","Noto Naskh Arabic",serif;
+  font-size:40px;line-height:1;color:var(--gold);
+}
+.fa-title{
+  font-family:"Amiri","Noto Naskh Arabic",serif;
+  font-size:clamp(34px,7vw,52px);
+  line-height:1.75;
+  color:var(--ink);
+  margin-top:14px;
+  direction:rtl;
+}
+h1{
+  font-family:"Amiri",Georgia,serif;
+  font-weight:400;
+  font-size:clamp(24px,4.4vw,34px);
+  letter-spacing:.06em;
+  margin-top:2px;
+  color:var(--ink);
+}
+.byline{
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.72rem;font-weight:400;
+  letter-spacing:.2em;text-transform:uppercase;
+  color:var(--faint);
+  margin-top:16px;
+}
+.contents{
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--faint);
+  margin-top:26px;
+}
+.contents a{
+  color:var(--dim);text-decoration:none;
+  border-bottom:1px solid transparent;
+  white-space:nowrap;
+}
+.contents a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+.contents .sep{color:var(--edge);margin:0 .45em}
+
+/* ---------- shell ---------- */
+main{max-width:780px;margin:0 auto;padding:0 22px 88px}
+.back{
+  display:inline-block;margin:26px 0 4px;
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--faint);text-decoration:none;
+}
+.back:hover{color:var(--gold)}
+
+section{margin-top:56px;scroll-margin-top:18px}
+h2{
+  font-family:"Amiri",Georgia,serif;
+  font-weight:400;font-size:clamp(21px,3.4vw,27px);
+  letter-spacing:.02em;color:var(--ink);
+  padding-bottom:10px;margin-bottom:20px;
+  border-bottom:1px solid var(--rule);
+}
+h2 .n{
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.6em;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold);display:block;margin-bottom:5px;
+}
+h3{
+  font-family:"Amiri",Georgia,serif;
+  font-weight:400;font-size:1.12rem;color:var(--dim);
+  margin:34px 0 12px;letter-spacing:.02em;
+}
+p{margin-bottom:14px}
+p:last-child{margin-bottom:0}
+em{font-style:italic}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;color:var(--dim)}
+
+/* ---------- colophon / metadata ---------- */
+.colophon{
+  margin-top:34px;
+  border:1px solid var(--edge);border-radius:4px;
+  background:var(--bg2);
+  padding:20px 24px;
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.8rem;font-weight:300;line-height:1.6;
+}
+.colophon .m{display:flex;gap:14px;padding:5px 0;border-bottom:1px solid var(--edge)}
+.colophon .m:last-child{border-bottom:0}
+.colophon .k{
+  flex:0 0 12rem;color:var(--faint);
+  letter-spacing:.09em;text-transform:uppercase;font-size:.68rem;
+  padding-top:.18em;
+}
+.colophon .v{color:var(--dim)}
+@media(max-width:620px){
+  .colophon .m{display:block}
+  .colophon .k{margin-bottom:2px}
+}
+
+/* ---------- the lede notice ---------- */
+.lede{
+  border-left:3px solid var(--gold);
+  background:var(--wash);
+  padding:20px 24px;
+  font-size:1.08rem;
+  color:var(--ink);
+}
+.lede strong{font-weight:500;color:var(--ink)}
+
+/* ---------- the three-move table ---------- */
+.table-wrap{overflow-x:auto;margin:24px 0 18px;border:1px solid var(--edge);border-radius:4px;background:var(--bg2)}
+table.moves{border-collapse:collapse;width:100%;font-size:.92rem}
+table.moves th{
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.64rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--faint);text-align:left;
+  padding:11px 16px;border-bottom:1px solid var(--rule);white-space:nowrap;
+}
+table.moves td{
+  padding:13px 16px;vertical-align:top;color:var(--dim);
+  border-bottom:1px solid var(--edge);
+}
+table.moves tr:last-child td{border-bottom:0}
+table.moves td.sec{
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.78rem;letter-spacing:.06em;color:var(--gold);white-space:nowrap;
+}
+table.moves td.ln{
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.78rem;color:var(--lapis);white-space:nowrap;font-variant-numeric:tabular-nums;
+}
+
+/* ---------- couplets ---------- */
+.couplet{
+  display:grid;
+  grid-template-columns:3.1rem minmax(0,1fr) minmax(0,1fr);
+  column-gap:1.7rem;
+  padding:16px 0;
+  border-bottom:1px solid var(--edge);
+}
+.couplet:last-child{border-bottom:0}
+.couplet:target{background:var(--wash)}
+.num{grid-column:1;grid-row:1}
+.num a{
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.68rem;letter-spacing:.05em;
+  font-variant-numeric:tabular-nums;
+  color:var(--faint);text-decoration:none;
+  display:block;padding-top:.55em;
+}
+.num a:hover{color:var(--gold)}
+.fa{
+  grid-column:3;grid-row:1;
+  font-family:"Amiri","Noto Naskh Arabic","Scheherazade New",'Segoe UI',Tahoma,serif;
+  font-size:1.34rem;line-height:2.05;
+  text-align:right;color:var(--ink);
+  margin-bottom:0;
+}
+.en{
+  grid-column:2;grid-row:1;
+  font-size:1.02rem;line-height:1.66;color:var(--ink);
+  margin-bottom:0;
+}
+.en em{color:var(--dim)}
+@media(max-width:760px){
+  .couplet{grid-template-columns:1fr;row-gap:8px;padding:18px 0}
+  .num,.fa,.en{grid-column:1}
+  .num{grid-row:1}
+  .fa{grid-row:2;font-size:1.26rem}
+  .en{grid-row:3}
+  .num a{padding-top:0}
+}
+
+/* ---------- the omitted story ---------- */
+.story{
+  border:1px solid var(--edge);
+  border-left:3px solid var(--lapis);
+  border-radius:0 4px 4px 0;
+  background:var(--bg2);
+  padding:20px 24px;
+  margin:30px 0 6px;
+  font-size:.98rem;color:var(--dim);
+}
+.story h3{margin:0 0 10px;color:var(--lapis);font-size:1.05rem}
+
+/* ---------- apparatus ---------- */
+ul.gloss{list-style:none;margin:0}
+ul.gloss li{
+  padding:11px 0 11px 1.1rem;
+  border-bottom:1px solid var(--edge);
+  font-size:.98rem;color:var(--dim);
+  text-indent:-1.1rem;
+}
+ul.gloss li:last-child{border-bottom:0}
+ul.gloss strong{font-weight:500;color:var(--ink)}
+p.caveat{
+  margin-top:16px;padding-top:14px;border-top:1px solid var(--edge);
+  font-size:.92rem;color:var(--faint);
+}
+ol.removed{margin:18px 0 18px 1.35rem;font-size:.98rem;color:var(--dim)}
+ol.removed li{margin-bottom:11px;padding-left:.35rem}
+ol.removed li::marker{color:var(--gold);font-family:Inter,sans-serif;font-size:.82em}
+ol.removed strong{font-weight:500;color:var(--ink)}
+ul.sources-list{list-style:none;margin:0;font-size:.94rem;color:var(--dim)}
+ul.sources-list li{
+  padding:10px 0 10px 1.1rem;text-indent:-1.1rem;
+  border-bottom:1px solid var(--edge);
+}
+ul.sources-list li:last-child{border-bottom:0}
+
+/* ---------- inline Persian in prose ---------- */
+.fa-in{
+  font-family:"Amiri","Noto Naskh Arabic","Scheherazade New",'Segoe UI',Tahoma,serif;
+  font-size:1.12em;line-height:1;
+}
+
+/* ---------- footer ---------- */
+footer{
+  margin-top:72px;padding-top:36px;
+  border-top:1px solid var(--rule);
+  text-align:center;
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.76rem;font-weight:300;letter-spacing:.04em;
+  color:var(--faint);
+}
+footer .mark{font-family:"Amiri","Noto Naskh Arabic",serif;font-size:20px;color:var(--gold);margin-bottom:16px}
+footer a{color:var(--gold);text-decoration:none;border-bottom:1px solid var(--edge)}
+footer a:hover{border-bottom-color:var(--gold)}
+footer p{margin-bottom:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="ornament" aria-hidden="true">&#x06DE;</div>
+  <p class="fa-title" lang="fa" dir="rtl">&#x645;&#x647;&#x645;&#x627;&#x646;&#x200c;&#x62e;&#x627;&#x646;&#x647;</p>
+  <h1>The Guest-House</h1>
+  <p class="byline">R&#x16B;m&#x12B; &middot; Masnavi-yi Ma&#x2BF;navi, Book V &middot; a complete annotated translation</p>
+  <nav class="contents">
+    <a href="#what">What it actually is</a><span class="sep">&middot;</span><a href="#part-i">Part&nbsp;I</a><span class="sep">&middot;</span><a href="#part-ii">Part&nbsp;II</a><span class="sep">&middot;</span><a href="#notes">Notes</a><span class="sep">&middot;</span><a href="#terms">Terminology</a><span class="sep">&middot;</span><a href="#composite">The composite</a><span class="sep">&middot;</span><a href="#sources">Sources</a>
+  </nav>
+</header>
+<main>
+<a class="back" href="../">&larr; Large-Language Literature</a>
+
+<section id="what">
+  <h2><span class="n">The framing</span>What &ldquo;The Guest House&rdquo; actually is</h2>
+  <div class="lede">
+<p>The poem English readers know as "The Guest House" (via Coleman Barks) is a <strong>modern composite</strong>. Rumi wrote no free-standing poem of that name. The material comes from two short didactic passages in Book V of the Masnavi, separated by a story:</p>
+  </div>
+<div class="table-wrap">
+<table class="moves">
+  <thead><tr><th>Passage</th><th>Lines</th><th>Editorial rubric</th></tr></thead>
+  <tbody>
+    <tr><td class="sec">§155</td><td class="ln">V.3644–3646</td><td>"Parable of the human body as a guest-house, and the different thoughts as different guests…" (the rubric invokes Abraham — <em>Khalīl</em> — who honored every guest, "believer and infidel, faithful and treacherous")</td></tr>
+    <tr><td class="sec">§156</td><td class="ln">V.3647–3675</td><td>The story of the guest whom the householder's wife resented: rain set in, and "the guest is left on our hands" (<bdi class="fa-in">مهمان در گردن ما ماند</bdi>) — the very idiom of line 3645</td></tr>
+    <tr><td class="sec">§157</td><td class="ln">V.3676–3707</td><td>"Parable of the thought that comes into the heart each day, likened to a new guest…"</td></tr>
+  </tbody>
+</table>
+</div>
+<p>The popular composite takes the three couplets of §155, a handful of couplets from the opening of §157, and one couplet from its middle (V.3693, "meet them at the door laughing"), and presents them as a single poem. This edition translates <strong>both didactic passages in full, in their true order</strong>, and summarizes the intervening story, so the reader can see exactly what the composite keeps and what it discards.</p>
+  <div class="colophon">
+  <div class="m"><span class="k">Author</span><span class="v">Jalāl al-Dīn Muḥammad Rūmī (1207–1273)</span></div>
+  <div class="m"><span class="k">Text</span><span class="v"><em>Masnavi-yi Maʿnavi</em>, Book V, lines 3644–3646 and 3676–3707</span></div>
+  <div class="m"><span class="k">Language</span><span class="v">Classical New Persian (13th century), with two Arabic couplets (V.3694–3695)</span></div>
+  <div class="m"><span class="k">Critical edition of reference</span><span class="v">Reynold A. Nicholson, <em>The Mathnawí of Jaláluʾddín Rúmí</em>, Gibb Memorial Series (1925–1940)</span></div>
+  <div class="m"><span class="k">Persian text verified against</span><span class="v">the received critical text as reproduced at Ganjoor (V §§155–157) and masnavi.net</span></div>
+  <div class="m"><span class="k">Translation date</span><span class="v">2026</span></div>
+  </div>
+</section>
+
+<section id="part-i">
+  <h2><span class="n">&sect;155 &middot; V.3644&ndash;3646</span>Part I &mdash; The Body as Guest-House</h2>
+<div class="couplet" id="l3644">
+  <div class="num"><a href="#l3644" aria-label="line 3644">3644</a></div>
+  <p class="fa" lang="fa" dir="rtl">هست مهمان‌خانه این تن ای جوان<br>هر صباحی ضیف نو آید دوان</p>
+  <p class="en">This body, O youth, is a guest-house:<br>every morning a new guest comes running.</p>
+</div>
+<div class="couplet" id="l3645">
+  <div class="num"><a href="#l3645" aria-label="line 3645">3645</a></div>
+  <p class="fa" lang="fa" dir="rtl">هین مگو کین ماند اندر گردنم<br>که هم اکنون باز پرد در عدم</p>
+  <p class="en">Beware! Do not say, "This one will be left on my hands" —<br>for even now it flies back into non-existence.</p>
+</div>
+<div class="couplet" id="l3646">
+  <div class="num"><a href="#l3646" aria-label="line 3646">3646</a></div>
+  <p class="fa" lang="fa" dir="rtl">هرچه آید از جهان غیب‌وش<br>در دلت ضیف است او را دار خوش</p>
+  <p class="en">Whatever comes from the unseen-seeming world<br>into your heart is a guest: entertain it well.</p>
+</div>
+  <div class="story">
+    <h3>The intervening story (V.3647&ndash;3675, &sect;156)</h3>
+<p>Not translated here in verse: a comic-didactic tale of a host whose wife complains that the rain has set in and the guest "is left on our hands." It dramatizes exactly the attitude line 3645 forbids — the guest treated as a burden rather than a sending — and Rumi returns from it to the parable at 3676. Any edition that omits it (as the popular composite does) should say so; here it is omitted, with this notice.</p>
+  </div>
+</section>
+
+<section id="part-ii">
+  <h2><span class="n">&sect;157 &middot; V.3676&ndash;3707</span>Part II &mdash; The Thought as Daily Guest</h2>
+<div class="couplet" id="l3676">
+  <div class="num"><a href="#l3676" aria-label="line 3676">3676</a></div>
+  <p class="fa" lang="fa" dir="rtl">هر دمی فکری چو مهمان عزیز<br>آید اندر سینه‌ات هر روز نیز</p>
+  <p class="en">Each moment a thought, like an honored guest,<br>arrives in your breast — each day, anew.</p>
+</div>
+<div class="couplet" id="l3677">
+  <div class="num"><a href="#l3677" aria-label="line 3677">3677</a></div>
+  <p class="fa" lang="fa" dir="rtl">فکر را ای جان به جای شخص دان<br>زانک شخص از فکر دارد قدر و جان</p>
+  <p class="en">Regard thought, O soul, as a person,<br>for a person has worth and life from thought.</p>
+</div>
+<div class="couplet" id="l3678">
+  <div class="num"><a href="#l3678" aria-label="line 3678">3678</a></div>
+  <p class="fa" lang="fa" dir="rtl">فکر غم گر راه شادی می‌زند<br>کارسازیهای شادی می‌کند</p>
+  <p class="en">If the thought of grief waylays joy on its road,<br>it is working joy's preparations.</p>
+</div>
+<div class="couplet" id="l3679">
+  <div class="num"><a href="#l3679" aria-label="line 3679">3679</a></div>
+  <p class="fa" lang="fa" dir="rtl">خانه می‌روبد به تندی او ز غیر<br>تا در آید شادی نو ز اصل خیر</p>
+  <p class="en">It fiercely sweeps the house clear of all that is other,<br>so new joy may enter from the origin of good.</p>
+</div>
+<div class="couplet" id="l3680">
+  <div class="num"><a href="#l3680" aria-label="line 3680">3680</a></div>
+  <p class="fa" lang="fa" dir="rtl">می‌فشاند برگ زرد از شاخ دل<br>تا بروید برگ سبز متصل</p>
+  <p class="en">It shakes the yellow leaves from the bough of the heart,<br>so green leaves may grow on, one after another.</p>
+</div>
+<div class="couplet" id="l3681">
+  <div class="num"><a href="#l3681" aria-label="line 3681">3681</a></div>
+  <p class="fa" lang="fa" dir="rtl">می‌کند بیخ سرور کهنه را<br>تا خرامد ذوق نو از ماورا</p>
+  <p class="en">It uproots the root of stale joy,<br>so new delight may come strolling in from the Beyond.</p>
+</div>
+<div class="couplet" id="l3682">
+  <div class="num"><a href="#l3682" aria-label="line 3682">3682</a></div>
+  <p class="fa" lang="fa" dir="rtl">غم کند بیخ کژ پوسیده را<br>تا نماید بیخ رو پوشیده را</p>
+  <p class="en">Grief pulls up the crooked, rotten root,<br>to disclose the root that was hidden from view.</p>
+</div>
+<div class="couplet" id="l3683">
+  <div class="num"><a href="#l3683" aria-label="line 3683">3683</a></div>
+  <p class="fa" lang="fa" dir="rtl">غم ز دل هر چه بریزد یا برد<br>در عوض حقا که بهتر آورد</p>
+  <p class="en">Whatever grief spills from the heart, or carries off,<br>in exchange — in truth — it brings back better.</p>
+</div>
+<div class="couplet" id="l3684">
+  <div class="num"><a href="#l3684" aria-label="line 3684">3684</a></div>
+  <p class="fa" lang="fa" dir="rtl">خاصه آن را که یقینش باشد این<br>که بود غم بندهٔ اهل یقین</p>
+  <p class="en">Above all for the one whose certainty is this:<br>that grief is the servant of the people of certainty.</p>
+</div>
+<div class="couplet" id="l3685">
+  <div class="num"><a href="#l3685" aria-label="line 3685">3685</a></div>
+  <p class="fa" lang="fa" dir="rtl">گر ترش‌رویی نیارد ابر و برق<br>رز بسوزد از تبسمهای شرق</p>
+  <p class="en">If cloud and lightning brought no sour faces,<br>the vine would be scorched by the smiles of the sun.</p>
+</div>
+<div class="couplet" id="l3686">
+  <div class="num"><a href="#l3686" aria-label="line 3686">3686</a></div>
+  <p class="fa" lang="fa" dir="rtl">سعد و نحس اندر دلت مهمان شود<br>چون ستاره خانه خانه می‌رود</p>
+  <p class="en">Fortune and misfortune lodge as guests in your heart,<br>going house to house, as a star through its mansions.</p>
+</div>
+<div class="couplet" id="l3687">
+  <div class="num"><a href="#l3687" aria-label="line 3687">3687</a></div>
+  <p class="fa" lang="fa" dir="rtl">آن زمان که او مقیم برج تست<br>باش هم‌چون طالعش شیرین و چست</p>
+  <p class="en">While it resides in your tower,<br>be sweet and nimble, as befits its ascendant —</p>
+</div>
+<div class="couplet" id="l3688">
+  <div class="num"><a href="#l3688" aria-label="line 3688">3688</a></div>
+  <p class="fa" lang="fa" dir="rtl">تا که با مه چون شود او متصل<br>شکر گوید از تو با سلطان دل</p>
+  <p class="en">so that when it comes into conjunction with the moon,<br>it may speak thanks of you to the Sultan of the heart.</p>
+</div>
+<div class="couplet" id="l3689">
+  <div class="num"><a href="#l3689" aria-label="line 3689">3689</a></div>
+  <p class="fa" lang="fa" dir="rtl">هفت سال ایوب با صبر و رضا<br>در بلا خوش بود با ضیف خدا</p>
+  <p class="en">Seven years Job, in patience and contentment,<br>was gracious in affliction toward God's guest —</p>
+</div>
+<div class="couplet" id="l3690">
+  <div class="num"><a href="#l3690" aria-label="line 3690">3690</a></div>
+  <p class="fa" lang="fa" dir="rtl">تا چو وا گردد بلای سخت‌رو<br>پیش حق گوید به صدگون شکر او</p>
+  <p class="en">so that when hard-faced affliction turned back,<br>it would speak of him before God with a hundred thanksgivings:</p>
+</div>
+<div class="couplet" id="l3691">
+  <div class="num"><a href="#l3691" aria-label="line 3691">3691</a></div>
+  <p class="fa" lang="fa" dir="rtl">کز محبت با من محبوب‌کش<br>رو نکرد ایوب یک لحظه ترش</p>
+  <p class="en">"Out of love, Job never for one moment<br>turned a sour face on me — the slayer of loved ones."</p>
+</div>
+<div class="couplet" id="l3692">
+  <div class="num"><a href="#l3692" aria-label="line 3692">3692</a></div>
+  <p class="fa" lang="fa" dir="rtl">از وفا و خجلت علم خدا<br>بود چون شیر و عسل او با بلا</p>
+  <p class="en">From faithfulness, and from shame before God's knowledge,<br>he was as milk and honey with affliction.</p>
+</div>
+<div class="couplet" id="l3693">
+  <div class="num"><a href="#l3693" aria-label="line 3693">3693</a></div>
+  <p class="fa" lang="fa" dir="rtl">فکر در سینه در آید نو به نو<br>خند خندان پیش او تو باز رو</p>
+  <p class="en">Thought comes into the breast ever anew:<br>go out to meet it laughing and smiling —</p>
+</div>
+<div class="couplet" id="l3694">
+  <div class="num"><a href="#l3694" aria-label="line 3694">3694</a></div>
+  <p class="fa" lang="ar" dir="rtl">که اعذنی خالقی من شره<br>لا تحرمنی انل من بره</p>
+  <p class="en"><em>(Arabic)</em> "My Creator, shield me from its evil;<br>do not deprive me — let me attain its good.</p>
+</div>
+<div class="couplet" id="l3695">
+  <div class="num"><a href="#l3695" aria-label="line 3695">3695</a></div>
+  <p class="fa" lang="ar" dir="rtl">رب اوزعنی لشکر ما اری<br>لا تعقب حسرة لی ان مضی</p>
+  <p class="en"><em>(Arabic)</em> Lord, dispose me to give thanks for what I see;<br>let no regret pursue me once it has passed."</p>
+</div>
+<div class="couplet" id="l3696">
+  <div class="num"><a href="#l3696" aria-label="line 3696">3696</a></div>
+  <p class="fa" lang="fa" dir="rtl">آن ضمیر رو ترش را پاس‌دار<br>آن ترش را چون شکر شیرین شمار</p>
+  <p class="en">Keep watch over that sour-faced thought within;<br>reckon that sour one sweet as sugar.</p>
+</div>
+<div class="couplet" id="l3697">
+  <div class="num"><a href="#l3697" aria-label="line 3697">3697</a></div>
+  <p class="fa" lang="fa" dir="rtl">ابر را گر هست ظاهر رو ترش<br>گلشن آرنده‌ست ابر و شوره‌کش</p>
+  <p class="en">Though the cloud is outwardly sour of face,<br>the cloud brings the rose-garden and draws off the salt-waste.</p>
+</div>
+<div class="couplet" id="l3698">
+  <div class="num"><a href="#l3698" aria-label="line 3698">3698</a></div>
+  <p class="fa" lang="fa" dir="rtl">فکر غم را تو مثال ابر دان<br>با ترش تو رو ترش کم کن چنان</p>
+  <p class="en">Take the thought of grief to be like the cloud:<br>do not turn so sour a face upon the sour.</p>
+</div>
+<div class="couplet" id="l3699">
+  <div class="num"><a href="#l3699" aria-label="line 3699">3699</a></div>
+  <p class="fa" lang="fa" dir="rtl">بوک آن گوهر به دست او بود<br>جهد کن تا از تو او راضی رود</p>
+  <p class="en">It may be that the pearl is in its hand:<br>strive, then, that it leave you well pleased.</p>
+</div>
+<div class="couplet" id="l3700">
+  <div class="num"><a href="#l3700" aria-label="line 3700">3700</a></div>
+  <p class="fa" lang="fa" dir="rtl">ور نباشد گوهر و نبود غنی<br>عادت شیرین خود افزون کنی</p>
+  <p class="en">And if there is no pearl, and it is not rich,<br>you will have added to your own sweet habit.</p>
+</div>
+<div class="couplet" id="l3701">
+  <div class="num"><a href="#l3701" aria-label="line 3701">3701</a></div>
+  <p class="fa" lang="fa" dir="rtl">جای دیگر سود دارد عادتت<br>ناگهان روزی بر آید حاجتت</p>
+  <p class="en">Elsewhere that habit will profit you;<br>one day, suddenly, your need will be met.</p>
+</div>
+<div class="couplet" id="l3702">
+  <div class="num"><a href="#l3702" aria-label="line 3702">3702</a></div>
+  <p class="fa" lang="fa" dir="rtl">فکرتی کز شادیت مانع شود<br>آن به امر و حکمت صانع شود</p>
+  <p class="en">The thought that holds you back from your joy<br>comes by the command and wisdom of the Maker.</p>
+</div>
+<div class="couplet" id="l3703">
+  <div class="num"><a href="#l3703" aria-label="line 3703">3703</a></div>
+  <p class="fa" lang="fa" dir="rtl">تو مخوان دو چار دانگش ای جوان<br>بوک نجمی باشد و صاحب‌قران</p>
+  <p class="en">Do not price it at a few small coins, O youth:<br>it may be a star — lord of the conjunction.</p>
+</div>
+<div class="couplet" id="l3704">
+  <div class="num"><a href="#l3704" aria-label="line 3704">3704</a></div>
+  <p class="fa" lang="fa" dir="rtl">تو مگو فرعیست او را اصل گیر<br>تا بوی پیوسته بر مقصود چیر</p>
+  <p class="en">Do not call it a branch: take it as the root,<br>that you may always prevail toward your aim.</p>
+</div>
+<div class="couplet" id="l3705">
+  <div class="num"><a href="#l3705" aria-label="line 3705">3705</a></div>
+  <p class="fa" lang="fa" dir="rtl">ور تو آن را فرع گیری و مضر<br>چشم تو در اصل باشد منتظر</p>
+  <p class="en">But if you take it as branch, and harmful,<br>your eye will sit waiting upon the root —</p>
+</div>
+<div class="couplet" id="l3706">
+  <div class="num"><a href="#l3706" aria-label="line 3706">3706</a></div>
+  <p class="fa" lang="fa" dir="rtl">زهر آمد انتظار اندر چشش<br>دایما در مرگ باشی زان روش</p>
+  <p class="en">and waiting is poison on the tongue:<br>by that road you live forever in death.</p>
+</div>
+<div class="couplet" id="l3707">
+  <div class="num"><a href="#l3707" aria-label="line 3707">3707</a></div>
+  <p class="fa" lang="fa" dir="rtl">اصل دان آن را بگیرش در کنار<br>بازره دایم ز مرگ انتظار</p>
+  <p class="en">Know it for the root — take it in your embrace —<br>and be delivered, forever, from the death of waiting.</p>
+</div>
+</section>
+
+<section id="notes">
+  <h2><span class="n">Apparatus</span>Notes on the Persian</h2>
+<ul class="gloss">
+  <li><strong>3644</strong> — The received text is <bdi class="fa-in">هست مهمان‌خانه این تن ای جوان</bdi>; <em>mehmān-khāneh</em> ("guest-house") is a single compound and Rumi's own word for the conceit. The meter throughout is <em>ramal-i musaddas-i maḥdhūf</em> (fāʿilātun fāʿilātun fāʿilun).</li>
+  <li><strong>3645</strong> — <bdi class="fa-in">کین</bdi> = <bdi class="fa-in">که این</bdi>, "that this." <bdi class="fa-in">ماند اندر گردنم</bdi>, literally "will remain on my neck," is the ordinary idiom "will be left on my hands" — the §156 rubric uses it verbatim. <bdi class="fa-in">باز پرد</bdi> = "will fly <em>back</em>" (<bdi class="fa-in">باز</bdi> as adverb "back/again"), completing the image: what came from non-existence returns to it.</li>
+  <li><strong>3646</strong> — <bdi class="fa-in">غیب‌وش</bdi> is one compound: "resembling the <em>ghayb</em>," the unseen — a Qurʾanic category. The line itself, not any imported terminology, is the poem's warrant for reading the guests as sent from beyond.</li>
+  <li><strong>3677</strong> — <bdi class="fa-in">دان</bdi> is a plain imperative: "regard/know." Rumi instructs the reader to treat thought <em>as</em> a person, because the person's worth and life derive from thought.</li>
+  <li><strong>3678</strong> — <bdi class="fa-in">راه زدن</bdi> is the highwayman's verb: "to waylay, to rob a traveler." The paradox is exact: grief appears as a robber blocking joy's road while secretly serving as joy's steward. Renderings that make grief "open the way" flatten the image.</li>
+  <li><strong>3679</strong> — <bdi class="fa-in">غیر</bdi>, "other," carries its Sufi resonance here: the house swept of all that is <em>other</em> (than God), so that joy may come from the <em>aṣl-i khayr</em>, the origin of good.</li>
+  <li><strong>3681</strong> — <bdi class="fa-in">از ماورا</bdi> = <em>az mā-warā</em>, "from the Beyond" (one word, <bdi class="fa-in">ماوراء</bdi>) — not "from us/from you."</li>
+  <li><strong>3684</strong> — <bdi class="fa-in">اهل یقین</bdi>, "the people of certainty": grief is their <em>servant</em> (<bdi class="fa-in">بنده</bdi>). This couplet, dropped from popular versions, states the theology the parable teaches.</li>
+  <li><strong>3689</strong> — <bdi class="fa-in">ضیف خدا</bdi>, "God's guest," said of Job's affliction — the poem's own explicit statement that the unwelcome guest is divinely sent.</li>
+  <li><strong>3694–3695</strong> — Two couplets in Arabic, in the register of prayer; 3695 echoes Qurʾanic <bdi class="fa-in">اوزعنی</bdi> ("dispose me to give thanks," cf. Q 27:19, 46:15). Popular versions omit them entirely.</li>
+  <li><strong>3702</strong> — <bdi class="fa-in">صانع</bdi>, "the Maker": the thought that blocks joy comes "by the command and wisdom of the Maker." This — not any word for "decree" — is the text's actual assertion of divine sending.</li>
+  <li><strong>3703</strong> — <bdi class="fa-in">دو چار دانگ</bdi>, "two or four dāngs" (sixths of a dirham): small change. <bdi class="fa-in">صاحب‌قران</bdi>, "lord of the (auspicious) conjunction," continues the astrological figure of 3686–3688.</li>
+</ul>
+</section>
+
+<section id="terms">
+  <h2><span class="n">Apparatus</span>Key Terminology (corrected)</h2>
+<ul class="gloss">
+  <li><strong><bdi class="fa-in">ضیف</bdi> (ḍayf)</strong> — Arabic loanword, "guest." Not itself a technical Sufi term; the theology is carried by the poem's statements that guests come from the <em>ghayb</em> (3646), that affliction is <em>God's</em> guest (3689), and that the blocking thought comes from the <em>Maker</em> (3702). The §155 rubric ties the whole to Abraham's hospitality (<bdi class="fa-in">اکرام ضیف</bdi>, echoing the Qurʾanic guests of Ibrāhīm).</li>
+  <li><strong><bdi class="fa-in">عدم</bdi> (ʿadam)</strong> — "non-existence." A genuinely weighty term in Rumi's metaphysics: forms continually arise from and return to non-existence, which he elsewhere treats as the hidden reservoir of being (see Chittick, <em>The Sufi Path of Love</em>). It is <strong>not</strong> <em>fanā</em> (the mystic's annihilation in God); in 3645 it is the <em>guest</em> that returns to non-existence.</li>
+  <li><strong><bdi class="fa-in">غیب</bdi> (ghayb)</strong> — "the unseen," a Qurʾanic category; the guests' point of origin (3646).</li>
+  <li><strong><bdi class="fa-in">فکر</bdi> (fikr)</strong> — "thought." A real Sufi technical term (discursive reflection, conventionally paired with <em>dhikr</em>), and §157's rubric itself likens each day's <em>fikr</em> to a new guest. Here it spans intrusive thought, mood, and reflection at once.</li>
+  <li><strong><bdi class="fa-in">غیر</bdi> (ghayr)</strong> — "other"; in Sufi usage, all that is other than God (<em>mā siwā Allāh</em>). The word doing the quiet theological work in 3679.</li>
+  <li><strong><bdi class="fa-in">اصل خیر</bdi> (aṣl-i khayr)</strong> — "the origin of good." Lexically it names no divine person; in context — the house swept of <em>ghayr</em> so joy may enter from the origin of good, and delight "strolling in from the Beyond" (3681) — a divine referent is a natural interpretive reading, offered here as interpretation.</li>
+  <li><strong><bdi class="fa-in">اهل یقین</bdi> (ahl al-yaqīn)</strong> — "the people of certainty," whose servant grief is (3684).</li>
+</ul>
+<p class="caveat"><em>(Terms such as qadr, fanā, tawḥīd, tajallī do not occur in this passage and are not claimed for it. Where earlier drafts of this project asserted them as textual content, that has been corrected: the passage's Islamic theology is explicit enough — ghayb, ḍayf-i Khudā, ṣāniʿ, the Arabic prayers, Job — without importing vocabulary it does not use.)</em></p>
+</section>
+
+<section id="composite">
+  <h2><span class="n">Analysis</span>What the Popular Composite Removes</h2>
+<p>Set against the full text above, the Barks-type composite ("This being human is a guest house…") omits or flattens:</p>
+<ol class="removed">
+  <li><strong>The frame of divine sending</strong> — "God's guest" (3689), "by the command and wisdom of the Maker" (3702), the guests arriving from the <em>ghayb</em> (3646).</li>
+  <li><strong>The Job exemplum</strong> (3689–3692) — the parable's scriptural anchor, shared by Bible and Qurʾan.</li>
+  <li><strong>The Arabic prayers</strong> (3694–3695) — the only lines in the passage addressed directly to God, and the model response Rumi actually prescribes to the arriving thought.</li>
+  <li><strong>Grief as servant of the people of certainty</strong> (3684) — the doctrinal summary of the whole.</li>
+  <li><strong>The waylaying paradox</strong> (3678) — grief as a highway robber secretly in joy's service, not merely a cleaner.</li>
+  <li><strong>The sweep "of all that is other"</strong> (3679) — <em>ghayr</em>, the one quietly technical Sufi word in the passage.</li>
+  <li><strong>The astrological conceit</strong> (3686–3688, 3703) and the closing ethics of the "root" (3704–3707), including the striking final teaching: treat the unwelcome thought as <em>root</em>, not branch, and be freed "from the death of waiting."</li>
+  <li><strong>The story of §156</strong> — the negative exemplum the composite silently jumps over.</li>
+</ol>
+<p>The composite is not thereby worthless — it preserves the guest-house conceit and the welcome-your-sorrow instruction — but it converts a theologically specific Islamic text into generic counsel. The full passage shows what was cut.</p>
+</section>
+
+<section id="sources">
+  <h2><span class="n">Provenance</span>Sources</h2>
+<ul class="sources-list">
+  <li>Reynold A. Nicholson, <em>The Mathnawí of Jaláluʾddín Rúmí</em>, 8 vols., Gibb Memorial Series (1925–1940) — edition of reference for text and line numbering.</li>
+  <li>Ganjoor, Masnavi Book V, §§155–157 (received critical text): ganjoor.net/moulavi/masnavi/daftar5/sh155, /sh156, /sh157.</li>
+  <li>masnavi.net, Book V line index (Persian text with Nicholson's translation).</li>
+  <li>Franklin D. Lewis, <em>Rumi: Past and Present, East and West</em> (Oxford: Oneworld, 2000) — on the popular translations.</li>
+  <li>William C. Chittick, <em>The Sufi Path of Love: The Spiritual Teachings of Rumi</em> (SUNY Press, 1983) — on <em>ʿadam</em> and Rumi's metaphysics.</li>
+</ul>
+</section>
+
+<footer>
+  <p class="mark" aria-hidden="true">&#x06DE;</p>
+  <p>An original translation made against the Persian of the received critical text.</p>
+  <p>Source on <a href="https://github.com/pnathan/large-language-literature">GitHub</a></p>
+</footer>
+</main>
+</body>
+</html>
