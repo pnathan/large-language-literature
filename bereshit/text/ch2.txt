@@ -16,13 +16,15 @@ note: Witness variant: the Hebrew has 'on the seventh day' for the finishing; th
   τῇ ἕκτῃ, 'on the sixth day'. The English follows the Hebrew. וַיִּשְׁבֹּת, 'ceased', the verb from
   which שַׁבָּת is named; the verse does not yet name an institution. מְלַאכְתּוֹ, 'his work', twice.
   The English gives the ceasing two verbs, 'quit, dropped away'.
-app: בַּיּוֹם הַשְּׁבִיעִי: on the seventh day (Rashi), or by the seventh day, with the work done on the
-  sixth (Ibn Ezra).
+app: בַּיּוֹם הַשְּׁבִיעִי: he finished at the entry of the seventh day (Rashi); or 'finishing' is not an
+  act, and the work was done on the sixth (Ibn Ezra).
 rashi: The Holy One knows his times to the hair's breadth: he entered the seventh day exactly, and
   it seemed as if he finished on it. Another reading: the world lacked rest; the sabbath came, rest
   came, and the work was finished.
-ibn-ezra: He rejects the reading that the day itself was a created work. The ב here means 'before':
-  his work, which he did on the sixth day before the sabbath.
+ibn-ezra: He rejects the reading that the day itself was a created work, and he reports and sets
+  aside the reading of ב as 'before'. Completing is not a deed (וכלוי מעשה איננה מעשה): 'he finished
+  on the seventh' means he did no work on it. The work was done on the sixth day, before the
+  sabbath.
 = 0 1 2 3 | Divinity finished on the seventh day | 'and Divinity finished on the seventh day'
 = 4 5 6 | his work that he had made; | 'his work which he had made'
 = 7 8 9 | and on the seventh day he quit, | 'and he ceased on the seventh day'
@@ -91,7 +93,7 @@ app: אֵד: vapour or cloud (Rashi, Ibn Ezra); or an underground flow, a spring
 rashi: For the creation of the human: he raised the deep and watered the clouds, to soak the dust,
   and the human was formed, as a baker pours water and then kneads the dough.
 ibn-ezra: אֵד is like smoke (כמו עשן). A vapour went up from the ground by the power of the lights,
-  watered the ground, and made it sprout. He rejects the reading 'and no vapour went up'.
+  watered the ground, and made it sprout. He records the Gaon's reading 'and no vapour went up' (ולא אד יעלה).
 = 0 1 2 3 | A vapour went up out of the ground | 'and a vapour goes up from the ground'
 = 4 5 6 7 8 | and watered the whole face of the red earth. | 'and watered all the face of the אֲדָמָה'
 

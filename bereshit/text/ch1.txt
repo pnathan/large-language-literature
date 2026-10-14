@@ -217,7 +217,7 @@ note: The day formula of 1:5 repeats. שְׁלִישִׁי, 'third', an ordinal.
 = 4 5 | A third day. | 'day third'
 
 @ 1:14
-> Divinity said: let there be lamps set in the hammered plate of the heavens, splitting day from night.
+> Divinity said: let there be lamps in the hammered plate of the heavens, splitting day from night.
 > Let them be for marks and meeting-times, and for days and years.
 note: מְאֹרֹת, 'light-holders', from אוֹר, 'light'; written without the vowel letter ו. The text names
   neither sun nor moon. מוֹעֲדִים, 'appointed times', from יָעַד, 'to appoint a meeting'. Each
@@ -227,19 +227,20 @@ app: מוֹעֲדִים: seasons, or appointed times and festivals.
 rashi: The signs are eclipses, a bad sign for the world. מוֹעֲדִים names the festivals still to come
   (עַל שֵׁם הֶעָתִיד). מְאֹרֹת is written short, and is read as מְאֵרָה, 'curse': the fourth day
   was a day of sickness for children.
-ibn-ezra: מוֹעֲדִים are times, hours. The signs are eclipses and the like.
-= 0 1 2 3 4 5 | Divinity said: let there be lamps set in the hammered plate of the heavens, | 'and Divinity said: let there be lights in the רָקִיעַ of the heavens'
+ibn-ezra: אֹתֹת are moments (רגעים), מוֹעֲדִים are hours (שעות); the signs may also be eclipses of moon
+  and sun (ויתכן).
+= 0 1 2 3 4 5 | Divinity said: let there be lamps in the hammered plate of the heavens, | 'and Divinity said: let there be lights in the רָקִיעַ of the heavens'
 = 6 7 8 9 10 | splitting day from night. | 'to separate between the day and between the night'
 = 11 12 | Let them be for marks | 'and let them be for signs'
 = 13 | and meeting-times, | 'and for appointed times'
 = 14 15 | and for days and years. | 'and for days and years'
 
 @ 1:15
-> Let them be lamps set in the hammered plate of the heavens, to shed light on the ground.
+> Let them be lamps in the hammered plate of the heavens, to shed light on the ground.
 > So.
 note: לְהָאִיר, 'to give light', the causative of אוֹר: the verb ties the lamps to the light of 1:3.
   The LXX has εἰς φαῦσιν, 'for illumination'.
-= 0 1 2 3 | Let them be lamps set in the hammered plate of the heavens, | 'and let them be for lights in the רָקִיעַ of the heavens'
+= 0 1 2 3 | Let them be lamps in the hammered plate of the heavens, | 'and let them be for lights in the רָקִיעַ of the heavens'
 = 4 5 6 | to shed light on the ground. | 'to give light upon the ground'
 = 7 8 | So. | 'and it was so'
 
@@ -431,7 +432,8 @@ note: וְכִבְשֻׁהָ, 'and subdue it', from כָּבַשׁ, to press dow
   1:26. בְּכָל חַיָּה הָרֹמֶשֶׂת, 'every living thing that crawls'. The LXX has κατακυριεύσατε,
   'lord it over', and adds πάντων τῶν κτηνῶν καὶ πάσης τῆς γῆς, 'all the cattle and all the
   earth', which the Hebrew lacks here.
-ibn-ezra: As at 1:22, a blessing, not a command.
+ibn-ezra: (On 1:26.) In form a blessing, as for the water creatures; in the human it is a commandment
+  handed down by the ancients, who attached it to this verse (רק היא מצוה העתיקוה קדמונינו).
 = 0 1 2 | Divinity blessed them. | 'and Divinity blessed them'
 = 3 4 5 | Divinity said to them: | 'and Divinity said to them'
 = 6 | Bear fruit, | 'bear fruit'

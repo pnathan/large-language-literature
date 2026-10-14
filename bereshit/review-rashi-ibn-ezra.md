@@ -28,7 +28,7 @@ Rashi and Ibn Ezra are the normative traditional interpreters for this edition.
 | 3:16 | "your conceiving" | "your pregnancy" | צַעַר הָעִבּוּר | ההריון |
 | 4:12, 4:14 | "a stumbler" | "a drifter" | no leave to stay in one place | נד is the brother of נע |
 | 4:13 | "too great to lift, too great to forgive" | "too great to bear" | bear (as a question) | punishment too great to bear |
-| 4:15 | "whoever kills Qayin will be paid back sevenfold" | "whoever kills Qayin— vengeance will be taken sevenfold" | threat unfinished; vengeance on Qayin after seven generations | עד שבעה דורות |
+| 4:15 | "whoever kills Qayin will be paid back sevenfold" | "whoever kills Qayin— in seven generations vengeance will be taken" | threat unfinished; vengeance on Qayin after seven generations | עד שבעה דורות |
 
 ## Changes in the English: fidelity to the Hebrew
 
@@ -36,7 +36,9 @@ Rashi and Ibn Ezra are the normative traditional interpreters for this edition.
 |---|---|---|---|
 | 1:12 | "fruit tree making fruit" | "a tree making fruit" | the Hebrew is עֵץ עֹשֶׂה פְּרִי, not עֵץ פְּרִי |
 | 1:14 | "Let them be marks and meeting-times, days and years" | "Let them be for marks and meeting-times, and for days and years" | each noun has לְ |
+| 1:14, 1:15 | "lamps set in" | "lamps in" | "set" is not in the Hebrew |
 | 1:17 | "gave them a place in" | "set them in" | "a place" is not in the Hebrew |
+| 3:22 | "knowing good and harm" | "to know good and harm" | לָדַעַת is an infinitive |
 | 1:24 | "after their kind … each after its kind" | "after its kind … after its kind" | לְמִינָהּ is singular; "each" is not in the Hebrew |
 | 1:28 | "every crawler that crawls" | "every beast that crawls" | the Hebrew has חַיָּה |
 | 2:2–2:3 | "the work he had made"; "dropped all the work" | "his work"; "dropped away from all his work" | מְלַאכְתּוֹ and מִכָּל |
@@ -82,6 +84,25 @@ Rashi and Ibn Ezra are the normative traditional interpreters for this edition.
 
 ## Review of these changes
 
-An independent review pass on the Fable model ran on the changed verses and on
-every Rashi and Ibn Ezra entry. Its findings and their disposition are recorded
-below.
+An independent review pass on the Fable model ran on the 30 changed verses and on
+every Rashi and Ibn Ezra entry in chapters 1–4, against the fetched Hebrew. It
+found no fidelity error beyond the first item, and confirmed every LXX claim in
+the changed verses. Findings and disposition:
+
+1. 1:14 "lamps set in": "set" not in the Hebrew. Fixed, and at 1:15.
+2. 4:15 "sevenfold" kept against both commentators. Fixed: "in seven generations
+   vengeance will be taken".
+3. 3:7 Rashi's reading (the fig is the tree they ate from) was missing. Added.
+4. 2:2 Ibn Ezra misattributed: he reports and sets aside ב = 'before'. Fixed.
+5. 1:28 Ibn Ezra "a blessing, not a command": unsupported; his note at 1:26 says
+   it is a commandment by tradition. Fixed.
+6. 4:7 Rashi points to the Targum; the content was supplied from the Targum. Fixed
+   to say so.
+7. 3:15 note credited Ibn Ezra with Rashi's distinction. Fixed.
+8. 2:6 Ibn Ezra records, does not reject, the Gaon's reading. Fixed.
+9. 4:2 Rashi: one twin with Qayin, two with Hevel. Fixed.
+10. 1:14 Ibn Ezra: אֹתֹת are moments; eclipses only a possibility. Fixed.
+11. 3:22 "knowing good and harm" matched a published translation over seven
+    words; the Hebrew is an infinitive. Fixed: "to know good and harm".
+12. 3:5 and 1:16: phrasing shared with published translations, largely forced by
+    the Hebrew. Kept; low risk.

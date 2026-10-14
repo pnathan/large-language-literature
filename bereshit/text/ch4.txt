@@ -24,7 +24,7 @@ rashi: 'The human had known' already before the events of chapter 3 (כְּבָ�
 > Qayin was a worker of the red earth.
 note: וַתֹּסֶף לָלֶדֶת, 'she added to bear'. הֶבֶל, 'breath, vapour'. עֹבֵד אֲדָמָה, 'worker of the
   ground', the verb of 2:5 and 2:15. The LXX has Αβελ, a transliteration.
-rashi: 'She added' implies that twin sisters were born with each brother (a homiletic reading). Hevel became a
+rashi: (On 4:1.) A twin sister was born with Qayin, and two with Hevel (a homiletic reading). Hevel became a
   shepherd because the ground had been cursed.
 = 0 1 2 3 4 5 | She bore again: his brother Hevel. | 'and she added to bear his brother, הֶבֶל'
 = 6 7 8 9 | Hevel was a herder of flocks. | 'and הֶבֶל was a shepherd of flock'
@@ -80,7 +80,8 @@ note: שְׂאֵת, 'lifting', an infinitive with no object: the face lifted (ag
   rightly, have you not sinned? Be still'.
 app: שְׂאֵת: lifting of the face, or lifting of the sin (forgiveness).
 app: לַפֶּתַח: at the door of the house, at the door of the grave, or at the opening of the mouth.
-rashi: שְׂאֵת follows the Aramaic Targum: it will be forgiven you. 'At the door' is the door of your
+rashi: For שְׂאֵת he refers to the Aramaic Targum (כְּתַרְגּוּמוֹ פֵּרוּשׁוֹ), whose rendering is
+  forgiveness; the Targum itself is not among the fetched sources. 'At the door' is the door of your
   grave, where your sin is kept. The desire is that of the evil inclination (יֵצֶר הָרָע), which
   always longs to make you fall. 'You will rule it': if you wish, you will overcome it.
 ibn-ezra: שְׂאֵת is the lifting of the face (שאת פנים), against 'his face fell'. He reports the door
@@ -178,13 +179,12 @@ note: גֵּרַשְׁתָּ, 'you have driven out', the verb of 3:24. אֶסָ�
 
 @ 4:15
 > The Lord said to him: Therefore, whoever kills Qayin—
-> vengeance will be taken sevenfold.
+> in seven generations vengeance will be taken.
 > The Lord set a sign for Qayin, so no one who found him would strike him.
 note: לָכֵן, 'therefore'. The threat against the killer is not finished: the sentence breaks after 'whoever
   kills Qayin'. שִׁבְעָתַיִם יֻקָּם, 'sevenfold it will be avenged'; the verb is passive and names
-  no one. Rashi and Ibn Ezra both take the vengeance to fall on Qayin himself after seven
-  generations, not on his killer; the English is written so as not to name the killer as its
-  object. אוֹת, 'sign'; its form is not told. The LXX reads οὐχ οὕτως, 'not so', for לָכֵן (as if
+  no one. Rashi and Ibn Ezra both read שִׁבְעָתַיִם as 'at seven generations', not a multiple, and
+  the vengeance as falling on Qayin himself, not on his killer; the English follows them. אוֹת, 'sign'; its form is not told. The LXX reads οὐχ οὕτως, 'not so', for לָכֵן (as if
   לֹא כֵן), and ἑπτὰ ἐκδικούμενα παραλύσει, 'he will release seven things avenged'.
 app: לָכֵן: therefore, or 'not so' (the LXX).
 app: שִׁבְעָתַיִם: sevenfold, or after seven generations.
@@ -197,7 +197,7 @@ ibn-ezra: שִׁבְעָתַיִם means 'until seven generations' (עד שבע�
   does not reveal the sign (והכתוב לא גלה האות).
 = 0 1 2 3 | The Lord said to him: Therefore, | 'and the Lord said to him: therefore'
 = 4 5 6 | whoever kills Qayin— | 'every killer of קַיִן'; the threat is left unfinished
-= 7 8 | vengeance will be taken sevenfold. | 'sevenfold it will be avenged'; passive, with no agent named
+= 7 8 | in seven generations vengeance will be taken. | 'sevenfold it will be avenged'; read as seven generations, with Rashi and Ibn Ezra
 = 9 10 11 12 13 14 15 16 17 | The Lord set a sign for Qayin, so no one who found him would strike him. | 'and the Lord set for קַיִן a sign, that none who finds him should strike him'
 
 @ 4:16
