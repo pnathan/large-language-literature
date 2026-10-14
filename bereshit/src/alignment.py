@@ -212,8 +212,8 @@ A = {
  ((5, 6, 7), 'every seed-seeding plant', "et kol esev: 'every herb'. 'Seed-spitting' is the stretch of zoreah zera'."),
  ((8, 9, 10), '', "paseq and zoreah zera', carried above."),
  ((11, 12, 13, 14, 15), 'over the whole face of the ground,', "asher al penei kol ha'arets."),
- ((16, 17, 18), 'and every fruit tree', "ve'et kol ha'ets: 'and every tree'."),
- ((19, 20, 21, 22, 23, 24), 'that holds seed-fruit in itself.', "asher bo peri ets zoreah zara': 'in which is fruit of a tree sowing seed'."),
+ ((16, 17, 18), 'and every tree', "ve'et kol ha'ets: 'and every tree'."),
+ ((19, 20, 21, 22, 23, 24), 'that has fruit with seed in it.', "asher bo peri ets zoreah zara': 'in which is fruit of a tree sowing seed'."),
  ((25, 26, 27), 'For you: to eat.', "lakhem yihyeh le'okhlah: 'for you it shall be for food'."),
 ],
 '1:30': [
@@ -247,7 +247,7 @@ A = {
  ((10, 11, 12, 13, 14, 15), 'all the work that Divinity cut in the making.', "mikol melakhto asher bara' elohim la'asot: head terms 'cut', 'make'."),
 ],
 '2:4': [
- ((0,), 'These are the births—', "'elleh: 'these are'. 'Births' is the physical English of toledot."),
+ ((0,), 'This is the table of', "'elleh: 'this is'. Toledot is the table of ancestors and the tale of how they came to be."),
  ((1,), '', "toledot: kept visible as the Hebrew word; 'bearing-out' is its gloss."),
  ((2, 3), 'of heavens and ground,', "hashamayim vehaaretz: 'the heavens and the earth'."),
  ((4,), 'when they were cut,', "behibare'am: 'in their being cut'. 'Cut' is the head term for bara'."),
@@ -261,8 +261,8 @@ A = {
  ((19, 20, 21, 22, 23), 'and no human to work the red earth.', "veadam ayin la'avod et ha'adamah: 'and no human to work the red earth'."),
 ],
 '2:6': [
- ((0, 1, 2, 3), 'A seep welled up out of the ground', "ved ya'aleh min ha'arets: 'a seep rose from the ground'. 'Came up' is the physical stretch of 'alah. 'Welled up' is the physical stretch of 'alah for a seep."),
- ((4, 5, 6, 7, 8), 'and soaked the whole face of the red earth.', "vehishkah et kol penei ha'adamah: 'and watered all the face of the red earth'. 'Soaked' is the physical stretch of hishqah."),
+ ((0, 1, 2, 3), 'A seep would well up out of the ground', "ved ya'aleh min ha'arets: 'a seep rose from the ground'. 'Came up' is the physical stretch of 'alah. 'Welled up' is the physical stretch of 'alah for a seep."),
+ ((4, 5, 6, 7, 8), 'and would soak the whole face of the red earth.', "vehishkah et kol penei ha'adamah: 'and watered all the face of the red earth'. 'Soaked' is the physical stretch of hishqah."),
 ],
 '2:7': [
  ((0, 1, 2, 3, 4, 5, 6, 7), 'The Lord God potted the human out of the dust of the red earth,', "wayyitzer the Lord elohim et ha'adam afar min ha'adamah: 'formed the human, dust from the ground'. 'Potted' is the potter's stretch of yatzar."),
