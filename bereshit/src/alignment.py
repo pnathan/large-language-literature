@@ -13,8 +13,8 @@ A = {
 ],
 '1:2': [
  ((0, 1), 'The ground was', "veha'arets hayetah: 'and the ground was'."),
- ((2,), 'a waste and a void.', "tohu: 'waste, emptiness'. 'Gape' is the physical stretch."),
- ((3,), 'Emptiness, nothing in it.', "vavohu: 'and emptiness'. The second image is the physical stretch of the pair."),
+ ((2,), 'waste and void.', "tohu: 'waste, emptiness'. 'Gape' is the physical stretch."),
+ ((3,), '', "vavohu: 'and emptiness'. The second image is the physical stretch of the pair."),
  ((4, 5, 6, 7), 'And dark was on the face of the deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
  ((8, 9), 'And the wind of Divinity was', "veruach elohim: 'and the wind of Divinity'. Wind is the head term for ruach (lexicon.md)."),
  ((10,), 'fluttering over the face of the waters.', "merachefet: fluttering, the root of Deut 32:11's eagle over its young."),
@@ -125,7 +125,7 @@ A = {
 ],
 '1:20': [
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
- ((2, 3, 4, 5), 'let the waters swarm with a swarm of breathing things;', "yishretzu hamayim sheretz nefesh chayah: 'let the waters swarm with a swarm of living breath'. 'Seethe' is the physical stretch of sharats. 'Crawl' is the physical head for sharats/sheretz (small creeping things)."),
+ ((2, 3, 4, 5), 'let the waters swarm with a swarm of living breath;', "yishretzu hamayim sheretz nefesh chayah: 'let the waters swarm with a swarm of living breath'. 'Seethe' is the physical stretch of sharats. 'Crawl' is the physical head for sharats/sheretz (small creeping things)."),
  ((6,), '', 'chayah: carried above.'),
  ((7, 8), 'and let fliers flutter', "veof yeofef: 'and bird flying'. The doubled verb of flight."),
  ((9, 10), 'over the ground,', "'al ha'arets: 'over the ground'."),
@@ -144,7 +144,7 @@ A = {
  ((4,), 'Bear fruit!', "peru: 'break out, bear fruit'. 'Burst' is the physical stretch of parah."),
  ((5,), 'Grow many!', "urevu: 'and multiply'. 'Swarm' is the physical stretch of rabah."),
  ((6, 7, 8, 9), 'Fill the waters in the seas!', "umil'u et hamayim bayyammim: 'and fill the waters in the seas'."),
- ((10, 11, 12), 'Let the fliers breed on the ground.', "vehaof yirev ba'arets: 'and let the bird multiply on the ground'. 'Breed' is the physical stretch of rabah."),
+ ((10, 11, 12), 'Let the fliers grow many on the ground.', "vehaof yirev ba'arets: 'and let the bird multiply on the ground'. 'Breed' is the physical stretch of rabah."),
 ],
 '1:23': [
  ((0, 1), 'Evening came.', 'vayehi erev.'),
@@ -154,7 +154,7 @@ A = {
 '1:24': [
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
  ((2, 3), 'let the ground bring out', "totse ha'arets: 'let the ground bring out'. 'Belch out' is the physical stretch of yatsa'."),
- ((4, 5, 6), 'breathing things after their kind:', "nefesh chayah lemina: 'living breath after its kind'."),
+ ((4, 5, 6), 'living breath after their kind:', "nefesh chayah lemina: 'living breath after its kind'."),
  ((7,), 'cattle,', 'behemah.'),
  ((8,), 'crawlers,', "remes: 'creeping thing'."),
  ((9, 10), 'beasts of the ground,', "chayto 'erets: 'its beast of the ground' (the construct, 1:24 note)."),
@@ -171,7 +171,7 @@ A = {
 '1:26': [
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
  ((2,), 'let us make', "na'aseh: first person plural cohortative, 'let us make'. Head term 'make'; the plural is kept in the commentary."),
- ((3,), 'a human, an earthling,', "'adam: 'the human'. 'The red one' is the physical stretch from adamah (2:7)."),
+ ((3,), 'a human,', "'adam: 'the human'. 'The red one' is the physical stretch from adamah (2:7)."),
  ((4,), 'in our image,', 'betsalmenu.'),
  ((5,), 'as our likeness.', "kidmuteinu: 'as our likeness'. 'After' is the KJV's word and is not used."),
  ((6,), 'Let them tread down', "viyrdu: 'tread down, rule'."),
@@ -179,7 +179,7 @@ A = {
  ((9, 10), 'the bird of the heavens,', "uve'of hashamayim."),
  ((11,), 'the cattle,', 'uvabehemah.'),
  ((12, 13), 'the whole ground,', "uvechol ha'arets."),
- ((14, 15, 16, 17, 18), 'every living thing that crawls on the ground.', "uvechol haremes harome's al ha'arets. 'On the ground' is dropped; loss marked."),
+ ((14, 15, 16, 17, 18), 'every crawler that crawls on the ground.', "uvechol haremes harome's al ha'arets. 'On the ground' is dropped; loss marked."),
 ],
 '1:27': [
  ((0, 1), 'Divinity cut', "vayivra' elohim: 'created'; head term 'cut'. The verb repeats three times in this verse."),
@@ -203,7 +203,7 @@ A = {
  ((), '', 'Addition: the washing image is from kavas, a different root. Marked.'),
  ((12, 13, 14), 'tread down the fish of the sea,', 'uredu bidgat hayam.'),
  ((15, 16), 'the bird of the heavens,', "uve'of hashamayim."),
- ((17, 18, 19, 20, 21), 'every living thing that crawls on the ground.', "uvechol chayah harmeshet al ha'arets."),
+ ((17, 18, 19, 20, 21), 'every crawler that crawls on the ground.', "uvechol chayah harmeshet al ha'arets."),
 ],
 '1:29': [
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
@@ -326,7 +326,7 @@ A = {
  ((0, 1, 2, 3, 4, 5, 6, 7), 'From the red earth, the Lord God potted every beast of the field', "wayyitzer the Lord elohim min ha'adamah kol chayat hasadeh: 'formed from the ground every beast of the field'."),
  ((8, 9, 10, 11), 'and every bird of the heavens,', "ve'et kol of hashamayim: 'and every bird of the heavens'."),
  ((12, 13, 14, 15, 16, 17, 18), 'and brought them to the human to see what he would call them.', "wayyavei el ha'adam lir'ot mah yiqra lo: 'brought them to the human to see what he would call it'."),
- ((19, 20, 21, 22, 23, 24, 25), 'Whatever the human called each breathing thing,', "vekhol asher yiqra lo ha'adam nefesh chayah: 'whatever the human called it, a living breath'."),
+ ((19, 20, 21, 22, 23, 24, 25), 'Whatever the human called each living breath,', "vekhol asher yiqra lo ha'adam nefesh chayah: 'whatever the human called it, a living breath'."),
  ((26, 27), 'that was its name.', "hu shemo: 'that is its name'."),
 ],
 '2:20': [
@@ -441,7 +441,7 @@ A = {
  ((3, 4, 5), 'between you and the woman,', "beinkha uvein ha'ishah."),
  ((6, 7, 8, 9), 'between your seed and her seed:', "uvein zar'akha uvein zar'ah."),
  ((10, 11, 12), 'he will snap at your head;', "hu yeshufkha rosh: 'it will snap at you on the head'. One English verb for shuf."),
- ((13, 14, 15), 'you will snap at its heel.', "ve'atah teshufenu akev: 'you will snap at it on the heel'."),
+ ((13, 14, 15), 'you will snap at his heel.', "ve'atah teshufenu akev: 'you will snap at it on the heel'."),
 ],
 '3:16': [
  ((0, 1, 2, 3, 4), 'To the woman he said: I will multiply, multiply', "'el ha'ishah amar harbah arbeh: infinitive absolute kept as a doubled verb."),
@@ -479,7 +479,7 @@ A = {
  ((7, 8), 'like one of us,', "ke'echad mimmenu: 'like one of us'."),
  ((9, 10, 11), 'knowing good and harm.', "ladaat tov vara'."),
  ((12, 13, 14, 15, 16, 17, 18, 19, 20), 'Now lest he reach out his hand, take also from the tree of lives,', "ve'attah pen yishlach yado velaqach gam me'ets hachayyim: 'lest he send out his hand'. 'Reach out' is the body stretch of shalach."),
- ((21, 22, 23), 'eat, and live…', "ve'akhal vachay le'olam."),
+ ((21, 22, 23), 'eat, and live forever…', "ve'akhal vachay le'olam."),
 ],
 '3:23': [
  ((0, 1, 2, 3, 4), 'The Lord God sent him out from the garden in Eden,', "vayshallehu the Lord elohim migan 'eden."),
