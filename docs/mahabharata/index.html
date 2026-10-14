@@ -17,9 +17,12 @@
   --bg2:#fefcf6;
   --ink:#1e1610;
   --dim:#5a4a3a;
-  --faint:#8a7a68;
-  --saffron:#b35c1e;
-  --ochre:#a06820;
+  --faint:#6e6050;
+  --saffron:#9a4c14;
+  --ochre:#7a5a2e;
+  --rubric:#8b2e1a;
+  --indigo:#2f3a6b;
+  --gloss-rule:rgba(47,58,107,.22);
   --deep-red:#8b2e1a;
   --rule:rgba(30,22,16,.14);
   --edge:rgba(30,22,16,.10);
@@ -33,8 +36,11 @@
     --bg2:#1c1814;
     --ink:#e8dcc8;
     --dim:#b8a890;
-    --faint:#7a6c5c;
-    --saffron:#d88040;
+    --faint:#9a8a76;
+    --saffron:#e8a070;
+  --rubric:#e07050;
+  --indigo:#a9b2e6;
+  --gloss-rule:rgba(169,178,230,.22);
     --ochre:#cca040;
     --deep-red:#e07050;
     --rule:rgba(232,220,200,.14);
@@ -49,8 +55,11 @@
   --bg2:#1c1814;
   --ink:#e8dcc8;
   --dim:#b8a890;
-  --faint:#7a6c5c;
-  --saffron:#d88040;
+  --faint:#9a8a76;
+  --saffron:#e8a070;
+  --rubric:#e07050;
+  --indigo:#a9b2e6;
+  --gloss-rule:rgba(169,178,230,.22);
   --ochre:#cca040;
   --deep-red:#e07050;
   --rule:rgba(232,220,200,.14);
@@ -71,20 +80,24 @@ body{
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
 }
-::selection{background:var(--saffron);color:var(--bg)}
+::selection{background:var(--indigo);color:var(--bg)}
 a{color:var(--saffron)}
 a:hover{color:var(--ochre)}
+a:focus-visible{outline:2px solid var(--indigo);outline-offset:3px;border-radius:2px}
 
 /* ---------- header ---------- */
 header{
   text-align:center;
   padding:clamp(52px,10vh,96px) 22px clamp(24px,4vh,40px);
   border-bottom:1px solid var(--rule);
-  background:linear-gradient(180deg,var(--wash),transparent 78%);
+  background:var(--bg2);
 }
 .ornament{
-  font-size:28px;line-height:1;color:var(--ochre);
-  letter-spacing:.3em;
+  width:26px;height:26px;margin:0 auto;border-radius:50%;
+  border:1.5px solid var(--ochre);
+  background:repeating-conic-gradient(var(--ochre) 0 1.2deg,transparent 1.2deg 45deg);
+  -webkit-mask:radial-gradient(circle,#000 0 2px,transparent 2.5px 4px,#000 4.5px);
+          mask:radial-gradient(circle,#000 0 2px,transparent 2.5px 4px,#000 4.5px);
 }
 h1{
   font-family:"EB Garamond",Georgia,serif;
@@ -106,7 +119,7 @@ h1{
 }
 .source-note{
   font-family:Inter,'Helvetica Neue',Arial,sans-serif;
-  font-size:.68rem;font-weight:400;
+  font-size:.72rem;font-weight:400;
   letter-spacing:.12em;
   color:var(--faint);
   margin-top:18px;
@@ -129,7 +142,7 @@ h1{
   white-space:normal;
 }
 .contents a:hover{color:var(--saffron);border-bottom-color:var(--saffron)}
-.contents .sep{color:var(--edge);margin:0 .35em}
+.contents .sep{color:var(--faint);margin:0 .35em}
 
 /* ---------- shell ---------- */
 main{max-width:1120px;margin:0 auto;padding:0 22px 88px}
@@ -163,7 +176,7 @@ h3{
 h3 .ref{
   display:block;
   font-family:Inter,'Helvetica Neue',Arial,sans-serif;
-  font-size:.64rem;letter-spacing:.08em;
+  font-size:.72rem;letter-spacing:.08em;
   color:var(--faint);
   font-weight:400;
   margin-top:4px;
@@ -186,11 +199,13 @@ blockquote{
   background:var(--verse-bg);
   padding:16px 20px;
   margin:16px 0 18px;
-  font-style:italic;
-  color:var(--dim);
+  font-style:normal;
+  color:var(--ink);
   font-size:1.02rem;
-  line-height:1.72;
-  overflow-x:auto;
+  line-height:1.85;
+  letter-spacing:.005em;
+  font-variant-ligatures:common-ligatures;
+  overflow-wrap:break-word;
 }
 blockquote p{margin-bottom:0}
 
@@ -238,10 +253,16 @@ hr.passage-rule{
 .extended-intro strong{font-weight:600}
 
 .verse-trans{
-  font-style:italic;
-  color:var(--dim);
+  font-style:normal;
+  color:var(--ink);
   margin:6px 0 18px;
   padding-left:20px;
+}
+.verse-ref{
+  font-family:Inter,'Helvetica Neue',Arial,sans-serif;
+  font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--rubric);
+  margin:30px 0 4px;
 }
 
 /* ---------- colophon ---------- */
@@ -257,7 +278,7 @@ hr.passage-rule{
 .colophon .m:last-child{border-bottom:0}
 .colophon .k{
   flex:0 0 11rem;color:var(--faint);
-  letter-spacing:.09em;text-transform:uppercase;font-size:.68rem;
+  letter-spacing:.09em;text-transform:uppercase;font-size:.72rem;
   padding-top:.18em;
 }
 .colophon .v{color:var(--dim)}
@@ -268,11 +289,11 @@ hr.passage-rule{
 
 /* ---------- divider ornament ---------- */
 .part-divider{
-  text-align:center;
-  margin:52px 0 40px;
-  color:var(--ochre);
-  font-size:18px;
-  letter-spacing:.4em;
+  --throws:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 132 14'%3E%3Cg%3E%3Ccircle cx='4' cy='4' r='2'/%3E%3Ccircle cx='12' cy='4' r='2'/%3E%3Ccircle cx='4' cy='11' r='2'/%3E%3Ccircle cx='12' cy='11' r='2'/%3E%3Ccircle cx='44' cy='4' r='2'/%3E%3Ccircle cx='52' cy='4' r='2'/%3E%3Ccircle cx='48' cy='11' r='2'/%3E%3Ccircle cx='84' cy='7' r='2'/%3E%3Ccircle cx='92' cy='7' r='2'/%3E%3Ccircle cx='126' cy='7' r='2'/%3E%3C/g%3E%3C/svg%3E");
+  width:132px;height:14px;margin:56px auto 44px;
+  background:var(--ochre);
+  -webkit-mask:var(--throws) center/contain no-repeat;
+          mask:var(--throws) center/contain no-repeat;
 }
 
 /* ---------- passage grid: text beside its commentary ---------- */
@@ -280,8 +301,8 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 .colophon{margin-left:auto;margin-right:auto}
 .pair{
   display:grid;
-  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
-  column-gap:48px;
+  grid-template-columns:minmax(0,7fr) minmax(0,5fr);
+  column-gap:44px;
   margin:6px 0 34px;
 }
 .pair.solo{display:block}
@@ -291,10 +312,11 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
   font-size:.94rem;
   line-height:1.62;
   color:var(--ink);
-  border-left:1px solid var(--edge);
+  border-left:1px solid var(--gloss-rule);
   padding-left:26px;
-  padding-top:2px;
+  padding-top:36px;
 }
+.pair-gloss em:first-child{color:var(--indigo)}
 .pair-gloss p{margin-bottom:10px}
 .pair-gloss p:first-child{margin-top:0}
 .pair-gloss p:last-child{margin-bottom:0}
@@ -304,7 +326,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 @media(max-width:900px){
   main{max-width:780px}
   .pair{display:block;margin:0 0 30px}
-  .pair-gloss{border-left:none;padding-left:0;margin-top:2px}
+  .pair-gloss{border-left:2px solid var(--gloss-rule);padding-left:14px;padding-top:0;margin-top:14px}
   section > p, section > .solo, .transition, .colophon{max-width:none}
 }
 @media(max-width:600px){
@@ -317,7 +339,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <body>
 
 <header>
-  <div class="ornament">&#x2022; &#x2726; &#x2022;</div>
+  <div class="ornament" aria-hidden="true"></div>
   <h1>Mahābhārata</h1>
   <p class="subtitle">Creation and the Dice Game &mdash; Ādi Parva &amp; Sabhā Parva</p>
   <p class="source-note">Sanskrit text: Bhandarkar Oriental Research Institute Critical Edition (Pune, 1927&ndash;1966). Transliteration: IAST. Translations original to this edition.</p>
@@ -355,8 +377,8 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <h2><span class="n">Part I</span>The Cosmic Frame <em>(Ādi Parva)</em></h2>
 
 <div class="pair solo">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Mahābhārata 1.1.27&ndash;29, 36&ndash;38</p>
-<blockquote>
+<p class="verse-ref">Mahābhārata 1.1.27&ndash;29, 36&ndash;38</p>
+<blockquote lang="sa-Latn">
 <p>niṣprabhe 'smin nirāloke sarvatas tamasāvṛte<br>
 bṛhad aṇḍam abhūd ekaṃ prajānāṃ bījam akṣayam<br>
 yugasyādau nimittaṃ tan mahad divyaṃ pracakṣate<br>
@@ -379,8 +401,8 @@ anādinidhanaṃ loke cakraṃ saṃparivartate</p>
 <p>Out of that beginningless turning the poem draws its largest claim: that it holds, within itself, everything worth holding.</p>
 
 <div class="pair solo">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Mahābhārata 1.56.33</p>
-<blockquote>
+<p class="verse-ref">Mahābhārata 1.56.33</p>
+<blockquote lang="sa-Latn">
 <p>dharme cārthe ca kāme ca mokṣe ca bharatarṣabha<br>
 yad ihāsti tad anyatra yan nehāsti na tat kva cit</p>
 </blockquote>
@@ -393,8 +415,8 @@ yad ihāsti tad anyatra yan nehāsti na tat kva cit</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Mahābhārata 1.37.20&ndash;24</p>
-<blockquote>
+<p class="verse-ref">Mahābhārata 1.37.20&ndash;24</p>
+<blockquote lang="sa-Latn">
 <p>na me priyaṃ kṛtaṃ tāta naiṣa dharmas tapasvinām &hellip;<br>
 vayaṃ tasya narendrasya viṣaye nivasāmahe<br>
 nyāyato rakṣitās tena tasya pāpaṃ na rocaye<br>
@@ -419,8 +441,8 @@ carāmo vipulaṃ dharmaṃ teṣāṃ cāṃśo 'sti dharmataḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Mahābhārata 1.58.29, 36&ndash;37, 44, 46, 47e</p>
-<blockquote>
+<p class="verse-ref">Mahābhārata 1.58.29, 36&ndash;37, 44, 46, 47e</p>
+<blockquote lang="sa-Latn">
 <p>jātair iha mahīpāla jāyamānaiś ca tair mahī<br>
 na śaśākātmanātmānam iyaṃ dhārayituṃ dharā<br>
 &hellip;<br>
@@ -453,19 +475,19 @@ svair aṃśaiḥ saṃprasūyadhvaṃ yatheṣṭaṃ mānuṣeṣv iti</p>
 <!-- PART II: THE DICE GAME                                        -->
 <!-- ============================================================ -->
 
-<div class="part-divider">&#x2022; &#x2726; &#x2022;</div>
+<div class="part-divider" aria-hidden="true"></div>
 
 <section id="sec-weight">
 <h2><span class="n">I</span>The Weight of the World</h2>
 
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Ādi Parva 1.58</p>
+<p class="verse-ref">Ādi Parva 1.58</p>
 
 <p>Janamejaya, at whose snake-sacrifice the epic is being recited, asks his teacher why the heroes he has been hearing about were born at all.</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.2</p>
-<blockquote>
+<p class="verse-ref">1.58.2</p>
+<blockquote lang="sa-Latn">
 <p>yadartham iha saṃbhūtā devakalpā mahārathāḥ<br>
 bhuvi tan me mahābhāga samyag ākhyātum arhasi</p>
 </blockquote>
@@ -478,8 +500,8 @@ bhuvi tan me mahābhāga samyag ākhyātum arhasi</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.6</p>
-<blockquote>
+<p class="verse-ref">1.58.6</p>
+<blockquote lang="sa-Latn">
 <p>tābhiḥ saha samāpetur brāhmaṇāḥ saṃśitavratāḥ<br>
 ṛtāv ṛtau naravyāghra na kāmān nānṛtau tathā</p>
 </blockquote>
@@ -492,8 +514,8 @@ bhuvi tan me mahābhāga samyag ākhyātum arhasi</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.20&ndash;22</p>
-<blockquote>
+<p class="verse-ref">1.58.20&ndash;22</p>
+<blockquote lang="sa-Latn">
 <p>na kūṭamānair vaṇijaḥ paṇyaṃ vikrīṇate tadā<br>
 karmāṇi ca naravyāghra dharmopetāni mānavāḥ<br>
 dharmam evānupaśyantaś cakrur dharmaparāyaṇāḥ<br>
@@ -509,8 +531,8 @@ evaṃ tadā naravyāghra dharmo na hrasate kva cit</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.24</p>
-<blockquote>
+<p class="verse-ref">1.58.24</p>
+<blockquote lang="sa-Latn">
 <p>evaṃ kṛtayuge samyag vartamāne tadā nṛpa<br>
 āpūryata mahī kṛtsnā prāṇibhir bahubhir bhṛśam</p>
 </blockquote>
@@ -523,8 +545,8 @@ evaṃ tadā naravyāghra dharmo na hrasate kva cit</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.25&ndash;28</p>
-<blockquote>
+<p class="verse-ref">1.58.25&ndash;28</p>
+<blockquote lang="sa-Latn">
 <p>tataḥ samudite loke mānuṣe bharatarṣabha<br>
 asurā jajñire kṣetre rājñāṃ manujapuṃgava<br>
 ādityair hi tadā daityā bahuśo nirjitā yudhi<br>
@@ -534,8 +556,8 @@ goṣv aśveṣu ca rājendra kharoṣṭramahiṣeṣu ca<br>
 kravyādeṣu ca bhūteṣu gajeṣu ca mṛgeṣu ca</p>
 </blockquote>
 <p class="verse-trans">“Then, when the human world had risen to its height, bull of the Bharatas, the asuras were born in the field of kings. Beaten again and again in battle by the Ādityas, thrown down from their lordship, they came to be here on the earth &mdash; among cattle and horses, among asses and camels and buffalo, among the flesh-eating creatures, among elephants and among deer.”</p>
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.29</p>
-<blockquote>
+<p class="verse-ref">1.58.29</p>
+<blockquote lang="sa-Latn">
 <p>jātair iha mahīpāla jāyamānaiś ca tair mahī<br>
 na śaśākātmanātmānam iyaṃ dhārayituṃ dharā</p>
 </blockquote>
@@ -549,8 +571,8 @@ na śaśākātmanātmānam iyaṃ dhārayituṃ dharā</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.36&ndash;37</p>
-<blockquote>
+<p class="verse-ref">1.58.36&ndash;37</p>
+<blockquote lang="sa-Latn">
 <p>na hīmāṃ pavano rājan na nāgā na nagā mahīm<br>
 tadā dhārayituṃ śekur ākrāntāṃ dānavair balāt<br>
 tato mahī mahīpāla bhārārtā bhayapīḍitā<br>
@@ -565,8 +587,8 @@ jagāma śaraṇaṃ devaṃ sarvabhūtapitāmaham</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.41&ndash;42</p>
-<blockquote>
+<p class="verse-ref">1.58.41&ndash;42</p>
+<blockquote lang="sa-Latn">
 <p>tat pradhānātmanas tasya bhūmeḥ kṛtyaṃ svayaṃbhuvaḥ<br>
 pūrvam evābhavad rājan viditaṃ parameṣṭhinaḥ<br>
 sraṣṭā hi jagataḥ kasmān na saṃbudhyeta bhārata<br>
@@ -581,8 +603,8 @@ surāsurāṇāṃ lokānām aśeṣeṇa manogatam</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.44</p>
-<blockquote>
+<p class="verse-ref">1.58.44</p>
+<blockquote lang="sa-Latn">
 <p>yadartham asi saṃprāptā matsakāśaṃ vasuṃdhare<br>
 tadarthaṃ saṃniyokṣyāmi sarvān eva divaukasaḥ</p>
 </blockquote>
@@ -595,8 +617,8 @@ tadarthaṃ saṃniyokṣyāmi sarvān eva divaukasaḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.46&ndash;47</p>
-<blockquote>
+<p class="verse-ref">1.58.46&ndash;47</p>
+<blockquote lang="sa-Latn">
 <p>asyā bhūmer nirasituṃ bhāraṃ bhāgaiḥ pṛthak pṛthak<br>
 asyām eva prasūyadhvaṃ virodhāyeti cābravīt<br>
 &hellip;<br>
@@ -610,8 +632,8 @@ svair aṃśaiḥ saṃprasūyadhvaṃ yatheṣṭaṃ mānuṣeṣv iti</p>
 </div>
 
 <div class="pair solo">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.58.51</p>
-<blockquote>
+<p class="verse-ref">1.58.51</p>
+<blockquote lang="sa-Latn">
 <p>taṃ bhuvaḥ śodhanāyendra uvāca puruṣottamam<br>
 aṃśenāvatarasveti tathety āha ca taṃ hariḥ</p>
 </blockquote>
@@ -622,7 +644,7 @@ aṃśenāvatarasveti tathety āha ca taṃ hariḥ</p>
 <section id="sec-descent">
 <h2>The Descent by Portions</h2>
 
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Ādi Parva 1.61, 1.113&ndash;115</p>
+<p class="verse-ref">Ādi Parva 1.61, 1.113&ndash;115</p>
 
 <p>The roster of who is whose portion, and then the scene of the actual births.</p>
 
@@ -632,8 +654,8 @@ aṃśenāvatarasveti tathety āha ca taṃ hariḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.61.66&ndash;67</p>
-<blockquote>
+<p class="verse-ref">1.61.66&ndash;67</p>
+<blockquote lang="sa-Latn">
 <p>mahādevāntakābhyāṃ ca kāmāt krodhāc ca bhārata<br>
 ekatvam upapannānāṃ jajñe śūraḥ paraṃtapaḥ<br>
 aśvatthāmā mahāvīryaḥ śatrupakṣakṣayaṃkaraḥ</p>
@@ -647,8 +669,8 @@ aśvatthāmā mahāvīryaḥ śatrupakṣakṣayaṃkaraḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.61.72</p>
-<blockquote>
+<p class="verse-ref">1.61.72</p>
+<blockquote lang="sa-Latn">
 <p>śakunir nāma yas tv āsīd rājā loke mahārathaḥ<br>
 dvāparaṃ viddhi taṃ rājan saṃbhūtam arimardanam</p>
 </blockquote>
@@ -661,8 +683,8 @@ dvāparaṃ viddhi taṃ rājan saṃbhūtam arimardanam</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.61.80&ndash;81</p>
-<blockquote>
+<p class="verse-ref">1.61.80&ndash;81</p>
+<blockquote lang="sa-Latn">
 <p>kaler aṃśāt tu saṃjajñe bhuvi duryodhano nṛpaḥ<br>
 durbuddhir durmatiś caiva kurūṇām ayaśaskaraḥ<br>
 jagato yaḥ sa sarvasya vidviṣṭaḥ kalipūruṣaḥ<br>
@@ -678,8 +700,8 @@ yena vairaṃ samuddīptaṃ bhūtāntakaraṇaṃ mahat</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.61.84&ndash;85</p>
-<blockquote>
+<p class="verse-ref">1.61.84&ndash;85</p>
+<blockquote lang="sa-Latn">
 <p>dharmasyāṃśaṃ tu rājānaṃ viddhi rājan yudhiṣṭhiram<br>
 bhīmasenaṃ tu vātasya devarājasya cārjunam<br>
 aśvinos tu tathaivāṃśau rūpeṇāpratimau bhuvi<br>
@@ -694,8 +716,8 @@ nakulaḥ sahadevaś ca sarvalokamanoharau</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.61.95&ndash;97</p>
-<blockquote>
+<p class="verse-ref">1.61.95&ndash;97</p>
+<blockquote lang="sa-Latn">
 <p>śriyas tu bhāgaḥ saṃjajñe ratyarthaṃ pṛthivītale<br>
 drupadasya kule kanyā vedimadhyād aninditā<br>
 nātihrasvā na mahatī nīlotpalasugandhinī<br>
@@ -713,8 +735,8 @@ pañcānāṃ puruṣendrāṇāṃ cittapramathinī rahaḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.113.28&ndash;30</p>
-<blockquote>
+<p class="verse-ref">1.113.28&ndash;30</p>
+<blockquote lang="sa-Latn">
 <p>viśeṣataḥ putragṛddhī hīnaḥ prajananāt svayam<br>
 yathāham anavadyāṅgi putradarśanalālasaḥ<br>
 &hellip;<br>
@@ -731,8 +753,8 @@ tvatkṛte 'haṃ pṛthuśroṇi gaccheyaṃ putriṇāṃ gatim</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.113.33&ndash;36</p>
-<blockquote>
+<p class="verse-ref">1.113.33&ndash;36</p>
+<blockquote lang="sa-Latn">
 <p>nigūḍhaniścayaṃ dharme yaṃ taṃ durvāsasaṃ viduḥ<br>
 tam ahaṃ saṃśitātmānaṃ sarvayatnair atoṣayam<br>
 sa me 'bhicārasaṃyuktam ācaṣṭa bhagavān varam<br>
@@ -749,8 +771,8 @@ akāmo vā sakāmo vā sa te vaśam upaiṣyati</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.113.39&ndash;42</p>
-<blockquote>
+<p class="verse-ref">1.113.39&ndash;42</p>
+<blockquote lang="sa-Latn">
 <p>adyaiva tvaṃ varārohe prayatasva yathāvidhi<br>
 dharmam āvāhaya śubhe sa hi deveṣu puṇyabhāk<br>
 adharmeṇa na no dharmaḥ saṃyujyeta kathaṃ cana<br>
@@ -766,7 +788,7 @@ lokaś cāyaṃ varārohe dharmo 'yam iti maṃsyate</p>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>aindre candrasamāyukte muhūrte 'bhijite 'ṣṭame<br>
 divā madhyagate sūrye tithau puṇye 'bhipūjite<br>
 samṛddhayaśasaṃ kuntī suṣāva samaye sutam<br>
@@ -783,7 +805,7 @@ yudhiṣṭhira iti khyātaḥ pāṇḍoḥ prathamajaḥ sutaḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>tataḥ sa vajrasaṃghātaḥ kumāro 'bhyapatad girau<br>
 patatā tena śatadhā śilā gātrair vicūrṇitā</p>
 </blockquote>
@@ -796,8 +818,8 @@ patatā tena śatadhā śilā gātrair vicūrṇitā</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.114.15&ndash;18</p>
-<blockquote>
+<p class="verse-ref">1.114.15&ndash;18</p>
+<blockquote lang="sa-Latn">
 <p>jāte vṛkodare pāṇḍur idaṃ bhūyo 'nvacintayat<br>
 kathaṃ nu me varaḥ putro lokaśreṣṭho bhaved iti<br>
 daive puruṣakāre ca loko 'yaṃ hi pratiṣṭhitaḥ<br>
@@ -812,14 +834,14 @@ tatra daivaṃ tu vidhinā kālayuktena labhyate</p>
 </div>
 
 <div class="pair solo">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">1.115.23&ndash;24</p>
-<blockquote>
+<p class="verse-ref">1.115.23&ndash;24</p>
+<blockquote lang="sa-Latn">
 <p>uktā sakṛd dvandvam eṣā lebhe tenāsmi vañcitā<br>
 bibhemy asyāḥ paribhavān nārīṇāṃ gatir īdṛśī<br>
 nājñāsiṣam ahaṃ mūḍhā dvandvāhvāne phaladvayam</p>
 </blockquote>
 <p class="verse-trans">“Told once, she got a pair &mdash; and by that I have been cheated. I am afraid of being outdone by her; such is the way women go. Fool that I was, I did not understand that summoning the pair would yield a double fruit.”</p>
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>evaṃ pāṇḍoḥ sutāḥ pañca devadattā mahābalāḥ<br>
 saṃbhūtāḥ kīrtimantas te kuruvaṃśavivardhanāḥ</p>
 </blockquote>
@@ -830,7 +852,7 @@ saṃbhūtāḥ kīrtimantas te kuruvaṃśavivardhanāḥ</p>
 <section id="sec-duryodhana">
 <h2><span class="n">II</span>What Duryodhana Saw</h2>
 
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Sabhā Parva 2.43&ndash;45, 2.50&ndash;51</p>
+<p class="verse-ref">Sabhā Parva 2.43&ndash;45, 2.50&ndash;51</p>
 
 <p>After the Rājasūya, in the assembly hall Maya built.</p>
 
@@ -840,8 +862,8 @@ saṃbhūtāḥ kīrtimantas te kuruvaṃśavivardhanāḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.43.3&ndash;6</p>
-<blockquote>
+<p class="verse-ref">2.43.3&ndash;6</p>
+<blockquote lang="sa-Latn">
 <p>sa kadā cit sabhāmadhye dhārtarāṣṭro mahīpatiḥ<br>
 sphāṭikaṃ talam āsādya jalam ity abhiśaṅkayā<br>
 svavastrotkarṣaṇaṃ rājā kṛtavān buddhimohitaḥ<br>
@@ -858,8 +880,8 @@ vāpīṃ matvā sthalam iti savāsāḥ prāpataj jale</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.43.13</p>
-<blockquote>
+<p class="verse-ref">2.43.13</p>
+<blockquote lang="sa-Latn">
 <p>pāṇḍavaśrīprataptasya dhyānaglānasya gacchataḥ<br>
 duryodhanasya nṛpateḥ pāpā matir ajāyata</p>
 </blockquote>
@@ -872,8 +894,8 @@ duryodhanasya nṛpateḥ pāpā matir ajāyata</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.43.19&ndash;34</p>
-<blockquote>
+<p class="verse-ref">2.43.19&ndash;34</p>
+<blockquote lang="sa-Latn">
 <p>dṛṣṭvemāṃ pṛthivīṃ kṛtsnāṃ yudhiṣṭhiravaśānugām<br>
 jitām astrapratāpena śvetāśvasya mahātmanaḥ<br>
 &hellip;<br>
@@ -889,21 +911,21 @@ amarṣeṇa susaṃpūrṇo dahyamāno divāniśam<br>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>śriyaṃ tathāvidhāṃ dṛṣṭvā jvalantīm iva pāṇḍave<br>
 amarṣavaśam āpanno dahye 'ham atathocitaḥ<br>
 vahnim eva pravekṣyāmi bhakṣayiṣyāmi vā viṣam<br>
 apo vāpi pravekṣyāmi na hi śakṣyāmi jīvitum</p>
 </blockquote>
 <p class="verse-trans">“Having seen a fortune of that kind, all but blazing, on the son of Pāṇḍu, I have fallen into the power of a rage I cannot bear, and I burn, unaccustomed to this. I will enter fire, or I will eat poison, or I will walk into water &mdash; I am not going to be able to live.”</p>
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.43.29</p>
-<blockquote>
+<p class="verse-ref">2.43.29</p>
+<blockquote lang="sa-Latn">
 <p>so 'haṃ na strī na cāpy astrī na pumān nāpumān api<br>
 yo 'haṃ tāṃ marṣayāmy adya tādṛśīṃ śriyam āgatām</p>
 </blockquote>
 <p class="verse-trans">“So I am not a woman, and not a non-woman; not a man, and not a non-man either &mdash; I, who today put up with a fortune of that sort having come to another.”</p>
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.43.31&ndash;34</p>
-<blockquote>
+<p class="verse-ref">2.43.31&ndash;34</p>
+<blockquote lang="sa-Latn">
 <p>aśaktaś caika evāhaṃ tām āhartuṃ nṛpaśriyam<br>
 sahāyāṃś ca na paśyāmi tena mṛtyuṃ vicintaye<br>
 daivam eva paraṃ manye pauruṣaṃ tu nirarthakam<br>
@@ -923,8 +945,8 @@ dhārtarāṣṭrā hi hīyante pārthā vardhanti nityaśaḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.44.11</p>
-<blockquote>
+<p class="verse-ref">2.44.11</p>
+<blockquote lang="sa-Latn">
 <p>etais tvaṃ sahitaḥ sarvair jaya kṛtsnāṃ vasuṃdharām</p>
 </blockquote>
 <p class="verse-trans">“Joined with all of these, conquer the whole earth.”</p>
@@ -936,8 +958,8 @@ dhārtarāṣṭrā hi hīyante pārthā vardhanti nityaśaḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.44.14&ndash;19</p>
-<blockquote>
+<p class="verse-ref">2.44.14&ndash;19</p>
+<blockquote lang="sa-Latn">
 <p>dhanaṃjayo vāsudevo bhīmaseno yudhiṣṭhiraḥ<br>
 nakulaḥ sahadevaś ca drupadaś ca sahātmajaiḥ<br>
 naite yudhi balāj jetuṃ śakyāḥ suragaṇair api<br>
@@ -956,8 +978,8 @@ triṣu lokeṣu kaunteyaṃ taṃ tvaṃ dyūte samāhvaya</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.45.8&ndash;11</p>
-<blockquote>
+<p class="verse-ref">2.45.8&ndash;11</p>
+<blockquote lang="sa-Latn">
 <p>aiśvaryaṃ hi mahat putra tvayi sarvaṃ samarpitam<br>
 bhrātaraḥ suhṛdaś caiva nācaranti tavāpriyam<br>
 ācchādayasi prāvārān aśnāsi piśitaudanam<br>
@@ -972,8 +994,8 @@ bhrātaraḥ suhṛdaś caiva nācaranti tavāpriyam<br>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.45.12&ndash;16</p>
-<blockquote>
+<p class="verse-ref">2.45.12&ndash;16</p>
+<blockquote lang="sa-Latn">
 <p>aśnāmy ācchādaye cāhaṃ yathā kupuruṣas tathā<br>
 amarṣaṃ dhāraye cograṃ titikṣan kālaparyayam<br>
 amarṣaṇaḥ svāḥ prakṛtīr abhibhūya pare sthitāḥ<br>
@@ -990,8 +1012,8 @@ saṃtoṣo vai śriyaṃ hanti abhimānaś ca bhārata</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.45.30&ndash;31</p>
-<blockquote>
+<p class="verse-ref">2.45.30&ndash;31</p>
+<blockquote lang="sa-Latn">
 <p>pūrṇe śatasahasre tu viprāṇāṃ pariviṣyatām<br>
 sthāpitā tatra saṃjñābhūc chaṅkho dhmāyati nityaśaḥ<br>
 muhur muhuḥ praṇadatas tasya śaṅkhasya bhārata<br>
@@ -1006,8 +1028,8 @@ uttamaṃ śabdam aśrauṣaṃ tato romāṇi me 'hṛṣan</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.45.43&ndash;44</p>
-<blockquote>
+<p class="verse-ref">2.45.43&ndash;44</p>
+<blockquote lang="sa-Latn">
 <p>nivartayiṣyati tvāsau yadi kṣattā sameṣyati<br>
 nivṛtte tvayi rājendra mariṣye 'ham asaṃśayam<br>
 sa mayi tvaṃ mṛte rājan vidureṇa sukhī bhava<br>
@@ -1022,8 +1044,8 @@ bhokṣyase pṛthivīṃ kṛtsnāṃ kiṃ mayā tvaṃ kariṣyasi</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.45.48&ndash;49</p>
-<blockquote>
+<p class="verse-ref">2.45.48&ndash;49</p>
+<blockquote lang="sa-Latn">
 <p>duryodhanasya śāntyartham iti niścitya bhūmipaḥ<br>
 &hellip;<br>
 apṛṣṭvā viduraṃ hy asya nāsīt kaś cid viniścayaḥ<br>
@@ -1038,8 +1060,8 @@ dyūtadoṣāṃś ca jānan sa putrasnehād akṛṣyata</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.45.52</p>
-<blockquote>
+<p class="verse-ref">2.45.52</p>
+<blockquote lang="sa-Latn">
 <p>nābhinandāmi te rājan vyavasāyam imaṃ prabho<br>
 putrair bhedo yathā na syād dyūtahetos tathā kuru</p>
 </blockquote>
@@ -1052,8 +1074,8 @@ putrair bhedo yathā na syād dyūtahetos tathā kuru</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.45.53&ndash;57</p>
-<blockquote>
+<p class="verse-ref">2.45.53&ndash;57</p>
+<blockquote lang="sa-Latn">
 <p>kṣattaḥ putreṣu putrair me kalaho na bhaviṣyati<br>
 divi devāḥ prasādaṃ naḥ kariṣyanti na saṃśayaḥ<br>
 aśubhaṃ vā śubhaṃ vāpi hitaṃ vā yadi vāhitam<br>
@@ -1071,8 +1093,8 @@ daivam eva paraṃ manye yenaitad upapadyate</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.51.12&ndash;13</p>
-<blockquote>
+<p class="verse-ref">2.51.12&ndash;13</p>
+<blockquote lang="sa-Latn">
 <p>dyūte purāṇair vyavahāraḥ praṇītas; tatrātyayo nāsti na saṃprahāraḥ<br>
 &hellip;<br>
 svargadvāraṃ dīvyatāṃ no viśiṣṭaṃ; tadvartināṃ cāpi tathaiva yuktam</p>
@@ -1086,15 +1108,15 @@ svargadvāraṃ dīvyatāṃ no viśiṣṭaṃ; tadvartināṃ cāpi tathaiva y
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.51.14&ndash;15</p>
-<blockquote>
+<p class="verse-ref">2.51.14&ndash;15</p>
+<blockquote lang="sa-Latn">
 <p>vākyaṃ na me rocate yat tvayoktaṃ; yat te priyaṃ tat kriyatāṃ narendra<br>
 paścāt tapsyase tad upākramya vākyaṃ; na hīdṛśaṃ bhāvi vaco hi dharmyam<br>
 dṛṣṭaṃ hy etad vidureṇaivam eva; sarvaṃ pūrvaṃ buddhividyānugena<br>
 tad evaitad avaśasyābhyupaiti; mahad bhayaṃ kṣatriyabījaghāti</p>
 </blockquote>
 <p class="verse-trans">“The words you have spoken do not please me. Let what pleases you be done, lord of men. Having undertaken that word, you will burn for it afterward &mdash; a coming word like this cannot be in accord with dharma. All this was foreseen exactly so by Vidura, who follows intelligence and learning. And now it comes upon me, who am helpless: the great terror, the killer of the seed of warriors.”</p>
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>evam uktvā dhṛtarāṣṭro manīṣī; daivaṃ matvā paramaṃ dustaraṃ ca<br>
 śaśāsoccaiḥ puruṣān putravākye; sthito rājā daivasaṃmūḍhacetāḥ</p>
 </blockquote>
@@ -1109,13 +1131,13 @@ tad evaitad avaśasyābhyupaiti; mahad bhayaṃ kṣatriyabījaghāti</p>
 <section id="sec-summons">
 <h2><span class="n">III</span>The Summons</h2>
 
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Sabhā Parva 2.52</p>
+<p class="verse-ref">Sabhā Parva 2.52</p>
 
 <p>Vidura, who has argued against this three times, is made the messenger.</p>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>tataḥ prāyād viduro 'śvair udārair; mahājavair balibhiḥ sādhudāntaiḥ<br>
 balān niyukto dhṛtarāṣṭreṇa rājñā; manīṣiṇāṃ pāṇḍavānāṃ sakāśam</p>
 </blockquote>
@@ -1128,8 +1150,8 @@ balān niyukto dhṛtarāṣṭreṇa rājñā; manīṣiṇāṃ pāṇḍavān
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.52.5</p>
-<blockquote>
+<p class="verse-ref">2.52.5</p>
+<blockquote lang="sa-Latn">
 <p>vijñāyate te manaso na praharṣaḥ; kaccit kṣattaḥ kuśalenāgato 'si</p>
 </blockquote>
 <p class="verse-trans">“There is no gladness of mind detectable in you. Steward, have you come here in well-being?”</p>
@@ -1141,8 +1163,8 @@ balān niyukto dhṛtarāṣṭreṇa rājñā; manīṣiṇāṃ pāṇḍavān
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.52.7&ndash;9</p>
-<blockquote>
+<p class="verse-ref">2.52.7&ndash;9</p>
+<blockquote lang="sa-Latn">
 <p>idaṃ tu tvāṃ kururājo 'bhyuvāca; pūrvaṃ pṛṣṭvā kuśalaṃ cāvyayaṃ ca<br>
 iyaṃ sabhā tvatsabhātulyarūpā; bhrātṝṇāṃ te paśya tām etya putra<br>
 samāgamya bhrātṛbhiḥ pārtha tasyāṃ; suhṛddyūtaṃ kriyatāṃ ramyatāṃ ca<br>
@@ -1159,8 +1181,8 @@ tān drakṣyase kitavān saṃniviṣṭān; ity āgato 'haṃ nṛpate taj ju�
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.52.10</p>
-<blockquote>
+<p class="verse-ref">2.52.10</p>
+<blockquote lang="sa-Latn">
 <p>dyūte kṣattaḥ kalaho vidyate naḥ; ko vai dyūtaṃ rocayed budhyamānaḥ<br>
 kiṃ vā bhavān manyate yuktarūpaṃ; bhavadvākye sarva eva sthitāḥ sma</p>
 </blockquote>
@@ -1173,8 +1195,8 @@ kiṃ vā bhavān manyate yuktarūpaṃ; bhavadvākye sarva eva sthitāḥ sma</
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.52.11</p>
-<blockquote>
+<p class="verse-ref">2.52.11</p>
+<blockquote lang="sa-Latn">
 <p>jānāmy ahaṃ dyūtam anarthamūlaṃ; kṛtaś ca yatno 'sya mayā nivāraṇe<br>
 rājā tu māṃ prāhiṇot tvatsakāśaṃ; śrutvā vidvañ śreya ihācarasva</p>
 </blockquote>
@@ -1187,8 +1209,8 @@ rājā tu māṃ prāhiṇot tvatsakāśaṃ; śrutvā vidvañ śreya ihācarasv
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.52.14&ndash;16</p>
-<blockquote>
+<p class="verse-ref">2.52.14&ndash;16</p>
+<blockquote lang="sa-Latn">
 <p>mahābhayāḥ kitavāḥ saṃniviṣṭā; māyopadhā devitāro 'tra santi<br>
 dhātrā tu diṣṭasya vaśe kiledaṃ; nādevanaṃ kitavair adya tair me<br>
 nāhaṃ rājño dhṛtarāṣṭrasya śāsanān; na gantum icchāmi kave durodaram<br>
@@ -1205,8 +1227,8 @@ na cākāmaḥ śakuninā devitāhaṃ; na cen māṃ dhṛṣṇur āhvayitā s
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.52.18</p>
-<blockquote>
+<p class="verse-ref">2.52.18</p>
+<blockquote lang="sa-Latn">
 <p>daivaṃ prajñāṃ tu muṣṇāti tejaś cakṣur ivāpatat<br>
 dhātuś ca vaśam anveti pāśair iva naraḥ sitaḥ</p>
 </blockquote>
@@ -1219,8 +1241,8 @@ dhātuś ca vaśam anveti pāśair iva naraḥ sitaḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.52.31&ndash;32</p>
-<blockquote>
+<p class="verse-ref">2.52.31&ndash;32</p>
+<blockquote lang="sa-Latn">
 <p>viviśus te 'bhyanujñātā ratnavanti gṛhāṇy atha<br>
 dadṛśuś copayātās tān draupadīpramukhāḥ striyaḥ<br>
 yājñasenyāḥ parām ṛddhiṃ dṛṣṭvā prajvalitām iva<br>
@@ -1235,8 +1257,8 @@ snuṣās tā dhṛtarāṣṭrasya nātipramanaso 'bhavan</p>
 </div>
 
 <div class="pair solo">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.52.37</p>
-<blockquote>
+<p class="verse-ref">2.52.37</p>
+<blockquote lang="sa-Latn">
 <p>sabhāṃ ramyāṃ praviviśuḥ kitavair abhisaṃvṛtām</p>
 </blockquote>
 <p class="verse-trans">“&mdash; they entered the beautiful hall, which was crowded with gamblers.”</p>
@@ -1246,7 +1268,7 @@ snuṣās tā dhṛtarāṣṭrasya nātipramanaso 'bhavan</p>
 <section id="sec-game">
 <h2><span class="n">IV</span>The Game</h2>
 
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Sabhā Parva 2.53&ndash;58</p>
+<p class="verse-ref">Sabhā Parva 2.53&ndash;58</p>
 
 <p>The stakes, in order.</p>
 
@@ -1254,8 +1276,8 @@ snuṣās tā dhṛtarāṣṭrasya nātipramanaso 'bhavan</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.53.2&ndash;3</p>
-<blockquote>
+<p class="verse-ref">2.53.2&ndash;3</p>
+<blockquote lang="sa-Latn">
 <p>nikṛtir devanaṃ pāpaṃ na kṣātro 'tra parākramaḥ<br>
 na ca nītir dhruvā rājan kiṃ tvaṃ dyūtaṃ praśaṃsasi<br>
 na hi mānaṃ praśaṃsanti nikṛtau kitavasya ha<br>
@@ -1270,16 +1292,16 @@ na hi mānaṃ praśaṃsanti nikṛtau kitavasya ha<br>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.53.11&ndash;12</p>
-<blockquote>
+<p class="verse-ref">2.53.11&ndash;12</p>
+<blockquote lang="sa-Latn">
 <p>śrotriyo 'śrotriyam uta nikṛtyaiva yudhiṣṭhira<br>
 vidvān aviduṣo 'bhyeti nāhus tāṃ nikṛtiṃ janāḥ<br>
 evaṃ tvaṃ mām ihābhyetya nikṛtiṃ yadi manyase<br>
 devanād vinivartasva yadi te vidyate bhayam</p>
 </blockquote>
 <p class="verse-trans">“A learned man approaches an unlearned man by exactly that trickery, Yudhiṣṭhira; a man who knows approaches men who do not know &mdash; and people do not call that fraud. If, having come to me here, you consider it fraud, then turn back from the game &mdash; if you are afraid.”</p>
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.53.13</p>
-<blockquote>
+<p class="verse-ref">2.53.13</p>
+<blockquote lang="sa-Latn">
 <p>āhūto na nivarteyam iti me vratam āhitam<br>
 vidhiś ca balavān rājan diṣṭasyāsmi vaśe sthitaḥ</p>
 </blockquote>
@@ -1292,8 +1314,8 @@ vidhiś ca balavān rājan diṣṭasyāsmi vaśe sthitaḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.53.16</p>
-<blockquote>
+<p class="verse-ref">2.53.16</p>
+<blockquote lang="sa-Latn">
 <p>anyenānyasya viṣamaṃ devanaṃ pratibhāti me<br>
 etad vidvann upādatsva kāmam evaṃ pravartatām</p>
 </blockquote>
@@ -1307,7 +1329,7 @@ etad vidvann upādatsva kāmam evaṃ pravartatām</p>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>etac chrutvā vyavasito nikṛtiṃ samupāśritaḥ<br>
 jitam ity eva śakunir yudhiṣṭhiram abhāṣata</p>
 </blockquote>
@@ -1330,8 +1352,8 @@ jitam ity eva śakunir yudhiṣṭhiram abhāṣata</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.1</p>
-<blockquote>
+<p class="verse-ref">2.58.1</p>
+<blockquote lang="sa-Latn">
 <p>bahu vittaṃ parājaiṣīḥ pāṇḍavānāṃ yudhiṣṭhira<br>
 ācakṣva vittaṃ kaunteya yadi te 'sty aparājitam</p>
 </blockquote>
@@ -1344,8 +1366,8 @@ jitam ity eva śakunir yudhiṣṭhiram abhāṣata</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.7</p>
-<blockquote>
+<p class="verse-ref">2.58.7</p>
+<blockquote lang="sa-Latn">
 <p>puraṃ janapado bhūmir abrāhmaṇadhanaiḥ saha<br>
 abrāhmaṇāś ca puruṣā rājañ śiṣṭaṃ dhanaṃ mama</p>
 </blockquote>
@@ -1358,8 +1380,8 @@ abrāhmaṇāś ca puruṣā rājañ śiṣṭaṃ dhanaṃ mama</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.9</p>
-<blockquote>
+<p class="verse-ref">2.58.9</p>
+<blockquote lang="sa-Latn">
 <p>rājaputrā ime rājañ śobhante yena bhūṣitāḥ<br>
 kuṇḍalāni ca niṣkāś ca sarvaṃ cāṅgavibhūṣaṇam</p>
 </blockquote>
@@ -1372,8 +1394,8 @@ kuṇḍalāni ca niṣkāś ca sarvaṃ cāṅgavibhūṣaṇam</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.11</p>
-<blockquote>
+<p class="verse-ref">2.58.11</p>
+<blockquote lang="sa-Latn">
 <p>śyāmo yuvā lohitākṣaḥ siṃhaskandho mahābhujaḥ<br>
 nakulo glaha eko me yac caitat svagataṃ dhanam</p>
 </blockquote>
@@ -1386,7 +1408,7 @@ nakulo glaha eko me yac caitat svagataṃ dhanam</p>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>ayaṃ dharmān sahadevo 'nuśāsti; loke hy asmin paṇḍitākhyāṃ gataś ca<br>
 anarhatā rājaputreṇa tena; tvayā dīvyāmy apriyavat priyeṇa</p>
 </blockquote>
@@ -1399,8 +1421,8 @@ anarhatā rājaputreṇa tena; tvayā dīvyāmy apriyavat priyeṇa</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.16</p>
-<blockquote>
+<p class="verse-ref">2.58.16</p>
+<blockquote lang="sa-Latn">
 <p>mādrīputrau priyau rājaṃs tavemau vijitau mayā<br>
 garīyāṃsau tu te manye bhīmasenadhanaṃjayau</p>
 </blockquote>
@@ -1413,8 +1435,8 @@ garīyāṃsau tu te manye bhīmasenadhanaṃjayau</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.17</p>
-<blockquote>
+<p class="verse-ref">2.58.17</p>
+<blockquote lang="sa-Latn">
 <p>adharmaṃ carase nūnaṃ yo nāvekṣasi vai nayam<br>
 yo naḥ sumanasāṃ mūḍha vibhedaṃ kartum icchasi</p>
 </blockquote>
@@ -1428,8 +1450,8 @@ yo naḥ sumanasāṃ mūḍha vibhedaṃ kartum icchasi</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.23&ndash;24</p>
-<blockquote>
+<p class="verse-ref">2.58.23&ndash;24</p>
+<blockquote lang="sa-Latn">
 <p>yo no netā yo yudhāṃ naḥ praṇetā; yathā vajrī dānavaśatrur ekaḥ<br>
 tiryakprekṣī saṃhatabhrūr mahātmā; siṃhaskandho yaś ca sadātyamarṣī<br>
 balena tulyo yasya pumān na vidyate; gadābhṛtām agrya ihārimardanaḥ<br>
@@ -1444,7 +1466,7 @@ anarhatā rājaputreṇa tena; dīvyāmy ahaṃ bhīmasenena rājan</p>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>ahaṃ viśiṣṭaḥ sarveṣāṃ bhrātṝṇāṃ dayitas tathā<br>
 kuryāmas te jitāḥ karma svayam ātmany upaplave</p>
 </blockquote>
@@ -1457,8 +1479,8 @@ kuryāmas te jitāḥ karma svayam ātmany upaplave</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.29</p>
-<blockquote>
+<p class="verse-ref">2.58.29</p>
+<blockquote lang="sa-Latn">
 <p>etat pāpiṣṭham akaror yad ātmānaṃ parājitaḥ<br>
 śiṣṭe sati dhane rājan pāpa ātmaparājayaḥ</p>
 </blockquote>
@@ -1471,8 +1493,8 @@ kuryāmas te jitāḥ karma svayam ātmany upaplave</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.31</p>
-<blockquote>
+<p class="verse-ref">2.58.31</p>
+<blockquote lang="sa-Latn">
 <p>asti vai te priyā devī glaha eko 'parājitaḥ<br>
 paṇasva kṛṣṇāṃ pāñcālīṃ tayātmānaṃ punar jaya</p>
 </blockquote>
@@ -1485,8 +1507,8 @@ paṇasva kṛṣṇāṃ pāñcālīṃ tayātmānaṃ punar jaya</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.32&ndash;37</p>
-<blockquote>
+<p class="verse-ref">2.58.32&ndash;37</p>
+<blockquote lang="sa-Latn">
 <p>naiva hrasvā na mahatī nātikṛṣṇā na rohiṇī<br>
 sarāgaraktanetrā ca tayā dīvyāmy ahaṃ tvayā<br>
 śāradotpalapatrākṣyā śāradotpalagandhayā<br>
@@ -1505,7 +1527,7 @@ caramaṃ saṃviśati yā prathamaṃ pratibudhyate<br>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>tayaivaṃvidhayā rājan pāñcālyāhaṃ sumadhyayā<br>
 glahaṃ dīvyāmi cārvaṅgyā draupadyā hanta saubala</p>
 </blockquote>
@@ -1517,8 +1539,8 @@ glahaṃ dīvyāmi cārvaṅgyā draupadyā hanta saubala</p>
 </div>
 
 <div class="pair solo">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.58.38&ndash;43</p>
-<blockquote>
+<p class="verse-ref">2.58.38&ndash;43</p>
+<blockquote lang="sa-Latn">
 <p>evam ukte tu vacane dharmarājena bhārata<br>
 dhig dhig ity eva vṛddhānāṃ sabhyānāṃ niḥsṛtā giraḥ<br>
 cukṣubhe sā sabhā rājan rājñāṃ saṃjajñire kathāḥ<br>
@@ -1531,7 +1553,7 @@ jaharṣa karṇo 'tibhṛśaṃ saha duḥśāsanādibhiḥ<br>
 itareṣāṃ tu sabhyānāṃ netrebhyaḥ prāpataj jalam</p>
 </blockquote>
 <p class="verse-trans">“When that word had been spoken by the Dharma King, cries of ‘Shame! Shame!’ broke from the elders in the assembly. The hall shook; talk started up among the kings; sweat came out on Bhīṣma, Droṇa, Kṛpa and the rest. Vidura took hold of his head and became like a man whose strength has gone out of him; he sat brooding, face down, hissing like a snake. But Dhṛtarāṣṭra, thrilled, kept asking over and over, ‘What is won? What is won?’ &mdash; he could not keep his composure. Karṇa was delighted beyond measure, and Duḥśāsana and the others with him. But from the eyes of the rest of the assembly, water fell.”</p>
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>saubalas tv avicāryaiva jitakāśī madotkaṭaḥ<br>
 jitam ity eva tān akṣān punar evānvapadyata</p>
 </blockquote>
@@ -1542,7 +1564,7 @@ jitam ity eva tān akṣān punar evānvapadyata</p>
 <section id="sec-hall">
 <h2><span class="n">V</span>The Hall</h2>
 
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Sabhā Parva 2.59&ndash;63</p>
+<p class="verse-ref">Sabhā Parva 2.59&ndash;63</p>
 
 <p>From Duryodhana’s order through Draupadī’s question to the granting of the boons.</p>
 
@@ -1550,8 +1572,8 @@ jitam ity eva tān akṣān punar evānvapadyata</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.59.1</p>
-<blockquote>
+<p class="verse-ref">2.59.1</p>
+<blockquote lang="sa-Latn">
 <p>ehi kṣattar draupadīm ānayasva; priyāṃ bhāryāṃ saṃmatāṃ pāṇḍavānām<br>
 saṃmārjatāṃ veśma paraitu śīghram; ānando naḥ saha dāsībhir astu</p>
 </blockquote>
@@ -1564,8 +1586,8 @@ saṃmārjatāṃ veśma paraitu śīghram; ānando naḥ saha dāsībhir astu</
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.59.4</p>
-<blockquote>
+<p class="verse-ref">2.59.4</p>
+<blockquote lang="sa-Latn">
 <p>na hi dāsītvam āpannā kṛṣṇā bhavati bhārata<br>
 anīśena hi rājñaiṣā paṇe nyasteti me matiḥ</p>
 </blockquote>
@@ -1579,8 +1601,8 @@ anīśena hi rājñaiṣā paṇe nyasteti me matiḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.60.5&ndash;7</p>
-<blockquote>
+<p class="verse-ref">2.60.5&ndash;7</p>
+<blockquote lang="sa-Latn">
 <p>kathaṃ tv evaṃ vadasi prātikāmin; ko vai dīvyed bhāryayā rājaputraḥ<br>
 mūḍho rājā dyūtamadena matta; āho nānyat kaitavam asya kiṃ cit<br>
 &hellip;<br>
@@ -1597,8 +1619,8 @@ etaj jñātvā tvam āgaccha tato māṃ naya sūtaja</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.60.9</p>
-<blockquote>
+<p class="verse-ref">2.60.9</p>
+<blockquote lang="sa-Latn">
 <p>yudhiṣṭhiras tu niśceṣṭo gatasattva ivābhavat<br>
 na taṃ sūtaṃ pratyuvāca vacanaṃ sādhv asādhu vā</p>
 </blockquote>
@@ -1611,8 +1633,8 @@ na taṃ sūtaṃ pratyuvāca vacanaṃ sādhv asādhu vā</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.60.12</p>
-<blockquote>
+<p class="verse-ref">2.60.12</p>
+<blockquote lang="sa-Latn">
 <p>sabhyās tv amī rājaputry āhvayanti; manye prāptaḥ saṃkṣayaḥ kauravāṇām<br>
 na vai samṛddhiṃ pālayate laghīyān; yat tvaṃ sabhām eṣyasi rājaputri</p>
 </blockquote>
@@ -1625,8 +1647,8 @@ na vai samṛddhiṃ pālayate laghīyān; yat tvaṃ sabhām eṣyasi rājaputr
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.60.13</p>
-<blockquote>
+<p class="verse-ref">2.60.13</p>
+<blockquote lang="sa-Latn">
 <p>evaṃ nūnaṃ vyadadhāt saṃvidhātā; sparśāv ubhau spṛśato dhīrabālau<br>
 dharmaṃ tv ekaṃ paramaṃ prāha loke; sa naḥ śamaṃ dhāsyati gopyamānaḥ</p>
 </blockquote>
@@ -1639,7 +1661,7 @@ dharmaṃ tv ekaṃ paramaṃ prāha loke; sa naḥ śamaṃ dhāsyati gopyamān
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>ehy ehi pāñcāli jitāsi kṛṣṇe; duryodhanaṃ paśya vimuktalajjā<br>
 kurūn bhajasvāyatapadmanetre; dharmeṇa labdhāsi sabhāṃ paraihi</p>
 </blockquote>
@@ -1652,20 +1674,20 @@ kurūn bhajasvāyatapadmanetre; dharmeṇa labdhāsi sabhāṃ paraihi</p>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>tataḥ samutthāya sudurmanāḥ sā; vivarṇam āmṛjya mukhaṃ kareṇa<br>
 ārtā pradudrāva yataḥ striyas tā; vṛddhasya rājñaḥ kurupuṃgavasya<br>
 tato javenābhisasāra roṣād; duḥśāsanas tām abhigarjamānaḥ<br>
 dīrgheṣu nīleṣv atha cormimatsu; jagrāha keśeṣu narendrapatnīm</p>
 </blockquote>
 <p class="verse-trans">“Then she stood up, sick at heart, wiped her bloodless face with her hand, and in her distress ran toward the women of the old king, the bull of the Kurus. Then Duḥśāsana rushed at her at speed, in fury, roaring at her, and seized the wife of a lord of men by the hair &mdash; long, dark, and waved.”</p>
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.60.23</p>
-<blockquote>
+<p class="verse-ref">2.60.23</p>
+<blockquote lang="sa-Latn">
 <p>ye rājasūyāvabhṛthe jalena; mahākratau mantrapūtena siktāḥ<br>
 te pāṇḍavānāṃ paribhūya vīryaṃ; balāt pramṛṣṭā dhṛtarāṣṭrajena</p>
 </blockquote>
 <p class="verse-trans">“Those locks, which at the final bath of the Rājasūya, at that great rite, had been sprinkled with water purified by mantra &mdash; those, in contempt of the Pāṇḍavas’ valor, were mauled by force by the son of Dhṛtarāṣṭra.”</p>
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>sa tāṃ parāmṛśya sabhāsamīpam; ānīya kṛṣṇām atikṛṣṇakeśīm<br>
 duḥśāsano nāthavatīm anāthavac; cakarṣa vāyuḥ kadalīm ivārtām</p>
 </blockquote>
@@ -1678,8 +1700,8 @@ duḥśāsano nāthavatīm anāthavac; cakarṣa vāyuḥ kadalīm ivārtām</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.60.26&ndash;27</p>
-<blockquote>
+<p class="verse-ref">2.60.26&ndash;27</p>
+<blockquote lang="sa-Latn">
 <p>kṛṣṇaṃ ca jiṣṇuṃ ca hariṃ naraṃ ca; trāṇāya vikrośa nayāmi hi tvām<br>
 rajasvalā vā bhava yājñaseni; ekāmbarā vāpy atha vā vivastrā<br>
 dyūte jitā cāsi kṛtāsi dāsī; dāsīṣu kāmaś ca yathopajoṣam</p>
@@ -1694,8 +1716,8 @@ dyūte jitā cāsi kṛtāsi dāsī; dāsīṣu kāmaś ca yathopajoṣam</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.60.29&ndash;31</p>
-<blockquote>
+<p class="verse-ref">2.60.29&ndash;31</p>
+<blockquote lang="sa-Latn">
 <p>ime sabhāyām upadiṣṭaśāstrāḥ; kriyāvantaḥ sarva evendrakalpāḥ<br>
 gurusthānā guravaś caiva sarve; teṣām agre notsahe sthātum evam<br>
 nṛśaṃsakarmaṃs tvam anāryavṛtta; mā māṃ vivastrāṃ kṛdhi mā vikārṣīḥ<br>
@@ -1712,8 +1734,8 @@ vācāpi bhartuḥ paramāṇumātraṃ; necchāmi doṣaṃ svaguṇān visṛj
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.60.32&ndash;34</p>
-<blockquote>
+<p class="verse-ref">2.60.32&ndash;34</p>
+<blockquote lang="sa-Latn">
 <p>idaṃ tv anāryaṃ kuruvīramadhye; rajasvalāṃ yat parikarṣase mām<br>
 na cāpi kaś cit kurute 'tra pūjāṃ; dhruvaṃ tavedaṃ matam anvapadyan<br>
 dhig astu naṣṭaḥ khalu bhāratānāṃ; dharmas tathā kṣatravidāṃ ca vṛttam<br>
@@ -1721,7 +1743,7 @@ yatrābhyatītāṃ kurudharmavelāṃ; prekṣanti sarve kuravaḥ sabhāyām<b
 droṇasya bhīṣmasya ca nāsti sattvaṃ; dhruvaṃ tathaivāsya mahātmano 'pi</p>
 </blockquote>
 <p class="verse-trans">“But this is ignoble &mdash; that in the middle of the Kuru heroes you drag me while I am in my period. And nobody here does anything about it. Surely they have all gone over to your opinion. Shame! The dharma of the Bhāratas is lost, and so is the practice of those who know the warrior’s code &mdash; for all the Kurus in this hall are watching the boundary-line of Kuru dharma being crossed. Droṇa has no strength in him, and neither has Bhīṣma &mdash; nor, surely, has that great-souled one either.”</p>
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>tathā bruvantī karuṇaṃ sumadhyamā; kākṣeṇa bhartṝn kupitān apaśyat<br>
 sā pāṇḍavān kopaparītadehān; saṃdīpayām āsa kaṭākṣapātaiḥ<br>
 hṛtena rājyena tathā dhanena; ratnaiś ca mukhyair na tathā babhūva<br>
@@ -1736,8 +1758,8 @@ yathārtayā kopasamīritena; kṛṣṇākaṭākṣeṇa babhūva duḥkham</p
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.60.40&ndash;42</p>
-<blockquote>
+<p class="verse-ref">2.60.40&ndash;42</p>
+<blockquote lang="sa-Latn">
 <p>na dharmasaukṣmyāt subhage vivaktuṃ; śaknomi te praśnam imaṃ yathāvat<br>
 asvo hy aśaktaḥ paṇituṃ parasvaṃ; striyaś ca bhartur vaśatāṃ samīkṣya<br>
 tyajeta sarvāṃ pṛthivīṃ samṛddhāṃ; yudhiṣṭhiraḥ satyam atho na jahyāt<br>
@@ -1754,8 +1776,8 @@ na manyate tāṃ nikṛtiṃ mahātmā; tasmān na te praśnam imaṃ bravīmi<
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.60.43&ndash;45</p>
-<blockquote>
+<p class="verse-ref">2.60.43&ndash;45</p>
+<blockquote lang="sa-Latn">
 <p>āhūya rājā kuśalaiḥ sabhāyāṃ; duṣṭātmabhir naikṛtikair anāryaiḥ<br>
 dyūtapriyair nātikṛtaprayatnaḥ; kasmād ayaṃ nāma nisṛṣṭakāmaḥ<br>
 sa śuddhabhāvo nikṛtipravṛttim; abudhyamānaḥ kurupāṇḍavāgryaḥ<br>
@@ -1773,8 +1795,8 @@ samīkṣya sarve mama cāpi vākyaṃ; vibrūta me praśnam imaṃ yathāvat</p
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.61.20&ndash;24</p>
-<blockquote>
+<p class="verse-ref">2.61.20&ndash;24</p>
+<blockquote lang="sa-Latn">
 <p>catvāry āhur naraśreṣṭhā vyasanāni mahīkṣitām<br>
 mṛgayāṃ pānam akṣāṃś ca grāmye caivātisaktatām<br>
 eteṣu hi naraḥ sakto dharmam utsṛjya vartate<br>
@@ -1794,8 +1816,8 @@ etat sarvaṃ vicāryāhaṃ manye na vijitām imām</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.61.28&ndash;37</p>
-<blockquote>
+<p class="verse-ref">2.61.28&ndash;37</p>
+<blockquote lang="sa-Latn">
 <p>ete na kiṃ cid apy āhuś codyamānāpi kṛṣṇayā<br>
 dharmeṇa vijitāṃ manye manyante drupadātmajām<br>
 &hellip;<br>
@@ -1810,7 +1832,7 @@ asyāḥ sabhām ānayanaṃ na citram iti me matiḥ<br>
 ekāmbaradharatvaṃ vāpy atha vāpi vivastratā</p>
 </blockquote>
 <p class="verse-trans">“These men have said nothing at all, though pressed by Kṛṣṇā. I take it they consider Drupada’s daughter lawfully won. &hellip; Draupadī was included within ‘everything’; when everything was staked by the eldest of the Pāṇḍavas, how do you consider her not won, when she was won by dharma? She was named aloud, and the Pāṇḍavas consented. On what ground do you hold her to be unwon? &hellip; One husband is ordained for a woman by the gods, son of Kuru; but this one is in the power of many, and is therefore determined to be a whore. Bringing her into the hall is nothing remarkable, in my judgment &mdash; nor is her being in one garment, nor her being in none.”</p>
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>yac caiṣāṃ draviṇaṃ kiṃ cid yā caiṣā ye ca pāṇḍavāḥ<br>
 saubaleneha tat sarvaṃ dharmeṇa vijitaṃ vasu<br>
 duḥśāsana subālo 'yaṃ vikarṇaḥ prājñavādikaḥ<br>
@@ -1826,8 +1848,8 @@ pāṇḍavānāṃ ca vāsāṃsi draupadyāś cāpy upāhara</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.61.40&ndash;42</p>
-<blockquote>
+<p class="verse-ref">2.61.40&ndash;42</p>
+<blockquote lang="sa-Latn">
 <p>tato duḥśāsano rājan draupadyā vasanaṃ balāt<br>
 sabhāmadhye samākṣipya vyapakraṣṭuṃ pracakrame<br>
 ākṛṣyamāṇe vasane draupadyās tu viśāṃ pate<br>
@@ -1845,8 +1867,8 @@ tad adbhutatamaṃ loke vīkṣya sarvamahīkṣitām</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.61.44&ndash;46</p>
-<blockquote>
+<p class="verse-ref">2.61.44&ndash;46</p>
+<blockquote lang="sa-Latn">
 <p>idaṃ me vākyam ādaddhvaṃ kṣatriyā lokavāsinaḥ<br>
 noktapūrvaṃ narair anyair na cānyo yad vadiṣyati<br>
 yady etad evam uktvā tu na kuryāṃ pṛthivīśvarāḥ<br>
@@ -1863,8 +1885,8 @@ na pibeyaṃ balād vakṣo bhittvā ced rudhiraṃ yudhi</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.61.52&ndash;57</p>
-<blockquote>
+<p class="verse-ref">2.61.52&ndash;57</p>
+<blockquote lang="sa-Latn">
 <p>draupadī praśnam uktvaivaṃ roravīti hy anāthavat<br>
 na ca vibrūta taṃ praśnaṃ sabhyā dharmo 'tra pīḍyate<br>
 sabhāṃ prapadyate hy ārtaḥ prajvalann iva havyavāṭ<br>
@@ -1884,8 +1906,8 @@ anṛtasya phalaṃ kṛtsnaṃ saṃprāpnotīti niścayaḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.61.67&ndash;71</p>
-<blockquote>
+<p class="verse-ref">2.61.67&ndash;71</p>
+<blockquote lang="sa-Latn">
 <p>jānan na vibruvan praśnaṃ kāmāt krodhāt tathā bhayāt<br>
 sahasraṃ vāruṇān pāśān ātmani pratimuñcati<br>
 tasya saṃvatsare pūrṇe pāśa ekaḥ pramucyate<br>
@@ -1896,7 +1918,7 @@ ardhaṃ harati vai śreṣṭhaḥ pādo bhavati kartṛṣu<br>
 pādaś caiva sabhāsatsu ye na nindanti ninditam</p>
 </blockquote>
 <p class="verse-trans">“A man who knows and does not answer the question &mdash; from desire, from anger, or from fear &mdash; fastens on himself a thousand of Varuṇa’s nooses; and one noose is loosed at the end of a full year. &hellip; Where dharma comes into an assembly pierced by adharma, and the members of that assembly do not cut the barb out of him, they are themselves pierced. The chief man carries off half the guilt; a quarter falls on the doers; and a quarter on the members of the assembly, who do not condemn what is condemnable.”</p>
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>vidurasya vacaḥ śrutvā nocuḥ kiṃ cana pārthivāḥ<br>
 karṇo duḥśāsanaṃ tv āha kṛṣṇāṃ dāsīṃ gṛhān naya</p>
 </blockquote>
@@ -1910,7 +1932,7 @@ karṇo duḥśāsanaṃ tv āha kṛṣṇāṃ dāsīṃ gṛhān naya</p>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>purastāt karaṇīyaṃ me na kṛtaṃ kāryam uttaram<br>
 vihvalāsmi kṛtānena karṣatā balinā balāt<br>
 abhivādaṃ karomy eṣāṃ gurūṇāṃ kurusaṃsadi<br>
@@ -1933,8 +1955,8 @@ tathā pratyuktam icchāmi tat kariṣyāmi kauravāḥ</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.62.14&ndash;21</p>
-<blockquote>
+<p class="verse-ref">2.62.14&ndash;21</p>
+<blockquote lang="sa-Latn">
 <p>uktavān asmi kalyāṇi dharmasya tu parāṃ gatim<br>
 loke na śakyate gantum api viprair mahātmabhiḥ<br>
 balavāṃs tu yathā dharmaṃ loke paśyati pūruṣaḥ<br>
@@ -1948,7 +1970,7 @@ ete droṇādayaś caiva vṛddhā dharmavido janāḥ<br>
 yudhiṣṭhiras tu praśne 'smin pramāṇam iti me matiḥ</p>
 </blockquote>
 <p class="verse-trans">“I have told you, good woman: the ultimate course of dharma cannot be reached in this world, not even by great brahmins. But whatever a strong man in the world sees as dharma &mdash; that, at the moment of dharma’s crisis, is what gets called dharma by others. &hellip; Surely the end of this family will come, and not long from now, since all the Kurus have gone over to greed and delusion. &hellip; These men here, Droṇa and the elders, people who know dharma, sit with empty bodies, bowed like men whose life-breath is gone. But in this question, my judgment is that Yudhiṣṭhira is the authority.”</p>
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>tathā tu dṛṣṭvā bahu tat tad evaṃ; rorūyamāṇāṃ kurarīm ivārtām<br>
 nocur vacaḥ sādhv atha vāpy asādhu; mahīkṣito dhārtarāṣṭrasya bhītāḥ</p>
 </blockquote>
@@ -1961,8 +1983,8 @@ nocur vacaḥ sādhv atha vāpy asādhu; mahīkṣito dhārtarāṣṭrasya bhī
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.62.24&ndash;26</p>
-<blockquote>
+<p class="verse-ref">2.62.24&ndash;26</p>
+<blockquote lang="sa-Latn">
 <p>tiṣṭhatv ayaṃ praśna udārasattve; bhīme 'rjune sahadeve tathaiva<br>
 patyau ca te nakule yājñaseni; vadantv ete vacanaṃ tvatprasūtam<br>
 anīśvaraṃ vibruvantv āryamadhye; yudhiṣṭhiraṃ tava pāñcāli hetoḥ<br>
@@ -1977,8 +1999,8 @@ kurvantu sarve cānṛtaṃ dharmarājaṃ; pāñcāli tvaṃ mokṣyase dāsabh
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.62.32&ndash;37</p>
-<blockquote>
+<p class="verse-ref">2.62.32&ndash;37</p>
+<blockquote lang="sa-Latn">
 <p>yady eṣa gurur asmākaṃ dharmarājo yudhiṣṭhiraḥ<br>
 na prabhuḥ syāt kulasyāsya na vayaṃ marṣayemahi<br>
 īśo naḥ puṇyatapasāṃ prāṇānām api ceśvaraḥ<br>
@@ -1998,8 +2020,8 @@ gauraveṇa niruddhaś ca nigrahād arjunasya ca</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.63.1&ndash;4</p>
-<blockquote>
+<p class="verse-ref">2.63.1&ndash;4</p>
+<blockquote lang="sa-Latn">
 <p>trayaḥ kileme adhanā bhavanti; dāsaḥ śiṣyaś cāsvatantrā ca nārī<br>
 dāsasya patnī tvaṃ dhanam asya bhadre; hīneśvarā dāsadhanaṃ ca dāsī<br>
 &hellip;<br>
@@ -2014,8 +2036,8 @@ anyaṃ vṛṇīṣva patim āśu bhāmini; yasmād dāsyaṃ na labhase devane
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.63.22&ndash;23</p>
-<blockquote>
+<p class="verse-ref">2.63.22&ndash;23</p>
+<blockquote lang="sa-Latn">
 <p>tato rājño dhṛtarāṣṭrasya gehe; gomāyur uccair vyāharad agnihotre<br>
 taṃ rāsabhāḥ pratyabhāṣanta rājan; samantataḥ pakṣiṇaś caiva raudrāḥ</p>
 </blockquote>
@@ -2028,8 +2050,8 @@ taṃ rāsabhāḥ pratyabhāṣanta rājan; samantataḥ pakṣiṇaś caiva ra
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.63.25</p>
-<blockquote>
+<p class="verse-ref">2.63.25</p>
+<blockquote lang="sa-Latn">
 <p>hato 'si duryodhana mandabuddhe; yas tvaṃ sabhāyāṃ kurupuṃgavānām<br>
 striyaṃ samābhāṣasi durvinīta; viśeṣato draupadīṃ dharmapatnīm</p>
 </blockquote>
@@ -2042,8 +2064,8 @@ striyaṃ samābhāṣasi durvinīta; viśeṣato draupadīṃ dharmapatnīm</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.63.34&ndash;36</p>
-<blockquote>
+<p class="verse-ref">2.63.34&ndash;36</p>
+<blockquote lang="sa-Latn">
 <p>lobho dharmasya nāśāya bhagavan nāham utsahe<br>
 anarhā varam ādātuṃ tṛtīyaṃ rājasattama<br>
 ekam āhur vaiśyavaraṃ dvau tu kṣatrastriyā varau<br>
@@ -2060,8 +2082,8 @@ vetsyanti caiva bhadrāṇi rājan puṇyena karmaṇā</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.64.1&ndash;3</p>
-<blockquote>
+<p class="verse-ref">2.64.1&ndash;3</p>
+<blockquote lang="sa-Latn">
 <p>yā naḥ śrutā manuṣyeṣu striyo rūpeṇa saṃmatāḥ<br>
 tāsām etādṛśaṃ karma na kasyāṃ cana śuśrumaḥ<br>
 &hellip;<br>
@@ -2079,7 +2101,7 @@ pāñcālī pāṇḍuputrāṇāṃ naur eṣā pāragābhavat</p>
 <section id="sec-second">
 <h2><span class="n">VI</span>The Second Game</h2>
 
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">Sabhā Parva 2.67</p>
+<p class="verse-ref">Sabhā Parva 2.67</p>
 
 <p>The Pāṇḍavas, released with their kingdom restored, are overtaken on the road.</p>
 
@@ -2087,7 +2109,7 @@ pāñcālī pāṇḍuputrāṇāṃ naur eṣā pāragābhavat</p>
 
 <div class="pair">
 <div class="pair-text">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>krodhāviṣṭeṣu pārtheṣu dhārtarāṣṭreṣu cāpy ati<br>
 draupadī pāṇḍuputrāṇāṃ kṛṣṇā śāntir ihābhavat</p>
 </blockquote>
@@ -2100,16 +2122,16 @@ draupadī pāṇḍuputrāṇāṃ kṛṣṇā śāntir ihābhavat</p>
 
 <div class="pair">
 <div class="pair-text">
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.67.3&ndash;4</p>
-<blockquote>
+<p class="verse-ref">2.67.3&ndash;4</p>
+<blockquote lang="sa-Latn">
 <p>dhātur niyogād bhūtāni prāpnuvanti śubhāśubham<br>
 na nivṛttis tayor asti devitavyaṃ punar yadi<br>
 akṣadyūte samāhvānaṃ niyogāt sthavirasya ca<br>
 jānann api kṣayakaraṃ nātikramitum utsahe</p>
 </blockquote>
 <p class="verse-trans">“By the appointment of the Ordainer, beings obtain the fair and the foul; there is no turning-away from those two, if it must be diced again. The summons to the dice-game comes by appointment of the elder: though knowing it works destruction, I cannot step across it.”</p>
-<p class="verse-ref" style="font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ochre);margin:30px 0 4px;">2.67.7</p>
-<blockquote>
+<p class="verse-ref">2.67.7</p>
+<blockquote lang="sa-Latn">
 <p>yathopajoṣam āsīnāḥ punardyūtapravṛttaye<br>
 sarvalokavināśāya daivenopanipīḍitāḥ</p>
 </blockquote>
@@ -2121,7 +2143,7 @@ sarvalokavināśāya daivenopanipīḍitāḥ</p>
 </div>
 
 <div class="pair solo">
-<blockquote>
+<blockquote lang="sa-Latn">
 <p>asyā bhūmer nirasituṃ bhāraṃ bhāgaiḥ pṛthak pṛthak<br>
 asyām eva prasūyadhvaṃ virodhāyeti cābravīt</p>
 </blockquote>
@@ -2133,7 +2155,7 @@ asyām eva prasūyadhvaṃ virodhāyeti cābravīt</p>
 <!-- COLOPHON                                                       -->
 <!-- ============================================================ -->
 
-<div class="part-divider">&#x2022; &#x2726; &#x2022;</div>
+<div class="part-divider" aria-hidden="true"></div>
 
 <div class="colophon">
   <div class="m"><div class="k">Source edition</div><div class="v">Bhandarkar Oriental Research Institute Critical Edition, Pune, 1927&ndash;1966</div></div>
