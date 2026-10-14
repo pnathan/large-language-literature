@@ -493,7 +493,7 @@ A = {
 '4:1': [
  ((0, 1, 2, 3, 4), 'Now the human knew Chavah his woman;', "vehaadam yada' et chavah ishto: 'knew'."),
  ((5, 6, 7, 8, 9), 'she conceived and bore Qayin, and said:', 'vattaharr vattelad et qayin vattomer.'),
- ((10, 11, 12, 13), 'I have acquired a man, with the Lord.', "qaniti ish et the Lord: 'I have gotten a man, the Lord'."),
+ ((10, 11, 12, 13), 'I have acquired a man, with the Lord.', "qaniti ish et the Lord: 'I have acquired a man, with the Lord' is the English."),
 ],
 '4:2': [
  ((0, 1, 2, 3, 4, 5), 'She bore again: his brother Hevel.', 'vattosef lalledet et achiv et hevel.'),
@@ -526,7 +526,7 @@ A = {
  ((0, 1, 2, 3, 4), 'Qayin said to Hevel his brother—', "vayomer qayin el hevel achiv: the Hebrew gives no words; the dash is the English's."),
  ((5, 6, 7), 'when they were in the field,', 'vayehi bihyotam basadeh.'),
  ((8, 9, 10, 11, 12), 'Qayin rose against Hevel his brother', 'vayyaqom qayin el hevel achiv.'),
- ((13,), 'and killed him.', "vayyahargehu: 'killed him'. 'Struck him dead' is the body word for harag. 'Struck him down, and he died' is the body word for harag plus the result."),
+ ((13,), 'and killed him.', "vayyahargehu: 'killed him'. 'killed him' is the English for vayyahargehu."),
 ],
 '4:9': [
  ((0, 1, 2, 3, 4, 5, 6), 'The Lord said to Qayin: Where is Hevel your brother?', 'vayomer the Lord el qayin ei hevel achikha.'),
