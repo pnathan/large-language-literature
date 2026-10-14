@@ -24,7 +24,7 @@ T = [
 ("1:2",
  ["The ground was a gape. A wasting. A mouth with nothing in it.",
   "Dark coiled on the lip of the Deep, its throat breathing cold.",
-  "And the Wind of Elohim—a brooding bird—",
+  "And the Wind of Elohim—a bird that flutters over its young—",
   "beat over the belly of the waters, shuddering, shaking,",
   "like a mother-bird over the hatchlings she cannot see."],
  "Tohu and bohu (תֹהוּ וָבֹהוּ): 'waste, emptiness'; a stammering pair, kept as a pair. 'A gape' and 'a mouth with nothing in it' stretch tohu toward the bodily. Tehom (תְּהוֹם), 'the deep', is compared by some to Tiamat; no etymology is established, and 'Deep' is capitalised as a force. Merachefet (מְרַחֶפֶת) is the participle of rachaf, used of a bird hovering over its young (Deut 32:11); the simile is an addition that presses that sense. Ruach (רוּחַ) is wind, breath, or spirit; 'Wind' is chosen. LXX adds 'invisible' (aoratos) and 'unfurnished' (akataskeuastos), neither in the Hebrew, and renders the deep as 'abyss'."),
@@ -233,8 +233,8 @@ T = [
  "Vayevarekh (וַיְבָרֶךְ), 'blessed'; vayqaddesh (וַיְקַדֵּשׁ), 'made holy', from qadosh, 'set apart' (the 'cut away' gloss is speculative). Bara' with the infinitive la'asot (לַעֲשׂוֹת) is a doubled verb. 'Knelt' is the register's word for barak. LXX hōn ērxato ho theos poiēsai, 'which God began to make': the LXX reads 'began', rendering the bara' + la'asot idiom; weak support for the temporal reading of 1:1."),
 
 ("2:4",
- ["These are the begettings—",
-  "toledot, the outcomes—",
+ ["These are the births—",
+  "toledot, the bearing-out—",
   "of sky and ground,",
   "in their being cut,",
   "in the day YHWH Elohim made",
@@ -320,7 +320,7 @@ T = [
  ["YHWH Elohim said: not good,",
   "the human alone.",
   "I will make him a help,",
-  "a counter-face."],
+  "a face set across from him."],
  "Ezer (עֵזֶר), 'help'. The word is used of God (Ps 33:20) and implies no inferiority. Kenegdo (כְּנֶגְדּוֹ), 'opposite him': a mirror-face. LXX boēthon kat' auton, 'a helper like him'. LXX 2:18 reads poiēsōmen ('let us make') for the Hebrew 'eeseh ('I will make')."),
 
 ("2:19",
@@ -334,7 +334,7 @@ T = [
 ("2:20",
  ["The human called names:",
   "to the cattle, to the fowl of the sky, to every beast of the field.",
-  "But for the human, no counter-face was found."],
+  "But for the human, no face across from him was found."],
  "Lo matsa (לֹא־מָצָא), 'did not find'. LXX ouch heurethē boēthos homoios, 'no similar helper was found'."),
 
 ("2:21",
@@ -446,17 +446,17 @@ T = [
  ["YHWH Elohim said to the Hiss: Because you did this—",
   "cursed you are, out of all the cattle,",
   "out of all the beasts of the field.",
-  "On your belly you will crawl,",
+  "On your gut you will go,",
   "and dust you will eat all the days of your life."],
  "Gechon (גְּחוֹן), 'belly, underside'. Afar (עָפָר): 'dust'. LXX gēn, 'earth', for dust, and 'chest and belly': the Greek adds the chest."),
 
 ("3:15",
- ["Enmity I will set",
+ ["Hatred I will set",
   "between you and the woman,",
   "between your seed and her seed:",
   "he—it—will crush your head;",
   "you will bruise its heel."],
- "Eivah (אֵיבָה), 'enmity'. Hu (הוּא): 'he, it', masculine. Zera' (זֶרַע), 'seed', is collective. Yeshufka (יְשׁוּפְךָ): from shuf, 'crush, bruise'. LXX autos tērēsei, 'he will watch': 'crush' becomes 'guard'. Read as messianic prophecy in later tradition; the Hebrew names no single victor."),
+ "Eivah (אֵיבָה), 'enmity, hatred'; 'hatred' is the English here. Hu (הוּא): 'he, it', masculine. Zera' (זֶרַע), 'seed', is collective. Yeshufka (יְשׁוּפְךָ): from shuf, 'crush, bruise'. LXX autos tērēsei, 'he will watch': 'crush' becomes 'guard'. Read as messianic prophecy in later tradition; the Hebrew names no single victor."),
 
 ("3:16",
  ["To the woman he said: I will multiply, multiply",
@@ -468,7 +468,7 @@ T = [
 ("3:17",
  ["To the human he said: Because you listened to your woman's voice",
   "and ate from the tree I charged you about—'do not eat from it'—",
-  "the ground is cursed for your sake.",
+  "the ground is cursed because of you.",
   "In pain you will eat from it all the days of your life."],
  "Ha-adamah (הָאֲדָמָה), 'the red ground'. Be-itstsavon (בְּעִצָּבוֹן): 'in pain', the noun of 3:16. LXX reads 'in the works' (en tois ergois) for 'for your sake' (a variant reading, not an addition)."),
 
@@ -478,9 +478,9 @@ T = [
  "Qos (קוֹץ): 'thorn'. Dardar (דַּרְדַּר): 'thistle'. LXX akanthas kai tribolous, 'thorns and caltrops'."),
 
 ("3:19",
- ["By the sweat of your face you will eat bread",
+ ["In the sweat of your nose you will eat bread",
   "until you return to the red—for from it you were taken.",
-  "Dust you are; to dust you will return."],
+  "Dust you are, and to dust you turn back."],
  "Appayim (אַפַּיִם): 'face, nostrils, anger', the word of 2:7. Lukkachta (לֻקָּחְתָּ): 'you were taken'. LXX en hidrōti, 'in sweat'."),
 
 ("3:20",
@@ -555,7 +555,7 @@ T = [
 
 ("4:9",
  ["YHWH said to Qayin: Where is Hevel your brother?",
-  "He said: I do not know. Am I my brother's keeper?"],
+  "He said: I do not know. Am I the guard of my brother?"],
  "Shomer (שֹׁמֵר): 'keeper, guard', from shamar. The same verb in 2:15 sets the human to keep the garden. LXX phylax, 'guard'."),
 
 ("4:10",
@@ -575,13 +575,13 @@ T = [
  "Na' va-nad (נָע וָנָד): 'staggering and wandering'. Ko'ach (כֹּחַ): 'strength'. LXX stenōn kai tremōn, 'groaning and trembling'."),
 
 ("4:13",
- ["Qayin said to YHWH: My guilt is greater than I can bear,",
-  "greater than can be lifted."],
+ ["Qayin said to YHWH: My twist is heavier than I can lift,",
+  "too heavy to be lifted off me."],
  "Avon (עָוֹן): 'guilt, iniquity, punishment'. Minnesso (מִנְּשֹׂא): 'from lifting'; nasa' both carries and forgives. LXX aitia, 'charge, cause'."),
 
 ("4:14",
  ["Look—you drive me out today from the face of the red.",
-  "From your face I shall be hidden;",
+  "I will hide from your face;",
   "I shall be a reeler and wanderer on the earth,",
   "and whoever finds me will kill me."],
  "Garashta (גֵּרַשְׁתָּ): 'you drove out', garash again (see 3:24). Yahargeni (יַהַרְגֵנִי): 'will kill me', harag again."),
@@ -589,7 +589,7 @@ T = [
 ("4:15",
  ["YHWH said to him: Not so—therefore—",
   "whoever kills Qayin will be paid back sevenfold.",
-  "YHWH set a mark on Qayin, lest anyone who found him strike him."],
+  "YHWH cut a mark into Qayin, so no one who found him would hit him."],
  "Lakhen (לָכֵן): 'therefore' or 'not so' (lo ken). The Hebrew reads 'therefore'; the LXX reads 'not so' (ouch houtōs): a witness variant, not a Hebrew reading. Shiv'atayim (שִׁבְעָתַיִם): 'seven-fold'. Ot (אוֹת): 'sign, mark'; its form is not described."),
 
 ("4:16",

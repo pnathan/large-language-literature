@@ -34,7 +34,7 @@ A = {
  ((5,), "coiled on the lip of", "'al, 'upon'. 'Coiled on the lip of' is a stretch of 'al: the preposition is spatial and plain; the verb 'coiled' adds the bodily image."),
  ((6,7), "the Deep", "p'nei tehom, 'face of the deep'. 'Face' is rendered 'lip' (p'nei). Stretch: 'lip' for panim is a choice to make the deep bodily; 'face of the deep' is the literal. Tehom (7) is 'the Deep', capitalised as a force."),
  ((8,9), "and the Wind of Elohim", "w'ruach 'elohim, 'and the breath/spirit/wind of God'. 'Wind' is chosen over 'spirit' (ruach's standard translation) and over 'breath', which is the subject of 1:2 in later drafts. 'Wind' keeps the physical movement the verb needs."),
- ((10,), "a brooding bird", "merachefet, 'hovering/brooding'. The English gives the simile 'a bird' as a stretch from the root (Deut 32:11 uses the same root of an eagle over its young). 'Brooding' is the fitting verb of that bird."),
+ ((10,), "a bird that flutters over its young", "merachefet, 'hovering/brooding'. The English gives the simile 'a bird' as a stretch from the root (Deut 32:11 uses the same root of an eagle over its young). 'Brooding' is the fitting verb of that bird."),
  ((11,12,13), "beat over the belly of the waters", "'al p'nei hamayim, 'upon the face of the waters'. 'Beat' is the stretch of merachefet's trembling; 'belly' replaces 'face' (see 1:2 commentary on pnei). The second pnei is folded into 'belly' for the parallel."),
 ],
 
@@ -366,8 +366,8 @@ A = {
 ],
 
 "2:4": [
- ((0,1), "These are the begettings—", "'elleh toledot, 'these are the generations'. 'Begettings' keeps yalad's bearing; 'generations' is the settled sense and is rejected as too genealogical for the register."),
- ((), "toledot, the outcomes—", "Not a separate Hebrew token: 'toledot' (token 1) is glossed twice, once as 'begettings' above and once here as the Hebrew word itself, kept visible. 'Outcomes' is an addition to the begetting sense."),
+ ((0,1), "These are the births—", "'elleh toledot, 'these are the generations'. 'Begettings' keeps yalad's bearing; 'generations' is the settled sense and is rejected as too genealogical for the register."),
+ ((), "toledot, the bearing-out—", "Not a separate Hebrew token: 'toledot' (token 1) is glossed twice, once as 'begettings' above and once here as the Hebrew word itself, kept visible. 'Outcomes' is an addition to the begetting sense."),
  ((2,3), "of sky and ground,", "hashamayim vehaaretz, 'the heavens and the earth'. Order kept from 2:1."),
  ((4,), "in their being cut,", "behibare'am, 'in their being created'. 'Cut' is the stretch of bara' (see 1:1). The Hebrew is a niphal infinitive: 'being created'."),
  ((5,6), "in the day", "beyom 'asot, 'in the day of making'. 'In the day' drops 'asot (making), carried in the next line."),
@@ -477,7 +477,7 @@ A = {
  ((5,6,7), "the human alone.", "heyot ha'adam levaddo, 'the human being alone'. 'Alone' is levad (alone); the infinitive 'being' is dropped."),
  ((8,9), "I will make him", "e'eseh lo, 'I will make for him'. 'Make him' drops the preposition's sense of 'for'."),
  ((10,11), "a help,", "ezer, 'help'. The word implies no inferiority (Ps 33:20)."),
- ((), "a counter-face.", "kenegdo, 'like/opposite him'. 'Counter-face' is a stretch: 'opposite him' is the Hebrew; 'counter-face' makes it a face. Marked; the commentary on 2:18 names it."),
+ ((), "a face set across from him.", "kenegdo, 'like/opposite him'. 'Counter-face' is a stretch: 'opposite him' is the Hebrew; 'counter-face' makes it a face. Marked; the commentary on 2:18 names it."),
 ],
 
 "2:19": [
@@ -497,7 +497,7 @@ A = {
  ((2,3), "to the cattle,", "lekhol habehemah, 'to all the cattle'. 'The' for the Hebrew 'all' (kol) is dropped; loss marked."),
  ((4,5,6), "to the fowl of the sky,", "ule'of hashamayim, 'and to the fowl of the sky'."),
  ((7,8,9), "to every beast of the field.", "ulekhol chayat hasadeh, 'and to every beast of the field'."),
- ((10,11,12,13,14), "But for the human, no counter-face was found.", "ule'adam lo matza ezer kenegdo, 'but for the human he did not find a help opposite him'. 'Counter-face' is the stretch named at 2:18."),
+ ((10,11,12,13,14), "But for the human, no face across from him was found.", "ule'adam lo matza ezer kenegdo, 'but for the human he did not find a help opposite him'. 'Counter-face' is the stretch named at 2:18."),
 ],
 
 "2:21": [
@@ -652,12 +652,12 @@ A = {
  ((6,7,8), "Because you did this—", "ki 'asita zot, 'because you did this'."),
  ((9,10), "cursed you are,", "'arur atah, 'cursed are you'. The English inverts the order."),
  ((11,12,13,14,15), "out of all the cattle,", "mikol habehemah umikol chayat hasadeh, 'out of all the cattle and out of all the beasts of the field'. Split across two lines; 'out of all' is repeated in the English."),
- ((16,17,18), "On your belly you will crawl,", "al gechonkha telekh, 'upon your belly you shall walk'. 'Crawl' is the stretch of halakh (walk). The English makes the animal's motion the curse."),
+ ((16,17,18), "On your gut you will go,", "al gechonkha telekh, 'upon your belly you shall walk'. 'Crawl' is the stretch of halakh (walk). The English makes the animal's motion the curse."),
  ((19,20,21,22,23), "and dust you will eat all the days of your life.", "vafar tokhal kol yemei chayyekha, 'and dust you shall eat all the days of your life'. 'Dust' for afar."),
 ],
 
 "3:15": [
- ((0,1,2), "Enmity I will set", "ve'eivah ashit, 'and enmity I will set'."),
+ ((0,1,2), "Hatred I will set", "ve'eivah ashit, 'and enmity I will set'."),
  ((3,4,5), "between you and the woman,", "beinkha uvein ha'ishah, 'between you and the woman'."),
  ((6,7,8,9), "between your seed and her seed:", "uvein zar'akha uvein zar'ah, 'between your seed and her seed'. 'Seed' is zera', collective."),
  ((10,11,12), "he—it—will crush your head;", "hu yeshufkha rosh, 'it/he will crush you on the head'. 'He—it' keeps hu's ambiguity; 'crush' is the stretch of shuf (bruise, lie in wait)."),
@@ -678,7 +678,7 @@ A = {
  ((7,8,9,10,11), "and ate from the tree I charged you about—", "vatokhal min ha'ets asher tsiviti'kha lemor, 'and you ate from the tree which I charged you, saying'. 'About' is the English for tsivah plus lemor."),
  ((12,13,14), "'do not eat from it'—", "lo tokhal mimmenu, 'you shall not eat from it'."),
  ((15,16), "the ground is cursed", "arurah ha'adamah, 'cursed is the ground'. Inverted in the English."),
- ((17,), "for your sake.", "ba'avurekha, 'for your sake'."),
+ ((17,), "because of you.", "ba'avurekha, 'for your sake'."),
  ((18,19,20,21,22), "In pain you will eat from it all the days of your life.", "be'itstsavon tokhelenah kol yemei chayyekha, 'in pain you shall eat it all the days of your life'. 'From it' is the English for the object pronoun."),
 ],
 
@@ -689,11 +689,11 @@ A = {
 ],
 
 "3:19": [
- ((0,1,2), "By the sweat of your face you will eat bread", "bezei'at appekha tokhal lechem, 'by the sweat of your nostrils/face you shall eat bread'. 'Face' is the reading of appayim here; 'nostrils' (literal) and 'anger' are kept in the commentary."),
+ ((0,1,2), "In the sweat of your nose you will eat bread", "bezei'at appekha tokhal lechem, 'by the sweat of your nostrils/face you shall eat bread'. 'Face' is the reading of appayim here; 'nostrils' (literal) and 'anger' are kept in the commentary."),
  ((3,4,5,6,7), "until you return to the red—", "'ad shuvekha el ha'adamah, 'until your return to the ground'. 'The red' is adamah (see 1:25)."),
  ((8,9,10), "for from it you were taken.", "ki mimmenah luqqachta, 'for from it you were taken'."),
  ((11,12,13), "Dust you are;", "ki 'afar atah, 'for dust you are'."),
- ((14,15,16), "to dust you will return.", "ve'el 'afar tashuv, 'and to dust you shall return'."),
+ ((14,15,16), "to dust you turn back.", "ve'el 'afar tashuv, 'and to dust you shall return'."),
 ],
 
 "3:20": [
@@ -801,7 +801,7 @@ A = {
  ((0,1,2,3), "YHWH said to Qayin: Where is Hevel your brother?", "vayomer YHWH el qayin ei hevel 'achikha, 'and YHWH said to Qayin, where is Hevel your brother'."),
  ((4,5,6), "", "ei hevel 'achikha, carried above."),
  ((7,8,9), "He said: I do not know.", "vayomer lo yada'ti, 'and he said: I did not know'."),
- ((10,11,12), "Am I my brother's keeper?", "hasomer achi anokhi, 'am I the keeper of my brother?'. 'Keeper' is shomer (see 2:15 'keep')."),
+ ((10,11,12), "Am I the guard of my brother?", "hasomer achi anokhi, 'am I the keeper of my brother?'. 'Keeper' is shomer (see 2:15 'keep')."),
 ],
 
 "4:10": [
@@ -829,15 +829,15 @@ A = {
 
 "4:13": [
  ((0,1,2,3), "Qayin said to YHWH:", "vayomer qayin el YHWH, 'and Qayin said to YHWH'."),
- ((4,5), "My guilt is greater", "gadol 'avoni, 'great is my guilt'. 'Greater' is the comparative English of gadol."),
- ((6,), "than I can bear,", "minnesso, 'from lifting/bearing'. 'Than I can bear' is the stretch: nasa' is carry and forgive."),
- ((), "greater than can be lifted.", "Not a separate token: the second line repeats the Hebrew's double sense of nasa' (carry, forgive) in the English as 'lifted'. Addition marked; the commentary names the double sense."),
+ ((4,5), "My twist is heavier", "gadol 'avoni, 'great is my guilt'. 'Greater' is the comparative English of gadol."),
+ ((6,), "than I can lift,", "minnesso, 'from lifting/bearing'. 'Than I can bear' is the stretch: nasa' is carry and forgive."),
+ ((), "too heavy to be lifted off me.", "Not a separate token: the second line repeats the Hebrew's double sense of nasa' (carry, forgive) in the English as 'lifted'. Addition marked; the commentary names the double sense."),
 ],
 
 "4:14": [
  ((0,1,2), "Look—you drive me out today", "hen gerashta 'oti hayyom, 'look, you have driven me out today'. 'Drive' for garash (divorce, see 3:24)."),
  ((3,4,5,6), "from the face of the red.", "me'al penei ha'adamah, 'from upon the face of the ground'. 'The red' for adamah."),
- ((7,8,9), "From your face I shall be hidden;", "umippanekha essater, 'and from your face I shall be hidden'."),
+ ((7,8,9), "I will hide from your face;", "umippanekha essater, 'and from your face I shall be hidden'."),
  ((10,11,12,13), "I shall be a reeler and wanderer on the earth,", "vehayiti na' vanad ba'arets, 'and I shall be staggering and wandering in the earth'."),
  ((14,15,16), "and whoever finds me will kill me.", "vehayah kol motz'i yahargeni, 'and whoever finds me will kill me'. 'Whoever' for kol; 'kill' is harag."),
 ],
@@ -846,8 +846,8 @@ A = {
  ((0,1,2), "YHWH said to him:", "vayomer lo YHWH, 'and YHWH said to him'."),
  ((3,), "Not so—therefore—", "lakhen, 'therefore' (or 'not so', lo ken). Both readings are given: the dash lets the English reverse."),
  ((4,5,6,7,8), "whoever kills Qayin will be paid back sevenfold.", "kol horeg qayin shivatayim yukkam, 'whoever kills Qayin, sevenfold shall be avenged'. 'Paid back' for yukkam (avenged)."),
- ((9,10,11,12), "YHWH set a mark on Qayin,", "vayyasem YHWH leqayin 'ot, 'and YHWH set for Qayin a sign'. 'Mark' is the stretch of ot (sign)."),
- ((13,14,15,16,17), "lest anyone who found him strike him.", "levilti hakkot oto kol motz'o, 'lest anyone who found him strike him'. 'Strike' is the English for hakkot (to smite)."),
+ ((9,10,11,12), "YHWH cut a mark into Qayin,", "vayyasem YHWH leqayin 'ot, 'and YHWH set for Qayin a sign'. 'Mark' is the stretch of ot (sign)."),
+ ((13,14,15,16,17), "so no one who found him would hit him.", "levilti hakkot oto kol motz'o, 'lest anyone who found him strike him'. 'Strike' is the English for hakkot (to smite)."),
 ],
 
 "4:16": [
