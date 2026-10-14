@@ -78,7 +78,10 @@ pattern (sigil, title, language/author line, description, stats).
 - **Fable review.** Every subagent-produced translation gets an independent review
   pass on the Fable model, checking fidelity to the source and flagging any
   suspicious resemblance to a known published translation (a sign of memorization
-  leakage rather than genuine translation).
+  leakage rather than genuine translation). If the Fable model is unavailable
+  (for example, no usage credits), an Opus-model review on the same brief is
+  permitted as a substitute; the work's CLAUDE.md must name which model reviewed
+  it.
 
 ## Current works
 

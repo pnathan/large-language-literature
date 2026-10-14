@@ -52,8 +52,11 @@ reviewed by an independent Fable-model pass** (see Methodology, item 5).
    clearest example.
 5. **Independent review.** Every translation gets a review pass on the Fable
    model, checking fidelity to the Hebrew and Greek and flagging any suspicious
-   resemblance to a known published translation. **Not yet done for this work.**
-   Run it before the page is treated as final.
+   resemblance to a known published translation. Where the Fable model is
+   unavailable (for example, no usage credits), an Opus-model review on the same
+   brief is permitted as a substitute. The page's commentary must name which
+   model reviewed it and whether the review was run on the final text.
+   **Not yet done for this work.** Run it before the page is treated as final.
 
 ## Files
 
