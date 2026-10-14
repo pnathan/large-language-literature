@@ -199,7 +199,7 @@ A = {
  ((7,), 'grow many,', 'urevu.'),
  ((8,), 'fill', "umil'u."),
  ((9, 10), 'the ground;', "et ha'arets: head term 'ground' (lexicon.md)."),
- ((11,), 'trample it', "vechivshuha: 'and subdue it'. 'Trample' is the physical stretch of kavash."),
+ ((11,), 'subdue it', "vechivshuha: 'and subdue it'. Kavash is subdue; 'trample' is not used."),
  ((), '', 'Addition: the washing image is from kavas, a different root. Marked.'),
  ((12, 13, 14), 'oppress the fish of the sea,', 'uredu bidgat hayam.'),
  ((15, 16), 'the bird of the heavens,', "uve'of hashamayim."),
