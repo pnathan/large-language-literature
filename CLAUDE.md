@@ -15,11 +15,13 @@ docs/                   ← GitHub Pages root (deployed on push to trunk)
   sappho/               ← published Sappho edition
   guest-house/          ← published Guest-House (Masnavi V) edition
   popol-vuh/            ← published Popol Vuh edition
+  bereshit/             ← published Bereshit (Genesis 1:1–4:18) edition
 gilgamesh/              ← Gilgameš source: eBL data, translations, Python builders
 faerie-queene/          ← Faerie Queene source: README, provenance notes
 sappho/                 ← Sappho source: witness/fragment data, translations, Python builder
 guest-house/            ← Guest-House source: translation, source research
 popol-vuh/              ← Popol Vuh source: Ayer MS 1515 transcription, translations, Python builder
+bereshit/               ← Bereshit source: Hebrew and LXX witnesses, translation, Python builder
 .github/workflows/      ← Pages deployment workflow
 ```
 
@@ -87,3 +89,4 @@ pattern (sigil, title, language/author line, description, stats).
 | Sappho | Papyri and quoting ancient authors (Greek) | Greek → English | 33 fragments, avg. 3.7 witnesses each |
 | The Guest-House passages | Nicholson critical edition (Masnavi V) | Classical Persian → English | 35 couplets, 2 passages + framing |
 | Popol Vuh | Ayer MS 1515 (Ximénez, K'iche') | K'iche' → English | 36 sections, 1 manuscript witness, 56 folios |
+| Bereshit (Genesis 1:1–4:18) | Hebrew text (Sefaria) + LXX (BLB interlinear) | Hebrew → English, LXX as second witness | 98 verses, 4 chapters, commentary column |
