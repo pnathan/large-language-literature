@@ -497,8 +497,8 @@ A = {
 ],
 '4:2': [
  ((0, 1, 2, 3, 4, 5), 'She bore again: his brother Hevel.', 'vattosef lalledet et achiv et hevel.'),
- ((6, 7, 8, 9), 'Hevel, herder of flocks.', "vayehi hevel ro'eh tzon."),
- ((10, 11, 12, 13), 'Qayin, worker of the red earth.', 'veqayin hayah oved adamah.'),
+ ((6, 7, 8, 9), 'Hevel was a herder of flocks.', "vayehi hevel ro'eh tzon."),
+ ((10, 11, 12, 13), 'Qayin was a worker of the red earth.', 'veqayin hayah oved adamah.'),
 ],
 '4:3': [
  ((0, 1, 2), 'When the days ran out,', 'vayehi miqqetz yamim.'),
@@ -510,7 +510,7 @@ A = {
 ],
 '4:5': [
  ((0, 1, 2, 3, 4, 5), 'But to Qayin and his gift he did not look.', "ve'el qayin ve'el minchato lo sha'ah."),
- ((6, 7, 8, 9, 10), 'Qayin burned, burned hard, and his face fell.', "vayyichar leqayin me'od vayyippelu panav."),
+ ((6, 7, 8, 9, 10), 'Qayin burned hard, and his face fell.', "vayyichar leqayin me'od vayyippelu panav."),
 ],
 '4:6': [
  ((0, 1, 2, 3), 'The Lord said to Qayin:', 'vayomer the Lord el qayin.'),
@@ -523,7 +523,7 @@ A = {
  ((10, 11, 12, 13, 14), 'its craving is for you; but you will rule it.', "ve'elekha teshuqato ve'attah timshol bo."),
 ],
 '4:8': [
- ((0, 1, 2, 3, 4), 'Qayin spoke to Hevel his brother—', "vayomer qayin el hevel achiv: the Hebrew gives no words; the dash is the English's."),
+ ((0, 1, 2, 3, 4), 'Qayin said to Hevel his brother—', "vayomer qayin el hevel achiv: the Hebrew gives no words; the dash is the English's."),
  ((5, 6, 7), 'when they were in the field,', 'vayehi bihyotam basadeh.'),
  ((8, 9, 10, 11, 12), 'Qayin rose against Hevel his brother', 'vayyaqom qayin el hevel achiv.'),
  ((13,), 'and killed him.', "vayyahargehu: 'killed him'. 'Struck him dead' is the body word for harag. 'Struck him down, and he died' is the body word for harag plus the result."),
@@ -551,7 +551,7 @@ A = {
  ((), '', "Addition: nasa' also means forgive; the second line carries that sense."),
 ],
 '4:14': [
- ((0, 1, 2, 3, 4, 5, 6), 'Look—you drive me out today from the face of the red earth.', "hen gerashta oti hayyom me'al penei ha'adamah."),
+ ((0, 1, 2, 3, 4, 5, 6), 'Look—you have driven me out today from the face of the red earth.', "hen gerashta oti hayyom me'al penei ha'adamah."),
  ((7, 8), 'I will hide from your face;', 'umippanekha essater.'),
  ((9, 10, 11, 12), 'I will be a stumbler and a roamer on the ground,', "vehayiti na' vanad ba'arets."),
  ((13, 14, 15, 16), 'and whoever finds me will kill me.', "vehayah kol motz'i yahargeni."),
@@ -563,7 +563,7 @@ A = {
 ],
 '4:16': [
  ((0, 1, 2, 3), 'Qayin went out from the face of the Lord', 'vayyetze qayin millifnei the Lord.'),
- ((4, 5, 6, 7, 8), 'and settled in the land of Nod—Wandering—east of Eden.', "vayyeshev be'eretz nod qidmat eden: 'Nod' is the name, glossed as its word."),
+ ((4, 5, 6, 7, 8), 'and settled in the land of Nod—Roaming—east of Eden.', "vayyeshev be'eretz nod qidmat eden: 'Nod' is the name, glossed as its word."),
 ],
 '4:17': [
  ((0, 1, 2, 3, 4, 5, 6, 7), 'Qayin knew his woman; she conceived and bore Chanokh.', 'vayeda qayin et ishto vattaharr vattelad et chanokh.'),
@@ -573,6 +573,6 @@ A = {
  ((0, 1, 2, 3), 'To Chanokh was born Irad;', 'vayyiwwaled lechanokh et irad.'),
  ((4, 5, 6, 7), 'Irad fathered Mechuyael;', 'veirad yalad et mechuyael.'),
  ((8, 9, 10, 11), 'Mechiyael fathered Methushael;', 'umechiyael yalad et methushael: the second spelling is kept (4:18 note).'),
- ((12, 13, 14, 15), 'Methushael fathered Lamech.', 'umethushael yalad et lamech.'),
+ ((12, 13, 14, 15), 'Methushael fathered Lamekh.', 'umethushael yalad et lamech.'),
 ],
 }
