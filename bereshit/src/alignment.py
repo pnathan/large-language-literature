@@ -15,7 +15,7 @@ A = {
  ((0, 1), 'The ground was', "veha'arets hayetah: 'and the ground was'."),
  ((2,), 'a waste and a void.', "tohu: 'waste, emptiness'. 'Gape' is the physical stretch."),
  ((3,), 'Emptiness, nothing in it.', "vavohu: 'and emptiness'. The second image is the physical stretch of the pair."),
- ((4, 5, 6, 7), 'Dark lay on the face of the deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
+ ((4, 5, 6, 7), 'And dark was on the face of the deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
  ((8, 9), 'And the wind of Divinity,', "veruach elohim: 'and the wind of Divinity'. Wind is the head term for ruach (lexicon.md)."),
  ((10,), 'fluttering over the face of the waters.', "merachefet: fluttering, the root of Deut 32:11's eagle over its young."),
  ((11, 12, 13), '', "'al penei hamayim: 'over the face of the waters'. 'Belly' for penei is the physical stretch, marked. 'Shuddering' is an addition, marked: merachefet carries the motion."),
@@ -365,7 +365,7 @@ A = {
  ((3, 4, 5), 'any beast of the field', 'mikol chayat hasadeh.'),
  ((6, 7, 8, 9), 'the Lord Divinity had עָשָׂ֖ה.', "asher 'asah the Lord elohim: 'which the Lord Divinity made'."),
  ((10, 11, 12), 'It said to the woman:', "vayomer el ha'ishah: 'said to the woman'."),
- ((13, 14, 15, 16), 'Did Divinity really say,', "af ki 'amar elohim: 'really? Divinity said'."),
+ ((13, 14, 15, 16), 'Is it so: Divinity said,', "af ki 'amar elohim: 'is it so? Divinity said'. The English does not use 'really'."),
  ((17, 18, 19, 20, 21), 'you shall not eat from any tree of the garden?', "lo tokhelu mikol ets hagan: 'you shall not eat from any tree of the garden'."),
 ],
 '3:2': [
@@ -422,7 +422,7 @@ A = {
  ((7, 8, 9, 10, 11, 12, 13, 14), 'Did you eat from the tree I charged you not to eat from?', "hamin ha'ets asher tsiviti'kha livlti akhol mimmenu akhalta: 'from the tree I charged you not to eat, did you eat?'."),
 ],
 '3:12': [
- ((0, 1, 2, 3, 4, 5), 'The human said: The woman you gave to be with me—', "vayomer ha'adam ha'ishah asher natatta immadi."),
+ ((0, 1, 2, 3, 4, 5), 'The human said: The woman you gave with me—', "vayomer ha'adam ha'ishah asher natatta immadi."),
  ((6, 7, 8, 9, 10, 11), 'she gave me from the tree, and I ate.', "hi natenah li min ha'ets va'okhel. Head term 'give'."),
 ],
 '3:13': [
@@ -462,7 +462,7 @@ A = {
 '3:19': [
  ((0, 1, 2, 3), 'In the sweat of your nose you will eat bread', "bezei'at appekha tokhal lechem: 'in the sweat of your nostrils you shall eat bread'. 'Nose' is the literal of appayim."),
  ((4, 5, 6, 7, 8, 9, 10), 'until you return to the red earth—for from it you were taken.', "'ad shuvekha el ha'adamah ki mimmenah luqqachta."),
- ((11, 12, 13, 14, 15, 16), 'Dust you are, and to dust you turn back.', "ki 'afar atah ve'el 'afar tashuv: 'turn back' is the body stretch of shuv."),
+ ((11, 12, 13, 14, 15, 16), 'For dust you are, and to dust you come back.', "ki 'afar atah ve'el 'afar tashuv: 'turn back' is the body stretch of shuv."),
 ],
 '3:20': [
  ((0, 1, 2, 3, 4), 'The human named his woman Chavah—Living—', "vayiqra ha'adam shem ishto chavah."),
@@ -493,7 +493,7 @@ A = {
 '4:1': [
  ((0, 1, 2, 3, 4), 'Now the human knew Chavah his woman;', "vehaadam yada' et chavah ishto: 'knew'."),
  ((5, 6, 7, 8, 9), 'she conceived and bore Qayin, and said:', 'vattaharr vattelad et qayin vattomer.'),
- ((10, 11, 12, 13), 'I have gotten a man with the Lord.', "qaniti ish et the Lord: 'I have gotten a man, the Lord'."),
+ ((10, 11, 12, 13), 'I have acquired a man, with the Lord.', "qaniti ish et the Lord: 'I have gotten a man, the Lord'."),
 ],
 '4:2': [
  ((0, 1, 2, 3, 4, 5), 'She bore again: his brother Hevel.', 'vattosef lalledet et achiv et hevel.'),
