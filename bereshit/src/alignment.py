@@ -60,7 +60,7 @@ A = {
  ((8, 9), 'A second day.', "yom sheni: 'day second'."),
 ],
 '1:9': [
- ((0, 1, 2, 3), 'Divinity said: let the waters under the heavens be gathered into one place,', "vayomer elohim yiqqavu hamayim: 'let the waters gather'. 'Gather' is the physical head term for qavah's gathering."),
+ ((0, 1, 2, 3), 'Divinity said: let the waters under the heavens gather and wait in one place,', "vayomer elohim yiqqavu hamayim: 'let the waters gather'. 'Gather' is the physical head term for qavah's gathering."),
  ((4, 5), '', "mittachat hashamayim: 'from beneath the heavens'. Not rendered: a loss (1:9 note)."),
  ((6, 7, 8), '', "el maqom echad: 'to one place'. 'Pit' is the physical stretch of maqom."),
  ((), '', 'Addition: the qavah sense of hope. Marked.'),
@@ -281,9 +281,9 @@ A = {
  ((15, 16, 17, 18), 'and the tree of knowing good and harm.', "ve'ets hada'at tov vara': 'the tree of knowing good and harm'."),
 ],
 '2:10': [
- ((0, 1, 2, 3, 4, 5), 'A river came out of Eden to water the garden;', "venahar yotze me'eden lehashqot et hagan: 'a river went out of Eden to water the garden'."),
- ((6, 7), 'from there it branched', "umisham yipared: 'and from there it divides'. 'Branched' is the head term for parad."),
- ((8, 9, 10), 'and became four heads.', "vehayah le'arba'ah rashim: 'and it became four heads'."),
+ ((0, 1, 2, 3, 4, 5), 'A river goes out of Eden to water the garden;', "venahar yotze me'eden lehashqot et hagan: 'a river went out of Eden to water the garden'."),
+ ((6, 7), 'from there it parts', "umisham yipared: 'and from there it divides'. 'Branched' is the head term for parad."),
+ ((8, 9, 10), 'and becomes four heads.', "vehayah le'arba'ah rashim: 'and it became four heads'."),
 ],
 '2:11': [
  ((0, 1, 2), 'The first: Pishon.', "shem ha'echad pishon: 'the first's name, Pishon'."),
@@ -304,7 +304,7 @@ A = {
 ],
 '2:15': [
  ((0, 1, 2, 3, 4), 'The Lord God took the human', "wayiqqach the Lord elohim et ha'adam: 'took the human'."),
- ((5, 6, 7), 'and set him in the garden in Eden—', "wayanicheu bigan eden: 'and set him down in the garden of Eden'."),
+ ((5, 6, 7), 'and set him in the garden of Eden—', "wayanicheu bigan eden: 'and set him down in the garden of Eden'."),
  ((8,), 'to serve it,', "le'avdah: 'to serve it'. 'Serve' is the verb of slavery as well as work."),
  ((9,), 'to guard it.', "ulshomrah: 'and to keep it'."),
 ],
