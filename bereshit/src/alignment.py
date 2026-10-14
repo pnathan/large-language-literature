@@ -7,9 +7,9 @@
 A = {
 '1:1': [
  ((0,), 'At the start of it,', "bereshit: 'at the head of'. The doubled head keeps the construct."),
- ((1, 2), 'Divinity began to cut, as a blade goes into meat:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note). 'As a blade goes into meat' is an addition, marked; the head term is 'cut'."),
- ((3, 4), 'the sky, the hammered bowl—', "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
- ((5, 6), 'the ground, the dirt under it.', "ve'et ha'arets: 'and the ground'. 'The dirt under it' is the physical gloss; the Hebrew says only 'the ground'."),
+ ((1, 2), 'Divinity began to cut:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note). 'As a blade goes into meat' is an addition, marked; the head term is 'cut'."),
+ ((3, 4), 'the sky,', "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
+ ((5, 6), 'and the ground.', "ve'et ha'arets: 'and the ground'. 'The dirt under it' is the physical gloss; the Hebrew says only 'the ground'."),
 ],
 '1:2': [
  ((0, 1), 'The ground was', "veha'arets hayetah: 'and the ground was'."),
@@ -23,7 +23,7 @@ A = {
 '1:3': [
  ((0, 1), 'Divinity said:', "vayomer elohim: head term 'said'."),
  ((2, 3), 'Let light be!', "yehi or: 'let there be light'. Imperative with the subject after the verb."),
- ((4, 5), 'And light came tearing up out of the dark.', "vayehi or: 'and light was'. 'Came tearing up out of the dark' is a marked physical stretch of wayehi. 'Like a birth' is an addition, marked."),
+ ((4, 5), 'And there was light.', "vayehi or: 'and light was'. 'Came tearing up out of the dark' is a marked physical stretch of wayehi. 'Like a birth' is an addition, marked."),
 ],
 '1:4': [
  ((0, 1, 2, 3), 'Divinity saw the light: good.', "vayar elohim et ha'or ki tov: head terms 'saw', 'good' (tov as fitness, not virtue)."),
@@ -39,9 +39,9 @@ A = {
 ],
 '1:6': [
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
- ((2, 3), 'Beat out a plate, a skin of hammered stuff,', "yehi raqia': 'let there be a firmament'. 'Beat out' is the physical stretch of raqa' (to beat thin); 'plate' and 'skin' keep the hammered object."),
- ((4, 5), 'in the belly of the waters:', "betokh hamayim: 'in the midst of the waters'. 'Belly' is the physical stretch of betokh."),
- ((6, 7), 'a splitter—', "vihi mavdil: 'and let there be a separator'. 'A wall' is not in the Hebrew and is removed."),
+ ((2, 3), 'Let there be a hammered plate,', "yehi raqia': 'let there be a firmament'. 'Beat out' is the physical stretch of raqa' (to beat thin); 'plate' and 'skin' keep the hammered object."),
+ ((4, 5), 'in the middle of the waters,', "betokh hamayim: 'in the midst of the waters'. 'Belly' is the physical stretch of betokh."),
+ ((6, 7), 'and let it split', "vihi mavdil: 'and let there be a separator'. 'A wall' is not in the Hebrew and is removed."),
  ((8, 9, 10), 'water from water.', "bein mayim lamayim: 'between water and water'. The idiom bein X lamayim is ordinary (cf. Deut 17:8)."),
 ],
 '1:7': [
@@ -54,7 +54,7 @@ A = {
 ],
 '1:8': [
  ((0, 1), 'Divinity named the skin Sky:', "vayiqra elohim laraqia' shamayim: 'called the firmament heavens'. 'Sky' narrows the plural."),
- ((2, 3), 'sham-mayim, there are waters.', "shamayim: folk sound-play 'sham-mayim'; not in the text, marked."),
+ ((2, 3), '', "shamayim: folk sound-play 'sham-mayim'; not in the text, marked."),
  ((4, 5), 'Evening.', 'vayehi erev.'),
  ((6, 7), 'Morning.', 'vayehi boqer.'),
  ((8, 9), 'The second day.', "yom sheni: 'day second'."),
@@ -62,9 +62,9 @@ A = {
 '1:9': [
  ((0, 1, 2, 3), 'Divinity said: gather, waters,', "vayomer elohim yiqqavu hamayim: 'let the waters gather'. 'Gather' is the physical head term for qavah's gathering."),
  ((4, 5), '', "mittachat hashamayim: 'from beneath the heavens'. Not rendered: a loss (1:9 note)."),
- ((6, 7, 8), 'into one place,', "el maqom echad: 'to one place'. 'Pit' is the physical stretch of maqom."),
+ ((6, 7, 8), 'under the sky, gather into one place,', "el maqom echad: 'to one place'. 'Pit' is the physical stretch of maqom."),
  ((), '', 'Addition: the qavah sense of hope. Marked.'),
- ((9, 10), 'Let the dry tear up, bare.', "vetera'eh hayabbashah: 'and let the dry be seen'. 'Tear up, bare' is the physical stretch of ra'ah."),
+ ((9, 10), 'and let the dry show itself.', "vetera'eh hayabbashah: 'and let the dry be seen'. 'Tear up, bare' is the physical stretch of ra'ah."),
  ((), '', 'Addition: the second sense of qavah. Marked.'),
  ((11, 12), 'So.', 'vayehi-ken.'),
 ],
@@ -133,9 +133,9 @@ A = {
 ],
 '1:21': [
  ((0, 1, 2, 3, 4), 'Divinity cut the great serpents of the deep, the tanninim,', "vayivra' elohim et hattanninim hagedolim: head term 'cut'. 'Of the deep' is an addition linking to 1:2's Deep, marked."),
- ((5, 6, 7, 8), 'and every breathing swarm the waters bred, after its kind,', "ve'et kol nefesh hachayah harommeset: 'and every living breath that creeps'."),
+ ((5, 6, 7, 8), 'and every living breath that crawls,', "ve'et kol nefesh hachayah harommeset: 'and every living breath that creeps'."),
  ((9,), '', 'paseq (׀), a cantillation mark; no English.'),
- ((10, 11, 12, 13, 14), 'the waters teemed with, after their kinds,', "asher sharetzu hamayim lemineihem: 'which the waters teemed with, after their kinds'."),
+ ((10, 11, 12, 13, 14), 'which the waters swarmed with, after their kinds,', "asher sharetzu hamayim lemineihem: 'which the waters teemed with, after their kinds'."),
  ((15, 16, 17, 18, 19), 'and every winged bird, after its kind.', "ve'et kol of kanaf lemineihu: 'and every winged bird, after its kind'."),
  ((20, 21, 22, 23), 'Divinity saw: good.', 'vayar elohim ki tov.'),
 ],
@@ -179,13 +179,13 @@ A = {
  ((9, 10), 'the bird of the sky,', "uve'of hashamayim."),
  ((11,), 'the cattle,', 'uvabehemah.'),
  ((12, 13), 'the whole ground,', "uvechol ha'arets."),
- ((14, 15, 16, 17, 18), 'every crawler that crawls.', "uvechol haremes harome's al ha'arets. 'On the ground' is dropped; loss marked."),
+ ((14, 15, 16, 17, 18), 'every crawler that crawls on the ground.', "uvechol haremes harome's al ha'arets. 'On the ground' is dropped; loss marked."),
 ],
 '1:27': [
  ((0, 1), 'Divinity cut', "vayivra' elohim: 'created'; head term 'cut'. The verb repeats three times in this verse."),
  ((2,), '', 'paseq (׀), a cantillation mark; no English.'),
  ((3, 4), 'the human', "et ha'adam: 'the human'. 'Et not rendered."),
- ((), 'out of the red earth', 'Addition: links adam to adamah (1:25, 2:7). Marked.'),
+ ((), '', 'Addition: links adam to adamah (1:25, 2:7). Marked.'),
  ((5,), 'in his image—', "betsalmo: 'in his image'. 'Shadow' is the physical stretch of tselem."),
  ((6, 7), 'in the image of Divinity', "betselem elohim: 'in the image of Divinity'. Divinity is kept as a name."),
  ((8, 9), 'Divinity cut him—', "bara' oto."),
@@ -202,7 +202,7 @@ A = {
  ((11,), 'trample it', "vechivshuha: 'and subdue it'. 'Trample' is the physical stretch of kavash."),
  ((), '', 'Addition: the washing image is from kavas, a different root. Marked.'),
  ((12, 13, 14), 'tread the fish,', 'uredu bidgat hayam.'),
- ((15, 16), 'the bird,', "uve'of hashamayim."),
+ ((15, 16), 'the bird of the sky,', "uve'of hashamayim."),
  ((17, 18, 19, 20, 21), 'every crawler that crawls on the ground.', "uvechol chayah harmeshet al ha'arets."),
 ],
 '1:29': [
@@ -225,7 +225,7 @@ A = {
 ],
 '1:31': [
  ((0, 1, 2, 3, 4, 5), 'Divinity saw all he had made—', "vayar elohim et kol asher asah: head terms 'saw', 'made'."),
- ((6, 7), 'and look: good,', 'vehinneh tov.'),
+ ((6, 7), 'and look:', 'vehinneh tov.'),
  ((8,), 'very good.', "me'od: 'exceedingly'. 'Very' is the plain English."),
  ((9, 10, 11, 12), 'Evening. Morning:', 'vayehi erev vayehi boqer.'),
  ((13, 14), 'the sixth day.', 'yom hashishi.'),
@@ -248,7 +248,7 @@ A = {
 ],
 '2:4': [
  ((0,), 'These are the births—', "'elleh: 'these are'. 'Births' is the physical English of toledot."),
- ((1,), 'toledot, what comes out—', "toledot: kept visible as the Hebrew word; 'bearing-out' is its gloss."),
+ ((1,), '', "toledot: kept visible as the Hebrew word; 'bearing-out' is its gloss."),
  ((2, 3), 'of sky and ground,', "hashamayim vehaaretz: 'the heavens and the earth'."),
  ((4,), 'when they were cut,', "behibare'am: 'in their being cut'. 'Cut' is the head term for bara'."),
  ((5, 6, 7, 8), 'in the day the Lord Divinity made', "beyom 'asot the Lord elohim: 'in the day the Lord Divinity made'."),
@@ -310,7 +310,7 @@ A = {
 ],
 '2:16': [
  ((0, 1, 2, 3, 4, 5), 'the Lord Divinity charged the human:', "wayetzav the Lord elohim al ha'adam lemor: 'commanded the human, saying'. 'Laid his order on' is the body stretch of tzav."),
- ((6, 7, 8, 9, 10), 'Eat, eat, from every tree of the garden.', "mikkol ets hagan akhol tokhel: 'eating you may eat from every tree of the garden'. The doubling is the infinitive absolute."),
+ ((6, 7, 8, 9, 10), 'From every tree of the garden you may eat and eat.', "mikkol ets hagan akhol tokhel: 'eating you may eat from every tree of the garden'. The doubling is the infinitive absolute."),
 ],
 '2:17': [
  ((0, 1, 2, 3, 4, 5, 6), 'But from the tree of knowing good and harm, do not eat.', "umeets hada'at tov vara' lo tokhal mimmenu: 'and from the tree of knowing good and harm you shall not eat'."),
@@ -385,7 +385,7 @@ A = {
 ],
 '3:5': [
  ((0, 1, 2), 'Divinity knows:', "ki yodea' elohim: 'for Divinity knows'."),
- ((3, 4, 5, 6), 'the day you eat,', "ki beyom akhlekhem mimmenu: 'that on the day you eat from it'."),
+ ((3, 4, 5, 6), 'the day you eat from it,', "ki beyom akhlekhem mimmenu: 'that on the day you eat from it'."),
  ((7, 8), 'your eyes will split open,', "venifqechu einekhem: 'your eyes will be opened'. 'Split open' is the body stretch of paqach."),
  ((9, 10), 'and you will be like the divine ones,', "vihyitem ke'elohim: 'like gods'."),
  ((11, 12, 13), 'knowing good and harm.', "yodei' tov vara'."),
@@ -419,7 +419,7 @@ A = {
 ],
 '3:11': [
  ((0, 1, 2, 3, 4, 5, 6), 'Divinity said: Who told you you were bare?', 'vayomer mi higgid lekha ki eirom atah.'),
- ((7, 8, 9, 10, 11, 12, 13, 14), 'From the tree I charged you about—did you eat?', "hamin ha'ets asher tsiviti'kha livlti akhol mimmenu akhalta: 'from the tree I charged you not to eat, did you eat?'."),
+ ((7, 8, 9, 10, 11, 12, 13, 14), 'Did you eat from the tree I charged you not to eat from?', "hamin ha'ets asher tsiviti'kha livlti akhol mimmenu akhalta: 'from the tree I charged you not to eat, did you eat?'."),
 ],
 '3:12': [
  ((0, 1, 2, 3, 4, 5), 'The human said: The woman you set with me—', "vayomer ha'adam ha'ishah asher natatta immadi."),
@@ -520,7 +520,7 @@ A = {
 '4:7': [
  ((0, 1, 2, 3), 'Is it not so? If you do well, a lifting.', "halo im teitiv se'et: 'of the face' is added (4:7 note)."),
  ((4, 5, 6, 7, 8, 9), 'If you do not do well, at the door a sin crouches—', 'veim lo teitiv lappetach chattat rovets.'),
- ((10, 11, 12, 13, 14), 'its craving is for you; but you, rule it.', "ve'elekha teshuqato ve'attah timshol bo."),
+ ((10, 11, 12, 13, 14), 'its craving is for you; but you will rule it.', "ve'elekha teshuqato ve'attah timshol bo."),
 ],
 '4:8': [
  ((0, 1, 2, 3, 4), 'Qayin spoke to Hevel his brother—', "vayomer qayin el hevel achiv: the Hebrew gives no words; the dash is the English's."),
