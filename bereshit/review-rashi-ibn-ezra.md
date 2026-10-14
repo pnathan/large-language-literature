@@ -1,0 +1,87 @@
+# Review against Rashi and Ibn Ezra, and apparatus audit
+
+Date: 2026-10-14. Sources: `src/rashi.json` and `src/ibn-ezra.json`, the Hebrew
+text of both commentaries on Genesis 1:1–4:18, fetched from Sefaria.
+
+## Policy
+
+Rashi and Ibn Ezra are the normative traditional interpreters for this edition.
+
+- Where both read the Hebrew against the English, the English follows them.
+- Where they differ from each other, the English keeps its reading (or takes one
+  of theirs), and both readings are recorded in the verse's `rashi:` and
+  `ibn-ezra:` entries and, if the point is open, in `app:`.
+- Homiletic readings that Rashi labels as such are recorded only when they bear
+  on the plain sense.
+
+## Changes in the English: both commentators against the earlier reading
+
+| Verse | Before | After | Rashi | Ibn Ezra |
+|---|---|---|---|---|
+| 1:1–1:2 | "At the start, Divinity cut: the heavens, and the ground." (main clause) | "At the start of Divinity's cutting the heavens and the ground— the ground was waste and void, …—" (time clause) | construct; main clause at 1:3 | construct; main clause at 1:2 |
+| 1:9 | "gather and wait in one place" | "be gathered into one place" | הִקְוָם, gathered | יתחברו, joined |
+| 2:6 | "A seep would well up … would soak" | "A vapour went up … and watered" | the deep rose and watered the clouds | אֵד is like smoke; a past event |
+| 2:19 | "the Lord God potted" | "the Lord God had potted" | the making of 1:25 | pluperfect (at 1:9) |
+| 2:20 | "he found no help" | "for himself the human found no help" | the human found none | ולנפשו לא מצא |
+| 2:21–22 | "rib" | "side" | מִסְּטָרָיו | והטעם צד |
+| 3:15 | "he will snap at your head" | "he will crush your head" | יְכַתֶּתְךָ | יככה בראש |
+| 3:16 | "your conceiving" | "your pregnancy" | צַעַר הָעִבּוּר | ההריון |
+| 4:12, 4:14 | "a stumbler" | "a drifter" | no leave to stay in one place | נד is the brother of נע |
+| 4:13 | "too great to lift, too great to forgive" | "too great to bear" | bear (as a question) | punishment too great to bear |
+| 4:15 | "whoever kills Qayin will be paid back sevenfold" | "whoever kills Qayin— vengeance will be taken sevenfold" | threat unfinished; vengeance on Qayin after seven generations | עד שבעה דורות |
+
+## Changes in the English: fidelity to the Hebrew
+
+| Verse | Before | After | Reason |
+|---|---|---|---|
+| 1:12 | "fruit tree making fruit" | "a tree making fruit" | the Hebrew is עֵץ עֹשֶׂה פְּרִי, not עֵץ פְּרִי |
+| 1:14 | "Let them be marks and meeting-times, days and years" | "Let them be for marks and meeting-times, and for days and years" | each noun has לְ |
+| 1:17 | "gave them a place in" | "set them in" | "a place" is not in the Hebrew |
+| 1:24 | "after their kind … each after its kind" | "after its kind … after its kind" | לְמִינָהּ is singular; "each" is not in the Hebrew |
+| 1:28 | "every crawler that crawls" | "every beast that crawls" | the Hebrew has חַיָּה |
+| 2:2–2:3 | "the work he had made"; "dropped all the work" | "his work"; "dropped away from all his work" | מְלַאכְתּוֹ and מִכָּל |
+| 2:3 | "cut in the making" | "cut, to make" | the bare infinitive; Rashi and Ibn Ezra read it differently, both recorded |
+| 2:11, 2:13, 2:14 | "The first: Pishon" | "The name of the first: Pishon" | שֵׁם |
+| 3:10 | "I shook" | "I was afraid" | וָאִירָא |
+| 3:13 | "snared" | "misled" | Rashi הִטְעַנִי, Ibn Ezra פתני |
+| 3:14 | "out of all the cattle" | "above all the cattle" | Rashi reads מִן as a comparison |
+| 3:23, 3:24 | "garden in Eden" | "garden of Eden" | גַן עֵדֶן is a construct, as at 2:15 |
+| 3:24 | "set the cherubim" | "settled the cherubim" | וַיַּשְׁכֵּן, "caused to dwell" |
+| 4:4 | "from their fat" | "and from their fat" | וּמֵחֶלְבֵהֶן |
+
+## Kept against one commentator, or as a translator's decision
+
+- 1:26, 1:28 "oppress" for רָדָה: kept by the translator's earlier decision.
+  Rashi reads 'rule' and 'go down'; Ibn Ezra is silent. Open for the owner.
+- 1:8 "Heavens: these waters": kept. Rashi supports the waters wordplay.
+- 1:21 "sea-serpents": kept. Rashi reads "great fish"; Ibn Ezra is silent.
+- 1:6 ff. "hammered plate": kept. Rashi reads a firm body; Ibn Ezra reads the air.
+- 3:5 "the divine ones": Rashi "makers of worlds", Ibn Ezra "angels". Kept.
+- 3:22 "live forever": Ibn Ezra reads "a long time". Kept, recorded.
+- 4:7 "a lifting": Rashi reads forgiveness, Ibn Ezra the lifted face. Kept.
+- 4:1 "knew": Rashi reads a pluperfect. Kept, recorded.
+
+## Apparatus audit
+
+- Transliteration removed from every note, apparatus entry, word gloss and name
+  meaning. Hebrew is in Hebrew script, Greek in Greek script.
+  `src/tool.py check` enforces this against `text/translit.txt`.
+- Duplicated notes removed (for example 1:14, 2:2, 2:4, 2:17 and 2:18, where the
+  same LXX reading was given twice).
+- Notes that described an earlier English removed or corrected (for example 1:2
+  "a waste and a void", 1:12 "heaved", 1:14 "seasons", 1:20 "flutter", 1:26
+  "tread down", 2:4 "births", 3:5 "like gods", 4:1 "gotten").
+- Contradictions resolved: 2:25 and 3:1 (one root or two for the bare/crafty
+  pair; now: two roots, one written form); 4:7 (whether שְׂאֵת פָּנִים is in the
+  verse); 3:24 (the LXX's object of "settled").
+- 4:18: the LXX "Γαιδαδ καὶ Γαιδαδ ἐγέννησεν" is "Gaidad, and Gaidad fathered",
+  the Hebrew pattern, and not a doubled name. The earlier note called it a
+  doubling.
+- The word-by-word gloss is now one thing throughout: the literal sense of the
+  Hebrew unit, with a reason where the English departs from it.
+
+## Review of these changes
+
+An independent review pass on the Fable model ran on the changed verses and on
+every Rashi and Ibn Ezra entry. Its findings and their disposition are recorded
+below.

@@ -1,0 +1,490 @@
+# Bereshit, chapter 1. Format and rules: bereshit/CLAUDE.md, section 'Text files'.
+
+@ 1:1
+> At the start of Divinity's cutting
+> the heavens and the ground—
+note: בְּרֵאשִׁית is a construct form, 'at the start of', with no article: it needs a following word.
+  Here it stands before the verb בָּרָא, so the clause reads 'at the start of (Divinity's) cutting'.
+  The verse is then a time clause, and the main clause comes in 1:2 or in 1:3. This is the reading
+  of Rashi and of Ibn Ezra, and the English follows it. בָּרָא is used only with Divinity as
+  subject; the English gives 'cut', the sense Ibn Ezra gives: to cut, and set a cut boundary.
+  אֵת marks the object and is not rendered. אֶרֶץ is 'the ground' in this translation; אֲדָמָה is
+  'the red earth'. The LXX reads a main clause: ἐν ἀρχῇ ἐποίησεν ὁ θεός, 'in a beginning Divinity
+  made', with no article on ἀρχῇ and ἐποίησεν, 'made', for בָּרָא.
+app: בְּרֵאשִׁית: 'at the start of', a time clause (Rashi, Ibn Ezra); or 'at the start', a main clause
+  (the LXX).
+app: בָּרָא: cut, shape, or create. The root is disputed.
+rashi: The verse does not teach the order of creation. Every רֵאשִׁית in Scripture is bound to the
+  word after it, so read בְּרֵאשִׁית בְּרֹא: 'at the start of the creating of heavens and earth, when
+  the earth was waste and void and dark, Divinity said: let there be light'. The main clause is
+  1:3.
+ibn-ezra: בְּרֵאשִׁית is a construct (ולפי דעתי שהוא סמוך), like 'at the start of the reign of
+  Yehoyakim'; the main clause is 1:2. בָּרָא is not making out of nothing: its sense is 'to cut,
+  and set a cut boundary' (לגזור ולשום גבול נגזר). 'The heavens and the ground' here are the
+  firmament and the dry land. אֱלֹהִים is a plural of honour, and so the verb is singular.
+= 0 | At the start of | 'at the start of', a construct
+= 1 2 | Divinity's cutting | 'cut Divinity': the verb read as a verbal noun after the construct
+= 3 4 | the heavens | אֵת marks the object; 'the heavens'
+= 5 6 | and the ground— | 'and the ground'
+
+@ 1:2
+> the ground was waste and void,
+> and dark was on the face of the deep,
+> and the wind of Divinity was fluttering over the face of the waters—
+note: תֹהוּ וָבֹהוּ, 'waste and void', a rhyming pair. תְּהוֹם, 'the deep', has no article: it is used
+  as a name. מְרַחֶפֶת, 'fluttering, hovering', is the verb of an eagle over its young in Deut 32:11.
+  רוּחַ is wind, breath, or spirit; the English gives 'wind', with Ibn Ezra. The verse is three
+  circumstantial clauses: if 1:3 is the main clause (Rashi), all of 1:2 is background; if 1:2 is
+  the main clause (Ibn Ezra), it begins here. The dashes allow both. The LXX has ἀόρατος καὶ
+  ἀκατασκεύαστος, 'unseen and unformed', for תֹהוּ וָבֹהוּ, ἄβυσσος for the deep, and πνεῦμα θεοῦ
+  ἐπεφέρετο, 'a breath of Divinity was borne over'.
+app: וְרוּחַ אֱלֹהִים: wind of Divinity (Ibn Ezra), breath of Divinity (Rashi), or spirit of Divinity.
+app: מְרַחֶפֶת: fluttering, hovering, or blowing.
+rashi: תֹהוּ is astonishment and desolation: a person is amazed at the emptiness of it; בֹהוּ is
+  emptiness. The deep is the water on the earth. The throne of glory stood in the air and hovered
+  over the waters by the breath of the mouth of the Holy One, as a dove hovers over the nest.
+ibn-ezra: תֹהוּ is that which has no substance; בֹהוּ is its brother. The ו of וְהָאָרֶץ marks the main
+  clause (as the Arabic fa'). The wind is the agent of the Name, sent to dry the waters; מְרַחֶפֶת is
+  blowing over the waters, as in 'over its young it hovers'.
+= 0 1 | the ground was | 'and the ground was'
+= 2 3 | waste and void, | 'waste and void', a rhyming pair
+= 4 5 6 7 | and dark was on the face of the deep, | 'and darkness on the face of the deep'
+= 8 9 | and the wind of Divinity was | 'and the wind of Divinity'
+= 10 11 12 13 | fluttering over the face of the waters— | 'hovering over the face of the waters'
+
+@ 1:3
+> Divinity said:
+> Let light be!
+> And there was light.
+note: יְהִי אוֹר, 'let there be light', the short jussive form of the verb 'to be'; וַיְהִי אוֹר,
+  'and there was light', the same verb in the narrative form. The LXX has γενηθήτω φῶς, 'let light
+  come to be'.
+ibn-ezra: 'Said' is meant literally, and is a figure for an act done without labour, as a king
+  speaks and his servants do.
+= 0 1 | Divinity said: | 'and Divinity said'
+= 2 3 | Let light be! | 'let there be light'
+= 4 5 | And there was light. | 'and there was light'
+
+@ 1:4
+> Divinity saw the light: good.
+> Divinity split the light from the dark.
+note: כִּי טוֹב, 'that it was good'; טוֹב is fitness for purpose. וַיַּבְדֵּל, 'separated', with בֵּין …
+  וּבֵין, 'between … and between'. The LXX has διεχώρισεν, 'separated'.
+rashi: He saw that it was good, and it was not fitting that light and dark serve in confusion: he
+  set the one its bound by day and the other by night.
+ibn-ezra: He saw in thought; he separated them by giving them names.
+= 0 1 2 3 | Divinity saw the light: good. | 'and Divinity saw the light'
+= 4 5 | - | 'that it was good', carried in the line above
+= 6 7 8 9 10 11 | Divinity split the light from the dark. | 'and Divinity separated between the light and between the darkness'
+
+@ 1:5
+> Divinity named the light Day.
+> The dark, Divinity named Night.
+> Evening came.
+> Morning came.
+> One day.
+note: יוֹם אֶחָד, 'one day', a cardinal; from the second day on the count is ordinal. עֶרֶב and בֹקֶר,
+  'evening' and 'morning'. The LXX has ἡμέρα μία, the same cardinal.
+ibn-ezra: Evening and morning are not the day: if they were one day, there would be no reason to say
+  'a second day'. Evening is near in sense to darkness, when forms are mixed together.
+= 0 1 2 3 4 | Divinity named the light Day. | 'and Divinity called to the light: Day'
+= 5 6 7 | The dark, Divinity named Night. | 'and to the darkness he called: Night'
+= 8 9 | Evening came. | 'and there was evening'
+= 10 11 | Morning came. | 'and there was morning'
+= 12 13 | One day. | 'day one': a cardinal, not 'first'
+
+@ 1:6
+> Divinity said:
+> Let there be a hammered plate, in the middle of the waters, and let it split
+> water to water.
+note: רָקִיעַ, from רָקַע, 'to beat out, to spread thin' (as metal is beaten into plates, Exod 39:3).
+  בֵּין מַיִם לָמָיִם, 'between water and water': the second member takes לְ, 'to', and the
+  English gives it literally. The LXX has στερέωμα, 'firm thing', and adds καὶ ἐγένετο οὕτως, 'and
+  it was so', here; it lacks the formula at 1:7, where the Hebrew has it.
+app: רָקִיעַ: a beaten plate, a firm vault (Rashi), or a spread-out expanse, the air (Ibn Ezra).
+rashi: 'Let the firmament be strong': the heavens made on the first day were still soft, and they
+  set firm on the second at the rebuke of the Holy One.
+ibn-ezra: רָקִיעַ is something spread out, as in 'they beat out' (וירקעו); the firmament is the air.
+= 0 1 | Divinity said: | 'and Divinity said'
+= 2 3 | Let there be a hammered plate, | 'let there be a beaten-out thing'
+= 4 5 | in the middle of the waters, | 'in the midst of the waters'
+= 6 7 | and let it split | 'and let it be separating'
+= 8 9 10 | water to water. | 'between water to water'
+
+@ 1:7
+> Divinity made the plate.
+> Divinity split the waters:
+> some under it, some over it.
+> So.
+note: וַיַּעַשׂ, 'made': the verb moves from בָּרָא to עָשָׂה, the plain verb of making and of
+  fitting out. וַיְהִי כֵן, 'and it was so'; the English gives 'So.'. The LXX lacks this formula
+  here (see 1:6).
+rashi: 'Made' means he set it up in its place (תִּקְּנוֹ עַל עָמְדוֹ).
+ibn-ezra: 'And it was so' joins to what follows.
+= 0 1 2 3 | Divinity made the plate. | 'and Divinity made the רָקִיעַ'
+= 4 5 6 | Divinity split the waters: | 'and separated between the waters'
+= 7 8 9 | some under it, | 'which were under the רָקִיעַ'
+= 10 11 | - | 'and between the waters', carried by 'some … some'
+= 12 13 14 | some over it. | 'which were above the רָקִיעַ'
+= 15 16 | So. | 'and it was so'
+
+@ 1:8
+> Divinity named the plate Heavens: these waters.
+> Evening came.
+> Morning came.
+> A second day.
+note: שָׁמַיִם, 'heavens', is plural in form and contains מַיִם, 'waters'. The English carries the
+  sound into the line with 'these waters': a wordplay, not an etymology. Day two has no 'good' in
+  the Hebrew; the LXX supplies καὶ εἶδεν ὁ θεὸς ὅτι καλόν, 'and Divinity saw that it was good'.
+rashi: שָׁמַיִם is read as שָׂא מַיִם, 'bearing water', or שָׁם מַיִם, 'there is water', or אֵשׁ
+  וּמַיִם, 'fire and water', mixed together.
+= 0 1 | Divinity named the plate Heavens: these waters. | 'and Divinity called'
+= 2 3 | - | 'to the רָקִיעַ: Heavens'; 'these waters' renders the sound of מַיִם in שָׁמַיִם
+= 4 5 | Evening came. | 'and there was evening'
+= 6 7 | Morning came. | 'and there was morning'
+= 8 9 | A second day. | 'day second'
+
+@ 1:9
+> Divinity said: let the waters under the heavens be gathered into one place,
+> and let the dry show itself.
+> So.
+note: יִקָּווּ, 'let them be gathered', a passive of קָוָה. The noun מִקְוֶה, 'gathering', in 1:10
+  is from it. A homonymous קָוָה means 'to hope'; Rashi and Ibn Ezra read only 'gather' here, and
+  the English follows them. וְתֵרָאֶה, 'let it be seen'. The LXX adds a report that the command
+  was done: καὶ συνήχθη τὸ ὕδωρ … καὶ ὤφθη ἡ ξηρά, 'and the water was gathered … and the dry
+  appeared'.
+rashi: The waters were spread over the face of the whole earth, and he gathered them into the
+  Ocean, the great sea.
+ibn-ezra: יִקָּווּ means 'let them be joined together' (יתחברו). He reads the passage as a pluperfect:
+  Divinity had already said, 'let the waters be gathered'.
+= 0 1 2 3 | Divinity said: let the waters | 'and Divinity said: let the waters be gathered'
+= 4 5 | under the heavens | 'from under the heavens'
+= 6 7 8 | be gathered into one place, | 'to one place'
+= 9 10 | and let the dry show itself. | 'and let the dry be seen'
+= 11 12 | So. | 'and it was so'
+
+@ 1:10
+> Divinity named the dry Ground.
+> The gathering of the waters he named Seas.
+> Divinity saw: good.
+note: מִקְוֵה, 'gathering', from the verb of 1:9. יַמִּים, 'seas', plural. The LXX has τὰ συστήματα
+  τῶν ὑδάτων, 'the collections of the waters', and θαλάσσας.
+rashi: Seas, plural, though there is one gathering: the taste of a fish at one shore differs from
+  that at another.
+ibn-ezra: Plural, because no one sea surrounds the whole earth.
+= 0 1 2 3 4 | Divinity named the dry Ground. | 'and Divinity called to the dry: Ground'
+= 5 6 7 8 | The gathering of the waters he named Seas. | 'and to the gathering of the waters he called: Seas'
+= 9 10 11 12 | Divinity saw: good. | 'and Divinity saw that it was good'
+
+@ 1:11
+> Divinity said: let the ground sprout a sprouting— plants seeding seed,
+> fruit tree making fruit after its kind, whose seed is in it, on the ground.
+> So.
+note: תַּדְשֵׁא … דֶּשֶׁא, 'let it green a greening': the verb and its own noun. עֵשֶׂב, 'plant'. לְמִינוֹ,
+  'after its kind'. The LXX has βλαστησάτω, 'let it sprout', and adds κατὰ γένος καὶ καθ'
+  ὁμοιότητα, 'after kind and after likeness', after the plants, which the Hebrew lacks.
+rashi: דֶּשֶׁא is the clothing of the earth when it is covered with green. עֵץ פְּרִי: the wood
+  should taste like the fruit; the ground did not do so (1:12 has עֵץ עֹשֶׂה פְּרִי), and it was
+  punished with the human in 3:17. 'Whose seed is in it': the pips of every fruit.
+ibn-ezra: תַּדְשֵׁא means 'let it make sprout'. 'Whose seed is in it': the seed is in the fruit.
+= 0 1 2 3 4 | Divinity said: let the ground sprout a sprouting— | 'and Divinity said: let the ground green a greening'
+= 5 6 7 | plants seeding seed, | 'plant making seed seed'
+= 8 9 10 11 12 | fruit tree making fruit after its kind, | 'tree of fruit making fruit after its kind'
+= 13 14 15 16 17 | whose seed is in it, on the ground. | 'whose seed is in it, on the ground'
+= 18 19 | So. | 'and it was so'
+
+@ 1:12
+> The ground brought out a greening:
+> plants seeding seed after its kind, a tree making fruit, its seed in it, after its kind.
+> Divinity saw: good.
+note: וַתּוֹצֵא, 'brought out': the ground, feminine, is the subject. Here the tree is עֵץ עֹשֶׂה פְּרִי,
+  'a tree making fruit', not the עֵץ פְּרִי, 'fruit tree', of 1:11; and the plants are now
+  'after their kind' too. The LXX adds 'after kind and after likeness' and 'on the earth', as at
+  1:11.
+rashi: The plants heard that the trees were commanded 'after its kind' and applied it to themselves.
+= 0 1 2 | The ground brought out a greening: | 'and the ground brought out greening'
+= 3 4 5 6 | plants seeding seed after its kind, | 'plant making seed seed after its kind'
+= 7 8 9 10 11 12 13 | a tree making fruit, its seed in it, after its kind. | 'and tree making fruit whose seed is in it after its kind'
+= 14 15 16 17 | Divinity saw: good. | 'and Divinity saw that it was good'
+
+@ 1:13
+> Evening came.
+> Morning came.
+> A third day.
+note: The day formula of 1:5 repeats. שְׁלִישִׁי, 'third', an ordinal.
+= 0 1 | Evening came. | 'and there was evening'
+= 2 3 | Morning came. | 'and there was morning'
+= 4 5 | A third day. | 'day third'
+
+@ 1:14
+> Divinity said: let there be lamps set in the hammered plate of the heavens, splitting day from night.
+> Let them be for marks and meeting-times, and for days and years.
+note: מְאֹרֹת, 'light-holders', from אוֹר, 'light'; written without the vowel letter ו. The text names
+  neither sun nor moon. מוֹעֲדִים, 'appointed times', from יָעַד, 'to appoint a meeting'. Each
+  noun takes לְ, 'for'. The LXX has φωστῆρες, 'lights', and adds εἰς φαῦσιν τῆς γῆς, 'to give
+  light to the earth'.
+app: מוֹעֲדִים: seasons, or appointed times and festivals.
+rashi: The signs are eclipses, a bad sign for the world. מוֹעֲדִים names the festivals still to come
+  (עַל שֵׁם הֶעָתִיד). מְאֹרֹת is written short, and is read as מְאֵרָה, 'curse': the fourth day
+  was a day of sickness for children.
+ibn-ezra: מוֹעֲדִים are times, hours. The signs are eclipses and the like.
+= 0 1 2 3 4 5 | Divinity said: let there be lamps set in the hammered plate of the heavens, | 'and Divinity said: let there be lights in the רָקִיעַ of the heavens'
+= 6 7 8 9 10 | splitting day from night. | 'to separate between the day and between the night'
+= 11 12 | Let them be for marks | 'and let them be for signs'
+= 13 | and meeting-times, | 'and for appointed times'
+= 14 15 | and for days and years. | 'and for days and years'
+
+@ 1:15
+> Let them be lamps set in the hammered plate of the heavens, to shed light on the ground.
+> So.
+note: לְהָאִיר, 'to give light', the causative of אוֹר: the verb ties the lamps to the light of 1:3.
+  The LXX has εἰς φαῦσιν, 'for illumination'.
+= 0 1 2 3 | Let them be lamps set in the hammered plate of the heavens, | 'and let them be for lights in the רָקִיעַ of the heavens'
+= 4 5 6 | to shed light on the ground. | 'to give light upon the ground'
+= 7 8 | So. | 'and it was so'
+
+@ 1:16
+> Divinity made the two great lamps:
+> the great one to rule the day, the small one to rule the night, and the stars.
+note: מֶמְשֶׁלֶת, 'dominion', from מָשַׁל, 'rule'. The text names neither sun nor moon. The LXX has
+  εἰς ἀρχὰς τῆς ἡμέρας, 'for rules of the day'.
+rashi: They were created equal, and the moon was diminished because it complained that two kings
+  cannot use one crown.
+ibn-ezra: 'Great' refers to their light, not to their bodies: they are great beside the stars.
+= 0 1 2 3 4 5 | Divinity made the two great lamps: | 'and Divinity made the two great lights'
+= 6 7 8 | the great one to rule the day, | 'the great light for the dominion of the day'
+= 9 10 11 12 13 | the small one to rule the night, | 'and the small light for the dominion of the night'
+= 14 15 16 17 | and the stars. | 'and the stars'
+
+@ 1:17
+> Divinity set them in the hammered plate of the heavens to shed light on the ground.
+note: וַיִּתֵּן, 'gave', and with בְּ, 'put, set in'. The LXX has ἔθετο, 'placed'.
+= 0 1 2 3 4 | Divinity set them in the hammered plate of the heavens | 'and Divinity gave them in the רָקִיעַ of the heavens'
+= 5 6 7 | to shed light on the ground. | 'to give light upon the ground'
+
+@ 1:18
+> to rule by day and by night, to split the light from the dark.
+> Divinity saw: good.
+note: לִמְשֹׁל, 'to rule', the verb of 1:16. לְהַבְדִּיל repeats the separating of 1:4: the light and
+  the dark are divided a second time.
+= 0 1 2 3 | to rule by day and by night, | 'and to rule in the day and in the night, and to separate'
+= 4 5 6 7 | to split the light from the dark. | 'between the light and between the darkness'
+= 8 9 10 11 | Divinity saw: good. | 'and Divinity saw that it was good'
+
+@ 1:19
+> Evening came.
+> Morning came.
+> A fourth day.
+note: רְבִיעִי, 'fourth', an ordinal.
+= 0 1 | Evening came. | 'and there was evening'
+= 2 3 | Morning came. | 'and there was morning'
+= 4 5 | A fourth day. | 'day fourth'
+
+@ 1:20
+> Divinity said:
+> let the waters swarm with a swarm of living breath;
+> and let fliers fly over the ground, across the face of the hammered plate of the heavens.
+note: יִשְׁרְצוּ … שֶׁרֶץ, 'let them swarm a swarm', verb and noun of one root. נֶפֶשׁ חַיָּה, 'living
+  breath, living being'; נֶפֶשׁ is breath, throat, and self. יְעוֹפֵף, 'let it fly', an intensive
+  form. The LXX has ἐξαγαγέτω, 'let them bring out', for 'let them swarm', ψυχῶν ζωσῶν, 'of living
+  souls', and adds καὶ ἐγένετο οὕτως, 'and it was so'.
+rashi: שֶׁרֶץ is every living thing that is not high above the ground: flies, ants, worms, rodents,
+  and all fish.
+ibn-ezra: יִשְׁרְצוּ is transitive: the waters bring forth swarms, as the Nile swarmed frogs. 'Across
+  the face of the firmament' shows that the firmament is the air.
+= 0 1 | Divinity said: | 'and Divinity said'
+= 2 3 4 5 | let the waters swarm with a swarm of living breath; | 'let the waters swarm a swarm of breath'
+= 6 | - | 'living', the second word of נֶפֶשׁ חַיָּה
+= 7 8 | and let fliers fly | 'and flier let it fly'
+= 9 10 | over the ground, | 'over the ground'
+= 11 12 13 14 | across the face of the hammered plate of the heavens. | 'upon the face of the רָקִיעַ of the heavens'
+
+@ 1:21
+> Divinity cut the great sea-serpents, and every living breath that crawls,
+> which the waters swarmed with, after their kinds, and every winged flier, after its kind.
+> Divinity saw: good.
+note: תַּנִּינִם, 'sea-serpents, great sea creatures'; in Ps 74:13 the word names the monsters of the
+  sea. The verb is בָּרָא again: the great creatures are made. The LXX has τὰ κήτη τὰ μεγάλα, 'the
+  great sea-beasts'.
+app: הַתַּנִּינִם: sea-serpents, or great fish (Rashi).
+rashi: The תַּנִּינִם are the great fish of the sea; in the homiletic tradition, Leviathan and its mate.
+ibn-ezra: הָרֹמֶשֶׂת means 'that moves'.
+= 0 1 2 3 4 | Divinity cut the great sea-serpents, | 'and Divinity cut the great תַּנִּינִם'
+= 5 6 7 8 | and every living breath that crawls, | 'and every breath of the living'
+= 9 | - | the vertical stroke פָּסֵק, a reading mark; no English
+= 10 11 12 13 14 | which the waters swarmed with, after their kinds, | 'that crawls, with which the waters swarmed, after their kinds'
+= 15 16 17 18 19 | and every winged flier, after its kind. | 'and every flier of wing after its kind'
+= 20 21 22 23 | Divinity saw: good. | 'and Divinity saw that it was good'
+
+@ 1:22
+> Divinity blessed them:
+> Bear fruit!
+> Grow many!
+> Fill the waters in the seas!
+> Let the fliers grow many on the ground.
+note: פְּרוּ, 'bear fruit', from פָּרָה; וּרְבוּ, 'and become many', from רָבָה. The address is a
+  blessing put in the form of commands. The LXX has αὐξάνεσθε καὶ πληθύνεσθε, 'grow and multiply'.
+ibn-ezra: 'Be fruitful and multiply' is a blessing, not a command: it is not in the creatures' power.
+= 0 1 2 3 | Divinity blessed them: | 'and Divinity blessed them, saying'
+= 4 | Bear fruit! | 'bear fruit'
+= 5 | Grow many! | 'and become many'
+= 6 7 8 9 | Fill the waters in the seas! | 'and fill the waters in the seas'
+= 10 11 12 | Let the fliers grow many on the ground. | 'and the flier, let it become many on the ground'
+
+@ 1:23
+> Evening came.
+> Morning came.
+> A fifth day.
+note: חֲמִישִׁי, 'fifth', an ordinal.
+= 0 1 | Evening came. | 'and there was evening'
+= 2 3 | Morning came. | 'and there was morning'
+= 4 5 | A fifth day. | 'day fifth'
+
+@ 1:24
+> Divinity said:
+> let the ground bring out living breath after its kind:
+> cattle and crawler and beast of the ground, after its kind.
+> So.
+note: תּוֹצֵא, 'let it bring out', the verb of 1:12. לְמִינָהּ, 'after its kind', feminine singular,
+  agreeing with נֶפֶשׁ. בְּהֵמָה, 'cattle'; רֶמֶשׂ, 'crawler'; חַיְתוֹ אֶרֶץ, 'beast of the ground', with
+  an old ending וֹ on the construct. The LXX has τετράποδα, 'four-footed beasts', for בְּהֵמָה.
+ibn-ezra: נֶפֶשׁ חַיָּה is the general term. בְּהֵמָה is for riding and eating; the beast of the ground
+  lives in the open field. The רֶמֶשׂ are the small creatures that go on the ground.
+= 0 1 | Divinity said: | 'and Divinity said'
+= 2 3 | let the ground bring out | 'let the ground bring out'
+= 4 5 6 | living breath after its kind: | 'living breath after its kind'
+= 7 | cattle | 'cattle'
+= 8 | and crawler | 'and crawler'
+= 9 10 | and beast of the ground, | 'and beast of ground', the construct with the old ending
+= 11 | after its kind. | 'after its kind'
+= 12 13 | So. | 'and it was so'
+
+@ 1:25
+> Divinity made the beast of the ground after its kind, the cattle after its kind,
+> every crawler of the red earth after its kind.
+> Divinity saw:
+> good.
+note: רֶמֶשׂ הָאֲדָמָה, 'crawler of the ground': the first use of אֲדָמָה, the word from which אָדָם,
+  'the human', is heard in 2:7. The English gives it as 'the red earth' throughout, for that link;
+  'red' is the colour of the soil, not an established sense of the word.
+rashi: 'Made' means he fitted them out in their full form and stature.
+= 0 1 2 3 4 5 | Divinity made the beast of the ground after its kind, | 'and Divinity made the beast of the ground after its kind'
+= 6 7 8 | the cattle after its kind, | 'and the cattle after its kind'
+= 9 10 11 12 13 | every crawler of the red earth after its kind. | 'and every crawler of the אֲדָמָה after its kind'
+= 14 15 | Divinity saw: | 'and Divinity saw'
+= 16 17 | good. | 'that it was good'
+
+@ 1:26
+> Divinity said:
+> let us make a human, in our image,
+> as our likeness.
+> Let them oppress the fish of the sea, the bird of the heavens,
+> the cattle, the whole ground, every crawler that crawls on the ground.
+note: נַעֲשֶׂה, 'let us make', first person plural. אָדָם has no article: 'a human', a kind, not yet
+  a name. צֶלֶם, 'image'; דְּמוּת, 'likeness'. וְיִרְדּוּ, from רָדָה, 'rule over, tread down'; the
+  plural takes אָדָם as a collective. The English gives 'oppress', the harsh edge of the verb. The
+  LXX has ποιήσωμεν, 'let us make', κατ' εἰκόνα ἡμετέραν καὶ καθ' ὁμοίωσιν, 'after our image and
+  after likeness', with a καί the Hebrew lacks, and ἀρχέτωσαν, 'let them rule'.
+app: נַעֲשֶׂה: Divinity with the heavenly court (Rashi, Ibn Ezra), or a plural of majesty.
+app: וְיִרְדּוּ: rule over, or tread down.
+rashi: Divinity took counsel with his court of angels (נִמְלַךְ בְּפָמַלְיָא שֶׁלּוֹ), to teach humility,
+  though the plural could mislead. וְיִרְדּוּ holds both 'ruling' and 'going down': if he is worthy
+  he rules the beasts; if not, he goes down before them.
+ibn-ezra: The Name said to the angels, 'let us make'. He rejects the reading of נַעֲשֶׂה as a passive
+  participle.
+= 0 1 | Divinity said: | 'and Divinity said'
+= 2 | let us make | 'let us make', first person plural
+= 3 | a human, | 'human', without the article
+= 4 | in our image, | 'in our image'
+= 5 | as our likeness. | 'according to our likeness'
+= 6 | Let them oppress | 'and let them rule over'; the harsh sense is chosen
+= 7 8 | the fish of the sea, | 'over the fish of the sea'
+= 9 10 | the bird of the heavens, | 'and over the bird of the heavens'
+= 11 | the cattle, | 'and over the cattle'
+= 12 13 | the whole ground, | 'and over all the ground'
+= 14 15 16 17 18 | every crawler that crawls on the ground. | 'and over every crawler that crawls on the ground'
+
+@ 1:27
+> Divinity cut the human in his image— in the image of Divinity
+> he cut him— male and female he cut them.
+note: בָּרָא three times in one verse. בְּצַלְמוֹ, 'in his image': Rashi and Ibn Ezra take 'his' as
+  Divinity's. אֹתוֹ, 'him', then אֹתָם, 'them': the one human is male and female. The LXX has
+  ἐποίησεν, 'made', three times, and lacks the first 'in his image'.
+rashi: The image is the form made for him, the likeness of his maker. As plain sense, both were
+  created on the sixth day, and the manner is told in chapter 2.
+ibn-ezra: He rejects the reading in which 'his image' is the human's own.
+= 0 1 | Divinity cut | 'and Divinity cut'
+= 2 | - | the vertical stroke פָּסֵק, a reading mark; no English
+= 3 4 | the human | אֵת marks the object; 'the human'
+= 5 | in his image— | 'in his image'
+= 6 7 | in the image of Divinity | 'in the image of Divinity'
+= 8 9 | he cut him— | 'he cut him'
+= 10 11 | male and female | 'male and female'
+= 12 13 | he cut them. | 'he cut them'
+
+@ 1:28
+> Divinity blessed them.
+> Divinity said to them:
+> Bear fruit, grow many, fill the ground;
+> subdue it; oppress the fish of the sea, the bird of the heavens, every beast that crawls on the ground.
+note: וְכִבְשֻׁהָ, 'and subdue it', from כָּבַשׁ, to press down, to bring under. וּרְדוּ, the verb of
+  1:26. בְּכָל חַיָּה הָרֹמֶשֶׂת, 'every living thing that crawls'. The LXX has κατακυριεύσατε,
+  'lord it over', and adds πάντων τῶν κτηνῶν καὶ πάσης τῆς γῆς, 'all the cattle and all the
+  earth', which the Hebrew lacks here.
+ibn-ezra: As at 1:22, a blessing, not a command.
+= 0 1 2 | Divinity blessed them. | 'and Divinity blessed them'
+= 3 4 5 | Divinity said to them: | 'and Divinity said to them'
+= 6 | Bear fruit, | 'bear fruit'
+= 7 | grow many, | 'and become many'
+= 8 | fill | 'and fill'
+= 9 10 | the ground; | 'the ground'
+= 11 | subdue it; | 'and subdue it'
+= 12 13 14 | oppress the fish of the sea, | 'and rule over the fish of the sea'
+= 15 16 | the bird of the heavens, | 'and over the bird of the heavens'
+= 17 18 19 20 21 | every beast that crawls on the ground. | 'and over every living thing that crawls on the ground'
+
+@ 1:29
+> Divinity said:
+> Look— I have given you every seed-seeding plant over the whole face of the ground,
+> and every tree that has fruit with seed in it.
+> For you: to eat.
+note: הִנֵּה נָתַתִּי, 'look, I have given': the perfect states a gift already made. The food given is
+  plants and fruit. The animals' food is given in 1:30. The LXX has ἰδοὺ δέδωκα, the same.
+rashi: Animals and humans alike were given plants only; the human was not allowed to kill and eat
+  meat until the time of Noah.
+ibn-ezra: Meat was not permitted until after the flood (ועד כה לא הותר הבשר עד אחר המבול).
+= 0 1 | Divinity said: | 'and Divinity said'
+= 2 | Look— | 'behold'
+= 3 4 | I have given you | 'I have given to you'
+= 5 6 7 | every seed-seeding plant | 'every plant'
+= 8 9 10 | - | 'seeding seed', carried in 'seed-seeding'
+= 11 12 13 14 15 | over the whole face of the ground, | 'which is upon the face of all the ground'
+= 16 17 18 | and every tree | 'and every tree'
+= 19 20 21 22 23 24 | that has fruit with seed in it. | 'which has in it fruit of tree seeding seed'
+= 25 26 27 | For you: to eat. | 'to you it shall be for food'
+
+@ 1:30
+> And for every beast of the ground, every bird of the heavens, everything that crawls on the ground that has living breath in it:
+> all the green plants, to eat.
+> So.
+note: יֶרֶק עֵשֶׂב, 'green of plant'. Every animal is fed on green. The LXX has ψυχὴν ζωῆς, 'soul of
+  life'.
+= 0 1 2 | And for every beast of the ground, | 'and to every beast of the ground'
+= 3 4 5 | every bird of the heavens, | 'and to every bird of the heavens'
+= 6 7 8 9 10 11 12 13 14 | everything that crawls on the ground that has living breath in it: | 'and to all that crawls on the ground which has in it living breath'
+= 15 16 17 18 19 | all the green plants, to eat. | 'every green of plant for food'
+= 20 21 | So. | 'and it was so'
+
+@ 1:31
+> Divinity saw all he had made— and look:
+> very good.
+> Evening came. Morning came.
+> The sixth day.
+note: טוֹב מְאֹד, 'very good'. יוֹם הַשִּׁשִּׁי, 'the sixth day': the only day of the six with the
+  article. The LXX has καλὰ λίαν, 'very fine'.
+ibn-ezra: יוֹם הַשִּׁשִּׁי is an apposition: 'a day that is the sixth'.
+= 0 1 2 3 4 5 | Divinity saw all he had made— | 'and Divinity saw all that he had made'
+= 6 7 | and look: | 'and behold, good'
+= 8 | very good. | 'very'
+= 9 10 11 12 | Evening came. Morning came. | 'and there was evening, and there was morning'
+= 13 14 | The sixth day. | 'day the sixth'

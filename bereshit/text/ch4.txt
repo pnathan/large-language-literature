@@ -1,0 +1,239 @@
+# Bereshit, chapter 4. Format and rules: bereshit/CLAUDE.md, section 'Text files'.
+
+@ 4:1
+> Now the human knew Chavah his woman;
+> she conceived and bore Qayin, and said:
+> I have acquired a man, with the Lord.
+note: יָדַע, 'knew', the verb of knowing, here of intimacy. The subject stands before the verb, a
+  word order that can mark a pluperfect, 'had known'. קָנִיתִי, 'I have acquired'; the name קַיִן
+  is heard in it. אֶת יְהוָה: the particle אֶת is either 'with' or the mark of an object in
+  apposition ('a man, the Lord'); the English takes 'with'. The LXX has διὰ τοῦ θεοῦ, 'through
+  Divinity'.
+app: קָנִיתִי: I have acquired, or I have made. The name קַיִן is the text's own wordplay.
+app: אֶת יְהוָה: with the Lord, or the Lord in apposition to 'a man'.
+rashi: 'The human had known' already before the events of chapter 3 (כְּבָר קֹדֶם), and so the
+  conception and birth came before the expulsion. אֶת יְהוָה is 'with the Lord' (כְּמוֹ עִם ה'):
+  in making this child we are partners with him. קַיִן is named for קָנִיתִי.
+= 0 1 2 3 4 | Now the human knew Chavah his woman; | 'and the human knew חַוָּה his woman'
+= 5 6 7 8 9 | she conceived and bore Qayin, and said: | 'and she conceived and bore קַיִן, and said'
+= 10 11 12 13 | I have acquired a man, with the Lord. | 'I have acquired a man with the Lord'
+
+@ 4:2
+> She bore again: his brother Hevel.
+> Hevel was a herder of flocks.
+> Qayin was a worker of the red earth.
+note: וַתֹּסֶף לָלֶדֶת, 'she added to bear'. הֶבֶל, 'breath, vapour'. עֹבֵד אֲדָמָה, 'worker of the
+  ground', the verb of 2:5 and 2:15. The LXX has Αβελ, a transliteration.
+rashi: 'She added' implies that twin sisters were born with each brother (a homiletic reading). Hevel became a
+  shepherd because the ground had been cursed.
+= 0 1 2 3 4 5 | She bore again: his brother Hevel. | 'and she added to bear his brother, הֶבֶל'
+= 6 7 8 9 | Hevel was a herder of flocks. | 'and הֶבֶל was a shepherd of flock'
+= 10 11 12 13 | Qayin was a worker of the red earth. | 'and קַיִן was a worker of ground'
+
+@ 4:3
+> When the days ran out, Qayin brought from the fruit of the red earth a gift to the Lord.
+note: מִקֵּץ יָמִים, 'at the end of days': after a span of time. מִנְחָה, 'gift, tribute'; later the word
+  of the grain offering. The LXX has μεθ' ἡμέρας, 'after days', and θυσίαν, 'a sacrifice'.
+rashi: 'From the fruit of the ground': from the worst of it (מִן הַגָּרוּעַ).
+ibn-ezra: Qayin brought the gift to the place he had set for prayer, not to his father. The text
+  hints that he did not bring from the first fruits.
+= 0 1 2 | When the days ran out, | 'and it was at the end of days'
+= 3 4 5 6 7 8 | Qayin brought from the fruit of the red earth a gift to the Lord. | 'and קַיִן brought from the fruit of the ground a gift to the Lord'
+
+@ 4:4
+> And Hevel too brought from the firstborn of his flock, and from their fat,
+> and the Lord looked on Hevel and on his gift.
+note: בְּכֹרוֹת, 'firstborn'. חֶלְבֵהֶן, 'their fat', the choice portion. וַיִּשַׁע, 'and he regarded,
+  turned toward'. The LXX has ὁ θεός for the Name, and ἐπεῖδεν, 'looked upon'.
+rashi: וַיִּשַׁע means 'he turned to' (וַיִּפֶן), and fire came down and consumed the offering.
+ibn-ezra: וַיִּשַׁע means 'he received' (קבל) the offering.
+= 0 1 2 3 4 5 6 | And Hevel too brought from the firstborn of his flock, and from their fat, | 'and הֶבֶל, he also brought, from the firstborn of his flock and from their fat'
+= 7 8 9 10 11 12 | and the Lord looked on Hevel and on his gift. | 'and the Lord regarded הֶבֶל and his gift'
+
+@ 4:5
+> But to Qayin and his gift he did not look on.
+> Qayin burned hard, and his face fell.
+note: שָׁעָה, the verb of 4:4, negated. וַיִּחַר לְקַיִן מְאֹד, 'it burned to Qayin greatly': the idiom of
+  anger, with heat as its image. וַיִּפְּלוּ פָּנָיו, 'his face fell'. The LXX has ἐλύπησεν, 'it
+  grieved', for the burning, and συνέπεσεν τῷ προσώπῳ, 'he fell in his face'.
+= 0 1 2 3 4 5 | But to Qayin and his gift he did not look on. | 'and to קַיִן and to his gift he did not regard'
+= 6 7 8 9 10 | Qayin burned hard, and his face fell. | 'and it burned to קַיִן greatly, and his face fell'
+
+@ 4:6
+> The Lord said to Qayin:
+> Why do you burn?
+> Why has your face fallen?
+note: לָמָּה חָרָה לָךְ, 'why is it hot to you?', the anger of 4:5 put as a question. The LXX has κύριος
+  ὁ θεός, 'the Lord God', where the Hebrew has the Name alone, and περίλυπος, 'very sad'.
+= 0 1 2 3 | The Lord said to Qayin: | 'and the Lord said to קַיִן'
+= 4 5 6 | Why do you burn? | 'why is it hot to you'
+= 7 8 9 | Why has your face fallen? | 'and why has your face fallen'
+
+@ 4:7
+> If you do well, is there not a lifting?
+> If you do not do well, at the door a sin crouches— its thirst is toward you; but you will rule it.
+note: שְׂאֵת, 'lifting', an infinitive with no object: the face lifted (against the fallen face of 4:5),
+  or the sin lifted, that is, forgiven. חַטָּאת, 'sin', is feminine; רֹבֵץ, 'crouching', is
+  masculine, as a beast lies in wait. תְּשׁוּקָתוֹ, 'its desire', the word of 3:16. תִּמְשָׁל בּוֹ,
+  'you will rule over it', or 'you may rule over it'. The LXX reads a different text: ἐὰν ὀρθῶς
+  προσενέγκῃς, ὀρθῶς δὲ μὴ διέλῃς, ἥμαρτες; ἡσύχασον, 'if you offer rightly but do not divide
+  rightly, have you not sinned? Be still'.
+app: שְׂאֵת: lifting of the face, or lifting of the sin (forgiveness).
+app: לַפֶּתַח: at the door of the house, at the door of the grave, or at the opening of the mouth.
+rashi: שְׂאֵת follows the Aramaic Targum: it will be forgiven you. 'At the door' is the door of your
+  grave, where your sin is kept. The desire is that of the evil inclination (יֵצֶר הָרָע), which
+  always longs to make you fall. 'You will rule it': if you wish, you will overcome it.
+ibn-ezra: שְׂאֵת is the lifting of the face (שאת פנים), against 'his face fell'. He reports the door
+  of the house, of the grave and of the mouth, and holds that the inclination of the human heart
+  crouches with him (ויצר לב האדם הוא רובץ עמו). The inclination will return to your obedience, and
+  you have the power to rule it.
+= 0 1 2 3 | If you do well, is there not a lifting? | 'is it not: if you do well, lifting'
+= 4 5 6 7 8 9 | If you do not do well, at the door a sin crouches— | 'and if you do not do well, at the door sin is crouching'
+= 10 11 12 13 14 | its thirst is toward you; but you will rule it. | 'and toward you its desire, and you will rule over it'
+
+@ 4:8
+> Qayin said to Hevel his brother— when they were in the field,
+> Qayin rose against Hevel his brother and killed him.
+note: וַיֹּאמֶר, 'and he said', has no reported speech after it: the dash marks the gap. The LXX fills
+  it: διέλθωμεν εἰς τὸ πεδίον, 'let us go through into the plain'. וַיָּקָם, 'rose up'.
+  וַיַּהַרְגֵהוּ, 'and killed him', from הָרַג, to kill by violence.
+rashi: He entered into words of quarrel with him, to find a pretext to kill him.
+ibn-ezra: Most likely he told Hevel all the rebukes the Name had spoken to him.
+= 0 1 2 3 4 | Qayin said to Hevel his brother— | 'and קַיִן said to הֶבֶל his brother'; no speech follows
+= 5 6 7 | when they were in the field, | 'and it was, in their being in the field'
+= 8 9 10 11 12 | Qayin rose against Hevel his brother | 'and קַיִן rose against הֶבֶל his brother'
+= 13 | and killed him. | 'and killed him'
+
+@ 4:9
+> The Lord said to Qayin: Where is Hevel your brother?
+> He said: I do not know.
+> Do I guard my brother?
+note: אֵי, 'where?', a short form of אַיֵּה. הֲשֹׁמֵר, 'a keeper?', the participle of שָׁמַר, the verb
+  of 2:15: the human was set to keep the garden. The LXX has μὴ φύλαξ, 'surely not a guard'.
+rashi: 'Am I my brother's keeper' is said in wonder, as a question (לְשׁוֹן תֵּמַהּ).
+ibn-ezra: אֵי is the same as אַיֵּה.
+= 0 1 2 3 4 5 6 | The Lord said to Qayin: Where is Hevel your brother? | 'and the Lord said to קַיִן: where is הֶבֶל your brother'
+= 7 8 9 | He said: I do not know. | 'and he said: I do not know'
+= 10 11 12 | Do I guard my brother? | 'a keeper of my brother am I?'
+
+@ 4:10
+> He said: What have you done?
+> A voice—your brother's bloods— are crying to me from the red earth.
+note: דְּמֵי, 'bloods', the plural used of blood shed by violence. צֹעֲקִים, 'crying', is plural and
+  agrees with the bloods, not with קוֹל, 'voice'; קוֹל stands alone as an exclamation, 'listen!'.
+  The LXX has φωνὴ αἵματος, 'a voice of blood', singular, and ὁ θεός as subject.
+app: קוֹל: an exclamation, 'listen!', or 'the voice of'.
+rashi: 'Your brother's bloods': his blood and the blood of his descendants.
+ibn-ezra: 'Crying' does not attach to 'voice' (איננו דבק עם קול), as in 'the voice of my beloved,
+  here he comes'.
+= 0 1 2 | He said: What have you done? | 'and he said: what have you done'
+= 3 4 5 | A voice—your brother's bloods— | 'voice! the bloods of your brother'
+= 6 7 8 9 | are crying to me from the red earth. | 'crying to me from the ground'
+
+@ 4:11
+> Now: cursed are you from the red earth, which gaped its mouth to take your brother's bloods from your hand.
+note: מִן הָאֲדָמָה: 'from the ground' can mean 'away from the ground', 'by the ground' or 'more than
+  the ground'. פָּצְתָה, 'opened wide': the ground is given a mouth. The LXX has ἔχανεν, 'gaped'.
+app: מִן הָאֲדָמָה: away from the ground, by the ground, or more than the ground.
+rashi: More than the ground has already been cursed (יוֹתֵר מִמַּה שֶּׁנִּתְקַלְּלָה) for its own sin.
+ibn-ezra: The curse comes from the side of the ground: it will not yield to him. פָּצְתָה means
+  'opened'.
+= 0 1 2 3 4 | Now: cursed are you from the red earth, | 'and now cursed are you from the ground'
+= 5 6 7 8 9 10 11 12 13 | which gaped its mouth to take your brother's bloods from your hand. | 'which opened its mouth to take the bloods of your brother from your hand'
+
+@ 4:12
+> When you work the red earth, it will no more give you its strength.
+> A drifter, a roamer, you will be on the ground.
+note: לֹא תֹסֵף תֵּת, 'it will not add to give'. כֹּחַ, 'strength'. נָע וָנָד, 'moving to and fro and
+  wandering', a pair of near-synonyms. The LXX has στένων καὶ τρέμων, 'groaning and trembling'.
+rashi: נָע וָנָד: you will have no leave to live in one place.
+ibn-ezra: נָד is the brother of נָע: both mean wandering.
+= 0 1 2 3 4 5 6 7 8 | When you work the red earth, it will no more give you its strength. | 'when you work the ground, it will not again give its strength to you'
+= 9 10 11 12 | A drifter, a roamer, you will be on the ground. | 'moving and wandering you will be in the land'
+
+@ 4:13
+> Qayin said to the Lord: My guilt is too great to bear.
+note: עָוֹן is both the guilt and its punishment. מִנְּשֹׂא, 'than bearing'; נָשָׂא, 'bear, lift',
+  also means 'forgive' with עָוֹן as object. Rashi and Ibn Ezra both read 'bear', not 'forgive':
+  the English follows them. The LXX takes the forgiveness sense: τοῦ ἀφεθῆναί με, 'than that I
+  be forgiven'.
+app: עֲוֹנִי: my guilt, or my punishment.
+app: The sentence: a statement, or a question in wonder (Rashi).
+rashi: A question (בִּתְמִיהָ): you bear the upper and lower worlds, and my guilt you cannot bear?
+ibn-ezra: Others read נְשֹׂא as 'forgive'; he reads עָוֹן as the punishment: this punishment is great,
+  I cannot bear it (זה העונש גדול לא אוכל לסבלו). The next verse confirms it.
+= 0 1 2 3 4 5 6 | Qayin said to the Lord: My guilt is too great to bear. | 'and קַיִן said to the Lord: great is my guilt than bearing'
+
+@ 4:14
+> Look—you have driven me out today from the face of the red earth.
+> I will be hidden from your face;
+> I will be a drifter and a roamer on the ground, and whoever finds me will kill me.
+note: גֵּרַשְׁתָּ, 'you have driven out', the verb of 3:24. אֶסָּתֵר, 'I will be hidden'. נָע וָנָד
+  as in 4:12. יַהַרְגֵנִי, 'will kill me', הָרַג again. The LXX has εἰ, 'if', for הֵן, and στένων
+  καὶ τρέμων as at 4:12.
+= 0 1 2 3 4 5 6 | Look—you have driven me out today from the face of the red earth. | 'behold, you have driven me today from upon the face of the ground'
+= 7 8 | I will be hidden from your face; | 'and from your face I will be hidden'
+= 9 10 11 12 | I will be a drifter and a roamer on the ground, | 'and I will be moving and wandering in the land'
+= 13 14 15 16 | and whoever finds me will kill me. | 'and it will be: everyone who finds me will kill me'
+
+@ 4:15
+> The Lord said to him: Therefore, whoever kills Qayin—
+> vengeance will be taken sevenfold.
+> The Lord set a sign for Qayin, so no one who found him would strike him.
+note: לָכֵן, 'therefore'. The threat against the killer is not finished: the sentence breaks after 'whoever
+  kills Qayin'. שִׁבְעָתַיִם יֻקָּם, 'sevenfold it will be avenged'; the verb is passive and names
+  no one. Rashi and Ibn Ezra both take the vengeance to fall on Qayin himself after seven
+  generations, not on his killer; the English is written so as not to name the killer as its
+  object. אוֹת, 'sign'; its form is not told. The LXX reads οὐχ οὕτως, 'not so', for לָכֵן (as if
+  לֹא כֵן), and ἑπτὰ ἐκδικούμενα παραλύσει, 'he will release seven things avenged'.
+app: לָכֵן: therefore, or 'not so' (the LXX).
+app: שִׁבְעָתַיִם: sevenfold, or after seven generations.
+rashi: The first half is a rebuke with its penalty left unsaid: whoever kills Qayin, such and such
+  will be done to him. 'Sevenfold it will be avenged': I will not take vengeance on Qayin now; after
+  seven generations Lamekh his descendant will kill him (לְסוֹף שִׁבְעָה דוֹרוֹת). The sign: he
+  engraved a letter of his name on Qayin's forehead.
+ibn-ezra: שִׁבְעָתַיִם means 'until seven generations' (עד שבעה דורות), not a multiple. יֻקָּם: his
+  vengeance will be taken; the Name delayed his anger with Qayin for seven generations. The text
+  does not reveal the sign (והכתוב לא גלה האות).
+= 0 1 2 3 | The Lord said to him: Therefore, | 'and the Lord said to him: therefore'
+= 4 5 6 | whoever kills Qayin— | 'every killer of קַיִן'; the threat is left unfinished
+= 7 8 | vengeance will be taken sevenfold. | 'sevenfold it will be avenged'; passive, with no agent named
+= 9 10 11 12 13 14 15 16 17 | The Lord set a sign for Qayin, so no one who found him would strike him. | 'and the Lord set for קַיִן a sign, that none who finds him should strike him'
+
+@ 4:16
+> Qayin went out from the face of the Lord and settled in the land of Nod—Roaming—east of Eden.
+note: מִלִּפְנֵי, 'from before'. נוֹד, 'wandering', from the root of נָד in 4:12 and 4:14. קִדְמַת,
+  'east of'. The LXX has Ναιδ, a transliteration that loses the wordplay.
+rashi: The land of Nod is where all exiles wander. 'East of Eden' is where his father had been
+  exiled.
+ibn-ezra: The land was called so because Qayin was a wanderer in it. 'East of Eden' is east of Eden,
+  and north of the garden.
+= 0 1 2 3 | Qayin went out from the face of the Lord | 'and קַיִן went out from before the Lord'
+= 4 5 6 7 8 | and settled in the land of Nod—Roaming—east of Eden. | 'and dwelt in the land of נוֹד, east of עֵדֶן'
+
+@ 4:17
+> Qayin knew his woman; she conceived and bore Chanokh.
+> He was building a city, and named the city after his son: Chanokh.
+note: וַיְהִי בֹּנֶה עִיר, 'and he was building a city', a participle of continuing action; the subject
+  is Qayin. חֲנוֹךְ, 'dedicated, trained'. The LXX has Ενωχ.
+rashi: He named the city in memory of his son.
+ibn-ezra: The city was called by the son's name, as Samaria was named for Shemer.
+= 0 1 2 3 4 5 6 7 | Qayin knew his woman; she conceived and bore Chanokh. | 'and קַיִן knew his woman, and she conceived and bore חֲנוֹךְ'
+= 8 9 10 11 12 13 14 15 16 | He was building a city, and named the city after his son: Chanokh. | 'and he was building a city, and called the name of the city as the name of his son, חֲנוֹךְ'
+
+@ 4:18
+> To Chanokh was born Irad;
+> Irad fathered Mechuyael;
+> Mechiyael fathered Methushael;
+> Methushael fathered Lamekh.
+note: וַיִּוָּלֵד, 'was born', passive. The Hebrew spells the third name two ways, מְחוּיָאֵל and
+  מְחִיָּיאֵל, in one verse; the English keeps both. The LXX names are Γαιδαδ for עִירָד, Μαιηλ
+  for both spellings of the third name, Μαθουσαλα and Λαμεχ. The LXX 'Γαιδαδ καὶ Γαιδαδ
+  ἐγέννησεν' is 'Gaidad, and Gaidad fathered': the Hebrew pattern, not a doubled name.
+app: מְחוּיָאֵל / מְחִיָּיאֵל: one name, written two ways.
+rashi: יָלַד, 'fathered', speaks of the man's seed.
+ibn-ezra: Lamekh was the sixth from Qayin and the seventh from the human.
+= 0 1 2 3 | To Chanokh was born Irad; | 'and there was born to חֲנוֹךְ עִירָד'
+= 4 5 6 7 | Irad fathered Mechuyael; | 'and עִירָד fathered מְחוּיָאֵל'
+= 8 9 10 11 | Mechiyael fathered Methushael; | 'and מְחִיָּיאֵל fathered מְתוּשָׁאֵל'; the second spelling of the same name
+= 12 13 14 15 | Methushael fathered Lamekh. | 'and מְתוּשָׁאֵל fathered לָמֶךְ'
