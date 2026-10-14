@@ -1,8 +1,7 @@
 # Bereshit (Genesis) 1:1–4:18 — English translation and commentary.
 #
 # Each entry: (verse_ref, lines, commentary). Lines are generated from the units in
-# alignment.py: each English unit is one printed line, in order. Commentary is the
-# note on root sense, witness readings, and register choices.
+# alignment.py: each English unit is one printed line, in order.
 #
 # Translated from the Hebrew witness, with the LXX (witness-lxx.json) as a second
 # witness. No English rendering was consulted.
@@ -102,25 +101,25 @@ T = [
  ['Elohim saw all he had made—', 'and look: good,', 'very good.', 'Evening. Morning:', 'the sixth day.'],
  "Tov me'od (טוֹב מְאֹד), 'good, exceedingly'. LXX kala lian, 'very beautiful'. The LXX's kalos is a wider register of beauty."),
 ('2:1',
- ['So sky and ground were finished,', 'and all their muster.'],
+ ['Sky and ground were finished,', 'and all their mustered army.'],
  "Vayekhullu (וַיְכֻלּוּ), 'were finished, completed'. Tzeva'am (צְבָאָם), 'their host, army': the stars and the whole mustered order. LXX pas ho kosmos autōn, 'all their order': 'cosmos' for 'host'."),
 ('2:2',
- ['Elohim finished on the seventh day', 'the work he had made;', 'and on the seventh day he quit', 'from all the work he had made.'],
+ ['God finished on the seventh day', 'the work he had made;', 'and on the seventh day he quit,', 'dropped all the work he had made.'],
  "Witness variant. The Hebrew reads 'the seventh day' for the completion; the LXX reads 'the sixth day' (en tē hēmera tē hektē) here. Shavat (שָׁבַת), 'cease', is the root from which 'sabbath' derives; the verse does not yet name a day of rest as an institution. 'Quit' is the register's word for ceasing labour."),
 ('2:3',
- ['He knelt in blessing toward the seventh day,', 'cut it out, set it apart,', 'because on it he laid down', 'from all the work Elohim cut to make.'],
+ ['God knelt over the seventh day and blessed it,', 'cut it out, set it apart,', 'because on it he laid down', 'all the work God cut to make.'],
  "Vayevarekh (וַיְבָרֶךְ), 'blessed'; vayqaddesh (וַיְקַדֵּשׁ), 'made holy', from qadosh, 'set apart' (the 'cut away' gloss is speculative). Bara' with the infinitive la'asot (לַעֲשׂוֹת) is a doubled verb. 'Knelt' is the register's word for barak. LXX hōn ērxato ho theos poiēsai, 'which God began to make': the LXX reads 'began', rendering the bara' + la'asot idiom; weak support for the temporal reading of 1:1."),
 ('2:4',
- ['These are the births—', 'toledot, the bearing-out—', 'of sky and ground,', 'in their being cut,', 'in the day YHWH Elohim made', 'ground and sky.'],
+ ['These are the births—', 'toledot, the bearing-out—', 'of sky and ground,', 'cut, being cut,', 'in the day YHWH Elohim made', 'ground and sky.'],
  "Toledot (תּוֹלְדוֹת): 'begettings, generations', from yalad, 'to bear'. LXX hautē hē biblos geneseōs, 'this is the book of origin': the source of the Greek title Genesis. The order inverts 1:1: a chiasm. 'YHWH' is left as the Name, unpronounced in the tradition. LXX has ho theos alone, without kyrios, where the Hebrew has YHWH Elohim: the Name is not rendered in the Greek."),
 ('2:5',
- ['No thorn-bush of the field yet on the ground,', 'no grass of the field yet sprung.', 'YHWH Elohim had not rained on the ground,', 'and there was no human to work the red.'],
+ ['No thorn-bush of the field yet on the ground,', 'no grass of the field, not yet sprung.', 'for YHWH Elohim had not rained on the ground,', 'and no human to work the red.'],
  "Siach (שִׂיחַ), 'shrub'; a separate siach, 'meditation, talk', is probably a homonym (Ps 77:13 Hebrew numbering; 77:12 English). Sadeh (שָׂדֶה), 'open field, wild land'. Le-ovod (לַעֲבֹד), 'to work, to serve'. LXX has ho theos alone for YHWH Elohim here, as at 2:4."),
 ('2:6',
- ['A seep came up out of the ground', 'and drenched the whole face of the red.'],
+ ['A seep came up out of the ground', 'and soaked the whole face of the red.'],
  "Ed (אֵד), 'mist, flow, spring': the Hebrew can be a vapour or an underground seep; 'seep' keeps the second. LXX pēgē, 'spring'."),
 ('2:7',
- ['YHWH Elohim potted the human from dust of the ground—afar—', 'and blew into his nostrils breath of lives;', 'and the human became a living throat.'],
+ ['YHWH Elohim potted the human out of the dust of the ground—afar—', 'and blew into his nostrils the breath of lives;', 'and the human became a living throat.'],
  "Yatzar (יָצַר): 'to shape, mould' as a potter does: 'potted'. Afar (עָפָר), 'dust'. Appav (אַפָּיו), 'his nostrils'; the same word is used of anger (aph). Nefesh chayah is 'living breath' for the animals in 1:20–21; here 'living throat'. LXX eis psychēn zōsan, 'living soul'. LXX renders the nostrils as eis to prosōpon, 'into the face', not 'into the nostrils'. LXX has ho theos alone for YHWH Elohim here (kyrios is dropped), as at 2:4."),
 ('2:8',
  ['YHWH Elohim planted a garden of delight,', 'from the front, from of old, eastward,', 'and set there the human he had shaped.'],
