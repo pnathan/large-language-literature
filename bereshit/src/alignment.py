@@ -53,7 +53,7 @@ A = {
  ((15, 16), 'So.', "vayehi-ken: 'and it became so'. 'It held' is a marked addition for ken."),
 ],
 '1:8': [
- ((0, 1), 'Divinity named the plate Heavens.', "vayiqra elohim laraqia' shamayim: 'called the firmament heavens'. 'Heavens' narrows the plural."),
+ ((0, 1), 'Divinity named the plate Heavens: these waters.', "vayiqra elohim laraqia' shamayim: 'called the firmament heavens'. 'Heavens' narrows the plural."),
  ((2, 3), '', "shamayim: folk sound-play 'sham-mayim'; not in the text, marked."),
  ((4, 5), 'Evening came.', 'vayehi erev.'),
  ((6, 7), 'Morning came.', 'vayehi boqer.'),
@@ -434,7 +434,7 @@ A = {
  ((9, 10, 11, 12), 'cursed are you, out of all the cattle,', "'arur atah mikol habehemah."),
  ((13, 14, 15), 'and out of every beast of the field.', 'umikol chayat hasadeh.'),
  ((16, 17, 18), 'On your belly you will go,', "al gechonkha telekh: 'on your belly you shall walk'. 'Gut' and 'go' are the body stretches."),
- ((19, 20, 21, 22, 23), 'and dust you will eat all the days of your life.', 'vafar tokhal kol yemei chayyekha.'),
+ ((19, 20, 21, 22, 23), 'Dust you will eat, all the days of your life.', 'vafar tokhal kol yemei chayyekha.'),
 ],
 '3:15': [
  ((0, 1, 2), 'Hatred I will set', "ve'eivah ashit: 'enmity I will set'."),
