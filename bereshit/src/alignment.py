@@ -261,7 +261,7 @@ A = {
  ((19, 20, 21, 22, 23), 'and there was no human to work the red.', "veadam ayin la'avod et ha'adamah: 'and no human to work the ground'. 'Red' is the English for adamah (see 1:25)."),
 ],
 '2:6': [
- ((0, 1, 2, 3), 'A seep rose out of the ground', "ved ya'aleh min ha'arets: 'and a seep rose out of the earth'. 'Seep' is the physical choice for ed (mist, flow, spring)."),
+ ((0, 1, 2, 3), 'A seep came up out of the ground', "ved ya'aleh min ha'arets: 'and a seep rose out of the earth'. 'Seep' is the physical choice for ed (mist, flow, spring)."),
  ((4, 5, 6, 7, 8), 'and drenched the whole face of the red.', "vehishkah et kol penei ha'adamah: 'and it drenched all the face of the ground'."),
 ],
 '2:7': [
@@ -335,10 +335,10 @@ A = {
  ((10, 11, 12, 13, 14), 'But for the human, no face across from him was found.', "ule'adam lo matza ezer kenegdo: 'but for the human he did not find a help opposite him'."),
 ],
 '2:21': [
- ((0, 1, 2, 3, 4, 5, 6), 'YHWH Elohim dropped a heavy sleep on the human.', "wayyappel YHWH elohim tardemah al ha'adam: 'YHWH God caused a deep sleep to fall on the human'. Tardemah is deep sleep (cf. 15:12); 'heavy' is the physical stretch."),
+ ((0, 1, 2, 3, 4, 5, 6), 'YHWH Elohim threw a heavy sleep on the human.', "wayyappel YHWH elohim tardemah al ha'adam: 'YHWH God caused a deep sleep to fall on the human'. Tardemah is deep sleep (cf. 15:12); 'heavy' is the physical stretch."),
  ((7,), 'He slept.', "wayyishan: 'and he slept'."),
- ((8, 9, 10), 'He took one of his sides—tsela—', "vayyiqqach achat mitzal'otav: 'and he took one of his sides'. Tsela' is side or rib; kept as the Hebrew word."),
- ((11, 12, 13), 'and shut the flesh over the place.', "vayyisgor basar tachtennah: 'and he shut the flesh over its place'."),
+ ((8, 9, 10), 'He took one of his ribs—tsela—', "vayyiqqach achat mitzal'otav: 'and he took one of his sides'. Tsela' is side or rib; kept as the Hebrew word."),
+ ((11, 12, 13), 'and shut the meat over the place.', "vayyisgor basar tachtennah: 'and he shut the flesh over its place'."),
 ],
 '2:22': [
  ((0, 1, 2, 3, 4, 5, 6, 7, 8, 9), 'YHWH Elohim built the side he had taken from the human', "wayyiven YHWH elohim et hatzela' asher laqach min ha'adam: 'YHWH God built the side which he took from the human'. Banah is 'build'; it is the verb of building a house or a family."),
@@ -347,7 +347,7 @@ A = {
 ],
 '2:23': [
  ((0, 1, 2, 3), 'The human barked: This time—at last—', "wayomer ha'adam zot hapa'am: 'and the human said, this time'. 'Barked' is the physical stretch of 'said'."),
- ((4, 5, 6, 7), 'bone from my bones, flesh from my flesh!', "etzem me'atzamai uvasar mibesari: 'bone from my bones, and flesh from my flesh'."),
+ ((4, 5, 6, 7), 'bone out of my bone, meat out of my meat!', "etzem me'atzamai uvasar mibesari: 'bone from my bones, and flesh from my flesh'."),
  ((8, 9, 10), 'This one: Ishah, woman,', "lezot yiqqare' ishah: 'this one shall be called Ishah'. Ishah is kept as the Hebrew word for the pun."),
  ((11, 12, 13, 14), 'for from Ish she was taken.', "ki me'ish luqchah zot: 'for from Ish this one was taken'. Ish is kept for the pun."),
 ],
@@ -361,7 +361,7 @@ A = {
  ((5, 6), 'and no shame.', "velo yitboshashu: 'and were not ashamed'."),
 ],
 '3:1': [
- ((0, 1, 2), 'The Hiss was the crafty one—arum, shrewd and bare—', "hanachash hayah arum: 'serpent was crafty'. 'Hiss' for the sibilance of nachash; 'arum' carries both 'crafty' and 'bare' (see 2:25), kept as one line."),
+ ((0, 1, 2), 'The Hiss was the sly one—arum, sharp, bare—', "hanachash hayah arum: 'serpent was crafty'. 'Hiss' for the sibilance of nachash; 'arum' carries both 'crafty' and 'bare' (see 2:25), kept as one line."),
  ((3, 4, 5), 'of all the beasts of the field', "mikol chayat hasadeh: 'of all beast of the field'. Settled."),
  ((6, 7, 8, 9), 'YHWH Elohim had made.', "asher 'asah YHWH 'elohim: 'which YHWH God made'. 'Had made' is the pluperfect English gives to a relative clause."),
  ((10, 11, 12), 'It said to the woman:', "vayomer el ha'ishah: 'and it said to the woman'. Plain."),
