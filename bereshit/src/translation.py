@@ -398,7 +398,7 @@ T = [
 
 ("3:6",
  ["The woman saw: the tree good to eat,",
-  "a craving for the eyes,",
+  "a hunger for the eyes,",
   "a tree to be coveted for insight.",
   "She took from its fruit and ate.",
   "She gave to her man with her, and he ate."],
@@ -490,7 +490,7 @@ T = [
 
 ("3:21",
  ["YHWH Elohim made for the human and his woman",
-  "tunics of hide, and dressed them."],
+  "hide-coats, and dressed them."],
  "Ketonot or (כָּתְנוֹת עוֹר): 'skin-tunics'. LXX chitōnas dermatinous, 'leather tunics'."),
 
 ("3:22",
