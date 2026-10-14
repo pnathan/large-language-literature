@@ -127,7 +127,7 @@ A = {
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
  ((2, 3, 4, 5), 'let the waters swarm with a swarm of living breath;', "yishretzu hamayim sheretz nefesh chayah: 'let the waters swarm with a swarm of living breath'. 'Seethe' is the physical stretch of sharats. 'Crawl' is the physical head for sharats/sheretz (small creeping things)."),
  ((6,), '', 'chayah: carried above.'),
- ((7, 8), 'and let fliers flutter', "veof yeofef: 'and bird flying'. The doubled verb of flight."),
+ ((7, 8), 'and let fliers fly', "veof yeofef: 'and bird flying'. The doubled verb of flight."),
  ((9, 10), 'over the ground,', "'al ha'arets: 'over the ground'."),
  ((11, 12, 13, 14), 'across the face of the hammered plate of the heavens.', "'al penei raqia' hashamayim: 'over the face of the firmament of the heavens'. 'Across' is the English stretch of 'al."),
 ],
@@ -188,9 +188,9 @@ A = {
  ((), '', 'Addition: links adam to adamah (1:25, 2:7). Marked.'),
  ((5,), 'in his image—', "betsalmo: 'in his image'. 'Shadow' is the physical stretch of tselem."),
  ((6, 7), 'in the image of Divinity', "betselem elohim: 'in the image of Divinity'. Divinity is kept as a name."),
- ((8, 9), 'Divinity cut him—', "bara' oto."),
+ ((8, 9), 'he cut him—', "bara' oto."),
  ((10, 11), 'male and female', 'zakhar uneqevah.'),
- ((12, 13), 'Divinity cut them.', "bara' otam."),
+ ((12, 13), 'he cut them.', "bara' otam."),
 ],
 '1:28': [
  ((0, 1, 2), 'Divinity blessed them.', 'vayevarekh otam elohim.'),
@@ -266,7 +266,7 @@ A = {
 ],
 '2:7': [
  ((0, 1, 2, 3, 4, 5, 6, 7), 'The Lord God potted the human out of the dust of the red earth,', "wayyitzer the Lord elohim et ha'adam afar min ha'adamah: 'formed the human, dust from the ground'. 'Potted' is the potter's stretch of yatzar."),
- ((8, 9, 10, 11), 'and blew into his nostrils the breath of lives;', "vayippach be'appav nishmat chayyim: 'breathed into his nostrils breath of lives'. 'Blew' is the physical stretch of nafach."),
+ ((8, 9, 10, 11), 'and blew into his nostrils the blast of lives;', "vayippach be'appav nishmat chayyim: 'breathed into his nostrils the blast of lives'. 'Blew' is the physical stretch of nafach."),
  ((12, 13, 14, 15), 'and the human became a living breath.', "vayehi ha'adam lenefesh chayah: 'and the human became a living breath'. 'Throat' is the body stretch of nefesh."),
 ],
 '2:8': [
@@ -401,7 +401,7 @@ A = {
 '3:7': [
  ((0, 1, 2), 'The eyes of both of them were opened,', 'vattipaqachna einei shneihem.'),
  ((3, 4, 5, 6), 'and they knew they were bare;', "vayeyde'u ki eiromim hem."),
- ((7, 8, 9, 10, 11, 12), 'they sewed fig-leaves and made loin-belts.', "vayitperu alei te'enah vayya'asu lahem chagorot."),
+ ((7, 8, 9, 10, 11, 12), 'they sewed fig-leaves and made themselves loin-belts.', "vayitperu alei te'enah vayya'asu lahem chagorot."),
 ],
 '3:8': [
  ((0, 1, 2, 3, 4), 'They heard the voice of the Lord God', "vayishme'u et qol the Lord elohim: 'heard the voice of the Lord God'."),
@@ -483,7 +483,7 @@ A = {
 ],
 '3:23': [
  ((0, 1, 2, 3, 4), 'The Lord God sent him out from the garden in Eden,', "vayshallehu the Lord elohim migan 'eden."),
- ((5, 6, 7, 8, 9, 10), 'to serve the red earth from which he was taken.', "la'avod et ha'adamah asher lukkach mishsham."),
+ ((5, 6, 7, 8, 9, 10), 'to work the red earth from which he was taken.', "la'avod et ha'adamah asher lukkach mishsham."),
 ],
 '3:24': [
  ((0, 1, 2), 'He drove the human out.', "vayegaresh et ha'adam: 'drove out'."),
@@ -509,7 +509,7 @@ A = {
  ((7, 8, 9, 10, 11, 12), 'and the Lord looked on Hevel and on his gift.', "vayyisha' the Lord el hevel ve'el minchato."),
 ],
 '4:5': [
- ((0, 1, 2, 3, 4, 5), 'But to Qayin and his gift he did not look.', "ve'el qayin ve'el minchato lo sha'ah."),
+ ((0, 1, 2, 3, 4, 5), 'But to Qayin and his gift he did not look on.', "ve'el qayin ve'el minchato lo sha'ah."),
  ((6, 7, 8, 9, 10), 'Qayin burned hard, and his face fell.', "vayyichar leqayin me'od vayyippelu panav."),
 ],
 '4:6': [
