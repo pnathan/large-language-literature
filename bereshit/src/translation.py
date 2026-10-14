@@ -49,7 +49,7 @@ T = [
  ["He said: beat out a plate, a skin of hammered stuff,",
   "in the belly of the waters: a splitter—",
   "water from water."],
- "Raqia' (רָקִיעַ), from raqa', 'to beat out, spread thin'. 'Skin' and 'plate' keep the hammering; 'firmament' (Latin, 'support') drops it. Bein mayim lamayim is the ordinary idiom 'between water and water' (cf. Deut 17:8); nothing is odd about the lamed. LXX stereōma, 'firm thing'."),
+ "Raqia' (רָקִיעַ), from raqa', 'to beat out, spread thin'. 'Skin' and 'plate' keep the hammering; 'firmament' (Latin, 'support') drops it. Bein mayim lamayim is the ordinary idiom 'between water and water' (cf. Deut 17:8); nothing is odd about the lamed. LXX stereōma, 'firm thing'. LXX ends 1:6 with 'and it was so' (kai egeneto houtōs) and omits it at 1:7, where the Hebrew has it: the formula falls in a different place."),
 
 ("1:7",
  ["Elohim made the skin.",
@@ -100,7 +100,7 @@ T = [
   "cleaving day from night.",
   "Let them be marks for the turns of the year,",
   "meeting-hours, days, years."],
- "Me'orot (מְאֹרֹת), from 'or (light, fire): 'fire-holders'. The text names neither sun nor moon here. Lemo'adim (לְמוֹעֲדִים), 'for appointed times', from ya'ad, 'to meet at an appointed place': 'meeting-hours' stretches it. Shanim (שָׁנִים) is the first 'year' (shanah; a 'repeat' root is proposed, not settled). LXX lists nouns: phōstēres, sēmeia, kairous, hēmeras, eniautous."),
+ "Me'orot (מְאֹרֹת), from 'or (light, fire): 'fire-holders'. The text names neither sun nor moon here. Lemo'adim (לְמוֹעֲדִים), 'for appointed times', from ya'ad, 'to meet at an appointed place': 'meeting-hours' stretches it. Shanim (שָׁנִים) is the first 'year' (shanah; a 'repeat' root is proposed, not settled). LXX lists nouns: phōstēres, sēmeia, kairous, hēmeras, eniautous. LXX adds eis phausin tēs gēs, 'for giving light to the earth', a plus with no Hebrew counterpart in the formula."),
 
 ("1:15",
  ["Let them be fire-holders in the sky,",
@@ -136,7 +136,7 @@ T = [
   "with a swarming of breathing things;",
   "and let fliers flutter over the ground,",
   "across the face of the hammered sky."],
- "Yishretzu (יִשְׁרְצוּ), from sheretz: small things that teem and crawl. 'Seethe' stretches the teeming. Nefesh chayah (נֶפֶשׁ חַיָּה), 'living breath, living creature'. Nefesh is breath, throat, self; LXX psychē zōsa, 'living soul', puts the soul into the animal. Ye'opef (יְעוֹפֵף), a doubled verb of flying."),
+ "Yishretzu (יִשְׁרְצוּ), from sheretz: small things that teem and crawl. 'Seethe' stretches the teeming. Nefesh chayah (נֶפֶשׁ חַיָּה), 'living breath, living creature'. Nefesh is breath, throat, self; LXX psychē zōsa, 'living soul', puts the soul into the animal. Ye'opef (יְעוֹפֵף), a doubled verb of flying. LXX adds kai egeneto houtōs, 'and it was so', a formula plus not in the Hebrew at this point."),
 
 ("1:21",
  ["Elohim cut the great serpents of the deep, the tanninim,",
@@ -168,7 +168,7 @@ T = [
   "the cattle after its kind,",
   "every crawler of the red after its kind.",
   "He saw: good."],
- "Adamah (אֲדָמָה) is red soil or ground; the root of adam (human) is the same family. 'The red' keeps that family alive and sets up 2:7."),
+ "Adamah (אֲדָמָה) is ground, soil; 'red' is a gloss from the colour of the soil, not an established sense; the root of adam (human) is the same family. 'The red' keeps that family alive and sets up 2:7."),
 
 ("1:26",
  ["He said: we will make the human, the red one,",
@@ -257,7 +257,7 @@ T = [
  ["YHWH Elohim potted the human from dust of the ground—afar—",
   "and blew into his nostrils breath of lives;",
   "and the human became a living throat."],
- "Yatzar (יָצַר): 'to shape, mould' as a potter does: 'potted'. Afar (עָפָר), 'dust'. Appav (אַפָּיו), 'his nostrils'; the same word is used of anger (aph). Nefesh chayah is 'living breath' for the animals in 1:20–21; here 'living throat'. LXX eis psychēn zōsan, 'living soul'."),
+ "Yatzar (יָצַר): 'to shape, mould' as a potter does: 'potted'. Afar (עָפָר), 'dust'. Appav (אַפָּיו), 'his nostrils'; the same word is used of anger (aph). Nefesh chayah is 'living breath' for the animals in 1:20–21; here 'living throat'. LXX eis psychēn zōsan, 'living soul'. LXX renders the nostrils as eis to prosōpon, 'into the face', not 'into the nostrils'."),
 
 ("2:8",
  ["YHWH Elohim planted a garden of delight,",
@@ -304,7 +304,7 @@ T = [
   "and set him in the garden of delight—",
   "to serve it,",
   "to keep it."],
- "La'avdah (לַעֲבְדָהּ), 'to serve, work'; lishmrah (לִשְׁמְרָהּ), 'to keep, guard'. 'Serve' is the verb of slavery as well as labour; LXX ergazesthai and phylassein drop the servitude."),
+ "La'avdah (לַעֲבְדָהּ), 'to serve, work'; lishmrah (לִשְׁמְרָהּ), 'to keep, guard'. 'Serve' is the verb of slavery as well as labour; LXX ergazesthai and phylassein drop the servitude. LXX adds hon eplasen, 'which he had formed', a relative plus the Hebrew does not have."),
 
 ("2:16",
  ["YHWH Elohim laid his order on the human:",
@@ -314,7 +314,7 @@ T = [
 ("2:17",
  ["But from the tree of knowing good and harm, do not eat.",
   "On the day you eat from it, dying, you will die."],
- "Mot tamut (מוֹת תָּמוּת), 'dying, you shall die': the infinitive absolute again. 'On the day' (be-yom) can name an interval; the narrative records no death that day. LXX thanatō apothaneisthe keeps the doubling."),
+ "Mot tamut (מוֹת תָּמוּת), 'dying, you shall die': the infinitive absolute again. 'On the day' (be-yom) can name an interval; the narrative records no death that day. LXX thanatō apothaneisthe keeps the doubling. LXX uses plural forms (phagesthe, 'you all'), while the Hebrew is singular: a number shift in the prohibition."),
 
 ("2:18",
  ["YHWH Elohim said: not good,",
@@ -420,17 +420,17 @@ T = [
 ("3:9",
  ["YHWH Elohim called to the human:",
   "Ayyekka—where are you?"],
- "Ayyekka (אַיֶּכָּה): 'where?', a rare form of ayeh. The question is God's, put to one who hides. LXX pou ei."),
+ "Ayyekka (אַיֶּכָּה): 'where?', a rare form of ayeh. The question is God's, put to one who hides. LXX pou ei. LXX has the vocative Adam, 'Adam, where are you?', where the Hebrew has the plain 'where'."),
 
 ("3:10",
  ["He said: I heard your voice in the garden.",
   "I shook, for I am bare, and I hid."],
- "Ira (אִירָא): 'fear, shudder'. The root carries awe as well as dread."),
+ "Ira (אִירָא): 'fear, shudder'. The root carries awe as well as dread. LXX adds peripatountos, 'walking', to the voice in the garden: the Hebrew has the voice alone."),
 
 ("3:11",
  ["He said: Who told you you were bare?",
   "From the tree I charged you about—did you eat?"],
- "Ha-min (הֲמִן): interrogative 'from'. Tsiviti (צִוִּיתִיךָ): 'I charged you'. LXX tis anēngeilen soi, 'who announced to you'."),
+ "Ha-min (הֲמִן): interrogative 'from'. Tsiviti (צִוִּיתִיךָ): 'I charged you'. LXX tis anēngeilen soi, 'who announced to you'. LXX adds toutou monou, 'of this one alone', to the prohibition, a plus of emphasis."),
 
 ("3:12",
  ["The human said: The woman you set with me—",
@@ -470,7 +470,7 @@ T = [
   "and ate from the tree I charged you about—'do not eat from it'—",
   "the ground is cursed because of you.",
   "In pain you will eat from it all the days of your life."],
- "Ha-adamah (הָאֲדָמָה), 'the red ground'. Be-itstsavon (בְּעִצָּבוֹן): 'in pain', the noun of 3:16. LXX reads 'in the works' (en tois ergois) for 'for your sake' (a variant reading, not an addition)."),
+ "Ha-adamah (הָאֲדָמָה), 'the red ground'. Be-itstsavon (בְּעִצָּבוֹן): 'in pain', the noun of 3:16. LXX reads 'in the works' (en tois ergois) for 'for your sake' (a variant reading, not an addition). LXX adds toutou monou here too, the same emphatic plus as 3:11."),
 
 ("3:18",
  ["Thorn and thistle it will sprout for you;",
@@ -486,7 +486,7 @@ T = [
 ("3:20",
  ["The human named his woman Chavah—Living—",
   "for she became mother of all the living."],
- "Chavah (חַוָּה), 'Eve', from chayah, 'to live'. LXX Zōē, 'life'."),
+ "Chavah (חַוָּה), 'Eve': the text itself links it to chayah, 'to live', as wordplay; the derivation is the text's, not a settled etymology. LXX Zōē, 'life'."),
 
 ("3:21",
  ["YHWH Elohim made for the human and his woman",
@@ -515,7 +515,7 @@ T = [
  ["Now the human knew Chavah his woman;",
   "she conceived and bore Qayin, and said:",
   "I have gotten a man—YHWH."],
- "Yada' (יָדַע): 'knew', the verb of knowing and of intimacy. Qanah (קָנִיתִי): 'I have gotten'; the root also means 'to create' (Gen 14:19). Qayin (קַיִן): 'spear, smith', a scholarly proposal; the text's own wordplay is qaniti. The 'et' of 'et YHWH' is ambiguous: 'with YHWH' or 'YHWH' in apposition; the English keeps only the apposition reading."),
+ "Yada' (יָדַע): 'knew', the verb of knowing and of intimacy. Qanah (קָנִיתִי): 'I have gotten'; the root also means 'to create' (Gen 14:19). Qayin (קַיִן): 'spear, smith', a scholarly proposal; the text's own wordplay is qaniti. The 'et' of 'et YHWH' is ambiguous: 'with YHWH' or 'YHWH' in apposition; the English keeps only the apposition reading. LXX reads dia tou theou, 'through God', for the Hebrew 'et YHWH: a witness reading that makes the 'et a means, not an apposition."),
 
 ("4:2",
  ["She bore again: his brother Hevel.",
@@ -535,7 +535,7 @@ T = [
 ("4:5",
  ["But to Qayin and his gift he did not look.",
   "Qayin burned, burned exceedingly, and his face fell."],
- "Vayyichar (וַיִּחַר): 'burned, grew hot', of anger. Vayyippelu panav (וַיִּפְּלוּ פָּנָיו): 'his face fell'. LXX sun-epesen tō prosōpō, 'fell together upon his face'."),
+ "Vayyichar (וַיִּחַר): 'burned, grew hot', of anger. Vayyippelu panav (וַיִּפְּלוּ פָּנָיו): 'his face fell'. LXX sun-epesen tō prosōpō, 'fell together upon his face'. LXX reads elypēsen ('grieved') at 4:5 and perilypos at 4:6, where the Hebrew has the burning anger of charah: a sense shift, recorded here."),
 
 ("4:6",
  ["YHWH said to Qayin: Why do you burn?",
