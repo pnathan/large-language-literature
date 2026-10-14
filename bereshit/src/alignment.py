@@ -13,7 +13,7 @@ A = {
 ],
 '1:2': [
  ((0, 1), 'The ground was', "veha'arets hayetah: 'and the ground was'."),
- ((2,), 'waste and void.', "tohu: 'waste, emptiness'. 'Gape' is the physical stretch."),
+ ((2,), 'waste and void.', "tohu: 'waste, emptiness'. 'Waste and void' is the English for tohu and bohu."),
  ((3,), '', "vavohu: 'and emptiness'. The second image is the physical stretch of the pair."),
  ((4, 5, 6, 7), 'And dark was on the face of the deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
  ((8, 9), 'And the wind of Divinity was', "veruach elohim: 'and the wind of Divinity'. Wind is the head term for ruach (lexicon.md)."),
@@ -33,7 +33,7 @@ A = {
 '1:5': [
  ((0, 1, 2, 3, 4), 'Divinity named the light Day.', "vayiqra elohim la'or yom: 'called' (qara'), rendered 'named' for the naming object."),
  ((5, 6, 7), 'The dark, Divinity named Night.', "velachoshekh qara laylah: 'and the dark he called night'."),
- ((8, 9), 'Evening came.', "vayehi erev: 'and it was evening'. 'Clotted' is the physical stretch of 'erev."),
+ ((8, 9), 'Evening came.', "vayehi erev: 'and it was evening'. 'Evening came' is the English for 'erev."),
  ((10, 11), 'Morning came.', "vayehi boqer: 'and it was morning'. 'Broke open' is the physical stretch of boqer."),
  ((12, 13), 'One day.', "yom echad: cardinal, not 'first'."),
 ],
@@ -125,7 +125,7 @@ A = {
 ],
 '1:20': [
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
- ((2, 3, 4, 5), 'let the waters swarm with a swarm of living breath;', "yishretzu hamayim sheretz nefesh chayah: 'let the waters swarm with a swarm of living breath'. 'Seethe' is the physical stretch of sharats. 'Crawl' is the physical head for sharats/sheretz (small creeping things)."),
+ ((2, 3, 4, 5), 'let the waters swarm with a swarm of living breath;', "yishretzu hamayim sheretz nefesh chayah: 'let the waters swarm with a swarm of living breath'. 'Swarm' is the English for sharats. 'Crawl' is the physical head for sharats/sheretz (small creeping things)."),
  ((6,), '', 'chayah: carried above.'),
  ((7, 8), 'and let fliers fly', "veof yeofef: 'and bird flying'. The doubled verb of flight."),
  ((9, 10), 'over the ground,', "'al ha'arets: 'over the ground'."),
@@ -141,7 +141,7 @@ A = {
 ],
 '1:22': [
  ((0, 1, 2, 3), 'Divinity blessed them:', "vayevarekh otam elohim lemor: 'Divinity blessed them, saying'."),
- ((4,), 'Bear fruit!', "peru: 'break out, bear fruit'. 'Burst' is the physical stretch of parah."),
+ ((4,), 'Bear fruit!', "peru: 'break out, bear fruit'. 'Bear fruit' is the English for parah."),
  ((5,), 'Grow many!', "urevu: 'and multiply'. 'Swarm' is the physical stretch of rabah."),
  ((6, 7, 8, 9), 'Fill the waters in the seas!', "umil'u et hamayim bayyammim: 'and fill the waters in the seas'."),
  ((10, 11, 12), 'Let the fliers grow many on the ground.', "vehaof yirev ba'arets: 'and let the bird multiply on the ground'. 'Breed' is the physical stretch of rabah."),
@@ -153,7 +153,7 @@ A = {
 ],
 '1:24': [
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
- ((2, 3), 'let the ground bring out', "totse ha'arets: 'let the ground bring out'. 'Belch out' is the physical stretch of yatsa'."),
+ ((2, 3), 'let the ground bring out', "totse ha'arets: 'let the ground bring out'. 'Bring out' is the English for yatsa'."),
  ((4, 5, 6), 'living breath after their kind:', "nefesh chayah lemina: 'living breath after its kind'."),
  ((7,), 'cattle,', 'behemah.'),
  ((8,), 'crawlers,', "remes: 'creeping thing'."),
@@ -241,7 +241,7 @@ A = {
  ((10, 11, 12, 13), '', "mikol melakhto asher 'asah: 'from all his work he had made'. 'Dropped' is the physical stretch of 'from'."),
 ],
 '2:3': [
- ((0, 1, 2, 3, 4), 'Divinity blessed the seventh day,', "vayevarekh elohim et yom hashevi'i: 'blessed'. 'Knelt' is the body stretch of barak."),
+ ((0, 1, 2, 3, 4), 'Divinity blessed the seventh day,', "vayevarekh elohim et yom hashevi'i: 'blessed'. 'Blessed' is the English for barak."),
  ((5, 6), 'and set it apart,', "vayqaddesh oto: 'made it holy', rendered as the physical 'set apart'."),
  ((7, 8, 9), 'because on it he quit', "ki bo shavat: 'because in it he ceased'. 'Laid down' is the physical English for shavat."),
  ((10, 11, 12, 13, 14, 15), 'all the work that Divinity cut in the making.', "mikol melakhto asher bara' elohim la'asot: head terms 'cut', 'make'."),
@@ -287,7 +287,7 @@ A = {
 ],
 '2:11': [
  ((0, 1, 2), 'The first: Pishon.', "shem ha'echad pishon: 'the first's name, Pishon'."),
- ((3, 4, 5, 6, 7, 8), 'It goes round all the land of Havilah,', "hu hasovev 'et kol eretz hachavilah: 'it goes round all the land of Havilah'. 'Coils' and 'writhing' are body stretches; not established."),
+ ((3, 4, 5, 6, 7, 8), 'It goes round all the land of Havilah,', "hu hasovev 'et kol eretz hachavilah: 'it goes round all the land of Havilah'. The English keeps only the name Havilah; no echo is carried."),
  ((9, 10, 11), 'where the gold is.', "asher sham hazahav: 'where there is gold'."),
 ],
 '2:12': [
@@ -346,7 +346,7 @@ A = {
  ((11, 12, 13), 'and brought her to the human.', "vayevi'ehah el ha'adam: 'and brought her to the human'."),
 ],
 '2:23': [
- ((0, 1, 2, 3), 'The human said: This one, this time, is', "wayomer ha'adam zot hapa'am: 'and the human said, this time'. 'Barked' is the body stretch of 'said'."),
+ ((0, 1, 2, 3), 'The human said: This one, this time, is', "wayomer ha'adam zot hapa'am: 'and the human said, this time'. 'This time' is the English for zot hapa'am."),
  ((4, 5, 6, 7), 'bone out of my bones, meat out of my meat!', "etzem me'atzamai uvasar mibesari: 'bone from my bones and flesh from my flesh'. 'Out of' and 'meat' are body stretches of the literal."),
  ((8, 9, 10), 'This one shall be called Ishah,', "lezot yiqqare' ishah: 'this one shall be called Ishah'. Ishah is kept for the pun."),
  ((11, 12, 13, 14), 'for from Ish she was taken.', "ki me'ish luqchah zot: 'for from Ish she was taken'. Ish is kept for the pun."),
