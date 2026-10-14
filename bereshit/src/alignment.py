@@ -17,7 +17,7 @@ A = {
 
 "1:1": [
  ((0,), "At the head of the head,", "bereshit: 'at the head of'. The doubled 'head' keeps the construct."),
- ((1,2), "Elohim began to hack:", "bara' 'elohim: 'God created'. 'Began' is the temporal reading of the construct (1:1 commentary). 'Hack' is the physical stretch of bara', whose root is disputed (see the 1:1 note)."),
+ ((1,2), "Elohim began to cut:", "bara' 'elohim: 'God created'. 'Began' is the temporal reading of the construct (1:1 commentary). 'Cut' is the head term for bara' throughout (see lexicon.md); its root is disputed (1:1 note)."),
  ((3,4), "the sky, the hammered bowl—", "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
  ((5,6), "the ground, the red, the raw meat under it.", "ve'et ha'arets: 'and the earth'. 'The red' and 'the raw meat under it' are additions with no Hebrew counterpart; 'erets is not adamah."),
 ],
@@ -30,7 +30,7 @@ A = {
  ((), "like a mother-bird over the hatchlings she cannot see.", "Not in the Hebrew: an added simile for merachefet's brooding, marked as an addition."),
 ],
 "1:3": [
- ((0,1), "He howled:", "vayomer elohim: 'and God said'. 'Howled' is the physical stretch of 'said' (the register's largest stretch in 1:3)."),
+ ((0,1), "He said:", "vayomer elohim: 'and God said'. 'Howled' is the physical stretch of 'said' (the register's largest stretch in 1:3)."),
  ((2,3), "Be, light!", "yehi or: 'let there be light'. Imperative with the subject set after the verb."),
  ((4,5), "And light tore out of the dark, a birth-cry, wet.", "vayehi or: 'and light came to be'. 'Tore out of the dark, a birth-cry, wet' is an addition; the Hebrew has only 'and it was light'."),
 ],
@@ -54,7 +54,7 @@ A = {
  ((8,9,10), "water from water.", "bein mayim lamayim: 'between water and water'. The idiom bein X lamayim is ordinary (cf. Deut 17:8)."),
 ],
 "1:7": [
- ((0,1), "Elohim beat the skin out.", "vayya'as elohim et haraqia': 'God made the firmament'. 'Made' changes from bara' (1:1) to 'asah, the ordinary verb; 'beat out' is the physical stretch of making a hammered object."),
+ ((0,1), "Elohim made the skin.", "vayya'as elohim et haraqia': 'God made the firmament'. 'Made' is the head term for 'asah (lexicon.md); bara' ('cut') is not used for the firmament."),
  ((2,3), "", "et haraqia', carried above."),
  ((4,5,6), "He split the waters:", "vayavdel bein hamayim: 'and separated between the waters'. 'Split' is the physical stretch of badal (see 1:4)."),
  ((7,8,9), "some under it,", "asher mittachat laraqia': 'which were under the firmament'."),
@@ -142,7 +142,7 @@ A = {
  ((12,13,14), "across the face of the hammered sky.", "penei raqia' hashamayim: 'the face of the firmament of the heavens'."),
 ],
 "1:21": [
- ((0,1,2,3,4), "Elohim made the great serpents of the deep, the tanninim,", "vayivra' elohim et hattanninim hagedolim: 'God created the great sea-monsters'. Bara' is kept here as 'made' (the verb is the same as 1:1; see the 1:21 note)."),
+ ((0,1,2,3,4), "Elohim cut the great serpents of the deep, the tanninim,", "vayivra' elohim et hattanninim hagedolim: 'God created the great sea-monsters'. Bara' is 'cut' here, as at 1:1 (head term, lexicon.md)."),
  ((5,6,7,8), "and every breathing swarm the waters bred, after its kind,", "ve'et kol nefesh hachayah harommeset: 'and every living breath that creeps'. 'Breathing swarm' is nefesh hachayah harommeset."),
  ((9,), "", "paseq (׀), a cantillation mark; no English."),
  ((10,11,12,13,14), "the waters bred, after its kind,", "asher sharetzu hamayim lemineihem: 'which the waters teemed with, after their kinds'."),
@@ -193,15 +193,15 @@ A = {
  ((14,15,16,17,18), "every crawler that crawls.", "uvechol haremes harome's al ha'arets: 'and in every creeper that creeps on the earth'. 'On the ground' is dropped; loss marked."),
 ],
 "1:27": [
- ((0,1), "Elohim gouged", "vayivra' elohim: 'God created'. 'Gouged' is the physical stretch of bara' (1:1); the verb repeats three times in this verse."),
+ ((0,1), "Elohim cut", "vayivra' elohim: 'God created'. 'Cut' is the head term for bara' (lexicon.md); the verb repeats three times in this verse."),
  ((2,), "", "paseq (׀), a cantillation mark; no English."),
  ((3,4), "the human", "et ha'adam: 'the human'. The 'et is not rendered."),
  ((), "out of the red", "Not in 1:27: an addition linking adam to adamah (1:25, 2:7). Marked."),
  ((5,), "into a shadow of himself—", "betsalmo: 'in his image'. 'Shadow' is the physical stretch of tselem; 'into' is the English for b- here."),
  ((6,7), "into the shadow of Elohim", "betselem elohim: 'in the image of God'. Elohim is kept as a name."),
- ((8,9), "he gouged him—", "bara' oto: 'created him'."),
+ ((8,9), "he cut him—", "bara' oto: 'created him'."),
  ((10,11), "male and female", "zakhar uneqevah: 'male and female'."),
- ((12,13), "he gouged them.", "bara' otam: 'created them'."),
+ ((12,13), "he cut them.", "bara' otam: 'created them'."),
 ],
 "1:28": [
  ((0,1,2), "He blessed them.", "vayevarekh otam elohim: 'God blessed them'."),
@@ -394,7 +394,7 @@ A = {
  ((13,14), "lest you die.", "pen temutun: 'lest you become dead'."),
 ],
 "3:4": [
- ((0,1,2,3), "The Hiss hissed at the woman:", "vayomer hanachash el ha'ishah: 'the serpent said to the woman'. 'Hissed' is the register's verb for 'said', with the name Hiss."),
+ ((0,1,2,3), "The Hiss said to the woman:", "vayomer hanachash el ha'ishah: 'the serpent said to the woman'. 'Hissed' is the register's verb for 'said', with the name Hiss."),
  ((4,5,6), "Not death. You will not die.", "lo mot temutun: 'not death, you shall die-not'. The Hiss reverses the infinitive of 2:17. The English breaks it into a fragment and its negation."),
 ],
 "3:5": [
@@ -521,7 +521,7 @@ A = {
 ],
 "4:4": [
  ((0,1,2,3,4,5,6), "And Hevel too: from the firstborn of his flock, from their fat,", "vehevel hevi gam hu mibekhorot tzono umechelbehen: 'and Hevel, he too brought from the firstborn of his flock and from their fat'. 'Fat' for chelbehen, the richest portion."),
- ((7,8,9,10,11,12), "and YHWH fixed his eye on Hevel and his gift.", "vayyisha' YHWH el hevel ve'el minchato: 'and YHWH looked to Hevel and to his offering'. 'Fixed his eye' is the physical stretch of sha'a (gaze)."),
+ ((7,8,9,10,11,12), "and YHWH looked on Hevel and on his gift.", "vayyisha' YHWH el hevel ve'el minchato: 'and YHWH looked to Hevel and to his offering'. 'Fixed his eye' is the physical stretch of sha'a (gaze)."),
 ],
 "4:5": [
  ((0,1,2,3,4,5), "But to Qayin and his gift he did not look.", "ve'el qayin ve'el minchato lo sha'ah: 'but to Qayin and to his offering he did not look'."),

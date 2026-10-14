@@ -16,7 +16,7 @@
 
 T = [
 ("1:1",
- ["At the head of the head, Elohim began to hack:",
+ ["At the head of the head, Elohim began to cut:",
   "the sky, the hammered bowl—",
   "the ground, the red, the raw meat under it."],
  "Re'shit (רֵאשִׁית) is a construct: 'at the head of' or 'in the beginning of'. Read as a temporal clause, the verse becomes subordinate: the making is an event, not a fact. 'Elohim' is kept as a name: plural in form, singular in verb. Bara' (בָּרָא) is used of God in the Qal alone; its root is disputed, and 'to cut' is one proposal. 'Hack' is the register stretching that sense. 'The hammered bowl' answers raqia' (1:6). The particle 'et (אֵת) marks the object and is left untranslated in the English. 'The red' and 'the raw meat under it' are additions: 'erets is not adamah, and nothing in the verse says flesh. LXX: 'en archē epoiēsen ho theos', 'in beginning made God'; poiein replaces bara', and archē has no article."),
@@ -30,7 +30,7 @@ T = [
  "Tohu and bohu (תֹהוּ וָבֹהוּ): 'waste, emptiness'; a stammering pair, kept as a pair. 'A gape' and 'a mouth with nothing in it' stretch tohu toward the bodily. Tehom (תְּהוֹם), 'the deep', is compared by some to Tiamat; no etymology is established, and 'Deep' is capitalised as a force. Merachefet (מְרַחֶפֶת) is the participle of rachaf, used of a bird hovering over its young (Deut 32:11); the simile is an addition that presses that sense. Ruach (רוּחַ) is wind, breath, or spirit; 'Wind' is chosen. LXX adds 'invisible' (aoratos) and 'unfurnished' (akataskeuastos), neither in the Hebrew, and renders the deep as 'abyss'."),
 
 ("1:3",
- ["He howled: Be, light!",
+ ["He said: Be, light!",
   "And light tore out of the dark, a birth-cry, wet."],
  "Yehi or (יְהִי אוֹר): 'let there be light'. 'Howled', 'birth-cry', and 'wet' are stretches: the Hebrew has a plain imperative and a plain 'and it was'. LXX: 'let it become light' (genēthētō phōs), calmer."),
 
@@ -52,7 +52,7 @@ T = [
  "Raqia' (רָקִיעַ), from raqa', 'to beat out, spread thin'. 'Skin' and 'plate' keep the hammering; 'firmament' (Latin, 'support') drops it. Bein mayim lamayim is the ordinary idiom 'between water and water' (cf. Deut 17:8); nothing is odd about the lamed. LXX stereōma, 'firm thing'."),
 
 ("1:7",
- ["Elohim beat the skin out.",
+ ["Elohim made the skin.",
   "He split the waters: some under it, some over it.",
   "So. It held."],
  "Vayya'as (וַיַּעַשׂ), 'made': the verb moves from bara' to 'asah, the plain 'make'. Wayehi-ken (וַֽיְהִי־כֵן), 'and it became so'; 'So. It held.' is a stretch of ken, 'thus'."),
@@ -139,7 +139,7 @@ T = [
  "Yishretzu (יִשְׁרְצוּ), from sheretz: small things that teem and crawl. 'Seethe' stretches the teeming. Nefesh chayah (נֶפֶשׁ חַיָּה), 'living breath, living creature'. Nefesh is breath, throat, self; LXX psychē zōsa, 'living soul', puts the soul into the animal. Ye'opef (יְעוֹפֵף), a doubled verb of flying."),
 
 ("1:21",
- ["Elohim made the great serpents of the deep, the tanninim,",
+ ["Elohim cut the great serpents of the deep, the tanninim,",
   "and every breathing swarm the waters bred, after its kind,",
   "and every winged fowl, after its kind.",
   "He saw: good."],
@@ -179,10 +179,10 @@ T = [
  "Na'aseh (נַעֲשֶׂה), 'let us make': first person plural. Readings include a divine council, a royal 'we', and address to heavenly beings; none is secure. 'The red one' renders adam through adamah. Tselem (צֶלֶם), 'image': from a root some link to 'shade' or 'cut'. Demut (דְּמוּת), 'likeness'. Yirdu (יִרְדּוּ), from radah: 'tread down, trample, rule'. LXX poiēsōmen, 'let us make', with hēmeteran, 'ours'."),
 
 ("1:27",
- ["Elohim gouged the human out of the red",
+ ["Elohim cut the human out of the red",
   "into a shadow of himself—",
-  "into the shadow of Elohim he gouged him—",
-  "male and female he gouged them."],
+  "into the shadow of Elohim he cut him—",
+  "male and female he cut them."],
  "Bara' (בָּרָא) occurs three times here; 'gouged' keeps the striking. LXX epoiēsen, 'made', three times: the threefold verb is flattened. Tselem recurs. The pronoun 'his' can refer to God or to the human; the Hebrew holds both."),
 
 ("1:28",
@@ -386,7 +386,7 @@ T = [
  "'Do not touch it' is not in 2:17. The woman adds a prohibition. Pen-tmutun (פֶּן־תְּמֻתוּן): 'lest you become dead'. The LXX has the same addition (mēde hapsēsthe), so the addition is already in the Hebrew narrative as the woman's own speech; the Greek agrees."),
 
 ("3:4",
- ["The Hiss hissed at the woman:",
+ ["The Hiss said to the woman:",
   "Not death. You will not die."],
  "Lo mot temutun (לֹא־מוֹת תְּמֻתוּן): 'not death, you shall die-not'. The Hiss reverses the infinitive of 2:17. LXX ou thanatō apothaneisthe."),
 
@@ -529,7 +529,7 @@ T = [
 
 ("4:4",
  ["And Hevel too: from the firstborn of his flock, from their fat,",
-  "and YHWH fixed his eye on Hevel and his gift."],
+  "and YHWH looked on Hevel and on his gift."],
  "Bekhorot (בְּכֹרוֹת), 'firstborn'. Chelbehen (חֶלְבֵהֶן): 'their fat', the richest portion. Vayisha' (וַיִּשַׁע): 'looked, regarded'. LXX epeiden, 'looked upon'."),
 
 ("4:5",
