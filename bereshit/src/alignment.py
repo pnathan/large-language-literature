@@ -57,7 +57,7 @@ A = {
  ((2, 3), '', "shamayim: folk sound-play 'sham-mayim'; not in the text, marked."),
  ((4, 5), 'Evening.', 'vayehi erev.'),
  ((6, 7), 'Morning.', 'vayehi boqer.'),
- ((8, 9), 'The second day.', "yom sheni: 'day second'."),
+ ((8, 9), 'A second day.', "yom sheni: 'day second'."),
 ],
 '1:9': [
  ((0, 1, 2, 3), 'Divinity said: let the waters under the sky be gathered into one place,', "vayomer elohim yiqqavu hamayim: 'let the waters gather'. 'Gather' is the physical head term for qavah's gathering."),
@@ -89,7 +89,7 @@ A = {
 '1:13': [
  ((0, 1), 'Evening.', 'vayehi erev.'),
  ((2, 3), 'Morning.', 'vayehi boqer.'),
- ((4, 5), 'The third day.', "yom shelishi: 'day third'."),
+ ((4, 5), 'A third day.', "yom shelishi: 'day third'."),
 ],
 '1:14': [
  ((0, 1, 2, 3, 4, 5), 'Divinity said: let there be lamps in בִּרְקִ֣יעַ,', "vayomer elohim yehi me'orot birqia' hashamayim: 'let there be lights in the firmament of the heavens'. 'Fire-holders' is the compound for 'or (light, fire)."),
@@ -121,7 +121,7 @@ A = {
 '1:19': [
  ((0, 1), 'Evening.', 'vayehi erev.'),
  ((2, 3), 'Morning.', 'vayehi boqer.'),
- ((4, 5), 'The fourth day.', "yom revi'i."),
+ ((4, 5), 'A fourth day.', "yom revi'i."),
 ],
 '1:20': [
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
@@ -149,7 +149,7 @@ A = {
 '1:23': [
  ((0, 1), 'Evening.', 'vayehi erev.'),
  ((2, 3), 'Morning.', 'vayehi boqer.'),
- ((4, 5), 'The fifth day.', 'yom chamishi.'),
+ ((4, 5), 'A fifth day.', 'yom chamishi.'),
 ],
 '1:24': [
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
@@ -337,7 +337,7 @@ A = {
 '2:21': [
  ((0, 1, 2, 3, 4, 5, 6), 'The Lord Divinity threw a heavy sleep on the human,', "wayyappel the Lord elohim tardemah al ha'adam: 'caused a deep sleep to fall on the human'. 'Threw' is the physical stretch of hapil. 'Like a stone' is an addition, marked; threw is the physical head of hapil."),
  ((7,), 'and he slept.', "wayyishan: 'and he slept'."),
- ((8, 9, 10), 'Divinity took one of his מִצַּלְעֹתָ֔יו', "vayyiqqach achat mitzal'otav: 'took one of his sides'. 'Ribs' is the body stretch of tsela' (side or rib)."),
+ ((8, 9, 10), 'Divinity took one of מִצַּלְעֹתָ֔יו', "vayyiqqach achat mitzal'otav: 'took one of his sides'. 'Ribs' is the body stretch of tsela' (side or rib)."),
  ((11, 12, 13), 'and shut the בָּשָׂ֖ר over the place.', "vayyisgor basar tachtennah: 'and shut the flesh over its place'. 'Meat' is the body stretch of basar."),
 ],
 '2:22': [
@@ -347,7 +347,7 @@ A = {
 ],
 '2:23': [
  ((0, 1, 2, 3), 'The human said: This time—at last—', "wayomer ha'adam zot hapa'am: 'and the human said, this time'. 'Barked' is the body stretch of 'said'."),
- ((4, 5, 6, 7), 'bone out of my bones, וּבָשָׂ֖ר out of my מִבְּשָׂרִ֑י!', "etzem me'atzamai uvasar mibesari: 'bone from my bones and flesh from my flesh'. 'Out of' and 'meat' are body stretches of the literal."),
+ ((4, 5, 6, 7), 'bone out of my bones, וּבָשָׂ֖ר out of מִבְּשָׂרִ֑י!', "etzem me'atzamai uvasar mibesari: 'bone from my bones and flesh from my flesh'. 'Out of' and 'meat' are body stretches of the literal."),
  ((8, 9, 10), 'This one shall be called Ishah,', "lezot yiqqare' ishah: 'this one shall be called Ishah'. Ishah is kept for the pun."),
  ((11, 12, 13, 14), 'for from Ish she was taken.', "ki me'ish luqchah zot: 'for from Ish she was taken'. Ish is kept for the pun."),
 ],
