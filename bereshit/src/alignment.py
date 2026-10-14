@@ -227,8 +227,8 @@ A = {
  ((0, 1, 2, 3, 4, 5), 'Divinity saw all he had made—', "vayar elohim et kol asher asah: head terms 'saw', 'made'."),
  ((6, 7), 'and look:', 'vehinneh tov.'),
  ((8,), 'very good.', "me'od: 'exceedingly'. 'Very' is the plain English."),
- ((9, 10, 11, 12), 'Evening. Morning:', 'vayehi erev vayehi boqer.'),
- ((13, 14), 'the sixth day.', 'yom hashishi.'),
+ ((9, 10, 11, 12), 'Evening came. Morning came.', 'vayehi erev vayehi boqer.'),
+ ((13, 14), 'The sixth day.', 'yom hashishi.'),
 ],
 '2:1': [
  ((0, 1, 2), 'Heavens and ground were finished,', "vayekhullu hashamayim vehaaretz: 'were finished'. Finished, done, spent."),
