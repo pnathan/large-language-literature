@@ -6,16 +6,16 @@
 
 A = {
 '1:1': [
- ((0,), 'At the head of the head,', "bereshit: 'at the head of'. The doubled head keeps the construct."),
+ ((0,), 'At the start of it,', "bereshit: 'at the head of'. The doubled head keeps the construct."),
  ((1, 2), 'Elohim began to cut, as a blade goes into meat:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note). 'As a blade goes into meat' is an addition, marked; the head term is 'cut'."),
  ((3, 4), 'the sky, the beaten bowl—', "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
  ((5, 6), 'the ground, the dirt under it.', "ve'et ha'arets: 'and the ground'. 'The dirt under it' is the physical gloss; the Hebrew says only 'the ground'."),
 ],
 '1:2': [
  ((0, 1), 'The ground was', "veha'arets hayetah: 'and the ground was'."),
- ((2,), 'a gape, a wasting.', "tohu: 'waste, emptiness'. 'Gape' is the physical stretch."),
+ ((2,), 'a hole, a waste.', "tohu: 'waste, emptiness'. 'Gape' is the physical stretch."),
  ((3,), 'A mouth with nothing in it.', "vavohu: 'and emptiness'. The second image is the physical stretch of the pair."),
- ((4, 5, 6, 7), 'Dark coiled on the lip of the deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
+ ((4, 5, 6, 7), 'Dark lay on the edge of the deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
  ((8, 9), 'And the wind of Elohim—', "veruach elohim: 'and the wind of God'. Wind is the head term for ruach (lexicon.md)."),
  ((10,), 'a bird that flutters over its young—', "merachefet: fluttering, the root of Deut 32:11's eagle over its young."),
  ((11, 12, 13), 'beat over the belly of the waters, shuddering.', "'al penei hamayim: 'over the face of the waters'. 'Belly' for penei is the physical stretch, marked. 'Shuddering' is an addition, marked: merachefet carries the motion."),
@@ -39,7 +39,7 @@ A = {
 ],
 '1:6': [
  ((0, 1), 'He said:', 'vayomer elohim.'),
- ((2, 3), 'Beat out a plate, a skin of hammered stuff,', "yehi raqia': 'let there be a firmament'. 'Beat out' is the physical stretch of raqa' (to beat thin); 'plate' and 'skin' keep the hammered object."),
+ ((2, 3), 'Beat out a plate, a skin of beaten stuff,', "yehi raqia': 'let there be a firmament'. 'Beat out' is the physical stretch of raqa' (to beat thin); 'plate' and 'skin' keep the hammered object."),
  ((4, 5), 'in the belly of the waters:', "betokh hamayim: 'in the midst of the waters'. 'Belly' is the physical stretch of betokh."),
  ((6, 7), 'a splitter—', "vihi mavdil: 'and let there be a separator'. 'A wall' is not in the Hebrew and is removed."),
  ((8, 9, 10), 'water from water.', "bein mayim lamayim: 'between water and water'. The idiom bein X lamayim is ordinary (cf. Deut 17:8)."),
@@ -70,7 +70,7 @@ A = {
 ],
 '1:10': [
  ((0, 1, 2, 3, 4), 'He named the dry Ground.', "vayiqra elohim layabbashah erets: 'called the dry land ground'. Head term for 'erets is 'ground' (lexicon.md); a named land is capitalised."),
- ((5, 6, 7, 8), 'The pooling, the waiting-hollow, he named Seas.', "ulmiqveh hamayim qara yammim: 'the gathering of the waters he called seas'."),
+ ((5, 6, 7, 8), 'The pool, the waiting-place, he named Seas.', "ulmiqveh hamayim qara yammim: 'the gathering of the waters he called seas'."),
  ((9, 10, 11, 12), 'He saw: good.', 'vayar elohim ki tov.'),
 ],
 '1:11': [
@@ -92,7 +92,7 @@ A = {
  ((4, 5), 'The third day.', "yom shelishi: 'day third'."),
 ],
 '1:14': [
- ((0, 1, 2, 3, 4, 5), 'He said: let there be fire-holders in the hammered sky,', "vayomer elohim yehi me'orot birqia' hashamayim: 'let there be lights in the firmament of the heavens'. 'Fire-holders' is the compound for 'or (light, fire)."),
+ ((0, 1, 2, 3, 4, 5), 'He said: let there be fire-holders in the beaten sky,', "vayomer elohim yehi me'orot birqia' hashamayim: 'let there be lights in the firmament of the heavens'. 'Fire-holders' is the compound for 'or (light, fire)."),
  ((6, 7, 8, 9, 10), 'cleaving day from night.', "lehavdil bein hayom uvein halaylah: 'to separate between the day and the night'. 'Cleaving' is the physical stretch of badal."),
  ((11, 12), 'Let them be marks', "vehayu le'otot: 'and let them be for signs'. 'Marks' is the physical English of 'ot."),
  ((13,), 'for the turns of the year,', "ulemo'adim: 'and for appointed times'. 'Turns of the year' is the stretch of mo'ed."),
@@ -110,7 +110,7 @@ A = {
  ((14, 15, 16, 17), 'and the stars.', "ve'et hakokhavim."),
 ],
 '1:17': [
- ((0, 1, 2, 3, 4), 'He gave them a place in the hammered sky', "vayyiten otam elohim birqia' hashamayim: head term 'give' (lexicon.md). 'A place' is added to make give fit the sky."),
+ ((0, 1, 2, 3, 4), 'He gave them a place in the beaten sky', "vayyiten otam elohim birqia' hashamayim: head term 'give' (lexicon.md). 'A place' is added to make give fit the sky."),
  ((5, 6, 7), 'to pour light on the ground.', "lehe'ir al ha'arets."),
 ],
 '1:18': [
@@ -129,7 +129,7 @@ A = {
  ((6,), '', 'chayah: carried above.'),
  ((7, 8), 'and let fliers flutter', "veof yeofef: 'and bird flying'. The doubled verb of flight."),
  ((9, 10), 'over the ground,', "'al ha'arets: 'over the ground'."),
- ((11, 12, 13, 14), 'across the face of the hammered sky.', "'al penei raqia' hashamayim: 'over the face of the firmament of the heavens'. 'Across' is the English stretch of 'al."),
+ ((11, 12, 13, 14), 'across the face of the beaten sky.', "'al penei raqia' hashamayim: 'over the face of the firmament of the heavens'. 'Across' is the English stretch of 'al."),
 ],
 '1:21': [
  ((0, 1, 2, 3, 4), 'Elohim cut the great serpents of the deep, the tanninim,', "vayivra' elohim et hattanninim hagedolim: head term 'cut'. 'Of the deep' is an addition linking to 1:2's Deep, marked."),
@@ -275,13 +275,13 @@ A = {
  ((6, 7, 8, 9, 10, 11), 'and set there the human he had shaped.', "wayyasem sham et ha'adam asher yatzar: 'and set there the human he had potted'."),
 ],
 '2:9': [
- ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'From the red he made spring every tree to covet with the eyes,', "wayyatzmach YHWH elohim min ha'adamah kol ets nekhmad lemar'eh: 'made spring every tree desirable to see'. 'Covet' is the body stretch of chamad."),
+ ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'From the red he made spring every tree to want with the eyes,', "wayyatzmach YHWH elohim min ha'adamah kol ets nekhmad lemar'eh: 'made spring every tree desirable to see'. 'Covet' is the body stretch of chamad."),
  ((9, 10), 'sweet on the tongue;', "vetov lema'akhal: 'good for food'. 'Sweet' and 'mouth' are body stretches of tov and eating. 'On the tongue' is the physical stretch of 'to the mouth'."),
  ((11, 12, 13, 14), "the tree of lives in the middle of the garden,", "ve'ets hachayyim betokh hagan: 'the tree of lives in the middle of the garden'."),
  ((15, 16, 17, 18), 'and the tree of knowing good and harm.', "ve'ets hada'at tov vara': 'the tree of knowing good and harm'."),
 ],
 '2:10': [
- ((0, 1, 2, 3, 4, 5), 'A river came out of delight to water the garden;', "venahar yotze me'eden lehashqot et hagan: 'a river went out of Eden to water the garden'."),
+ ((0, 1, 2, 3, 4, 5), 'A river came out of Eden to water the garden;', "venahar yotze me'eden lehashqot et hagan: 'a river went out of Eden to water the garden'."),
  ((6, 7), 'from there it split', "umisham yipared: 'and from there it divides'. 'Split' is the body stretch of parad."),
  ((8, 9, 10), 'and became four heads.', "vehayah le'arba'ah rashim: 'and it became four heads'."),
 ],
@@ -510,7 +510,7 @@ A = {
 ],
 '4:5': [
  ((0, 1, 2, 3, 4, 5), 'But to Qayin and his gift he did not look.', "ve'el qayin ve'el minchato lo sha'ah."),
- ((6, 7, 8, 9, 10), 'Qayin burned, burned exceedingly, and his face fell.', "vayyichar leqayin me'od vayyippelu panav."),
+ ((6, 7, 8, 9, 10), 'Qayin burned, burned hard, and his face fell.', "vayyichar leqayin me'od vayyippelu panav."),
 ],
 '4:6': [
  ((0, 1, 2, 3), 'YHWH said to Qayin:', 'vayomer YHWH el qayin.'),
