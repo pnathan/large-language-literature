@@ -361,7 +361,7 @@ A = {
  ((5, 6), 'and they were not ashamed.', "velo yitboshashu: 'and were not ashamed'."),
 ],
 '3:1': [
- ((0, 1, 2), 'The serpent was shrewder than', "hanachash hayah arum: 'the serpent was crafty'. 'Arum' carries crafty and bare (2:25)."),
+ ((0, 1, 2), 'The serpent was craftier than', "hanachash hayah arum: 'the serpent was crafty'. 'Arum' carries crafty and bare (2:25)."),
  ((3, 4, 5), 'any beast of the field', 'mikol chayat hasadeh.'),
  ((6, 7, 8, 9), 'the Lord God had made.', "asher 'asah the Lord elohim: 'which the Lord God made'."),
  ((10, 11, 12), 'It said to the woman:', "vayomer el ha'ishah: 'said to the woman'."),
@@ -422,7 +422,7 @@ A = {
  ((7, 8, 9, 10, 11, 12, 13, 14), 'Did you eat from the tree I charged you not to eat from?', "hamin ha'ets asher tsiviti'kha livlti akhol mimmenu akhalta: 'from the tree I charged you not to eat, did you eat?'."),
 ],
 '3:12': [
- ((0, 1, 2, 3, 4, 5), 'The human said: The woman you gave with me—', "vayomer ha'adam ha'ishah asher natatta immadi."),
+ ((0, 1, 2, 3, 4, 5), 'The human said: The woman you gave to be with me—', "vayomer ha'adam ha'ishah asher natatta immadi."),
  ((6, 7, 8, 9, 10, 11), 'she gave me from the tree, and I ate.', "hi natenah li min ha'ets va'okhel. Head term 'give'."),
 ],
 '3:13': [
@@ -433,7 +433,7 @@ A = {
  ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'The Lord God said to the serpent: Because you did this—', "vayomer the Lord elohim el hanachash ki 'asita zot."),
  ((9, 10, 11, 12), 'cursed are you, out of all the cattle,', "'arur atah mikol habehemah."),
  ((13, 14, 15), 'and out of every beast of the field.', 'umikol chayat hasadeh.'),
- ((16, 17, 18), 'On your gut you will go,', "al gechonkha telekh: 'on your belly you shall walk'. 'Gut' and 'go' are the body stretches."),
+ ((16, 17, 18), 'On your belly you will go,', "al gechonkha telekh: 'on your belly you shall walk'. 'Gut' and 'go' are the body stretches."),
  ((19, 20, 21, 22, 23), 'and dust you will eat all the days of your life.', 'vafar tokhal kol yemei chayyekha.'),
 ],
 '3:15': [
@@ -520,7 +520,7 @@ A = {
 '4:7': [
  ((0, 1, 2, 3), 'If you do well, is there not a lifting?', "halo im teitiv se'et: 'of the face' is added (4:7 note)."),
  ((4, 5, 6, 7, 8, 9), 'If you do not do well, at the door a sin crouches—', 'veim lo teitiv lappetach chattat rovets.'),
- ((10, 11, 12, 13, 14), 'its craving is for you; but you will rule it.', "ve'elekha teshuqato ve'attah timshol bo."),
+ ((10, 11, 12, 13, 14), 'its thirst is toward you; but you will rule it.', "ve'elekha teshuqato ve'attah timshol bo."),
 ],
 '4:8': [
  ((0, 1, 2, 3, 4), 'Qayin said to Hevel his brother—', "vayomer qayin el hevel achiv: the Hebrew gives no words; the dash is the English's."),
