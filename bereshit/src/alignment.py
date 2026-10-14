@@ -418,7 +418,7 @@ A = {
  ((5, 6, 7, 8, 9), 'I shook, for I am bare, and I hid.', "va'ira ki eirom anokhi va'ei'chaveh. 'Shook' is the body stretch of ira."),
 ],
 '3:11': [
- ((0, 1, 2, 3, 4, 5, 6), 'Divinity said: Who told you you were bare?', 'vayomer mi higgid lekha ki eirom atah.'),
+ ((0, 1, 2, 3, 4, 5, 6), 'He said: Who told you you were bare?', 'vayomer mi higgid lekha ki eirom atah.'),
  ((7, 8, 9, 10, 11, 12, 13, 14), 'Did you eat from the tree I charged you not to eat from?', "hamin ha'ets asher tsiviti'kha livlti akhol mimmenu akhalta: 'from the tree I charged you not to eat, did you eat?'."),
 ],
 '3:12': [
@@ -440,7 +440,7 @@ A = {
  ((0, 1, 2), 'Hatred I will set', "ve'eivah ashit: 'enmity I will set'."),
  ((3, 4, 5), 'between you and the woman,', "beinkha uvein ha'ishah."),
  ((6, 7, 8, 9), 'between your seed and her seed:', "uvein zar'akha uvein zar'ah."),
- ((10, 11, 12), 'he—it—will snap at your head;', "hu yeshufkha rosh: 'it will snap at you on the head'. One English verb for shuf."),
+ ((10, 11, 12), 'he will snap at your head;', "hu yeshufkha rosh: 'it will snap at you on the head'. One English verb for shuf."),
  ((13, 14, 15), 'you will snap at its heel.', "ve'atah teshufenu akev: 'you will snap at it on the heel'."),
 ],
 '3:16': [
@@ -453,7 +453,7 @@ A = {
  ((0, 1, 2, 3, 4, 5), "To the human he said: Because you listened to your woman's voice", "ule'adam amar ki shama'ta lekol ishtekha."),
  ((6, 7, 8, 9, 10, 11, 12, 13, 14), "and ate from the tree I charged you about—'do not eat from it'—", "vatokhal min ha'ets asher tsiviti'kha lemor lo tokhal mimmenu."),
  ((15, 16, 17), 'cursed is the red earth because of you.', "arurah ha'adamah ba'avurekha: 'cursed is the ground because of you'."),
- ((18, 19, 20, 21, 22), 'In pain you will eat from it all the days of your life.', "be'itstsavon tokhelenah kol yemei chayyekha."),
+ ((18, 19, 20, 21, 22), 'In pain you will eat it all the days of your life.', "be'itstsavon tokhelenah kol yemei chayyekha."),
 ],
 '3:18': [
  ((0, 1, 2, 3), 'Thorn and thistle it will sprout for you;', "vekotz vedardar tatzmiach lakh. 'Push up' is the physical stretch of tatzmiach."),
