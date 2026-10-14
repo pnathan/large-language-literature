@@ -15,6 +15,8 @@ OUT = ROOT / "docs" / "bereshit" / "index.html"
 
 sys.path.insert(0, str(HERE))
 from translation import T  # noqa: E402
+from alignment import A  # noqa: E402
+import re  # noqa: E402
 
 heb = json.loads((HERE / "witness-hebrew.json").read_text(encoding="utf-8"))["verses"]
 lxx = json.loads((HERE / "witness-lxx.json").read_text(encoding="utf-8"))["verses"]
@@ -22,6 +24,12 @@ lxx = json.loads((HERE / "witness-lxx.json").read_text(encoding="utf-8"))["verse
 
 def esc(s):
     return html.escape(s, quote=False)
+
+
+def tokenise(ref):
+    """Hebrew tokens for a verse: split on spaces and maqqef, drop sof pasuq and markers."""
+    v = heb[ref].replace("\u05c3", "").replace("{פ}", "").replace("{ס}", "")
+    return [t for t in re.split(r"[\s\u05BE]+", v) if t.strip()]
 
 
 def chapter_of(ref):
@@ -78,6 +86,15 @@ h2.ch{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:c
   'Times New Roman',serif;font-size:1.05rem;line-height:1.9;color:var(--hebrew);margin-bottom:10px;
   unicode-bidi:isolate}
 .cm p{margin:0}
+.cm details{margin-top:12px;border-top:1px solid var(--rule);padding-top:10px}
+.cm summary{cursor:pointer;font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.cm table{width:100%;border-collapse:collapse;margin-top:10px;font-size:.8rem}
+.cm th{text-align:left;font-weight:500;color:var(--text-light);font-size:.68rem;letter-spacing:.06em;
+  text-transform:uppercase;border-bottom:1px solid var(--rule);padding:4px 6px}
+.cm td{vertical-align:top;padding:5px 6px;border-bottom:1px solid var(--rule)}
+.cm td.h{direction:rtl;text-align:right;font-family:'SBL Hebrew','Ezra SIL','Noto Serif Hebrew','Times New Roman',serif;
+  font-size:.95rem;color:var(--hebrew);white-space:nowrap}
+.cm td.e{font-family:'Cormorant Garamond',Georgia,serif;font-size:1rem;color:var(--text)}
 @media(min-width:1000px){
   .head{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.8fr) minmax(0,1.3fr);gap:28px;
     padding:10px 0 6px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-light);
@@ -92,6 +109,22 @@ footer a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--
 """
 
 
+def render_align(ref):
+    toks = tokenise(ref)
+    rows = []
+    for idx, en, why in A[ref]:
+        hebtxt = " ".join(toks[i] for i in idx) if idx else "\u2014"
+        rows.append(
+            f'<tr><td class="h">{esc(hebtxt)}</td><td class="e">{esc(en) or "&nbsp;"}</td>'
+            f'<td>{esc(why)}</td></tr>'
+        )
+    return (
+        '<details><summary>Word by word</summary><table><thead><tr>'
+        '<th>Hebrew</th><th>English</th><th>Why</th></tr></thead><tbody>'
+        + "".join(rows) + '</tbody></table></details>'
+    )
+
+
 def render_row(ref, lines, note):
     hebrew = heb[ref]
     greek = lxx[ref]["greek"]
@@ -103,6 +136,7 @@ def render_row(ref, lines, note):
         f'  <div class="cm">\n'
         f'    <div class="heb" lang="he">{esc(hebrew)}</div>\n'
         f'    <p>{esc(note)}</p>\n'
+        f'    {render_align(ref)}\n'
         f'  </div>\n'
         f'</article>'
     )

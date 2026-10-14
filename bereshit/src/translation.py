@@ -145,7 +145,7 @@ T = [
  "Tanninim (תַּנִּינִם), 'sea-serpents, great monsters': the creature-word of older chaos-myths (Ps 74:13). The verb is bara' again: the old monsters are made, not slain. Commentators have often noted the absence of combat."),
 
 ("1:22",
- ["He blessed them: Burst! Split! Swarm!",
+ ["He blessed them: Burst! Swarm!",
   "Fill the seas!",
   "Let the fliers breed on the earth."],
  "Wayevarekh (וַיְבָרֶךְ): 'blessed'. The root barak is often linked to 'knee' (berekh), a link debated. Peru (פְּרוּ), from parah: 'break out, bear fruit'. Rivu (רְבוּ), from rabah: 'become a crowd'. LXX gives three verbs of growth; 'burst' is lost there."),
@@ -185,7 +185,7 @@ T = [
  "Bara' (בָּרָא) occurs three times here; 'gouged' keeps the striking. LXX epoiēsen, 'made', three times: the threefold verb is flattened. Tselem recurs. The pronoun 'his' can refer to God or to the human; the Hebrew holds both."),
 
 ("1:28",
- ["He blessed them. He said: Burst, split, fill the earth;",
+ ["He blessed them. He said: Burst, swarm, fill the earth;",
   "trample it like cloth in the washing-pit;",
   "tread the fish, the fowl,",
   "every crawler that crawls on the ground."],
