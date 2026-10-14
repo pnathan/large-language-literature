@@ -47,7 +47,7 @@ T = [
 
 ("1:6",
  ["He said: beat out a plate, a skin of hammered stuff,",
-  "in the belly of the waters: a wall, a splitter—",
+  "in the belly of the waters: a splitter—",
   "water from water."],
  "Raqia' (רָקִיעַ), from raqa', 'to beat out, spread thin'. 'Skin' and 'plate' keep the hammering; 'firmament' (Latin, 'support') drops it. Bein mayim lamayim is the ordinary idiom 'between water and water' (cf. Deut 17:8); nothing is odd about the lamed. LXX stereōma, 'firm thing'."),
 
@@ -172,7 +172,7 @@ T = [
 
 ("1:26",
  ["He said: we will make the human, the red one,",
-  "in our image, after our likeness.",
+  "in our image, as our likeness.",
   "Let them tread down the fish of the sea,",
   "the fowl of the sky, the cattle,",
   "the whole ground, every crawler that crawls."],
