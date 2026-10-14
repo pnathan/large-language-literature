@@ -7,23 +7,23 @@
 A = {
 '1:1': [
  ((0,), 'At the start,', "bereshit: 'at the head of'. The doubled head keeps the construct."),
- ((1, 2), 'Divinity cut:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note). 'As a blade goes into meat' is an addition, marked; the head term is 'cut'."),
- ((3, 4), 'the heavens,', "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
- ((5, 6), 'and the ground.', "ve'et ha'arets: 'and the ground'. 'The dirt under it' is the physical gloss; the Hebrew says only 'the ground'."),
+ ((1, 2), 'Divinity cut:', "bara' 'elohim: head term 'cut' (lexicon.md). The LXX has poiēsen, 'made'; the head term is 'cut'."),
+ ((3, 4), 'the heavens,', "'et hashamayim: 'the heavens'. 'Et is not rendered."),
+ ((5, 6), 'and the ground.', "ve'et ha'arets: 'and the ground'. The Hebrew says only 'the ground'."),
 ],
 '1:2': [
  ((0, 1), 'The ground was', "veha'arets hayetah: 'and the ground was'."),
  ((2,), 'waste and void.', "tohu: 'waste, emptiness'. 'Waste and void' is the English for tohu and bohu."),
- ((3,), '', "vavohu: 'and emptiness'. The second image is the physical stretch of the pair."),
- ((4, 5, 6, 7), 'And dark was on the face of the deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
+ ((3,), '', "vavohu: 'and emptiness'. The pair is rendered by 'waste and void' at tohu."),
+ ((4, 5, 6, 7), 'And dark was on the face of the deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Al' is 'on'; penei is 'face'."),
  ((8, 9), 'And the wind of Divinity was', "veruach elohim: 'and the wind of Divinity'. Wind is the head term for ruach (lexicon.md)."),
  ((10,), 'fluttering over the face of the waters.', "merachefet: fluttering, the root of Deut 32:11's eagle over its young."),
- ((11, 12, 13), '', "'al penei hamayim: 'over the face of the waters'. 'Belly' for penei is the physical stretch, marked. 'Shuddering' is an addition, marked: merachefet carries the motion."),
+ ((11, 12, 13), '', "'al penei hamayim: 'over the face of the waters'. Rendered at 1:2 above."),
 ],
 '1:3': [
  ((0, 1), 'Divinity said:', "vayomer elohim: head term 'said'."),
  ((2, 3), 'Let light be!', "yehi or: 'let there be light'. Imperative with the subject after the verb."),
- ((4, 5), 'And there was light.', "vayehi or: 'and light was'. 'Came tearing up out of the dark' is a marked physical stretch of wayehi. 'Like a birth' is an addition, marked."),
+ ((4, 5), 'And there was light.', "vayehi or: 'and light was'. The English gives 'And there was light'."),
 ],
 '1:4': [
  ((0, 1, 2, 3), 'Divinity saw the light: good.', "vayar elohim et ha'or ki tov: head terms 'saw', 'good' (tov as fitness, not virtue)."),
