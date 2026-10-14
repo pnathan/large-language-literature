@@ -6,8 +6,8 @@
 
 A = {
 '1:1': [
- ((0,), 'At the start of it,', "bereshit: 'at the head of'. The doubled head keeps the construct."),
- ((1, 2), 'Divinity began to בָּרָ֣א:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note). 'As a blade goes into meat' is an addition, marked; the head term is 'cut'."),
+ ((0,), 'At the start,', "bereshit: 'at the head of'. The doubled head keeps the construct."),
+ ((1, 2), 'Divinity בָּרָ֣א:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note). 'As a blade goes into meat' is an addition, marked; the head term is 'cut'."),
  ((3, 4), 'the sky,', "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
  ((5, 6), 'and the ground.', "ve'et ha'arets: 'and the ground'. 'The dirt under it' is the physical gloss; the Hebrew says only 'the ground'."),
 ],
@@ -70,7 +70,7 @@ A = {
 ],
 '1:10': [
  ((0, 1, 2, 3, 4), 'Divinity named the dry Ground.', "vayiqra elohim layabbashah erets: 'called the dry land ground'. Head term for 'erets is 'ground' (lexicon.md); a named land is capitalised."),
- ((5, 6, 7, 8), 'The וּלְמִקְוֵ֥ה of the waters he named Seas.', "ulmiqveh hamayim qara yammim: 'the gathering of the waters he called seas'."),
+ ((5, 6, 7, 8), 'The מִקְוֵ֥ה of the waters he named Seas.', "ulmiqveh hamayim qara yammim: 'the gathering of the waters he called seas'."),
  ((9, 10, 11, 12), 'Divinity saw: good.', 'vayar elohim ki tov.'),
 ],
 '1:11': [
@@ -105,8 +105,8 @@ A = {
 ],
 '1:16': [
  ((0, 1, 2, 3, 4, 5), 'Divinity made the two great lamps:', "vayya'as elohim et shenei hammme'orot hagedolim: 'made the two great lights'. 'Fires' is the stretch of me'orot."),
- ((6, 7, 8), 'the greater to rule the day,', "et hammaor hagadol lememshelet hayom: 'the greater light for the rule of the day'."),
- ((9, 10, 11, 12, 13), 'the lesser to rule the night,', "ve'et hammaor hakaton lememshelet halaylah."),
+ ((6, 7, 8), 'the great one to rule the day,', "et hammaor hagadol lememshelet hayom: 'the greater light for the rule of the day'."),
+ ((9, 10, 11, 12, 13), 'the small one to rule the night,', "ve'et hammaor hakaton lememshelet halaylah."),
  ((14, 15, 16, 17), 'and the stars.', "ve'et hakokhavim."),
 ],
 '1:17': [
@@ -267,7 +267,7 @@ A = {
 '2:7': [
  ((0, 1, 2, 3, 4, 5, 6, 7), 'The Lord Divinity potted the human out of the dust of the red earth,', "wayyitzer the Lord elohim et ha'adam afar min ha'adamah: 'formed the human, dust from the ground'. 'Potted' is the potter's stretch of yatzar."),
  ((8, 9, 10, 11), 'and blew into his nostrils the breath of lives;', "vayippach be'appav nishmat chayyim: 'breathed into his nostrils breath of lives'. 'Blew' is the physical stretch of nafach."),
- ((12, 13, 14, 15), 'and the human became a לְנֶ֥פֶשׁ חַיָּֽה.', "vayehi ha'adam lenefesh chayah: 'and the human became a living breath'. 'Throat' is the body stretch of nefesh."),
+ ((12, 13, 14, 15), 'and the human became נֶ֥פֶשׁ חַיָּֽה.', "vayehi ha'adam lenefesh chayah: 'and the human became a living breath'. 'Throat' is the body stretch of nefesh."),
 ],
 '2:8': [
  ((0, 1, 2, 3, 4), 'The Lord Divinity planted a garden in Eden,', "wayyitta the Lord elohim gan be'eden: 'planted a garden in Eden'. 'Delight' is the English reading of Eden."),
@@ -354,7 +354,7 @@ A = {
 '2:24': [
  ((0, 1, 2, 3, 4, 5, 6, 7), 'Therefore: a man leaves father and mother,', "al ken ya'azov ish et avav ve'et immo: 'therefore a man leaves his father and mother'. 'Therefore' marks the narrator stepping out."),
  ((8, 9), 'clings to his woman;', "vedavaq be'ishto: 'clings to his wife'. 'Glues himself' is the body stretch of davaq. 'Like mortar' is the comparison davaq makes available; marked as a stretch."),
- ((10, 11, 12), 'and they become one לְבָשָׂ֥ר.', "vehayu levasar ehad: 'and they shall be one flesh'."),
+ ((10, 11, 12), 'and they become one בָשָׂ֥ר.', "vehayu levasar ehad: 'and they shall be one flesh'."),
 ],
 '2:25': [
  ((0, 1, 2, 3, 4), 'Both bare, the human and his woman,', "vayihyu shneihem arumim ha'adam veishto: 'both were naked, the human and his wife'."),
@@ -386,7 +386,7 @@ A = {
 '3:5': [
  ((0, 1, 2), 'For Divinity knows:', "ki yodea' elohim: 'for Divinity knows'."),
  ((3, 4, 5, 6), 'the day you eat from it,', "ki beyom akhlekhem mimmenu: 'that on the day you eat from it'."),
- ((7, 8), 'your eyes will be וְנִפְקְח֖וּ,', "venifqechu einekhem: 'your eyes will be opened'. Paqach is 'open' here; b-d-l's 'split' is kept for the waters."),
+ ((7, 8), 'your eyes will נִפְקְח֖וּ,', "venifqechu einekhem: 'your eyes will be opened'. Paqach is 'open' here; b-d-l's 'split' is kept for the waters."),
  ((9, 10), 'and you will be like the divine ones,', "vihyitem ke'elohim: 'like gods'."),
  ((11, 12, 13), 'knowing good and harm.', "yodei' tov vara'."),
 ],
@@ -526,7 +526,7 @@ A = {
  ((0, 1, 2, 3, 4), 'Qayin spoke to Hevel his brother—', "vayomer qayin el hevel achiv: the Hebrew gives no words; the dash is the English's."),
  ((5, 6, 7), 'when they were in the field,', 'vayehi bihyotam basadeh.'),
  ((8, 9, 10, 11, 12), 'Qayin rose against Hevel his brother', 'vayyaqom qayin el hevel achiv.'),
- ((13,), 'and וַיַּהַרְגֵֽהוּ him.', "vayyahargehu: 'killed him'. 'Struck him dead' is the body word for harag. 'Struck him down, and he died' is the body word for harag plus the result."),
+ ((13,), 'and וַיַּהַרְגֵֽהוּ.', "vayyahargehu: 'killed him'. 'Struck him dead' is the body word for harag. 'Struck him down, and he died' is the body word for harag plus the result."),
 ],
 '4:9': [
  ((0, 1, 2, 3, 4, 5, 6), 'The Lord said to Qayin: Where is Hevel your brother?', 'vayomer the Lord el qayin ei hevel achikha.'),
@@ -554,7 +554,7 @@ A = {
  ((0, 1, 2, 3, 4, 5, 6), 'Look—you drive me out today from the face of the red earth.', "hen gerashta oti hayyom me'al penei ha'adamah."),
  ((7, 8), 'I will hide from your face;', 'umippanekha essater.'),
  ((9, 10, 11, 12), 'I will be a stumbler and a roamer on the ground,', "vehayiti na' vanad ba'arets."),
- ((13, 14, 15, 16), 'and whoever finds me will יַֽהַרְגֵֽנִי me.', "vehayah kol motz'i yahargeni."),
+ ((13, 14, 15, 16), 'and whoever finds me will יַֽהַרְגֵֽנִי.', "vehayah kol motz'i yahargeni."),
 ],
 '4:15': [
  ((0, 1, 2, 3), 'The Lord said to him: Therefore—', "vayomer lo the Lord lakhen: 'therefore' (the LXX reads 'not so')."),
