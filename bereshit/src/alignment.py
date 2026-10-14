@@ -674,140 +674,89 @@ A = {
 ],
 
 "4:1": [
- ((0,1,2,3,4), "Now the human knew Chavah his woman;", "vehaadam yada' et chavah ishto, 'and the human knew Eve his wife'. 'Knew' is yada'; the sexual sense is kept by the context (commentary)."),
- ((5,6), "she conceived and bore Qayin,", "vattaharr vattelad et qayin, 'and she conceived and bore Qayin'."),
- ((7,8), "", "et qayin, carried above."),
- ((9,), "and said:", "vattomer, 'and she said'."),
- ((10,11,12,13), "I have gotten a man—YHWH.", "qaniti ish et YHWH, 'I have gotten a man with YHWH'. 'Gotten' is the stretch of qanah (acquire, create). 'YHWH' as apposition is the reading kept; 'with YHWH' is the alternative."),
+ ((0,1,2,3,4), "Now the human knew Chavah his woman;", "vehaadam yada' et chavah ishto: 'and the human knew Eve his wife'. 'Knew' is yada', which also means intimate knowledge (the context here)."),
+ ((5,6,7,8,9), "she conceived and bore Qayin, and said:", "vattaharr vattelad et qayin vattomer: 'and she conceived and bore Qayin, and she said'."),
+ ((10,11,12,13), "I have gotten a man—YHWH.", "qaniti ish et YHWH: 'I have gotten a man, YHWH' (or 'with YHWH'). 'Gotten' is qanah (acquire); 'YHWH' as apposition is the reading kept."),
 ],
-
 "4:2": [
- ((0,1,2,3,4,5), "She bore again: his brother Hevel.", "vattosef lalledet et 'achiv et hevel, 'and she added to bear his brother, Hevel'. 'Bore again' is the English for tosef (add) with lalledet (to bear)."),
- ((6,7), "", "vayehi hevel, 'and Hevel was'. Carried into 'Hevel, herder'."),
- ((8,9), "Hevel, herder of flocks.", "ro'eh tzon, 'a shepherd of flocks'. 'Herder' is the plain English for ro'eh."),
- ((10,11,12,13), "Qayin, worker of the red.", "veqayin hayah oved adamah, 'and Qayin was a worker of the ground'. 'The red' for adamah."),
+ ((0,1,2,3,4,5), "She bore again: his brother Hevel.", "vattosef lalledet et achiv et hevel: 'she went on to bear his brother Hevel'. 'Bore again' is tosef (add) with the infinitive."),
+ ((6,7,8,9), "Hevel, herder of flocks.", "vayehi hevel ro'eh tzon: 'and Hevel was a herder of flocks'. 'Was' is carried by the appositive."),
+ ((10,11,12,13), "Qayin, worker of the red.", "veqayin hayah oved adamah: 'and Qayin was a worker of the ground'. 'Red' is the English for adamah (see 1:25)."),
 ],
-
 "4:3": [
- ((0,1,2), "At the end of days,", "vayehi miqqetz yamim, 'and it was at the end of days'. 'At the end' is miqqetz (from the cut-off)."),
- ((3,4,5,6), "Qayin brought from the fruit of the red", "vayyavi qayin mipri ha'adamah, 'and Qayin brought from the fruit of the ground'."),
- ((7,8), "a gift to YHWH.", "minchah layhvh, 'an offering to YHWH'. 'Gift' is the stretch of minchah (offering)."),
+ ((0,1,2), "At the end of days, miqqetz yamim,", "vayehi miqqetz yamim: 'and it was at the end of days'. 'At the end' for miqqetz (from the cut-off); the Hebrew phrase is kept beside it."),
+ ((3,4,5,6,7,8), "Qayin brought from the fruit of the red a gift to YHWH.", "vayyavi qayin mipri ha'adamah minchah layhvh: 'Qayin brought from the fruit of the ground an offering to YHWH'. 'Gift' is the stretch of minchah (offering)."),
 ],
-
 "4:4": [
- ((0,1,2,3), "And Hevel too:", "vehevel hevi gam hu, 'and Hevel too, he brought'."),
- ((4,5), "from the firstborn of his flock,", "mibekhorot tzono, 'from the firstborn of his flock'."),
- ((6,), "from their fat,", "umechelbehen, 'and from their fat'. The richest portion."),
- ((7,8), "and YHWH fixed his eye", "vayyisha' YHWH, 'and YHWH looked'. 'Fixed his eye' is the stretch of sha'a (gaze)."),
- ((9,10), "on Hevel", "el hevel, 'to Hevel'."),
- ((11,12), "and his gift.", "ve'el minchato, 'and to his offering'."),
+ ((0,1,2,3,4,5,6), "And Hevel too: from the firstborn of his flock, from their fat,", "vehevel hevi gam hu mibekhorot tzono umechelbehen: 'and Hevel, he too brought from the firstborn of his flock and from their fat'. 'Fat' for chelbehen, the richest portion."),
+ ((7,8,9,10,11,12), "and YHWH fixed his eye on Hevel and his gift.", "vayyisha' YHWH el hevel ve'el minchato: 'and YHWH looked to Hevel and to his offering'. 'Fixed his eye' is the physical stretch of sha'a (gaze)."),
 ],
-
 "4:5": [
- ((0,1,2,3), "But to Qayin and his gift he did not look.", "ve'el qayin ve'el minchato lo sha'ah, 'but to Qayin and to his offering he did not look'. 'Did not look' for lo sha'ah."),
- ((4,), "", "lo, carried above."),
- ((5,), "", "sha'ah, carried above."),
- ((6,7), "Qayin burned,", "vayyichar leqayin, 'and it burned for Qayin'. 'Burned' is the stretch of charah (be hot, angry)."),
- ((8,), "exceedingly,", "me'od, 'exceedingly'."),
- ((9,10), "and his face fell.", "vayyippelu panav, 'and his face fell'."),
+ ((0,1,2,3,4,5), "But to Qayin and his gift he did not look.", "ve'el qayin ve'el minchato lo sha'ah: 'but to Qayin and to his offering he did not look'."),
+ ((6,7,8,9,10), "Qayin burned, burned exceedingly, and his face fell.", "vayyichar leqayin me'od vayyippelu panav: 'it burned for Qayin exceedingly, and his face fell'. 'Burned' is the physical stretch of charah (heat, anger)."),
 ],
-
 "4:6": [
- ((0,1,2,3), "YHWH said to Qayin:", "vayomer YHWH el qayin, 'and YHWH said to Qayin'."),
- ((4,5), "Why do you burn?", "lamah charah lakh, 'why did it burn for you'. 'Do you burn' is the English for charah in the second person."),
- ((6,7,8,9), "Why has your face fallen?", "velamah nafelu panekha, 'and why has your face fallen'."),
+ ((0,1,2,3), "YHWH said to Qayin:", "vayomer YHWH el qayin: 'and YHWH said to Qayin'."),
+ ((4,5,6), "Why do you burn?", "lamah charah lakh: 'why has it burned for you'. 'Do you burn' is the English for the second person."),
+ ((7,8,9), "Why has your face fallen?", "velamah nafelu panekha: 'and why have your face fallen'."),
 ],
-
 "4:7": [
- ((0,1), "Is it not so?", "halo 'im, 'is it not so, if'. The English makes the interrogative a rhetorical 'not so'."),
- ((2,3), "If you do well,", "teitiv se'et, 'you will do well, a lifting'. 'If you do well' for 'im teitiv."),
- ((4,5,6), "a lifting of the face.", "veim lo teitiv, 'and if you do not do well'. Split into two lines; 'a lifting of the face' is se'et panim (see 4:7 commentary)."),
- ((7,8), "If you do not do well,", "lappetach chattat, 'at the door, sin'. The English keeps the conditional."),
- ((9,), "at the door a sin crouches—", "rovets, 'crouching'. 'Crouches' is the stretch of rovets (lying in wait)."),
- ((10,11), "its craving is for you;", "ve'elekha teshuqato, 'and toward you its craving'. 'Craving' keeps teshuqah from 3:16."),
- ((12,13,14), "but you, rule it.", "ve'attah timshol bo, 'and you, rule over it'. 'Rule it' is the imperative of the Hebrew future."),
+ ((0,1,2,3), "Is it not so? If you do well, a lifting of the face.", "halo im teitiv se'et: 'is it not so? if you do well, a lifting'. 'Of the face' is an addition: se'et panim is not in the verse (commentary on 4:7)."),
+ ((4,5,6,7,8,9), "If you do not do well, at the door a sin crouches—", "veim lo teitiv lappetach chattat rovets: 'and if you do not do well, at the door sin crouches'. 'Crouches' is the physical stretch of rovets (lying in wait)."),
+ ((10,11,12,13,14), "its craving is for you; but you, rule it.", "ve'elekha teshuqato ve'attah timshol bo: 'toward you its craving; and you, rule over it'. 'Craving' keeps teshuqah from 3:16."),
 ],
-
 "4:8": [
- ((0,1,2,3), "Qayin spoke to Hevel his brother—", "vayomer qayin el hevel 'achiv, 'and Qayin said to Hevel his brother'. The Hebrew gives no content: the dash is in the text."),
- ((4,5,6,7), "and it was, in the field,", "vayehi bihyotam basadeh, 'and it was, when they were in the field'."),
- ((8,9,10,11,12), "that Qayin reared on Hevel his brother", "vayyaqom qayin el hevel 'achiv, 'and Qayin rose up against Hevel his brother'. 'Reared on' is the stretch of qum (rise)."),
- ((13,), "and struck him dead.", "vayyahargehu, 'and killed him'. 'Struck him dead' is the register's word for harag."),
+ ((0,1,2,3,4), "Qayin spoke to Hevel his brother—", "vayomer qayin el hevel achiv: 'and Qayin said to Hevel his brother'. The Hebrew gives no content for the speech; the dash in the English stands for that absence."),
+ ((5,6,7), "and it was, in the field,", "vayehi bihyotam basadeh: 'and it was, when they were in the field'."),
+ ((8,9,10,11,12), "that Qayin reared on Hevel his brother", "vayyaqom qayin el hevel achiv: 'and Qayin rose up against Hevel his brother'. 'Reared on' is the physical stretch of qum (rise)."),
+ ((13,), "and struck him dead.", "vayyahargehu: 'and killed him'. Harag is a violent slaying; 'struck him dead' is the English's bodily word for it."),
 ],
-
 "4:9": [
- ((0,1,2,3), "YHWH said to Qayin: Where is Hevel your brother?", "vayomer YHWH el qayin ei hevel 'achikha, 'and YHWH said to Qayin, where is Hevel your brother'."),
- ((4,5,6), "", "ei hevel 'achikha, carried above."),
- ((7,8,9), "He said: I do not know.", "vayomer lo yada'ti, 'and he said: I did not know'."),
- ((10,11,12), "Am I the guard of my brother?", "hasomer achi anokhi, 'am I the keeper of my brother?'. 'Keeper' is shomer (see 2:15 'keep')."),
+ ((0,1,2,3,4,5,6), "YHWH said to Qayin: Where is Hevel your brother?", "vayomer YHWH el qayin ei hevel achikha: 'and YHWH said to Qayin, where is Hevel your brother'."),
+ ((7,8,9), "He said: I do not know.", "vayomer lo yada'ti: 'and he said, I do not know'."),
+ ((10,11,12), "Am I the guard of my brother?", "hashomer achi anokhi: 'am I the keeper of my brother?'. 'Guard' is the physical English for shomer, the verb of 2:15."),
 ],
-
 "4:10": [
- ((0,1,2), "He said: What have you done?", "vayomer mah 'asita, 'and he said: what did you do'."),
- ((3,4,5), "A voice—your brother's bloods—", "qol demei 'achikha, 'the voice of your brother's bloods'. The plural 'bloods' is kept (commentary)."),
- ((6,), "cries", "tso'aqim, 'crying out'."),
- ((7,8,9), "to me from the red.", "elai min ha'adamah, 'to me from the ground'."),
+ ((0,1,2), "He said: What have you done?", "vayomer mah 'asita: 'and he said, what did you do?'."),
+ ((3,4,5), "A voice—your brother's bloods—", "qol demei achikha: 'the voice of your brother's bloods'. 'Voice' was dropped in an earlier draft and is restored here."),
+ ((6,7,8,9), "cries to me from the red.", "tso'aqim elai min ha'adamah: 'crying out to me from the ground'. 'Cries' is the finite verb of the English; 'red' is adamah."),
 ],
-
 "4:11": [
- ((0,1,2), "Now: cursed are you", "ve'attah 'arur atah, 'and now cursed are you'."),
- ((3,4), "from the red,", "min ha'adamah, 'from the ground'."),
- ((5,6), "which gaped its mouth", "asher patzta 'et piha, 'which opened its mouth'. 'Gaped' is the stretch of patzah (open)."),
- ((7,8,9), "to take", "laqachat, 'to take'."),
- ((10,11,12), "your brother's bloods", "'et demei 'achikha, 'the bloods of your brother'."),
- ((13,), "from your hand.", "miyyadekha, 'from your hand'."),
+ ((0,1,2,3,4), "Now: cursed are you from the red,", "ve'attah arur atah min ha'adamah: 'and now cursed are you from the ground'."),
+ ((5,6,7,8,9,10,11,12,13), "which gaped its mouth to take your brother's bloods from your hand.", "asher patzta et piha laqachat et demei achikha miyyadekha: 'which opened its mouth to take your brother's bloods from your hand'. 'Gaped' is the physical stretch of patzah (open)."),
 ],
-
 "4:12": [
- ((0,1,2,3), "When you work the red,", "ki ta'avod 'et ha'adamah, 'when you work the ground'. 'Work' is the English of 'avod (serve, work)."),
- ((4,5,6,7,8), "it will no more give you its strength.", "lo tosef tet kocha lakh, 'it will not add to give its strength to you'. 'Add' is yasaf; 'its strength' is ko'ach."),
- ((9,10), "A reeler, a wanderer,", "na' vanad, 'staggering and wandering'. Two sounds of motion; 'reeler' and 'wanderer' are the English stretch."),
- ((11,12), "you will be on the earth.", "tihyeh ba'arets, 'you will be in the earth'."),
+ ((0,1,2,3,4,5,6,7,8), "When you work the red, it will no more give you its strength.", "ki ta'avod et ha'adamah lo tosef tet kocha lakh: 'when you work the ground, it will no longer give you its strength'. Yasaf with an infinitive is 'no longer'; 'add' is a misreading (corrected from an earlier draft)."),
+ ((9,10,11,12), "A reeler, a wanderer, you will be on the earth.", "na' vanad tihyeh ba'arets: 'a staggerer and a drifter you will be in the earth'. 'Reeler' and 'wanderer' are the physical stretch of two sounds of motion."),
 ],
-
 "4:13": [
- ((0,1,2,3), "Qayin said to YHWH:", "vayomer qayin el YHWH, 'and Qayin said to YHWH'."),
- ((4,5), "My twist is heavier", "gadol 'avoni, 'great is my guilt'. 'Greater' is the comparative English of gadol."),
- ((6,), "than I can lift,", "minnesso, 'from lifting/bearing'. 'Than I can bear' is the stretch: nasa' is carry and forgive."),
- ((), "too heavy to be lifted off me.", "Not a separate token: the second line repeats the Hebrew's double sense of nasa' (carry, forgive) in the English as 'lifted'. Addition marked; the commentary names the double sense."),
+ ((0,1,2,3,4,5,6), "Qayin said to YHWH: My twist is heavier than I can lift,", "vayomer qayin el YHWH gadol avoni minnesso: 'Qayin said to YHWH: my guilt is great, from bearing'. 'Twist' is the physical stretch of avon (guilt, twisted way); 'lift' carries nasa'."),
+ ((), "too heavy to be lifted off me.", "Not a separate token: the second line carries nasa's second sense, forgiveness ('lifted off me'). An addition, marked; the commentary on 4:13 names the double sense."),
 ],
-
 "4:14": [
- ((0,1,2), "Look—you drive me out today", "hen gerashta 'oti hayyom, 'look, you have driven me out today'. 'Drive' for garash (divorce, see 3:24)."),
- ((3,4,5,6), "from the face of the red.", "me'al penei ha'adamah, 'from upon the face of the ground'. 'The red' for adamah."),
- ((7,8,9), "I will hide from your face;", "umippanekha essater, 'and from your face I shall be hidden'."),
- ((10,11,12,13), "I shall be a reeler and wanderer on the earth,", "vehayiti na' vanad ba'arets, 'and I shall be staggering and wandering in the earth'."),
- ((14,15,16), "and whoever finds me will kill me.", "vehayah kol motz'i yahargeni, 'and whoever finds me will kill me'. 'Whoever' for kol; 'kill' is harag."),
+ ((0,1,2,3,4,5,6), "Look—you drive me out today from the face of the red.", "hen gerashta oti hayyom me'al penei ha'adamah: 'look, you drive me out today from upon the face of the ground'. Garash is 'drive out'."),
+ ((7,8), "I will hide from your face;", "umippanekha essater: 'and from your face I shall hide'."),
+ ((9,10,11,12), "I shall be a reeler and wanderer on the earth,", "vehayiti na' vanad ba'arets: 'and I shall be a staggerer and a drifter in the earth'."),
+ ((13,14,15,16), "and whoever finds me will kill me.", "vehayah kol motz'i yahargeni: 'and whoever finds me will kill me'."),
 ],
-
 "4:15": [
- ((0,1,2), "YHWH said to him:", "vayomer lo YHWH, 'and YHWH said to him'."),
- ((3,), "Not so—therefore—", "lakhen, 'therefore' (or 'not so', lo ken). Both readings are given: the dash lets the English reverse."),
- ((4,5,6,7,8), "whoever kills Qayin will be paid back sevenfold.", "kol horeg qayin shivatayim yukkam, 'whoever kills Qayin, sevenfold shall be avenged'. 'Paid back' for yukkam (avenged)."),
- ((9,10,11,12), "YHWH cut a mark into Qayin,", "vayyasem YHWH leqayin 'ot, 'and YHWH set for Qayin a sign'. 'Mark' is the stretch of ot (sign)."),
- ((13,14,15,16,17), "so no one who found him would hit him.", "levilti hakkot oto kol motz'o, 'lest anyone who found him strike him'. 'Strike' is the English for hakkot (to smite)."),
+ ((0,1,2,3), "YHWH said to him: Not so—therefore—", "vayomer lo YHWH lakhen: 'and YHWH said to him, therefore'. Lakhen reads 'therefore'; the LXX's 'not so' is a witness variant (commentary on 4:15)."),
+ ((4,5,6,7,8), "whoever kills Qayin will be paid back sevenfold.", "kol horeg qayin shivatayim yukkam: 'whoever kills Qayin, sevenfold shall be avenged'. 'Paid back' is the physical stretch of naqam (avenge)."),
+ ((9,10,11,12,13,14,15,16,17), "YHWH cut a mark into Qayin, so no one who found him would hit him.", "vayyasem YHWH leqayin ot levilti hakkot oto kol motz'o: 'and YHWH set for Qayin a sign, so that no one who found him would strike him'. 'Cut a mark into' is the physical stretch of sum (set); 'hit' is hakkot."),
 ],
-
 "4:16": [
- ((0,1,2,3), "Qayin went out from the face of YHWH", "vayyetze qayin millifnei YHWH, 'and Qayin went out from before YHWH'. 'Face' for lifnei (before)."),
- ((4,5), "and settled in the land of Nod—", "vayyeshev be'eretz nod, 'and he settled in the land of Nod'."),
- ((6,), "Wandering—", "nod, 'wandering'. The English glosses the name as the word it is; the pun is the reason."),
- ((7,8), "east of Eden.", "qidmat 'eden, 'east of Eden'."),
+ ((0,1,2,3), "Qayin went out from the face of YHWH", "vayyetze qayin millifnei YHWH: 'and Qayin went out from before YHWH'."),
+ ((4,5,6,7,8), "and settled in the land of Nod—Wandering—east of Eden.", "vayyeshev be'eretz nod qidmat eden: 'and he settled in the land of Nod, east of Eden'. 'Wandering' is the English gloss of the name Nod, from nad (4:14)."),
 ],
-
 "4:17": [
- ((0,1,2,3), "Qayin knew his woman;", "vayeda qayin et ishto, 'and Qayin knew his wife'. 'Knew' is yada' (see 4:1)."),
- ((4,5,6,7), "she conceived and bore Chanokh.", "vattaharr vattelad et chanokh, 'and she conceived and bore Enoch'."),
- ((8,9,10), "He was building a city,", "vayehi bonneh 'ir, 'and he was building a city'."),
- ((11,12,13), "and named the city", "vayiqra' shem ha'ir, 'and he called the name of the city'."),
- ((14,15,16), "after his son: Chanokh.", "kishem beno chanokh, 'after the name of his son, Chanokh'."),
+ ((0,1,2,3,4,5,6,7), "Qayin knew his woman; she conceived and bore Chanokh.", "vayeda qayin et ishto vattaharr vattelad et chanokh: 'Qayin knew his wife; she conceived and bore Enoch'."),
+ ((8,9,10,11,12,13,14,15,16), "He was building a city, and named the city after his son: Chanokh.", "vayehi bonneh ir vayiqra shem ha'ir kishem beno chanokh: 'and he was building a city, and called the name of the city after the name of his son, Enoch'."),
 ],
-
 "4:18": [
- ((0,1,2,3), "To Chanokh was born Irad;", "vayyiwwaled lechanokh et irad, 'there was born to Enoch Irad'. Passive niphal; 'was born' keeps it."),
- ((4,5,6,7), "Irad fathered Mechuyael;", "veirad yalad et mechuyael, 'and Irad fathered Mechuyael'. The English drops 'and'."),
- ((8,9,10,11), "Mechuyael fathered Methushael;", "umechiyael yalad et methushael, 'and Mechiyael fathered Methushael'. The Hebrew spells the name Mechuyael once and Mechiyael here; the English keeps the second spelling as given."),
- ((12,13,14,15), "Methushael fathered Lamech.", "umethushael yalad et lamech, 'and Methushael fathered Lamech'. The chain ends on Lamech."),
+ ((0,1,2,3), "To Chanokh was born Irad;", "vayyiwwaled lechanokh et irad: 'there was born to Enoch, Irad'. Passive; 'was born' keeps it."),
+ ((4,5,6,7), "Irad fathered Mechuyael;", "veirad yalad et mechuyael: 'and Irad fathered Mechuyael'."),
+ ((8,9,10,11), "Mechuyael fathered Methushael;", "umechiyael yalad et methushael: 'and Mechiyael fathered Methushael'. The Hebrew spells the name Mechuyael (4:18a) and Mechiyael (4:18b); the English keeps both as given."),
+ ((12,13,14,15), "Methushael fathered Lamech.", "umethushael yalad et lamech: 'and Methushael fathered Lamech'. The chain ends on Lamech."),
 ],
 
 }
