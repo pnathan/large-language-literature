@@ -8,15 +8,15 @@ A = {
 '1:1': [
  ((0,), 'At the head of the head,', "bereshit: 'at the head of'. The doubled head keeps the construct."),
  ((1, 2), 'Elohim began to cut, as a blade goes into meat:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note). 'As a blade goes into meat' is an addition, marked; the head term is 'cut'."),
- ((3, 4), 'the sky, the hammered bowl—', "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
+ ((3, 4), 'the sky, the beaten bowl—', "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
  ((5, 6), 'the ground, the dirt under it.', "ve'et ha'arets: 'and the ground'. 'The dirt under it' is the physical gloss; the Hebrew says only 'the ground'."),
 ],
 '1:2': [
  ((0, 1), 'The ground was', "veha'arets hayetah: 'and the ground was'."),
  ((2,), 'a gape, a wasting.', "tohu: 'waste, emptiness'. 'Gape' is the physical stretch."),
  ((3,), 'A mouth with nothing in it.', "vavohu: 'and emptiness'. The second image is the physical stretch of the pair."),
- ((4, 5, 6, 7), 'Dark coiled on the lip of the Deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
- ((8, 9), 'And the Wind of Elohim—', "veruach elohim: 'and the wind of God'. Wind is the head term for ruach (lexicon.md)."),
+ ((4, 5, 6, 7), 'Dark coiled on the lip of the deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
+ ((8, 9), 'And the wind of Elohim—', "veruach elohim: 'and the wind of God'. Wind is the head term for ruach (lexicon.md)."),
  ((10,), 'a bird that flutters over its young—', "merachefet: fluttering, the root of Deut 32:11's eagle over its young."),
  ((11, 12, 13), 'beat over the belly of the waters, shuddering.', "'al penei hamayim: 'over the face of the waters'. 'Belly' for penei is the physical stretch, marked. 'Shuddering' is an addition, marked: merachefet carries the motion."),
 ],
@@ -232,7 +232,7 @@ A = {
 ],
 '2:1': [
  ((0, 1, 2), 'Sky and ground were finished,', "vayekhullu hashamayim vehaaretz: 'were finished'. Finished, done, spent."),
- ((3, 4), 'and all their mustered army.', "vekhol tz'vaam: 'and all their host'. 'Army' is the head term for tz'va in the war sense."),
+ ((3, 4), 'and all their army.', "vekhol tz'vaam: 'and all their host'. 'Army' is the head term for tz'va in the war sense."),
 ],
 '2:2': [
  ((0, 1, 2, 3), 'God finished on the seventh day', "vayekhal elohim bayom hashevi'i: 'finished'. LXX reads sixth day (witness variant)."),
@@ -248,7 +248,7 @@ A = {
 ],
 '2:4': [
  ((0,), 'These are the births—', "'elleh: 'these are'. 'Births' is the physical English of toledot."),
- ((1,), 'toledot, the bearing-out—', "toledot: kept visible as the Hebrew word; 'bearing-out' is its gloss."),
+ ((1,), 'toledot, what comes out—', "toledot: kept visible as the Hebrew word; 'bearing-out' is its gloss."),
  ((2, 3), 'of sky and ground,', "hashamayim vehaaretz: 'the heavens and the earth'."),
  ((4,), 'cut, being cut,', "behibare'am: 'in their being cut'. 'Cut' is the head term for bara'."),
  ((5, 6, 7, 8), 'in the day YHWH Elohim made', "beyom 'asot YHWH elohim: 'in the day YHWH God made'."),
@@ -270,14 +270,14 @@ A = {
  ((12, 13, 14, 15), 'and the human became a living throat.', "vayehi ha'adam lenefesh chayah: 'and the human became a living breath'. 'Throat' is the body stretch of nefesh."),
 ],
 '2:8': [
- ((0, 1, 2, 3, 4), 'YHWH Elohim planted a garden of delight,', "wayyitta YHWH elohim gan be'eden: 'planted a garden in Eden'. 'Delight' is the English reading of Eden."),
+ ((0, 1, 2, 3, 4), 'YHWH Elohim planted a garden in Eden,', "wayyitta YHWH elohim gan be'eden: 'planted a garden in Eden'. 'Delight' is the English reading of Eden."),
  ((5,), 'from the front, from of old, eastward,', 'miqqedem: three glosses kept together (2:8 note).'),
  ((6, 7, 8, 9, 10, 11), 'and set there the human he had shaped.', "wayyasem sham et ha'adam asher yatzar: 'and set there the human he had potted'."),
 ],
 '2:9': [
  ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'From the red he made spring every tree to covet with the eyes,', "wayyatzmach YHWH elohim min ha'adamah kol ets nekhmad lemar'eh: 'made spring every tree desirable to see'. 'Covet' is the body stretch of chamad."),
  ((9, 10), 'sweet on the tongue;', "vetov lema'akhal: 'good for food'. 'Sweet' and 'mouth' are body stretches of tov and eating. 'On the tongue' is the physical stretch of 'to the mouth'."),
- ((11, 12, 13, 14), "the tree of lives at the garden's heart,", "ve'ets hachayyim betokh hagan: 'the tree of lives in the middle of the garden'."),
+ ((11, 12, 13, 14), "the tree of lives in the middle of the garden,", "ve'ets hachayyim betokh hagan: 'the tree of lives in the middle of the garden'."),
  ((15, 16, 17, 18), 'and the tree of knowing good and harm.', "ve'ets hada'at tov vara': 'the tree of knowing good and harm'."),
 ],
 '2:10': [
@@ -287,7 +287,7 @@ A = {
 ],
 '2:11': [
  ((0, 1, 2), 'The first: Pishon.', "shem ha'echad pishon: 'the first's name, Pishon'."),
- ((3, 4, 5, 6, 7, 8), 'It coils round all the land of Havilah, the writhing land,', "hu hasovev 'et kol eretz hachavilah: 'it goes round all the land of Havilah'. 'Coils' and 'writhing' are body stretches; not established."),
+ ((3, 4, 5, 6, 7, 8), 'It coils round all the land of Havilah, the coiling land,', "hu hasovev 'et kol eretz hachavilah: 'it goes round all the land of Havilah'. 'Coils' and 'writhing' are body stretches; not established."),
  ((9, 10, 11), 'where the gold is.', "asher sham hazahav: 'where there is gold'."),
 ],
 '2:12': [
@@ -304,7 +304,7 @@ A = {
 ],
 '2:15': [
  ((0, 1, 2, 3, 4), 'YHWH Elohim took the human', "wayiqqach YHWH elohim et ha'adam: 'took the human'."),
- ((5, 6, 7), 'and set him in the garden of delight—', "wayanicheu bigan eden: 'and set him down in the garden of Eden'."),
+ ((5, 6, 7), 'and set him in the garden in Eden—', "wayanicheu bigan eden: 'and set him down in the garden of Eden'."),
  ((8,), 'to serve it,', "le'avdah: 'to serve it'. 'Serve' is the verb of slavery as well as work."),
  ((9,), 'to keep it.', "ulshomrah: 'and to keep it'."),
 ],
@@ -482,12 +482,12 @@ A = {
  ((21, 22, 23), 'eat, and live—forever.', "ve'akhal vachay le'olam."),
 ],
 '3:23': [
- ((0, 1, 2, 3, 4), 'YHWH Elohim sent him out from the garden of delight,', "vayshallehu YHWH elohim migan 'eden."),
+ ((0, 1, 2, 3, 4), 'YHWH Elohim sent him out from the garden in Eden,', "vayshallehu YHWH elohim migan 'eden."),
  ((5, 6, 7, 8, 9, 10), 'to serve the red from which he was taken.', "la'avod et ha'adamah asher lukkach mishsham."),
 ],
 '3:24': [
  ((0, 1, 2), 'He drove the human out.', "vayegaresh et ha'adam: 'drove out'."),
- ((3, 4, 5, 6, 7, 8), 'At the east of the garden of delight he set the cherubim', "vayyashken miqqedem legan 'eden et hakerubim."),
+ ((3, 4, 5, 6, 7, 8), 'At the east of the garden in Eden he set the cherubim', "vayyashken miqqedem legan 'eden et hakerubim."),
  ((9, 10, 11, 12, 13, 14, 15, 16, 17), 'and the flame of the turning blade, to guard the road to the tree of lives.', "ve'et lahat hacherev hamitpakhekhet lishmor et derekh ets hachayyim."),
 ],
 '4:1': [
