@@ -81,9 +81,9 @@ A = {
  ((18, 19), 'So.', 'vayehi-ken.'),
 ],
 '1:12': [
- ((0, 1, 2), 'The ground heaved and pushed up a greening:', "wattotse ha'arets deshe': 'the ground brought out sprouting'. 'Heaved' is the physical stretch of yatsa'."),
+ ((0, 1, 2), 'The ground brought out a greening:', "wattotse ha'arets deshe': 'the ground brought out sprouting'. 'Heaved' is the physical stretch of yatsa'."),
  ((3, 4, 5, 6), 'plants seeding seed after its kind,', "esev mazri'a zera' lemineihu."),
- ((7, 8, 9, 10, 11, 12, 13), 'fruit tree making fruit, seed in its body, after its kind.', "ets oseh peri asher zar'o bo lemineihu: 'fruit-tree making fruit, whose seed is in it, after its kind'."),
+ ((7, 8, 9, 10, 11, 12, 13), 'fruit tree making fruit, its seed in it, after its kind.', "ets oseh peri asher zar'o bo lemineihu: 'fruit-tree making fruit, whose seed is in it, after its kind'."),
  ((14, 15, 16, 17), 'Divinity saw: good.', 'vayar elohim ki tov.'),
 ],
 '1:13': [
@@ -114,7 +114,7 @@ A = {
  ((5, 6, 7), 'to shed light on the ground.', "lehe'ir al ha'arets."),
 ],
 '1:18': [
- ((0, 1, 2, 3), 'to rule the day and the night,', "velimshol bayom uvalaylah ulehavdil: 'and to rule in the day and in the night, and to separate'."),
+ ((0, 1, 2, 3), 'to rule by day and by night,', "velimshol bayom uvalaylah ulehavdil: 'and to rule in the day and in the night, and to separate'."),
  ((4, 5, 6, 7), 'to split the light from the dark.', "bein ha'or uvein hachoshekh: 'between the light and the dark'. 'Cut the seam' is the physical stretch of badal."),
  ((8, 9, 10, 11), 'Divinity saw: good.', 'vayar elohim ki tov.'),
 ],
@@ -132,7 +132,7 @@ A = {
  ((11, 12, 13, 14), 'across the face of the hammered plate of the heavens.', "'al penei raqia' hashamayim: 'over the face of the firmament of the heavens'. 'Across' is the English stretch of 'al."),
 ],
 '1:21': [
- ((0, 1, 2, 3, 4), 'Divinity cut the great serpents, the tanninim,', "vayivra' elohim et hattanninim hagedolim: head term 'cut'. 'The deep' is not in the Hebrew and is not added."),
+ ((0, 1, 2, 3, 4), 'Divinity cut the great sea-serpents,', "vayivra' elohim et hattanninim hagedolim: head term 'cut'. 'The deep' is not in the Hebrew and is not added."),
  ((5, 6, 7, 8), 'and every living breath that crawls,', "ve'et kol nefesh hachayah harommeset: 'and every living breath that creeps'."),
  ((9,), '', 'paseq (׀), a cantillation mark; no English.'),
  ((10, 11, 12, 13, 14), 'which the waters swarmed with, after their kinds,', "asher sharetzu hamayim lemineihem: 'which the waters teemed with, after their kinds'."),
@@ -275,7 +275,7 @@ A = {
  ((6, 7, 8, 9, 10, 11), 'and set there the human he had potted.', "wayyasem sham et ha'adam asher yatzar: 'and set there the human he had potted'."),
 ],
 '2:9': [
- ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'From the red earth he made sprout every tree pleasing to the eye,', "wayyatzmach the Lord elohim min ha'adamah kol ets nekhmad lemar'eh: 'made sprout every tree desirable to see'. 'Covet' is the body stretch of chamad."),
+ ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'From the red earth he made sprout every tree desirable to see,', "wayyatzmach the Lord elohim min ha'adamah kol ets nekhmad lemar'eh: 'made sprout every tree desirable to see'. 'Covet' is the body stretch of chamad."),
  ((9, 10), 'and good to eat;', "vetov lema'akhal: 'good for food'. 'Sweet' and 'mouth' are body stretches of tov and eating. 'On the tongue' is the physical stretch of 'to the mouth'."),
  ((11, 12, 13, 14), "the tree of lives in the middle of the garden,", "ve'ets hachayyim betokh hagan: 'the tree of lives in the middle of the garden'."),
  ((15, 16, 17, 18), 'and the tree of knowing good and harm.', "ve'ets hada'at tov vara': 'the tree of knowing good and harm'."),
@@ -381,7 +381,7 @@ A = {
 ],
 '3:4': [
  ((0, 1, 2, 3), 'The serpent said to the woman:', "vayomer hanachash el ha'ishah."),
- ((4, 5, 6), 'You will not die, not die.', "lo mot temutun: 'not death, you shall die-not'. The serpent reverses the infinitive."),
+ ((4, 5, 6), 'Dying, you will not die.', "lo mot temutun: 'not death, you shall die-not'. The serpent reverses the infinitive."),
 ],
 '3:5': [
  ((0, 1, 2), 'For Divinity knows:', "ki yodea' elohim: 'for Divinity knows'."),
@@ -462,7 +462,7 @@ A = {
 '3:19': [
  ((0, 1, 2, 3), 'In the sweat of your nose you will eat bread', "bezei'at appekha tokhal lechem: 'in the sweat of your nostrils you shall eat bread'. 'Nose' is the literal of appayim."),
  ((4, 5, 6, 7, 8, 9, 10), 'until you return to the red earth—for from it you were taken.', "'ad shuvekha el ha'adamah ki mimmenah luqqachta."),
- ((11, 12, 13, 14, 15, 16), 'For dust you are, and to dust you come back.', "ki 'afar atah ve'el 'afar tashuv: 'turn back' is the body stretch of shuv."),
+ ((11, 12, 13, 14, 15, 16), 'For dust you are, and to dust you will return.', "ki 'afar atah ve'el 'afar tashuv: 'turn back' is the body stretch of shuv."),
 ],
 '3:20': [
  ((0, 1, 2, 3, 4), 'The human named his woman Chavah—Living—', "vayiqra ha'adam shem ishto chavah."),
@@ -536,7 +536,7 @@ A = {
 '4:10': [
  ((0, 1, 2), 'He said: What have you done?', "vayomer mah 'asita."),
  ((3, 4, 5), "A voice—your brother's bloods—", 'qol demei achikha.'),
- ((6, 7, 8, 9), 'cries to me from the red earth.', "tso'aqim elai min ha'adamah."),
+ ((6, 7, 8, 9), 'are crying to me from the red earth.', "tso'aqim elai min ha'adamah."),
 ],
 '4:11': [
  ((0, 1, 2, 3, 4), 'Now: cursed are you from the red earth,', "ve'attah arur atah min ha'adamah."),
@@ -552,7 +552,7 @@ A = {
 ],
 '4:14': [
  ((0, 1, 2, 3, 4, 5, 6), 'Look—you have driven me out today from the face of the red earth.', "hen gerashta oti hayyom me'al penei ha'adamah."),
- ((7, 8), 'I will hide from your face;', 'umippanekha essater.'),
+ ((7, 8), 'I will be hidden from your face;', 'umippanekha essater.'),
  ((9, 10, 11, 12), 'I will be a stumbler and a roamer on the ground,', "vehayiti na' vanad ba'arets."),
  ((13, 14, 15, 16), 'and whoever finds me will kill me.', "vehayah kol motz'i yahargeni."),
 ],
