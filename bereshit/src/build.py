@@ -14,7 +14,7 @@ ROOT = HERE.parent.parent
 OUT = ROOT / "docs" / "bereshit" / "index.html"
 
 sys.path.insert(0, str(HERE))
-from translation import T  # noqa: E402
+from translation import T, APP, NAMES  # noqa: E402
 from alignment import A  # noqa: E402
 import re  # noqa: E402
 
@@ -103,10 +103,25 @@ h2.ch{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:c
   .gk .lbl{display:none}
   .cm{margin-top:0}
 }
+.app{margin-top:10px;font-size:.8rem;color:var(--text-dim)}.applbl{display:block;font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}.app ul{margin:0;padding-left:1.1em}.app li{margin-bottom:3px}.names table{width:100%;border-collapse:collapse;margin-top:10px}.names td{padding:6px;border-top:1px solid var(--rule);vertical-align:top;font-size:.86rem}.names td.e{font-family:'Cormorant Garamond',Georgia,serif;font-size:1rem;width:28%}
 footer{margin-top:48px;text-align:center;border-top:1px solid var(--rule);padding-top:28px;
   font-size:.82rem;color:var(--text-light)}
 footer a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--rule)}
 """
+
+
+def render_app(ref):
+    items = APP.get(ref, [])
+    if not items:
+        return ''
+    lis = ''.join(f'<li>{esc(x)}</li>' for x in items)
+    return f'<div class="app"><span class="applbl">Apparatus</span><ul>{lis}</ul></div>'
+
+
+def render_names():
+    rows = ''.join(f'<tr><td class="e">{esc(n)}</td><td>{esc(m)}</td></tr>' for n, m in NAMES)
+    return ('<section class="names"><h2 class="ch">Names, and their roots</h2>'
+            '<table><tbody>' + rows + '</tbody></table></section>')
 
 
 def render_align(ref):
@@ -136,6 +151,7 @@ def render_row(ref, lines, note):
         f'  <div class="cm">\n'
         f'    <div class="heb" lang="he">{esc(hebrew)}</div>\n'
         f'    <p>{esc(note)}</p>\n'
+        f'    {render_app(ref)}\n'
         f'    {render_align(ref)}\n'
         f'  </div>\n'
         f'</article>'
@@ -174,6 +190,7 @@ def main():
   <div class="intro">
     <p>An original translation, made from the Hebrew text with the Septuagint beside it, of the first verses of the book. The English is deliberately strange and primal: the aim is a text the reader does not recognise, not one they half remember. The middle column gives the Greek. The right-hand column carries the commentary: root sense, the readings the Septuagint takes instead, and every place the register bends the Hebrew.</p>
     <p>No published English translation was consulted.</p>
+    <p><strong>Conventions.</strong> Elohim: Divinity. YHWH: the Lord. Adamah: the red earth. Erets: the ground (land only for place names). Nachash: the serpent. Ish and ishah are kept as the Hebrew for the pun. Each verse's apparatus lists the readings held open.</p>
   </div>
   <dl class="witness">
     <dt>Hebrew witness</dt>
@@ -184,6 +201,7 @@ def main():
 </header>
 <main>
 {body}
+{render_names()}
 </main>
 <footer>
   <p><a href="../">&larr; Large-Language Literature</a> &middot; Source on <a href="https://github.com/pnathan/large-language-literature">GitHub</a></p>
