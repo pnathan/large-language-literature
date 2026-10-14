@@ -169,8 +169,8 @@ A = {
  ((4,5), "in the hammered sky,", "birqia' hashamayim, 'in the firmament of the heavens'. 'Hammered' keeps raqia's beaten sense (see 1:6)."),
  ((6,7,8,9,10), "cleaving day from night.", "lehavdil bein hayom uvein halaylah, 'to separate between the day and between the night'. 'Cleaving' is the register's word for badal (see 1:4 'drove a gash'); the English drops the 'between' repetition."),
  ((11,), "Let them be", "vehayu, 'and let them be'. Carried by the next line's 'Let them be'."),
- ((12,), "signs,", "le'otot, 'for signs'. 'Signs' is the settled sense of 'ot (mark, sign)."),
- ((13,), "tellers of times,", "ulemo'adim, 'and for appointed times'. 'Tellers of times' stretches mo'ed: the appointed time is read as something that tells. Alternative 'seasons' is settled and tame."),
+ ((12,), "marks", "le'otot, 'for signs'. 'Signs' is the settled sense of 'ot (mark, sign)."),
+ ((13,), "marks for the turns of the year,", "ulemo'adim, 'and for appointed times'. 'Tellers of times' stretches mo'ed: the appointed time is read as something that tells. Alternative 'seasons' is settled and tame."),
  ((14,15), "meeting-hours, days, years.", "uleyamim veshanim, 'and for days and years'. 'Meeting-hours' is the stretch of mo'ed (from ya'ad, 'to meet at an appointed place') and is kept as a second reading of 'meeting'."),
 ],
 
@@ -501,7 +501,7 @@ A = {
 ],
 
 "2:21": [
- ((0,1,2,3), "YHWH Elohim dropped a deep trance on the human.", "wayyappel YHWH 'elohim tardemah 'al ha'adam, 'and YHWH God caused a deep sleep upon the human'. 'Dropped' is the stretch of nafal (fall), made into a casting."),
+ ((0,1,2,3), "YHWH Elohim dropped a heavy sleep on the human.", "wayyappel YHWH 'elohim tardemah 'al ha'adam, 'and YHWH God caused a deep sleep upon the human'. 'Dropped' is the stretch of nafal (fall), made into a casting."),
  ((4,), "", "tardemah, 'deep sleep', carried above."),
  ((5,6,), "", "'al ha'adam, carried above."),
  ((7,), "He slept.", "wayyishan, 'and he slept'."),
@@ -715,7 +715,7 @@ A = {
  ((5,6), "the human has become", "ha'adam hayah, 'the human was'. 'Has become' is the English perfect for hayah."),
  ((7,8), "like one of us,", "ke'echad mimmenu, 'like one of us' (or 'of it'). 'Us' is kept as the plural reading."),
  ((9,10,11), "knowing good and harm.", "ladaat tov vara', 'to know good and harm'."),
- ((12,13,14), "Now lest he send out his hand,", "ve'attah pen yishlach yado, 'and now lest he send out his hand'. 'Send out' is the English for shalach."),
+ ((12,13,14), "Now lest he reach out his hand,", "ve'attah pen yishlach yado, 'and now lest he send out his hand'. 'Send out' is the English for shalach."),
  ((15,16,17,18,19,20), "take also from the tree of lives,", "velaqach gam me'ets hachayyim, 'and take also from the tree of lives'."),
  ((21,22,23), "eat, and live—forever.", "ve'akhal vachay le'olam, 'and eat, and live forever'."),
 ],

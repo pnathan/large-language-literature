@@ -98,7 +98,7 @@ T = [
 ("1:14",
  ["He said: let there be fire-holders in the hammered sky,",
   "cleaving day from night.",
-  "Let them be signs, tellers of times,",
+  "Let them be marks for the turns of the year,",
   "meeting-hours, days, years."],
  "Me'orot (מְאֹרֹת), from 'or (light, fire): 'fire-holders'. The text names neither sun nor moon here. Lemo'adim (לְמוֹעֲדִים), 'for appointed times', from ya'ad, 'to meet at an appointed place': 'meeting-hours' stretches it. Shanim (שָׁנִים) is the first 'year' (shanah; a 'repeat' root is proposed, not settled). LXX lists nouns: phōstēres, sēmeia, kairous, hēmeras, eniautous."),
 
@@ -338,7 +338,7 @@ T = [
  "Lo matsa (לֹא־מָצָא), 'did not find'. LXX ouch heurethē boēthos homoios, 'no similar helper was found'."),
 
 ("2:21",
- ["YHWH Elohim dropped a deep trance on the human.",
+ ["YHWH Elohim dropped a heavy sleep on the human.",
   "He slept. He took one of his sides—tsela—",
   "and shut the flesh over the place."],
  "Tardemah (תַּרְדֵּמָה): deep sleep, trance (cf. 15:12). Tsela' (צֵלָע): 'side, rib'. Vayisgor (וַיִּסְגֹּר): 'shut'. LXX ekstasin, 'ecstasy'."),
@@ -496,7 +496,7 @@ T = [
 ("3:22",
  ["YHWH Elohim said: Look—the human has become like one of us,",
   "knowing good and harm.",
-  "Now lest he send out his hand, take also from the tree of lives,",
+  "Now lest he reach out his hand, take also from the tree of lives,",
   "eat, and live—forever."],
  "Ke-echad mi-mennu (כְּאַחַד מִמֶּנּוּ): 'like one of us' or 'of it'. The 'us' is plural. 'Forever' (le-olam) names the boundary death keeps. LXX hōs heis ex hēmōn, 'as one of us'."),
 
