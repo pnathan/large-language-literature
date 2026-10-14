@@ -42,7 +42,7 @@ A = {
  ((2, 3), 'Let there be a hammered plate,', "yehi raqia': 'let there be a firmament'. 'Beat out' is the physical stretch of raqa' (to beat thin); 'plate' and 'skin' keep the hammered object."),
  ((4, 5), 'in the middle of the waters,', "betokh hamayim: 'in the midst of the waters'. "),
  ((6, 7), 'and let it split', "vihi mavdil: 'and let there be a separator'. 'A wall' is not in the Hebrew and is removed."),
- ((8, 9, 10), 'water from water.', "bein mayim lamayim: 'between water and water'. The idiom bein X lamayim is ordinary (cf. Deut 17:8)."),
+ ((8, 9, 10), 'water to water.', "bein mayim lamayim: 'between water and water'. The idiom bein X lamayim is ordinary (cf. Deut 17:8)."),
 ],
 '1:7': [
  ((0, 1, 2, 3), 'Divinity made the plate.', "vayya'as elohim et haraqia': head term 'made' (lexicon.md)."),
@@ -433,7 +433,7 @@ A = {
  ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'The Lord God said to the serpent: Because you did this—', "vayomer the Lord elohim el hanachash ki 'asita zot."),
  ((9, 10, 11, 12), 'cursed are you, out of all the cattle,', "'arur atah mikol habehemah."),
  ((13, 14, 15), 'and out of every beast of the field.', 'umikol chayat hasadeh.'),
- ((16, 17, 18), 'On your belly you will go,', "al gechonkha telekh: 'on your belly you shall walk'. 'Gut' and 'go' are the body stretches."),
+ ((16, 17, 18), 'On your belly you will go.', "al gechonkha telekh: 'on your belly you shall walk'. 'Gut' and 'go' are the body stretches."),
  ((19, 20, 21, 22, 23), 'Dust you will eat, all the days of your life.', 'vafar tokhal kol yemei chayyekha.'),
 ],
 '3:15': [
@@ -447,7 +447,7 @@ A = {
  ((0, 1, 2, 3, 4), 'To the woman he said: I will multiply, multiply', "'el ha'ishah amar harbah arbeh: infinitive absolute kept as a doubled verb."),
  ((5, 6), 'your pain and your conceiving.', "itstsavonekh vehe'ronekh: 'conceiving' keeps heron (see the 3:16 note)."),
  ((7, 8, 9), 'In pain you will bear children.', "be'etsev telidi vanim."),
- ((10, 11, 12, 13, 14, 15), 'Toward your man your craving, and he will rule you.', "ve'el ishekh teshuqatekh vehu yimshol bakh: 'craving' keeps teshuqah."),
+ ((10, 11, 12, 13, 14, 15), 'Toward your man your thirst, and he will rule you.', "ve'el ishekh teshuqatekh vehu yimshol bakh: 'craving' keeps teshuqah."),
 ],
 '3:17': [
  ((0, 1, 2, 3, 4, 5), "To the human he said: Because you listened to your woman's voice", "ule'adam amar ki shama'ta lekol ishtekha."),
