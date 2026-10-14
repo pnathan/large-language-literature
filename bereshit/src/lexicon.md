@@ -23,11 +23,15 @@ rendering as a witness to the sense the translators took.
 | badal | ב-ד-ל | cut the seam / split | diachōrizō | separate | "Cut a seam" at 1:4, 1:18; "split" for the waters at 1:7. |
 | nathan | נ-ת-נ | give | didōmi | give, set, put | Rule: "give" for every nathan. Applied at 1:17 ("gave them a place"), 1:29, 3:12. |
 
-Decisions taken in this pass:
-- raqia' (רָקִיעַ) is 'the hammered plate' throughout; 'the sky' is shamayim.
-- b-d-l is 'split' for the waters and the light; paqach at 3:5 and 3:7 is 'opened'.
+Rule for contested terms: the English carries the pointed Hebrew token from the
+witness, not an English gloss or a transliteration. Applied to raqia' (רָקִיעַ),
+badal (בָּדַל), paqach (פָּקַח), qavah and miqveh (קוָה, מִקְוֵה), nefesh chayah
+(נֶפֶשׁ חַיָּה), rabah (הַרְבָּה, אַרְבֶּה), sh-r-ts (יִשְׁרְצוּ), 'avad (לַעֲבֹד, עֹבֵד),
+basar (בָּשָׂר), tsela' (הַצֵּלָע), harag (הֹרֵג), nakah, and the verbs 'asah and bara'.
+Tokens come from the witness by index. Every Hebrew word in the English was
+checked against the witness tokens (98 verses, 0 coverage problems, 0 missing
+alignment fragments).
 
-Open items: qavah/miqveh, nefesh chayah, rabah, sh-r-ts, 'avad, basar, tsela', and
-harag/nakah are not yet settled. Also open: the per-verse check that each head
-term is used where it appears, and the commentary's agreement with the current
-English beyond the notes rewritten on 2026-10-14.
+Still open: the commentary and notes still describe some of these terms by their
+English gloss and have not been re-audited against this rule. Also open: the
+per-verse check that each head term is used where it appears.
