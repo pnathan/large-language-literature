@@ -174,7 +174,7 @@ A = {
  ((3,), 'a human,', "'adam: 'the human'. 'The red one' is the physical stretch from adamah (2:7)."),
  ((4,), 'in our image,', 'betsalmenu.'),
  ((5,), 'as our likeness.', "kidmuteinu: 'as our likeness'. 'After' is the KJV's word and is not used."),
- ((6,), 'Let them tread down', "viyrdu: 'tread down, rule'."),
+ ((6,), 'Let them oppress', "viyrdu: 'tread down, rule'."),
  ((7, 8), 'the fish of the sea,', 'bidgat hayam.'),
  ((9, 10), 'the bird of the heavens,', "uve'of hashamayim."),
  ((11,), 'the cattle,', 'uvabehemah.'),
@@ -194,14 +194,14 @@ A = {
 ],
 '1:28': [
  ((0, 1, 2), 'Divinity blessed them.', 'vayevarekh otam elohim.'),
- ((3, 4, 5), 'Divinity said:', 'vayomer lahem elohim.'),
+ ((3, 4, 5), 'Divinity said to them:', 'vayomer lahem elohim.'),
  ((6,), 'Bear fruit,', 'peru.'),
  ((7,), 'grow many,', 'urevu.'),
  ((8,), 'fill', "umil'u."),
  ((9, 10), 'the ground;', "et ha'arets: head term 'ground' (lexicon.md)."),
  ((11,), 'trample it', "vechivshuha: 'and subdue it'. 'Trample' is the physical stretch of kavash."),
  ((), '', 'Addition: the washing image is from kavas, a different root. Marked.'),
- ((12, 13, 14), 'tread down the fish of the sea,', 'uredu bidgat hayam.'),
+ ((12, 13, 14), 'oppress the fish of the sea,', 'uredu bidgat hayam.'),
  ((15, 16), 'the bird of the heavens,', "uve'of hashamayim."),
  ((17, 18, 19, 20, 21), 'every crawler that crawls on the ground.', "uvechol chayah harmeshet al ha'arets."),
 ],
@@ -396,7 +396,7 @@ A = {
  ((6, 7, 8, 9), 'a hunger for the eyes,', "vechi ta'avah hu la'eynayim: 'a craving to the eyes'. 'Hunger' is the body stretch of ta'avah."),
  ((10, 11, 12), 'a tree to be coveted for insight.', "venekhmad ha'ets lehaskil: 'a tree desirable to make wise'."),
  ((13, 14, 15), 'She took from its fruit and ate.', 'vattiqqach mipiryo vattokhel.'),
- ((16, 17, 18, 19, 20), 'She gave to her man with her, and he ate.', "vattitten gam le'ishah immah vayokhal: 'she gave also to her husband with her, and he ate'."),
+ ((16, 17, 18, 19, 20), 'She gave also to her man with her, and he ate.', "vattitten gam le'ishah immah vayokhal: 'she gave also to her husband with her, and he ate'."),
 ],
 '3:7': [
  ((0, 1, 2), 'The eyes of both of them were opened,', 'vattipaqachna einei shneihem.'),
@@ -547,7 +547,7 @@ A = {
  ((9, 10, 11, 12), 'A stumbler, a roamer, you will be on the ground.', "na' vanad tihyeh ba'arets."),
 ],
 '4:13': [
- ((0, 1, 2, 3, 4, 5, 6), 'Qayin said to the Lord: My guilt is heavier than I can lift.', 'vayomer qayin el the Lord gadol avoni minnesso.'),
+ ((0, 1, 2, 3, 4, 5, 6), 'Qayin said to the Lord: My guilt is too great to lift, too great to forgive.', 'vayomer qayin el the Lord gadol avoni minnesso.'),
  ((), '', "Addition: nasa' also means forgive; the second line carries that sense."),
 ],
 '4:14': [
