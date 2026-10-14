@@ -49,15 +49,60 @@ CHECKS = [
     ("4:18", "Lamekh"),
 ]
 
+CLOSED = [
+    ("1:1", "At the start, Divinity cut"),
+    ("1:2", "waste and void"),
+    ("1:5", "Evening came"),
+    ("1:8", "Evening came"),
+    ("1:13", "Evening came"),
+    ("1:31", "Evening came. Morning came."),
+    ("1:11", "seeding seed"),
+    ("1:12", "brought out a greening"),
+    ("1:18", "by day and by night"),
+    ("1:20", "let fliers fly"),
+    ("1:21", "great sea-serpents"),
+    ("1:22", "Let the fliers grow many"),
+    ("1:26", "a human, in our image"),
+    ("1:26", "every crawler that crawls"),
+    ("1:27", "he cut him"),
+    ("2:3", "the work that Divinity cut in the making"),
+    ("2:5", "For the Lord God had not rained"),
+    ("2:7", "the blast of lives"),
+    ("2:17", "For on the day you eat"),
+    ("2:18", "a help facing him"),
+    ("2:21", "He took one of his ribs"),
+    ("2:22", "the rib he had taken"),
+    ("2:23", "This one, this time, is bone out of my bones"),
+    ("2:24", "one meat"),
+    ("2:25", "they were not ashamed"),
+    ("3:4", "Dying, you will not die"),
+    ("3:6", "She gave also to her man"),
+    ("3:7", "made themselves loin-belts"),
+    ("3:11", "He said: Who told you"),
+    ("3:15", "his heel"),
+    ("3:17", "In pain you will eat it"),
+    ("3:19", "to dust you will return"),
+    ("3:23", "to work the red earth"),
+    ("4:1", "with the Lord"),
+    ("4:2", "Hevel was a herder"),
+    ("4:5", "Qayin burned hard"),
+    ("4:5", "did not look on"),
+    ("4:10", "are crying"),
+    ("4:14", "you have driven me out"),
+    ("4:14", "I will be hidden"),
+    ("4:16", "Roaming"),
+]
+
 
 def main():
     lines = {ref: " | ".join(ls) for ref, ls, _n in translation.T}
     failures = 0
-    for ref, phrase in CHECKS:
-        ok = phrase in lines.get(ref, "")
-        failures += not ok
-        print("OK  " if ok else "FAIL", ref, repr(phrase))
-    print("failures", failures, "of", len(CHECKS))
+    for name, group in (("kept/decided", CHECKS), ("closed", CLOSED)):
+        for ref, phrase in group:
+            ok = phrase in lines.get(ref, "")
+            failures += not ok
+            print("OK  " if ok else "FAIL", name, ref, repr(phrase))
+    print("failures", failures, "of", len(CHECKS) + len(CLOSED))
     return 1 if failures else 0
 
 

@@ -7,7 +7,7 @@
 A = {
 '1:1': [
  ((0,), 'At the start,', "bereshit: 'at the head of'. The doubled head keeps the construct."),
- ((1, 2), 'Divinity began to cut:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note). 'As a blade goes into meat' is an addition, marked; the head term is 'cut'."),
+ ((1, 2), 'Divinity cut:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note). 'As a blade goes into meat' is an addition, marked; the head term is 'cut'."),
  ((3, 4), 'the heavens,', "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
  ((5, 6), 'and the ground.', "ve'et ha'arets: 'and the ground'. 'The dirt under it' is the physical gloss; the Hebrew says only 'the ground'."),
 ],

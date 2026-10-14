@@ -8,7 +8,7 @@
 
 T = [
 ('1:1',
- ['At the start, Divinity began to cut:', 'the heavens, and the ground.'],
+ ['At the start, Divinity cut:', 'the heavens, and the ground.'],
  "Re'shit (רֵאשִׁית) is a construct: 'at the head of' or 'in the beginning of'. Read as a temporal clause, the verse becomes subordinate; the English keeps the main-clause reading, 'At the start, Divinity cut'. Bara' (בָּרָא) is used of Divinity in the Qal alone; its root is disputed, and 'cut' is one proposal, kept as the head term. 'Of it' is not in the English; 'At the start' renders re'shit alone. The two objects, 'the heavens' and 'the ground', are given as the English; 'erets is not adamah, and 'ground' is its head term. The particle 'et (אֵת) marks the object and is not rendered. LXX: 'en archē epoiēsen ho theos', 'in beginning made Divinity'; poiein replaces bara', and archē has no article."),
 ('1:2',
  ['The ground was waste and void.', 'And dark was on the face of the deep.', 'And the wind of Divinity was fluttering over the face of the waters.'],
