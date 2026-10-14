@@ -6,6 +6,11 @@ resolved. Status: **closed** = changed in the English or the apparatus;
 **kept** = decided to stand, as the review's own recommendation or the
 translator's ruling; **decided** = answered by the translator's direction.
 
+Verification: each **kept** and **decided** item was re-read against the current
+English in translation.py on the commit that records this file (every verse printed
+and checked). Items whose current text matches the decision are marked as verified
+by that check; none was left unchecked.
+
 ## Chapter 1
 
 1. 1:1 "of it" has no antecedent — **closed** (removed; "At the start").
