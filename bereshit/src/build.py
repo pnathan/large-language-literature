@@ -14,7 +14,7 @@ ROOT = HERE.parent.parent
 OUT = ROOT / "docs" / "bereshit" / "index.html"
 
 sys.path.insert(0, str(HERE))
-from translation import T, APP, NAMES  # noqa: E402
+from translation import T, APP, TRAD, NAMES  # noqa: E402
 from alignment import A  # noqa: E402
 import re  # noqa: E402
 
@@ -24,6 +24,20 @@ lxx = json.loads((HERE / "witness-lxx.json").read_text(encoding="utf-8"))["verse
 
 def esc(s):
     return html.escape(s, quote=False)
+
+
+HEBRUN = re.compile(r"[\u0591-\u05f4\ufb1d-\ufb4f]+(?:[ \u05be][\u0591-\u05f4\ufb1d-\ufb4f]+)*")
+
+
+def rich(s):
+    """Escape prose and isolate each run of Hebrew so it reads right to left inside English."""
+    out, pos = [], 0
+    for m in HEBRUN.finditer(s):
+        out.append(esc(s[pos:m.start()]))
+        out.append(f'<bdi lang="he" class="hw">{esc(m.group(0))}</bdi>')
+        pos = m.end()
+    out.append(esc(s[pos:]))
+    return "".join(out)
 
 
 def tokenise(ref):
@@ -103,7 +117,8 @@ h2.ch{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:c
   .gk .lbl{display:none}
   .cm{margin-top:0}
 }
-.app{margin-top:10px;font-size:.8rem;color:var(--text-dim)}.applbl{display:block;font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}.app ul{margin:0;padding-left:1.1em}.app li{margin-bottom:3px}.names table{width:100%;border-collapse:collapse;margin-top:10px}.names td{padding:6px;border-top:1px solid var(--rule);vertical-align:top;font-size:.86rem}.names td.e{font-family:'Cormorant Garamond',Georgia,serif;font-size:1rem;width:28%}
+.app{margin-top:10px;font-size:.8rem;color:var(--text-dim)}.applbl{display:block;font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}.app ul{margin:0;padding-left:1.1em}.app li{margin-bottom:3px}.names table{width:100%;border-collapse:collapse;margin-top:10px}.names td{padding:6px;border-top:1px solid var(--rule);vertical-align:top;font-size:.86rem}.names td.e{font-family:'Cormorant Garamond',Georgia,serif;font-size:1rem;width:22%}.names td.h{direction:rtl;text-align:right;font-family:'SBL Hebrew','Ezra SIL','Noto Serif Hebrew','Times New Roman',serif;font-size:1.05rem;color:var(--hebrew);width:14%;white-space:nowrap}
+bdi.hw{font-family:'SBL Hebrew','Ezra SIL','Noto Serif Hebrew','Times New Roman',serif;font-size:1.08em;color:var(--hebrew)}
 footer{margin-top:48px;text-align:center;border-top:1px solid var(--rule);padding-top:28px;
   font-size:.82rem;color:var(--text-light)}
 footer a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--rule)}
@@ -114,12 +129,21 @@ def render_app(ref):
     items = APP.get(ref, [])
     if not items:
         return ''
-    lis = ''.join(f'<li>{esc(x)}</li>' for x in items)
+    lis = ''.join(f'<li>{rich(x)}</li>' for x in items)
     return f'<div class="app"><span class="applbl">Apparatus</span><ul>{lis}</ul></div>'
 
 
+def render_trad(ref):
+    items = TRAD.get(ref, [])
+    if not items:
+        return ''
+    lis = ''.join(f'<li>{rich(x)}</li>' for x in items)
+    return f'<div class="app trad"><span class="applbl">Rashi and Ibn Ezra</span><ul>{lis}</ul></div>'
+
+
 def render_names():
-    rows = ''.join(f'<tr><td class="e">{esc(n)}</td><td>{esc(m)}</td></tr>' for n, m in NAMES)
+    rows = ''.join(f'<tr><td class="h" lang="he">{esc(h)}</td><td class="e">{esc(n)}</td><td>{rich(m)}</td></tr>'
+                   for h, n, m in NAMES)
     return ('<section class="names"><h2 class="ch">Names, and their roots</h2>'
             '<table><tbody>' + rows + '</tbody></table></section>')
 
@@ -131,7 +155,7 @@ def render_align(ref):
         hebtxt = " ".join(toks[i] for i in idx) if idx else "\u2014"
         rows.append(
             f'<tr><td class="h">{esc(hebtxt)}</td><td class="e">{esc(en) or "&nbsp;"}</td>'
-            f'<td>{esc(why)}</td></tr>'
+            f'<td>{rich(why)}</td></tr>'
         )
     return (
         '<details><summary>Word by word</summary><table><thead><tr>'
@@ -150,8 +174,9 @@ def render_row(ref, lines, note):
         f'  <div class="gk"><span class="lbl">Septuagint</span>{esc(greek)}</div>\n'
         f'  <div class="cm">\n'
         f'    <div class="heb" lang="he">{esc(hebrew)}</div>\n'
-        f'    <p>{esc(note)}</p>\n'
+        f'    <p>{rich(note)}</p>\n'
         f'    {render_app(ref)}\n'
+        f'    {render_trad(ref)}\n'
         f'    {render_align(ref)}\n'
         f'  </div>\n'
         f'</article>'
