@@ -19,7 +19,7 @@ A = {
  ((0,), "At the head of the head,", "bereshit: 'at the head of'. The doubled 'head' keeps the construct."),
  ((1,2), "Elohim began to cut:", "bara' 'elohim: 'God created'. 'Began' is the temporal reading of the construct (1:1 commentary). 'Cut' is the head term for bara' throughout (see lexicon.md); its root is disputed (1:1 note)."),
  ((3,4), "the sky, the hammered bowl—", "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
- ((5,6), "the ground, the red, the raw meat under it.", "ve'et ha'arets: 'and the earth'. 'The red' and 'the raw meat under it' are additions with no Hebrew counterpart; 'erets is not adamah."),
+ ((5,6), "the ground, the dirt under it.", "ve'et ha'arets: 'and the earth'. 'The dirt under it' is the physical gloss for 'erets; the Hebrew says only 'the ground'."),
 ],
 "1:2": [
  ((0,1,2), "The ground was a gape. A wasting.", "veha'arets hayetah tohu: 'and the earth was waste'. 'Gape' is the physical stretch of tohu; 'a wasting' is the plain sense."),
@@ -32,11 +32,10 @@ A = {
 "1:3": [
  ((0,1), "He said:", "vayomer elohim: 'and God said'. 'Howled' is the physical stretch of 'said' (the register's largest stretch in 1:3)."),
  ((2,3), "Be, light!", "yehi or: 'let there be light'. Imperative with the subject set after the verb."),
- ((4,5), "And light tore out of the dark, a birth-cry, wet.", "vayehi or: 'and light came to be'. 'Tore out of the dark, a birth-cry, wet' is an addition; the Hebrew has only 'and it was light'."),
+ ((4,5), "And light came tearing up out of the dark.", "vayehi or: 'and light came to be'. 'Tearing up out of the dark' is a marked stretch of wayehi; the Hebrew has only 'and it was light'."),
 ],
 "1:4": [
  ((0,1,2,3,4,5), "Elohim saw the light: good.", "vayar elohim et ha'or ki tov: 'God saw the light, that it was good'. Tov as fitness, not virtue (LXX kalon is a wider sense)."),
- ((), "The wet flesh of it, good.", "Not in the Hebrew: an addition that makes tov bodily. Marked; the commentary names it."),
  ((6,7,8,9,10,11), "He drove a gash between the light and the dark.", "vayavdel elohim bein ha'or uvein hachoshekh: 'and God separated between the light and the dark'. 'Drove a gash' is the physical stretch of badal."),
 ],
 "1:5": [
@@ -120,7 +119,7 @@ A = {
  ((14,15,16,17), "and the stars.", "ve'et hakokhavim: 'and the stars'. Settled."),
 ],
 "1:17": [
- ((0,1,2,3,4), "He hung them in the hammered sky", "vayyiten otam elohim birqia' hashamayim: 'God gave them in the firmament of the heavens'. 'Hung' is the physical stretch of nathan (set)."),
+ ((0,1,2,3,4), "He gave them a place in the hammered sky", "vayyiten otam elohim birqia' hashamayim: 'God gave them in the firmament of the heavens'. 'Hung' is the physical stretch of nathan (set)."),
  ((5,6,7), "to pour light on the ground.", "lehe'ir al ha'arets: 'to give light on the earth'."),
 ],
 "1:18": [
@@ -154,7 +153,7 @@ A = {
  ((4,), "Burst!", "peru: 'burst, be fruitful'. 'Burst' is the physical stretch of parah (break out, bear fruit)."),
  ((5,), "Swarm!", "urevu: 'and multiply'. 'Swarm' is the physical stretch of rabah (become many)."),
  ((6,7,8,9), "Fill the seas!", "umil'u et hamayim bayyammim: 'and fill the waters in the seas'."),
- ((10,11,12), "Let the fliers breed on the earth.", "vehaof yirev ba'arets: 'and let the bird multiply on the earth'. 'Breed' is the physical stretch of rabah."),
+ ((10,11,12), "Let the fliers breed on the ground.", "vehaof yirev ba'arets: 'and let the bird multiply on the earth'. 'Breed' is the physical stretch of rabah."),
 ],
 "1:23": [
  ((0,1), "Evening.", "vayehi erev."),
@@ -209,7 +208,7 @@ A = {
  ((6,), "Burst,", "peru: as 1:22."),
  ((7,), "swarm,", "urevu: as 1:22."),
  ((8,), "fill", "umil'u: 'and fill'."),
- ((9,10), "the earth;", "et ha'arets: 'the earth'."),
+ ((9,10), "the ground;", "et ha'arets: 'the earth'."),
  ((11,), "trample it", "vechivshuha: 'and subdue it'. 'Trample' is the physical stretch of kavash."),
  ((), "like cloth in the washing-pit;", "Not in the Hebrew: the washing image is from kavas, a different root from kavash. Marked as an addition."),
  ((12,13,14), "tread the fish,", "uredu bidgat hayam: 'and tread the fish of the sea'."),
@@ -219,7 +218,7 @@ A = {
 "1:29": [
  ((0,1), "He said:", "vayomer elohim."),
  ((2,), "Look—", "hinneh: 'look'."),
- ((3,), "I have handed you", "natati lakhem: 'I have given to you'. 'Handed' is the physical stretch of natan."),
+ ((3,), "I have given you", "natati lakhem: 'I have given to you'. 'Given' is the head term for natan (lexicon.md)."),
  ((4,), "", "lakhem: carried above."),
  ((5,6,7), "every seed-spitting herb", "et kol esev: 'every herb'. 'Seed-spitting' is the stretch of zoreah zera' (1:11)."),
  ((8,9,10), "", "paseq and zoreah zera', carried above."),
@@ -274,7 +273,7 @@ A = {
  ((19,20,21,22,23), "and there was no human to work the red.", "veadam ayin la'avod et ha'adamah: 'and no human to work the ground'. 'Red' is the English for adamah (see 1:25)."),
 ],
 "2:6": [
- ((0,1,2,3), "A seep rose out of the earth", "ved ya'aleh min ha'arets: 'and a seep rose out of the earth'. 'Seep' is the physical choice for ed (mist, flow, spring)."),
+ ((0,1,2,3), "A seep rose out of the ground", "ved ya'aleh min ha'arets: 'and a seep rose out of the earth'. 'Seep' is the physical choice for ed (mist, flow, spring)."),
  ((4,5,6,7,8), "and drenched the whole face of the red.", "vehishkah et kol penei ha'adamah: 'and it drenched all the face of the ground'."),
 ],
 "2:7": [
@@ -437,7 +436,7 @@ A = {
 ],
 "3:12": [
  ((0,1,2,3,4,5), "The human said: The woman you set with me—", "vayomer ha'adam ha'ishah asher natatta immadi: 'the human said: the woman you gave with me'. 'Set' for natatta (gave, placed)."),
- ((6,7,8,9,10,11), "she handed me from the tree, and I ate.", "hi natenah li min ha'ets va'okhel: 'she gave me from the tree, and I ate'. 'Handed' is the physical stretch of natan."),
+ ((6,7,8,9,10,11), "she gave me from the tree, and I ate.", "hi natenah li min ha'ets va'okhel: 'she gave me from the tree, and I ate'. 'Given' is the head term for natan (lexicon.md)."),
 ],
 "3:13": [
  ((0,1,2,3,4,5,6), "YHWH Elohim said to the woman: What is this you have done?", "vayomer YHWH 'elohim la'ishah mah zot 'asit: 'YHWH God said to the woman, what is this you did?'."),
@@ -559,7 +558,7 @@ A = {
 ],
 "4:12": [
  ((0,1,2,3,4,5,6,7,8), "When you work the red, it will no more give you its strength.", "ki ta'avod et ha'adamah lo tosef tet kocha lakh: 'when you work the ground, it will no longer give you its strength'. Yasaf with an infinitive is 'no longer'; 'add' is a misreading (corrected from an earlier draft)."),
- ((9,10,11,12), "A reeler, a wanderer, you will be on the earth.", "na' vanad tihyeh ba'arets: 'a staggerer and a drifter you will be in the earth'. 'Reeler' and 'wanderer' are the physical stretch of two sounds of motion."),
+ ((9,10,11,12), "A reeler, a wanderer, you will be on the ground.", "na' vanad tihyeh ba'arets: 'a staggerer and a drifter you will be in the earth'. 'Reeler' and 'wanderer' are the physical stretch of two sounds of motion."),
 ],
 "4:13": [
  ((0,1,2,3,4,5,6), "Qayin said to YHWH: My twist is heavier than I can lift,", "vayomer qayin el YHWH gadol avoni minnesso: 'Qayin said to YHWH: my guilt is great, from bearing'. 'Twist' is the physical stretch of avon (guilt, twisted way); 'lift' carries nasa'."),
@@ -568,7 +567,7 @@ A = {
 "4:14": [
  ((0,1,2,3,4,5,6), "Look—you drive me out today from the face of the red.", "hen gerashta oti hayyom me'al penei ha'adamah: 'look, you drive me out today from upon the face of the ground'. Garash is 'drive out'."),
  ((7,8), "I will hide from your face;", "umippanekha essater: 'and from your face I shall hide'."),
- ((9,10,11,12), "I shall be a reeler and wanderer on the earth,", "vehayiti na' vanad ba'arets: 'and I shall be a staggerer and a drifter in the earth'."),
+ ((9,10,11,12), "I shall be a reeler and wanderer on the ground,", "vehayiti na' vanad ba'arets: 'and I shall be a staggerer and a drifter in the earth'."),
  ((13,14,15,16), "and whoever finds me will kill me.", "vehayah kol motz'i yahargeni: 'and whoever finds me will kill me'."),
 ],
 "4:15": [

@@ -18,8 +18,8 @@ T = [
 ("1:1",
  ["At the head of the head, Elohim began to cut:",
   "the sky, the hammered bowl—",
-  "the ground, the red, the raw meat under it."],
- "Re'shit (רֵאשִׁית) is a construct: 'at the head of' or 'in the beginning of'. Read as a temporal clause, the verse becomes subordinate: the making is an event, not a fact. 'Elohim' is kept as a name: plural in form, singular in verb. Bara' (בָּרָא) is used of God in the Qal alone; its root is disputed, and 'to cut' is one proposal. 'Hack' is the register stretching that sense. 'The hammered bowl' answers raqia' (1:6). The particle 'et (אֵת) marks the object and is left untranslated in the English. 'The red' and 'the raw meat under it' are additions: 'erets is not adamah, and nothing in the verse says flesh. LXX: 'en archē epoiēsen ho theos', 'in beginning made God'; poiein replaces bara', and archē has no article."),
+  "the ground, the dirt under it."],
+ "Re'shit (רֵאשִׁית) is a construct: 'at the head of' or 'in the beginning of'. Read as a temporal clause, the verse becomes subordinate: the making is an event, not a fact. 'Elohim' is kept as a name: plural in form, singular in verb. Bara' (בָּרָא) is used of God in the Qal alone; its root is disputed, and 'to cut' is one proposal. 'Hack' is the register stretching that sense. 'The hammered bowl' answers raqia' (1:6). The particle 'et (אֵת) marks the object and is left untranslated in the English. 'The red' is an addition ('erets is not adamah); 'the dirt under it' is the physical gloss for 'erets. LXX: 'en archē epoiēsen ho theos', 'in beginning made God'; poiein replaces bara', and archē has no article."),
 
 ("1:2",
  ["The ground was a gape. A wasting. A mouth with nothing in it.",
@@ -31,13 +31,13 @@ T = [
 
 ("1:3",
  ["He said: Be, light!",
-  "And light tore out of the dark, a birth-cry, wet."],
- "Yehi or (יְהִי אוֹר): 'let there be light'. 'Howled', 'birth-cry', and 'wet' are stretches: the Hebrew has a plain imperative and a plain 'and it was'. LXX: 'let it become light' (genēthētō phōs), calmer."),
+  "And light came tearing up out of the dark."],
+ "Yehi or (יְהִי אוֹר): 'let there be light'. 'Howled' and 'tearing up' are stretches: the Hebrew has a plain imperative and a plain 'and it was'. LXX: 'let it become light' (genēthētō phōs), calmer."),
 
 ("1:4",
- ["Elohim saw the light: good. The wet flesh of it, good.",
+ ["Elohim saw the light: good.",
   "He drove a gash between the light and the dark."],
- "Badal (וַיַּבְדֵּל): 'separate, divide'; 'drove a gash' is the register's word for the same act. Tov (טוֹב) is 'good' as fitness, not virtue; 'the wet flesh of it' is an addition. LXX diechōrisen, 'separated'."),
+ "Badal (וַיַּבְדֵּל): 'separate, divide'; 'drove a gash' is the register's word for the same act. Tov (טוֹב) is 'good' as fitness, not virtue. LXX diechōrisen, 'separated'."),
 
 ("1:5",
  ["He named the light Day. The dark, he named Night.",
@@ -116,7 +116,7 @@ T = [
  "Memshelet (מֶמְשֶׁלֶת), 'dominion', from mashal. Mashal 'rule' and mashal 'proverb' are usually treated as homonyms; the pun is the English's, not established. The text names neither sun (shemesh) nor moon (yarach); commentators have remarked this. LXX keeps the two-lamp structure."),
 
 ("1:17",
- ["He hung them in the hammered sky",
+ ["He gave them a place in the hammered sky",
   "to pour light on the ground."],
  "Wayyiten (וַיִּתֵּן), 'gave, set'. 'Hung' is the register: the lamps are placed like objects."),
 
@@ -148,7 +148,7 @@ T = [
 ("1:22",
  ["He blessed them: Burst! Swarm!",
   "Fill the seas!",
-  "Let the fliers breed on the earth."],
+  "Let the fliers breed on the ground."],
  "Wayevarekh (וַיְבָרֶךְ): 'blessed'. The root barak is often linked to 'knee' (berekh), a link debated. Peru (פְּרוּ), from parah: 'break out, bear fruit'. Rivu (רְבוּ), from rabah: 'become a crowd'. LXX gives auxanesthe, plēthynesthe, plērōsate: two verbs of growth and 'fill'; 'burst' is lost there."),
 
 ("1:23",
@@ -186,14 +186,14 @@ T = [
  "Bara' (בָּרָא) occurs three times here; 'gouged' keeps the striking. LXX epoiēsen, 'made', three times: the threefold verb is flattened. Tselem recurs. The pronoun 'his' can refer to God or to the human; the Hebrew holds both."),
 
 ("1:28",
- ["He blessed them. He said: Burst, swarm, fill the earth;",
+ ["He blessed them. He said: Burst, swarm, fill the ground;",
   "trample it like cloth in the washing-pit;",
   "tread the fish, the fowl,",
   "every crawler that crawls on the ground."],
  "Kivshuha (כִּבְשֻׁהָ), from kavash: 'to subdue'. Kavas, 'to press and beat cloth', is a different root from kavash: the washing-pit is the English's addition, not a Hebrew sense. LXX katakyrieusate, 'lord it over', is a legal verb. Radu (רְדוּ) is the verb of 1:26."),
 
 ("1:29",
- ["He said: Look—I have handed you",
+ ["He said: Look—I have given you",
   "every seed-spitting herb over the whole face of the ground,",
   "and every fruit-wood that holds seed-fruit in itself.",
   "For you: to eat."],
@@ -239,17 +239,17 @@ T = [
   "in their being cut,",
   "in the day YHWH Elohim made",
   "ground and sky."],
- "Toledot (תּוֹלְדוֹת): 'begettings, generations', from yalad, 'to bear'. LXX hautē hē biblos geneseōs, 'this is the book of origin': the source of the Greek title Genesis. The order inverts 1:1: a chiasm. 'YHWH' is left as the Name, unpronounced in the tradition."),
+ "Toledot (תּוֹלְדוֹת): 'begettings, generations', from yalad, 'to bear'. LXX hautē hē biblos geneseōs, 'this is the book of origin': the source of the Greek title Genesis. The order inverts 1:1: a chiasm. 'YHWH' is left as the Name, unpronounced in the tradition. LXX has ho theos alone, without kyrios, where the Hebrew has YHWH Elohim: the Name is not rendered in the Greek."),
 
 ("2:5",
  ["No thorn-bush of the field yet on the ground,",
   "no grass of the field yet sprung.",
   "YHWH Elohim had not rained on the ground,",
   "and there was no human to work the red."],
- "Siach (שִׂיחַ), 'shrub'; a separate siach, 'meditation, talk', is probably a homonym (Ps 77:13 Hebrew numbering; 77:12 English). Sadeh (שָׂדֶה), 'open field, wild land'. Le-ovod (לַעֲבֹד), 'to work, to serve'."),
+ "Siach (שִׂיחַ), 'shrub'; a separate siach, 'meditation, talk', is probably a homonym (Ps 77:13 Hebrew numbering; 77:12 English). Sadeh (שָׂדֶה), 'open field, wild land'. Le-ovod (לַעֲבֹד), 'to work, to serve'. LXX has ho theos alone for YHWH Elohim here, as at 2:4."),
 
 ("2:6",
- ["A seep rose out of the earth",
+ ["A seep rose out of the ground",
   "and drenched the whole face of the red."],
  "Ed (אֵד), 'mist, flow, spring': the Hebrew can be a vapour or an underground seep; 'seep' keeps the second. LXX pēgē, 'spring'."),
 
@@ -257,7 +257,7 @@ T = [
  ["YHWH Elohim potted the human from dust of the ground—afar—",
   "and blew into his nostrils breath of lives;",
   "and the human became a living throat."],
- "Yatzar (יָצַר): 'to shape, mould' as a potter does: 'potted'. Afar (עָפָר), 'dust'. Appav (אַפָּיו), 'his nostrils'; the same word is used of anger (aph). Nefesh chayah is 'living breath' for the animals in 1:20–21; here 'living throat'. LXX eis psychēn zōsan, 'living soul'. LXX renders the nostrils as eis to prosōpon, 'into the face', not 'into the nostrils'."),
+ "Yatzar (יָצַר): 'to shape, mould' as a potter does: 'potted'. Afar (עָפָר), 'dust'. Appav (אַפָּיו), 'his nostrils'; the same word is used of anger (aph). Nefesh chayah is 'living breath' for the animals in 1:20–21; here 'living throat'. LXX eis psychēn zōsan, 'living soul'. LXX renders the nostrils as eis to prosōpon, 'into the face', not 'into the nostrils'. LXX has ho theos alone for YHWH Elohim here (kyrios is dropped), as at 2:4."),
 
 ("2:8",
  ["YHWH Elohim planted a garden of delight,",
@@ -270,7 +270,7 @@ T = [
   "sweet to the mouth;",
   "the tree of lives at the garden's heart,",
   "and the tree of knowing good and harm."],
- "Nekhmad (נֶחְמָד): 'desirable, coveted' (cf. 3:6). Chayyim (חַיִּים): 'lives', plural. Da'at (דַּעַת), 'knowing'; yada' is the verb of intimate knowledge (4:1). Tov va-ra' (טוֹב וָרָע): 'good and harm'; ra' carries ruin as well as evil. LXX adds 'known' (gnōston)."),
+ "Nekhmad (נֶחְמָד): 'desirable, coveted' (cf. 3:6). Chayyim (חַיִּים): 'lives', plural. Da'at (דַּעַת), 'knowing'; yada' is the verb of intimate knowledge (4:1). Tov va-ra' (טוֹב וָרָע): 'good and harm'; ra' carries ruin as well as evil. LXX adds 'known' (gnōston). LXX has ho theos alone for YHWH Elohim here, as at 2:4."),
 
 ("2:10",
  ["A river came out of delight to water the garden;",
@@ -329,7 +329,7 @@ T = [
   "and brought them to the human to see what he would call them.",
   "Whatever the human called each breathing thing,",
   "that was its name."],
- "Yatzar again: the verb of 2:7. Mah-yiqra-lo (מַה־יִּקְרָא־לוֹ), 'what he would call them'. Shemo (שְׁמוֹ), 'its name'. LXX eplasen, 'formed'."),
+ "Yatzar again: the verb of 2:7. Mah-yiqra-lo (מַה־יִּקְרָא־לוֹ), 'what he would call them'. Shemo (שְׁמוֹ), 'its name'. LXX eplasen, 'formed'. LXX has ho theos alone for YHWH Elohim here, as at 2:4."),
 
 ("2:20",
  ["The human called names:",
@@ -341,7 +341,7 @@ T = [
  ["YHWH Elohim dropped a heavy sleep on the human.",
   "He slept. He took one of his sides—tsela—",
   "and shut the flesh over the place."],
- "Tardemah (תַּרְדֵּמָה): deep sleep, trance (cf. 15:12). Tsela' (צֵלָע): 'side, rib'. Vayisgor (וַיִּסְגֹּר): 'shut'. LXX ekstasin, 'ecstasy'."),
+ "Tardemah (תַּרְדֵּמָה): deep sleep, trance (cf. 15:12). Tsela' (צֵלָע): 'side, rib'. Vayisgor (וַיִּסְגֹּר): 'shut'. LXX ekstasin, 'ecstasy'. LXX has ho theos alone for YHWH Elohim here, as at 2:4."),
 
 ("2:22",
  ["YHWH Elohim built the side he had taken from the human",
@@ -434,7 +434,7 @@ T = [
 
 ("3:12",
  ["The human said: The woman you set with me—",
-  "she handed me from the tree, and I ate."],
+  "she gave me from the tree, and I ate."],
  "Immadi (עִמָּדִי), 'with me'. The man puts the blame on the gift."),
 
 ("3:13",
@@ -498,7 +498,7 @@ T = [
   "knowing good and harm.",
   "Now lest he reach out his hand, take also from the tree of lives,",
   "eat, and live—forever."],
- "Ke-echad mi-mennu (כְּאַחַד מִמֶּנּוּ): 'like one of us' or 'of it'. The 'us' is plural. 'Forever' (le-olam) names the boundary death keeps. LXX hōs heis ex hēmōn, 'as one of us'."),
+ "Ke-echad mi-mennu (כְּאַחַד מִמֶּנּוּ): 'like one of us' or 'of it'. The 'us' is plural. 'Forever' (le-olam) names the boundary death keeps. LXX hōs heis ex hēmōn, 'as one of us'. LXX has ho theos alone for YHWH Elohim here, as at 2:4."),
 
 ("3:23",
  ["YHWH Elohim sent him out from the garden of delight,",
@@ -509,7 +509,7 @@ T = [
  ["He drove the human out.",
   "At the east of the garden of delight he set the cherubim",
   "and the flame of the turning blade, to guard the road to the tree of lives."],
- "Vayegaresh (וַיְגָרֶשׁ): 'drove out'. Garash is 'drive out'; the divorce sense belongs to the participle gerushah (Lev 21:7; 22:13). Kerubim (כְּרֻבִים): winged guardians. Hammitpakhet (הַמִּתְהַפֶּכֶת): 'turning, reversing itself'. LXX strephomenēn, 'turning'."),
+ "Vayegaresh (וַיְגָרֶשׁ): 'drove out'. Garash is 'drive out'; the divorce sense belongs to the participle gerushah (Lev 21:7; 22:13). Kerubim (כְּרֻבִים): winged guardians. Hammitpakhet (הַמִּתְהַפֶּכֶת): 'turning, reversing itself'. LXX strephomenēn, 'turning'. LXX reads 'and he settled him (Adam) opposite the garden of delight' (katōikisen): the human is the object of the settling, a different sense from the Hebrew's 'he set the cherubim'."),
 
 ("4:1",
  ["Now the human knew Chavah his woman;",
@@ -571,7 +571,7 @@ T = [
 
 ("4:12",
  ["When you work the red, it will no more give you its strength.",
-  "A reeler, a wanderer, you will be on the earth."],
+  "A reeler, a wanderer, you will be on the ground."],
  "Na' va-nad (נָע וָנָד): 'staggering and wandering'. Ko'ach (כֹּחַ): 'strength'. LXX stenōn kai tremōn, 'groaning and trembling'."),
 
 ("4:13",
@@ -582,7 +582,7 @@ T = [
 ("4:14",
  ["Look—you drive me out today from the face of the red.",
   "I will hide from your face;",
-  "I shall be a reeler and wanderer on the earth,",
+  "I shall be a reeler and wanderer on the ground,",
   "and whoever finds me will kill me."],
  "Garashta (גֵּרַשְׁתָּ): 'you drove out', garash again (see 3:24). Yahargeni (יַהַרְגֵנִי): 'will kill me', harag again."),
 
