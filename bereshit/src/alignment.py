@@ -7,7 +7,7 @@
 A = {
 '1:1': [
  ((0,), 'At the head of the head,', "bereshit: 'at the head of'. The doubled head keeps the construct."),
- ((1, 2), 'Elohim began to cut:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note)."),
+ ((1, 2), 'Elohim began to cut, as a blade goes into meat:', "bara' 'elohim: head term 'cut' (lexicon.md). 'Began' is the temporal reading of the construct (1:1 note). 'As a blade goes into meat' is an addition, marked; the head term is 'cut'."),
  ((3, 4), 'the sky, the hammered bowl—', "'et hashamayim: 'the heavens'. 'Hammered bowl' answers raqia' (1:6). 'Et is not rendered."),
  ((5, 6), 'the ground, the dirt under it.', "ve'et ha'arets: 'and the ground'. 'The dirt under it' is the physical gloss; the Hebrew says only 'the ground'."),
 ],
@@ -18,12 +18,12 @@ A = {
  ((4, 5, 6, 7), 'Dark coiled on the lip of the Deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
  ((8, 9), 'And the Wind of Elohim—', "veruach elohim: 'and the wind of God'. Wind is the head term for ruach (lexicon.md)."),
  ((10,), 'a bird that flutters over its young—', "merachefet: fluttering, the root of Deut 32:11's eagle over its young."),
- ((11, 12, 13), 'beat over the belly of the waters.', "'al penei hamayim: 'over the face of the waters'. 'Belly' for penei is the physical stretch, marked."),
+ ((11, 12, 13), 'beat over the belly of the waters, shuddering.', "'al penei hamayim: 'over the face of the waters'. 'Belly' for penei is the physical stretch, marked. 'Shuddering' is an addition, marked: merachefet carries the motion."),
 ],
 '1:3': [
  ((0, 1), 'He said:', "vayomer elohim: head term 'said'."),
  ((2, 3), 'Be, light!', "yehi or: 'let there be light'. Imperative with the subject after the verb."),
- ((4, 5), 'And light came tearing up out of the dark.', "vayehi or: 'and light was'. 'Came tearing up out of the dark' is a marked physical stretch of wayehi."),
+ ((4, 5), 'And light came tearing up out of the dark like a birth.', "vayehi or: 'and light was'. 'Came tearing up out of the dark' is a marked physical stretch of wayehi. 'Like a birth' is an addition, marked."),
 ],
 '1:4': [
  ((0, 1, 2, 3), 'Elohim saw the light: good.', "vayar elohim et ha'or ki tov: head terms 'saw', 'good' (tov as fitness, not virtue)."),
@@ -125,7 +125,7 @@ A = {
 ],
 '1:20': [
  ((0, 1), 'He said:', 'vayomer elohim.'),
- ((2, 3, 4, 5), 'let the waters seethe with a swarming of breathing things;', "yishretzu hamayim sheretz nefesh chayah: 'let the waters swarm with a swarm of living breath'. 'Seethe' is the physical stretch of sharats."),
+ ((2, 3, 4, 5), 'let the waters crawl with a swarming of breathing things;', "yishretzu hamayim sheretz nefesh chayah: 'let the waters swarm with a swarm of living breath'. 'Seethe' is the physical stretch of sharats. 'Crawl' is the physical head for sharats/sheretz (small creeping things)."),
  ((6,), '', 'chayah: carried above.'),
  ((7, 8), 'and let fliers flutter', "veof yeofef: 'and bird flying'. The doubled verb of flight."),
  ((9, 10), 'over the ground,', "'al ha'arets: 'over the ground'."),
@@ -256,12 +256,12 @@ A = {
 ],
 '2:5': [
  ((0, 1, 2, 3, 4, 5, 6), 'No thorn-bush of the field yet on the ground,', "vekhol siach hasadeh terem yihyeh ba'arets: 'no bush of the field yet on the earth'."),
- ((7, 8, 9, 10, 11), 'no grass of the field, not yet sprung.', "vekhol esev hasadeh terem yitzmach: 'no herb of the field yet sprouted'. 'Sprung' is the physical verb."),
+ ((7, 8, 9, 10, 11), 'no grass of the field, not yet poked up.', "vekhol esev hasadeh terem yitzmach: 'no herb of the field yet sprouted'. 'Sprung' is the physical verb. 'Poked up' is the physical stretch of yitzmach (to sprout)."),
  ((12, 13, 14, 15, 16, 17, 18), 'for YHWH Elohim had not rained on the ground,', "ki lo himtir YHWH elohim al ha'arets: 'for YHWH God had not rained on the ground'."),
  ((19, 20, 21, 22, 23), 'and no human to work the red.', "veadam ayin la'avod et ha'adamah: 'and no human to work the red'."),
 ],
 '2:6': [
- ((0, 1, 2, 3), 'A seep came up out of the ground', "ved ya'aleh min ha'arets: 'a seep rose from the ground'. 'Came up' is the physical stretch of 'alah."),
+ ((0, 1, 2, 3), 'A seep welled up out of the ground', "ved ya'aleh min ha'arets: 'a seep rose from the ground'. 'Came up' is the physical stretch of 'alah. 'Welled up' is the physical stretch of 'alah for a seep."),
  ((4, 5, 6, 7, 8), 'and soaked the whole face of the red.', "vehishkah et kol penei ha'adamah: 'and watered all the face of the red'. 'Soaked' is the physical stretch of hishqah."),
 ],
 '2:7': [
@@ -276,7 +276,7 @@ A = {
 ],
 '2:9': [
  ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'From the red he made spring every tree to covet with the eyes,', "wayyatzmach YHWH elohim min ha'adamah kol ets nekhmad lemar'eh: 'made spring every tree desirable to see'. 'Covet' is the body stretch of chamad."),
- ((9, 10), 'sweet to the mouth;', "vetov lema'akhal: 'good for food'. 'Sweet' and 'mouth' are body stretches of tov and eating."),
+ ((9, 10), 'sweet on the tongue;', "vetov lema'akhal: 'good for food'. 'Sweet' and 'mouth' are body stretches of tov and eating. 'On the tongue' is the physical stretch of 'to the mouth'."),
  ((11, 12, 13, 14), "the tree of lives at the garden's heart,", "ve'ets hachayyim betokh hagan: 'the tree of lives in the middle of the garden'."),
  ((15, 16, 17, 18), 'and the tree of knowing good and harm.', "ve'ets hada'at tov vara': 'the tree of knowing good and harm'."),
 ],
@@ -335,7 +335,7 @@ A = {
  ((10, 11, 12, 13, 14), 'But for the human, no face across from him was found.', "ule'adam lo matza ezer kenegdo: 'but for the human no help opposite him was found'."),
 ],
 '2:21': [
- ((0, 1, 2, 3, 4, 5, 6), 'YHWH Elohim threw a heavy sleep on the human.', "wayyappel YHWH elohim tardemah al ha'adam: 'caused a deep sleep to fall on the human'. 'Threw' is the physical stretch of hapil."),
+ ((0, 1, 2, 3, 4, 5, 6), 'YHWH Elohim threw a heavy sleep on the human, like a stone.', "wayyappel YHWH elohim tardemah al ha'adam: 'caused a deep sleep to fall on the human'. 'Threw' is the physical stretch of hapil. 'Like a stone' is an addition, marked; threw is the physical head of hapil."),
  ((7,), 'He slept.', "wayyishan: 'and he slept'."),
  ((8, 9, 10), 'He took one of his ribs—tsela—', "vayyiqqach achat mitzal'otav: 'took one of his sides'. 'Ribs' is the body stretch of tsela' (side or rib)."),
  ((11, 12, 13), 'and shut the meat over the place.', "vayyisgor basar tachtennah: 'and shut the flesh over its place'. 'Meat' is the body stretch of basar."),
@@ -353,7 +353,7 @@ A = {
 ],
 '2:24': [
  ((0, 1, 2, 3, 4, 5, 6, 7), 'Therefore: a man leaves father and mother,', "al ken ya'azov ish et avav ve'et immo: 'therefore a man leaves his father and mother'. 'Therefore' marks the narrator stepping out."),
- ((8, 9), 'clings, glues himself to his woman;', "vedavaq be'ishto: 'clings to his wife'. 'Glues himself' is the body stretch of davaq."),
+ ((8, 9), 'clings, glues himself to his woman like mortar;', "vedavaq be'ishto: 'clings to his wife'. 'Glues himself' is the body stretch of davaq. 'Like mortar' is the comparison davaq makes available; marked as a stretch."),
  ((10, 11, 12), 'and they are one flesh.', "vehayu levasar ehad: 'and they shall be one flesh'."),
 ],
 '2:25': [
@@ -456,7 +456,7 @@ A = {
  ((18, 19, 20, 21, 22), 'In pain you will eat from it all the days of your life.', "be'itstsavon tokhelenah kol yemei chayyekha."),
 ],
 '3:18': [
- ((0, 1, 2, 3), 'Thorn and thistle it will sprout for you;', 'vekotz vedardar tatzmiach lakh.'),
+ ((0, 1, 2, 3), 'Thorn and thistle it will push up for you;', "vekotz vedardar tatzmiach lakh. 'Push up' is the physical stretch of tatzmiach."),
  ((4, 5, 6, 7), 'you will eat the grass of the field.', "ve'akhalta et 'eseb hasadeh: 'you shall eat the herb of the field'."),
 ],
 '3:19': [
@@ -526,7 +526,7 @@ A = {
  ((0, 1, 2, 3, 4), 'Qayin spoke to Hevel his brother—', "vayomer qayin el hevel achiv: the Hebrew gives no words; the dash is the English's."),
  ((5, 6, 7), 'and it was, in the field,', 'vayehi bihyotam basadeh.'),
  ((8, 9, 10, 11, 12), 'that Qayin reared on Hevel his brother', 'vayyaqom qayin el hevel achiv.'),
- ((13,), 'and struck him dead.', "vayyahargehu: 'killed him'. 'Struck him dead' is the body word for harag."),
+ ((13,), 'and struck him down, and he died.', "vayyahargehu: 'killed him'. 'Struck him dead' is the body word for harag. 'Struck him down, and he died' is the body word for harag plus the result."),
 ],
 '4:9': [
  ((0, 1, 2, 3, 4, 5, 6), 'YHWH said to Qayin: Where is Hevel your brother?', 'vayomer YHWH el qayin ei hevel achikha.'),
