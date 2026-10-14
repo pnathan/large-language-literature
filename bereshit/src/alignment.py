@@ -16,7 +16,7 @@ A = {
  ((2,), 'a waste and a void.', "tohu: 'waste, emptiness'. 'Gape' is the physical stretch."),
  ((3,), 'Emptiness, nothing in it.', "vavohu: 'and emptiness'. The second image is the physical stretch of the pair."),
  ((4, 5, 6, 7), 'And dark was on the face of the deep.', "vechoshekh al penei tehom: 'and dark on the face of the deep'. 'Coiled' is the physical stretch of 'al; 'lip' for penei."),
- ((8, 9), 'And the wind of Divinity,', "veruach elohim: 'and the wind of Divinity'. Wind is the head term for ruach (lexicon.md)."),
+ ((8, 9), 'And the wind of Divinity was', "veruach elohim: 'and the wind of Divinity'. Wind is the head term for ruach (lexicon.md)."),
  ((10,), 'fluttering over the face of the waters.', "merachefet: fluttering, the root of Deut 32:11's eagle over its young."),
  ((11, 12, 13), '', "'al penei hamayim: 'over the face of the waters'. 'Belly' for penei is the physical stretch, marked. 'Shuddering' is an addition, marked: merachefet carries the motion."),
 ],
@@ -55,8 +55,8 @@ A = {
 '1:8': [
  ((0, 1), 'Divinity named the plate Sky.', "vayiqra elohim laraqia' shamayim: 'called the firmament heavens'. 'Sky' narrows the plural."),
  ((2, 3), '', "shamayim: folk sound-play 'sham-mayim'; not in the text, marked."),
- ((4, 5), 'Evening.', 'vayehi erev.'),
- ((6, 7), 'Morning.', 'vayehi boqer.'),
+ ((4, 5), 'Evening came.', 'vayehi erev.'),
+ ((6, 7), 'Morning came.', 'vayehi boqer.'),
  ((8, 9), 'A second day.', "yom sheni: 'day second'."),
 ],
 '1:9': [
@@ -75,20 +75,20 @@ A = {
 ],
 '1:11': [
  ((0, 1, 2, 3, 4), 'Divinity said: let the ground sprout a sprouting—', "vayomer elohim tadshe ha'arets deshe': 'Divinity said: let the ground sprout sprouting'. Cognate accusative kept as a compound."),
- ((5, 6, 7), 'plants spitting seed,', "esev mazri'a zera': 'herb seeding seed'. 'Spitting' is the physical stretch of mazri'a."),
+ ((5, 6, 7), 'plants seeding seed,', "esev mazri'a zera': 'herb seeding seed'. 'Spitting' is the physical stretch of mazri'a."),
  ((8, 9, 10, 11, 12), 'fruit tree making fruit after its kind,', "ets peri oseh peri lemino: 'fruit-tree making fruit after its kind'."),
- ((13, 14, 15, 16, 17), 'seed in its own body, on the ground.', "asher zar'o bo 'al ha'arets: 'whose seed is in it, on the ground'."),
+ ((13, 14, 15, 16, 17), 'whose seed is in it, on the ground.', "asher zar'o bo 'al ha'arets: 'whose seed is in it, on the ground'."),
  ((18, 19), 'So.', 'vayehi-ken.'),
 ],
 '1:12': [
  ((0, 1, 2), 'The ground heaved and pushed up a greening:', "wattotse ha'arets deshe': 'the ground brought out sprouting'. 'Heaved' is the physical stretch of yatsa'."),
- ((3, 4, 5, 6), 'plants spitting seed after its kind,', "esev mazri'a zera' lemineihu."),
+ ((3, 4, 5, 6), 'plants seeding seed after its kind,', "esev mazri'a zera' lemineihu."),
  ((7, 8, 9, 10, 11, 12, 13), 'fruit tree making fruit, seed in its body, after its kind.', "ets oseh peri asher zar'o bo lemineihu: 'fruit-tree making fruit, whose seed is in it, after its kind'."),
  ((14, 15, 16, 17), 'Divinity saw: good.', 'vayar elohim ki tov.'),
 ],
 '1:13': [
- ((0, 1), 'Evening.', 'vayehi erev.'),
- ((2, 3), 'Morning.', 'vayehi boqer.'),
+ ((0, 1), 'Evening came.', 'vayehi erev.'),
+ ((2, 3), 'Morning came.', 'vayehi boqer.'),
  ((4, 5), 'A third day.', "yom shelishi: 'day third'."),
 ],
 '1:14': [
@@ -119,8 +119,8 @@ A = {
  ((8, 9, 10, 11), 'Divinity saw: good.', 'vayar elohim ki tov.'),
 ],
 '1:19': [
- ((0, 1), 'Evening.', 'vayehi erev.'),
- ((2, 3), 'Morning.', 'vayehi boqer.'),
+ ((0, 1), 'Evening came.', 'vayehi erev.'),
+ ((2, 3), 'Morning came.', 'vayehi boqer.'),
  ((4, 5), 'A fourth day.', "yom revi'i."),
 ],
 '1:20': [
@@ -136,7 +136,7 @@ A = {
  ((5, 6, 7, 8), 'and every living breath that crawls,', "ve'et kol nefesh hachayah harommeset: 'and every living breath that creeps'."),
  ((9,), '', 'paseq (׀), a cantillation mark; no English.'),
  ((10, 11, 12, 13, 14), 'which the waters swarmed with, after their kinds,', "asher sharetzu hamayim lemineihem: 'which the waters teemed with, after their kinds'."),
- ((15, 16, 17, 18, 19), 'and every winged bird, after its kind.', "ve'et kol of kanaf lemineihu: 'and every winged bird, after its kind'."),
+ ((15, 16, 17, 18, 19), 'and every winged flier, after its kind.', "ve'et kol of kanaf lemineihu: 'and every winged bird, after its kind'."),
  ((20, 21, 22, 23), 'Divinity saw: good.', 'vayar elohim ki tov.'),
 ],
 '1:22': [
@@ -147,8 +147,8 @@ A = {
  ((10, 11, 12), 'Let the fliers breed on the ground.', "vehaof yirev ba'arets: 'and let the bird multiply on the ground'. 'Breed' is the physical stretch of rabah."),
 ],
 '1:23': [
- ((0, 1), 'Evening.', 'vayehi erev.'),
- ((2, 3), 'Morning.', 'vayehi boqer.'),
+ ((0, 1), 'Evening came.', 'vayehi erev.'),
+ ((2, 3), 'Morning came.', 'vayehi boqer.'),
  ((4, 5), 'A fifth day.', 'yom chamishi.'),
 ],
 '1:24': [
@@ -209,7 +209,7 @@ A = {
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
  ((2,), 'Look—', 'hinneh.'),
  ((3, 4), 'I have given you', "natati lakhem: head term 'give' (lexicon.md)."),
- ((5, 6, 7), 'every seed-spitting plant', "et kol esev: 'every herb'. 'Seed-spitting' is the stretch of zoreah zera'."),
+ ((5, 6, 7), 'every seed-seeding plant', "et kol esev: 'every herb'. 'Seed-spitting' is the stretch of zoreah zera'."),
  ((8, 9, 10), '', "paseq and zoreah zera', carried above."),
  ((11, 12, 13, 14, 15), 'over the whole face of the ground,', "asher al penei kol ha'arets."),
  ((16, 17, 18), 'and every fruit tree', "ve'et kol ha'ets: 'and every tree'."),
