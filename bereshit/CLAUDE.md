@@ -6,8 +6,9 @@ raw roots and its ambiguities; a commentary column beside each verse gives root
 sense, LXX divergences, and the choices made. Published as one self-contained
 page: `docs/bereshit/index.html`.
 
-Status (2026-10-14): translator's draft complete for all 98 verses. **Not yet
-reviewed by an independent Fable-model pass** (see Methodology, item 5).
+Status: translator's draft complete for all 98 verses. Reviewed by an independent
+Opus-model pass, accepted by the project owner as the review for this work in place
+of the Fable pass, which could not run (no usage credits). See Methodology, item 5.
 
 ## Scope
 
@@ -56,7 +57,11 @@ reviewed by an independent Fable-model pass** (see Methodology, item 5).
    unavailable (for example, no usage credits), an Opus-model review on the same
    brief is permitted as a substitute. The page's commentary must name which
    model reviewed it and whether the review was run on the final text.
-   **Not yet done for this work.** Run it before the page is treated as final.
+   **Done for this work with Opus, accepted by the project owner.** The Opus pass ran
+   on the Hebrew, Greek and English files with no prior context; its findings are
+   recorded in `review-opus-questions.md`, and the kept and decided items are checked
+   by `src/check_decisions.py`. The Fable pass has not run (no usage credits on the
+   account); it can be run later and its findings added to that record.
 
 ## Files
 
