@@ -27,6 +27,11 @@ Rule for contested terms: the English carries an English gloss, never raw Hebrew
 or transliteration. The Hebrew token itself goes in the apparatus, linked to the
 English unit it renders, so each gloss can be checked against the Hebrew.
 
+Decided: ruach is 'wind' at 1:2 and 3:8 (the sense 'spirit' is noted only).
+bara' is 'cut' throughout (create, carve, hack and hew are noted as alternatives).
+nefesh is 'living breath' at 2:7 (the sense 'living throat' is noted).
+moadim at 1:14 is 'seasons', with the ritual-time sense in the note.
+
 Still open: the commentary and notes still describe some of these terms by their
 English gloss and have not been re-audited against this rule. Also open: the
 per-verse check that each head term is used where it appears.
