@@ -19,7 +19,7 @@ T = [
  ["At the head of the head, Elohim began to hack:",
   "the sky, the hammered bowl—",
   "the ground, the red, the raw meat under it."],
- "Re'shit (רֵאשִׁית) is a construct: 'at the head of' or 'in the beginning of'. Read as a temporal clause, the verse becomes subordinate: the making is an event, not a fact. 'Elohim' is kept as a name: plural in form, singular in verb. Bara' (בָּרָא) is used of God in the Qal alone; its root is disputed, and 'to cut' is one proposal. 'Hack' is the register stretching that sense. 'The hammered bowl' answers raqia' (1:6). The particle 'et (אֵת) marks the object and is left untranslated in the English. LXX: 'en archē epoiēsen ho theos', 'in beginning made God'; poiein replaces bara', and archē has no article."),
+ "Re'shit (רֵאשִׁית) is a construct: 'at the head of' or 'in the beginning of'. Read as a temporal clause, the verse becomes subordinate: the making is an event, not a fact. 'Elohim' is kept as a name: plural in form, singular in verb. Bara' (בָּרָא) is used of God in the Qal alone; its root is disputed, and 'to cut' is one proposal. 'Hack' is the register stretching that sense. 'The hammered bowl' answers raqia' (1:6). The particle 'et (אֵת) marks the object and is left untranslated in the English. 'The red' and 'the raw meat under it' are additions: 'erets is not adamah, and nothing in the verse says flesh. LXX: 'en archē epoiēsen ho theos', 'in beginning made God'; poiein replaces bara', and archē has no article."),
 
 ("1:2",
  ["The ground was a gape. A wasting. A mouth with nothing in it.",
@@ -49,7 +49,7 @@ T = [
  ["He said: beat out a plate, a skin of hammered stuff,",
   "in the belly of the waters: a wall, a splitter—",
   "water from water."],
- "Raqia' (רָקִיעַ), from raqa', 'to beat out, spread thin'. 'Skin' and 'plate' keep the hammering; 'firmament' (Latin, 'support') drops it. Lamayim (לָמָיִם) is grammatically odd: 'to the waters' or 'water to water'. LXX stereōma, 'firm thing'."),
+ "Raqia' (רָקִיעַ), from raqa', 'to beat out, spread thin'. 'Skin' and 'plate' keep the hammering; 'firmament' (Latin, 'support') drops it. Bein mayim lamayim is the ordinary idiom 'between water and water' (cf. Deut 17:8); nothing is odd about the lamed. LXX stereōma, 'firm thing'."),
 
 ("1:7",
  ["Elohim beat the skin out.",
@@ -60,14 +60,14 @@ T = [
 ("1:8",
  ["He named the skin Sky: sham-mayim, there are waters.",
   "Evening. Morning. The second day."],
- "Shamayim (שָׁמַיִם), 'the heavens', plural in form. The folk etymology sham-mayim, 'there are waters', is not an established derivation; kept for the sound. Day two has no 'good' judgment, a gap commentators note."),
+ "Shamayim (שָׁמַיִם), 'the heavens', plural in form. The folk etymology sham-mayim, 'there are waters', is not an established derivation; kept for the sound. Day two has no 'good' judgment in the Hebrew; the LXX supplies one ('and God saw that it was good', witness-lxx.json)."),
 
 ("1:9",
  ["He said: gather, waters, into one pit,",
   "one waiting-place.",
   "Pool, and hope. Let the dry tear up, bare.",
   "So. It held."],
- "Yiqqavu (יִקָּווּ), from qavah: 'to wait, to gather into a line, to hope'. 'Pool' and 'hope' are both kept from its field. Tera'eh (תֵרָאֶה), 'let it be seen', becomes 'tear up, bare': the dry is torn into visibility."),
+ "Yiqqavu (יִקָּווּ), from qavah: 'to wait, to gather into a line' and 'to hope' are often treated as separate roots; both are kept as readings. Tera'eh (תֵרָאֶה), 'let it be seen', becomes 'tear up, bare': the dry is torn into visibility. 'Beneath the heavens' (mittachat hashamayim) is not rendered: a loss. The LXX adds a report of execution: 'the water under heaven was gathered into its gatherings, and the dry appeared'."),
 
 ("1:10",
  ["He named the dry Earth.",
@@ -81,12 +81,12 @@ T = [
   "fruit-wood making fruit after its kind,",
   "seed in its own body, on the ground.",
   "So. It held."],
- "Tadshe' (תַּדְשֵׁא), from dasha': a cognate accusative, 'green a greening'. The verb and its noun deshe' are one word; 'green-burst a greening' keeps the compression. Lemino (לְמִינוֹ): 'after its kind' (min, species). LXX blastēsatō, 'let it sprout', and botanē chortou, 'herb of grass': the Greek flattens the pair."),
+ "Tadshe' (תַּדְשֵׁא), from dasha': a cognate accusative, 'green a greening'. The verb and its noun deshe' are one word; 'green-burst a greening' keeps the compression. Lemino (לְמִינוֹ): 'after its kind' (min, species). LXX blastēsatō, 'let it sprout', and botanē chortou, 'herb of grass': the Greek keeps both nouns; what is lost is the verb-noun compression of dasha'."),
 
 ("1:12",
  ["The ground heaved and pushed up a greening:",
   "grass spitting seed after its kind,",
-  "fruit-wood making fruit, seed in its body.",
+  "fruit-wood making fruit, seed in its body, after its kind.",
   "Elohim saw: good."],
  "Wattotse' (וַתּוֹצֵא): the ground, feminine, brings forth. 'Heaved' is the bodily verb for the agent. LXX exēnenken, 'brought forth'."),
 
@@ -100,7 +100,7 @@ T = [
   "cleaving day from night.",
   "Let them be signs, tellers of times,",
   "meeting-hours, days, years."],
- "Me'orot (מְאֹרֹת), from 'or (light, fire): 'fire-holders'. The text names neither sun nor moon here. Lemo'adim (לְמוֹעֲדִים), 'for appointed times', from ya'ad, 'to meet at an appointed place': 'meeting-hours' stretches it. Shanim (שָׁנִים) is the first 'year' (shanah, 'to repeat, to change'). LXX lists nouns: phōstēres, sēmeia, kairous, hēmeras, eniautous."),
+ "Me'orot (מְאֹרֹת), from 'or (light, fire): 'fire-holders'. The text names neither sun nor moon here. Lemo'adim (לְמוֹעֲדִים), 'for appointed times', from ya'ad, 'to meet at an appointed place': 'meeting-hours' stretches it. Shanim (שָׁנִים) is the first 'year' (shanah; a 'repeat' root is proposed, not settled). LXX lists nouns: phōstēres, sēmeia, kairous, hēmeras, eniautous."),
 
 ("1:15",
  ["Let them be fire-holders in the sky,",
@@ -113,7 +113,7 @@ T = [
   "the greater to rule the day,",
   "the lesser to rule the night,",
   "and the stars."],
- "Memshelet (מֶמְשֶׁלֶת), 'dominion', from mashal. The same root gives mashal, 'proverb, parable': the rule of day is also the day's saying. The text names neither sun (shemesh) nor moon (yarach); commentators have remarked this. LXX keeps the two-lamp structure."),
+ "Memshelet (מֶמְשֶׁלֶת), 'dominion', from mashal. Mashal 'rule' and mashal 'proverb' are usually treated as homonyms; the pun is the English's, not established. The text names neither sun (shemesh) nor moon (yarach); commentators have remarked this. LXX keeps the two-lamp structure."),
 
 ("1:17",
  ["He hung them in the hammered sky",
@@ -134,7 +134,8 @@ T = [
 ("1:20",
  ["He said: let the waters seethe",
   "with a swarming of breathing things;",
-  "and let fliers flutter across the face of the hammered sky."],
+  "and let fliers flutter over the ground,",
+  "across the face of the hammered sky."],
  "Yishretzu (יִשְׁרְצוּ), from sheretz: small things that teem and crawl. 'Seethe' stretches the teeming. Nefesh chayah (נֶפֶשׁ חַיָּה), 'living breath, living creature'. Nefesh is breath, throat, self; LXX psychē zōsa, 'living soul', puts the soul into the animal. Ye'opef (יְעוֹפֵף), a doubled verb of flying."),
 
 ("1:21",
@@ -148,7 +149,7 @@ T = [
  ["He blessed them: Burst! Swarm!",
   "Fill the seas!",
   "Let the fliers breed on the earth."],
- "Wayevarekh (וַיְבָרֶךְ): 'blessed'. The root barak is often linked to 'knee' (berekh), a link debated. Peru (פְּרוּ), from parah: 'break out, bear fruit'. Rivu (רְבוּ), from rabah: 'become a crowd'. LXX gives three verbs of growth; 'burst' is lost there."),
+ "Wayevarekh (וַיְבָרֶךְ): 'blessed'. The root barak is often linked to 'knee' (berekh), a link debated. Peru (פְּרוּ), from parah: 'break out, bear fruit'. Rivu (רְבוּ), from rabah: 'become a crowd'. LXX gives auxanesthe, plēthynesthe, plērōsate: two verbs of growth and 'fill'; 'burst' is lost there."),
 
 ("1:23",
  ["Evening. Morning.",
@@ -160,7 +161,7 @@ T = [
   "after their kind:",
   "cattle, crawlers, beasts of the ground, each after its kind.",
   "So. It held."],
- "Totse' (תּוֹצֵא): 'bring out'. 'Belch out' is the register's force on the same verb. Chayat ha-aretz (חַיְתוֹ־אֶרֶץ), 'beasts of the ground'. Remesh (רֶמֶשׂ), 'crawler'."),
+ "Totse' (תּוֹצֵא): 'bring out'. 'Belch out' is the register's force on the same verb. Chayto 'erets (חַיְתוֹ־אֶרֶץ), 'its beast of the earth' (the construct of 1:24, not the form of 1:25). Remesh (רֶמֶשׂ), 'crawler'."),
 
 ("1:25",
  ["Elohim made the beast of the ground after its kind,",
@@ -180,7 +181,7 @@ T = [
 ("1:27",
  ["Elohim gouged the human out of the red",
   "into a shadow of himself—",
-  "into the shadow of God he gouged him—",
+  "into the shadow of Elohim he gouged him—",
   "male and female he gouged them."],
  "Bara' (בָּרָא) occurs three times here; 'gouged' keeps the striking. LXX epoiēsen, 'made', three times: the threefold verb is flattened. Tselem recurs. The pronoun 'his' can refer to God or to the human; the Hebrew holds both."),
 
@@ -189,7 +190,7 @@ T = [
   "trample it like cloth in the washing-pit;",
   "tread the fish, the fowl,",
   "every crawler that crawls on the ground."],
- "Kivshuha (כִּבְשֻׁהָ), from kavash: 'to subdue'. The root is shared with kavas, 'to press and beat cloth': 'washing-pit' brings that floor-image in. LXX katakyrieusate, 'lord it over', is a legal verb. Radu (רְדוּ) is the verb of 1:26."),
+ "Kivshuha (כִּבְשֻׁהָ), from kavash: 'to subdue'. Kavas, 'to press and beat cloth', is a different root from kavash: the washing-pit is the English's addition, not a Hebrew sense. LXX katakyrieusate, 'lord it over', is a legal verb. Radu (רְדוּ) is the verb of 1:26."),
 
 ("1:29",
  ["He said: Look—I have handed you",
@@ -229,7 +230,7 @@ T = [
   "cut it out, set it apart,",
   "because on it he laid down",
   "from all the work Elohim cut to make."],
- "Vayevarekh (וַיְבָרֶךְ), 'blessed'; vayqaddesh (וַיְקַדֵּשׁ), 'made holy', from qadosh, 'set apart, cut away'. Bara' with the infinitive la'asot (לַעֲשׂוֹת) is a doubled verb. 'Knelt' is the register's word for barak. LXX hōn ērxato ho theos poiēsai, 'which God began to make': the LXX reads 'began', the reading that supports the temporal 1:1."),
+ "Vayevarekh (וַיְבָרֶךְ), 'blessed'; vayqaddesh (וַיְקַדֵּשׁ), 'made holy', from qadosh, 'set apart' (the 'cut away' gloss is speculative). Bara' with the infinitive la'asot (לַעֲשׂוֹת) is a doubled verb. 'Knelt' is the register's word for barak. LXX hōn ērxato ho theos poiēsai, 'which God began to make': the LXX reads 'began', rendering the bara' + la'asot idiom; weak support for the temporal reading of 1:1."),
 
 ("2:4",
  ["These are the begettings—",
@@ -245,7 +246,7 @@ T = [
   "no grass of the field yet sprung.",
   "YHWH Elohim had not rained on the ground,",
   "and there was no human to work the red."],
- "Siach (שִׂיחַ), 'shrub'; the root also gives 'meditation, talk' (Ps 77:13). Sadeh (שָׂדֶה), 'open field, wild land'. Le-ovod (לַעֲבֹד), 'to work, to serve'."),
+ "Siach (שִׂיחַ), 'shrub'; a separate siach, 'meditation, talk', is probably a homonym (Ps 77:13 Hebrew numbering; 77:12 English). Sadeh (שָׂדֶה), 'open field, wild land'. Le-ovod (לַעֲבֹד), 'to work, to serve'."),
 
 ("2:6",
  ["A seep rose out of the earth",
@@ -281,7 +282,7 @@ T = [
  ["The first: Pishon.",
   "It coils round all the land of Havilah, the writhing land,",
   "where the gold is."],
- "Havilah (חֲוִילָה), a place name; its root may be chul, 'to writhe, to bring forth in labour'. 'Writhing land' keeps that as a visible echo. Zahav (זָהָב), 'gold'. 'Coils' stretches sabbi, 'circles'."),
+ "Havilah (חֲוִילָה), a place name; its root may be chul, 'to writhe, to bring forth in labour'. 'Writhing land' keeps that as a visible echo. Zahav (זָהָב), 'gold'. 'Coils' stretches sovev (participle of sabab, 'go round'), 'circles'."),
 
 ("2:12",
  ["The gold of that land is good.",
@@ -290,8 +291,8 @@ T = [
 
 ("2:13",
  ["The second: Gihon.",
-  "It bursts out round all the land of Kush."],
- "Gihon (גִּיחוֹן), from gihah, 'to gush forth': the name hears its own action. Kush (כּוּשׁ) is a southern land, usually placed in Nubia or Ethiopia. LXX Aithiopia."),
+  "It winds round all the land of Kush."],
+ "Gihon (גִּיחוֹן), possibly from gihah, 'to gush forth' (a folk link, not established): the name hears its own action. Kush (כּוּשׁ) is a southern land, usually placed in Nubia or Ethiopia. LXX Aithiopia."),
 
 ("2:14",
  ["The third: Hiddekel, running east of Ashur.",
@@ -320,7 +321,7 @@ T = [
   "the human alone.",
   "I will make him a help,",
   "a counter-face."],
- "Ezer (עֵזֶר), 'help'. The word is used of God (Ps 33:20) and implies no inferiority. Kenegdo (כְּנֶגְדּוֹ), 'opposite him': a mirror-face. LXX boēthon kat' auton, 'a helper like him'."),
+ "Ezer (עֵזֶר), 'help'. The word is used of God (Ps 33:20) and implies no inferiority. Kenegdo (כְּנֶגְדּוֹ), 'opposite him': a mirror-face. LXX boēthon kat' auton, 'a helper like him'. LXX 2:18 reads poiēsōmen ('let us make') for the Hebrew 'eeseh ('I will make')."),
 
 ("2:19",
  ["From the red, YHWH Elohim potted every beast of the field",
@@ -359,7 +360,7 @@ T = [
  ["Therefore: a man leaves father and mother,",
   "clings, glues himself to his woman;",
   "and they are one flesh."],
- "Ya'azov (יַעֲזָב), 'leaves, forsakes'. Davaq (דָּבַק), 'cling, weld', the verb for mortar: 'glues' keeps the material sense. 'Therefore' (al-ken) marks the narrator stepping out of the story."),
+ "Ya'azov (יַעֲזָב), 'leaves, forsakes'. Davaq (דָּבַק), 'cling, weld', to cling, stick (not a settled mortar sense): 'glues' keeps the material sense. 'Therefore' (al-ken) marks the narrator stepping out of the story. LXX adds hoi duo, 'the two'."),
 
 ("2:25",
  ["Both bare, the human and his woman,",
@@ -382,7 +383,7 @@ T = [
  ["But from the fruit of the tree in the middle of the garden,",
   "Elohim said: do not eat from it, do not touch it,",
   "lest you die."],
- "'Do not touch it' is not in 2:17. The woman adds a prohibition. Pen-tmutun (פֶּן־תְּמֻתוּן): 'lest you become dead'. The LXX has the same addition (mēde hapsēsthe), so it predates the Greek."),
+ "'Do not touch it' is not in 2:17. The woman adds a prohibition. Pen-tmutun (פֶּן־תְּמֻתוּן): 'lest you become dead'. The LXX has the same addition (mēde hapsēsthe), so the addition is already in the Hebrew narrative as the woman's own speech; the Greek agrees."),
 
 ("3:4",
  ["The Hiss hissed at the woman:",
@@ -393,7 +394,7 @@ T = [
  ["Elohim knows:",
   "the day you eat, your eyes will split open,",
   "and you will be like Gods, knowing good and harm."],
- "Yodea (יֹדֵעַ), 'knows'. Niftechu (נִפְקְחוּ), 'opened, split'. Kelohim (כֵּאלֹהִים): 'like gods' or 'like God'; 'Gods' capitalised. LXX hōs theoi, 'like gods'."),
+ "Yodea (יֹדֵעַ), 'knows'. Niftechu (נִפְקְחוּ), 'opened', from paqach, 'open (the eyes)'. Kelohim (כֵּאלֹהִים): 'like gods' or 'like God'; 'Gods' capitalised. LXX hōs theoi, 'like gods'."),
 
 ("3:6",
  ["The woman saw: the tree good to eat,",
@@ -439,7 +440,7 @@ T = [
 ("3:13",
  ["YHWH Elohim said to the woman: What is this you have done?",
   "The woman said: The Hiss snared me, and I ate."],
- "Hishi'ani (הִשִּׁיאַנִי): from nasha', 'to deceive, to beguile, to cause to forget'. 'Snared' is the verb's trap. LXX ēpatēsen, 'deceived'."),
+ "Hishi'ani (הִשִּׁיאַנִי): from nasha', 'to deceive, to beguile' (nasha' II; the 'forget' sense belongs to nasha' I). 'Snared' is the English's image. LXX ēpatēsen, 'deceived'."),
 
 ("3:14",
  ["YHWH Elohim said to the Hiss: Because you did this—",
@@ -455,21 +456,21 @@ T = [
   "between your seed and her seed:",
   "he—it—will crush your head;",
   "you will bruise its heel."],
- "Eivah (אֵיבָה), 'enmity'. Hu (הוּא): 'he, it', masculine. Zera' (זֶרַע), 'seed', is collective. Yeshufka (יְשׁוּפְךָ): from shuf, 'crush, bruise, lie in wait'. LXX autos tērēsei, 'he will watch': 'crush' becomes 'guard'. Read as messianic prophecy in later tradition; the Hebrew names no single victor."),
+ "Eivah (אֵיבָה), 'enmity'. Hu (הוּא): 'he, it', masculine. Zera' (זֶרַע), 'seed', is collective. Yeshufka (יְשׁוּפְךָ): from shuf, 'crush, bruise'. LXX autos tērēsei, 'he will watch': 'crush' becomes 'guard'. Read as messianic prophecy in later tradition; the Hebrew names no single victor."),
 
 ("3:16",
  ["To the woman he said: I will multiply, multiply",
-  "your pain and your groaning.",
+  "your pain and your conceiving.",
   "In pain you will bear children.",
   "Toward your man your craving, and he will rule you."],
- "Itstsavon (עִצָּבוֹן), 'pain, toil'. Heronek (הֵרֹנֵךְ): 'your groaning, your conception'. Teshuqah (תְּשׁוּקָה): 'craving, drive'; the same word is sin's craving in 4:7. Yimshol (יִמְשֹׁל): 'rule'. LXX apostrophē, 'turning back'."),
+ "Itstsavon (עִצָּבוֹן), 'pain, toil'. Heronek (הֵרֹנֵךְ): 'your conception'. 'Groaning' follows the LXX's stenagmos, a witness reading, not the Hebrew. Teshuqah (תְּשׁוּקָה): 'craving, drive'; the same word is sin's craving in 4:7. Yimshol (יִמְשֹׁל): 'rule'. LXX apostrophē, 'turning back'."),
 
 ("3:17",
  ["To the human he said: Because you listened to your woman's voice",
   "and ate from the tree I charged you about—'do not eat from it'—",
   "the ground is cursed for your sake.",
   "In pain you will eat from it all the days of your life."],
- "Ha-adamah (הָאֲדָמָה), 'the red ground'. Be-itstsavon (בְּעִצָּבוֹן): 'in pain', the noun of 3:16. LXX adds 'in the works' (en tois ergois)."),
+ "Ha-adamah (הָאֲדָמָה), 'the red ground'. Be-itstsavon (בְּעִצָּבוֹן): 'in pain', the noun of 3:16. LXX reads 'in the works' (en tois ergois) for 'for your sake' (a variant reading, not an addition)."),
 
 ("3:18",
  ["Thorn and thistle it will sprout for you;",
@@ -508,13 +509,13 @@ T = [
  ["He drove the human out.",
   "At the east of the garden of delight he set the cherubim",
   "and the flame of the turning blade, to guard the road to the tree of lives."],
- "Vayegaresh (וַיְגָרֶשׁ): 'drove out'. Garash is the verb of divorce (Lev 21:7; 22:13). Kerubim (כְּרֻבִים): winged guardians. Hammitpakhet (הַמִּתְהַפֶּכֶת): 'turning, reversing itself'. LXX strephomenēn, 'turning'."),
+ "Vayegaresh (וַיְגָרֶשׁ): 'drove out'. Garash is 'drive out'; the divorce sense belongs to the participle gerushah (Lev 21:7; 22:13). Kerubim (כְּרֻבִים): winged guardians. Hammitpakhet (הַמִּתְהַפֶּכֶת): 'turning, reversing itself'. LXX strephomenēn, 'turning'."),
 
 ("4:1",
  ["Now the human knew Chavah his woman;",
   "she conceived and bore Qayin, and said:",
   "I have gotten a man—YHWH."],
- "Yada' (יָדַע): 'knew', the verb of knowing and of intimacy. Qanah (קָנִיתִי): 'I have gotten'; the root also means 'to create' (Gen 14:19). Qayin (קַיִן): 'spear, smith', a folk etymology. The 'et' of 'et YHWH' is ambiguous: 'with YHWH' or 'YHWH' in apposition; the line keeps both."),
+ "Yada' (יָדַע): 'knew', the verb of knowing and of intimacy. Qanah (קָנִיתִי): 'I have gotten'; the root also means 'to create' (Gen 14:19). Qayin (קַיִן): 'spear, smith', a scholarly proposal; the text's own wordplay is qaniti. The 'et' of 'et YHWH' is ambiguous: 'with YHWH' or 'YHWH' in apposition; the English keeps only the apposition reading."),
 
 ("4:2",
  ["She bore again: his brother Hevel.",
@@ -545,12 +546,12 @@ T = [
  ["Is it not so? If you do well, a lifting of the face.",
   "If you do not do well, at the door a sin crouches—",
   "its craving is for you; but you, rule it."],
- "Se'et panim (שְׂאֵת פָּנִים): 'lifting of the face', also 'acceptance, forgiveness'. Lapetach (לַפֶּתַח): 'at the door'. Chatta't (חַטָּאת): 'sin, sin-offering'. Rovets (רֹבֵץ): 'crouching', as a beast lies in wait. Teshuqah: the craving of 3:16, now the sin's. Timshol (תִּמְשׁל): 'you will rule'. LXX hēsychason, 'be still', and 'divide rightly' (orthōs dielēs), a cultic gloss the Hebrew does not give."),
+ "Se'et (שְׂאֵת): 'lifting'. The idiom se'et panim is not in this verse; 'of the face' in the English is an addition. Lapetach (לַפֶּתַח): 'at the door'. Chatta't (חַטָּאת): 'sin, sin-offering'. Rovets (רֹבֵץ): 'crouching', as a beast lies in wait. Teshuqah: the craving of 3:16, now the sin's. Timshol (תִּמְשׁל): 'you will rule'. LXX hēsychason, 'be still', and 'divide rightly' (orthōs dielēs), a cultic gloss the Hebrew does not give."),
 
 ("4:8",
  ["Qayin spoke to Hevel his brother—",
   "and it was, in the field, that Qayin reared on Hevel his brother and struck him dead."],
- "The Hebrew records Qayin's words with no content: the dash is in the text. The LXX fills the gap: 'let us go out into the field'. Vayyaqom (וַיָּקָם): 'rose up', 'reared'. Vayahargehu (וַיַּהַרְגֵהוּ): harag, a violent slaying."),
+ "The Hebrew records Qayin's words with no content: the dash in the English marks the gap; the witness has no gap marker. The LXX fills the gap: 'let us go out into the field'. Vayyaqom (וַיָּקָם): 'rose up', 'reared'. Vayahargehu (וַיַּהַרְגֵהוּ): harag, a violent slaying."),
 
 ("4:9",
  ["YHWH said to Qayin: Where is Hevel your brother?",
@@ -559,7 +560,8 @@ T = [
 
 ("4:10",
  ["He said: What have you done?",
-  "The bloods of your brother cry to me from the red."],
+  "A voice—your brother's bloods—",
+  "cries to me from the red."],
  "Demei (דְּמֵי): 'bloods', the plural of blood, used for violent death. LXX phōnē haimatos, 'voice of blood', singular."),
 
 ("4:11",
@@ -568,7 +570,7 @@ T = [
  "Patzta (פָּצְתָה): 'opened, gaped'. The earth is given a mouth (peh). LXX echanen, 'gaped'."),
 
 ("4:12",
- ["When you work the red, it will not add its strength to you.",
+ ["When you work the red, it will no more give you its strength.",
   "A reeler, a wanderer, you will be on the earth."],
  "Na' va-nad (נָע וָנָד): 'staggering and wandering'. Ko'ach (כֹּחַ): 'strength'. LXX stenōn kai tremōn, 'groaning and trembling'."),
 
@@ -588,12 +590,12 @@ T = [
  ["YHWH said to him: Not so—therefore—",
   "whoever kills Qayin will be paid back sevenfold.",
   "YHWH set a mark on Qayin, lest anyone who found him strike him."],
- "Lakhen (לָכֵן): 'therefore' or 'not so' (lo ken). The Hebrew allows either; the LXX takes 'not so' (ouch houtōs). Shiv'atayim (שִׁבְעָתַיִם): 'seven-fold'. Ot (אוֹת): 'sign, mark'; its form is not described."),
+ "Lakhen (לָכֵן): 'therefore' or 'not so' (lo ken). The Hebrew reads 'therefore'; the LXX reads 'not so' (ouch houtōs): a witness variant, not a Hebrew reading. Shiv'atayim (שִׁבְעָתַיִם): 'seven-fold'. Ot (אוֹת): 'sign, mark'; its form is not described."),
 
 ("4:16",
  ["Qayin went out from the face of YHWH",
   "and settled in the land of Nod—Wandering—east of Eden."],
- "Nod (נוֹד): 'wandering', the root of na' and nad (4:12, 4:14). LXX Naid, a transliteration that hides the pun."),
+ "Nod (נוֹד): 'wandering', from nad (4:14); na' is a different root (4:12). LXX Naid, a transliteration that hides the pun."),
 
 ("4:17",
  ["Qayin knew his woman; she conceived and bore Chanokh.",
@@ -604,5 +606,5 @@ T = [
  ["To Chanokh was born Irad;",
   "Irad fathered Mechuyael; Mechuyael fathered Methushael;",
   "Methushael fathered Lamech."],
- "Yillad (יִוָּלֵד): 'was born', passive. Irad (עִירָד): unclear. Mechuyael (מְחוּיָאֵל): 'smitten by El' or 'given life by El'; contested. Methushael (מְתוּשָׁאֵל): 'man of El' or 'death of El' (mot); disputed. LXX Gaidad for Irad: the doubled 'Gaidad and Gaidad' renders the Hebrew's repeated 'and Irad fathered'; Maiel for Mechuyael; Mathousala for Methushael. The chain ends on Lamech, who takes two wives in 4:19."),
+ "Yillad (יִוָּלֵד): 'was born', passive. The Hebrew spells Mechuyael (4:18a) and Mechiyael (4:18b); the English keeps both spellings as given. Irad (עִירָד): unclear. Mechuyael (מְחוּיָאֵל): 'smitten by El' or 'given life by El'; contested. Methushael (מְתוּשָׁאֵל): 'man of El' or 'death of El' (mot); disputed. LXX Gaidad for Irad: the doubled 'Gaidad and Gaidad' renders the Hebrew's repeated 'and Irad fathered'; Maiel for Mechuyael; Mathousala for Methushael. The chain ends on Lamech, who takes two wives in 4:19."),
 ]

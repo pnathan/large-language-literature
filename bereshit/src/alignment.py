@@ -64,7 +64,7 @@ A = {
 
 "1:5": [
  ((0,1), "He named the light Day", "wayiqra' 'elohim la'or yom, 'and God called the light day'. 'Named' for qara' ('call, name'); the English prefers the naming sense because the Hebrew uses qara' with an object in the sense of naming."),
- ((2,), "", "Paragraph marker (ketiv pasuq); no English."),
+ ((2,), "", "paseq (׀), a cantillation mark; no English."),
  ((3,), "", "la'or, 'to the light'; the preposition is absorbed in 'the light'."),
  ((4,), "Day", "yom, 'day'. Capitalised as the name the light is given."),
  ((5,6,7), "The dark, he named Night.", "walachoshekh qara' laylah, 'and the darkness he called night'. 'The dark' replaces 'the darkness' as in 1:4; 'he named' repeats the verb."),
@@ -78,7 +78,7 @@ A = {
  ((2,), "beat out", "yehi, 'let be'. 'Beat out' is an addition that carries the verb's meaning forward into rāqia': the English reads the object before the Hebrew names it. Stretch: the verb is 'let there be'."),
  ((3,), "a plate, a skin of hammered stuff,", "raqia', from raqa', 'to beat out, spread thin'. 'Plate' and 'skin' are two renderings of the same object: 'skin' keeps the bodily, 'plate' the metal. 'Firmament' (the usual rendering from Latin) drops the hammering and is rejected."),
  ((4,5), "in the belly of the waters:", "betokh hamayim, 'in the midst of the waters'. 'Belly' replaces 'midst' (betokh): the stretch makes the waters a body. Alternative 'midst' is accurate and tame."),
- ((6,7), "a wall, a splitter—", "wihi mavdil, 'and let it be a separator'. 'A wall' is an addition: mavdil is 'separator', and 'wall' is what raqia' does in the LXX/Greek tradition (stereōma). Marked."),
+ ((6,7), "a wall, a splitter—", "wihi mavdil, 'and let it be a separator'. 'A wall' is an addition: mavdil is 'separator', and stereōma (LXX) means 'firm thing', not wall. Marked."),
  ((8,9,10), "water from water.", "bein mayim lamayim, 'between water and water'. 'Water from water' compresses the preposition lamayim into a stammered pair; the Hebrew's 'to the waters' is grammatically odd and is kept as a stammer."),
 ],
 
@@ -121,7 +121,7 @@ A = {
 
 "1:10": [
  ((0,1), "He named the dry Earth.", "wayiqra' 'elohim, 'and God called'. 'Earth' is for 'eretz; the naming is 'called' in the Hebrew."),
- ((2,), "", "'elohim repeated."),
+ ((2,), "", "paseq (׀), a cantillation mark; no English."),
  ((3,), "the dry", "layabbashah, 'to the dry'. 'The dry' is the Hebrew's noun; the English keeps it bare."),
  ((4,), "Earth", "'eretz, 'earth/land'. 'Earth' capitalised as the name it becomes."),
  ((5,6), "The pooling, the waiting-hollow,", "ulmiqveh hamayim, 'and to the gathering of the waters'. 'Pooling' and 'waiting-hollow' are two English renderings of miqveh (gathering, pool; the root of hope). Both are kept because the root carries both."),
@@ -218,8 +218,8 @@ A = {
  ((2,3,4), "let the waters seethe with a swarming of breathing things;", "yishretzu hamayim sherets nefesh chayah, 'let the waters swarm with swarm of living breath'. 'Seethe' is the stretch of sharats (to swarm, teem). 'A swarming of breathing things' is the English's sherets nefesh chayah: the Hebrew's noun 'swarm' is kept, and 'breathing things' renders nefesh chayah (see 1:20 commentary)."),
  ((5,6), "", "nefesh chayah, carried above."),
  ((7,8), "and let fliers flutter", "veof yeofef, 'and bird flying'. 'Fliers flutter' keeps the doubled verb (ye'opef, 'fly-flying'). 'Fliers' is the noun, 'flutter' the verb."),
- ((9,10), "across the face of the hammered sky.", "'al ha'arets 'al penei rqia' hashamayim, 'upon the earth, upon the face of the firmament of the heavens'. 'Across' is the English's compression of 'al ('upon'); 'the face of the hammered sky' keeps the raqia' stretch. 'Across' is a stretch: 'upon' is the Hebrew's spatial preposition."),
- ((11,12,13,14), "", "al penei rqia' hashamayim, carried above."),
+ ((9,10), "over the ground,", "'al ha'arets 'al penei rqia' hashamayim, 'upon the earth, upon the face of the firmament of the heavens'. 'Across' is the English's compression of 'al ('upon'); 'the face of the hammered sky' keeps the raqia' stretch. 'Across' is a stretch: 'upon' is the Hebrew's spatial preposition."),
+ ((11,12,13,14), "across the face of the hammered sky.", "al penei rqia' hashamayim, 'upon the face of the firmament of the heavens'. 'Across' stretches 'al ('upon')."),
 ],
 
 "1:21": [
@@ -227,7 +227,7 @@ A = {
  ((2,), "", "'et, object marker."),
  ((3,4), "", "hattanninim hagedolim, carried above; 'the tanninim' is kept as the Hebrew word."),
  ((5,6,7,8), "and every breathing swarm the waters bred, after its kind,", "ve'et kol nefesh hachayah harommeset asher sharetzu hamayim lemineihem, 'and every living breath that creeps which the waters swarmed, after their kinds'. 'Breathing swarm' is the stretch of nefesh hachayah harommeset; 'bred' is the stretch of sharetzu (teemed). 'Every' keeps kol."),
- ((9,), "", "paragraph marker; no English."),
+ ((9,), "", "paseq (׀), a cantillation mark; no English."),
  ((10,11,12,13,14), "", "harommeset asher sharetzu hamayim lemineihem, carried above."),
  ((15,16,17,18,19), "and every winged fowl, after its kind.", "ve'et kol of kanaf lemineihu, 'and every winged bird, after its kind'. 'Fowl' is the register's word for of (bird); 'winged' carries kanaf."),
  ((20,21,22,23), "He saw: good.", "wayar' 'elohim ki tov. Formula."),
@@ -283,11 +283,11 @@ A = {
 
 "1:27": [
  ((0,1), "Elohim gouged", "wayivra' 'elohim, 'and God created'. 'Gouged' replaces 'created' (bara'). Choice: 'created' is the settled sense; 'hack' (1:1) and 'gouged' (here) are stretches of the same verb. The reader loses the root's repetition; the commentary names that loss."),
- ((2,), "", "paragraph marker; no English."),
+ ((2,), "", "paseq (׀), a cantillation mark; no English."),
  ((3,4), "the human", "'et ha'adam, 'the human'. The 'et is not rendered."),
  ((), "out of the red", "Not in 1:27. The Hebrew says 'the human' only. 'Out of the red' links the human to adamah (1:25, 2:7), and is an addition marked for the pun."),
  ((5,), "into a shadow of himself—", "betsalmo, 'in his image'. 'A shadow' is the stretch of tselem (shade, image); 'of himself' resolves the pronoun to the human. Alternative 'in his image' is the standard."),
- ((6,7), "into the shadow of God", "betselem 'elohim, 'in the image of God'. Same stretch."),
+ ((6,7), "into the shadow of Elohim", "betselem 'elohim, 'in the image of God'. Same stretch."),
  ((8,9), "he gouged him—", "bara' oto, 'he created him'. Third use of bara' in the verse; 'gouged' keeps the striking."),
  ((10,11), "male and female", "zakhar uneqevah, 'male and female'."),
  ((12,13), "he gouged them.", "bara' otam, 'he created them'."),
@@ -441,7 +441,7 @@ A = {
 
 "2:13": [
  ((0,1,2,3), "The second: Gihon.", "veshem hanahar hashenI gichon, 'and the name of the second river, Gihon'. 'Second' is the ordinal."),
- ((4,5), "It bursts out", "hu hasovev, 'it is the one that circles'. 'Bursts out' is the English's stretch: gihon's root gush (gihah) is the name's sound, and the English moves the verb to the river (commentary)."),
+ ((4,5), "It winds", "hu hasovev, 'it is the one that circles'. 'Bursts out' is the English's stretch: gihon's root gush (gihah) is the name's sound, and the English moves the verb to the river (commentary)."),
  ((6,7,8,9), "round all the land of Kush.", "'et kol 'eretz kush, 'all the land of Kush'. Kush kept as a name."),
 ],
 
@@ -667,7 +667,7 @@ A = {
 "3:16": [
  ((0,1,2), "To the woman he said:", "'el ha'ishah amar, 'to the woman he said'."),
  ((3,4), "I will multiply, multiply", "harbah 'arbeh, 'multiplying I will multiply'. Infinitive absolute, kept as a doubled verb."),
- ((5,6), "your pain and your groaning.", "'itstsavonekh vehe'ronekh, 'your toil and your conception'. 'Groaning' is the stretch of heron (conception, pregnancy) toward the sound of labour. Alternative 'conception' is the literal."),
+ ((5,6), "your pain and your conceiving.", "'itstsavonekh vehe'ronekh, 'your toil and your conception'. 'Groaning' is the stretch of heron (conception, pregnancy) toward the sound of labour. Alternative 'conception' is the literal."),
  ((7,8,9), "In pain you will bear children.", "be'etsev telidi vanim, 'in pain you will bear children'."),
  ((10,11,12,13,14,15), "Toward your man your craving, and he will rule you.", "ve'el ishekh teshuqatekh vehu yimshol bakh, 'and toward your man your craving, and he will rule over you'. 'Craving' is teshuqah, the word of 4:7 as well."),
 ],
@@ -805,9 +805,9 @@ A = {
 ],
 
 "4:10": [
- ((0,1), "He said: What have you done?", "vayomer mah 'asita, 'and he said: what did you do'."),
- ((2,3,4), "The bloods of your brother", "qol demei 'achikha, 'the voice of your brother's bloods'. The plural 'bloods' is kept (commentary)."),
- ((5,6), "cry", "tso'aqim, 'crying out'."),
+ ((0,1,2), "He said: What have you done?", "vayomer mah 'asita, 'and he said: what did you do'."),
+ ((3,4,5), "A voice—your brother's bloods—", "qol demei 'achikha, 'the voice of your brother's bloods'. The plural 'bloods' is kept (commentary)."),
+ ((6,), "cries", "tso'aqim, 'crying out'."),
  ((7,8,9), "to me from the red.", "elai min ha'adamah, 'to me from the ground'."),
 ],
 
@@ -822,7 +822,7 @@ A = {
 
 "4:12": [
  ((0,1,2,3), "When you work the red,", "ki ta'avod 'et ha'adamah, 'when you work the ground'. 'Work' is the English of 'avod (serve, work)."),
- ((4,5,6,7,8), "it will not add its strength to you.", "lo tosef tet kocha lakh, 'it will not add to give its strength to you'. 'Add' is yasaf; 'its strength' is ko'ach."),
+ ((4,5,6,7,8), "it will no more give you its strength.", "lo tosef tet kocha lakh, 'it will not add to give its strength to you'. 'Add' is yasaf; 'its strength' is ko'ach."),
  ((9,10), "A reeler, a wanderer,", "na' vanad, 'staggering and wandering'. Two sounds of motion; 'reeler' and 'wanderer' are the English stretch."),
  ((11,12), "you will be on the earth.", "tihyeh ba'arets, 'you will be in the earth'."),
 ],
@@ -868,7 +868,7 @@ A = {
 "4:18": [
  ((0,1,2,3), "To Chanokh was born Irad;", "vayyiwwaled lechanokh et irad, 'there was born to Enoch Irad'. Passive niphal; 'was born' keeps it."),
  ((4,5,6,7), "Irad fathered Mechuyael;", "veirad yalad et mechuyael, 'and Irad fathered Mechuyael'. The English drops 'and'."),
- ((8,9,10,11), "Mechuyael fathered Methushael;", "umechiyael yalad et methushael, 'and Mechiyael fathered Methushael'. The Hebrew spells the name Mechuyael once and Mechiyael here (commentary: read as one name)."),
+ ((8,9,10,11), "Mechuyael fathered Methushael;", "umechiyael yalad et methushael, 'and Mechiyael fathered Methushael'. The Hebrew spells the name Mechuyael once and Mechiyael here; the English keeps the second spelling as given."),
  ((12,13,14,15), "Methushael fathered Lamech.", "umethushael yalad et lamech, 'and Methushael fathered Lamech'. The chain ends on Lamech."),
 ],
 
