@@ -23,14 +23,9 @@ rendering as a witness to the sense the translators took.
 | badal | ב-ד-ל | cut the seam / split | diachōrizō | separate | "Cut a seam" at 1:4, 1:18; "split" for the waters at 1:7. |
 | nathan | נ-ת-נ | give | didōmi | give, set, put | Rule: "give" for every nathan. Applied at 1:17 ("gave them a place"), 1:29, 3:12. |
 
-Rule for contested terms: the English carries the pointed Hebrew token from the
-witness, not an English gloss or a transliteration. Applied to raqia' (רָקִיעַ),
-badal (בָּדַל), paqach (פָּקַח), qavah and miqveh (קוָה, מִקְוֵה), nefesh chayah
-(נֶפֶשׁ חַיָּה), rabah (הַרְבָּה, אַרְבֶּה), sh-r-ts (יִשְׁרְצוּ), 'avad (לַעֲבֹד, עֹבֵד),
-basar (בָּשָׂר), tsela' (הַצֵּלָע), harag (הֹרֵג), nakah, and the verbs 'asah and bara'.
-Tokens come from the witness by index. Every Hebrew word in the English was
-checked against the witness tokens (98 verses, 0 coverage problems, 0 missing
-alignment fragments).
+Rule for contested terms: the English carries an English gloss, never raw Hebrew
+or transliteration. The Hebrew token itself goes in the apparatus, linked to the
+English unit it renders, so each gloss can be checked against the Hebrew.
 
 Still open: the commentary and notes still describe some of these terms by their
 English gloss and have not been re-audited against this rule. Also open: the
