@@ -125,7 +125,7 @@ T = [
  ['The Lord God planted a garden in Eden, to the east, and set there the human he had potted.'],
  "Eden (עֵדֶן): 'delight, pleasure'; etymology disputed (a Sumerian loan edin, 'steppe', is proposed). Miqqedem (מִקֶּדֶם): 'from before, of old' or 'eastward'; the English gives 'to the east' only. LXX kata anatolas, 'to the east', chooses one. Gan (גַּן), 'enclosure, garden'."),
 ('2:9',
- ['From the red earth he made sprout every tree desirable to see,', 'and good to eat;', 'the tree of lives in the middle of the garden, and the tree of knowing good and harm.'],
+ ['From the red earth the Lord God made sprout every tree desirable to see,', 'and good to eat;', 'the tree of lives in the middle of the garden, and the tree of knowing good and harm.'],
  "Nekhmad (נֶחְמָד): 'desirable, coveted' (cf. 3:6). Chayyim (חַיִּים): 'lives', plural. Da'at (דַּעַת), 'knowing'; yada' is the verb of intimate knowledge (4:1). Tov va-ra' (טוֹב וָרָע): 'good and harm'; ra' carries ruin as well as evil. LXX adds 'known' (gnōston). LXX has ho theos alone for the Lord God here, as at 2:4."),
 ('2:10',
  ['A river goes out of Eden to water the garden;', 'from there it parts and becomes four heads.'],

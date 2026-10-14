@@ -275,7 +275,7 @@ A = {
  ((6, 7, 8, 9, 10, 11), 'and set there the human he had potted.', "wayyasem sham et ha'adam asher yatzar: 'and set there the human he had potted'."),
 ],
 '2:9': [
- ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'From the red earth he made sprout every tree desirable to see,', "wayyatzmach the Lord elohim min ha'adamah kol ets nekhmad lemar'eh: 'made sprout every tree desirable to see'. "),
+ ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'From the red earth the Lord God made sprout every tree desirable to see,', "wayyatzmach the Lord elohim min ha'adamah kol ets nekhmad lemar'eh: 'made sprout every tree desirable to see'. "),
  ((9, 10), 'and good to eat;', "vetov lema'akhal: 'good for food'. 'Sweet' and 'mouth' are body stretches of tov and eating. 'On the tongue' is the physical stretch of 'to the mouth'."),
  ((11, 12, 13, 14), "the tree of lives in the middle of the garden,", "ve'ets hachayyim betokh hagan: 'the tree of lives in the middle of the garden'."),
  ((15, 16, 17, 18), 'and the tree of knowing good and harm.', "ve'ets hada'at tov vara': 'the tree of knowing good and harm'."),
