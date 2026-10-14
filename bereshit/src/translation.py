@@ -83,7 +83,7 @@ T = [
  ['Divinity made the beast of the ground after its kind, the cattle after its kind,', 'every crawler of the red earth after its kind.', 'Divinity saw:', 'good.'],
  "Adamah (אֲדָמָה) is ground, soil; 'red' is a gloss from the colour of the soil, not an established sense; the root of adam (human) is the same family. 'The red' keeps that family alive and sets up 2:7."),
 ('1:26',
- ['Divinity said:', 'let us נַֽעֲשֶׂ֥ה a human, an earthling, in our image,', 'as our likeness.', 'Let them tread down the fish of the sea, the bird of the sky,', 'the cattle, the whole ground, every living thing that crawls on the ground.'],
+ ['Divinity said:', 'let us נַֽעֲשֶׂ֥ה a human, an earthling, in our image,', 'as our likeness.', 'Let them tread down the fish of the sea, the bird of the sky,', 'the cattle, the whole ground, every living thing that crawls on the ground.'],
  "Na'aseh (נַעֲשֶׂה), 'let us make': first person plural. Readings include a divine council, a royal 'we', and address to heavenly beings; none is secure. 'A human' renders 'adam, which has no article here; 'an earthling' stretches adamah (2:7) toward the ground it comes from. Tselem (צֶלֶם), 'image': from a root some link to 'shade' or 'cut'. Demut (דְּמוּת), 'likeness'. Yirdu (יִרְדּוּ), from radah: 'tread down' is the English; the Hebrew also carries 'rule'. LXX poiēsōmen, 'let us make', with hēmeteran, 'ours'."),
 ('1:27',
  ['Divinity וַיִּבְרָ֨א the human in his image— in the image of Divinity', 'Divinity בָּרָ֣א him— male and female Divinity בָּרָ֥א them.'],

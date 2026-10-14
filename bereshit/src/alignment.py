@@ -170,7 +170,7 @@ A = {
 ],
 '1:26': [
  ((0, 1), 'Divinity said:', 'vayomer elohim.'),
- ((2,), 'let us נַֽעֲשֶׂ֥ה', "na'aseh: first person plural cohortative, 'let us make'. Head term 'make'; the plural is kept in the commentary."),
+ ((2,), 'let us נַֽעֲשֶׂ֥ה', "na'aseh: first person plural cohortative, 'let us make'. Head term 'make'; the plural is kept in the commentary."),
  ((3,), 'a human, an earthling,', "'adam: 'the human'. 'The red one' is the physical stretch from adamah (2:7)."),
  ((4,), 'in our image,', 'betsalmenu.'),
  ((5,), 'as our likeness.', "kidmuteinu: 'as our likeness'. 'After' is the KJV's word and is not used."),
