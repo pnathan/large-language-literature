@@ -92,15 +92,15 @@ A = {
  ((4, 5), 'A third day.', "yom shelishi: 'day third'."),
 ],
 '1:14': [
- ((0, 1, 2, 3, 4, 5), 'Divinity said: let there be lamps in the hammered plate,', "vayomer elohim yehi me'orot birqia' hashamayim: 'let there be lights in the firmament of the heavens'. 'Fire-holders' is the compound for 'or (light, fire)."),
+ ((0, 1, 2, 3, 4, 5), 'Divinity said: let there be lamps hung on the hammered plate,', "vayomer elohim yehi me'orot birqia' hashamayim: 'let there be lights in the firmament of the heavens'. 'Fire-holders' is the compound for 'or (light, fire)."),
  ((6, 7, 8, 9, 10), 'splitting day from night.', "lehavdil bein hayom uvein halaylah: 'to separate between the day and the night'. 'Cleaving' is the physical stretch of badal."),
  ((11, 12), 'Let them be marks', "vehayu le'otot: 'and let them be for signs'. 'Marks' is the physical English of 'ot."),
  ((13,), 'and meeting-times,', "ulemo'adim: 'and for appointed times'. 'Turns of the year' is the stretch of mo'ed."),
  ((14, 15), 'days and years.', "uleyamim veshanim: 'and for days and years'."),
 ],
 '1:15': [
- ((0, 1, 2, 3), 'Let them be lamps in the hammered plate,', "vehayu limme'orot birqia' hashamayim."),
- ((4, 5, 6), 'to pour light on the ground.', "lehe'ir al ha'arets: 'to give light on the ground'. 'Pour' is the physical stretch of he'ir."),
+ ((0, 1, 2, 3), 'Let them be lamps hung on the hammered plate,', "vehayu limme'orot birqia' hashamayim."),
+ ((4, 5, 6), 'to shed light on the ground.', "lehe'ir al ha'arets: 'to give light on the ground'. 'Pour' is the physical stretch of he'ir."),
  ((7, 8), 'So.', 'vayehi-ken.'),
 ],
 '1:16': [
@@ -110,8 +110,8 @@ A = {
  ((14, 15, 16, 17), 'and the stars.', "ve'et hakokhavim."),
 ],
 '1:17': [
- ((0, 1, 2, 3, 4), 'Divinity gave them a place in the hammered plate', "vayyiten otam elohim birqia' hashamayim: head term 'give' (lexicon.md). 'A place' is added to make give fit the sky."),
- ((5, 6, 7), 'to pour light on the ground.', "lehe'ir al ha'arets."),
+ ((0, 1, 2, 3, 4), 'Divinity gave them a place on the hammered plate', "vayyiten otam elohim birqia' hashamayim: head term 'give' (lexicon.md). 'A place' is added to make give fit the sky."),
+ ((5, 6, 7), 'to shed light on the ground.', "lehe'ir al ha'arets."),
 ],
 '1:18': [
  ((0, 1, 2, 3), 'to rule the day and the night,', "velimshol bayom uvalaylah ulehavdil: 'and to rule in the day and in the night, and to separate'."),
