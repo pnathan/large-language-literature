@@ -238,12 +238,12 @@ A = {
  ((0, 1, 2, 3), 'Divinity finished on the seventh day', "vayekhal elohim bayom hashevi'i: 'finished'. LXX reads sixth day (witness variant)."),
  ((4, 5, 6), 'the work he had made;', "melakhto asher 'asah: head term 'made'."),
  ((7, 8, 9), 'and on the seventh day he quit, dropped all the work he had made.', "vayishbot bayom hashevi'i: 'ceased'. 'Quit' is the body's word for stopping work."),
- ((10, 11, 12, 13), '', "mikol melakhto asher 'asah: 'from all his work he had made'. 'Dropped' is the physical stretch of 'from'."),
+ ((10, 11, 12, 13), '', "mikol melakhto asher 'asah: 'from all his work he had made'. 'Dropped' is an added verb, marked in the 2:2 note."),
 ],
 '2:3': [
  ((0, 1, 2, 3, 4), 'Divinity blessed the seventh day,', "vayevarekh elohim et yom hashevi'i: 'blessed'. 'Blessed' is the English for barak."),
  ((5, 6), 'and set it apart,', "vayqaddesh oto: 'made it holy', rendered as the physical 'set apart'."),
- ((7, 8, 9), 'because on it he quit', "ki bo shavat: 'because in it he ceased'. 'Laid down' is the physical English for shavat."),
+ ((7, 8, 9), 'because on it he quit', "ki bo shavat: 'because in it he ceased'. 'He quit' is the English for shavat."),
  ((10, 11, 12, 13, 14, 15), 'all the work that Divinity cut in the making.', "mikol melakhto asher bara' elohim la'asot: head terms 'cut', 'make'."),
 ],
 '2:4': [
@@ -256,27 +256,27 @@ A = {
 ],
 '2:5': [
  ((0, 1, 2, 3, 4, 5, 6), 'No bush of the field yet on the ground,', "vekhol siach hasadeh terem yihyeh ba'arets: 'no bush of the field yet on the earth'."),
- ((7, 8, 9, 10, 11), 'no plant of the field, not yet sprouted.', "vekhol esev hasadeh terem yitzmach: 'no herb of the field yet sprouted'. 'Sprung' is the physical verb. "),
+ ((7, 8, 9, 10, 11), 'no plant of the field, not yet sprouted.', "vekhol esev hasadeh terem yitzmach: 'no herb of the field yet sprouted'. 'Sprouted' is the English for yitzmach. "),
  ((12, 13, 14, 15, 16, 17, 18), 'For the Lord God had not rained on the ground,', "ki lo himtir the Lord elohim al ha'arets: 'For the Lord God had not rained on the ground'."),
  ((19, 20, 21, 22, 23), 'and no human to work the red earth.', "veadam ayin la'avod et ha'adamah: 'and no human to work the red earth'."),
 ],
 '2:6': [
- ((0, 1, 2, 3), 'A seep would well up out of the ground', "ved ya'aleh min ha'arets: 'a seep rose from the ground'. 'Came up' is the physical stretch of 'alah. 'Welled up' is the physical stretch of 'alah for a seep."),
+ ((0, 1, 2, 3), 'A seep would well up out of the ground', "ved ya'aleh min ha'arets: 'a seep rose from the ground'. 'Would well up' is the English for ya'aleh."),
  ((4, 5, 6, 7, 8), 'and would soak the whole face of the red earth.', "vehishkah et kol penei ha'adamah: 'and watered all the face of the red earth'. "),
 ],
 '2:7': [
- ((0, 1, 2, 3, 4, 5, 6, 7), 'The Lord God potted the human out of the dust of the red earth,', "wayyitzer the Lord elohim et ha'adam afar min ha'adamah: 'formed the human, dust from the ground'. 'Potted' is the potter's stretch of yatzar."),
- ((8, 9, 10, 11), 'and blew into his nostrils the blast of lives;', "vayippach be'appav nishmat chayyim: 'breathed into his nostrils the blast of lives'. 'Blew' is the physical stretch of nafach."),
+ ((0, 1, 2, 3, 4, 5, 6, 7), 'The Lord God potted the human out of the dust of the red earth,', "wayyitzer the Lord elohim et ha'adam afar min ha'adamah: 'formed the human, dust from the ground'. 'Potted' is the English for yatzar."),
+ ((8, 9, 10, 11), 'and blew into his nostrils the blast of lives;', "vayippach be'appav nishmat chayyim: 'breathed into his nostrils the blast of lives'. 'Blew' is the English for nafach."),
  ((12, 13, 14, 15), 'and the human became a living breath.', "vayehi ha'adam lenefesh chayah: 'and the human became a living breath'. "),
 ],
 '2:8': [
  ((0, 1, 2, 3, 4), 'The Lord God planted a garden in Eden,', "wayyitta the Lord elohim gan be'eden: 'planted a garden in Eden'. 'Delight' is the English reading of Eden."),
- ((5,), 'to the east,', 'miqqedem: three glosses kept together (2:8 note).'),
+ ((5,), 'to the east,', "miqqedem: 'to the east' is the English."),
  ((6, 7, 8, 9, 10, 11), 'and set there the human he had potted.', "wayyasem sham et ha'adam asher yatzar: 'and set there the human he had potted'."),
 ],
 '2:9': [
  ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'From the red earth the Lord God made sprout every tree desirable to see,', "wayyatzmach the Lord elohim min ha'adamah kol ets nekhmad lemar'eh: 'made sprout every tree desirable to see'. "),
- ((9, 10), 'and good to eat;', "vetov lema'akhal: 'good for food'. 'Sweet' and 'mouth' are body stretches of tov and eating. 'On the tongue' is the physical stretch of 'to the mouth'."),
+ ((9, 10), 'and good to eat;', "vetov lema'akhal: 'good for food'. 'Good to eat' is the English for lema'akhal."),
  ((11, 12, 13, 14), "the tree of lives in the middle of the garden,", "ve'ets hachayyim betokh hagan: 'the tree of lives in the middle of the garden'."),
  ((15, 16, 17, 18), 'and the tree of knowing good and harm.', "ve'ets hada'at tov vara': 'the tree of knowing good and harm'."),
 ],
@@ -320,7 +320,7 @@ A = {
  ((0, 1, 2, 3, 4), 'The Lord God said: not good,', "wayomer the Lord elohim lo tov: 'The Lord God said: not good'."),
  ((5, 6, 7), 'the human alone.', "heyot ha'adam levaddo: 'the human being alone'."),
  ((8, 9, 10), 'I will make him a help facing him.', "e'eseh lo ezer: 'I will make for him a help'."),
- ((11,), '', "kenegdo: 'opposite him'. The body stretch: a face across from him."),
+ ((11,), '', "kenegdo: 'opposite him'. The English is 'facing him'."),
 ],
 '2:19': [
  ((0, 1, 2, 3, 4, 5, 6, 7), 'From the red earth, the Lord God potted every beast of the field', "wayyitzer the Lord elohim min ha'adamah kol chayat hasadeh: 'formed from the ground every beast of the field'."),
@@ -335,10 +335,10 @@ A = {
  ((10, 11, 12, 13, 14), 'But for the human he found no help facing him.', "ule'adam lo matza ezer kenegdo: 'but for the human no help opposite him was found'."),
 ],
 '2:21': [
- ((0, 1, 2, 3, 4, 5, 6), 'The Lord God threw a heavy sleep on the human,', "wayyappel the Lord elohim tardemah al ha'adam: 'caused a deep sleep to fall on the human'. 'Threw' is the physical stretch of hapil. 'Like a stone' is an addition, marked; threw is the physical head of hapil."),
+ ((0, 1, 2, 3, 4, 5, 6), 'The Lord God threw a heavy sleep on the human,', "wayyappel the Lord elohim tardemah al ha'adam: 'caused a deep sleep to fall on the human'. 'Threw' is the English for hapil."),
  ((7,), 'and he slept.', "wayyishan: 'and he slept'."),
- ((8, 9, 10), 'He took one of his ribs', "vayyiqqach achat mitzal'otav: 'took one of his sides'. 'Ribs' is the body stretch of tsela' (side or rib)."),
- ((11, 12, 13), 'and shut the meat over the place.', "vayyisgor basar tachtennah: 'and shut the flesh over its place'. 'Meat' is the body stretch of basar."),
+ ((8, 9, 10), 'He took one of his ribs', "vayyiqqach achat mitzal'otav: 'took one of his sides'. 'Ribs' is the English for tsela' here; 2:22 has 'rib'."),
+ ((11, 12, 13), 'and shut the meat over the place.', "vayyisgor basar tachtennah: 'and shut the flesh over its place'. 'Meat' is the English for basar."),
 ],
 '2:22': [
  ((0, 1, 2, 3, 4, 5, 6, 7, 8, 9), 'The Lord God built the rib he had taken from the human', "wayyiven the Lord elohim et hatzela' asher laqach min ha'adam: 'built the side he took from the human'. 'Built' is banah: building a house or a family."),
@@ -347,13 +347,13 @@ A = {
 ],
 '2:23': [
  ((0, 1, 2, 3), 'The human said: This one, this time, is', "wayomer ha'adam zot hapa'am: 'and the human said, this time'. 'This time' is the English for zot hapa'am."),
- ((4, 5, 6, 7), 'bone out of my bones, meat out of my meat!', "etzem me'atzamai uvasar mibesari: 'bone from my bones and flesh from my flesh'. 'Out of' and 'meat' are body stretches of the literal."),
+ ((4, 5, 6, 7), 'bone out of my bones, meat out of my meat!', "etzem me'atzamai uvasar mibesari: 'bone from my bones and flesh from my flesh'. 'Meat' is the English for basar."),
  ((8, 9, 10), 'This one shall be called Ishah,', "lezot yiqqare' ishah: 'this one shall be called Ishah'. Ishah is kept for the pun."),
  ((11, 12, 13, 14), 'for from Ish she was taken.', "ki me'ish luqchah zot: 'for from Ish she was taken'. Ish is kept for the pun."),
 ],
 '2:24': [
  ((0, 1, 2, 3, 4, 5, 6, 7), 'Therefore: a man leaves father and mother,', "al ken ya'azov ish et avav ve'et immo: 'therefore a man leaves his father and mother'. 'Therefore' marks the narrator stepping out."),
- ((8, 9), 'clings to his woman;', "vedavaq be'ishto: 'clings to his wife'.  'Like mortar' is the comparison davaq makes available; marked as a stretch."),
+ ((8, 9), 'clings to his woman;', "vedavaq be'ishto: 'clings to his wife'.  'Clings' is the English for davaq."),
  ((10, 11, 12), 'and they become one meat.', "vehayu levasar ehad: 'and they shall be one flesh'."),
 ],
 '2:25': [
