@@ -479,7 +479,7 @@ A = {
  ((7, 8), 'like one of us,', "ke'echad mimmenu: 'like one of us'."),
  ((9, 10, 11), 'knowing good and harm.', "ladaat tov vara'."),
  ((12, 13, 14, 15, 16, 17, 18, 19, 20), 'Now lest he reach out his hand, take also from the tree of lives,', "ve'attah pen yishlach yado velaqach gam me'ets hachayyim: 'lest he send out his hand'. 'Reach out' is the body stretch of shalach."),
- ((21, 22, 23), 'eat, and live—forever.', "ve'akhal vachay le'olam."),
+ ((21, 22, 23), 'eat, and live…', "ve'akhal vachay le'olam."),
 ],
 '3:23': [
  ((0, 1, 2, 3, 4), 'The Lord Divinity sent him out from the garden in Eden,', "vayshallehu the Lord elohim migan 'eden."),
