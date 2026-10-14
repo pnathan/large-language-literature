@@ -248,7 +248,7 @@ A = {
 ],
 '2:4': [
  ((0,), 'This is the table of', "'elleh: 'this is'. Toledot is the table of ancestors and the tale of how they came to be."),
- ((1,), '', "toledot: kept visible as the Hebrew word; 'bearing-out' is its gloss."),
+ ((1,), '', "toledot: the English gives 'table of ancestors' and 'the tale of how they came to be'."),
  ((2, 3), 'of heavens and ground,', "hashamayim vehaaretz: 'the heavens and the earth'."),
  ((4,), 'when they were cut,', "behibare'am: 'in their being cut'. 'Cut' is the head term for bara'."),
  ((5, 6, 7, 8), 'in the day the Lord God made', "beyom 'asot the Lord elohim: 'in the day the Lord God made'."),
@@ -393,7 +393,7 @@ A = {
 '3:6': [
  ((0, 1), 'The woman saw:', "vattere ha'ishah."),
  ((2, 3, 4, 5), 'the tree good to eat,', "ki tov ha'ets lemakhal."),
- ((6, 7, 8, 9), 'a hunger for the eyes,', "vechi ta'avah hu la'eynayim: 'a craving to the eyes'. 'Hunger' is the body stretch of ta'avah."),
+ ((6, 7, 8, 9), 'a hunger for the eyes,', "vechi ta'avah hu la'eynayim: 'a craving to the eyes'. 'Hunger' is the English for ta'avah."),
  ((10, 11, 12), 'a tree to be coveted for insight.', "venekhmad ha'ets lehaskil: 'a tree desirable to make wise'."),
  ((13, 14, 15), 'She took from its fruit and ate.', 'vattiqqach mipiryo vattokhel.'),
  ((16, 17, 18, 19, 20), 'She gave also to her man with her, and he ate.', "vattitten gam le'ishah immah vayokhal: 'she gave also to her husband with her, and he ate'."),
@@ -405,7 +405,7 @@ A = {
 ],
 '3:8': [
  ((0, 1, 2, 3, 4), 'They heard the voice of the Lord God', "vayishme'u et qol the Lord elohim: 'heard the voice of the Lord God'."),
- ((5, 6, 7, 8), 'pacing in the garden at the wind of the day;', "mithallekh bagan leruach hayom: 'walking about in the garden at the wind of the day'. 'Pacing' is the body stretch of hithpael."),
+ ((5, 6, 7, 8), 'pacing in the garden at the wind of the day;', "mithallekh bagan leruach hayom: 'walking about in the garden at the wind of the day'. 'Pacing' is the English for hithpael."),
  ((9, 10, 11, 12, 13, 14), 'the human and his woman hid from the face of the Lord God', "vayyithchabe ha'adam ve'ishto mipenei the Lord elohim: 'hid from before the Lord God'."),
  ((15, 16, 17), 'among the trees of the garden.', "betokh ets hagan: 'in the midst of the tree of the garden'."),
 ],
@@ -415,7 +415,7 @@ A = {
 ],
 '3:10': [
  ((0, 1, 2, 3, 4), 'He said: I heard your voice in the garden.', 'vayomer et qolekha shamati bagan.'),
- ((5, 6, 7, 8, 9), 'I shook, for I am bare, and I hid.', "va'ira ki eirom anokhi va'ei'chaveh. 'Shook' is the body stretch of ira."),
+ ((5, 6, 7, 8, 9), 'I shook, for I am bare, and I hid.', "va'ira ki eirom anokhi va'ei'chaveh. 'Shook' is the English for ira."),
 ],
 '3:11': [
  ((0, 1, 2, 3, 4, 5, 6), 'He said: Who told you you were bare?', 'vayomer mi higgid lekha ki eirom atah.'),
@@ -427,13 +427,13 @@ A = {
 ],
 '3:13': [
  ((0, 1, 2, 3, 4, 5, 6), 'The Lord God said to the woman: What is this you have done?', "vayomer the Lord elohim la'ishah mah zot 'asit."),
- ((7, 8, 9, 10, 11), 'The woman said: The serpent snared me, and I ate.', "vattomer ha'ishah hanachash hishi'ani va'okhel. 'Snared' is the body stretch of nasha'."),
+ ((7, 8, 9, 10, 11), 'The woman said: The serpent snared me, and I ate.', "vattomer ha'ishah hanachash hishi'ani va'okhel. 'Snared' is the English for nasha'."),
 ],
 '3:14': [
  ((0, 1, 2, 3, 4, 5, 6, 7, 8), 'The Lord God said to the serpent: Because you did this—', "vayomer the Lord elohim el hanachash ki 'asita zot."),
  ((9, 10, 11, 12), 'cursed are you, out of all the cattle,', "'arur atah mikol habehemah."),
  ((13, 14, 15), 'and out of every beast of the field.', 'umikol chayat hasadeh.'),
- ((16, 17, 18), 'On your belly you will go.', "al gechonkha telekh: 'on your belly you shall walk'. 'Gut' and 'go' are the body stretches."),
+ ((16, 17, 18), 'On your belly you will go.', "al gechonkha telekh: 'on your belly you shall walk'. 'Belly' is the English for gechon; 'go' for telekh."),
  ((19, 20, 21, 22, 23), 'Dust you will eat, all the days of your life.', 'vafar tokhal kol yemei chayyekha.'),
 ],
 '3:15': [
@@ -447,7 +447,7 @@ A = {
  ((0, 1, 2, 3, 4), 'To the woman he said: I will multiply, multiply', "'el ha'ishah amar harbah arbeh: infinitive absolute kept as a doubled verb."),
  ((5, 6), 'your pain and your conceiving.', "itstsavonekh vehe'ronekh: 'conceiving' keeps heron (see the 3:16 note)."),
  ((7, 8, 9), 'In pain you will bear children.', "be'etsev telidi vanim."),
- ((10, 11, 12, 13, 14, 15), 'Toward your man your thirst, and he will rule you.', "ve'el ishekh teshuqatekh vehu yimshol bakh: 'craving' keeps teshuqah."),
+ ((10, 11, 12, 13, 14, 15), 'Toward your man your thirst, and he will rule you.', "ve'el ishekh teshuqatekh vehu yimshol bakh: 'thirst' is the English for teshuqah."),
 ],
 '3:17': [
  ((0, 1, 2, 3, 4, 5), "To the human he said: Because you listened to your woman's voice", "ule'adam amar ki shama'ta lekol ishtekha."),
@@ -470,7 +470,7 @@ A = {
 ],
 '3:21': [
  ((0, 1, 2, 3, 4), 'The Lord God made for the human and his woman', "vayya'as the Lord elohim le'adam ulishto."),
- ((5, 6, 7), 'hide-coats, and dressed them.', "ketonot or vayalbishem: 'skin-tunics, and clothed them'. 'Hide-coats' is the body stretch."),
+ ((5, 6, 7), 'hide-coats, and dressed them.', "ketonot or vayalbishem: 'skin-tunics, and clothed them'. 'Hide-coats' is the English for or."),
 ],
 '3:22': [
  ((0, 1, 2, 3), 'The Lord God said:', 'vayomer the Lord elohim.'),
@@ -478,7 +478,7 @@ A = {
  ((5, 6), 'the human has become', "ha'adam hayah."),
  ((7, 8), 'like one of us,', "ke'echad mimmenu: 'like one of us'."),
  ((9, 10, 11), 'knowing good and harm.', "ladaat tov vara'."),
- ((12, 13, 14, 15, 16, 17, 18, 19, 20), 'Now lest he reach out his hand, take also from the tree of lives,', "ve'attah pen yishlach yado velaqach gam me'ets hachayyim: 'lest he send out his hand'. 'Reach out' is the body stretch of shalach."),
+ ((12, 13, 14, 15, 16, 17, 18, 19, 20), 'Now lest he reach out his hand, take also from the tree of lives,', "ve'attah pen yishlach yado velaqach gam me'ets hachayyim: 'lest he send out his hand'. 'Reach out' is the English for shalach."),
  ((21, 22, 23), 'eat, and live forever…', "ve'akhal vachay le'olam."),
 ],
 '3:23': [
