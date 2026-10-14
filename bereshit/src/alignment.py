@@ -360,7 +360,7 @@ A = {
 ],
 "2:23": [
  ((0,1,2,3), "The human barked: This time—at last—", "wayomer ha'adam zot hapa'am: 'and the human said, this time'. 'Barked' is the physical stretch of 'said'."),
- ((4,5,6,7), "bone of my bones, flesh of my flesh!", "etzem me'atzamai uvasar mibesari: 'bone from my bones, and flesh from my flesh'."),
+ ((4,5,6,7), "bone from my bones, flesh from my flesh!", "etzem me'atzamai uvasar mibesari: 'bone from my bones, and flesh from my flesh'."),
  ((8,9,10), "This one: Ishah, woman,", "lezot yiqqare' ishah: 'this one shall be called Ishah'. Ishah is kept as the Hebrew word for the pun."),
  ((11,12,13,14), "for from Ish she was taken.", "ki me'ish luqchah zot: 'for from Ish this one was taken'. Ish is kept for the pun."),
 ],
@@ -454,8 +454,8 @@ A = {
  ((0,1,2), "Hatred I will set", "ve'eivah ashit: 'and enmity I will set'. 'Hatred' is the physical stretch of eivah."),
  ((3,4,5), "between you and the woman,", "beinkha uvein ha'ishah: 'between you and the woman'."),
  ((6,7,8,9), "between your seed and her seed:", "uvein zar'akha uvein zar'ah: 'between your seed and her seed'. 'Seed' is collective."),
- ((10,11,12), "he—it—will crush your head;", "hu yeshufkha rosh: 'it will crush you on the head'. 'He—it' keeps hu's masculine and its referent open."),
- ((13,14,15), "you will bruise its heel.", "ve'atah teshufenu akev: 'and you will bruise it on the heel'. 'Bruise' repeats shuf, the same verb as 'crush'."),
+ ((10,11,12), "he—it—will snap at your head;", "hu yeshufkha rosh: 'it will crush you on the head'. 'He—it' keeps hu's masculine and its referent open."),
+ ((13,14,15), "you will snap at its heel.", "ve'atah teshufenu akev: 'and you will bruise it on the heel'. 'Snap at' gives shuf one English verb in both clauses."),
 ],
 "3:16": [
  ((0,1,2,3,4), "To the woman he said: I will multiply, multiply", "'el ha'ishah amar harbah arbeh: 'to the woman he said: multiplying I will multiply'. The infinitive absolute is kept as a doubled verb."),

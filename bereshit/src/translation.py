@@ -351,7 +351,7 @@ T = [
 
 ("2:23",
  ["The human barked: This time—at last—",
-  "bone of my bones, flesh of my flesh!",
+  "bone from my bones, flesh from my flesh!",
   "This one: Ishah, woman,",
   "for from Ish she was taken."],
  "Zot ha-pa'am (זֹאת הַפַּעַם): 'this time', idiomatically 'at last'. 'Barked' is the register's stretch of the exclamation. Ishah (אִשָּׁה), 'woman'; Ish (אִישׁ), 'man'. The pun works in Hebrew and fails in English, so the transliteration stays. LXX gynē and andros lose it."),
@@ -454,8 +454,8 @@ T = [
  ["Hatred I will set",
   "between you and the woman,",
   "between your seed and her seed:",
-  "he—it—will crush your head;",
-  "you will bruise its heel."],
+  "he—it—will snap at your head;",
+  "you will snap at its heel."],
  "Eivah (אֵיבָה), 'enmity, hatred'; 'hatred' is the English here. Hu (הוּא): 'he, it', masculine. Zera' (זֶרַע), 'seed', is collective. Yeshufka (יְשׁוּפְךָ): from shuf, 'crush, bruise'. LXX autos tērēsei, 'he will watch': 'crush' becomes 'guard'. Read as messianic prophecy in later tradition; the Hebrew names no single victor."),
 
 ("3:16",
