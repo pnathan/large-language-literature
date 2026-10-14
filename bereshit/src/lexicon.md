@@ -23,6 +23,7 @@ rendering as a witness to the sense the translators took.
 | badal | ב-ד-ל | cut the seam / split | diachōrizō | separate | "Cut a seam" at 1:4, 1:18; "split" for the waters at 1:7. |
 | nathan | נ-ת-נ | give | didōmi | give, set, put | Rule: "give" for every nathan. Applied at 1:17 ("gave them a place"), 1:29, 3:12. |
 
-Open items: none in the table itself. Remaining work is in the text, not the
-table: the register pass over every verse, and the per-verse check that each
-head term is used where it appears.
+Open items: the table has collisions not yet settled (raqia', badal/paqach,
+qavah/miqveh, nefesh chayah, rabah, sh-r-ts, 'avad, basar, tsela', harag/nakah).
+Also open: the per-verse check that each head term is used where it appears, and
+the commentary's agreement with the current English.
