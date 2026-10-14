@@ -45,7 +45,7 @@ A = {
  ((8, 9, 10), 'water from water.', "bein mayim lamayim: 'between water and water'. The idiom bein X lamayim is ordinary (cf. Deut 17:8)."),
 ],
 '1:7': [
- ((0, 1, 2, 3), 'Divinity made the skin.', "vayya'as elohim et haraqia': head term 'made' (lexicon.md)."),
+ ((0, 1, 2, 3), 'Divinity made the plate.', "vayya'as elohim et haraqia': head term 'made' (lexicon.md)."),
  ((4, 5, 6), 'Divinity split the waters:', "vayavdel bein hamayim: 'separated between the waters'. 'Split' is the physical stretch of badal."),
  ((7, 8, 9), 'some under it,', "asher mittachat laraqia': 'which were under the firmament'."),
  ((10, 11), '', "uvein hamayim: carried by 'some over it'."),
@@ -53,7 +53,7 @@ A = {
  ((15, 16), 'So.', "vayehi-ken: 'and it became so'. 'It held' is a marked addition for ken."),
 ],
 '1:8': [
- ((0, 1), 'Divinity named the skin Sky.', "vayiqra elohim laraqia' shamayim: 'called the firmament heavens'. 'Sky' narrows the plural."),
+ ((0, 1), 'Divinity named the plate Sky.', "vayiqra elohim laraqia' shamayim: 'called the firmament heavens'. 'Sky' narrows the plural."),
  ((2, 3), '', "shamayim: folk sound-play 'sham-mayim'; not in the text, marked."),
  ((4, 5), 'Evening.', 'vayehi erev.'),
  ((6, 7), 'Morning.', 'vayehi boqer.'),
@@ -92,14 +92,14 @@ A = {
  ((4, 5), 'The third day.', "yom shelishi: 'day third'."),
 ],
 '1:14': [
- ((0, 1, 2, 3, 4, 5), 'Divinity said: let there be lamps in the hammered sky,', "vayomer elohim yehi me'orot birqia' hashamayim: 'let there be lights in the firmament of the heavens'. 'Fire-holders' is the compound for 'or (light, fire)."),
+ ((0, 1, 2, 3, 4, 5), 'Divinity said: let there be lamps in the hammered plate,', "vayomer elohim yehi me'orot birqia' hashamayim: 'let there be lights in the firmament of the heavens'. 'Fire-holders' is the compound for 'or (light, fire)."),
  ((6, 7, 8, 9, 10), 'splitting day from night.', "lehavdil bein hayom uvein halaylah: 'to separate between the day and the night'. 'Cleaving' is the physical stretch of badal."),
  ((11, 12), 'Let them be marks', "vehayu le'otot: 'and let them be for signs'. 'Marks' is the physical English of 'ot."),
  ((13,), 'and meeting-times,', "ulemo'adim: 'and for appointed times'. 'Turns of the year' is the stretch of mo'ed."),
  ((14, 15), 'days and years.', "uleyamim veshanim: 'and for days and years'."),
 ],
 '1:15': [
- ((0, 1, 2, 3), 'Let them be lamps in the hammered sky,', "vehayu limme'orot birqia' hashamayim."),
+ ((0, 1, 2, 3), 'Let them be lamps in the hammered plate,', "vehayu limme'orot birqia' hashamayim."),
  ((4, 5, 6), 'to pour light on the ground.', "lehe'ir al ha'arets: 'to give light on the ground'. 'Pour' is the physical stretch of he'ir."),
  ((7, 8), 'So.', 'vayehi-ken.'),
 ],
@@ -110,7 +110,7 @@ A = {
  ((14, 15, 16, 17), 'and the stars.', "ve'et hakokhavim."),
 ],
 '1:17': [
- ((0, 1, 2, 3, 4), 'Divinity gave them a place in the hammered sky', "vayyiten otam elohim birqia' hashamayim: head term 'give' (lexicon.md). 'A place' is added to make give fit the sky."),
+ ((0, 1, 2, 3, 4), 'Divinity gave them a place in the hammered plate', "vayyiten otam elohim birqia' hashamayim: head term 'give' (lexicon.md). 'A place' is added to make give fit the sky."),
  ((5, 6, 7), 'to pour light on the ground.', "lehe'ir al ha'arets."),
 ],
 '1:18': [
@@ -129,7 +129,7 @@ A = {
  ((6,), '', 'chayah: carried above.'),
  ((7, 8), 'and let fliers flutter', "veof yeofef: 'and bird flying'. The doubled verb of flight."),
  ((9, 10), 'over the ground,', "'al ha'arets: 'over the ground'."),
- ((11, 12, 13, 14), 'across the face of the hammered sky.', "'al penei raqia' hashamayim: 'over the face of the firmament of the heavens'. 'Across' is the English stretch of 'al."),
+ ((11, 12, 13, 14), 'across the face of the hammered plate.', "'al penei raqia' hashamayim: 'over the face of the firmament of the heavens'. 'Across' is the English stretch of 'al."),
 ],
 '1:21': [
  ((0, 1, 2, 3, 4), 'Divinity cut the great serpents, the tanninim,', "vayivra' elohim et hattanninim hagedolim: head term 'cut'. 'The deep' is not in the Hebrew and is not added."),
@@ -386,7 +386,7 @@ A = {
 '3:5': [
  ((0, 1, 2), 'For Divinity knows:', "ki yodea' elohim: 'for Divinity knows'."),
  ((3, 4, 5, 6), 'the day you eat from it,', "ki beyom akhlekhem mimmenu: 'that on the day you eat from it'."),
- ((7, 8), 'your eyes will split open,', "venifqechu einekhem: 'your eyes will be opened'. 'Split open' is the body stretch of paqach."),
+ ((7, 8), 'your eyes will be opened,', "venifqechu einekhem: 'your eyes will be opened'. Paqach is 'open' here; b-d-l's 'split' is kept for the waters."),
  ((9, 10), 'and you will be like the divine ones,', "vihyitem ke'elohim: 'like gods'."),
  ((11, 12, 13), 'knowing good and harm.', "yodei' tov vara'."),
 ],
@@ -399,7 +399,7 @@ A = {
  ((16, 17, 18, 19, 20), 'She gave to her man with her, and he ate.', "vattitten gam le'ishah immah vayokhal: 'she gave also to her husband with her, and he ate'."),
 ],
 '3:7': [
- ((0, 1, 2), 'Both their eyes split open,', 'vattipaqachna einei shneihem.'),
+ ((0, 1, 2), 'The eyes of both of them were opened,', 'vattipaqachna einei shneihem.'),
  ((3, 4, 5, 6), 'and they knew they were bare;', "vayeyde'u ki eiromim hem."),
  ((7, 8, 9, 10, 11, 12), 'they sewed fig-leaves and made loin-belts.', "vayitperu alei te'enah vayya'asu lahem chagorot."),
 ],

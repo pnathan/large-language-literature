@@ -23,7 +23,11 @@ rendering as a witness to the sense the translators took.
 | badal | ב-ד-ל | cut the seam / split | diachōrizō | separate | "Cut a seam" at 1:4, 1:18; "split" for the waters at 1:7. |
 | nathan | נ-ת-נ | give | didōmi | give, set, put | Rule: "give" for every nathan. Applied at 1:17 ("gave them a place"), 1:29, 3:12. |
 
-Open items: the table has collisions not yet settled (raqia', badal/paqach,
-qavah/miqveh, nefesh chayah, rabah, sh-r-ts, 'avad, basar, tsela', harag/nakah).
-Also open: the per-verse check that each head term is used where it appears, and
-the commentary's agreement with the current English.
+Decisions taken in this pass:
+- raqia' (רָקִיעַ) is 'the hammered plate' throughout; 'the sky' is shamayim.
+- b-d-l is 'split' for the waters and the light; paqach at 3:5 and 3:7 is 'opened'.
+
+Open items: qavah/miqveh, nefesh chayah, rabah, sh-r-ts, 'avad, basar, tsela', and
+harag/nakah are not yet settled. Also open: the per-verse check that each head
+term is used where it appears, and the commentary's agreement with the current
+English beyond the notes rewritten on 2026-10-14.
