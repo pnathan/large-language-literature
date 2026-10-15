@@ -117,3 +117,25 @@ the changed verses. Findings and disposition:
     words; the Hebrew is an infinitive. Fixed: "to know good and harm".
 12. 3:5 and 1:16: phrasing shared with published translations, largely forced by
     the Hebrew. Kept; low risk.
+
+## Review of the critical apparatus
+
+A Fable-model pass checked every reading of `text/apparatus.txt` against the fetched data
+(the witnesses, the comparison-site texts, the Targums, the commentaries). It confirmed all
+48 readings of section II, and that every substantive Samaritan difference found by the
+collation is entered. Its findings and their disposition:
+
+- Agreeing witnesses added: Syr and TPsJ at 1:11; Syr at 1:11 (plus) and 1:28; TSam at 2:4,
+  3:6, 4:10, 4:11, 4:18; TPsJ at 2:24; Syr at 4:10, 4:11, 4:18; versions for the base
+  reading at 1:7 and 1:9.
+- Gᵗ cited at 1:14, where it adds 'and to rule the day and the night'.
+- 2:4: a note lists every verse where G has ὁ θεός alone for יְהוָה אֱלֹהִים.
+- 2:19 (TSam עורי) and 2:23 (TSam מן גברה): recorded as uncertain in notes, not as readings.
+- 3:19: the note names the second עָפָר.
+- Section III corrected: the 1:1 note (the versions, not every witness, read a time; BerR reads
+  the Torah); Jubilees and Chagigah reworded; BerR and Rashi separated at 1:2; TN and TPsJ
+  quoted separately at 1:2; Rashi's causative at 2:6; the Aramaic of 2:21 given as 'ribs,
+  sides'; the Syriac of 4:7 given as ambiguous in person.
+- Two objections did not stand: Symmachus at 1:2 is in the source. The reviewer did not see
+  it because a parser fault had dropped it, along with other witness lines. The parser was
+  fixed and all cited verses re-checked; θ′ was added at 1:2.
