@@ -151,14 +151,14 @@ ibn-ezra: When he made every tree sprout from the ground, so it sprouted in the 
 
 @ 2:10
 > A river goes out of Eden to water the garden;
-> from there it parts and becomes four heads.
+> from there it parts and becomes four headwaters.
 note: יֹצֵא, 'going out', a participle; the English gives the present. רָאשִׁים, 'heads': the source
-  of a river, and the word from which רֵאשִׁית (1:1) is formed. The LXX has ἀρχάς, 'beginnings',
+  of a river; the English gives 'headwaters', the word of 1:1, as רֵאשִׁית is formed from רֹאשׁ. The LXX has ἀρχάς, 'beginnings',
   the word of 1:1.
 ibn-ezra: Before the earthling was made, the river watered the garden on every side.
 = 0 1 2 3 4 5 | A river goes out of Eden to water the garden; | 'and a river going out from עֵדֶן to water the garden'
 = 6 7 | from there it parts | 'and from there it divides'
-= 8 9 10 | and becomes four heads. | 'and becomes four heads'
+= 8 9 10 | and becomes four headwaters. | 'and becomes four heads'
 
 @ 2:11
 > The name of the first: Pishon.
@@ -311,8 +311,11 @@ ibn-ezra: 'Brought her': when he woke he thought she had been brought to him.
 = 11 12 13 | and brought her to the earthling. | 'and brought her to the earthling'
 
 @ 2:23
-> The earthling said: This one, this time, is bone out of my bones, meat out of my meat!
-> This one shall be called Ishah, for from Ish she was taken.
+> The earthling said:
+> This one, this time, is bone out of my bones,
+> meat out of my meat!
+> This one shall be called Ishah,
+> for from Ish she was taken.
 note: זֹאת הַפַּעַם, 'this one, this time': at last. אִשָּׁה, 'woman', and אִישׁ, 'man': the text joins
   them by sound; they are probably not one root. The English keeps the Hebrew words so that the
   pun survives. The LXX has γυνή and ἀνδρὸς αὐτῆς, 'her man', and loses it.

@@ -47,7 +47,7 @@ by that check; none was left unchecked.
 27. 1:26 "an earthling" — **closed** ("a human"); later reversed by the project owner: "earthling" for אָדָם throughout.
 28. 1:26 "every living thing" — **closed** ("every crawler").
 29. 1:26 "and" plus — **closed** (recorded in the notes).
-30. 1:26 radah — **decided** ("oppress"; the translator asked for a fresh analogue, "oppress" kept).
+30. 1:26 radah — **decided** ("oppress"; the translator asked for a fresh analogue, "oppress" kept). Superseded: "hold sway over", owner's decision (see `review-rashi-ibn-ezra.md`).
 31. 1:27 subject "Divinity Divinity" — **closed** ("he cut").
 32. 1:27 LXX first "in his image" — **closed** (recorded).
 33. 1:28 "to them" — **decided** ("Divinity said to them").

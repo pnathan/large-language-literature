@@ -1,10 +1,14 @@
 # Bereshit, chapter 1. Format and rules: bereshit/CLAUDE.md, section 'Text files'.
 
 @ 1:1
-> At the start of Divinity's carving out
+> In the headwaters of time, when Divinity carved out
 > the heavens and the ground—
 note: בְּרֵאשִׁית is a construct form, 'at the start of', with no article: it needs a following word.
   Here it stands before the verb בָּרָא, so the clause reads 'at the start of (Divinity's) carving out'.
+  רֵאשִׁית is formed from רֹאשׁ, 'head'; the English gives 'headwaters', the head of a river, as
+  רָאשִׁים is at 2:10. Aquila reads ἐν κεφαλαίῳ, 'in the head'. 'Of time' is the English's addition:
+  it names what the headwaters are of, the time sense that the versions read (ἐν ἀρχῇ, בְּקַדְמִין).
+  In the Hebrew the construct binds to the verb, not to a noun; 'when' keeps that binding.
   The verse is then a time clause, and the main clause comes in 1:2 or in 1:3. This is the reading
   of Rashi and of Ibn Ezra, and the English follows it. בָּרָא is used only with Divinity as
   subject, and never names a material, unlike יָצַר, 'potted' (2:7). The English gives 'carve
@@ -26,8 +30,9 @@ ibn-ezra: בְּרֵאשִׁית is a construct (ולפי דעתי שהוא סמ
   Yehoyakim'; the main clause is 1:2. בָּרָא is not making out of nothing: its sense is 'to cut,
   and set a cut boundary' (לגזור ולשום גבול נגזר). 'The heavens and the ground' here are the
   firmament and the dry land. אֱלֹהִים is a plural of honour, and so the verb is singular.
-= 0 | At the start of | 'at the start of', a construct
-= 1 2 | Divinity's carving out | 'carved out Divinity': the verb read as a verbal noun after the construct
+= 0 | In the headwaters | 'at the start of', a construct; רֵאשִׁית from רֹאשׁ, 'head'
+= - | of time, | added: what the headwaters are of; the Hebrew has no noun here
+= 1 2 | when Divinity carved out | 'carved out Divinity': the verb bound to the construct, given as a clause
 = 3 4 | the heavens | אֵת marks the object; 'the heavens'
 = 5 6 | and the ground— | 'and the ground'
 
@@ -383,12 +388,13 @@ rashi: 'Made' means he fitted them out in their full form and stature.
 > Divinity said:
 > let us make an earthling, in our image,
 > as our likeness.
-> Let them oppress the fish of the sea, the bird of the heavens,
+> Let them hold sway over the fish of the sea, the bird of the heavens,
 > the cattle, the whole ground, every crawler that crawls on the ground.
 note: נַעֲשֶׂה, 'let us make', first person plural. אָדָם has no article: 'an earthling', a kind, not yet
   a name. The English gives 'earthling' for אָדָם throughout: the Hebrew word carries
   אֲדָמָה, 'ground', and the English word carries 'earth'. צֶלֶם, 'image'; דְּמוּת, 'likeness'. וְיִרְדּוּ, from רָדָה, 'rule over, tread down'; the
-  plural takes אָדָם as a collective. The English gives 'oppress', the harsh edge of the verb. The
+  plural takes אָדָם as a collective. The English gives 'hold sway over': the rule, without the softening of 'have charge'. Rashi
+  reads both 'rule' and 'go down'. The
   LXX has ποιήσωμεν, 'let us make', κατ' εἰκόνα ἡμετέραν καὶ καθ' ὁμοίωσιν, 'after our image and
   after likeness', with a καί the Hebrew lacks, and ἀρχέτωσαν, 'let them rule'.
 app: נַעֲשֶׂה: Divinity with the heavenly court (Rashi, Ibn Ezra), or a plural of majesty.
@@ -403,8 +409,8 @@ ibn-ezra: The Name said to the angels, 'let us make'. He rejects the reading of 
 = 3 | an earthling, | 'earthling', without the article
 = 4 | in our image, | 'in our image'
 = 5 | as our likeness. | 'according to our likeness'
-= 6 | Let them oppress | 'and let them rule over'; the harsh sense is chosen
-= 7 8 | the fish of the sea, | 'over the fish of the sea'
+= 6 | Let them hold sway | 'and let them rule over'
+= 7 8 | over the fish of the sea, | 'over the fish of the sea'
 = 9 10 | the bird of the heavens, | 'and over the bird of the heavens'
 = 11 | the cattle, | 'and over the cattle'
 = 12 13 | the whole ground, | 'and over all the ground'
@@ -432,7 +438,7 @@ ibn-ezra: He rejects the reading in which 'his image' is the earthling's own.
 > Divinity blessed them.
 > Divinity said to them:
 > Bear fruit, grow many, fill the ground;
-> subdue it; oppress the fish of the sea, the bird of the heavens, every beast that crawls on the ground.
+> subdue it; hold sway over the fish of the sea, the bird of the heavens, every beast that crawls on the ground.
 note: וְכִבְשֻׁהָ, 'and subdue it', from כָּבַשׁ, to press down, to bring under. וּרְדוּ, the verb of
   1:26. בְּכָל חַיָּה הָרֹמֶשֶׂת, 'every living thing that crawls'. The LXX has κατακυριεύσατε,
   'lord it over', and adds πάντων τῶν κτηνῶν καὶ πάσης τῆς γῆς, 'all the cattle and all the
@@ -446,7 +452,7 @@ ibn-ezra: (On 1:26.) In form a blessing, as for the water creatures; in the eart
 = 8 | fill | 'and fill'
 = 9 10 | the ground; | 'the ground'
 = 11 | subdue it; | 'and subdue it'
-= 12 13 14 | oppress the fish of the sea, | 'and rule over the fish of the sea'
+= 12 13 14 | hold sway over the fish of the sea, | 'and rule over the fish of the sea'
 = 15 16 | the bird of the heavens, | 'and over the bird of the heavens'
 = 17 18 19 20 21 | every beast that crawls on the ground. | 'and over every living thing that crawls on the ground'
 

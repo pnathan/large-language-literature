@@ -103,13 +103,16 @@ def parse_chapter(path):
     return verses
 
 
-def load_paragraphs():
-    """Editorial paragraph starts: {ref: reason}."""
+def load_paragraphs(verse=False):
+    """Editorial paragraph starts {ref: reason}; with verse=True, the verses set as verse lines."""
     out = {}
-    for n, raw in enumerate((TEXT / "paragraphs.txt").read_text(encoding="utf-8").split("\n"), start=1):
-        if raw.strip() and not raw.startswith("#"):
-            ref, _s, why = raw.partition("|")
-            out[ref.strip()] = why.strip()
+    for raw in (TEXT / "paragraphs.txt").read_text(encoding="utf-8").split("\n"):
+        if not raw.strip() or raw.startswith("#"):
+            continue
+        if raw.startswith("verse:") != verse:
+            continue
+        ref, _s, why = raw.removeprefix("verse:").partition("|")
+        out[ref.strip()] = why.strip()
     return out
 
 
@@ -450,36 +453,47 @@ def render_apparatus(app):
 
 def render_reading(verses):
     """The reading text: paragraphs by the Masoretic marks and the editorial breaks."""
-    starts = load_paragraphs()
+    starts, poem = load_paragraphs(), load_paragraphs(verse=True)
     title = {"\u05e4": "open paragraph (petuchah) in the Masoretic text",
              "\u05e1": "closed paragraph (setumah) in the Masoretic text"}
     out = ['<section class="reading" id="reading"><h2 class="ch">The text</h2>'
            '<div class="ch-rule"></div>']
-    para, chapter = [], None
+    para, chapter, kind = [], None, "prose"
     def flush(mark=""):
         if para:
             end = (f' <span class="pm" lang="he" title="{title[mark]}">{mark}</span>' if mark else "")
-            out.append('<p class="rd">' + " ".join(para) + end + "</p>")
+            if kind == "verse":
+                body = "".join(para)
+                body = body[:-len("</span>")] + end + "</span>"
+                out.append('<div class="rd poem">' + body + "</div>")
+            else:
+                out.append('<p class="rd">' + " ".join(para) + end + "</p>")
             para.clear()
     for v in verses:
         ref = v["ref"]
         c, n = ref.split(":")
-        if ref in starts:
+        k = "verse" if ref in poem else "prose"
+        if ref in starts or k != kind:
             flush()
+            kind = k
         if c != chapter:
             flush()
             out.append(f'<h3 class="rch">Chapter {c}</h3>')
             chapter = c
         anchor = ref.replace(":", "-")
         label = ref if n == "1" else n
-        text = " ".join(esc(x) for x in v["lines"])
-        para.append(f'<a class="rv" id="r{anchor}" href="#v{anchor}">{label}</a>{text}')
+        num = f'<a class="rv" id="r{anchor}" href="#v{anchor}">{label}</a>'
+        if kind == "verse":
+            para.append("".join(f'<span class="ln">{num if i == 0 else ""}{esc(x)}</span>'
+                                for i, x in enumerate(v["lines"])))
+        else:
+            para.append(num + " ".join(esc(x) for x in v["lines"]))
         if mt_break(ref):
             flush(mt_break(ref))
     flush()
     out.append('<p class="rnote">Paragraphs follow the open (\u05e4) and closed (\u05e1) divisions of the '
                'Masoretic text; inside the long units 2:4–3:15, 3:17–21 and 4:1–18 the breaks are '
-               'editorial and unmarked. Each verse number leads to its row below.</p></section>')
+               'editorial and unmarked. 2:23 and 3:14–19 are set as verse, in the lines of the translation. Each verse number leads to its row below.</p></section>')
     return "\n".join(out)
 
 
@@ -520,6 +534,9 @@ def main(argv):
     problems = check(verses, names) + check_apparatus(app)
     order = list(HEB)
     last = -1
+    for ref in load_paragraphs(verse=True):
+        if ref not in HEB:
+            problems.append(f"paragraphs.txt: no verse {ref}")
     for ref in load_paragraphs():
         if ref not in HEB:
             problems.append(f"paragraphs.txt: no verse {ref}")

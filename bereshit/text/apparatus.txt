@@ -235,7 +235,8 @@ p: How the versions and the early interpreters read the words on which the Engli
   בקמאותא {TSam} ; ܒܪܫܝܬ {Syr} ; 'by the רֵאשִׁית', the Torah as the architect's plan {BerR} ;
   heaven and earth counted among the works of the first day {Jub Chag} ; construct, 'at the start of creating', main clause
   at 1:3 {Rashi} ; construct, main clause at 1:2 {IE Rashbam}
-~ Every ancient version reads the word absolutely, as a time (TN adds 'with wisdom'); BerR reads it
+~ The English 'headwaters' takes the 'head' of Aquila's κεφάλαιον; 'of time' takes the time sense of
+  G, the Targums and Syr. Every ancient version reads the word absolutely, as a time (TN adds 'with wisdom'); BerR reads it
   as the Torah. The construct reading is the medieval plain-sense reading. Rashbam rejects both 'first of all' and 'before he created'.
 = בָּרָא ] ἐποίησεν, 'made' {G} ; ἔκτισεν, 'founded' {α′ Jos} ; ברא … ושכלל, 'created … and
   perfected' {TN} ; טלמס {TSam} ; 'to cut, and set a cut boundary' {IE}

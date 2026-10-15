@@ -62,10 +62,19 @@ Rashi and Ibn Ezra are the normative traditional interpreters for this edition.
   Ezek 23:47); "out" carries his boundary and removes the reading of "cut the earthling" as
   a wound.
 
+- בְּרֵאשִׁית (1:1) is "In the headwaters of time, when Divinity carved out" (was "At the start of
+  Divinity's carving out"). רֵאשִׁית is formed from רֹאשׁ, 'head', and רָאשִׁים at 2:10 is now
+  "headwaters" too; Aquila reads ἐν κεφαλαίῳ. "Of time" is a recorded English addition for the time
+  sense the versions read. The verse stays a time clause bound to the verb, with Rashi and Ibn Ezra.
+
+- רָדָה (1:26, 1:28) is "hold sway over" (was "oppress"). This closes the open item below.
+
+- 2:23 and 3:14–19 are set as verse in the reading text.
+
 ## Kept against one commentator, or as a translator's decision
 
-- 1:26, 1:28 "oppress" for רָדָה: kept by the translator's earlier decision.
-  Rashi reads 'rule' and 'go down'; Ibn Ezra is silent. Open for the owner.
+- 1:26, 1:28 רָדָה: decided by the owner as "hold sway over" (above). Rashi reads 'rule' and
+  'go down'; Ibn Ezra is silent.
 - 1:8 "Heavens: these waters": kept. Rashi supports the waters wordplay.
 - 1:21 "sea-serpents": kept. Rashi reads "great fish"; Ibn Ezra is silent.
 - 1:6 ff. "hammered plate": kept. Rashi reads a firm body; Ibn Ezra reads the air.

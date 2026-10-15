@@ -7,9 +7,12 @@
 # This file lists the editorial breaks inside the long Masoretic units: each line is the
 # verse that begins a new reading paragraph, with a short reason. Editorial breaks carry no
 # mark in the reading text.
+#
+# A line `verse: ref | reason` sets that verse as verse: each `>` line of the translation is
+# one printed line. Adjacent verse lines form one block.
 
 2:8  | the garden is planted
-2:10 | the river and its four heads
+2:10 | the river and its four headwaters
 2:15 | the earthling set in the garden, and the charge
 2:18 | not good, the earthling alone
 2:21 | the woman built from the side
@@ -21,3 +24,11 @@
 4:8  | the killing
 4:9  | the question and the sentence
 4:17 | the line of Qayin
+
+verse: 2:23 | the earthling's saying over the woman
+verse: 3:14 | the sentence on the serpent
+verse: 3:15 | the sentence on the serpent
+verse: 3:16 | the sentence on the woman
+verse: 3:17 | the sentence on the earthling
+verse: 3:18 | the sentence on the earthling
+verse: 3:19 | the sentence on the earthling

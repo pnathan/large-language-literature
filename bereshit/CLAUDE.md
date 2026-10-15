@@ -90,7 +90,8 @@ normative interpreters, with a Fable-model check of that revision (item 6).
   The reading text, printed before the verse-by-verse section, is divided first by the
   Masoretic open (פ) and closed (ס) paragraph marks of the Hebrew witness, which `tool.py` reads
   from `src/witness-hebrew.json`; this file adds breaks inside the long units only. `check`
-  rejects a break that duplicates a Masoretic one.
+  rejects a break that duplicates a Masoretic one. A line `verse: ref | reason` sets that verse
+  as verse in the reading text, one printed line per `>` line.
 - `text/apparatus.txt` — the critical apparatus appendix (format below): sigla; I. variant
   readings of the Hebrew witnesses and of the versions where they presuppose another Hebrew
   text; II. spelling and minor readings of the Samaritan Pentateuch; III. readings of the

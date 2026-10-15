@@ -170,9 +170,12 @@ ibn-ezra: הִשִּׁיאַנִי means 'he enticed me' (פתני).
 = 7 8 9 10 11 | The woman said: The serpent misled me, and I ate. | 'and the woman said: the serpent misled me, and I ate'
 
 @ 3:14
-> The Lord God said to the serpent: Because you did this— cursed are you above all the cattle,
+> The Lord God said to the serpent:
+> Because you did this—
+> cursed are you above all the cattle,
 > and above every beast of the field.
-> On your belly you will go. Dust you will eat, all the days of your life.
+> On your belly you will go.
+> Dust you will eat, all the days of your life.
 note: מִכָּל הַבְּהֵמָה: the מִן can single out ('cursed from among') or compare ('cursed more
   than'); the English 'above' takes the comparison. גָּחוֹן, 'belly'. עָפָר, 'dust'. The LXX has
   ἐπὶ τῷ στήθει σου καὶ τῇ κοιλίᾳ, 'on your chest and belly', and γῆν, 'earth', for dust.
@@ -187,7 +190,8 @@ ibn-ezra: גָּחוֹן is the chest (החזה). The curse is a lack in his goi
 = 19 20 21 22 23 | Dust you will eat, all the days of your life. | 'and dust you will eat all the days of your life'
 
 @ 3:15
-> Hatred I will set between you and the woman, between your seed and her seed:
+> Hatred I will set between you and the woman,
+> between your seed and her seed:
 > he will crush your head;
 > you will snap at his heel.
 note: אֵיבָה, 'enmity'. זֶרַע, 'seed', is collective; הוּא, 'he', agrees with it. The verb שׁוּף occurs
@@ -207,7 +211,8 @@ ibn-ezra: Her seed will strike you on the head (זרעה יככה בראש). The
 = 13 14 15 | you will snap at his heel. | 'and you will strike him, heel'; the same verb, in the sense of a bite
 
 @ 3:16
-> To the woman he said: I will multiply, multiply your pain and your pregnancy.
+> To the woman he said:
+> I will multiply, multiply your pain and your pregnancy.
 > In pain you will bear children.
 > Toward your man your thirst, and he will rule you.
 note: הַרְבָּה אַרְבֶּה, 'multiplying I will multiply', the infinitive absolute. עִצָּבוֹן, 'pain,
@@ -225,7 +230,8 @@ ibn-ezra: Pregnancy is heavy on the woman (ההריון כבד על האשה). �
 = 10 11 12 13 14 15 | Toward your man your thirst, and he will rule you. | 'and toward your man your desire, and he will rule over you'
 
 @ 3:17
-> To the earthling he said: Because you listened to your woman's voice
+> To the earthling he said:
+> Because you listened to your woman's voice
 > and ate from the tree I charged you about—'do not eat from it'—
 > cursed is the red earth because of you.
 > In pain you will eat it all the days of your life.
@@ -250,7 +256,9 @@ ibn-ezra: 'The plant of the field' is the bread; in the garden he lived from the
 = 4 5 6 7 | you will eat the plant of the field. | 'and you will eat the plant of the field'
 
 @ 3:19
-> In the sweat of your nose you will eat bread until you return to the red earth—for from it you were taken.
+> In the sweat of your nose you will eat bread
+> until you return to the red earth—
+> for from it you were taken.
 > For dust you are, and to dust you will return.
 note: אַפֶּיךָ, 'your nostrils', and by extension 'your face'; the word of 2:7. לֻקָּחְתָּ, 'you were
   taken'. עָפָר, 'dust', the matter of 2:7. The LXX has τοῦ προσώπου σου, 'of your face', and
@@ -258,7 +266,7 @@ note: אַפֶּיךָ, 'your nostrils', and by extension 'your face'; the word 
 ibn-ezra: The sweat is the labour of winnowing, grinding, kneading and baking, unlike the food of
   beasts.
 = 0 1 2 3 | In the sweat of your nose you will eat bread | 'in the sweat of your nostrils you will eat bread'
-= 4 5 6 7 8 9 10 | until you return to the red earth—for from it you were taken. | 'until your return to the ground, for from it you were taken'
+= 4 5 6 7 8 9 10 | until you return to the red earth— for from it you were taken. | 'until your return to the ground, for from it you were taken'
 = 11 12 13 14 15 16 | For dust you are, and to dust you will return. | 'for dust you are, and to dust you will return'
 
 @ 3:20
