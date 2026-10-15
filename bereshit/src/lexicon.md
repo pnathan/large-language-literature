@@ -7,7 +7,7 @@ Greek in Greek script.
 
 | Hebrew | Head term (English) | LXX | Range in this span | Notes |
 |---|---|---|---|---|
-| בָּרָא | cut | ἐποίησεν | create, cut, shape | Ibn Ezra: 'to cut, and set a cut boundary' (1:1). Used with Divinity as subject only. |
+| בָּרָא | carve out | ἐποίησεν | create, cut, shape | Ibn Ezra: 'to cut, and set a cut boundary' (1:1), from the intensive בֵּרֵא (Josh 17:15, Ezek 23:47). Used with Divinity as subject only; never names a material, unlike יָצַר. 'Out' carries the boundary. |
 | עָשָׂה | make | ἐποίησεν | make, fit out | Rashi (1:7, 1:25) and Ibn Ezra (2:4): fitting out, completing. |
 | יָצַר | pot | ἔπλασεν | form as a potter | 2:7, 2:8, 2:19. At 2:19 a pluperfect, 'had potted'. With 'earthling' and 'red earth', it gives the potter shaping the earthling from the soil it is named for. |
 | אָמַר | say | εἶπεν | say | The speech formula, for every speaker. |

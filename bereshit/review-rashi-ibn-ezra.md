@@ -57,6 +57,11 @@ Rashi and Ibn Ezra are the normative traditional interpreters for this edition.
   'earth' as אָדָם carries אֲדָמָה. Ibn Ezra (2:8) calls אָדָם a name hewn from the ground.
   This reverses item 27 of `review-opus-questions.md`.
 
+- בָּרָא is "carve out" in all six uses (1:1, 1:21, 1:27 three times, 2:3, 2:4); it was
+  "cut". The slicing sense is Ibn Ezra's (לגזור ולשום גבול נגזר, from Josh 17:15 and
+  Ezek 23:47); "out" carries his boundary and removes the reading of "cut the earthling" as
+  a wound.
+
 ## Kept against one commentator, or as a translator's decision
 
 - 1:26, 1:28 "oppress" for רָדָה: kept by the translator's earlier decision.

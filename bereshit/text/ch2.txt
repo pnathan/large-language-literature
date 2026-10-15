@@ -32,13 +32,13 @@ ibn-ezra: He rejects the reading that the day itself was a created work, and he 
 
 @ 2:3
 > Divinity blessed the seventh day, and set it apart,
-> because on it he quit from all his work that Divinity cut, to make.
-note: וַיְקַדֵּשׁ, 'made holy, set apart'. אֲשֶׁר בָּרָא אֱלֹהִים לַעֲשׂוֹת, 'which Divinity cut, to make':
+> because on it he quit from all his work that Divinity carved out, to make.
+note: וַיְקַדֵּשׁ, 'made holy, set apart'. אֲשֶׁר בָּרָא אֱלֹהִים לַעֲשׂוֹת, 'which Divinity carved out, to make':
   the infinitive after בָּרָא is not explained in the verse, and the English keeps it bare. The LXX
   has ὧν ἤρξατο ὁ θεὸς ποιῆσαι, 'which Divinity began to make'.
 app: לַעֲשׂוֹת: work meant for the seventh day and done on the sixth (Rashi); the power given to the
   kinds to make their like (Ibn Ezra); or a mere complement, 'in making'.
-rashi: 'Which Divinity cut, to make': the work fit to be done on the sabbath he doubled and did on
+rashi: 'Which Divinity carved out, to make': the work fit to be done on the sabbath he doubled and did on
   the sixth day.
 ibn-ezra: Blessing is an increase of good; holiness is that no work was done on it as on the other
   days. לַעֲשׂוֹת is the roots in all kinds, given the power to make their likeness; he rejects
@@ -46,24 +46,24 @@ ibn-ezra: Blessing is an increase of good; holiness is that no work was done on 
 = 0 1 2 3 4 | Divinity blessed the seventh day, | 'and Divinity blessed the seventh day'
 = 5 6 | and set it apart, | 'and made it holy'
 = 7 8 9 | because on it he quit | 'for on it he ceased'
-= 10 11 12 13 14 15 | from all his work that Divinity cut, to make. | 'from all his work which Divinity cut, to make'
+= 10 11 12 13 14 15 | from all his work that Divinity carved out, to make. | 'from all his work which Divinity carved out, to make'
 
 @ 2:4
-> This is the table of heavens and ground, the tale of how they came to be, when they were cut, in the day the Lord God made
+> This is the table of heavens and ground, the tale of how they came to be, when they were carved out, in the day the Lord God made
 > ground and heavens.
 note: תּוֹלְדוֹת, from יָלַד, 'to bear': 'births, generations, what came of'. The English renders it
-  twice, 'the table' and 'the tale of how they came to be'. בְּהִבָּרְאָם, 'in their being cut', the
+  twice, 'the table' and 'the tale of how they came to be'. בְּהִבָּרְאָם, 'in their being carved out', the
   passive of בָּרָא. Here the Name, יְהוָה, first appears, with אֱלֹהִים: 'the Lord God'. 'Ground and
   heavens' reverses the order of 1:1. The LXX has αὕτη ἡ βίβλος γενέσεως, 'this is the book of
   origin', the source of the Greek title, and ὁ θεός alone, without κύριος.
 app: אֵלֶּה: these that follow, or these that were told above (Rashi).
 rashi: 'These' are those told above. 'In the day' teaches that all were created on the first day.
 ibn-ezra: 'These are the generations': these that they brought forth. בְּהִבָּרְאָם: when the firmament
-  was and the ground appeared. עֲשׂוֹת here is fitting-out: cutting, then forming, then making.
+  was and the ground appeared. עֲשׂוֹת here is fitting-out: carving out, then forming, then making.
 = 0 | This is the table of | 'these'
 = 1 | the tale of how they came to be, | 'the births of'; rendered twice, 'table' and 'tale'
 = 2 3 | heavens and ground, | 'the heavens and the ground'
-= 4 | when they were cut, | 'in their being cut'
+= 4 | when they were carved out, | 'in their being carved out'
 = 5 6 7 8 | in the day the Lord God made | 'in the day of the Lord God's making'
 = 9 10 | ground and heavens. | 'ground and heavens', the reverse of 1:1
 

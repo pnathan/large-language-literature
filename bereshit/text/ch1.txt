@@ -1,19 +1,23 @@
 # Bereshit, chapter 1. Format and rules: bereshit/CLAUDE.md, section 'Text files'.
 
 @ 1:1
-> At the start of Divinity's cutting
+> At the start of Divinity's carving out
 > the heavens and the ground—
 note: בְּרֵאשִׁית is a construct form, 'at the start of', with no article: it needs a following word.
-  Here it stands before the verb בָּרָא, so the clause reads 'at the start of (Divinity's) cutting'.
+  Here it stands before the verb בָּרָא, so the clause reads 'at the start of (Divinity's) carving out'.
   The verse is then a time clause, and the main clause comes in 1:2 or in 1:3. This is the reading
   of Rashi and of Ibn Ezra, and the English follows it. בָּרָא is used only with Divinity as
-  subject; the English gives 'cut', the sense Ibn Ezra gives: to cut, and set a cut boundary.
+  subject, and never names a material, unlike יָצַר, 'potted' (2:7). The English gives 'carve
+  out', after Ibn Ezra: to cut, and set a cut boundary. His evidence is the intensive form בֵּרֵא:
+  the forest cleared to make room in Josh 17:15, and the sword in Ezek 23:47. Whether the simple
+  form shares that root is disputed. 'Out' carries the boundary: the form freed, the space marked
+  off.
   אֵת marks the object and is not rendered. אֶרֶץ is 'the ground' in this translation; אֲדָמָה is
   'the red earth'. The LXX reads a main clause: ἐν ἀρχῇ ἐποίησεν ὁ θεός, 'in a beginning Divinity
   made', with no article on ἀρχῇ and ἐποίησεν, 'made', for בָּרָא.
 app: בְּרֵאשִׁית: 'at the start of', a time clause (Rashi, Ibn Ezra); or 'at the start', a main clause
   (the LXX).
-app: בָּרָא: cut, shape, or create. The root is disputed.
+app: בָּרָא: carve out, cut, shape, or create. The root is disputed.
 rashi: The verse does not teach the order of creation. Every רֵאשִׁית in Scripture is bound to the
   word after it, so read בְּרֵאשִׁית בְּרֹא: 'at the start of the creating of heavens and earth, when
   the earth was waste and void and dark, Divinity said: let there be light'. The main clause is
@@ -23,7 +27,7 @@ ibn-ezra: בְּרֵאשִׁית is a construct (ולפי דעתי שהוא סמ
   and set a cut boundary' (לגזור ולשום גבול נגזר). 'The heavens and the ground' here are the
   firmament and the dry land. אֱלֹהִים is a plural of honour, and so the verb is singular.
 = 0 | At the start of | 'at the start of', a construct
-= 1 2 | Divinity's cutting | 'cut Divinity': the verb read as a verbal noun after the construct
+= 1 2 | Divinity's carving out | 'carved out Divinity': the verb read as a verbal noun after the construct
 = 3 4 | the heavens | אֵת marks the object; 'the heavens'
 = 5 6 | and the ground— | 'and the ground'
 
@@ -301,7 +305,7 @@ ibn-ezra: יִשְׁרְצוּ is transitive: the waters bring forth swarms, as 
 = 11 12 13 14 | across the face of the hammered plate of the heavens. | 'upon the face of the רָקִיעַ of the heavens'
 
 @ 1:21
-> Divinity cut the great sea-serpents, and every living breath that crawls,
+> Divinity carved out the great sea-serpents, and every living breath that crawls,
 > which the waters swarmed with, after their kinds, and every winged flier, after its kind.
 > Divinity saw: good.
 note: תַּנִּינִם, 'sea-serpents, great sea creatures'; in Ps 74:13 the word names the monsters of the
@@ -310,7 +314,7 @@ note: תַּנִּינִם, 'sea-serpents, great sea creatures'; in Ps 74:13 the
 app: הַתַּנִּינִם: sea-serpents, or great fish (Rashi).
 rashi: The תַּנִּינִם are the great fish of the sea; in the homiletic tradition, Leviathan and its mate.
 ibn-ezra: הָרֹמֶשֶׂת means 'that moves'.
-= 0 1 2 3 4 | Divinity cut the great sea-serpents, | 'and Divinity cut the great תַּנִּינִם'
+= 0 1 2 3 4 | Divinity carved out the great sea-serpents, | 'and Divinity carved out the great תַּנִּינִם'
 = 5 6 7 8 | and every living breath that crawls, | 'and every breath of the living'
 = 9 | - | the vertical stroke פָּסֵק, a reading mark; no English
 = 10 11 12 13 14 | which the waters swarmed with, after their kinds, | 'that crawls, with which the waters swarmed, after their kinds'
@@ -407,22 +411,22 @@ ibn-ezra: The Name said to the angels, 'let us make'. He rejects the reading of 
 = 14 15 16 17 18 | every crawler that crawls on the ground. | 'and over every crawler that crawls on the ground'
 
 @ 1:27
-> Divinity cut the earthling in his image— in the image of Divinity
-> he cut him— male and female he cut them.
+> Divinity carved out the earthling in his image— in the image of Divinity
+> he carved him out— male and female he carved them out.
 note: בָּרָא three times in one verse. בְּצַלְמוֹ, 'in his image': Rashi and Ibn Ezra take 'his' as
   Divinity's. אֹתוֹ, 'him', then אֹתָם, 'them': the one earthling is male and female. The LXX has
   ἐποίησεν, 'made', three times, and lacks the first 'in his image'.
 rashi: The image is the form made for him, the likeness of his maker. As plain sense, both were
   created on the sixth day, and the manner is told in chapter 2.
 ibn-ezra: He rejects the reading in which 'his image' is the earthling's own.
-= 0 1 | Divinity cut | 'and Divinity cut'
+= 0 1 | Divinity carved out | 'and Divinity carved out'
 = 2 | - | the vertical stroke פָּסֵק, a reading mark; no English
 = 3 4 | the earthling | אֵת marks the object; 'the earthling'
 = 5 | in his image— | 'in his image'
 = 6 7 | in the image of Divinity | 'in the image of Divinity'
-= 8 9 | he cut him— | 'he cut him'
+= 8 9 | he carved him out— | 'he carved him out'
 = 10 11 | male and female | 'male and female'
-= 12 13 | he cut them. | 'he cut them'
+= 12 13 | he carved them out. | 'he carved them out'
 
 @ 1:28
 > Divinity blessed them.
