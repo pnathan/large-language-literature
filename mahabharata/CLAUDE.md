@@ -39,6 +39,14 @@ published English translation.
   comes from a starred passage. Run:
   `python3 mahabharata/verify_refs.py docs/mahabharata/index.html <dir>`, where
   `<dir>` holds `mbh_01_u.htm` and `mbh_02_u.htm` from Zenodo 6467313.
+- Script: each verse line carries Devanagari (shown by default) and IAST (shown
+  by the page's script toggle). The IAST is the source of truth.
+  `build_devanagari.py` derives the Devanagari from it with `devanagari.py`;
+  never edit the Devanagari by hand. After any change to a verse line, run
+  `python3 mahabharata/build_devanagari.py docs/mahabharata/index.html <dir>`,
+  then `verify_refs.py`. The verifier rejects a Devanagari line that differs from
+  the transliteration of its IAST, or that does not convert back to the same
+  letters. Prose (commentary, glosses, names) stays in IAST.
 - Reference format: a half-verse is cited with pāda letters (`1.58.20cd–22`,
   `2.44.11cd`). Verses omitted inside a block are marked with "…" in the Sanskrit
   and the English, and are absent from the reference (`2.61.52–53, 56–57`).
