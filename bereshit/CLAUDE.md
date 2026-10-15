@@ -150,7 +150,7 @@ ibn-ezra: …                               Ibn Ezra's reading (any number)
 
 `check` enforces: all 98 verses in order; token coverage; every fragment present
 in the lines; no Hebrew script in the English; no transliteration outside the
-English; a note for every verse; the decisions; Hebrew in the names column.
+English; a note for every verse; every "the English gives 'X'" in a note matches the lines; the decisions; Hebrew in the names column.
 
 ## Apparatus file
 

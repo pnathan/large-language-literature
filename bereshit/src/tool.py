@@ -29,6 +29,8 @@ HEBRUN = re.compile(f"[{HEB_CHAR}]+(?:[ ־][{HEB_CHAR}]+)*")
 RTL_CHAR = HEB_CHAR + "\u0700-\u074f"
 RTLRUN = re.compile(f"[{RTL_CHAR}]+(?:[ \u05be\u0700-\u070d][{RTL_CHAR}]+)*")
 LATIN_TRANSLIT = re.compile(r"[āēīōūḥṭṣšʾʿ]")
+# A note's claim about the English: "the English gives 'X'" must match the verse's lines.
+GIVES = re.compile(r"[Tt]he English (?:gives|has|reads|keeps|takes) '([^']+)'")
 
 
 def load_json(name):
@@ -272,6 +274,9 @@ def check(verses, names):
             p(f"{where} {ref}: no English lines")
         if not v["note"]:
             p(f"{where} {ref}: no note")
+        for m in GIVES.finditer(v["note"]):
+            if norm(m.group(1)) not in joined:
+                p(f"{where} {ref}: the note says the English gives {m.group(1)!r}; the lines do not")
         for x in v["lines"]:
             if HEBRUN.search(x):
                 p(f"{where} {ref}: Hebrew script in an English line: {x[:50]!r}")
