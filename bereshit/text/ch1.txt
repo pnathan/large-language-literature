@@ -185,7 +185,7 @@ note: תַּדְשֵׁא … דֶּשֶׁא, 'let it green a greening': the verb
   ὁμοιότητα, 'after kind and after likeness', after the plants, which the Hebrew lacks.
 rashi: דֶּשֶׁא is the clothing of the earth when it is covered with green. עֵץ פְּרִי: the wood
   should taste like the fruit; the ground did not do so (1:12 has עֵץ עֹשֶׂה פְּרִי), and it was
-  punished with the human in 3:17. 'Whose seed is in it': the pips of every fruit.
+  punished with the earthling in 3:17. 'Whose seed is in it': the pips of every fruit.
 ibn-ezra: תַּדְשֵׁא means 'let it make sprout'. 'Whose seed is in it': the seed is in the fruit.
 = 0 1 2 3 4 | Divinity said: let the ground sprout a sprouting— | 'and Divinity said: let the ground green a greening'
 = 5 6 7 | plants seeding seed, | 'plant making seed seed'
@@ -366,7 +366,7 @@ ibn-ezra: נֶפֶשׁ חַיָּה is the general term. בְּהֵמָה is for
 > Divinity saw:
 > good.
 note: רֶמֶשׂ הָאֲדָמָה, 'crawler of the ground': the first use of אֲדָמָה, the word from which אָדָם,
-  'the human', is heard in 2:7. The English gives it as 'the red earth' throughout, for that link;
+  'the earthling', is heard in 2:7. The English gives it as 'the red earth' throughout, for that link;
   'red' is the colour of the soil, not an established sense of the word.
 rashi: 'Made' means he fitted them out in their full form and stature.
 = 0 1 2 3 4 5 | Divinity made the beast of the ground after its kind, | 'and Divinity made the beast of the ground after its kind'
@@ -377,12 +377,13 @@ rashi: 'Made' means he fitted them out in their full form and stature.
 
 @ 1:26
 > Divinity said:
-> let us make a human, in our image,
+> let us make an earthling, in our image,
 > as our likeness.
 > Let them oppress the fish of the sea, the bird of the heavens,
 > the cattle, the whole ground, every crawler that crawls on the ground.
-note: נַעֲשֶׂה, 'let us make', first person plural. אָדָם has no article: 'a human', a kind, not yet
-  a name. צֶלֶם, 'image'; דְּמוּת, 'likeness'. וְיִרְדּוּ, from רָדָה, 'rule over, tread down'; the
+note: נַעֲשֶׂה, 'let us make', first person plural. אָדָם has no article: 'an earthling', a kind, not yet
+  a name. The English gives 'earthling' for אָדָם throughout: the Hebrew word carries
+  אֲדָמָה, 'ground', and the English word carries 'earth'. צֶלֶם, 'image'; דְּמוּת, 'likeness'. וְיִרְדּוּ, from רָדָה, 'rule over, tread down'; the
   plural takes אָדָם as a collective. The English gives 'oppress', the harsh edge of the verb. The
   LXX has ποιήσωμεν, 'let us make', κατ' εἰκόνα ἡμετέραν καὶ καθ' ὁμοίωσιν, 'after our image and
   after likeness', with a καί the Hebrew lacks, and ἀρχέτωσαν, 'let them rule'.
@@ -395,7 +396,7 @@ ibn-ezra: The Name said to the angels, 'let us make'. He rejects the reading of 
   participle.
 = 0 1 | Divinity said: | 'and Divinity said'
 = 2 | let us make | 'let us make', first person plural
-= 3 | a human, | 'human', without the article
+= 3 | an earthling, | 'earthling', without the article
 = 4 | in our image, | 'in our image'
 = 5 | as our likeness. | 'according to our likeness'
 = 6 | Let them oppress | 'and let them rule over'; the harsh sense is chosen
@@ -406,17 +407,17 @@ ibn-ezra: The Name said to the angels, 'let us make'. He rejects the reading of 
 = 14 15 16 17 18 | every crawler that crawls on the ground. | 'and over every crawler that crawls on the ground'
 
 @ 1:27
-> Divinity cut the human in his image— in the image of Divinity
+> Divinity cut the earthling in his image— in the image of Divinity
 > he cut him— male and female he cut them.
 note: בָּרָא three times in one verse. בְּצַלְמוֹ, 'in his image': Rashi and Ibn Ezra take 'his' as
-  Divinity's. אֹתוֹ, 'him', then אֹתָם, 'them': the one human is male and female. The LXX has
+  Divinity's. אֹתוֹ, 'him', then אֹתָם, 'them': the one earthling is male and female. The LXX has
   ἐποίησεν, 'made', three times, and lacks the first 'in his image'.
 rashi: The image is the form made for him, the likeness of his maker. As plain sense, both were
   created on the sixth day, and the manner is told in chapter 2.
-ibn-ezra: He rejects the reading in which 'his image' is the human's own.
+ibn-ezra: He rejects the reading in which 'his image' is the earthling's own.
 = 0 1 | Divinity cut | 'and Divinity cut'
 = 2 | - | the vertical stroke פָּסֵק, a reading mark; no English
-= 3 4 | the human | אֵת marks the object; 'the human'
+= 3 4 | the earthling | אֵת marks the object; 'the earthling'
 = 5 | in his image— | 'in his image'
 = 6 7 | in the image of Divinity | 'in the image of Divinity'
 = 8 9 | he cut him— | 'he cut him'
@@ -432,7 +433,7 @@ note: וְכִבְשֻׁהָ, 'and subdue it', from כָּבַשׁ, to press dow
   1:26. בְּכָל חַיָּה הָרֹמֶשֶׂת, 'every living thing that crawls'. The LXX has κατακυριεύσατε,
   'lord it over', and adds πάντων τῶν κτηνῶν καὶ πάσης τῆς γῆς, 'all the cattle and all the
   earth', which the Hebrew lacks here.
-ibn-ezra: (On 1:26.) In form a blessing, as for the water creatures; in the human it is a commandment
+ibn-ezra: (On 1:26.) In form a blessing, as for the water creatures; in the earthling it is a commandment
   handed down by the ancients, who attached it to this verse (רק היא מצוה העתיקוה קדמונינו).
 = 0 1 2 | Divinity blessed them. | 'and Divinity blessed them'
 = 3 4 5 | Divinity said to them: | 'and Divinity said to them'
@@ -452,7 +453,7 @@ ibn-ezra: (On 1:26.) In form a blessing, as for the water creatures; in the huma
 > For you: to eat.
 note: הִנֵּה נָתַתִּי, 'look, I have given': the perfect states a gift already made. The food given is
   plants and fruit. The animals' food is given in 1:30. The LXX has ἰδοὺ δέδωκα, the same.
-rashi: Animals and humans alike were given plants only; the human was not allowed to kill and eat
+rashi: Animals and humans alike were given plants only; the earthling was not allowed to kill and eat
   meat until the time of Noah.
 ibn-ezra: Meat was not permitted until after the flood (ועד כה לא הותר הבשר עד אחר המבול).
 = 0 1 | Divinity said: | 'and Divinity said'

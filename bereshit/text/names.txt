@@ -1,7 +1,7 @@
 # Names table, printed after chapter 4. One entry per line: Hebrew | English form | meaning.
 # Meanings use Hebrew script for Hebrew words; no transliteration.
 
-אָדָם | the human | from אֲדָמָה, 'ground'. The link is the text's own wordplay (2:7), not an established etymology.
+אָדָם | the earthling | from אֲדָמָה, 'ground'. The link is the text's own wordplay (2:7), not an established etymology.
 חַוָּה | Chavah | from חַי, 'living'. The link is the text's own (3:20); the form is unusual.
 קַיִן | Qayin | the text links it to קָנִיתִי, 'I have acquired' (4:1). A proposed sense 'smith, spear' is not settled.
 הֶבֶל | Hevel | 'breath, vapour': the word of Ecclesiastes for what does not last.

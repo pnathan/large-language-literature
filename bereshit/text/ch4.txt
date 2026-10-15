@@ -1,7 +1,7 @@
 # Bereshit, chapter 4. Format and rules: bereshit/CLAUDE.md, section 'Text files'.
 
 @ 4:1
-> Now the human knew Chavah his woman;
+> Now the earthling knew Chavah his woman;
 > she conceived and bore Qayin, and said:
 > I have acquired a man, with the Lord.
 note: יָדַע, 'knew', the verb of knowing, here of intimacy. The subject stands before the verb, a
@@ -11,10 +11,10 @@ note: יָדַע, 'knew', the verb of knowing, here of intimacy. The subject sta
   Divinity'.
 app: קָנִיתִי: I have acquired, or I have made. The name קַיִן is the text's own wordplay.
 app: אֶת יְהוָה: with the Lord, or the Lord in apposition to 'a man'.
-rashi: 'The human had known' already before the events of chapter 3 (כְּבָר קֹדֶם), and so the
+rashi: 'The earthling had known' already before the events of chapter 3 (כְּבָר קֹדֶם), and so the
   conception and birth came before the expulsion. אֶת יְהוָה is 'with the Lord' (כְּמוֹ עִם ה'):
   in making this child we are partners with him. קַיִן is named for קָנִיתִי.
-= 0 1 2 3 4 | Now the human knew Chavah his woman; | 'and the human knew חַוָּה his woman'
+= 0 1 2 3 4 | Now the earthling knew Chavah his woman; | 'and the earthling knew חַוָּה his woman'
 = 5 6 7 8 9 | she conceived and bore Qayin, and said: | 'and she conceived and bore קַיִן, and said'
 = 10 11 12 13 | I have acquired a man, with the Lord. | 'I have acquired a man with the Lord'
 
@@ -110,7 +110,7 @@ ibn-ezra: Most likely he told Hevel all the rebukes the Name had spoken to him.
 > He said: I do not know.
 > Do I guard my brother?
 note: אֵי, 'where?', a short form of אַיֵּה. הֲשֹׁמֵר, 'a keeper?', the participle of שָׁמַר, the verb
-  of 2:15: the human was set to keep the garden. The LXX has μὴ φύλαξ, 'surely not a guard'.
+  of 2:15: the earthling was set to keep the garden. The LXX has μὴ φύλαξ, 'surely not a guard'.
 rashi: 'Am I my brother's keeper' is said in wonder, as a question (לְשׁוֹן תֵּמַהּ).
 ibn-ezra: אֵי is the same as אַיֵּה.
 = 0 1 2 3 4 5 6 | The Lord said to Qayin: Where is Hevel your brother? | 'and the Lord said to קַיִן: where is הֶבֶל your brother'
@@ -232,7 +232,7 @@ note: וַיִּוָּלֵד, 'was born', passive. The Hebrew spells the third n
   ἐγέννησεν' is 'Gaidad, and Gaidad fathered': the Hebrew pattern, not a doubled name.
 app: מְחוּיָאֵל / מְחִיָּיאֵל: one name, written two ways.
 rashi: יָלַד, 'fathered', speaks of the man's seed.
-ibn-ezra: Lamekh was the sixth from Qayin and the seventh from the human.
+ibn-ezra: Lamekh was the sixth from Qayin and the seventh from the earthling.
 = 0 1 2 3 | To Chanokh was born Irad; | 'and there was born to חֲנוֹךְ עִירָד'
 = 4 5 6 7 | Irad fathered Mechuyael; | 'and עִירָד fathered מְחוּיָאֵל'
 = 8 9 10 11 | Mechiyael fathered Methushael; | 'and מְחִיָּיאֵל fathered מְתוּשָׁאֵל'; the second spelling of the same name

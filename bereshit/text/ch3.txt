@@ -108,7 +108,7 @@ ibn-ezra: The fig is not the tree of knowledge; if it were, the text would say t
 
 @ 3:8
 > They heard the voice of the Lord God pacing in the garden at the wind of the day;
-> the human and his woman hid from the face of the Lord God
+> the earthling and his woman hid from the face of the Lord God
 > among the trees of the garden.
 note: מִתְהַלֵּךְ, 'walking to and fro', a reflexive participle; grammatically it can attach to the
   voice or to the Lord God. לְרוּחַ הַיּוֹם, 'at the wind of the day'. The LXX has τὸ δειλινόν,
@@ -121,18 +121,18 @@ ibn-ezra: A voice can walk (קולה כנחש ילך). The time is near evening,
   blows (סמוך לערב בעת התנופף רוח היום).
 = 0 1 2 3 4 | They heard the voice of the Lord God | 'and they heard the voice of the Lord God'
 = 5 6 7 8 | pacing in the garden at the wind of the day; | 'walking to and fro in the garden at the wind of the day'
-= 9 10 11 12 13 14 | the human and his woman hid from the face of the Lord God | 'and the human and his woman hid from before the Lord God'
+= 9 10 11 12 13 14 | the earthling and his woman hid from the face of the Lord God | 'and the earthling and his woman hid from before the Lord God'
 = 15 16 17 | among the trees of the garden. | 'in the midst of the tree of the garden'; עֵץ is collective
 
 @ 3:9
-> The Lord God called to the human and said to him:
+> The Lord God called to the earthling and said to him:
 > Where are you?
 note: אַיֶּכָּה, 'where are you?', a rare long form of אַיֵּה with the suffix. The LXX adds the
   vocative Αδαμ before ποῦ εἶ, 'where are you?'.
 rashi: He knew where he was; the question opens a conversation (לִכָּנֵס עִמּוֹ בִּדְבָרִים), so that
   the man is not too frightened to answer.
 ibn-ezra: The question is an opening of speech (פתחון הדברים).
-= 0 1 2 3 4 | The Lord God called to the human and said to him: | 'and the Lord God called to the human'
+= 0 1 2 3 4 | The Lord God called to the earthling and said to him: | 'and the Lord God called to the earthling'
 = 5 6 7 | Where are you? | 'and said to him: where are you?'
 
 @ 3:10
@@ -153,11 +153,11 @@ rashi: 'From the tree' is said in wonder, as a question (בִּתְמִיהָ).
 = 7 8 9 10 11 12 13 14 | Did you eat from the tree I charged you not to eat from? | 'from the tree which I charged you not to eat from it, have you eaten?'
 
 @ 3:12
-> The human said: The woman you gave to be with me— she gave me from the tree, and I ate.
+> The earthling said: The woman you gave to be with me— she gave me from the tree, and I ate.
 note: עִמָּדִי, 'with me'. The man names the woman as the gift of the speaker: 'the woman you gave'.
   The LXX has ἣν ἔδωκας μετ' ἐμοῦ, the same construction.
 rashi: Here he denied the good done to him (כָּפַר בְּטוֹבָה).
-= 0 1 2 3 4 5 | The human said: The woman you gave to be with me— | 'and the human said: the woman whom you gave with me'
+= 0 1 2 3 4 5 | The earthling said: The woman you gave to be with me— | 'and the earthling said: the woman whom you gave with me'
 = 6 7 8 9 10 11 | she gave me from the tree, and I ate. | 'she gave to me from the tree, and I ate'
 
 @ 3:13
@@ -225,17 +225,17 @@ ibn-ezra: Pregnancy is heavy on the woman (ההריון כבד על האשה). �
 = 10 11 12 13 14 15 | Toward your man your thirst, and he will rule you. | 'and toward your man your desire, and he will rule over you'
 
 @ 3:17
-> To the human he said: Because you listened to your woman's voice
+> To the earthling he said: Because you listened to your woman's voice
 > and ate from the tree I charged you about—'do not eat from it'—
 > cursed is the red earth because of you.
 > In pain you will eat it all the days of your life.
-note: לְאָדָם here has no article: it can be read as the name אָדָם, or as 'the human'. בַּעֲבוּרֶךָ,
+note: לְאָדָם here has no article: it can be read as the name אָדָם, or as 'the earthling'. בַּעֲבוּרֶךָ,
   'because of you'. עִצָּבוֹן, the 'pain' of 3:16. תֹּאכְלֶנָּה, 'you will eat it'. The LXX reads
   ἐν τοῖς ἔργοις σου, 'in your works', for 'because of you', and adds τούτου μόνου as at 3:11.
 rashi: 'Cursed is the ground because of you': it will raise cursed things for you, such as flies,
   fleas and ants.
 ibn-ezra: 'You will eat it' means its produce (תאכל תבואתה).
-= 0 1 2 3 4 5 | To the human he said: Because you listened to your woman's voice | 'and to the human he said: because you listened to the voice of your woman'
+= 0 1 2 3 4 5 | To the earthling he said: Because you listened to your woman's voice | 'and to the earthling he said: because you listened to the voice of your woman'
 = 6 7 8 9 10 11 12 13 14 | and ate from the tree I charged you about—'do not eat from it'— | 'and ate from the tree which I charged you, saying: you shall not eat from it'
 = 15 16 17 | cursed is the red earth because of you. | 'cursed is the ground because of you'
 = 18 19 20 21 22 | In pain you will eat it all the days of your life. | 'in pain you will eat it all the days of your life'
@@ -262,23 +262,23 @@ ibn-ezra: The sweat is the labour of winnowing, grinding, kneading and baking, u
 = 11 12 13 14 15 16 | For dust you are, and to dust you will return. | 'for dust you are, and to dust you will return'
 
 @ 3:20
-> The human named his woman Chavah—Living— for she became mother of all the living.
+> The earthling named his woman Chavah—Living— for she became mother of all the living.
 note: חַוָּה: the text links the name to חַי, 'living'; the form is unusual. The LXX translates the
   name: Ζωή, 'Life'.
 rashi: חַוָּה falls together in sound with חַיָּה, 'living' (נוֹפֵל עַל לְשׁוֹן חַיָּה).
 ibn-ezra: 'Mother of all the living' means of humans (מבני אדם).
-= 0 1 2 3 4 | The human named his woman Chavah—Living— | 'and the human called the name of his woman חַוָּה'
+= 0 1 2 3 4 | The earthling named his woman Chavah—Living— | 'and the earthling called the name of his woman חַוָּה'
 = 5 6 7 8 9 10 | for she became mother of all the living. | 'for she was mother of all living'
 
 @ 3:21
-> The Lord God made for the human and his woman hide-coats, and dressed them.
+> The Lord God made for the earthling and his woman hide-coats, and dressed them.
 note: כָּתְנוֹת עוֹר, 'tunics of skin'. The LXX has χιτῶνας δερματίνους, 'leather tunics'.
-= 0 1 2 3 4 | The Lord God made for the human and his woman | 'and the Lord God made for the human and for his woman'
+= 0 1 2 3 4 | The Lord God made for the earthling and his woman | 'and the Lord God made for the earthling and for his woman'
 = 5 6 7 | hide-coats, and dressed them. | 'tunics of skin, and clothed them'
 
 @ 3:22
 > The Lord God said:
-> Look— the human has become like one of us, to know good and harm.
+> Look— the earthling has become like one of us, to know good and harm.
 > Now lest he reach out his hand, take also from the tree of lives,
 > eat, and live forever…
 note: הֵן, 'look'. כְּאַחַד מִמֶּנּוּ: מִמֶּנּוּ is 'of us' or 'of him'. לְעֹלָם, 'for ever', or 'for a
@@ -286,14 +286,14 @@ note: הֵן, 'look'. כְּאַחַד מִמֶּנּוּ: מִמֶּנּוּ is
   has ὁ θεός alone for 'the Lord God', and ὡς εἷς ἐξ ἡμῶν, 'as one of us'.
 app: כְּאַחַד מִמֶּנּוּ: like one of us, or unique, as one from himself.
 app: לְעֹלָם: for ever, or for a long time.
-rashi: The human is unique among the lower beings as I am unique among the upper (יָחִיד בַּתַּחְתּוֹנִים
+rashi: The earthling is unique among the lower beings as I am unique among the upper (יָחִיד בַּתַּחְתּוֹנִים
   כְּמוֹ שֶׁאֲנִי יָחִיד בָּעֶלְיוֹנִים).
 ibn-ezra: This is the speech of the Name with the angels (זה דבור השם עם המלאכים). On the tree of
   lives (at 3:6), he says that לְעוֹלָם here means many years, not eternity (ואין מלת לעולם עד עולם
   ועד).
 = 0 1 2 3 | The Lord God said: | 'and the Lord God said'
 = 4 | Look— | 'behold'
-= 5 6 | the human has become | 'the human has become'
+= 5 6 | the earthling has become | 'the earthling has become'
 = 7 8 | like one of us, | 'like one from us'
 = 9 10 11 | to know good and harm. | 'to know good and harm'
 = 12 13 14 15 16 17 18 19 20 | Now lest he reach out his hand, take also from the tree of lives, | 'and now, lest he send his hand and take also from the tree of lives'
@@ -309,10 +309,10 @@ ibn-ezra: The sending is a disgrace (והוא לגנאי), as in 'send them from
 = 5 6 7 8 9 10 | to work the red earth from which he was taken. | 'to work the ground from which he was taken'
 
 @ 3:24
-> He drove the human out.
+> He drove the earthling out.
 > At the east of the garden of Eden he settled the cherubim and the flame of the turning blade, to guard the road to the tree of lives.
 note: וַיְגָרֶשׁ, 'drove out'. וַיַּשְׁכֵּן, 'caused to dwell': the verb of settling. מִקֶּדֶם, 'east of'.
-  כְּרֻבִים, winged guardians. הַמִּתְהַפֶּכֶת, 'turning itself about'. The LXX makes the human the
+  כְּרֻבִים, winged guardians. הַמִּתְהַפֶּכֶת, 'turning itself about'. The LXX makes the earthling the
   object of the settling: κατῴκισεν αὐτὸν ἀπέναντι τοῦ παραδείσου, 'he settled him opposite the
   garden'; it then stations the cherubim with ἔταξεν and has no word for 'east'.
 app: לַהַט הַחֶרֶב: the flame that is the blade, or a flame beside a blade.
@@ -320,6 +320,6 @@ rashi: 'East of the garden of Eden' is outside the garden. The cherubim are ange
   (מַלְאֲכֵי חַבָּלָה). לַהַט is the edge of the blade.
 ibn-ezra: מִקֶּדֶם means from the east (ממזרח). The cherubim are the known angels. The blade has two
   edges.
-= 0 1 2 | He drove the human out. | 'and he drove out the human'
+= 0 1 2 | He drove the earthling out. | 'and he drove out the earthling'
 = 3 4 5 6 7 8 | At the east of the garden of Eden he settled the cherubim | 'and he caused to dwell, east of the garden of Eden, the cherubim'
 = 9 10 11 12 13 14 15 16 17 | and the flame of the turning blade, to guard the road to the tree of lives. | 'and the flame of the sword that turns itself about, to keep the way of the tree of lives'

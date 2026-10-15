@@ -51,6 +51,12 @@ Rashi and Ibn Ezra are the normative traditional interpreters for this edition.
 | 3:24 | "set the cherubim" | "settled the cherubim" | וַיַּשְׁכֵּן, "caused to dwell" |
 | 4:4 | "from their fat" | "and from their fat" | וּמֵחֶלְבֵהֶן |
 
+## Owner's decision after the review
+
+- אָדָם is "the earthling" throughout (was "the human"), so that the English word carries
+  'earth' as אָדָם carries אֲדָמָה. Ibn Ezra (2:8) calls אָדָם a name hewn from the ground.
+  This reverses item 27 of `review-opus-questions.md`.
+
 ## Kept against one commentator, or as a translator's decision
 
 - 1:26, 1:28 "oppress" for רָדָה: kept by the translator's earlier decision.

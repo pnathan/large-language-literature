@@ -9,7 +9,7 @@ Greek in Greek script.
 |---|---|---|---|---|
 | בָּרָא | cut | ἐποίησεν | create, cut, shape | Ibn Ezra: 'to cut, and set a cut boundary' (1:1). Used with Divinity as subject only. |
 | עָשָׂה | make | ἐποίησεν | make, fit out | Rashi (1:7, 1:25) and Ibn Ezra (2:4): fitting out, completing. |
-| יָצַר | pot | ἔπλασεν | form as a potter | 2:7, 2:8, 2:19. At 2:19 a pluperfect, 'had potted'. |
+| יָצַר | pot | ἔπλασεν | form as a potter | 2:7, 2:8, 2:19. At 2:19 a pluperfect, 'had potted'. With 'earthling' and 'red earth', it gives the potter shaping the earthling from the soil it is named for. |
 | אָמַר | say | εἶπεν | say | The speech formula, for every speaker. |
 | רָאָה | see | εἶδεν | see | Formula 'saw: good'. |
 | טוֹב | good | καλόν | good, fit | 'Very good' for טוֹב מְאֹד. |
@@ -17,9 +17,9 @@ Greek in Greek script.
 | שָׁעָה | look on | ἐπεῖδεν | regard, turn to | 4:4–5. Rashi: 'turned to'; Ibn Ezra: 'received'. |
 | אֶרֶץ | ground | γῆ | earth, ground, land | 'Land' only with place names (Havilah, Kush, Nod). |
 | אֲדָמָה | the red earth | γῆ | ground, soil | Kept for the sound link with אָדָם. 'Red' is the soil's colour, not a sense of the word. |
-| אָדָם | the human | ἄνθρωπος / Αδαμ | human, humankind | אִישׁ is 'man', אִשָּׁה is 'woman'. |
+| אָדָם | the earthling | ἄνθρωπος / Αδαμ | human, humankind | The English word carries 'earth' as אָדָם carries אֲדָמָה; Ibn Ezra (2:8): a name hewn from the ground. אִישׁ is 'man', אִשָּׁה is 'woman'. |
 | קָנָה | acquire | ἐκτησάμην | acquire, make | 4:1 only. |
-| נֶפֶשׁ | breath | ψυχή | breath, throat, life, self | נֶפֶשׁ חַיָּה is 'living breath' for animals and the human alike. |
+| נֶפֶשׁ | breath | ψυχή | breath, throat, life, self | נֶפֶשׁ חַיָּה is 'living breath' for animals and the earthling alike. |
 | רוּחַ | wind | πνεῦμα | wind, breath, spirit | 1:2 (with Ibn Ezra) and 3:8. |
 | קָוָה | gather | συνάγω | gather; a homonym means 'hope' | 1:9: 'be gathered', with Rashi and Ibn Ezra. |
 | בָּדַל | split | διαχωρίζω | separate | 1:4, 1:6, 1:7, 1:14, 1:18. |
