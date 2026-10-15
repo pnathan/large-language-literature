@@ -20,8 +20,15 @@ normative interpreters, with a Fable-model check of that revision (item 6).
 - **Hebrew witness** — `src/witness-hebrew.json`. Sefaria API:
   `https://www.sefaria.org/api/texts/Genesis.1.1-4.18?lang=he&context=0&pad=0&wrapLinks=0`,
   the `he` field only, footnote markup and HTML stripped. Pointed Masoretic text
-  with cantillation. Fetched 2026-10-14. The edition Sefaria serves is not named
-  in the response and is not independently confirmed here.
+  with cantillation. Fetched 2026-10-14. The edition is *Miqra according to the
+  Masorah* (MAM), a Ben-Asher text edited at Hebrew Wikisource (CC-BY-SA): the
+  `heVersionTitle` of the same API, checked 2026-10-15.
+- **MAM documentation notes** — `src/mam-notes.json`. The notes of MAM on letter
+  size, vowels, accents and spelling in the manuscripts (Leningrad, Aleppo as recorded by
+  Sapir, Cairo 18, and others), from
+  `https://bdenckla.github.io/MAM-basics/MAM-with-doc/A1-Genesis.html`, sigla from the
+  project's decoder (`sigil-decoding.html`, `doc/sigil-decoding.md`). Fetched 2026-10-15.
+  Used for section IV of the apparatus.
 - **Greek witness** — `src/witness-lxx.json`. Blue Letter Bible LXX interlinear:
   `https://www.blueletterbible.org/lxx/gen/{1,2,3,4}/`, the
   `GkBibleText scriptureText` blocks, one `word-phrase` span per token, verse
@@ -95,7 +102,7 @@ normative interpreters, with a Fable-model check of that revision (item 6).
 - `text/apparatus.txt` — the critical apparatus appendix (format below): sigla; I. variant
   readings of the Hebrew witnesses and of the versions where they presuppose another Hebrew
   text; II. spelling and minor readings of the Samaritan Pentateuch; III. readings of the
-  versions and the early interpreters at the cruxes; limits.
+  versions and the early interpreters at the cruxes; IV. the Masoretic manuscripts; limits.
 - `src/witness-hebrew.json`, `src/witness-lxx.json` — the witnesses, keyed `chapter:verse`.
 - `src/rashi.json`, `src/ibn-ezra.json` — the commentaries, keyed `chapter:verse`.
 - `src/template.html` — the page shell and CSS; `{{READING}}`, `{{BODY}}`, `{{NAMES}}` and `{{APPARATUS}}` are filled.

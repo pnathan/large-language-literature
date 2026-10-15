@@ -14,7 +14,7 @@
 p: The base text is the Masoretic text as served by Sefaria (MT). Readings are cited in the
   script of their witness. The apparatus is positive: the witnesses for the base reading are
   named where they are known.
-sig: MT | Masoretic text, Sefaria (src/witness-hebrew.json); the base text.
+sig: MT | Masoretic text: Miqra according to the Masorah (MAM), a Ben-Asher text edited at Hebrew Wikisource (CC-BY-SA), as served by Sefaria (src/witness-hebrew.json); the base text. The Aleppo Codex is lost for Genesis: here MAM rests on L and the other early manuscripts below, with the Aleppo readings that Jacob Sapir recorded.
 sig: SP | Samaritan Pentateuch, consonantal text as transcribed on tanakh.info (fetched 2026-10-14); collated against MT by machine, every reading checked by hand.
 sig: 4QGenᵇ | Qumran Cave 4, 4Q2, Genesis 1:1–27 and fragments of 2 and 4. Readings reported in secondary sources (Wikipedia variant tables after van de Giessen; the Cave 4 inventory); DJD XII not consulted.
 sig: 4QGenᵍ | Qumran Cave 4, 4Q7, Genesis 1:1–11, 13–22; 2:6–7. Reported as for 4QGenᵇ.
@@ -39,6 +39,24 @@ sig: Saadia | Saadia Gaon, commentary on Genesis, Hebrew translation (Sefaria).
 sig: Rashi | Rashi on Genesis (src/rashi.json).
 sig: Rashbam | Rashbam on Genesis (Sefaria).
 sig: IE | Abraham ibn Ezra on Genesis (src/ibn-ezra.json).
+sig: L | Leningrad Codex, St Petersburg, Firkovich I B 19a (1008/9).
+sig: Lᵐᶠ | The masora finalis of L.
+sig: Aˢ | Aleppo Codex, as recorded by Jacob Sapir (Me'orot Nathan).
+sig: L17 | St Petersburg, Firkovich B 17.
+sig: L59 | St Petersburg, EVR-II-B-59.
+sig: P8 | St Petersburg, EVR-II-B-8.
+sig: PC1 | St Petersburg, EVR-II-C-1.
+sig: C18 | Cairo 18, Torah.
+sig: W | Washington Pentateuch, Museum of the Bible, Ms 882 (11th century).
+sig: Lᴹ | Lehmann manuscript, Torah, by Samuel ben Jacob, the scribe of L; as reported by Breuer.
+sig: V448 | Vatican, Ms 448.
+sig: H | Codex Hilleli, New York, JTS 401 (Toledo, 1241); Sephardic.
+sig: S82 | Sassoon 82, Keter Shem Tov; Sephardic.
+sig: Sef | Other Sephardic manuscripts named by MAM: Paris 25 and the Lisbon Bible.
+sig: Y | Yemenite manuscripts (the Taj).
+sig: MS | מנחת שי, Yedidiah Norzi's Masoretic commentary.
+sig: RMH | Meir ha-Levi Abulafia, מסורת סייג לתורה.
+sig: Edd | Selected printed editions, among them the Venice Miqra'ot Gedolot and Koren.
 
 ## I. Variant readings
 p: Readings of the Hebrew witnesses, and of the versions where they presuppose a different
@@ -289,6 +307,58 @@ p: How the versions and the early interpreters read the words on which the Engli
 ~ The English 'in seven generations' follows Rashi and Ibn Ezra, and Onkelos and Pseudo-Jonathan
   before them.
 
+## IV. The Masoretic text
+p: The Masoretic manuscripts differ from each other only in letter size, in vowel points, in
+  accents and in one spelling. The readings are from MAM's documentation notes
+  (src/mam-notes.json, fetched 2026-10-15), with MAM's sigla resolved by its own decoder; they
+  were not checked against facsimiles here. None of them changes the sense.
+p: Not entered below: L adds a right-hand געיה at 1:15, 1:27, 4:3 (twice) and 4:14; at 2:7 L, L17
+  and C18 put a געיה in וַיְהִי, where MT follows P8, PC1 and the Aleppo system; Sapir's record
+  confirms the MT accent or vowel at 1:11 (תַּדְשֵׁא), 2:22, 3:19, 4:4 and 4:16; at 2:10 a dot in
+  the ר of וְנָהָר in L is a stain in the parchment, not a point.
+@ 1:1
+= בְּרֵאשִׁית ] with a large ב {MT Lᵐᶠ MS} ; ב of ordinary size {L}
+@ 1:3
+= יְהִי אוֹר ] יְהִ֣י with מונח, the reading of בן־אשר as מנחת שי reports it {MT Aˢ L Lᴹ C18 W P8 V448 H} ;
+  יְהִי־א֑וֹר, joined by מקף, the reading of בן־נפתלי {Edd}
+@ 1:11
+= דֶּשֶׁא ] דֶּ֗שֶׁא with רביע {MT Aˢ L Lᴹ C18 W P8 MS H Sef} ; דֶּ֔שֶׁא with זקף גדול {Edd Y}
+~ L is blurred here; a second upper dot may be erased. Edd is the Venice Miqra'ot Gedolot; Y is most
+  of the Yemenite manuscripts.
+@ 1:18
+= וּלְהַבְדִּיל ] ל with שוא {MT C18 W Y Edd} ; וּֽלֲהַבְדִּ֔יל, ל with חטף פתח {Aˢ L H Sef}
+@ 2:4
+= בְּהִבָּרְאָם ] with a small ה {MT Lᵐᶠ MS} ; ה of ordinary size {L}
+@ 2:6
+= פְּנֵי הָאֲדָמָה ] פְּנֵ֥י with מרכא {MT L17 H S82 Y Edd Sef} ; פְּנֵֽי־הָֽאֲדָמָֽה, joined by מקף, with
+  געיה {L}
+@ 2:8
+= גַּן־בְּעֵדֶן ] גַּן joined by מקף and unaccented {MT L L17 S82 H Sef} ; גַּ֥ן בְּעֵ֖דֶן, מרכא and טפחא {Edd}
+~ L has בְעֵדֶן without the דגש in ב, a pointing that no edition of L remarks on; the stroke of the
+  מקף may pass for a דגש in the manuscript.
+@ 2:12
+= וּזְהַב ] ז with שוא {MT Lᴹ Y Edd} ; וּֽזֲהַ֛ב, ז with חטף פתח {Aˢ L L17 C18 H S82}
+@ 2:18
+= אֶעֱשֶׂה־לּוֹ ] ה without a point {MT L17 H S82 Y Edd} ; אֶֽעֱשֶׂהּ־לּ֥וֹ, with a point in ה {L}
+~ Most Sephardic manuscripts mark the ה with a רפה stroke.
+@ 2:23
+= לֻקְחָה־זֹּאת ] לֻֽקְחָה, ק with שוא {MT L17 Lᴹ C18 Y Edd} ; לֻֽקֳחָה, ק with חטף קמץ {L H S82 Sef}
+@ 3:3
+= פֶּן־תְּמֻתוּן ] פֶּן joined by מקף {MT Aˢ L L17 C18 Y H S82 Sef} ; פֶּ֖ן with טפחא {Edd}
+@ 3:17
+= כִּי־שָׁמַעְתָּ ] כִּי joined by מקף, with געיה {MT Aˢ L L17 C18 Y H S82} ; כִּ֣י with מונח {Edd}
+~ The first printed Taj and the Lisbon Bible have מונח, with Edd.
+= תֹּאכְלֶנָּה ] כ with שוא {MT MS Y} ; כ with חטף פתח {Aˢ L L17 C18 H S82}
+~ Paris 25 has שוא, perhaps for lack of space; the Lisbon Bible has חטף פתח.
+@ 4:13
+= מִנְּשֹׂא ] מנשא, without ו {MT Aˢ L L17 C18 W L59 Y} ; מנשוא, with ו {RMH H S82}
+~ The one difference of letters that MAM records in this span: the Yemenite tradition writes the word without ו,
+  the Sephardic and Ashkenazi traditions with it.
+@ 4:18
+= וּמְחִיָּיאֵל ] קמץ under the first י {MT L17 C18 W Y Sef Edd} ; וּמְחִיּיָאֵ֗ל, קמץ under the
+  second י {L}
+~ The verse spells the name twice: מְחוּיָאֵל, then מְחִיָּיאֵל.
+
 ## Limits
 p: The Samaritan text, the Targums Onkelos and Samaritan, the Peshitta, the Septuagint as printed
   there, and the three later Greek translators are taken from one comparison site; their editions
@@ -296,4 +366,5 @@ p: The Samaritan text, the Targums Onkelos and Samaritan, the Peshitta, the Sept
   Philo, De opificio mundi 26–28, was not reachable and is not cited. The Qumran Hebrew of
   Jubilees 2 (4Q216, cols. V–VII; ed. VanderKam and Milik, DJD XIII, 1–22) could not be fetched:
   the transcription in the Academy of the Hebrew Language's database (Ma'agarim, text 11000) is
-  behind a bot check, and DJD XIII is not online. Jub is therefore cited from a retroversion. Aquila, Symmachus and Theodotion survive only in later quotation.
+  behind a bot check, and DJD XIII is not online. Jub is therefore cited from a retroversion. Section IV
+  reports the Masoretic manuscripts through MAM's notes; no facsimile was consulted. Aquila, Symmachus and Theodotion survive only in later quotation.
