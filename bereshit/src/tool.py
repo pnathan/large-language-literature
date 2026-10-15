@@ -103,6 +103,22 @@ def parse_chapter(path):
     return verses
 
 
+def load_paragraphs():
+    """Editorial paragraph starts: {ref: reason}."""
+    out = {}
+    for n, raw in enumerate((TEXT / "paragraphs.txt").read_text(encoding="utf-8").split("\n"), start=1):
+        if raw.strip() and not raw.startswith("#"):
+            ref, _s, why = raw.partition("|")
+            out[ref.strip()] = why.strip()
+    return out
+
+
+def mt_break(ref):
+    """The Masoretic paragraph mark at the end of a verse: 'פ', 'ס' or ''."""
+    m = re.search(r"\{([\u05e4\u05e1])\}", HEB[ref])
+    return m.group(1) if m else ""
+
+
 def load_text():
     verses = []
     for c in (1, 2, 3, 4):
@@ -390,7 +406,7 @@ def render_verse(v):
     trad = [f"Rashi: {x}" for x in v["rashi"]] + [f"Ibn Ezra: {x}" for x in v["ibn_ezra"]]
     return (
         f'<article class="row" id="v{ref.replace(":", "-")}">\n'
-        f'  <div class="tr"><span class="vn">{esc(ref)}</span>\n    {en}\n  </div>\n'
+        f'  <div class="tr"><a class="vn" href="#r{ref.replace(":", "-")}" title="Back to the text">{esc(ref)}</a>\n    {en}\n  </div>\n'
         f'  <div class="gk"><span class="lbl">Septuagint</span>{esc(LXX[ref]["greek"])}</div>\n'
         f'  <div class="cm">\n'
         f'    <div class="heb" lang="he">{esc(HEB[ref])}</div>\n'
@@ -432,6 +448,41 @@ def render_apparatus(app):
     return "\n".join(out)
 
 
+def render_reading(verses):
+    """The reading text: paragraphs by the Masoretic marks and the editorial breaks."""
+    starts = load_paragraphs()
+    title = {"\u05e4": "open paragraph (petuchah) in the Masoretic text",
+             "\u05e1": "closed paragraph (setumah) in the Masoretic text"}
+    out = ['<section class="reading" id="reading"><h2 class="ch">The text</h2>'
+           '<div class="ch-rule"></div>']
+    para, chapter = [], None
+    def flush(mark=""):
+        if para:
+            end = (f' <span class="pm" lang="he" title="{title[mark]}">{mark}</span>' if mark else "")
+            out.append('<p class="rd">' + " ".join(para) + end + "</p>")
+            para.clear()
+    for v in verses:
+        ref = v["ref"]
+        c, n = ref.split(":")
+        if ref in starts:
+            flush()
+        if c != chapter:
+            flush()
+            out.append(f'<h3 class="rch">Chapter {c}</h3>')
+            chapter = c
+        anchor = ref.replace(":", "-")
+        label = ref if n == "1" else n
+        text = " ".join(esc(x) for x in v["lines"])
+        para.append(f'<a class="rv" id="r{anchor}" href="#v{anchor}">{label}</a>{text}')
+        if mt_break(ref):
+            flush(mt_break(ref))
+    flush()
+    out.append('<p class="rnote">Paragraphs follow the open (\u05e4) and closed (\u05e1) divisions of the '
+               'Masoretic text; inside the long units 2:4–3:15, 3:17–21 and 4:1–18 the breaks are '
+               'editorial and unmarked. Each verse number leads to its row below.</p></section>')
+    return "\n".join(out)
+
+
 def build(verses, names, app):
     parts, current = [], None
     for v in verses:
@@ -443,6 +494,7 @@ def build(verses, names, app):
             current = ch
         parts.append(render_verse(v))
     page = (HERE / "template.html").read_text(encoding="utf-8")
+    page = page.replace("{{READING}}", render_reading(verses))
     page = page.replace("{{BODY}}", "\n".join(parts)).replace("{{NAMES}}", render_names(names))
     page = page.replace("{{APPARATUS}}", render_apparatus(app))
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -466,6 +518,18 @@ def main(argv):
         show(verses, refs, "--sources" in argv)
         return 0
     problems = check(verses, names) + check_apparatus(app)
+    order = list(HEB)
+    last = -1
+    for ref in load_paragraphs():
+        if ref not in HEB:
+            problems.append(f"paragraphs.txt: no verse {ref}")
+            continue
+        if order.index(ref) <= last:
+            problems.append(f"paragraphs.txt: {ref} out of order")
+        last = order.index(ref)
+        prev = order[order.index(ref) - 1] if order.index(ref) else None
+        if prev and mt_break(prev):
+            problems.append(f"paragraphs.txt: {ref} already starts a Masoretic paragraph")
     for x in problems:
         print(x)
     print(f"checked {len(verses)} verses: {len(problems)} problems")

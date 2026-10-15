@@ -86,13 +86,18 @@ normative interpreters, with a Fable-model check of that revision (item 6).
 - `text/decisions.txt` — `ref | phrase` pairs that must stay in a verse's English:
   review decisions. Change a line only when the decision is reversed.
 - `text/translit.txt` — transliterated words forbidden outside the English lines.
+- `text/paragraphs.txt` — editorial paragraph breaks for the reading text (`ref | reason`).
+  The reading text, printed before the verse-by-verse section, is divided first by the
+  Masoretic open (פ) and closed (ס) paragraph marks of the Hebrew witness, which `tool.py` reads
+  from `src/witness-hebrew.json`; this file adds breaks inside the long units only. `check`
+  rejects a break that duplicates a Masoretic one.
 - `text/apparatus.txt` — the critical apparatus appendix (format below): sigla; I. variant
   readings of the Hebrew witnesses and of the versions where they presuppose another Hebrew
   text; II. spelling and minor readings of the Samaritan Pentateuch; III. readings of the
   versions and the early interpreters at the cruxes; limits.
 - `src/witness-hebrew.json`, `src/witness-lxx.json` — the witnesses, keyed `chapter:verse`.
 - `src/rashi.json`, `src/ibn-ezra.json` — the commentaries, keyed `chapter:verse`.
-- `src/template.html` — the page shell and CSS; `{{BODY}}`, `{{NAMES}}` and `{{APPARATUS}}` are filled.
+- `src/template.html` — the page shell and CSS; `{{READING}}`, `{{BODY}}`, `{{NAMES}}` and `{{APPARATUS}}` are filled.
 - `src/tool.py` — the only tool. Standard library only. From the repo root:
   - `python3 -I bereshit/src/tool.py show 2:21 [3:15 …] [--sources]` — numbered
     Hebrew tokens, Greek, the verse block; `--sources` adds Rashi and Ibn Ezra.

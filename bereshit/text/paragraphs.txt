@@ -1,0 +1,23 @@
+# Paragraphs of the reading text, printed before the verse-by-verse section.
+#
+# Major divisions are the Masoretic paragraph marks in the Hebrew witness: an open
+# paragraph (פ, petuchah) or a closed one (ס, setumah) at the end of a verse. tool.py reads
+# them from src/witness-hebrew.json; they are not listed here.
+#
+# This file lists the editorial breaks inside the long Masoretic units: each line is the
+# verse that begins a new reading paragraph, with a short reason. Editorial breaks carry no
+# mark in the reading text.
+
+2:8  | the garden is planted
+2:10 | the river and its four heads
+2:15 | the earthling set in the garden, and the charge
+2:18 | not good, the earthling alone
+2:21 | the woman built from the side
+3:1  | the serpent
+3:8  | the voice in the garden
+3:14 | the sentence on the serpent
+3:20 | the naming of Chavah
+4:3  | the gifts
+4:8  | the killing
+4:9  | the question and the sentence
+4:17 | the line of Qayin
