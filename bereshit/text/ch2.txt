@@ -55,13 +55,15 @@ note: תּוֹלְדוֹת, from יָלַד, 'to bear': 'births, generations, wh
   twice, 'the table' and 'the tale of how they came to be'. בְּהִבָּרְאָם, 'in their being carved out', the
   passive of בָּרָא. Here the Name, יְהוָה, first appears, with אֱלֹהִים: 'the Lord God'. 'Ground and
   heavens' reverses the order of 1:1. The LXX has αὕτη ἡ βίβλος γενέσεως, 'this is the book of
-  origin', the source of the Greek title, and ὁ θεός alone, without κύριος.
+  origin', the source of the Greek title, ὅτε ἐγένετο, 'when they came to be', for בְּהִבָּרְאָם, and
+  ὁ θεός alone, without κύριος.
 app: אֵלֶּה: these that follow, or these that were told above (Rashi).
 rashi: 'These' are those told above. 'In the day' teaches that all were created on the first day.
 ibn-ezra: 'These are the generations': these that they brought forth. בְּהִבָּרְאָם: when the firmament
   was and the ground appeared. עֲשׂוֹת here is fitting-out: carving out, then forming, then making.
-= 0 | This is the table of | 'these'
-= 1 | the tale of how they came to be, | 'the births of'; rendered twice, 'table' and 'tale'
+= 0 | This is | 'these'
+= 1 | the table of | 'the births of'; rendered twice, 'the table of' and 'the tale of how they came to be'
+= - | the tale of how they came to be, | the second rendering of תוֹלְדוֹת
 = 2 3 | heavens and ground, | 'the heavens and the ground'
 = 4 | when they were carved out, | 'in their being carved out'
 = 5 6 7 8 | in the day the Lord God made | 'in the day of the Lord God's making'
@@ -71,11 +73,12 @@ ibn-ezra: 'These are the generations': these that they brought forth. בְּהִ
 > No bush of the field yet on the ground, no plant of the field, not yet sprouted.
 > For the Lord God had not rained on the ground, and no earthling to work the red earth.
 note: טֶרֶם, 'not yet'. שִׂיחַ, 'shrub'; עֵשֶׂב, 'plant'. לַעֲבֹד, 'to work, to serve'. The verse
-  explains why nothing grew: no rain, and no worker for the אֲדָמָה. The LXX has ὁ θεός alone for
-  the Lord God.
+  explains why nothing grew: no rain, and no worker for the אֲדָמָה. The LXX has πρὸ τοῦ γενέσθαι … πρὸ τοῦ
+  ἀνατεῖλαι, 'before it came to be … before it sprang up': it reads טֶרֶם as 'before', the sense Rashi
+  rules out; and ὁ θεός alone for the Lord God.
 rashi: Every טֶרֶם in Scripture means 'not yet', not 'before'. The plants had not come out; they stood
   at the opening of the ground until the sixth day. He had not made it rain because there was no
-  earthling to work the ground and to know the good of rain; when the earthling came and prayed, rain fell.
+  earthling to work the red earth and to know the good of rain; when the earthling came and prayed, rain fell.
   'The Lord God': the Lord is his name; Divinity is he who rules and judges all.
 ibn-ezra: שִׂיחַ is a tree, in his view a fruit tree.
 = 0 1 2 3 4 5 6 | No bush of the field yet on the ground, | 'and every shrub of the field not yet was on the ground'
@@ -93,7 +96,7 @@ app: אֵד: vapour or cloud (Rashi, Ibn Ezra); or an underground flow, a spring
 rashi: For the creation of the earthling: he raised the deep and watered the clouds, to soak the dust,
   and the earthling was formed, as a baker pours water and then kneads the dough.
 ibn-ezra: אֵד is like smoke (כמו עשן). A vapour went up from the ground by the power of the lights,
-  watered the ground, and made it sprout. He records the Gaon's reading 'and no vapour went up' (ולא אד יעלה).
+  watered the red earth, and made it sprout. He records the Gaon's reading 'and no vapour went up' (ולא אד יעלה).
 = 0 1 2 3 | A vapour went up out of the ground | 'and a vapour goes up from the ground'
 = 4 5 6 7 8 | and watered the whole face of the red earth. | 'and watered all the face of the אֲדָמָה'
 
@@ -102,8 +105,8 @@ ibn-ezra: אֵד is like smoke (כמו עשן). A vapour went up from the ground
 > and blew into his nostrils the blast of lives;
 > and the earthling became a living breath.
 note: וַיִּיצֶר, 'formed', as a potter forms clay; the English gives 'potted'. The word is written
-  with two י. עָפָר מִן הָאֲדָמָה, 'dust from the ground': הָאָדָם, the earthling, from הָאֲדָמָה, the
-  ground, is the text's own sound link. נִשְׁמַת חַיִּים, 'breath of lives'; the English gives
+  with two י. עָפָר מִן הָאֲדָמָה, 'dust from the red earth': הָאָדָם, the earthling, from הָאֲדָמָה, the
+  red earth, is the text's own sound link. נִשְׁמַת חַיִּים, 'breath of lives'; the English gives
   'blast'. נֶפֶשׁ חַיָּה, 'living breath', the phrase used of the animals in 1:20–24. The LXX has
   ὁ θεός alone, εἰς τὸ πρόσωπον, 'into the face', for 'into his nostrils', and ψυχὴν ζῶσαν,
   'a living soul'.
@@ -126,7 +129,7 @@ app: מִקֶּדֶם: in the east (Rashi, Ibn Ezra), or from of old.
 rashi: מִקֶּדֶם: he planted the garden in the east of Eden.
 ibn-ezra: He had already planted a garden in the place called Eden, on the east side, and now he set
   the earthling in it. The article on הָאָדָם is possible because אָדָם is a name hewn from the
-  ground (שם נחצב מהאדמה), both a proper name and a description.
+  red earth (שם נחצב מהאדמה), both a proper name and a description.
 = 0 1 2 3 4 | The Lord God planted a garden in Eden, | 'and the Lord God planted a garden in עֵדֶן'
 = 5 | to the east, | 'from the east'
 = 6 7 8 9 10 11 | and set there the earthling he had potted. | 'and set there the earthling whom he had formed'
@@ -141,7 +144,7 @@ note: נֶחְמָד, 'desirable', the word of 3:6. עֵץ הַחַיִּים, '
   is known of good and evil'.
 app: רָע: harm, ruin, or evil.
 rashi: The verse speaks of the garden. 'In the midst of the garden': in the centre.
-ibn-ezra: When he made every tree sprout from the ground, so it sprouted in the garden, and two
+ibn-ezra: When he made every tree sprout from the red earth, so it sprouted in the garden, and two
   trees besides in its midst. 'The tree of knowing' needs the word 'knowing' supplied: the tree of
   knowing, knowing good and harm.
 = 0 1 2 3 4 5 6 7 8 | From the red earth the Lord God made sprout every tree desirable to see, | 'and the Lord God made sprout from the אֲדָמָה every tree desirable to see'
@@ -182,7 +185,7 @@ ibn-ezra: Of the stones he says: we do not know them (ואנחנו לא נדע).
 @ 2:13
 > The name of the second: Gihon.
 > It goes round all the land of Kush.
-note: גִּיחוֹן, perhaps from a root 'to burst forth'; not established. כּוּשׁ, a southern land. The LXX
+note: גִּיחוֹן, 'a bursting forth' (BDB, from גִּיחַ); the river is not identified. כּוּשׁ, a southern land. The LXX
   has Αἰθιοπία for Kush.
 = 0 1 2 3 | The name of the second: Gihon. | 'and the name of the second river: גִּיחוֹן'
 = 4 5 6 7 8 9 | It goes round all the land of Kush. | 'it is the one going round all the land of כּוּשׁ'
@@ -217,7 +220,8 @@ ibn-ezra: 'It' is the garden: to water the garden and to keep it from the beasts
 > The Lord God charged the earthling:
 > From every tree of the garden you may eat and eat.
 note: וַיְצַו … עַל, 'charged … upon'. אָכֹל תֹּאכֵל, 'eating you may eat', the infinitive absolute: a
-  full permission. The LXX has βρώσει φάγῃ, 'with eating you shall eat'.
+  full permission. The LXX has βρώσει φάγῃ, 'with eating you shall eat'. Here the LXX first gives
+  הָאָדָם as a name, τῷ Αδαμ, where 2:15 still has τὸν ἄνθρωπον; it keeps Αδαμ from here on.
 ibn-ezra: צִוָּה with עַל is a prohibition laid on him.
 = 0 1 2 3 4 5 | The Lord God charged the earthling: | 'and the Lord God charged the earthling, saying'
 = 6 7 8 9 10 | From every tree of the garden you may eat and eat. | 'from every tree of the garden eating you may eat'
@@ -284,7 +288,8 @@ ibn-ezra: 'For the earthling he did not find' means 'for himself he did not find
 > The Lord God threw a heavy sleep on the earthling, and he slept.
 > He took one of his sides and shut the meat in its place.
 note: תַּרְדֵּמָה, 'deep sleep', as in 15:12. צֵלָע is a side: of the tabernacle (Exod 26:20), of a
-  hill, of a building. Rashi and Ibn Ezra both read it here as a side, and the English follows them.
+  hill, of a building. Rashi and Ibn Ezra both read it here as a side, and the English follows them;
+  BDB lists these two verses under 'rib of man'.
   וַיִּסְגֹּר, 'closed'. בָּשָׂר, 'flesh, meat'; the English gives 'meat' throughout. תַּחְתֶּנָּה, 'in its
   place'. The LXX has ἔκστασιν, 'trance', τῶν πλευρῶν, 'of the ribs, sides', and ἀνεπλήρωσεν σάρκα,
   'filled up flesh', for 'closed'.
@@ -317,13 +322,14 @@ ibn-ezra: 'Brought her': when he woke he thought she had been brought to him.
 > This one shall be called Ishah,
 > for from Ish she was taken.
 note: זֹאת הַפַּעַם, 'this one, this time': at last. אִשָּׁה, 'woman', and אִישׁ, 'man': the text joins
-  them by sound; they are probably not one root. The English keeps the Hebrew words so that the
+  them by sound; whether they are one root is disputed (Ibn Ezra takes them as one family). The English keeps the Hebrew words so that the
   pun survives. The LXX has γυνή and ἀνδρὸς αὐτῆς, 'her man', and loses it.
-app: אִשָּׁה / אִישׁ: a play on sound, not an established shared root.
+app: אִשָּׁה / אִישׁ: a play on sound (Rashi), or one word family (Ibn Ezra).
 rashi: 'This time': he had come upon every beast and was not content with them. אִשָּׁה from אִישׁ is a
   play of word on word, from which the world was created in the holy tongue.
 ibn-ezra: 'This time I have found a help as opposite me, like me, because she came from me'. לְזֹאת
-  means 'because of this'.
+  means 'because of this'. The דגש in the שׁ of אִשָּׁה stands for the hidden י of אִישׁ (תמורת
+  היו"ד הנח הנעלם שהוא באיש): he takes the two as one family; נָשִׁים is from אֱנוֹשׁ.
 = 0 1 2 3 | The earthling said: This one, this time, is | 'and the earthling said: this one, this time'
 = 4 5 6 7 | bone out of my bones, meat out of my meat! | 'bone from my bones and flesh from my flesh'
 = 8 9 10 | This one shall be called Ishah, | 'this one shall be called אִשָּׁה'

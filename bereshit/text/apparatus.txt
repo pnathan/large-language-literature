@@ -54,7 +54,7 @@ sig: P8 | St Petersburg, EVR-II-B-8.
 sig: PC1 | St Petersburg, EVR-II-C-1.
 sig: C18 | Cairo 18, Torah.
 sig: W | Washington Pentateuch, Museum of the Bible, Ms 882 (11th century).
-sig: Lᴹ | Lehmann manuscript, Torah, by Samuel ben Jacob, the scribe of L; as reported by Breuer.
+sig: Lᴹ | Lehmann manuscript, Torah, by Samuel ben Jacob, the scribe of L; cited by MAM from a photograph at 1:3 and 1:11 and from Breuer's report at 2:12 and 2:23.
 sig: V448 | Vatican, Ms 448.
 sig: H | Codex Hilleli, New York, JTS 401 (Toledo, 1241); Sephardic.
 sig: S82 | Sassoon 82, Keter Shem Tov; Sephardic.
@@ -76,7 +76,8 @@ p: Readings of the Hebrew witnesses, and of the versions where they presuppose a
 @ 1:8
 = שָׁמָיִם ] + καὶ εἶδεν ὁ θεὸς ὅτι καλόν {G} ; + et vidit Deus quia bonum est {VL}
 @ 1:9
-= מָקוֹם ] מָקוֹם {MT SP 4QGenᵇ TO TSam Syr} ; מקוה {4QGenʰ} ; συναγωγὴν {G}
+= מָקוֹם ] מָקוֹם {MT SP 4QGenᵇ TO TSam Syr} ; in locum unum {Vg} ; מקוה {4QGenʰ} ; συναγωγὴν {G} ;
+  in congregationem unam {VL}
 = וַיְהִי־כֵן ] + καὶ συνήχθη τὸ ὕδωρ τὸ ὑποκάτω τοῦ οὐρανοῦ εἰς τὰς συναγωγὰς αὐτῶν καὶ ὤφθη ἡ ξηρά {G}
   ; + et congregata est aqua … et apparuit arida {VL} ; om. {MT SP 4QGenᵇ 4QGenᵍ TO TSam Syr Vg}
 ~ 4QGenᵏ is reported to preserve Hebrew words that match the last words of the G plus.
@@ -86,7 +87,8 @@ p: Readings of the Hebrew witnesses, and of the versions where they presuppose a
 @ 1:14
 = לְהַבְדִּיל ] להאיר על הארץ ולהבדיל {SP} ; למנהרה על ארעה ולמפרק {TSam} ;
   εἰς φαῦσιν τῆς γῆς τοῦ διαχωρίζειν {G} ; εἰς φαῦσιν ἐπὶ τῆς γῆς, καὶ ἄρχειν τῆς ἡμέρας καὶ τῆς
-  νυκτὸς καὶ διαχωρίζειν {Gᵗ} ; ut luceant super terram … et ut dividant {VL}
+  νυκτὸς καὶ διαχωρίζειν {Gᵗ} ; ut luceant super terram, in inchoationem diei et noctis, et ut dividant {VL}
+~ VL has Gᵗ's plus 'to rule the day and the night' (in inchoationem diei et noctis), which G lacks.
 ~ The plus also stands, in the words of the command, at 1:15 and 1:17 in all witnesses.
 @ 1:20
 = הַשָּׁמָיִם ] + καὶ ἐγένετο οὕτως {G} ; + et factum est sic {VL}
@@ -151,7 +153,7 @@ p: Readings of the Hebrew witnesses, and of the versions where they presuppose a
 = אֶת־יְהוָה ] διὰ τοῦ θεοῦ {G} ; per Deum {Vg VL}
 @ 4:7
 = הֲלוֹא אִם־תֵּיטִיב שְׂאֵת ] οὐκ ἐὰν ὀρθῶς προσενέγκῃς ὀρθῶς δὲ μὴ διέλῃς ἥμαρτες ἡσύχασον {G} ;
-  si recte offeras, recte autem non dividas, peccati quiesce {VL}
+  Nonne si recte offeras, recte autem non dividas, peccati quiesce {VL}
 ~ G reads a different text, or construes the same consonants otherwise.
 @ 4:8
 = אָחִיו ] + נלכה השדה {SP} ; + נהלך לברה {TSam} ; + Διέλθωμεν εἰς τὸ πεδίον {G} ;
@@ -277,7 +279,8 @@ p: How the versions and the early interpreters read the words on which the Engli
   Sforno's 'start of time' is the time sense of 'headwaters of time'.
 = בָּרָא ] ἐποίησεν, 'made' {G} ; ἔκτισεν, 'founded' {α′ Jos} ; ברא … ושכלל, 'created … and
   perfected' {TN} ; טלמס {TSam} ; creavit {Vg} ; fecit {VL} ; 'to cut, and set a cut boundary' {IE} ; to bring out
-  being from absolute nothing, the only Hebrew word for it {Ramban Radak} ; 'made what was not' {Sforno}
+  being from absolute nothing, the only Hebrew word for it {Ramban} ; יְצִירָה, 'forming', said even of what has
+  no substance, at root the bringing out from nothing to being {Radak} ; 'made what was not' {Sforno}
 ~ The English 'carve out' follows Ibn Ezra, against Ramban and Radak.
 @ 1:2
 = תֹהוּ וָבֹהוּ ] ἀόρατος καὶ ἀκατασκεύαστος, 'unseen and unfurnished' {G} ; κένωμα καὶ οὐθέν,
@@ -303,8 +306,10 @@ p: How the versions and the early interpreters read the words on which the Engli
 = וְיִרְדּוּ ] ἀρχέτωσαν, 'let them rule' {G} ; ἐπικρατείτωσαν, 'let them prevail' {α′} ; וְיִשְׁלְטוּן,
   'let them have power' {TO} ; וישלטון {TSam} ; ܘܢܫܠܛܘܢ {Syr} ; praesit, 'let him preside' {Vg} ;
   dominetur, 'let him be lord' {VL} ; ruling if worthy, going down before the beasts if not {Rashi} ;
-  rule, by mind and by hand {Radak}
-~ No version takes the harsh sense 'tread down'. The English 'hold sway over' stands with them.
+  rule, by mind and by hand {Radak} ; rule by force, מֶמְשֶׁלֶת הָאָדוֹן בְּעַבְדּוֹ, a lord's mastery of his
+  slave {Ramban}
+~ No version takes the harsh sense 'tread down'; of the interpreters only Ramban reads rule by force.
+  The English 'hold sway over' stands with the versions.
 @ 2:6
 = וְאֵד ] πηγή, 'a spring' {G} ; ἐπιβλυσμός, 'a welling' {α′} ; עֲנָנָא, 'a cloud' {TO} ; ענן {TSam} ;
   ܡܒܘܥܐ, 'a spring' {Syr} ; fons {Vg VL} ; a cloud of glory that drew water from the ocean {TPsJ} ; he raised the deep and
@@ -346,10 +351,13 @@ p: How the versions and the early interpreters read the words on which the Engli
 = שִׁבְעָתַיִם יֻקָּם ] ἑπτὰ ἐκδικούμενα παραλύσει {G} ; ܚܕ ܒܫܒܥܐ ܢܬܦܪܥ, 'sevenfold he will be
   repaid' {Syr} ; septuplum punietur, 'will be punished sevenfold' {Vg} ; septem vindictas
   exsolvet {VL} ; לְשַׁבְעָא דָרִין יִתְפְּרַע מִינֵּיהּ, 'for seven generations it will be exacted of him'
-  {TO TPsJ} ; על תרתי שבעין {TSam} ; vengeance on Qayin after seven generations {Rashi IE} ; vengeance many times, seven doubled
-  {Radak Sforno} ; seven vengeances on his killer {Chizk}
+  {TO TPsJ} ; על תרתי שבעין {TSam} ; vengeance on Qayin after seven generations {Rashi IE} ; vengeance on the killer many times, seven
+  doubled {Radak} ; vengeance on Qayin, seven doubled: six generations of wandering, death in the seventh by
+  Lamekh {Sforno} ; seven vengeances on his killer {Chizk}
 ~ The English 'in seven generations' follows Rashi and Ibn Ezra, and Onkelos and Pseudo-Jonathan
-  before them. Radak, Chizkuni and Sforno read a multiple of vengeance, with G, Syr and Vg.
+  before them. Radak and Chizkuni read a multiple of vengeance on the killer, with G, Syr and Vg; Radak also records
+  Onkelos's seven generations. Sforno's multiple ends where Rashi's does: Qayin killed by Lamekh in the
+  seventh generation.
 
 ## IV. The Masoretic text
 p: The Masoretic manuscripts differ from each other only in letter size, in vowel points, in

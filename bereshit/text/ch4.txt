@@ -75,13 +75,13 @@ note: לָמָּה חָרָה לָךְ, 'why is it hot to you?', the anger of 4:
 note: שְׂאֵת, 'lifting', an infinitive with no object: the face lifted (against the fallen face of 4:5),
   or the sin lifted, that is, forgiven. חַטָּאת, 'sin', is feminine; רֹבֵץ, 'crouching', is
   masculine, as a beast lies in wait. תְּשׁוּקָתוֹ, 'its desire', the word of 3:16. תִּמְשָׁל בּוֹ,
-  'you will rule over it', or 'you may rule over it'. The LXX reads a different text: ἐὰν ὀρθῶς
+  'you will rule over it', or 'you may rule over it'. The LXX reads a different text: οὐκ ἐὰν ὀρθῶς
   προσενέγκῃς, ὀρθῶς δὲ μὴ διέλῃς, ἥμαρτες; ἡσύχασον, 'if you offer rightly but do not divide
   rightly, have you not sinned? Be still'.
 app: שְׂאֵת: lifting of the face, or lifting of the sin (forgiveness).
 app: לַפֶּתַח: at the door of the house, at the door of the grave, or at the opening of the mouth.
-rashi: For שְׂאֵת he refers to the Aramaic Targum (כְּתַרְגּוּמוֹ פֵּרוּשׁוֹ), whose rendering is
-  forgiveness; the Targum itself is not among the fetched sources. 'At the door' is the door of your
+rashi: For שְׂאֵת he refers to the Aramaic Targum (כְּתַרְגּוּמוֹ פֵּרוּשׁוֹ), whose rendering,
+  יִשְׁתְּבֵיק לָךְ, 'it will be forgiven you', is in the apparatus (III, 4:7). 'At the door' is the door of your
   grave, where your sin is kept. The desire is that of the evil inclination (יֵצֶר הָרָע), which
   always longs to make you fall. 'You will rule it': if you wish, you will overcome it.
 ibn-ezra: שְׂאֵת is the lifting of the face (שאת פנים), against 'his face fell'. He reports the door
@@ -110,7 +110,7 @@ ibn-ezra: Most likely he told Hevel all the rebukes the Name had spoken to him.
 > He said: I do not know.
 > Do I guard my brother?
 note: אֵי, 'where?', a short form of אַיֵּה. הֲשֹׁמֵר, 'a keeper?', the participle of שָׁמַר, the verb
-  of 2:15: the earthling was set to keep the garden. The LXX has μὴ φύλαξ, 'surely not a guard'.
+  of 2:15: the earthling was set to keep the garden. The LXX has ὁ θεός for the Name, and μὴ φύλαξ, 'surely not a guard'.
 rashi: 'Am I my brother's keeper' is said in wonder, as a question (לְשׁוֹן תֵּמַהּ).
 ibn-ezra: אֵי is the same as אַיֵּה.
 = 0 1 2 3 4 5 6 | The Lord said to Qayin: Where is Hevel your brother? | 'and the Lord said to קַיִן: where is הֶבֶל your brother'
@@ -137,8 +137,8 @@ note: מִן הָאֲדָמָה: 'from the ground' can mean 'away from the groun
   the ground'. פָּצְתָה, 'opened wide': the ground is given a mouth. The LXX has ἔχανεν, 'gaped'.
 app: מִן הָאֲדָמָה: away from the ground, by the ground, or more than the ground.
 rashi: More than the ground has already been cursed (יוֹתֵר מִמַּה שֶּׁנִּתְקַלְּלָה) for its own sin.
-ibn-ezra: The curse comes from the side of the ground: it will not yield to him. פָּצְתָה means
-  'opened'.
+ibn-ezra: The curse comes from the side of the red earth: it will not yield to him. פָּצְתָה means
+  'opened' (at 4:13).
 = 0 1 2 3 4 | Now: cursed are you from the red earth, | 'and now cursed are you from the ground'
 = 5 6 7 8 9 10 11 12 13 | which gaped its mouth to take your brother's bloods from your hand. | 'which opened its mouth to take the bloods of your brother from your hand'
 
@@ -185,10 +185,11 @@ note: לָכֵן, 'therefore'. The threat against the killer is not finished: th
   kills Qayin'. שִׁבְעָתַיִם יֻקָּם, 'sevenfold it will be avenged'; the verb is passive and names
   no one. Rashi and Ibn Ezra both read שִׁבְעָתַיִם as 'at seven generations', not a multiple, and
   the vengeance as falling on Qayin himself, not on his killer; the English follows them. אוֹת, 'sign'; its form is not told. The LXX reads οὐχ οὕτως, 'not so', for לָכֵן (as if
-  לֹא כֵן), and ἑπτὰ ἐκδικούμενα παραλύσει, 'he will release seven things avenged'.
+  לֹא כֵן), ἑπτὰ ἐκδικούμενα παραλύσει, 'he will release seven things avenged', and κύριος ὁ θεός,
+  'the Lord God', in both places where the Hebrew has the Name alone.
 app: לָכֵן: therefore, or 'not so' (the LXX).
-app: שִׁבְעָתַיִם: after seven generations (Rashi, Ibn Ezra), or sevenfold (Radak, Chizkuni, Sforno; the
-  LXX).
+app: שִׁבְעָתַיִם: after seven generations (Rashi, Ibn Ezra; Sforno: seven doubled, death in the seventh
+  generation), or sevenfold on the killer (Radak, Chizkuni; the LXX).
 rashi: The first half is a rebuke with its penalty left unsaid: whoever kills Qayin, such and such
   will be done to him. 'Sevenfold it will be avenged': I will not take vengeance on Qayin now; after
   seven generations Lamekh his descendant will kill him (לְסוֹף שִׁבְעָה דוֹרוֹת). The sign: he
@@ -204,7 +205,8 @@ ibn-ezra: שִׁבְעָתַיִם means 'until seven generations' (עד שבע�
 @ 4:16
 > Qayin went out from the face of the Lord and settled in the land of Nod—Roaming—east of Eden.
 note: מִלִּפְנֵי, 'from before'. נוֹד, 'wandering', from the root of נָד in 4:12 and 4:14. קִדְמַת,
-  'east of'. The LXX has Ναιδ, a transliteration that loses the wordplay.
+  'east of'. The LXX has Ναιδ, a transliteration that loses the wordplay, and ἀπὸ προσώπου τοῦ
+  θεοῦ, 'from the face of God', for 'from before the Lord'.
 rashi: The land of Nod is where all exiles wander. 'East of Eden' is where his father had been
   exiled.
 ibn-ezra: The land was called so because Qayin was a wanderer in it. 'East of Eden' is east of Eden,

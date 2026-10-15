@@ -148,3 +148,38 @@ collation is entered. Its findings and their disposition:
 - Two objections did not stand: Symmachus at 1:2 is in the source. The reviewer did not see
   it because a parser fault had dropped it, along with other witness lines. The parser was
   fixed and all cited verses re-checked; θ′ was added at 1:2.
+
+## Final pass (2026-10-15)
+
+A workflow ran four reviews and a skeptic per review over the whole edition:
+
+- **Lexicon.** A Sonnet-model agent checked the head terms and the root glosses of the notes
+  against BDB (Sefaria lexicon API). Eight findings. All are recorded in `src/lexicon.md`,
+  `text/names.txt` and the notes (נֶפֶשׁ, רָדָה, צֵלָע, אָדָם, בָּרָא, גִּיחוֹן, הֶבֶל, נוֹד). The
+  head terms are unchanged.
+- **Translation, chapters 1–2 and 3–4; apparatus.** Three Fable-model reviews against the fetched
+  sources. Of 38 findings, 14 were upheld by the skeptic and all 14 were applied. Two more,
+  rejected by the skeptic, were applied after a check of the source: Ramban's 'rule by force'
+  at 1:26, and Sforno at 4:15. Applied:
+  - 1:12 note (the LXX adds only καὶ καθ' ὁμοιότητα after the plants);
+  - אֲדָמָה glossed 'red earth', not 'ground', at 1:25, 2:5, 2:6, 2:7, 2:8, 2:9 and 4:11;
+  - 2:4 word table ('the table of' and 'the tale' both render תוֹלְדוֹת), and the LXX ὅτε ἐγένετο;
+  - 2:5 the LXX reads טֶרֶם as πρὸ τοῦ, the sense Rashi rules out;
+  - 2:16 the LXX first gives הָאָדָם as the name Αδαμ;
+  - 2:23 Ibn Ezra takes אִשָּׁה and אִישׁ as one family;
+  - 3:6 'a tree desirable for insight' (was 'to be coveted'), so נֶחְמָד has one English word, as at
+    2:9;
+  - 3:3, 3:7, 4:11 Ibn Ezra entries marked with the verse where they stand in his commentary;
+  - 3:9 word table; 3:19 Ibn Ezra 'cooking' (לבשל), not 'baking';
+  - 4:7 οὐκ restored to the LXX quotation, Nonne to the VL reading; the Rashi entry no longer says
+    the Targum is unfetched;
+  - 4:9, 4:15, 4:16 the LXX's divine names recorded;
+  - 4:15 Sforno separated from Radak (his vengeance falls on Qayin, in the seventh generation);
+  - apparatus: Radak on בָּרָא separated from Ramban; Ramban at 1:26; the VL plus at 1:14 shown in
+    full; the Latin at 1:9; the siglum Lᴹ.
+- **Not applied, for the owner.** The Fable reviews report runs of seven or more words shared with
+  published translations. The skeptic rejected all of them as resting on recall, and most are
+  forced by the Hebrew. Two would also be closer to the Hebrew:
+  - 1:29 'every tree that has fruit with seed in it' (a decided phrase): the Hebrew is 'every tree
+    in which is tree-fruit seeding seed'.
+  - 3:10 'I heard your voice in the garden': the Hebrew puts the object first, 'your voice I heard'.

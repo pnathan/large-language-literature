@@ -77,7 +77,9 @@ normative interpreters, with a Fable-model check of that revision (item 6).
 3. **Root and grammar glosses are the translator's own** from knowledge of
    Biblical Hebrew, not from a fetched lexicon (BDB, HALOT). They are flagged in
    the commentary as "disputed" or "uncertain" where the etymology is not
-   established. A lexicon check is an open task.
+   established. **Checked against BDB** (Sefaria lexicon API, 2026-10-15) for the head terms
+   of `src/lexicon.md` and the root glosses of the notes; differences are recorded in the
+   lexicon rows. Not checked: בָּדַל, אֵד, תְּשׁוּקָה (no BDB entry returned).
 4. **Every divergence between witnesses is recorded, not silently collapsed.**
    The 2:2 variant ("seventh day" in the Hebrew, "sixth day" in the LXX) is the
    clearest example.

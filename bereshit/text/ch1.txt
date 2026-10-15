@@ -209,8 +209,8 @@ ibn-ezra: תַּדְשֵׁא means 'let it make sprout'. 'Whose seed is in it': 
 > Divinity saw: good.
 note: וַתּוֹצֵא, 'brought out': the ground, feminine, is the subject. Here the tree is עֵץ עֹשֶׂה פְּרִי,
   'a tree making fruit', not the עֵץ פְּרִי, 'fruit tree', of 1:11; and the plants are now
-  'after their kind' too. The LXX adds 'after kind and after likeness' and 'on the earth', as at
-  1:11.
+  'after their kind' too. The LXX adds καὶ καθ' ὁμοιότητα, 'and after likeness', after the plants'
+  'after its kind', and ἐπὶ τῆς γῆς, 'on the earth', after the tree; here κατὰ γένος renders the Hebrew.
 rashi: The plants heard that the trees were commanded 'after its kind' and applied it to themselves.
 = 0 1 2 | The ground brought out a greening: | 'and the ground brought out greening'
 = 3 4 5 6 | plants seeding seed after its kind, | 'plant making seed seed after its kind'
@@ -375,7 +375,7 @@ ibn-ezra: נֶפֶשׁ חַיָּה is the general term. בְּהֵמָה is for
 > every crawler of the red earth after its kind.
 > Divinity saw:
 > good.
-note: רֶמֶשׂ הָאֲדָמָה, 'crawler of the ground': the first use of אֲדָמָה, the word from which אָדָם,
+note: רֶמֶשׂ הָאֲדָמָה, 'crawler of the red earth': the first use of אֲדָמָה, the word from which אָדָם,
   'the earthling', is heard in 2:7. The English gives it as 'the red earth' throughout, for that link;
   'red' is the colour of the soil, not an established sense of the word.
 rashi: 'Made' means he fitted them out in their full form and stature.

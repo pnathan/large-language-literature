@@ -39,7 +39,7 @@ note: 'Do not touch it', וְלֹא תִגְּעוּ בּוֹ, is not in the cha
   תְּמֻתוּן, 'lest you die', with the long verb ending in וּן. The LXX has the same addition,
   οὐδὲ μὴ ἅψησθε αὐτοῦ.
 rashi: She added to the command (הוֹסִיפָה עַל הַצִּוּוּי), and so came to loss.
-ibn-ezra: The woman also added to the command of the Name (גם האשה הוסיפה על מצות השם, ולא תגעו
+ibn-ezra: (At 3:1.) The woman also added to the command of the Name (גם האשה הוסיפה על מצות השם, ולא תגעו
   בו).
 = 0 1 2 3 4 | But from the fruit of the tree in the middle of the garden, | 'and from the fruit of the tree which is in the midst of the garden'
 = 5 6 | Divinity said: | 'Divinity said'
@@ -74,7 +74,7 @@ ibn-ezra: 'Like angels' (כמלאכים).
 
 @ 3:6
 > The woman saw:
-> the tree good to eat, a hunger for the eyes, a tree to be coveted for insight.
+> the tree good to eat, a hunger for the eyes, a tree desirable for insight.
 > She took from its fruit and ate.
 > She gave also to her man with her, and he ate.
 note: תַּאֲוָה, 'desire, appetite'; the English gives 'a hunger'. נֶחְמָד, 'desirable', the word of 2:9.
@@ -87,7 +87,7 @@ ibn-ezra: 'The woman saw' means she saw in her heart (בלבה). 'With her' mean
 = 0 1 | The woman saw: | 'and the woman saw'
 = 2 3 4 5 | the tree good to eat, | 'that the tree was good for food'
 = 6 7 8 9 | a hunger for the eyes, | 'and that it was a desire to the eyes'
-= 10 11 12 | a tree to be coveted for insight. | 'and the tree was desirable to make wise'
+= 10 11 12 | a tree desirable for insight. | 'and the tree was desirable to make wise'
 = 13 14 15 | She took from its fruit and ate. | 'and she took from its fruit and ate'
 = 16 17 18 19 20 | She gave also to her man with her, and he ate. | 'and gave also to her man with her, and he ate'
 
@@ -100,7 +100,7 @@ rashi: The opening of the eyes speaks of wisdom, not of sight (לְעִנְיַ�
   לְעִנְיַן רְאִיָּה מַמָּשׁ).
 rashi: The fig is the tree they ate from: by the thing that spoiled them they were mended (בַּדָּבָר
   שֶׁנִּתְקַלְקְלוּ בּוֹ נִתַּקְּנוּ). The text does not name the tree, so as not to shame it.
-ibn-ezra: The fig is not the tree of knowledge; if it were, the text would say they sewed leaves of
+ibn-ezra: (At 3:6.) The fig is not the tree of knowledge; if it were, the text would say they sewed leaves of
   the tree of knowledge.
 = 0 1 2 | The eyes of both of them were opened, | 'and the eyes of the two of them were opened'
 = 3 4 5 6 | and they knew they were bare; | 'and they knew that they were bare'
@@ -132,8 +132,8 @@ note: אַיֶּכָּה, 'where are you?', a rare long form of אַיֵּה wit
 rashi: He knew where he was; the question opens a conversation (לִכָּנֵס עִמּוֹ בִּדְבָרִים), so that
   the man is not too frightened to answer.
 ibn-ezra: The question is an opening of speech (פתחון הדברים).
-= 0 1 2 3 4 | The Lord God called to the earthling and said to him: | 'and the Lord God called to the earthling'
-= 5 6 7 | Where are you? | 'and said to him: where are you?'
+= 0 1 2 3 4 5 6 | The Lord God called to the earthling and said to him: | 'and the Lord God called to the earthling and said to him'
+= 7 | Where are you? | 'where are you?'
 
 @ 3:10
 > He said: I heard your voice in the garden.
@@ -263,7 +263,7 @@ ibn-ezra: 'The plant of the field' is the bread; in the garden he lived from the
 note: אַפֶּיךָ, 'your nostrils', and by extension 'your face'; the word of 2:7. לֻקָּחְתָּ, 'you were
   taken'. עָפָר, 'dust', the matter of 2:7. The LXX has τοῦ προσώπου σου, 'of your face', and
   γῆ, 'earth', for dust.
-ibn-ezra: The sweat is the labour of winnowing, grinding, kneading and baking, unlike the food of
+ibn-ezra: The sweat is the labour of winnowing, grinding, kneading and cooking (לזרות ולטחון וללוש ולבשל), unlike the food of
   beasts.
 = 0 1 2 3 | In the sweat of your nose you will eat bread | 'in the sweat of your nostrils you will eat bread'
 = 4 5 6 7 8 9 10 | until you return to the red earth— for from it you were taken. | 'until your return to the ground, for from it you were taken'
