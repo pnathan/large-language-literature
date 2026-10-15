@@ -94,5 +94,5 @@ pattern (sigil, title, language/author line, description, stats).
 | Sappho | Papyri and quoting ancient authors (Greek) | Greek → English | 33 fragments, avg. 3.7 witnesses each |
 | The Guest-House passages | Nicholson critical edition (Masnavi V) | Classical Persian → English | 35 couplets, 2 passages + framing |
 | Popol Vuh | Ayer MS 1515 (Ximénez, K'iche') | K'iche' → English | 36 sections, 1 manuscript witness, 56 folios |
-| Bereshit (Genesis 1:1–4:18) | Hebrew text (Sefaria) + LXX (BLB interlinear) | Hebrew → English, LXX as second witness | 98 verses, 4 chapters, commentary column |
+| Bereshit (Genesis 1:1–4:18) | Hebrew text (Sefaria) + LXX (BLB interlinear); Rashi and Ibn Ezra as normative interpreters | Hebrew → English, LXX as second witness | 98 verses, 4 chapters, commentary column |
 | Mahābhārata | BORI Critical Edition (typed electronic text) | Sanskrit → English | Ādi & Sabhā selections, 113 passages |

@@ -6,8 +6,13 @@ resolved. Status: **closed** = changed in the English or the apparatus;
 **kept** = decided to stand, as the review's own recommendation or the
 translator's ruling; **decided** = answered by the translator's direction.
 
+Superseded: the review against Rashi and Ibn Ezra (`review-rashi-ibn-ezra.md`)
+reversed items 2, 10, 43, 55, 56 and 92, and changed the English of item 53 (2:19).
+The decided phrases that still hold are listed in `text/decisions.txt` and checked
+by `src/tool.py check`.
+
 Verification: each **kept** and **decided** item was re-read against the current
-English in translation.py on the commit that records this file (every verse printed
+English in the former translation.py on the commit that records this file (every verse printed
 and checked). Items whose current text matches the decision are marked as verified
 by that check; none was left unchecked.
 
@@ -39,10 +44,10 @@ by that check; none was left unchecked.
 24. 1:21 transliteration in the line — **closed** ("great sea-serpents").
 25. 1:22 "breed" — **closed** ("grow many").
 26. 1:24 archaic construct note — **closed**.
-27. 1:26 "an earthling" — **closed** ("a human").
+27. 1:26 "an earthling" — **closed** ("a human"); later reversed by the project owner: "earthling" for אָדָם throughout.
 28. 1:26 "every living thing" — **closed** ("every crawler").
 29. 1:26 "and" plus — **closed** (recorded in the notes).
-30. 1:26 radah — **decided** ("oppress"; the translator asked for a fresh analogue, "oppress" kept).
+30. 1:26 radah — **decided** ("oppress"; the translator asked for a fresh analogue, "oppress" kept). Superseded: "hold sway over", owner's decision (see `review-rashi-ibn-ezra.md`).
 31. 1:27 subject "Divinity Divinity" — **closed** ("he cut").
 32. 1:27 LXX first "in his image" — **closed** (recorded).
 33. 1:28 "to them" — **decided** ("Divinity said to them").

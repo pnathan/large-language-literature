@@ -1,0 +1,19 @@
+# Names table, printed after chapter 4. One entry per line: Hebrew | English form | meaning.
+# Meanings use Hebrew script for Hebrew words; no transliteration.
+
+אָדָם | the earthling | from אֲדָמָה, 'ground'. The link is the text's own wordplay (2:7), not an established etymology.
+חַוָּה | Chavah | from חַי, 'living'. The link is the text's own (3:20); the form is unusual.
+קַיִן | Qayin | the text links it to קָנִיתִי, 'I have acquired' (4:1). A proposed sense 'smith, spear' is not settled.
+הֶבֶל | Hevel | the word means 'breath, vapour', the word of Ecclesiastes for what does not last; BDB doubts that the name comes from it.
+עֵדֶן | Eden | heard as 'delight'; a loan from Sumerian 'steppe' is also proposed. Disputed.
+נוֹד | Nod | heard as 'wandering', with נָד (4:12, 4:14); BDB takes it as apparently a place name. Qayin is sent there.
+חֲנוֹךְ | Chanokh | 'dedicated, trained', from חָנַךְ. Uncertain.
+עִירָד | Irad | unclear; 'wild ass' and a place name are proposed.
+מְחוּיָאֵל | Mechuyael | written מְחִיָּיאֵל in the same verse. 'Smitten by אֵל' or 'given life by אֵל'; contested.
+מְתוּשָׁאֵל | Methushael | 'man of אֵל' is proposed; a link with מוֹת, 'death', is also proposed. Disputed.
+לָמֶךְ | Lamekh | unclear.
+אִשָּׁה / אִישׁ | Ishah / Ish | 'woman / man'. The pun is the text's own (2:23); one root is not established. The English keeps the Hebrew words at 2:23.
+חֲוִילָה | Havilah | unidentified land; a link with חוּל, 'to writhe', is proposed and not established.
+פִּישׁוֹן / גִּיחוֹן | Pishon / Gihon | Pishon is unidentified (Rashi: the Nile). Gihon: 'a bursting forth' (BDB, from גִּיחַ); the river is unidentified.
+חִדֶּקֶל / פְּרָת | Hiddekel / Perat | the Tigris and the Euphrates.
+כּוּשׁ / אַשּׁוּר | Kush / Ashur | a southern land (Nubia or Ethiopia), and Assyria.
