@@ -20,7 +20,7 @@ sig: 4QGenᵇ | Qumran Cave 4, 4Q2, Genesis 1:1–27 and fragments of 2 and 4. R
 sig: 4QGenᵍ | Qumran Cave 4, 4Q7, Genesis 1:1–11, 13–22; 2:6–7. Reported as for 4QGenᵇ.
 sig: 4QGenʰ | Qumran Cave 4, 4Q8, Genesis 1:8–10. Reported as for 4QGenᵇ.
 sig: 4QGenᵏ | Qumran Cave 4, 4Q10, Genesis 1:9, 14–16, 27–28; 2:1–3. Reported by the Biblical Archaeology Society (after R. Hendel).
-sig: G | Septuagint, Blue Letter Bible text (src/witness-lxx.json); edition not stated.
+sig: G | Septuagint, Rahlfs (1935), as served by the Blue Letter Bible (src/witness-lxx.json). The text agrees letter for letter, in all 98 verses, with the CATSS morphological text of Rahlfs (CCAT, 01.Gen.1.mlxx, fetched 2026-10-15).
 sig: Gᵗ | Septuagint as printed on tanakh.info; cited where its difference from G bears on the entry.
 sig: α′ | Aquila, as quoted on tanakh.info.
 sig: σ′ | Symmachus, as quoted on tanakh.info.
@@ -30,6 +30,8 @@ sig: TN | Targum Neofiti, Vatican manuscript (Sefaria); chapter 1 only.
 sig: TPsJ | Targum Pseudo-Jonathan (Sefaria).
 sig: TSam | Samaritan Targum (tanakh.info).
 sig: Syr | Peshitta (tanakh.info).
+sig: Vg | Vulgate: Jerome's translation from the Hebrew (c. 390–405), Clementine text (src/witness-vulgate.json).
+sig: VL | Old Latin, translated from the Greek, as printed on tanakh.info (src/witness-old-latin.json); edition not named.
 sig: Jos | Josephus, Antiquities 1.27 (Niese, via Perseus).
 sig: Jub | Jubilees 2:1–6 in the Hebrew of Rubin (Vienna, 1870), a retroversion from the Ethiopic made before the Qumran finds (Sefaria, from Wikisource). Not the Qumran Hebrew.
 sig: BerR | Bereshit Rabbah 1–3 (Sefaria).
@@ -63,97 +65,105 @@ p: Readings of the Hebrew witnesses, and of the versions where they presuppose a
   Hebrew text. Spelling variants of SP are listed in section II; readings of interpretation are
   in section III.
 @ 1:6
-= לָמָיִם ] + καὶ ἐγένετο οὕτως {G}
+= לָמָיִם ] + καὶ ἐγένετο οὕτως {G} ; + et sic est factum {VL}
 @ 1:7
-= וַיְהִי־כֵן ] וַיְהִי־כֵן {MT SP 4QGenᵇ 4QGenᵍ TO TSam Syr} ; om. {G}
+= וַיְהִי־כֵן ] וַיְהִי־כֵן {MT SP 4QGenᵇ 4QGenᵍ TO TSam Syr} ; et factum est ita {Vg} ; om. {G VL}
 ~ G moves the formula from 1:7 to the end of 1:6.
 @ 1:8
-= שָׁמָיִם ] + καὶ εἶδεν ὁ θεὸς ὅτι καλόν {G}
+= שָׁמָיִם ] + καὶ εἶδεν ὁ θεὸς ὅτι καλόν {G} ; + et vidit Deus quia bonum est {VL}
 @ 1:9
 = מָקוֹם ] מָקוֹם {MT SP 4QGenᵇ TO TSam Syr} ; מקוה {4QGenʰ} ; συναγωγὴν {G}
 = וַיְהִי־כֵן ] + καὶ συνήχθη τὸ ὕδωρ τὸ ὑποκάτω τοῦ οὐρανοῦ εἰς τὰς συναγωγὰς αὐτῶν καὶ ὤφθη ἡ ξηρά {G}
-  ; om. {MT SP 4QGenᵇ 4QGenᵍ TO TSam Syr}
+  ; + et congregata est aqua … et apparuit arida {VL} ; om. {MT SP 4QGenᵇ 4QGenᵍ TO TSam Syr Vg}
 ~ 4QGenᵏ is reported to preserve Hebrew words that match the last words of the G plus.
 @ 1:11
 = עֵץ ] ועץ {SP} ; καὶ ξύλον {G} ; ואילן {TSam} ; וְאִילֵן {TPsJ} ; ܘܐܝܠܢܐ {Syr}
-= זֶרַע ] + κατὰ γένος καὶ καθ᾽ ὁμοιότητα {G} ; + ܠܓܢܣܗ, 'after its kind' {Syr}
+= זֶרַע ] + κατὰ γένος καὶ καθ᾽ ὁμοιότητα {G} ; + secundum genus, et secundum similitudinem {VL} ; + ܠܓܢܣܗ, 'after its kind' {Syr}
 @ 1:14
 = לְהַבְדִּיל ] להאיר על הארץ ולהבדיל {SP} ; למנהרה על ארעה ולמפרק {TSam} ;
   εἰς φαῦσιν τῆς γῆς τοῦ διαχωρίζειν {G} ; εἰς φαῦσιν ἐπὶ τῆς γῆς, καὶ ἄρχειν τῆς ἡμέρας καὶ τῆς
-  νυκτὸς καὶ διαχωρίζειν {Gᵗ}
+  νυκτὸς καὶ διαχωρίζειν {Gᵗ} ; ut luceant super terram … et ut dividant {VL}
 ~ The plus also stands, in the words of the command, at 1:15 and 1:17 in all witnesses.
 @ 1:20
-= הַשָּׁמָיִם ] + καὶ ἐγένετο οὕτως {G}
+= הַשָּׁמָיִם ] + καὶ ἐγένετο οὕτως {G} ; + et factum est sic {VL}
 @ 1:24
 = וְחַיְתוֹ־אֶרֶץ ] וחית הארץ {SP} ; θηρία τῆς γῆς {G}
 ~ MT keeps the old construct ending ־וֹ; SP and G read the common form.
 @ 1:26
-= כִּדְמוּתֵנוּ ] καὶ καθ᾽ ὁμοίωσιν {G}
+= כִּדְמוּתֵנוּ ] καὶ καθ᾽ ὁμοίωσιν {G} ; et similitudinem nostram {Vg VL}
+~ G, Vg and VL join image and likeness with 'and'; the Hebrew has none.
 @ 1:28
 = וּבְכָל־חַיָּה ] ובכל החיה {SP} ; + πάντων τῶν κτηνῶν καὶ πάσης τῆς γῆς before it {G} ;
-  + ܘܒܒܥܝܪ̈ܐ, 'and over the cattle', before it {Syr}
+  + ܘܒܒܥܝܪ̈ܐ, 'and over the cattle', before it {Syr} ;
+  + et omnium pecorum, et omnis terrae before it {VL}
 @ 2:2
 = הַשְּׁבִיעִי ] הַשְּׁבִיעִי {MT TO TPsJ} ; הששי {SP} ; ביומה שתיתה {TSam} ; ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ {G} ;
-  ܒܝܘܡܐ ܫܬܝܬܝܐ {Syr}
+  ܒܝܘܡܐ ܫܬܝܬܝܐ {Syr} ; die septimo {Vg} ; in die sexto {VL}
 ~ The first of the two 'seventh days'. SP, G and Syr agree on 'sixth' against MT; the reading
   removes the implication that work was finished on the seventh day.
 @ 2:4
-= יְהוָה אֱלֹהִים ] ὁ θεός {G} ; κύριος ὁ θεός {Gᵗ}
+= יְהוָה אֱלֹהִים ] ὁ θεός {G} ; κύριος ὁ θεός {Gᵗ} ; Dominus Deus {Vg} ; Deus {VL}
 ~ G has ὁ θεός alone for יְהוָה אֱלֹהִים also at 2:5, 2:7, 2:9, 2:19, 2:21 and 3:22; elsewhere in
   2:4–3:24, κύριος ὁ θεός.
 = אֶרֶץ וְשָׁמָיִם ] אֶרֶץ וְשָׁמָיִם {MT TO TPsJ} ; שמים וארץ {SP} ; הללה וארעה {TSam} ;
-  τὸν οὐρανὸν καὶ τὴν γῆν {G} ; ܫܡܝܐ ܘܐܪܥܐ {Syr}
-~ SP, TSam, G and Syr level the inversion back to the order of 1:1.
+  τὸν οὐρανὸν καὶ τὴν γῆν {G} ; ܫܡܝܐ ܘܐܪܥܐ {Syr} ; caelum et terram {Vg VL}
+~ SP, TSam, G, Syr, Vg and VL level the inversion back to the order of 1:1.
 @ 2:9
-= וַיַּצְמַח ] + ἔτι {G}
+= וַיַּצְמַח ] + ἔτι {G} ; + adhuc {VL}
 @ 2:12
 = טוֹב ] טוב מאד {SP} ; טב שריר {TSam}
 @ 2:15
-= הָאָדָם ] + ὃν ἔπλασεν {G}
+= הָאָדָם ] + ὃν ἔπλασεν {G} ; + quem fecit {VL}
 @ 2:18
 = אֶעֱשֶׂה ] ποιήσωμεν {G}
 @ 2:19
-= וַיִּצֶר ] + עוד {SP} ; + ἔτι {G}
+= וַיִּצֶר ] + עוד {SP} ; + ἔτι {G} ; + adhuc {VL}
 ~ TSam has עורי in the same place, perhaps the same plus.
 @ 2:23
-= מֵאִישׁ ] מֵאִישׁ {MT TPsJ Syr} ; מאישה {SP} ; ἐκ τοῦ ἀνδρὸς αὐτῆς {G} ; מִבַּעְלַהּ {TO}
+= מֵאִישׁ ] מֵאִישׁ {MT TPsJ Syr} ; מאישה {SP} ; ἐκ τοῦ ἀνδρὸς αὐτῆς {G} ; מִבַּעְלַהּ {TO} ;
+  de viro {Vg} ; ex viro suo {VL}
+~ Vg keeps the pun of אִשָּׁה and אִישׁ: Virago … de viro. VL has Mulier … ex viro suo, after G.
 ~ TSam מן גברה may be 'from her man' or 'from the man': its final ה often marks the definite form.
 @ 2:24
 = וְהָיוּ ] והיה משניהם {SP} ; והוו משניהון {TSam} ; וִיהוֹן תַּרְוֵויהוֹן {TPsJ} ; ἔσονται οἱ δύο {G} ;
-  ܘܢܗܘܘܢ ܬܪ̈ܝܗܘܢ {Syr}
+  ܘܢܗܘܘܢ ܬܪ̈ܝܗܘܢ {Syr} ; erunt duo {Vg VL}
 @ 3:3
 = הָעֵץ ] + הזה {SP} ; עילן הדן {TSam}
 @ 3:6
-= וַיֹּאכַל ] וַיֹּאכַל {MT TO TPsJ Syr} ; ויאכלו {SP} ; ואכלון {TSam} ; ἔφαγον {G}
+= וַיֹּאכַל ] וַיֹּאכַל {MT TO TPsJ Syr} ; ויאכלו {SP} ; ואכלון {TSam} ; ἔφαγον {G} ; comedit {Vg} ; ederunt {VL}
 @ 3:9
 = אַיֶּכָּה ] איך {SP} ; Αδαμ ποῦ εἶ {G} ; ܐܝܟܐ ܐܢܬ ܐܕܡ {Syr}
 @ 3:16
-= וְהֵרֹנֵךְ ] τὸν στεναγμόν σου {G}
+= וְהֵרֹנֵךְ ] conceptus tuos {Vg} ; τὸν στεναγμόν σου {G} ; gemitum tuum {VL}
 = בְּעֶצֶב ] בעצבון {SP} ; ועל עצרון {TSam}
 @ 3:17
-= בַּעֲבוּרֶךָ ] ἐν τοῖς ἔργοις σου {G}
-~ G presupposes בעבדך, 'in your work', a difference of one letter.
+= בַּעֲבוּרֶךָ ] ἐν τοῖς ἔργοις σου {G} ; in opere tuo {Vg} ; in operibus tuis {VL}
+~ G presupposes בעבדך, 'in your work', a difference of one letter. Vg, made from the Hebrew, reads
+  with G.
 @ 3:19
 = עָפָר ] עפרך {SP} ; עפרך {TSam}
 ~ The second עָפָר of the verse.
 @ 4:1
-= אֶת־יְהוָה ] διὰ τοῦ θεοῦ {G}
+= אֶת־יְהוָה ] διὰ τοῦ θεοῦ {G} ; per Deum {Vg VL}
 @ 4:7
-= הֲלוֹא אִם־תֵּיטִיב שְׂאֵת ] οὐκ ἐὰν ὀρθῶς προσενέγκῃς ὀρθῶς δὲ μὴ διέλῃς ἥμαρτες ἡσύχασον {G}
+= הֲלוֹא אִם־תֵּיטִיב שְׂאֵת ] οὐκ ἐὰν ὀρθῶς προσενέγκῃς ὀρθῶς δὲ μὴ διέλῃς ἥμαρτες ἡσύχασον {G} ;
+  si recte offeras, recte autem non dividas, peccati quiesce {VL}
 ~ G reads a different text, or construes the same consonants otherwise.
 @ 4:8
 = אָחִיו ] + נלכה השדה {SP} ; + נהלך לברה {TSam} ; + Διέλθωμεν εἰς τὸ πεδίον {G} ;
-  + ܢܪܕܐ ܠܦܩܥܬܐ {Syr} ; + אִיתָא וְנִפּוּק תַּרְוֵינָן לְבָרָא {TPsJ} ; om. {MT TO}
-~ The plus fills the gap after וַיֹּאמֶר. MT and TO have no speech.
+  + ܢܪܕܐ ܠܦܩܥܬܐ {Syr} ; + אִיתָא וְנִפּוּק תַּרְוֵינָן לְבָרָא {TPsJ} ; + Egrediamur foras {Vg} ; + Eamus in campum {VL} ;
+  om. {MT TO}
+~ The plus fills the gap after וַיֹּאמֶר. MT and TO have no speech. Vg, made from the Hebrew, has it.
 @ 4:10
-= צֹעֲקִים ] צעק {SP} ; צבע {TSam} ; βοᾷ {G} ; ܓܥܿܐ {Syr}
-~ All four have the verb in the singular.
-= דְּמֵי ] דְּמֵי {MT SP} ; דם {TSam} ; φωνὴ αἵματος {G} ; ܩܠܐ ܕܕܡܗ {Syr}
+= צֹעֲקִים ] צעק {SP} ; צבע {TSam} ; βοᾷ {G} ; ܓܥܿܐ {Syr} ; clamat {Vg VL}
+~ All six have the verb in the singular.
+= דְּמֵי ] דְּמֵי {MT SP} ; דם {TSam} ; φωνὴ αἵματος {G} ; ܩܠܐ ܕܕܡܗ {Syr} ; vox sanguinis {Vg VL}
 @ 4:11
-= דְּמֵי ] דְּמֵי {MT TO TPsJ} ; דם {SP TSam} ; τὸ αἷμα {G} ; ܕܡܗ {Syr}
+= דְּמֵי ] דְּמֵי {MT TO TPsJ} ; דם {SP TSam} ; τὸ αἷμα {G} ; ܕܡܗ {Syr} ; sanguinem {Vg VL}
 @ 4:15
-= לָכֵן ] לָכֵן {MT SP TSam} ; בְּכֵין {TO} ; Οὐχ οὕτως {G} ; ܠܐ ܗܟܢܐ {Syr}
-~ G and Syr read לא כן, 'not so'.
+= לָכֵן ] לָכֵן {MT SP TSam} ; בְּכֵין {TO} ; Οὐχ οὕτως {G} ; ܠܐ ܗܟܢܐ {Syr} ;
+  Nequaquam ita fiet {Vg} ; Non sic {VL}
+~ G, Syr, Vg and VL read לא כן, 'not so'.
 @ 4:18
 = מְחוּיָאֵל … וּמְחִיָּיאֵל ] מחיאל … ומחיאל {SP} ; מיהאל … ומיהאל {TSam} ; Μαιηλ … Μαιηλ {G} ;
   ܠܡܚܘܐܝܠ … ܘܡܚܘܐܝܠ {Syr}
@@ -248,7 +258,7 @@ p: How the versions and the early interpreters read the words on which the Engli
   and Ibn Ezra are the normative interpreters of this edition (Methodology, item 6); the others
   are recorded for their age and for their plain-sense readings.
 @ 1:1
-= בְּרֵאשִׁית ] ἐν ἀρχῇ {G σ′ θ′ Jos} ; ἐν κεφαλαίῳ, 'in the head' {α′} ; בְּקַדְמִין, 'at first' {TO} ;
+= בְּרֵאשִׁית ] ἐν ἀρχῇ {G σ′ θ′ Jos} ; ἐν κεφαλαίῳ, 'in the head' {α′} ; in principio {Vg VL} ; בְּקַדְמִין, 'at first' {TO} ;
   מלקדמין בחכמה, 'from the beginning, with wisdom' {TN} ; מִן אַוְולָא, 'from the first' {TPsJ} ;
   בקמאותא {TSam} ; ܒܪܫܝܬ {Syr} ; 'by the רֵאשִׁית', the Torah as the architect's plan {BerR} ;
   heaven and earth counted among the works of the first day {Jub Chag} ; construct, 'at the start of creating', main clause
@@ -256,19 +266,20 @@ p: How the versions and the early interpreters read the words on which the Engli
 ~ The English 'headwaters' takes the 'head' of Aquila's κεφάλαιον; 'of time' takes the time sense of
   G, the Targums and Syr. Every ancient version reads the word absolutely, as a time (TN adds 'with wisdom'); BerR reads it
   as the Torah. The construct reading is the medieval plain-sense reading. Rashbam rejects both 'first of all' and 'before he created'.
-= בָּרָא ] ἐποίησεν, 'made' {G} ; ἔκτισεν, 'founded' {α′ Jos} ; ברא … ושכלל, 'created … and
+= בָּרָא ] ἐποίησεν, 'made' {G} ; ἔκτισεν, 'founded' {α′ Jos} ; creavit {Vg} ; fecit {VL} ; ברא … ושכלל, 'created … and
   perfected' {TN} ; טלמס {TSam} ; 'to cut, and set a cut boundary' {IE}
 ~ The English 'carve out' follows Ibn Ezra.
 @ 1:2
 = תֹהוּ וָבֹהוּ ] ἀόρατος καὶ ἀκατασκεύαστος, 'unseen and unfurnished' {G} ; κένωμα καὶ οὐθέν,
   'emptiness and nothing' {α′} ; ἀργὸν καὶ ἀδιάκριτον, 'idle and undistinguished' {σ′} ;
-  κενὸν καὶ οὐθέν, 'empty and nothing' {θ′} ; צָדְיָא וְרֵיקַנְיָא, 'desolate and empty'
+  κενὸν καὶ οὐθέν, 'empty and nothing' {θ′} ; inanis et vacua {Vg} ; invisibilis et
+  incomposita, after G {VL} ; צָדְיָא וְרֵיקַנְיָא, 'desolate and empty'
   {TO} ; תהיא ובהיא, desolate of humans and beasts, empty of plants and trees {TN} ;
   תַּהֲיָיא וּבַהֲיָיא, desolate of humans, empty of all beasts {TPsJ} ; ܬܘܗ ܘܒܘܗܿ
   {Syr} ; 'not coming into sight, hidden in deep darkness' {Jos} ; תֹּהוּ a green line round the world,
   בֹהוּ slimy stones in the deep {Chag} ; the earth sat astonished, תוהא ובוהא {BerR} ; astonishment and emptiness {Rashi} ; that which has no
   substance {IE} ; without inhabitant {Rashbam}
-= וְרוּחַ אֱלֹהִים ] πνεῦμα θεοῦ {G α′ θ′ σ′} ; πνεύματος … ἐπιθέοντος, 'a breath running over' {Jos} ;
+= וְרוּחַ אֱלֹהִים ] πνεῦμα θεοῦ {G α′ θ′ σ′} ; Spiritus Dei {Vg VL} ; πνεύματος … ἐπιθέοντος, 'a breath running over' {Jos} ;
   רוּחָא … מְנַשְּׁבָא, 'a wind blowing' {TO} ; ריח אלהה מנשבה {TSam} ; רוח דרחמין … מנשבא, 'a wind of
   mercy blowing' {TN} ; רוּחַ רַחֲמִין … מְנַתְבָא {TPsJ} ; the spirits that serve before him, created on the first day {Jub} ;
   the spirit of the Messiah {BerR} ; the blowing wind {Saadia Rashbam IE} ; the throne of glory
@@ -277,32 +288,48 @@ p: How the versions and the early interpreters read the words on which the Engli
 @ 1:3
 = וַיֹּאמֶר ] γενέσθαι φῶς ἐκέλευσεν ὁ θεός, 'God commanded light to come to be', with 1:2 as background
   {Jos} ; the main clause of 1:1–3 {Rashi}
+@ 1:26
+= וְיִרְדּוּ ] ἀρχέτωσαν, 'let them rule' {G} ; ἐπικρατείτωσαν, 'let them prevail' {α′} ; וְיִשְׁלְטוּן,
+  'let them have power' {TO} ; וישלטון {TSam} ; ܘܢܫܠܛܘܢ {Syr} ; praesit, 'let him preside' {Vg} ;
+  dominetur, 'let him be lord' {VL} ; ruling if worthy, going down before the beasts if not {Rashi}
+~ No version takes the harsh sense 'tread down'. The English 'hold sway over' stands with them.
 @ 2:6
 = וְאֵד ] πηγή, 'a spring' {G} ; ἐπιβλυσμός, 'a welling' {α′} ; עֲנָנָא, 'a cloud' {TO} ; ענן {TSam} ;
-  ܡܒܘܥܐ, 'a spring' {Syr} ; a cloud of glory that drew water from the ocean {TPsJ} ; he raised the deep and
+  ܡܒܘܥܐ, 'a spring' {Syr} ; fons {Vg VL} ; a cloud of glory that drew water from the ocean {TPsJ} ; he raised the deep and
   watered the clouds {Rashi} ; like smoke {IE}
-~ The English 'vapour' follows Rashi and Ibn Ezra; G and Syr read a spring.
+~ The English 'vapour' follows Rashi and Ibn Ezra; G, Syr, Vg and VL read a spring.
 @ 2:21
 = מִצַּלְעֹתָיו ] τῶν πλευρῶν αὐτοῦ, 'of his ribs, sides' {G} ; מֵעִלְעוֹהִי, 'of his ribs, sides' {TO TPsJ} ;
-  מן עלויו {TSam} ; ܡܢ ܐ̈ܠܥܘܗܝ {Syr} ; 'from his sides' {Rashi IE}
+  מן עלויו {TSam} ; ܡܢ ܐ̈ܠܥܘܗܝ {Syr} ; unam de costis eius {Vg} ; unam costarum eius {VL} ; 'from his sides' {Rashi IE}
 ~ The English 'side' follows Rashi and Ibn Ezra. The Aramaic word is as open as the Hebrew, but TPsJ
   fixes the sense: the thirteenth rib of the right side.
 @ 3:15
 = יְשׁוּפְךָ ] τηρήσει, 'will watch' {G} ; יקפנך {TSam} ; ܢܕܘܫ, 'will tread' {Syr} ; 'he will remember
-  what you did to him' {TO} ; 'will crush you' {Rashi} ; 'will strike' {IE}
+  what you did to him' {TO} ; 'will crush you' {Rashi} ; 'will strike' {IE} ;
+  conteret, 'will crush', with ipsa, 'she', for הוּא {Vg} ; servabit, 'will watch', after G, with
+  ipsa {VL}
+@ 3:16
+= תְּשׁוּקָתֵךְ ] ἡ ἀποστροφή σου, 'your turning' {G} ; תִּאוּבְתִּיךְ, 'your longing' {TO} ; עזרותיך {TSam} ;
+  ܬܬܦܢܝܢ, 'you will turn' {Syr} ; sub viri potestate eris, 'you will be under the man's power' {Vg} ;
+  conversio tua, 'your turning' {VL} ; desire, תַּאֲוָתֵךְ {Rashi} ; obedience, משמעתך {IE}
+~ The English 'thirst' takes Rashi's desire and TO's longing.
 @ 4:7
 = שְׂאֵת ] יִשְׁתְּבֵיק לָךְ, 'it will be forgiven you' {TO TPsJ} ; ܩܒܿܠܬ, '(I) have accepted' or '(you) have received' {Syr} ;
-  forgiveness, after the Targum {Rashi} ; the lifting of the face {IE}
+  forgiveness, after the Targum {Rashi} ; the lifting of the face {IE} ; recipies, 'you will receive'
+  {Vg} ; offeras, 'you offer', after G {VL}
 @ 4:8
-= וַיֹּאמֶר ] a speech supplied: 'let us go out to the field' {SP TSam G Syr} ; a dispute on judgement
+= וַיֹּאמֶר ] a speech supplied: 'let us go out to the field' {SP TSam G Syr VL} ; 'let us go out'
+  {Vg} ; a dispute on judgement
   and the world to come {TPsJ} ; words of quarrel {Rashi} ; the rebukes of the Name {IE}
 @ 4:13
 = מִנְּשֹׂא ] τοῦ ἀφεθῆναί με, 'than to be forgiven' {G} ; מִלְּמִשְׁבָּק, 'than to forgive' {TO} ;
-  ממסבל, 'than to bear' {TSam} ; מִלְסוֹבְלָא, 'than to bear' {TPsJ} ; to bear, as a question {Rashi} ;
+  ממסבל, 'than to bear' {TSam} ; quam ut veniam merear, 'than that I deserve pardon' {Vg} ;
+  quam ut remittatur mihi, 'than that it be remitted me' {VL} ; מִלְסוֹבְלָא, 'than to bear' {TPsJ} ; to bear, as a question {Rashi} ;
   the punishment is too great to bear {IE}
 @ 4:15
 = שִׁבְעָתַיִם יֻקָּם ] ἑπτὰ ἐκδικούμενα παραλύσει {G} ; ܚܕ ܒܫܒܥܐ ܢܬܦܪܥ, 'sevenfold he will be
-  repaid' {Syr} ; לְשַׁבְעָא דָרִין יִתְפְּרַע מִינֵּיהּ, 'for seven generations it will be exacted of him'
+  repaid' {Syr} ; septuplum punietur, 'will be punished sevenfold' {Vg} ; septem vindictas
+  exsolvet {VL} ; לְשַׁבְעָא דָרִין יִתְפְּרַע מִינֵּיהּ, 'for seven generations it will be exacted of him'
   {TO TPsJ} ; על תרתי שבעין {TSam} ; vengeance on Qayin after seven generations {Rashi IE}
 ~ The English 'in seven generations' follows Rashi and Ibn Ezra, and Onkelos and Pseudo-Jonathan
   before them.
@@ -367,4 +394,5 @@ p: The Samaritan text, the Targums Onkelos and Samaritan, the Peshitta, the Sept
   Jubilees 2 (4Q216, cols. V–VII; ed. VanderKam and Milik, DJD XIII, 1–22) could not be fetched:
   the transcription in the Academy of the Hebrew Language's database (Ma'agarim, text 11000) is
   behind a bot check, and DJD XIII is not online. Jub is therefore cited from a retroversion. Section IV
-  reports the Masoretic manuscripts through MAM's notes; no facsimile was consulted. Aquila, Symmachus and Theodotion survive only in later quotation.
+  reports the Masoretic manuscripts through MAM's notes; no facsimile was consulted. Aquila, Symmachus and Theodotion survive only in later quotation. Vg is cited from the Clementine text (1592), not
+  the critical edition of Weber and Gryson.

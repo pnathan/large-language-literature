@@ -32,9 +32,19 @@ normative interpreters, with a Fable-model check of that revision (item 6).
 - **Greek witness** — `src/witness-lxx.json`. Blue Letter Bible LXX interlinear:
   `https://www.blueletterbible.org/lxx/gen/{1,2,3,4}/`, the
   `GkBibleText scriptureText` blocks, one `word-phrase` span per token, verse
-  numbers from `data-print-verse-prefix`. Fetched 2026-10-14. **The edition is not
-  stated on the page.** It is not confirmed as Rahlfs (1935). Treat LXX readings as
-  "the LXX as presented by BLB" until the edition is checked.
+  numbers from `data-print-verse-prefix`. Fetched 2026-10-14. The edition is not
+  stated on the page; it is **Rahlfs (1935)**: collated 2026-10-15 against the CATSS
+  morphological LXX (Rahlfs), `http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/01.Gen.1.mlxx`,
+  it agrees letter for letter (accents and case set aside) in all 98 verses.
+  `src/lxx_collate.py CATSS-FILE src/witness-lxx.json` repeats the collation.
+- **Latin witnesses** — `src/witness-vulgate.json`: the Vulgate, Clementine text, from
+  `https://www.thelatinlibrary.com/bible/genesis.shtml`, fetched 2026-10-15.
+  `src/witness-old-latin.json`: the Old Latin as printed on tanakh.info (edition not named),
+  fetched 2026-10-14. The site labels its two Latin lines inconsistently; each verse's
+  Old Latin is the Latin line that is not the Vulgate text. Jerome made Genesis from the
+  Hebrew (c. 390–405); the Old Latin was made from the Greek. Vg is therefore a fourth-century
+  witness to a Hebrew text and to the Jewish reading of Jerome's teachers; VL is a witness to
+  the Greek.
 - **LXX 4:18:** BLB reads "Γαιδαδ καὶ Γαιδαδ ἐγέννησεν", that is "Gaidad, and
   Gaidad fathered": the Hebrew pattern ("Irad; and Irad fathered"), not a doubled
   name. Noted at 4:18.
@@ -106,7 +116,8 @@ normative interpreters, with a Fable-model check of that revision (item 6).
 - `src/witness-hebrew.json`, `src/witness-lxx.json` — the witnesses, keyed `chapter:verse`.
 - `src/rashi.json`, `src/ibn-ezra.json` — the commentaries, keyed `chapter:verse`.
 - `src/template.html` — the page shell and CSS; `{{READING}}`, `{{BODY}}`, `{{NAMES}}` and `{{APPARATUS}}` are filled.
-- `src/tool.py` — the only tool. Standard library only. From the repo root:
+- `src/lxx_collate.py` — collates the Greek witness against the CATSS Rahlfs file.
+- `src/tool.py` — the edition tool. Standard library only. From the repo root:
   - `python3 -I bereshit/src/tool.py show 2:21 [3:15 …] [--sources]` — numbered
     Hebrew tokens, Greek, the verse block; `--sources` adds Rashi and Ibn Ezra.
   - `python3 -I bereshit/src/tool.py check` — every check; exit status 1 on failure.
