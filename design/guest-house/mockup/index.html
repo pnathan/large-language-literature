@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Guest-House</title>
+<meta name="description" content="Design mockup: Masnavi V.3644–3646 and V.3676–3707 set as bayts, Persian beside English, with marginal notes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&family=Noto+Naskh+Arabic:wght@400;500&family=Noto+Nastaliq+Urdu:wght@400&display=swap" rel="stylesheet">
+<style>
+/* ---------- tokens ---------- */
+:root{
+  --paper:#f4ecdc;
+  --paper-2:#faf5ea;
+  --ink:#2a2119;
+  --ink-2:#5c4e40;
+  --ink-3:#76664f;
+  --indigo:#2d3e78;
+  --rose:#9c3f55;
+  --gold:#9a7628;
+  --rule-gold:rgba(154,118,40,.48);
+  --rule:rgba(42,33,25,.13);
+  --wash:rgba(154,118,40,.09);
+  --shadow:0 10px 30px rgba(42,33,25,.14);
+
+  --serif:"EB Garamond",Georgia,"Times New Roman",serif;
+  --ui:Inter,"Helvetica Neue",Arial,sans-serif;
+  --nastaliq:"Noto Nastaliq Urdu","Noto Naskh Arabic","Iran Nastaliq","Geeza Pro",Tahoma,serif;
+  --naskh:"Noto Naskh Arabic","Amiri","Geeza Pro","Segoe UI",Tahoma,serif;
+
+  --margin:17rem;      /* hāshiya: the note column */
+  --gut:1.75rem;       /* gap either side of a gold rule */
+  --tap:44px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#15120e;
+    --paper-2:#1e1a14;
+    --ink:#ece3d0;
+    --ink-2:#b8a98f;
+    --ink-3:#988a73;
+    --indigo:#a3b5ea;
+    --rose:#e3909f;
+    --gold:#d4ae55;
+    --rule-gold:rgba(212,174,85,.40);
+    --rule:rgba(236,227,208,.13);
+    --wash:rgba(212,174,85,.08);
+    --shadow:0 10px 30px rgba(0,0,0,.5);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#15120e;
+  --paper-2:#1e1a14;
+  --ink:#ece3d0;
+  --ink-2:#b8a98f;
+  --ink-3:#988a73;
+  --indigo:#a3b5ea;
+  --rose:#e3909f;
+  --gold:#d4ae55;
+  --rule-gold:rgba(212,174,85,.40);
+  --rule:rgba(236,227,208,.13);
+  --wash:rgba(212,174,85,.08);
+  --shadow:0 10px 30px rgba(0,0,0,.5);
+  color-scheme:dark;
+}
+
+/* ---------- base ---------- */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--serif);
+  font-size:18px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  overflow-wrap:break-word;
+}
+a{color:var(--indigo);text-decoration-thickness:1px;text-underline-offset:.18em}
+:focus-visible{outline:2px solid var(--indigo);outline-offset:2px;border-radius:2px}
+em{font-style:italic}
+[lang="fa"],[lang="ar"]{font-style:normal}
+.fa-in{font-family:var(--naskh);font-size:1.06em;line-height:1;white-space:nowrap}
+.sc{font-family:var(--ui);font-size:.72rem;font-weight:500;letter-spacing:.13em;text-transform:uppercase}
+.skip{position:absolute;left:-999px}
+.skip:focus{left:16px;top:8px;z-index:30;background:var(--paper-2);padding:10px 14px}
+
+/* ---------- top bar ---------- */
+.bar{
+  position:sticky;top:0;z-index:20;
+  display:flex;align-items:center;gap:8px;
+  min-height:56px;padding:6px 16px;
+  background:var(--paper);
+  border-bottom:1px solid var(--rule);
+}
+.bar .back{
+  display:inline-flex;align-items:center;min-height:var(--tap);
+  color:var(--ink-3);text-decoration:none;
+}
+.bar .back:hover{color:var(--gold)}
+.bar .here{
+  flex:1;min-width:0;text-align:center;
+  font-size:1rem;color:var(--ink-2);white-space:nowrap;
+}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;
+  min-height:var(--tap);min-width:var(--tap);padding:0 12px;
+  border:1px solid var(--rule);border-radius:6px;background:var(--paper-2);
+  color:var(--ink-2);cursor:pointer;font-family:var(--ui);
+}
+.btn:hover{border-color:var(--rule-gold);color:var(--ink)}
+.theme{display:inline-flex;border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.theme button{
+  min-height:var(--tap);min-width:var(--tap);padding:0 10px;border:0;background:transparent;
+  color:var(--ink-3);cursor:pointer;font-family:var(--ui);
+}
+.theme button[aria-pressed="true"]{background:var(--wash);color:var(--ink);box-shadow:inset 0 -2px 0 var(--gold)}
+
+/* contents as a sheet (below 1280px) */
+details.sheet{position:static}
+details.sheet>summary{list-style:none}
+details.sheet>summary::-webkit-details-marker{display:none}
+details.sheet>summary .chev{transition:transform .15s}
+details.sheet[open]>summary .chev{transform:rotate(180deg)}
+details.sheet .panel{
+  position:absolute;left:0;right:0;top:100%;
+  background:var(--paper-2);border-bottom:1px solid var(--rule-gold);box-shadow:var(--shadow);
+  max-height:calc(100vh - 70px);overflow-y:auto;
+  padding:8px 16px 14px;
+}
+
+/* the contents list (shared by sheet and rail) */
+.toc ol{list-style:none}
+.toc a{
+  display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:12px;
+  min-height:48px;padding:6px 2px;
+  color:var(--ink);text-decoration:none;
+  border-bottom:1px solid var(--rule);
+}
+.toc li:last-child a{border-bottom:0}
+.toc a:hover .t{color:var(--rose)}
+.toc .t{font-size:1.02rem;line-height:1.25}
+.toc .t small{display:block;font-family:var(--ui);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-top:2px}
+.toc .r{font-family:var(--ui);font-size:.74rem;color:var(--indigo);font-variant-numeric:tabular-nums;white-space:nowrap}
+.toc .omit .t{color:var(--ink-2);font-style:italic}
+
+/* ---------- header ---------- */
+header.title{
+  text-align:center;
+  padding:40px 16px 34px;
+}
+.fa-title{
+  font-family:var(--nastaliq);font-size:clamp(38px,9vw,56px);line-height:2;
+  color:var(--ink);
+}
+h1{
+  font-family:var(--serif);font-weight:400;
+  font-size:clamp(26px,5vw,34px);letter-spacing:.05em;line-height:1.2;
+  margin-top:-.2em;
+}
+.byline{margin-top:14px;color:var(--ink-3);line-height:1.7}
+.gilt{
+  display:block;width:120px;height:5px;margin:22px auto 0;
+  border-top:1px solid var(--rule-gold);border-bottom:1px solid var(--rule-gold);
+}
+
+/* ---------- page grid ---------- */
+.page{max-width:1240px;margin:0 auto;padding:0 16px 80px}
+.rail{display:none}
+main{min-width:0}
+section{margin-top:56px;scroll-margin-top:72px}
+section:first-child{margin-top:8px}
+.head{max-width:42rem}
+.head .label{color:var(--rose)}
+h2{
+  font-family:var(--serif);font-weight:400;
+  font-size:clamp(24px,3.6vw,30px);line-height:1.2;letter-spacing:.01em;
+  margin-top:6px;
+}
+.rubric{margin-top:10px;color:var(--rose);font-style:italic;font-size:1.02rem;line-height:1.5}
+.head::after{
+  content:"";display:block;height:5px;margin-top:18px;
+  border-top:1px solid var(--rule-gold);border-bottom:1px solid var(--rule-gold);
+  width:72px;
+}
+.prose{max-width:40rem;margin-top:20px}
+.prose p+p{margin-top:14px}
+
+/* framing: the three moves */
+.lede{
+  margin-top:22px;max-width:40rem;
+  padding:16px 20px;border-left:3px solid var(--gold);background:var(--wash);
+  font-size:1.06rem;
+}
+.lede strong{font-weight:500}
+ol.moves{list-style:none;margin-top:22px;max-width:44rem;border-top:1px solid var(--rule)}
+ol.moves li{
+  display:grid;grid-template-columns:4.5rem 7.5rem minmax(0,1fr);gap:4px 16px;
+  padding:14px 0;border-bottom:1px solid var(--rule);
+  color:var(--ink-2);font-size:.98rem;
+}
+ol.moves .s{font-family:var(--ui);font-size:.8rem;color:var(--rose);padding-top:.25em}
+ol.moves .l{font-family:var(--ui);font-size:.8rem;color:var(--indigo);font-variant-numeric:tabular-nums;display:inline-flex;align-items:flex-start;min-height:var(--tap);padding-top:.25em;margin-bottom:-14px}
+ol.moves a{color:inherit;text-decoration:none}
+ol.moves a:hover{color:var(--indigo);text-decoration:underline}
+ol.moves li.skipped .d{font-style:italic}
+
+/* ---------- the bayt ---------- */
+.passage{margin-top:26px}
+.bayt{
+  display:grid;
+  grid-template-columns:1fr;
+  padding:20px 0 18px;
+  border-bottom:1px solid var(--rule);
+  scroll-margin-top:72px;
+}
+.bayt:target{background:var(--wash);box-shadow:0 0 0 8px var(--wash)}
+.num{
+  display:inline-flex;align-items:center;justify-self:start;
+  min-height:var(--tap);min-width:var(--tap);margin:-10px 0 -4px;
+  font-family:var(--ui);font-size:.74rem;letter-spacing:.04em;font-variant-numeric:tabular-nums lining-nums;
+  color:var(--ink-3);text-decoration:none;
+}
+.num:hover{color:var(--gold)}
+.num.has-note::after{
+  content:"";width:5px;height:5px;border-radius:50%;background:var(--rose);margin-left:6px;
+}
+/* Persian: the two misrāʿs, equal measure, right-aligned */
+.fa{
+  display:grid;
+  grid-template-columns:fit-content(100%);
+  justify-content:start;           /* = right, under dir=rtl */
+  font-family:var(--nastaliq);
+  font-size:23px;line-height:2.15;
+  color:var(--ink);
+}
+.fa .m{display:block}
+.fa[lang="ar"]{font-family:var(--naskh);font-size:22px;line-height:2}
+.en{margin-top:14px;font-size:1.1rem;line-height:1.55}
+.en .m{display:block}
+.en .m+.m{padding-left:1.1em}    /* second hemistich indented, as a turned line */
+.en .lang{font-family:var(--ui);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--rose);margin-right:.4em}
+
+/* notes: folded under the bayt on narrow screens */
+.note{margin-top:10px}
+.note>summary{
+  list-style:none;cursor:pointer;
+  display:inline-flex;align-items:center;gap:8px;min-height:var(--tap);
+  color:var(--rose);
+}
+.note>summary::-webkit-details-marker{display:none}
+.note>summary::before{
+  content:"";width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
+  transform:rotate(-45deg);transition:transform .15s;margin-right:2px;
+}
+.note[open]>summary::before{transform:rotate(45deg)}
+.note .body{
+  padding:4px 0 6px 14px;border-left:1px solid var(--rule-gold);
+  font-size:.95rem;line-height:1.55;color:var(--ink-2);
+}
+.note .body strong{font-weight:500;color:var(--ink)}
+
+/* interruptions in the verse */
+.story{
+  margin:30px 0 4px;max-width:44rem;
+  padding:18px 20px;background:var(--paper-2);
+  border:1px solid var(--rule);border-left:3px solid var(--indigo);
+  color:var(--ink-2);font-size:.98rem;
+}
+.story h3{font-family:var(--serif);font-weight:500;font-size:1.06rem;color:var(--indigo);margin-bottom:8px}
+.elide{
+  display:flex;align-items:center;gap:14px;padding:16px 0;color:var(--ink-3);
+  border-bottom:1px solid var(--rule);font-style:italic;font-size:.95rem;
+}
+.elide::before,.elide::after{content:"";flex:1;height:0;border-top:1px dotted var(--rule-gold)}
+
+/* terms */
+dl.terms{margin-top:22px;max-width:46rem;border-top:1px solid var(--rule)}
+dl.terms .t{
+  display:grid;grid-template-columns:minmax(0,1fr);gap:4px;
+  padding:16px 0;border-bottom:1px solid var(--rule);
+}
+dl.terms dt{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+dl.terms dt .fa-in{font-size:1.5rem;color:var(--ink)}
+dl.terms dt .tr{font-style:italic;color:var(--ink)}
+dl.terms dd{color:var(--ink-2);font-size:.97rem}
+dl.terms .refs{font-family:var(--ui);font-size:.76rem;color:var(--ink-3)}
+dl.terms .refs a{display:inline-flex;align-items:center;justify-content:center;min-height:var(--tap);min-width:var(--tap);padding:0 4px}
+
+ul.plain{list-style:none;margin-top:16px;max-width:42rem}
+ul.plain li{padding:10px 0;border-bottom:1px solid var(--rule);color:var(--ink-2);font-size:.97rem}
+ul.plain strong{font-weight:500;color:var(--ink)}
+.stub{margin-top:14px;font-family:var(--ui);font-size:.75rem;color:var(--ink-3)}
+
+footer{
+  margin-top:72px;padding-top:28px;text-align:center;
+  border-top:1px solid var(--rule);color:var(--ink-3);font-size:.95rem;
+}
+footer .mark{font-family:var(--naskh);color:var(--gold);font-size:22px;line-height:1;margin-bottom:12px}
+footer a{display:inline-flex;align-items:center;min-height:var(--tap)}
+
+/* ---------- ≥ 900px: Persian and English side by side, notes in the margin ---------- */
+@media (min-width:900px){
+  .bar{padding:6px 28px}
+  .page{padding:0 28px 96px}
+  .bayt{
+    grid-template-columns:3.25rem minmax(0,1fr) minmax(0,1fr) var(--margin);
+    grid-template-rows:auto auto 1fr;
+    padding:0;border-bottom:0;
+  }
+  /* the margin rule, continuous down the passage */
+  .bayt::after{
+    content:"";grid-column:4;grid-row:1/-1;
+    border-left:1px solid var(--rule-gold);margin-left:var(--gut);
+  }
+  .num{grid-column:1;grid-row:1;align-self:start;margin:14px 0 0;min-height:0;min-width:0}
+  .en{
+    grid-column:2;grid-row:1/3;
+    display:grid;grid-template-rows:subgrid;
+    margin:0;padding:18px var(--gut) 18px 0;
+  }
+  .en .m{align-self:center}
+  .en .m+.m{padding-left:1.1em}
+  .fa{
+    grid-column:3;grid-row:1/-1;
+    grid-template-rows:subgrid;
+    padding:10px 0 12px var(--gut);
+    border-left:3px double var(--rule-gold);   /* the jadval between the two texts */
+    font-size:25px;
+  }
+  .fa .m{align-self:center}
+  .note{
+    grid-column:4;grid-row:1/-1;z-index:1;
+    margin:0;padding:16px 0 18px calc(var(--gut) + 1.1rem);
+  }
+  .note>summary{min-height:0;cursor:default;pointer-events:none}
+  .note>summary::before{display:none}
+  .note .body{border-left:0;padding:2px 0 0;font-size:.9rem}
+  .bayt + .bayt .en, .bayt + .bayt .fa{border-top:0}
+  .bayt:target{box-shadow:none}
+  .elide{margin-right:calc(var(--margin) + var(--gut));border-bottom:0}
+}
+
+/* ---------- ≥ 1280px: contents become a rail ---------- */
+@media (min-width:1280px){
+  .bar details.sheet{display:none}
+  .page{
+    display:grid;grid-template-columns:12.5rem minmax(0,1fr);column-gap:3rem;
+    max-width:1320px;
+  }
+  .rail{display:block}
+  .rail .toc{position:sticky;top:76px;padding-top:8px}
+  .rail .toc a{min-height:44px}
+  .rail .toc .t{font-size:.98rem}
+  .rail .cap{color:var(--ink-3);margin-bottom:6px;display:block}
+}
+@media (max-width:899px){
+  .bar .here{visibility:hidden}
+  .bar .back .w{display:none}
+  .bar .back{min-width:var(--tap);justify-content:center}
+}
+@media (max-width:420px){
+  .page{padding:0 16px 64px}
+  ol.moves li{grid-template-columns:3.5rem minmax(0,1fr)}
+  ol.moves li .d{grid-column:1/-1}
+  .btn .w{display:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#text">Skip to the text</a>
+
+<div class="bar">
+  <a class="back sc" href="../../../docs/" aria-label="Back to Large-Language Literature"><span aria-hidden="true">&larr;</span>&nbsp;<span class="w">Large-Language Literature</span></a>
+  <span class="here"><bdi class="fa-in" lang="fa">مهمان‌خانه</bdi> &middot; The Guest-House</span>
+  <details class="sheet">
+    <summary class="btn sc" aria-label="Contents"><span>Contents</span><svg class="chev" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></summary>
+    <nav class="panel toc" aria-label="Contents">
+      <ol>
+        <li><a href="#what"><span class="t">What it actually is<small>The framing</small></span><span class="r"></span></a></li>
+        <li><a href="#part-i"><span class="t">Part I &mdash; The Body as Guest-House<small>&sect;155</small></span><span class="r">3644&ndash;3646</span></a></li>
+        <li class="omit"><a href="#story"><span class="t">The intervening story, summarized<small>&sect;156</small></span><span class="r">3647&ndash;3675</span></a></li>
+        <li><a href="#part-ii"><span class="t">Part II &mdash; The Thought as Daily Guest<small>&sect;157</small></span><span class="r">3676&ndash;3707</span></a></li>
+        <li><a href="#terms"><span class="t">Key Terminology<small>Apparatus</small></span><span class="r"></span></a></li>
+        <li><a href="#composite"><span class="t">What the Popular Composite Removes<small>Analysis</small></span><span class="r"></span></a></li>
+        <li><a href="#sources"><span class="t">Sources<small>Provenance</small></span><span class="r"></span></a></li>
+      </ol>
+    </nav>
+  </details>
+  <div class="theme" role="group" aria-label="Colour theme">
+    <button type="button" data-set="light" aria-pressed="false" class="sc">Light</button>
+    <button type="button" data-set="dark" aria-pressed="false" class="sc">Dark</button>
+  </div>
+</div>
+
+<header class="title">
+  <p class="fa-title" lang="fa" dir="rtl">مهمان‌خانه</p>
+  <h1>The Guest-House</h1>
+  <p class="byline sc">Rūmī &middot; Masnavi-yi Maʿnavi, Book V &middot; a complete annotated translation</p>
+  <span class="gilt" aria-hidden="true"></span>
+</header>
+
+<div class="page">
+  <aside class="rail" aria-label="Contents">
+    <nav class="toc">
+      <span class="cap sc">Contents</span>
+      <ol>
+        <li><a href="#what"><span class="t">What it actually is<small>The framing</small></span><span class="r"></span></a></li>
+        <li><a href="#part-i"><span class="t">Part I<small>&sect;155 &middot; Body as guest-house</small></span><span class="r">3644&ndash;46</span></a></li>
+        <li class="omit"><a href="#story"><span class="t">The story, summarized<small>&sect;156</small></span><span class="r">3647&ndash;75</span></a></li>
+        <li><a href="#part-ii"><span class="t">Part II<small>&sect;157 &middot; Thought as guest</small></span><span class="r">3676&ndash;3707</span></a></li>
+        <li><a href="#terms"><span class="t">Terminology<small>Apparatus</small></span><span class="r"></span></a></li>
+        <li><a href="#composite"><span class="t">The composite<small>Analysis</small></span><span class="r"></span></a></li>
+        <li><a href="#sources"><span class="t">Sources<small>Provenance</small></span><span class="r"></span></a></li>
+      </ol>
+    </nav>
+  </aside>
+
+  <main id="text">
+
+  <section id="what">
+    <div class="head">
+      <span class="label sc">The framing</span>
+      <h2>What &ldquo;The Guest House&rdquo; actually is</h2>
+    </div>
+    <div class="lede"><p>The poem English readers know as "The Guest House" (via Coleman Barks) is a <strong>modern composite</strong>. Rumi wrote no free-standing poem of that name. The material comes from two short didactic passages in Book V of the Masnavi, separated by a story:</p></div>
+    <ol class="moves">
+      <li><span class="s">&sect;155</span><a class="l" href="#part-i">V.3644–3646</a><span class="d">"Parable of the human body as a guest-house, and the different thoughts as different guests…" (the rubric invokes Abraham — <em>Khalīl</em> — who honored every guest, "believer and infidel, faithful and treacherous")</span></li>
+      <li class="skipped"><span class="s">&sect;156</span><a class="l" href="#story">V.3647–3675</a><span class="d">The story of the guest whom the householder's wife resented: rain set in, and "the guest is left on our hands" (<bdi class="fa-in" lang="fa">مهمان در گردن ما ماند</bdi>) — the very idiom of line 3645</span></li>
+      <li><span class="s">&sect;157</span><a class="l" href="#part-ii">V.3676–3707</a><span class="d">"Parable of the thought that comes into the heart each day, likened to a new guest…"</span></li>
+    </ol>
+    <div class="prose"><p>The popular composite takes the three couplets of §155, a handful of couplets from the opening of §157, and one couplet from its middle (V.3693, "meet them at the door laughing"), and presents them as a single poem. This edition translates <strong>both didactic passages in full, in their true order</strong>, and summarizes the intervening story, so the reader can see exactly what the composite keeps and what it discards.</p></div>
+  </section>
+
+  <section id="part-i">
+    <div class="head">
+      <span class="label sc">&sect;155 &middot; V.3644&ndash;3646</span>
+      <h2>Part I &mdash; The Body as Guest-House</h2>
+      <p class="rubric">"Parable of the human body as a guest-house, and the different thoughts as different guests…"</p>
+    </div>
+    <div class="passage">
+
+    <div class="bayt" id="l3644">
+      <a class="num has-note" href="#l3644" aria-label="Line 3644, permalink">3644</a>
+      <p class="fa" lang="fa" dir="rtl"><span class="m">هست مهمان‌خانه این تن ای جوان</span><span class="m">هر صباحی ضیف نو آید دوان</span></p>
+      <p class="en"><span class="m">This body, O youth, is a guest-house:</span><span class="m">every morning a new guest comes running.</span></p>
+      <details class="note" open><summary class="sc">Note &middot; 3644</summary><div class="body">The received text is <bdi class="fa-in" lang="fa">هست مهمان‌خانه این تن ای جوان</bdi>; <em>mehmān-khāneh</em> ("guest-house") is a single compound and Rumi's own word for the conceit. The meter throughout is <em>ramal-i musaddas-i maḥdhūf</em> (fāʿilātun fāʿilātun fāʿilun).</div></details>
+    </div>
+
+    <div class="bayt" id="l3645">
+      <a class="num has-note" href="#l3645" aria-label="Line 3645, permalink">3645</a>
+      <p class="fa" lang="fa" dir="rtl"><span class="m">هین مگو کین ماند اندر گردنم</span><span class="m">که هم اکنون باز پرد در عدم</span></p>
+      <p class="en"><span class="m">Beware! Do not say, "This one will be left on my hands"&nbsp;—</span><span class="m">for even now it flies back into non-existence.</span></p>
+      <details class="note" open><summary class="sc">Note &middot; 3645</summary><div class="body"><bdi class="fa-in" lang="fa">کین</bdi> = <bdi class="fa-in" lang="fa">که این</bdi>, "that this." <bdi class="fa-in" lang="fa">ماند اندر گردنم</bdi>, literally "will remain on my neck," is the ordinary idiom "will be left on my hands" — the §156 rubric uses it verbatim. <bdi class="fa-in" lang="fa">باز پرد</bdi> = "will fly <em>back</em>" (<bdi class="fa-in" lang="fa">باز</bdi> as adverb "back/again"), completing the image: what came from non-existence returns to it.</div></details>
+    </div>
+
+    <div class="bayt" id="l3646">
+      <a class="num has-note" href="#l3646" aria-label="Line 3646, permalink">3646</a>
+      <p class="fa" lang="fa" dir="rtl"><span class="m">هرچه آید از جهان غیب‌وش</span><span class="m">در دلت ضیف است او را دار خوش</span></p>
+      <p class="en"><span class="m">Whatever comes from the unseen-seeming world</span><span class="m">into your heart is a guest: entertain it well.</span></p>
+      <details class="note" open><summary class="sc">Note &middot; 3646</summary><div class="body"><bdi class="fa-in" lang="fa">غیب‌وش</bdi> is one compound: "resembling the <em>ghayb</em>," the unseen — a Qurʾanic category. The line itself, not any imported terminology, is the poem's warrant for reading the guests as sent from beyond.</div></details>
+    </div>
+
+    </div>
+    <div class="story" id="story">
+      <h3>The intervening story (V.3647&ndash;3675, &sect;156)</h3>
+      <p>Not translated here in verse: a comic-didactic tale of a host whose wife complains that the rain has set in and the guest "is left on our hands." It dramatizes exactly the attitude line 3645 forbids — the guest treated as a burden rather than a sending — and Rumi returns from it to the parable at 3676. Any edition that omits it (as the popular composite does) should say so; here it is omitted, with this notice.</p>
+    </div>
+  </section>
+
+  <section id="part-ii">
+    <div class="head">
+      <span class="label sc">&sect;157 &middot; V.3676&ndash;3707</span>
+      <h2>Part II &mdash; The Thought as Daily Guest</h2>
+      <p class="rubric">"Parable of the thought that comes into the heart each day, likened to a new guest…"</p>
+    </div>
+    <div class="passage">
+
+    <div class="bayt" id="l3676">
+      <a class="num" href="#l3676" aria-label="Line 3676, permalink">3676</a>
+      <p class="fa" lang="fa" dir="rtl"><span class="m">هر دمی فکری چو مهمان عزیز</span><span class="m">آید اندر سینه‌ات هر روز نیز</span></p>
+      <p class="en"><span class="m">Each moment a thought, like an honored guest,</span><span class="m">arrives in your breast — each day, anew.</span></p>
+    </div>
+
+    <div class="bayt" id="l3677">
+      <a class="num has-note" href="#l3677" aria-label="Line 3677, permalink">3677</a>
+      <p class="fa" lang="fa" dir="rtl"><span class="m">فکر را ای جان به جای شخص دان</span><span class="m">زانک شخص از فکر دارد قدر و جان</span></p>
+      <p class="en"><span class="m">Regard thought, O soul, as a person,</span><span class="m">for a person has worth and life from thought.</span></p>
+      <details class="note" open><summary class="sc">Note &middot; 3677</summary><div class="body"><bdi class="fa-in" lang="fa">دان</bdi> is a plain imperative: "regard/know." Rumi instructs the reader to treat thought <em>as</em> a person, because the person's worth and life derive from thought.</div></details>
+    </div>
+
+    <div class="bayt" id="l3678">
+      <a class="num has-note" href="#l3678" aria-label="Line 3678, permalink">3678</a>
+      <p class="fa" lang="fa" dir="rtl"><span class="m">فکر غم گر راه شادی می‌زند</span><span class="m">کارسازیهای شادی می‌کند</span></p>
+      <p class="en"><span class="m">If the thought of grief waylays joy on its road,</span><span class="m">it is working joy's preparations.</span></p>
+      <details class="note" open><summary class="sc">Note &middot; 3678</summary><div class="body"><bdi class="fa-in" lang="fa">راه زدن</bdi> is the highwayman's verb: "to waylay, to rob a traveler." The paradox is exact: grief appears as a robber blocking joy's road while secretly serving as joy's steward. Renderings that make grief "open the way" flatten the image.</div></details>
+    </div>
+
+    <div class="bayt" id="l3679">
+      <a class="num has-note" href="#l3679" aria-label="Line 3679, permalink">3679</a>
+      <p class="fa" lang="fa" dir="rtl"><span class="m">خانه می‌روبد به تندی او ز غیر</span><span class="m">تا در آید شادی نو ز اصل خیر</span></p>
+      <p class="en"><span class="m">It fiercely sweeps the house clear of all that is other,</span><span class="m">so new joy may enter from the origin of good.</span></p>
+      <details class="note" open><summary class="sc">Note &middot; 3679</summary><div class="body"><bdi class="fa-in" lang="fa">غیر</bdi>, "other," carries its Sufi resonance here: the house swept of all that is <em>other</em> (than God), so that joy may come from the <em>aṣl-i khayr</em>, the origin of good.</div></details>
+    </div>
+
+    <div class="bayt" id="l3680">
+      <a class="num" href="#l3680" aria-label="Line 3680, permalink">3680</a>
+      <p class="fa" lang="fa" dir="rtl"><span class="m">می‌فشاند برگ زرد از شاخ دل</span><span class="m">تا بروید برگ سبز متصل</span></p>
+      <p class="en"><span class="m">It shakes the yellow leaves from the bough of the heart,</span><span class="m">so green leaves may grow on, one after another.</span></p>
+    </div>
+
+    <div class="bayt" id="l3681">
+      <a class="num has-note" href="#l3681" aria-label="Line 3681, permalink">3681</a>
+      <p class="fa" lang="fa" dir="rtl"><span class="m">می‌کند بیخ سرور کهنه را</span><span class="m">تا خرامد ذوق نو از ماورا</span></p>
+      <p class="en"><span class="m">It uproots the root of stale joy,</span><span class="m">so new delight may come strolling in from the Beyond.</span></p>
+      <details class="note" open><summary class="sc">Note &middot; 3681</summary><div class="body"><bdi class="fa-in" lang="fa">از ماورا</bdi> = <em>az mā-warā</em>, "from the Beyond" (one word, <bdi class="fa-in" lang="fa">ماوراء</bdi>) — not "from us/from you."</div></details>
+    </div>
+
+    <p class="elide">Mockup elides 3682&ndash;3692; the page carries every line</p>
+
+    <div class="bayt" id="l3693">
+      <a class="num" href="#l3693" aria-label="Line 3693, permalink">3693</a>
+      <p class="fa" lang="fa" dir="rtl"><span class="m">فکر در سینه در آید نو به نو</span><span class="m">خند خندان پیش او تو باز رو</span></p>
+      <p class="en"><span class="m">Thought comes into the breast ever anew:</span><span class="m">go out to meet it laughing and smiling —</span></p>
+    </div>
+
+    <div class="bayt" id="l3694">
+      <a class="num has-note" href="#l3694" aria-label="Line 3694, permalink">3694</a>
+      <p class="fa" lang="ar" dir="rtl"><span class="m">که اعذنی خالقی من شره</span><span class="m">لا تحرمنی انل من بره</span></p>
+      <p class="en"><span class="m"><span class="lang">Arabic</span>"My Creator, shield me from its evil;</span><span class="m">do not deprive me — let me attain its good.</span></p>
+      <details class="note" open><summary class="sc">Note &middot; 3694&ndash;3695</summary><div class="body">Two couplets in Arabic, in the register of prayer; 3695 echoes Qurʾanic <bdi class="fa-in" lang="ar">اوزعنی</bdi> ("dispose me to give thanks," cf. Q 27:19, 46:15). Popular versions omit them entirely.</div></details>
+    </div>
+
+    <div class="bayt" id="l3695">
+      <a class="num" href="#l3695" aria-label="Line 3695, permalink">3695</a>
+      <p class="fa" lang="ar" dir="rtl"><span class="m">رب اوزعنی لشکر ما اری</span><span class="m">لا تعقب حسرة لی ان مضی</span></p>
+      <p class="en"><span class="m"><span class="lang">Arabic</span>Lord, dispose me to give thanks for what I see;</span><span class="m">let no regret pursue me once it has passed."</span></p>
+    </div>
+
+    <p class="elide">3696&ndash;3707 continue</p>
+    </div>
+  </section>
+
+  <section id="terms">
+    <div class="head">
+      <span class="label sc">Apparatus</span>
+      <h2>Key Terminology (corrected)</h2>
+    </div>
+    <dl class="terms">
+      <div class="t">
+        <dt><bdi class="fa-in" lang="ar">ضیف</bdi><span class="tr">ḍayf</span></dt>
+        <dd>Arabic loanword, "guest." Not itself a technical Sufi term; the theology is carried by the poem's statements that guests come from the <em>ghayb</em> (3646), that affliction is <em>God's</em> guest (3689), and that the blocking thought comes from the <em>Maker</em> (3702). The §155 rubric ties the whole to Abraham's hospitality (<bdi class="fa-in" lang="ar">اکرام ضیف</bdi>, echoing the Qurʾanic guests of Ibrāhīm).</dd>
+        <dd class="refs">Lines <a href="#l3644">3644</a> <a href="#l3646">3646</a></dd>
+      </div>
+      <div class="t">
+        <dt><bdi class="fa-in" lang="ar">عدم</bdi><span class="tr">ʿadam</span></dt>
+        <dd>"non-existence." A genuinely weighty term in Rumi's metaphysics: forms continually arise from and return to non-existence, which he elsewhere treats as the hidden reservoir of being (see Chittick, <em>The Sufi Path of Love</em>). It is <strong>not</strong> <em>fanā</em> (the mystic's annihilation in God); in 3645 it is the <em>guest</em> that returns to non-existence.</dd>
+        <dd class="refs">Line <a href="#l3645">3645</a></dd>
+      </div>
+      <div class="t">
+        <dt><bdi class="fa-in" lang="ar">غیب</bdi><span class="tr">ghayb</span></dt>
+        <dd>"the unseen," a Qurʾanic category; the guests' point of origin (3646).</dd>
+        <dd class="refs">Line <a href="#l3646">3646</a></dd>
+      </div>
+    </dl>
+    <p class="stub">Four further terms (fikr, ghayr, aṣl-i khayr, ahl al-yaqīn) and the caveat follow in the same form.</p>
+  </section>
+
+  <section id="composite">
+    <div class="head">
+      <span class="label sc">Analysis</span>
+      <h2>What the Popular Composite Removes</h2>
+    </div>
+    <div class="prose"><p>Set against the full text above, the Barks-type composite ("This being human is a guest house…") omits or flattens:</p></div>
+    <ul class="plain">
+      <li><strong>The frame of divine sending</strong> — "God's guest" (3689), "by the command and wisdom of the Maker" (3702), the guests arriving from the <em>ghayb</em> (3646).</li>
+      <li><strong>The Arabic prayers</strong> (<a href="#l3694">3694–3695</a>) — the only lines in the passage addressed directly to God, and the model response Rumi actually prescribes to the arriving thought.</li>
+    </ul>
+    <p class="stub">Six further items follow.</p>
+  </section>
+
+  <section id="sources">
+    <div class="head">
+      <span class="label sc">Provenance</span>
+      <h2>Sources</h2>
+    </div>
+    <ul class="plain">
+      <li>Reynold A. Nicholson, <em>The Mathnawí of Jaláluʾddín Rúmí</em>, 8 vols., Gibb Memorial Series (1925–1940) — edition of reference for text and line numbering.</li>
+      <li>Ganjoor, Masnavi Book V, §§155–157 (received critical text): ganjoor.net/moulavi/masnavi/daftar5/sh155, /sh156, /sh157.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p class="mark" aria-hidden="true">&#x06DE;</p>
+    <p>An original translation made against the Persian of the received critical text.</p>
+  </footer>
+  </main>
+</div>
+
+<script>
+(function(){
+  var root=document.documentElement, KEY="gh-theme";
+  function current(){
+    var t=root.getAttribute("data-theme");
+    if(t) return t;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";
+  }
+  function paint(){
+    var c=current();
+    document.querySelectorAll(".theme button").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.set===c));});
+  }
+  try{var s=localStorage.getItem(KEY); if(s==="light"||s==="dark") root.setAttribute("data-theme",s);}catch(e){}
+  document.querySelectorAll(".theme button").forEach(function(b){
+    b.addEventListener("click",function(){
+      root.setAttribute("data-theme",b.dataset.set);
+      try{localStorage.setItem(KEY,b.dataset.set);}catch(e){}
+      paint();
+    });
+  });
+  paint();
+
+  /* notes: open in the margin on wide screens, folded under each bayt on narrow ones */
+  var wide=window.matchMedia("(min-width: 900px)");
+  function notes(){document.querySelectorAll("details.note").forEach(function(d){d.open=wide.matches;});}
+  notes();
+  if(wide.addEventListener) wide.addEventListener("change",notes);
+
+  /* contents sheet: close after a choice, or on Escape */
+  var sheet=document.querySelector("details.sheet");
+  sheet.querySelectorAll("a").forEach(function(a){a.addEventListener("click",function(){sheet.open=false;});});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape"&&sheet.open){sheet.open=false;sheet.querySelector("summary").focus();}});
+})();
+</script>
+</body>
+</html>
