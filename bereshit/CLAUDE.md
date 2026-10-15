@@ -153,7 +153,9 @@ only the cited readings are recorded):
 - Targum Neofiti (chapter 1 only) and Pseudo-Jonathan: Sefaria API, Hebrew versions.
 - Qumran: reported, not collated (Wikipedia variant tables after van de Giessen; BAS on
   4QGenᵏ). DJD XII has not been consulted.
-- Josephus, Ant. 1.27: Perseus (Niese). Jubilees, Bereshit Rabbah, Chagigah 12a, Pirkei de-Rabbi
+- Jubilees on Sefaria is Rubin's Hebrew retroversion from the Ethiopic (Vienna, 1870). The Qumran
+  Hebrew (4Q216, DJD XIII 1–22; Ma'agarim text 11000) has not been obtained.
+- Josephus, Ant. 1.27: Perseus (Niese). Bereshit Rabbah, Chagigah 12a, Pirkei de-Rabbi
   Eliezer, Saadia, Rashbam: Sefaria API, Hebrew versions.
 
 ## Editing

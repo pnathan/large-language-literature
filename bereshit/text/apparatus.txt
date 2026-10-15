@@ -31,7 +31,7 @@ sig: TPsJ | Targum Pseudo-Jonathan (Sefaria).
 sig: TSam | Samaritan Targum (tanakh.info).
 sig: Syr | Peshitta (tanakh.info).
 sig: Jos | Josephus, Antiquities 1.27 (Niese, via Perseus).
-sig: Jub | Jubilees 2:1–6, Hebrew rendering on Sefaria (Wikisource 2019); not the Qumran Hebrew.
+sig: Jub | Jubilees 2:1–6 in the Hebrew of Rubin (Vienna, 1870), a retroversion from the Ethiopic made before the Qumran finds (Sefaria, from Wikisource). Not the Qumran Hebrew.
 sig: BerR | Bereshit Rabbah 1–3 (Sefaria).
 sig: Chag | Babylonian Talmud, Chagigah 12a (Sefaria).
 sig: PRE | Pirkei de-Rabbi Eliezer 3 (Sefaria).
@@ -292,5 +292,7 @@ p: How the versions and the early interpreters read the words on which the Engli
 p: The Samaritan text, the Targums Onkelos and Samaritan, the Peshitta, the Septuagint as printed
   there, and the three later Greek translators are taken from one comparison site; their editions
   are not named on it. The Qumran readings are reported, not collated: DJD XII was not consulted.
-  Philo, De opificio mundi 26–28, and the Qumran Hebrew of Jubilees (4Q216) were not reachable
-  and are not cited. Aquila, Symmachus and Theodotion survive only in later quotation.
+  Philo, De opificio mundi 26–28, was not reachable and is not cited. The Qumran Hebrew of
+  Jubilees 2 (4Q216, cols. V–VII; ed. VanderKam and Milik, DJD XIII, 1–22) could not be fetched:
+  the transcription in the Academy of the Hebrew Language's database (Ma'agarim, text 11000) is
+  behind a bot check, and DJD XIII is not online. Jub is therefore cited from a retroversion. Aquila, Symmachus and Theodotion survive only in later quotation.
