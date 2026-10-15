@@ -74,6 +74,15 @@ h2.ch{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:c
 }
 .app{margin-top:10px;font-size:.8rem;color:var(--text-dim)}.applbl{display:block;font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}.app ul{margin:0;padding-left:1.1em}.app li{margin-bottom:3px}.names table{width:100%;border-collapse:collapse;margin-top:10px}.names td{padding:6px;border-top:1px solid var(--rule);vertical-align:top;font-size:.86rem}.names td.e{font-family:'Cormorant Garamond',Georgia,serif;font-size:1rem;width:22%}.names td.h{direction:rtl;text-align:right;font-family:'SBL Hebrew','Ezra SIL','Noto Serif Hebrew','Times New Roman',serif;font-size:1.05rem;color:var(--hebrew);width:14%;white-space:nowrap}
 bdi.hw{font-family:'SBL Hebrew','Ezra SIL','Noto Serif Hebrew','Times New Roman',serif;font-size:1.08em;color:var(--hebrew)}
+.apparatus{margin-top:24px}.apparatus h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:1.25rem;margin:36px 0 10px;color:var(--text)}
+.apparatus>p{max-width:820px;font-size:.86rem;color:var(--text-dim);margin-bottom:8px}
+.apparatus .sigla{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;font-size:.82rem;color:var(--text-dim);margin:10px 0 0}
+.apparatus .sigla dt{font-weight:500;color:var(--text)}
+.apparatus p.ae{font-size:.84rem;line-height:1.75;color:var(--text);padding:5px 0 5px 4.2em;text-indent:-4.2em;border-bottom:1px solid var(--rule);margin:0;max-width:none}
+.apparatus .avn{display:inline-block;width:3.6em;text-indent:0;color:var(--text-light);font-variant-numeric:oldstyle-nums}
+.apparatus .br{margin:0 .25em;color:var(--accent)}
+.apparatus .sg{font-size:.78em;font-weight:500;color:var(--accent);letter-spacing:.02em}
+.apparatus .anote{display:block;text-indent:0;color:var(--text-dim);font-size:.94em}
 footer{margin-top:48px;text-align:center;border-top:1px solid var(--rule);padding-top:28px;
   font-size:.82rem;color:var(--text-light)}
 footer a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--rule)}</style>
@@ -85,7 +94,7 @@ footer a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--
   <div class="intro">
     <p>An original translation, made from the Hebrew text with the Septuagint beside it, of the first verses of the book. The English is deliberately strange and primal: the aim is a text the reader does not recognise, not one they half remember. The middle column gives the Greek. The right-hand column carries the commentary: root sense, the readings the Septuagint takes instead, and every place the register bends the Hebrew.</p>
     <p>No published English translation was consulted. Rashi and Ibn Ezra are the normative traditional interpreters: where both read the Hebrew against the English, the English follows them; where they differ, both readings are recorded. Review: an independent Opus-model pass on the first draft; a Fable-model pass on this revision and on every Rashi and Ibn Ezra entry, run on the final text.</p>
-    <p><strong>Conventions.</strong> אֱלֹהִים: Divinity. יְהוָה: the Lord. אָדָם: the earthling. אֲדָמָה: the red earth. אֶרֶץ: the ground (land only for place names). נָחָשׁ: the serpent. אִשָּׁה and אִישׁ are kept as Ishah and Ish for the pun. Names are given in an English form in the translation. The commentary writes Hebrew in Hebrew script and Greek in Greek script. Under each verse: a note, an apparatus of the readings held open, the readings of Rashi and Ibn Ezra, and a word-by-word table.</p>
+    <p><strong>Conventions.</strong> אֱלֹהִים: Divinity. יְהוָה: the Lord. אָדָם: the earthling. אֲדָמָה: the red earth. אֶרֶץ: the ground (land only for place names). נָחָשׁ: the serpent. אִשָּׁה and אִישׁ are kept as Ishah and Ish for the pun. Names are given in an English form in the translation. The commentary writes Hebrew in Hebrew script and Greek in Greek script. Under each verse: a note, an apparatus of the readings held open, the readings of Rashi and Ibn Ezra, and a word-by-word table. A <a href="#apparatus">critical apparatus</a> at the end collates the Samaritan Pentateuch, the Qumran reports and the ancient versions, and records how the tradition reads the cruxes.</p>
   </div>
   <dl class="witness">
     <dt>Hebrew witness</dt>
@@ -99,6 +108,7 @@ footer a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--
 <main>
 {{BODY}}
 {{NAMES}}
+{{APPARATUS}}
 </main>
 <footer>
   <p><a href="../">&larr; Large-Language Literature</a> &middot; Source on <a href="https://github.com/pnathan/large-language-literature">GitHub</a></p>

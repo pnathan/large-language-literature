@@ -86,9 +86,13 @@ normative interpreters, with a Fable-model check of that revision (item 6).
 - `text/decisions.txt` — `ref | phrase` pairs that must stay in a verse's English:
   review decisions. Change a line only when the decision is reversed.
 - `text/translit.txt` — transliterated words forbidden outside the English lines.
+- `text/apparatus.txt` — the critical apparatus appendix (format below): sigla; I. variant
+  readings of the Hebrew witnesses and of the versions where they presuppose another Hebrew
+  text; II. spelling and minor readings of the Samaritan Pentateuch; III. readings of the
+  versions and the early interpreters at the cruxes; limits.
 - `src/witness-hebrew.json`, `src/witness-lxx.json` — the witnesses, keyed `chapter:verse`.
 - `src/rashi.json`, `src/ibn-ezra.json` — the commentaries, keyed `chapter:verse`.
-- `src/template.html` — the page shell and CSS; `{{BODY}}` and `{{NAMES}}` are filled.
+- `src/template.html` — the page shell and CSS; `{{BODY}}`, `{{NAMES}}` and `{{APPARATUS}}` are filled.
 - `src/tool.py` — the only tool. Standard library only. From the repo root:
   - `python3 -I bereshit/src/tool.py show 2:21 [3:15 …] [--sources]` — numbered
     Hebrew tokens, Greek, the verse block; `--sources` adds Rashi and Ibn Ezra.
@@ -118,6 +122,34 @@ ibn-ezra: …                               Ibn Ezra's reading (any number)
 `check` enforces: all 98 verses in order; token coverage; every fragment present
 in the lines; no Hebrew script in the English; no transliteration outside the
 English; a note for every verse; the decisions; Hebrew in the names column.
+
+## Apparatus file
+
+```
+## I. Variant readings                    a section
+p: …                                      a paragraph
+sig: SP | Samaritan Pentateuch, …         a siglum (Sigla section)
+@ 2:2                                     the verse of the entries below
+= הַשְּׁבִיעִי ] הַשְּׁבִיעִי {MT TO} ; הששי {SP} ; ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ {G}
+~ a note on the entry above
+```
+
+`lemma ] reading {SIGLA} ; reading {SIGLA}`. `+ x` is an addition, `om.` an omission;
+`…` separates parts of a discontinuous lemma. `check` enforces: every siglum is defined;
+every verse exists and entries run in verse order within a section; every Hebrew lemma
+occurs, consonant for consonant, in the base text of its verse.
+
+Sources of the apparatus (fetched 2026-10-14; the full texts stay outside the repository,
+only the cited readings are recorded):
+- Samaritan Pentateuch, Targum Onkelos, Samaritan Targum, Peshitta, a second Septuagint text
+  (Gᵗ), Aquila, Symmachus, Theodotion: `https://tanakh.info/gn{c}-{v}` (1:1 is `?p=36`). The
+  Samaritan text was collated against MT by machine (consonants, matres lectionis inside a
+  word counted as spelling), and every reading checked by hand.
+- Targum Neofiti (chapter 1 only) and Pseudo-Jonathan: Sefaria API, Hebrew versions.
+- Qumran: reported, not collated (Wikipedia variant tables after van de Giessen; BAS on
+  4QGenᵏ). DJD XII has not been consulted.
+- Josephus, Ant. 1.27: Perseus (Niese). Jubilees, Bereshit Rabbah, Chagigah 12a, Pirkei de-Rabbi
+  Eliezer, Saadia, Rashbam: Sefaria API, Hebrew versions.
 
 ## Editing
 

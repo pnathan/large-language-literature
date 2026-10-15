@@ -1,0 +1,284 @@
+# Critical apparatus appendix, printed after the names table.
+# Format: bereshit/CLAUDE.md, section 'Apparatus file'.
+#   ## Title             starts a section
+#   p: text              a paragraph of the section
+#   sig: SIGLUM | text   defines a siglum (only in the Sigla section)
+#   @ ref                the verse of the entries that follow
+#   = lemma ] reading {SIGLA} ; reading {SIGLA}
+#                        one entry; 'lemma' is from the base text (MT); each reading names its
+#                        witnesses in braces; '+ x' is an addition after the lemma; 'om.' an omission.
+#   ~ text               a note on the entry above
+# A line that starts with two spaces continues the line above.
+
+## Sigla
+p: The base text is the Masoretic text as served by Sefaria (MT). Readings are cited in the
+  script of their witness. The apparatus is positive: the witnesses for the base reading are
+  named where they are known.
+sig: MT | Masoretic text, Sefaria (src/witness-hebrew.json); the base text.
+sig: SP | Samaritan Pentateuch, consonantal text as transcribed on tanakh.info (fetched 2026-10-14); collated against MT by machine, every reading checked by hand.
+sig: 4QGenᵇ | Qumran Cave 4, 4Q2, Genesis 1:1–27 and fragments of 2 and 4. Readings reported in secondary sources (Wikipedia variant tables after van de Giessen; the Cave 4 inventory); DJD XII not consulted.
+sig: 4QGenᵍ | Qumran Cave 4, 4Q7, Genesis 1:1–11, 13–22; 2:6–7. Reported as for 4QGenᵇ.
+sig: 4QGenʰ | Qumran Cave 4, 4Q8, Genesis 1:8–10. Reported as for 4QGenᵇ.
+sig: 4QGenᵏ | Qumran Cave 4, 4Q10, Genesis 1:9, 14–16, 27–28; 2:1–3. Reported by the Biblical Archaeology Society (after R. Hendel).
+sig: G | Septuagint, Blue Letter Bible text (src/witness-lxx.json); edition not stated.
+sig: Gᵗ | Septuagint as printed on tanakh.info, where it differs from G.
+sig: α′ | Aquila, as quoted on tanakh.info.
+sig: σ′ | Symmachus, as quoted on tanakh.info.
+sig: θ′ | Theodotion, as quoted on tanakh.info.
+sig: TO | Targum Onkelos (tanakh.info).
+sig: TN | Targum Neofiti, Vatican manuscript (Sefaria); chapter 1 only.
+sig: TPsJ | Targum Pseudo-Jonathan (Sefaria).
+sig: TSam | Samaritan Targum (tanakh.info).
+sig: Syr | Peshitta (tanakh.info).
+sig: Jos | Josephus, Antiquities 1.27 (Niese, via Perseus).
+sig: Jub | Jubilees 2:1–6, Hebrew rendering on Sefaria (Wikisource 2019); not the Qumran Hebrew.
+sig: BerR | Bereshit Rabbah 1–3 (Sefaria).
+sig: Chag | Babylonian Talmud, Chagigah 12a (Sefaria).
+sig: PRE | Pirkei de-Rabbi Eliezer 3 (Sefaria).
+sig: Saadia | Saadia Gaon, commentary on Genesis, Hebrew translation (Sefaria).
+sig: Rashi | Rashi on Genesis (src/rashi.json).
+sig: Rashbam | Rashbam on Genesis (Sefaria).
+sig: IE | Abraham ibn Ezra on Genesis (src/ibn-ezra.json).
+
+## I. Variant readings
+p: Readings of the Hebrew witnesses, and of the versions where they presuppose a different
+  Hebrew text. Spelling variants of SP are listed in section II; readings of interpretation are
+  in section III.
+@ 1:6
+= לָמָיִם ] + καὶ ἐγένετο οὕτως {G}
+@ 1:7
+= וַיְהִי־כֵן ] וַיְהִי־כֵן {MT SP 4QGenᵇ 4QGenᵍ} ; om. {G}
+~ G moves the formula from 1:7 to the end of 1:6.
+@ 1:8
+= שָׁמָיִם ] + καὶ εἶδεν ὁ θεὸς ὅτι καλόν {G}
+@ 1:9
+= מָקוֹם ] מָקוֹם {MT SP 4QGenᵇ} ; מקוה {4QGenʰ} ; συναγωγὴν {G}
+= וַיְהִי־כֵן ] + καὶ συνήχθη τὸ ὕδωρ τὸ ὑποκάτω τοῦ οὐρανοῦ εἰς τὰς συναγωγὰς αὐτῶν καὶ ὤφθη ἡ ξηρά {G}
+  ; om. {MT SP 4QGenᵇ 4QGenᵍ}
+~ 4QGenᵏ is reported to preserve Hebrew words that match the last words of the G plus.
+@ 1:11
+= עֵץ ] ועץ {SP} ; καὶ ξύλον {G} ; ואילן {TSam}
+= זֶרַע ] + κατὰ γένος καὶ καθ᾽ ὁμοιότητα {G}
+@ 1:14
+= לְהַבְדִּיל ] להאיר על הארץ ולהבדיל {SP} ; למנהרה על ארעה ולמפרק {TSam} ;
+  εἰς φαῦσιν τῆς γῆς τοῦ διαχωρίζειν {G}
+~ The plus also stands, in the words of the command, at 1:15 and 1:17 in all witnesses.
+@ 1:20
+= הַשָּׁמָיִם ] + καὶ ἐγένετο οὕτως {G}
+@ 1:24
+= וְחַיְתוֹ־אֶרֶץ ] וחית הארץ {SP} ; θηρία τῆς γῆς {G}
+~ MT keeps the old construct ending ־וֹ; SP and G read the common form.
+@ 1:26
+= כִּדְמוּתֵנוּ ] καὶ καθ᾽ ὁμοίωσιν {G}
+@ 1:28
+= וּבְכָל־חַיָּה ] ובכל החיה {SP} ; + πάντων τῶν κτηνῶν καὶ πάσης τῆς γῆς before it {G}
+@ 2:2
+= הַשְּׁבִיעִי ] הַשְּׁבִיעִי {MT TO TPsJ} ; הששי {SP} ; ביומה שתיתה {TSam} ; ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ {G} ;
+  ܒܝܘܡܐ ܫܬܝܬܝܐ {Syr}
+~ The first of the two 'seventh days'. SP, G and Syr agree on 'sixth' against MT; the reading
+  removes the implication that work was finished on the seventh day.
+@ 2:4
+= יְהוָה אֱלֹהִים ] ὁ θεός {G} ; κύριος ὁ θεός {Gᵗ}
+= אֶרֶץ וְשָׁמָיִם ] אֶרֶץ וְשָׁמָיִם {MT TO} ; שמים וארץ {SP} ; τὸν οὐρανὸν καὶ τὴν γῆν {G} ; ܫܡܝܐ ܘܐܪܥܐ {Syr}
+~ SP, G and Syr level the inversion back to the order of 1:1.
+@ 2:9
+= וַיַּצְמַח ] + ἔτι {G}
+@ 2:12
+= טוֹב ] טוב מאד {SP} ; טב שריר {TSam}
+@ 2:15
+= הָאָדָם ] + ὃν ἔπλασεν {G}
+@ 2:18
+= אֶעֱשֶׂה ] ποιήσωμεν {G}
+@ 2:19
+= וַיִּצֶר ] + עוד {SP} ; + ἔτι {G}
+@ 2:23
+= מֵאִישׁ ] מאישה {SP} ; ἐκ τοῦ ἀνδρὸς αὐτῆς {G} ; מִבַּעְלַהּ {TO} ; מן גברה {TSam}
+@ 2:24
+= וְהָיוּ ] והיה משניהם {SP} ; והוו משניהון {TSam} ; ἔσονται οἱ δύο {G} ; ܘܢܗܘܘܢ ܬܪ̈ܝܗܘܢ {Syr}
+@ 3:3
+= הָעֵץ ] + הזה {SP} ; עילן הדן {TSam}
+@ 3:6
+= וַיֹּאכַל ] ויאכלו {SP} ; ἔφαγον {G}
+@ 3:9
+= אַיֶּכָּה ] איך {SP} ; Αδαμ ποῦ εἶ {G} ; ܐܝܟܐ ܐܢܬ ܐܕܡ {Syr}
+@ 3:16
+= וְהֵרֹנֵךְ ] τὸν στεναγμόν σου {G}
+= בְּעֶצֶב ] בעצבון {SP} ; ועל עצרון {TSam}
+@ 3:17
+= בַּעֲבוּרֶךָ ] ἐν τοῖς ἔργοις σου {G}
+~ G presupposes בעבדך, 'in your work', a difference of one letter.
+@ 3:19
+= עָפָר ] עפרך {SP} ; עפרך {TSam}
+@ 4:1
+= אֶת־יְהוָה ] διὰ τοῦ θεοῦ {G}
+@ 4:7
+= הֲלוֹא אִם־תֵּיטִיב שְׂאֵת ] οὐκ ἐὰν ὀρθῶς προσενέγκῃς ὀρθῶς δὲ μὴ διέλῃς ἥμαρτες ἡσύχασον {G}
+~ G reads a different text, or construes the same consonants otherwise.
+@ 4:8
+= אָחִיו ] + נלכה השדה {SP} ; + נהלך לברה {TSam} ; + Διέλθωμεν εἰς τὸ πεδίον {G} ;
+  + ܢܪܕܐ ܠܦܩܥܬܐ {Syr} ; + אִיתָא וְנִפּוּק תַּרְוֵינָן לְבָרָא {TPsJ} ; om. {MT TO}
+~ The plus fills the gap after וַיֹּאמֶר. MT and TO have no speech.
+@ 4:10
+= צֹעֲקִים ] צעק {SP} ; βοᾷ {G}
+= דְּמֵי ] דְּמֵי {MT SP} ; φωνὴ αἵματος {G}
+@ 4:11
+= דְּמֵי ] דם {SP} ; τὸ αἷμα {G}
+@ 4:15
+= לָכֵן ] לָכֵן {MT SP TSam} ; בְּכֵין {TO} ; Οὐχ οὕτως {G} ; ܠܐ ܗܟܢܐ {Syr}
+~ G and Syr read לא כן, 'not so'.
+@ 4:18
+= מְחוּיָאֵל … וּמְחִיָּיאֵל ] מחיאל … ומחיאל {SP} ; Μαιηλ … Μαιηλ {G}
+~ SP and G give one spelling for both occurrences.
+
+## II. Spelling and minor readings of SP
+p: Differences of SP from MT in vowel letters (plene and defective spelling), the article, the
+  object marker and grammatical form, which do not change the sense rendered here.
+@ 1:14
+= מְאֹרֹת ] מאורות {SP}
+= לְאֹתֹת ] לאתות {SP}
+@ 1:15
+= לִמְאוֹרֹת ] למאורות {SP}
+@ 1:16
+= הַמְּאֹרֹת ] המאורות {SP}
+= הַגָּדֹל ] הגדול {SP}
+@ 1:20
+= יְעוֹפֵף ] יעפף {SP}
+@ 1:21
+= הַתַּנִּינִם ] התנינים {SP}
+= לְמִינֵהֶם ] למיניהם {SP}
+@ 1:22
+= יִרֶב ] ירבה {SP}
+@ 1:28
+= וְכִבְשֻׁהָ ] וכבשוה {SP}
+@ 1:29
+= הָעֵץ ] עץ {SP}
+@ 1:30
+= רוֹמֵשׂ ] הרמש {SP}
+@ 2:4
+= תוֹלְדוֹת ] תולדת {SP}
+@ 2:7
+= וַיִּיצֶר ] ויצר {SP}
+= הָאָדָם ] אדם {SP}
+~ The second הָאָדָם of the verse.
+@ 2:9
+= כָּל ] את כל {SP}
+@ 2:12
+= הַהִוא ] ההיא {SP}
+@ 2:19
+= כָּל ] את כל {SP}
+~ The first כָּל of the verse.
+@ 2:21
+= תַּחְתֶּנָּה ] תחתיה {SP}
+@ 2:22
+= וַיְבִאֶהָ ] ויביאה {SP}
+@ 2:25
+= עֲרוּמִּים הָאָדָם ] ערמים אדם {SP}
+@ 3:6
+= לְהַשְׂכִּיל ] להשכל {SP}
+@ 3:7
+= עֵירֻמִּם ] ערמים {SP}
+= עֲלֵה ] עלי {SP}
+= חֲגֹרֹת ] חגרות {SP}
+@ 3:8
+= הָאָדָם ] אדם {SP}
+@ 3:10
+= קֹלְךָ ] קולך {SP}
+= עֵירֹם ] ערום {SP}
+@ 3:11
+= עֵירֹם ] ערום {SP}
+@ 3:13
+= עָשִׂית ] עשיתי {SP}
+~ The archaic second person feminine ending ־תי.
+@ 3:16
+= אֶל ] ואל {SP}
+= וְהֵרֹנֵךְ ] והריונך {SP}
+@ 3:18
+= תַּצְמִיחַ ] תצמח {SP}
+@ 3:20
+= הִוא ] היא {SP}
+@ 3:21
+= כָּתְנוֹת ] כיתנות {SP}
+@ 3:22
+= לְעֹלָם ] לעולם {SP}
+@ 3:24
+= הַכְּרֻבִים ] הכרובים {SP}
+@ 4:4
+= וּמֵחֶלְבֵהֶן ] ומחלביהן {SP}
+@ 4:7
+= תֵּיטִיב ] תטיב {SP}
+~ Both occurrences.
+@ 4:9
+= אֵי ] איה {SP}
+@ 4:12
+= תֹסֵף ] תוסף {SP}
+@ 4:17
+= שֵׁם ] את שם {SP}
+
+## III. Readings of the tradition at the cruxes
+p: How the versions and the early interpreters read the words on which the English turns. Rashi
+  and Ibn Ezra are the normative interpreters of this edition (Methodology, item 6); the others
+  are recorded for their age and for their plain-sense readings.
+@ 1:1
+= בְּרֵאשִׁית ] ἐν ἀρχῇ {G σ′ θ′ Jos} ; ἐν κεφαλαίῳ, 'in the head' {α′} ; בְּקַדְמִין, 'at first' {TO} ;
+  מלקדמין בחכמה, 'from the beginning, with wisdom' {TN} ; מִן אַוְולָא, 'from the first' {TPsJ} ;
+  בקמאותא {TSam} ; ܒܪܫܝܬ {Syr} ; 'by the רֵאשִׁית', the Torah as the architect's plan {BerR} ;
+  the first of the works of the first day {Jub Chag} ; construct, 'at the start of creating', main clause
+  at 1:3 {Rashi} ; construct, main clause at 1:2 {IE Rashbam}
+~ Every ancient witness reads the word absolutely, as a time; the construct reading is the
+  medieval plain-sense reading. Rashbam rejects both 'first of all' and 'before he created'.
+= בָּרָא ] ἐποίησεν, 'made' {G} ; ἔκτισεν, 'founded' {α′ Jos} ; ברא … ושכלל, 'created … and
+  perfected' {TN} ; טלמס {TSam} ; 'to cut, and set a cut boundary' {IE}
+~ The English 'carve out' follows Ibn Ezra.
+@ 1:2
+= תֹהוּ וָבֹהוּ ] ἀόρατος καὶ ἀκατασκεύαστος, 'unseen and unfurnished' {G} ; κένωμα καὶ οὐθέν,
+  'emptiness and nothing' {α′} ; ἀργὸν καὶ ἀδιάκριτον {σ′} ; צָדְיָא וְרֵיקַנְיָא, 'desolate and empty'
+  {TO} ; תהיא ובהיא, desolate of humans and beasts, empty of plants and trees {TN} ;
+  תַּהֲיָיא וּבַהֲיָיא, desolate of humans, empty of all beasts {TPsJ} ; ܬܘܗ ܘܒܘܗܿ
+  {Syr} ; 'not coming into sight, hidden in deep darkness' {Jos} ; תֹּהוּ a green line round the world,
+  בֹהוּ slimy stones in the deep {Chag} ; astonishment and emptiness {Rashi BerR} ; that which has no
+  substance {IE} ; without inhabitant {Rashbam}
+= וְרוּחַ אֱלֹהִים ] πνεῦμα θεοῦ {G α′ θ′ σ′} ; πνεύματος … ἐπιθέοντος, 'a breath running over' {Jos} ;
+  רוּחָא … מְנַשְּׁבָא, 'a wind blowing' {TO} ; ריח אלהה מנשבה {TSam} ; רוח דרחמין … מנשבא, 'a wind of
+  mercy blowing' {TN TPsJ} ; the spirits that serve before him, created on the first day {Jub} ;
+  the spirit of the Messiah {BerR} ; the blowing wind {Saadia Rashbam IE} ; the throne of glory
+  hovering by the breath of his mouth {Rashi}
+~ The English 'wind' stands with the Targums, Josephus and the medieval plain-sense readers.
+@ 1:3
+= וַיֹּאמֶר ] γενέσθαι φῶς ἐκέλευσεν ὁ θεός, 'God commanded light to come to be', with 1:2 as background
+  {Jos} ; the main clause of 1:1–3 {Rashi}
+@ 2:6
+= וְאֵד ] πηγή, 'a spring' {G} ; ἐπιβλυσμός, 'a welling' {α′} ; עֲנָנָא, 'a cloud' {TO} ; ענן {TSam} ;
+  ܡܒܘܥܐ, 'a spring' {Syr} ; a cloud of glory that drew water from the ocean {TPsJ} ; the deep rose and
+  watered the clouds {Rashi} ; like smoke {IE}
+~ The English 'vapour' follows Rashi and Ibn Ezra; G and Syr read a spring.
+@ 2:21
+= מִצַּלְעֹתָיו ] τῶν πλευρῶν αὐτοῦ, 'of his ribs, sides' {G} ; מֵעִלְעוֹהִי, 'of his ribs' {TO TPsJ} ;
+  מן עלויו {TSam} ; ܡܢ ܐ̈ܠܥܘܗܝ {Syr} ; 'from his sides' {Rashi IE}
+~ The English 'side' follows Rashi and Ibn Ezra against the Targums. TPsJ names the thirteenth rib
+  of the right side.
+@ 3:15
+= יְשׁוּפְךָ ] τηρήσει, 'will watch' {G} ; יקפנך {TSam} ; ܢܕܘܫ, 'will tread' {Syr} ; 'he will remember
+  what you did to him' {TO} ; 'will crush you' {Rashi} ; 'will strike' {IE}
+@ 4:7
+= שְׂאֵת ] יִשְׁתְּבֵיק לָךְ, 'it will be forgiven you' {TO TPsJ} ; ܩܒܿܠܬ, 'you are accepted' {Syr} ;
+  forgiveness, after the Targum {Rashi} ; the lifting of the face {IE}
+@ 4:8
+= וַיֹּאמֶר ] a speech supplied: 'let us go out to the field' {SP TSam G Syr} ; a dispute on judgement
+  and the world to come {TPsJ} ; words of quarrel {Rashi} ; the rebukes of the Name {IE}
+@ 4:13
+= מִנְּשֹׂא ] τοῦ ἀφεθῆναί με, 'than to be forgiven' {G} ; מִלְּמִשְׁבָּק, 'than to forgive' {TO} ;
+  ממסבל, 'than to bear' {TSam} ; מִלְסוֹבְלָא, 'than to bear' {TPsJ} ; to bear, as a question {Rashi} ;
+  the punishment is too great to bear {IE}
+@ 4:15
+= שִׁבְעָתַיִם יֻקָּם ] ἑπτὰ ἐκδικούμενα παραλύσει {G} ; ܚܕ ܒܫܒܥܐ ܢܬܦܪܥ, 'sevenfold he will be
+  repaid' {Syr} ; לְשַׁבְעָא דָרִין יִתְפְּרַע מִינֵּיהּ, 'for seven generations it will be exacted of him'
+  {TO TPsJ} ; על תרתי שבעין {TSam} ; vengeance on Qayin after seven generations {Rashi IE}
+~ The English 'in seven generations' follows Rashi and Ibn Ezra, and Onkelos and Pseudo-Jonathan
+  before them.
+
+## Limits
+p: The Samaritan text, the Targums Onkelos and Samaritan, the Peshitta, the Septuagint as printed
+  there, and the three later Greek translators are taken from one comparison site; their editions
+  are not named on it. The Qumran readings are reported, not collated: DJD XII was not consulted.
+  Philo, De opificio mundi 26–28, and the Qumran Hebrew of Jubilees (4Q216) were not reachable
+  and are not cited. Aquila, Symmachus and Theodotion survive only in later quotation.
