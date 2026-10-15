@@ -46,7 +46,8 @@ published English translation.
   `python3 mahabharata/build_devanagari.py docs/mahabharata/index.html <dir>`,
   then `verify_refs.py`. The verifier rejects a Devanagari line that differs from
   the transliteration of its IAST, or that does not convert back to the same
-  letters. Prose (commentary, glosses, names) stays in IAST.
+  letters. Prose (commentary, glosses, names) stays in IAST. The Fable model
+  reviewed the Devanagari conventions: `review-fable-devanagari.md`.
 - Reference format: a half-verse is cited with pāda letters (`1.58.20cd–22`,
   `2.44.11cd`). Verses omitted inside a block are marked with "…" in the Sanskrit
   and the English, and are absent from the reference (`2.61.52–53, 56–57`).

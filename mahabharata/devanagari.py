@@ -4,11 +4,14 @@ converter for a lossless round-trip check.
 Orthographic conventions (those of printed Devanagari editions such as the BORI):
 - A word that ends in a consonant joins the next word of the same pāda
   (tac chrūyate → तच्छ्रूयते; tad idaṃ → तदिदं).
-- A consonant at the end of a pāda takes virāma (sanātanam → सनातनम्).
+- The indefinite particles cit/cid/… and cana join the preceding word
+  (kiṃ cid → किंचिद्, kadā cit → कदाचित्), as in printed editions.
+- A half-verse is printed continuously: the "a|b" pāda boundary of a triṣṭubh
+  (";" in the typed text) is treated as a word space, so the join rules apply
+  across it (anāthavac; cakarṣa → अनाथवच्चकर्ष).
+- A consonant at the end of a line takes virāma (sanātanam → सनातनम्).
 - Avagraha joins the preceding word (niṣprabhe 'smin → निष्प्रभेऽस्मिन्).
 - Words that end in a vowel, anusvāra or visarga keep their space.
-- Pādas of a triṣṭubh half-verse (separated by ";" in the typed text) are
-  separated by a space.
 - The first half-verse ends in daṇḍa (।); the last line of a verse ends in a
   double daṇḍa with the verse number (॥ २७ ॥).
 """
@@ -36,6 +39,7 @@ DIGITS = str.maketrans('0123456789', '०१२३४५६७८९')
 
 _UNITS = sorted(list(VOWELS) + list(CONSONANTS) + list(OTHER), key=len, reverse=True)
 _TOKEN = re.compile('|'.join(re.escape(u) for u in _UNITS))
+_PARTICLE = re.compile(r'ci[tdcjnlñ]|cana')  # indefinite particles after kim, kva, kadā, katham
 
 
 def _tokens(word):
@@ -51,12 +55,13 @@ def _tokens(word):
 
 
 def _pada(text):
-    """Transliterate one pāda: words joined by the conventions above."""
+    """Transliterate a run of words joined by the conventions above."""
     words = text.split()
     # Join consonant-final words, and avagraha-initial words, to their neighbour.
     groups = []
     for w in words:
-        if groups and (_tokens(groups[-1][-1])[-1] in CONSONANTS or w.startswith("'")):
+        if groups and (_tokens(groups[-1][-1])[-1] in CONSONANTS or w.startswith("'")
+                       or _PARTICLE.fullmatch(w)):
             groups[-1].append(w)
         else:
             groups.append([w])
@@ -86,8 +91,7 @@ def _pada(text):
 
 def line(iast, end=None, verse=None):
     """Transliterate one half-verse line. end: None, 'danda' or 'double'."""
-    padas = [p.strip() for p in iast.split(';')]
-    out = ' '.join(_pada(p) for p in padas)
+    out = _pada(iast.replace(';', ' '))
     if end == 'danda':
         out += ' ।'
     elif end == 'double':

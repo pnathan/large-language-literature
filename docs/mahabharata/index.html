@@ -209,13 +209,13 @@ blockquote{
 }
 blockquote p{margin-bottom:0}
 blockquote .l{display:block;padding-left:1.4em;text-indent:-1.4em}
-blockquote .dev{font-family:"Noto Serif Devanagari","EB Garamond",serif;font-size:1.06em;line-height:1.9}
+blockquote .dev{font-family:"Noto Serif Devanagari","EB Garamond",serif;font-size:1.06em;line-height:1.9;overflow-wrap:normal}
 html[data-script="iast"] blockquote .dev{display:none}
 html:not([data-script="iast"]) blockquote .lat{display:none}
 .script-toggle{display:inline-flex;gap:0;margin:10px 0 2px;border:1px solid var(--rule);border-radius:4px;overflow:hidden}
 .script-toggle button{
   font-family:Inter,'Helvetica Neue',Arial,sans-serif;font-size:.74rem;letter-spacing:.04em;
-  background:transparent;color:var(--dim);border:0;padding:5px 12px;cursor:pointer;
+  background:transparent;color:var(--dim);border:0;padding:6px 12px;line-height:1.5;cursor:pointer;
 }
 .script-toggle button[data-script="deva"]{font-family:"Noto Serif Devanagari",serif;font-size:.82rem}
 .script-toggle button[aria-pressed="true"]{background:var(--wash);color:var(--saffron)}
@@ -402,7 +402,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <span class="l"><span class="dev" lang="sa-Deva">अद्भुतं चाप्यचिन्त्यं च सर्वत्र समतां गतम् ।</span><span class="lat" lang="sa-Latn">adbhutaṃ cāpy acintyaṃ ca sarvatra samatāṃ gatam</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">अव्यक्तं कारणं सूक्ष्मं यत्तत्सदसदात्मकम् ॥ २९ ॥</span><span class="lat" lang="sa-Latn">avyaktaṃ kāraṇaṃ sūkṣmaṃ yat tat sadasadātmakam</span></span>
 <span class="l">&hellip;</span>
-<span class="l"><span class="dev" lang="sa-Deva">यदिदं दृश्यते किं चिद्भूतं स्थावरजङ्गमम् ।</span><span class="lat" lang="sa-Latn">yad idaṃ dṛśyate kiṃ cid bhūtaṃ sthāvarajaṅgamam</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">यदिदं दृश्यते किंचिद्भूतं स्थावरजङ्गमम् ।</span><span class="lat" lang="sa-Latn">yad idaṃ dṛśyate kiṃ cid bhūtaṃ sthāvarajaṅgamam</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">पुनः संक्षिप्यते सर्वं जगत्प्राप्ते युगक्षये ॥ ३६ ॥</span><span class="lat" lang="sa-Latn">punaḥ saṃkṣipyate sarvaṃ jagat prāpte yugakṣaye</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">यथर्तावृतुलिङ्गानि नानारूपाणि पर्यये ।</span><span class="lat" lang="sa-Latn">yathartāv ṛtuliṅgāni nānārūpāṇi paryaye</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">दृश्यन्ते तानि तान्येव तथा भावा युगादिषु ॥ ३७ ॥</span><span class="lat" lang="sa-Latn">dṛśyante tāni tāny eva tathā bhāvā yugādiṣu</span></span>
@@ -420,7 +420,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <p class="verse-ref">Mahābhārata 1.56.33</p>
 <blockquote class="sa" lang="sa">
 <p><span class="l"><span class="dev" lang="sa-Deva">धर्मे चार्थे च कामे च मोक्षे च भरतर्षभ ।</span><span class="lat" lang="sa-Latn">dharme cārthe ca kāme ca mokṣe ca bharatarṣabha</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">यदिहास्ति तदन्यत्र यन्नेहास्ति न तत्क्व चित् ॥ ३३ ॥</span><span class="lat" lang="sa-Latn">yad ihāsti tad anyatra yan nehāsti na tat kva cit</span></span></p>
+<span class="l"><span class="dev" lang="sa-Deva">यदिहास्ति तदन्यत्र यन्नेहास्ति न तत्क्वचित् ॥ ३३ ॥</span><span class="lat" lang="sa-Latn">yad ihāsti tad anyatra yan nehāsti na tat kva cit</span></span></p>
 </blockquote>
 <p class="verse-trans">In <em>dharma</em>, and in wealth, and in desire, and in liberation, O bull of the Bharatas &mdash; what is here is found elsewhere; what is not here is nowhere at all.</p>
 </div>
@@ -531,7 +531,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <span class="l"><span class="dev" lang="sa-Deva">कर्माणि च नरव्याघ्र धर्मोपेतानि मानवाः ।</span><span class="lat" lang="sa-Latn">karmāṇi ca naravyāghra dharmopetāni mānavāḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">धर्ममेवानुपश्यन्तश्चक्रुर्धर्मपरायणाः ॥ २१ ॥</span><span class="lat" lang="sa-Latn">dharmam evānupaśyantaś cakrur dharmaparāyaṇāḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">स्वकर्मनिरताश्चासन्सर्वे वर्णा नराधिप ।</span><span class="lat" lang="sa-Latn">svakarmaniratāś cāsan sarve varṇā narādhipa</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">एवं तदा नरव्याघ्र धर्मो न ह्रसते क्व चित् ॥ २२ ॥</span><span class="lat" lang="sa-Latn">evaṃ tadā naravyāghra dharmo na hrasate kva cit</span></span></p>
+<span class="l"><span class="dev" lang="sa-Deva">एवं तदा नरव्याघ्र धर्मो न ह्रसते क्वचित् ॥ २२ ॥</span><span class="lat" lang="sa-Latn">evaṃ tadā naravyāghra dharmo na hrasate kva cit</span></span></p>
 </blockquote>
 <p class="verse-trans">“Then the traders did not sell their goods by false measures. Human beings did their works joined to dharma; looking upon dharma alone, devoted to dharma, they acted. Every class delighted in its own proper work, O king &mdash; and so, tiger among men, dharma did not diminish anywhere.”</p>
 </div>
@@ -787,7 +787,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <blockquote class="sa" lang="sa">
 <p><span class="l"><span class="dev" lang="sa-Deva">अद्यैव त्वं वरारोहे प्रयतस्व यथाविधि ।</span><span class="lat" lang="sa-Latn">adyaiva tvaṃ varārohe prayatasva yathāvidhi</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">धर्ममावाहय शुभे स हि देवेषु पुण्यभाक् ॥ ३९ ॥</span><span class="lat" lang="sa-Latn">dharmam āvāhaya śubhe sa hi deveṣu puṇyabhāk</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">अधर्मेण न नो धर्मः संयुज्येत कथं चन ।</span><span class="lat" lang="sa-Latn">adharmeṇa na no dharmaḥ saṃyujyeta kathaṃ cana</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">अधर्मेण न नो धर्मः संयुज्येत कथंचन ।</span><span class="lat" lang="sa-Latn">adharmeṇa na no dharmaḥ saṃyujyeta kathaṃ cana</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">लोकश्चायं वरारोहे धर्मोऽयमिति मंस्यते ॥ ४० ॥</span><span class="lat" lang="sa-Latn">lokaś cāyaṃ varārohe dharmo 'yam iti maṃsyate</span></span></p>
 </blockquote>
 <p class="verse-trans">“This very day, prepare yourself according to the rule. Summon Dharma, auspicious one &mdash; for he is the one among the gods who holds the share of merit. In no way let our dharma be joined to adharma; and this world, too, will judge the thing to be dharma.”</p>
@@ -889,7 +889,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <div class="pair-text">
 <p class="verse-ref">2.43.3&ndash;5</p>
 <blockquote class="sa" lang="sa">
-<p><span class="l"><span class="dev" lang="sa-Deva">स कदा चित्सभामध्ये धार्तराष्ट्रो महीपतिः ।</span><span class="lat" lang="sa-Latn">sa kadā cit sabhāmadhye dhārtarāṣṭro mahīpatiḥ</span></span>
+<p><span class="l"><span class="dev" lang="sa-Deva">स कदाचित्सभामध्ये धार्तराष्ट्रो महीपतिः ।</span><span class="lat" lang="sa-Latn">sa kadā cit sabhāmadhye dhārtarāṣṭro mahīpatiḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">स्फाटिकं तलमासाद्य जलमित्यभिशङ्कया ॥ ३ ॥</span><span class="lat" lang="sa-Latn">sphāṭikaṃ talam āsādya jalam ity abhiśaṅkayā</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">स्ववस्त्रोत्कर्षणं राजा कृतवान्बुद्धिमोहितः ।</span><span class="lat" lang="sa-Latn">svavastrotkarṣaṇaṃ rājā kṛtavān buddhimohitaḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">दुर्मना विमुखश्चैव परिचक्राम तां सभाम् ॥ ४ ॥</span><span class="lat" lang="sa-Latn">durmanā vimukhaś caiva paricakrāma tāṃ sabhām</span></span>
@@ -1121,7 +1121,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <div class="pair-text">
 <p class="verse-ref">2.51.12ab, 13ab</p>
 <blockquote class="sa" lang="sa">
-<p><span class="l"><span class="dev" lang="sa-Deva">द्यूते पुराणैर्व्यवहारः प्रणीतस् तत्रात्ययो नास्ति न संप्रहारः ।</span><span class="lat" lang="sa-Latn">dyūte purāṇair vyavahāraḥ praṇītas; tatrātyayo nāsti na saṃprahāraḥ</span></span>
+<p><span class="l"><span class="dev" lang="sa-Deva">द्यूते पुराणैर्व्यवहारः प्रणीतस्तत्रात्ययो नास्ति न संप्रहारः ।</span><span class="lat" lang="sa-Latn">dyūte purāṇair vyavahāraḥ praṇītas; tatrātyayo nāsti na saṃprahāraḥ</span></span>
 <span class="l">&hellip;</span>
 <span class="l"><span class="dev" lang="sa-Deva">स्वर्गद्वारं दीव्यतां नो विशिष्टं तद्वर्तिनां चापि तथैव युक्तम् ।</span><span class="lat" lang="sa-Latn">svargadvāraṃ dīvyatāṃ no viśiṣṭaṃ; tadvartināṃ cāpi tathaiva yuktam</span></span></p>
 </blockquote>
@@ -1166,7 +1166,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <div class="pair-text">
 <p class="verse-ref">2.52.1</p>
 <blockquote class="sa" lang="sa">
-<p><span class="l"><span class="dev" lang="sa-Deva">ततः प्रायाद्विदुरोऽश्वैरुदारैर् महाजवैर्बलिभिः साधुदान्तैः ।</span><span class="lat" lang="sa-Latn">tataḥ prāyād viduro 'śvair udārair; mahājavair balibhiḥ sādhudāntaiḥ</span></span>
+<p><span class="l"><span class="dev" lang="sa-Deva">ततः प्रायाद्विदुरोऽश्वैरुदारैर्महाजवैर्बलिभिः साधुदान्तैः ।</span><span class="lat" lang="sa-Latn">tataḥ prāyād viduro 'śvair udārair; mahājavair balibhiḥ sādhudāntaiḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">बलान्नियुक्तो धृतराष्ट्रेण राज्ञा मनीषिणां पाण्डवानां सकाशम् ॥ १ ॥</span><span class="lat" lang="sa-Latn">balān niyukto dhṛtarāṣṭreṇa rājñā; manīṣiṇāṃ pāṇḍavānāṃ sakāśam</span></span></p>
 </blockquote>
 <p class="verse-trans">“Then Vidura set out with noble horses, very swift, strong, well broken &mdash; commissioned by force by king Dhṛtarāṣṭra &mdash; into the presence of the thoughtful Pāṇḍavas.”</p>
@@ -1196,7 +1196,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <span class="l"><span class="dev" lang="sa-Deva">समागम्य भ्रातृभिः पार्थ तस्यां सुहृद्द्यूतं क्रियतां रम्यतां च ।</span><span class="lat" lang="sa-Latn">samāgamya bhrātṛbhiḥ pārtha tasyāṃ; suhṛddyūtaṃ kriyatāṃ ramyatāṃ ca</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">प्रीयामहे भवतः संगमेन समागताः कुरवश्चैव सर्वे ॥ ८ ॥</span><span class="lat" lang="sa-Latn">prīyāmahe bhavataḥ saṃgamena; samāgatāḥ kuravaś caiva sarve</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">दुरोदरा विहिता ये तु तत्र महात्मना धृतराष्ट्रेण राज्ञा ।</span><span class="lat" lang="sa-Latn">durodarā vihitā ye tu tatra; mahātmanā dhṛtarāṣṭreṇa rājñā</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">तान्द्रक्ष्यसे कितवान्संनिविष्टान् इत्यागतोऽहं नृपते तज्जुषस्व ॥ ९ ॥</span><span class="lat" lang="sa-Latn">tān drakṣyase kitavān saṃniviṣṭān; ity āgato 'haṃ nṛpate taj juṣasva</span></span></p>
+<span class="l"><span class="dev" lang="sa-Deva">तान्द्रक्ष्यसे कितवान्संनिविष्टानित्यागतोऽहं नृपते तज्जुषस्व ॥ ९ ॥</span><span class="lat" lang="sa-Latn">tān drakṣyase kitavān saṃniviṣṭān; ity āgato 'haṃ nṛpate taj juṣasva</span></span></p>
 </blockquote>
 <p class="verse-trans">“This is what the Kuru king said to you, having first asked after your health and your welfare: ‘This hall of your brothers’ is equal in form to your own hall. Come, son, and look at it. Meeting with your brothers, Pṛthā’s son, let a friendly game be played there, and let there be pleasure. We shall be delighted at your coming, and all the Kurus are gathered. And the gamblers appointed there by the great king Dhṛtarāṣṭra &mdash; you will see them, seated.’ That is why I have come, king. Take pleasure in it.”</p>
 </div>
@@ -1239,10 +1239,10 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <blockquote class="sa" lang="sa">
 <p><span class="l"><span class="dev" lang="sa-Deva">महाभयाः कितवाः संनिविष्टा मायोपधा देवितारोऽत्र सन्ति ।</span><span class="lat" lang="sa-Latn">mahābhayāḥ kitavāḥ saṃniviṣṭā; māyopadhā devitāro 'tra santi</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">धात्रा तु दिष्टस्य वशे किलेदं नादेवनं कितवैरद्य तैर्मे ॥ १४ ॥</span><span class="lat" lang="sa-Latn">dhātrā tu diṣṭasya vaśe kiledaṃ; nādevanaṃ kitavair adya tair me</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">नाहं राज्ञो धृतराष्ट्रस्य शासनान् न गन्तुमिच्छामि कवे दुरोदरम् ।</span><span class="lat" lang="sa-Latn">nāhaṃ rājño dhṛtarāṣṭrasya śāsanān; na gantum icchāmi kave durodaram</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">नाहं राज्ञो धृतराष्ट्रस्य शासनान्न गन्तुमिच्छामि कवे दुरोदरम् ।</span><span class="lat" lang="sa-Latn">nāhaṃ rājño dhṛtarāṣṭrasya śāsanān; na gantum icchāmi kave durodaram</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">इष्टो हि पुत्रस्य पिता सदैव तदस्मि कर्ता विदुरात्थ मां यथा ॥ १५ ॥</span><span class="lat" lang="sa-Latn">iṣṭo hi putrasya pitā sadaiva; tad asmi kartā vidurāttha māṃ yathā</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">न चाकामः शकुनिना देविताहं न चेन्मां धृष्णुराह्वयिता सभायाम् ।</span><span class="lat" lang="sa-Latn">na cākāmaḥ śakuninā devitāhaṃ; na cen māṃ dhṛṣṇur āhvayitā sabhāyām</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">आहूतोऽहं न निवर्ते कदा चित् तदाहितं शाश्वतं वै व्रतं मे ॥ १६ ॥</span><span class="lat" lang="sa-Latn">āhūto 'haṃ na nivarte kadā cit; tad āhitaṃ śāśvataṃ vai vrataṃ me</span></span></p>
+<span class="l"><span class="dev" lang="sa-Deva">आहूतोऽहं न निवर्ते कदाचित्तदाहितं शाश्वतं वै व्रतं मे ॥ १६ ॥</span><span class="lat" lang="sa-Latn">āhūto 'haṃ na nivarte kadā cit; tad āhitaṃ śāśvataṃ vai vrataṃ me</span></span></p>
 </blockquote>
 <p class="verse-trans">“Very dangerous gamblers are seated there; there are players there whose foundation is trickery. But this lies in the power of what the Ordainer has appointed &mdash; so there is no not-playing with those gamblers for me today. Because of king Dhṛtarāṣṭra’s command I do not wish to refuse to go to the dice, wise one &mdash; a father is always to be desired by a son; therefore I shall do it, Vidura, as you tell me. And I will not play with Śakuni unwillingly, unless the bold man challenges me in the assembly: summoned, I never turn back. That is the vow laid on me, and it is permanent.”</p>
 </div>
@@ -1605,7 +1605,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <p class="verse-ref">2.59.1</p>
 <blockquote class="sa" lang="sa">
 <p><span class="l"><span class="dev" lang="sa-Deva">एहि क्षत्तर्द्रौपदीमानयस्व प्रियां भार्यां संमतां पाण्डवानाम् ।</span><span class="lat" lang="sa-Latn">ehi kṣattar draupadīm ānayasva; priyāṃ bhāryāṃ saṃmatāṃ pāṇḍavānām</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">संमार्जतां वेश्म परैतु शीघ्रम् आनन्दो नः सह दासीभिरस्तु ॥ १ ॥</span><span class="lat" lang="sa-Latn">saṃmārjatāṃ veśma paraitu śīghram; ānando naḥ saha dāsībhir astu</span></span></p>
+<span class="l"><span class="dev" lang="sa-Deva">संमार्जतां वेश्म परैतु शीघ्रमानन्दो नः सह दासीभिरस्तु ॥ १ ॥</span><span class="lat" lang="sa-Latn">saṃmārjatāṃ veśma paraitu śīghram; ānando naḥ saha dāsībhir astu</span></span></p>
 </blockquote>
 <p class="verse-trans">“Come, steward, bring Draupadī &mdash; the beloved wife, honored by the Pāṇḍavas. Let her sweep the house; let her go at once; let there be pleasure for us, with the slave-women.”</p>
 </div>
@@ -1633,8 +1633,8 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <div class="pair-text">
 <p class="verse-ref">2.60.5, 7</p>
 <blockquote class="sa" lang="sa">
-<p><span class="l"><span class="dev" lang="sa-Deva">कथं त्वेवं वदसि प्रातिकामिन् को वै दीव्येद्भार्यया राजपुत्रः ।</span><span class="lat" lang="sa-Latn">kathaṃ tv evaṃ vadasi prātikāmin; ko vai dīvyed bhāryayā rājaputraḥ</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">मूढो राजा द्यूतमदेन मत्त आहो नान्यत्कैतवमस्य किं चित् ॥ ५ ॥</span><span class="lat" lang="sa-Latn">mūḍho rājā dyūtamadena matta; āho nānyat kaitavam asya kiṃ cit</span></span>
+<p><span class="l"><span class="dev" lang="sa-Deva">कथं त्वेवं वदसि प्रातिकामिन्को वै दीव्येद्भार्यया राजपुत्रः ।</span><span class="lat" lang="sa-Latn">kathaṃ tv evaṃ vadasi prātikāmin; ko vai dīvyed bhāryayā rājaputraḥ</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">मूढो राजा द्यूतमदेन मत्त आहो नान्यत्कैतवमस्य किंचित् ॥ ५ ॥</span><span class="lat" lang="sa-Latn">mūḍho rājā dyūtamadena matta; āho nānyat kaitavam asya kiṃ cit</span></span>
 <span class="l">&hellip;</span>
 <span class="l"><span class="dev" lang="sa-Deva">गच्छ त्वं कितवं गत्वा सभायां पृच्छ सूतज ।</span><span class="lat" lang="sa-Latn">gaccha tvaṃ kitavaṃ gatvā sabhāyāṃ pṛccha sūtaja</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">किं नु पूर्वं पराजैषीरात्मानं मां नु भारत ।</span><span class="lat" lang="sa-Latn">kiṃ nu pūrvaṃ parājaiṣīr ātmānaṃ māṃ nu bhārata</span></span>
@@ -1666,7 +1666,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <p class="verse-ref">2.60.12</p>
 <blockquote class="sa" lang="sa">
 <p><span class="l"><span class="dev" lang="sa-Deva">सभ्यास्त्वमी राजपुत्र्याह्वयन्ति मन्ये प्राप्तः संक्षयः कौरवाणाम् ।</span><span class="lat" lang="sa-Latn">sabhyās tv amī rājaputry āhvayanti; manye prāptaḥ saṃkṣayaḥ kauravāṇām</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">न वै समृद्धिं पालयते लघीयान् यत्त्वं सभामेष्यसि राजपुत्रि ॥ १२ ॥</span><span class="lat" lang="sa-Latn">na vai samṛddhiṃ pālayate laghīyān; yat tvaṃ sabhām eṣyasi rājaputri</span></span></p>
+<span class="l"><span class="dev" lang="sa-Deva">न वै समृद्धिं पालयते लघीयान्यत्त्वं सभामेष्यसि राजपुत्रि ॥ १२ ॥</span><span class="lat" lang="sa-Latn">na vai samṛddhiṃ pālayate laghīyān; yat tvaṃ sabhām eṣyasi rājaputri</span></span></p>
 </blockquote>
 <p class="verse-trans">“The assembly is calling you, princess. I think the destruction of the Kauravas has arrived. A lesser man does not protect his own prosperity &mdash; since you, a princess, are to come into the hall.”</p>
 </div>
@@ -1709,7 +1709,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <blockquote class="sa" lang="sa">
 <p><span class="l"><span class="dev" lang="sa-Deva">ततः समुत्थाय सुदुर्मनाः सा विवर्णमामृज्य मुखं करेण ।</span><span class="lat" lang="sa-Latn">tataḥ samutthāya sudurmanāḥ sā; vivarṇam āmṛjya mukhaṃ kareṇa</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">आर्ता प्रदुद्राव यतः स्त्रियस्ता वृद्धस्य राज्ञः कुरुपुंगवस्य ॥ २१ ॥</span><span class="lat" lang="sa-Latn">ārtā pradudrāva yataḥ striyas tā; vṛddhasya rājñaḥ kurupuṃgavasya</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">ततो जवेनाभिससार रोषाद् दुःशासनस्तामभिगर्जमानः ।</span><span class="lat" lang="sa-Latn">tato javenābhisasāra roṣād; duḥśāsanas tām abhigarjamānaḥ</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">ततो जवेनाभिससार रोषाद्दुःशासनस्तामभिगर्जमानः ।</span><span class="lat" lang="sa-Latn">tato javenābhisasāra roṣād; duḥśāsanas tām abhigarjamānaḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">दीर्घेषु नीलेष्वथ चोर्मिमत्सु जग्राह केशेषु नरेन्द्रपत्नीम् ॥ २२ ॥</span><span class="lat" lang="sa-Latn">dīrgheṣu nīleṣv atha cormimatsu; jagrāha keśeṣu narendrapatnīm</span></span></p>
 </blockquote>
 <p class="verse-trans">“Then she stood up, sick at heart, wiped her bloodless face with her hand, and in her distress ran toward the women of the old king, the bull of the Kurus. Then Duḥśāsana rushed at her at speed, in fury, roaring at her, and seized the wife of a lord of men by the hair &mdash; long, dark, and waved.”</p>
@@ -1721,8 +1721,8 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <p class="verse-trans">“Those locks, which at the final bath of the Rājasūya, at that great rite, had been sprinkled with water purified by mantra &mdash; those, in contempt of the Pāṇḍavas’ valor, were mauled by force by the son of Dhṛtarāṣṭra.”</p>
 <p class="verse-ref">2.60.24</p>
 <blockquote class="sa" lang="sa">
-<p><span class="l"><span class="dev" lang="sa-Deva">स तां परामृश्य सभासमीपम् आनीय कृष्णामतिकृष्णकेशीम् ।</span><span class="lat" lang="sa-Latn">sa tāṃ parāmṛśya sabhāsamīpam; ānīya kṛṣṇām atikṛṣṇakeśīm</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">दुःशासनो नाथवतीमनाथवच् चकर्ष वायुः कदलीमिवार्ताम् ॥ २४ ॥</span><span class="lat" lang="sa-Latn">duḥśāsano nāthavatīm anāthavac; cakarṣa vāyuḥ kadalīm ivārtām</span></span></p>
+<p><span class="l"><span class="dev" lang="sa-Deva">स तां परामृश्य सभासमीपमानीय कृष्णामतिकृष्णकेशीम् ।</span><span class="lat" lang="sa-Latn">sa tāṃ parāmṛśya sabhāsamīpam; ānīya kṛṣṇām atikṛṣṇakeśīm</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">दुःशासनो नाथवतीमनाथवच्चकर्ष वायुः कदलीमिवार्ताम् ॥ २४ ॥</span><span class="lat" lang="sa-Latn">duḥśāsano nāthavatīm anāthavac; cakarṣa vāyuḥ kadalīm ivārtām</span></span></p>
 </blockquote>
 <p class="verse-trans">“Having laid hands on her, Duḥśāsana brought Kṛṣṇā of the very dark hair up to the hall and dragged her &mdash; a woman who had protectors, as though she had none &mdash; the way the wind drags a plantain tree that suffers it.”</p>
 </div>
@@ -1780,7 +1780,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <p class="verse-ref">2.60.35&ndash;36</p>
 <blockquote class="sa" lang="sa">
 <p><span class="l"><span class="dev" lang="sa-Deva">तथा ब्रुवन्ती करुणं सुमध्यमा काक्षेण भर्तॄन्कुपितानपश्यत् ।</span><span class="lat" lang="sa-Latn">tathā bruvantī karuṇaṃ sumadhyamā; kākṣeṇa bhartṝn kupitān apaśyat</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">सा पाण्डवान्कोपपरीतदेहान् संदीपयामास कटाक्षपातैः ॥ ३५ ॥</span><span class="lat" lang="sa-Latn">sā pāṇḍavān kopaparītadehān; saṃdīpayām āsa kaṭākṣapātaiḥ</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">सा पाण्डवान्कोपपरीतदेहान्संदीपयामास कटाक्षपातैः ॥ ३५ ॥</span><span class="lat" lang="sa-Latn">sā pāṇḍavān kopaparītadehān; saṃdīpayām āsa kaṭākṣapātaiḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">हृतेन राज्येन तथा धनेन रत्नैश्च मुख्यैर्न तथा बभूव ।</span><span class="lat" lang="sa-Latn">hṛtena rājyena tathā dhanena; ratnaiś ca mukhyair na tathā babhūva</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">यथार्तया कोपसमीरितेन कृष्णाकटाक्षेण बभूव दुःखम् ॥ ३६ ॥</span><span class="lat" lang="sa-Latn">yathārtayā kopasamīritena; kṛṣṇākaṭākṣeṇa babhūva duḥkham</span></span></p>
 </blockquote>
@@ -1815,9 +1815,9 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <blockquote class="sa" lang="sa">
 <p><span class="l"><span class="dev" lang="sa-Deva">आहूय राजा कुशलैः सभायां दुष्टात्मभिर्नैकृतिकैरनार्यैः ।</span><span class="lat" lang="sa-Latn">āhūya rājā kuśalaiḥ sabhāyāṃ; duṣṭātmabhir naikṛtikair anāryaiḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">द्यूतप्रियैर्नातिकृतप्रयत्नः कस्मादयं नाम निसृष्टकामः ॥ ४३ ॥</span><span class="lat" lang="sa-Latn">dyūtapriyair nātikṛtaprayatnaḥ; kasmād ayaṃ nāma nisṛṣṭakāmaḥ</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">स शुद्धभावो निकृतिप्रवृत्तिम् अबुध्यमानः कुरुपाण्डवाग्र्यः ।</span><span class="lat" lang="sa-Latn">sa śuddhabhāvo nikṛtipravṛttim; abudhyamānaḥ kurupāṇḍavāgryaḥ</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">संभूय सर्वैश्च जितोऽपि यस्मात् पश्चाच्च यत्कैतवमभ्युपेतः ॥ ४४ ॥</span><span class="lat" lang="sa-Latn">saṃbhūya sarvaiś ca jito 'pi yasmāt; paścāc ca yat kaitavam abhyupetaḥ</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">तिष्ठन्ति चेमे कुरवः सभायाम् ईशाः सुतानां च तथा स्नुषाणाम् ।</span><span class="lat" lang="sa-Latn">tiṣṭhanti ceme kuravaḥ sabhāyām; īśāḥ sutānāṃ ca tathā snuṣāṇām</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">स शुद्धभावो निकृतिप्रवृत्तिमबुध्यमानः कुरुपाण्डवाग्र्यः ।</span><span class="lat" lang="sa-Latn">sa śuddhabhāvo nikṛtipravṛttim; abudhyamānaḥ kurupāṇḍavāgryaḥ</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">संभूय सर्वैश्च जितोऽपि यस्मात्पश्चाच्च यत्कैतवमभ्युपेतः ॥ ४४ ॥</span><span class="lat" lang="sa-Latn">saṃbhūya sarvaiś ca jito 'pi yasmāt; paścāc ca yat kaitavam abhyupetaḥ</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">तिष्ठन्ति चेमे कुरवः सभायामीशाः सुतानां च तथा स्नुषाणाम् ।</span><span class="lat" lang="sa-Latn">tiṣṭhanti ceme kuravaḥ sabhāyām; īśāḥ sutānāṃ ca tathā snuṣāṇām</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">समीक्ष्य सर्वे मम चापि वाक्यं विब्रूत मे प्रश्नमिमं यथावत् ॥ ४५ ॥</span><span class="lat" lang="sa-Latn">samīkṣya sarve mama cāpi vākyaṃ; vibrūta me praśnam imaṃ yathāvat</span></span></p>
 </blockquote>
 <p class="verse-trans">“The king was summoned into the hall by experts &mdash; by men of ruined character, cheats, ignoble men, lovers of dicing &mdash; and he was not much practiced. How can he be called a man who was given his choice? He is pure in nature and did not understand the operation of the fraud, that first man of the Kurus and Pāṇḍavas; he was beaten by all of them acting together, and only afterward did he agree to the wager. And these Kurus stand in the hall, masters of their sons and of their sons’ wives. Let them all consider &mdash; and my words too &mdash; and answer this question of mine as it should be answered.”</p>
@@ -1853,7 +1853,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <div class="pair-text">
 <p class="verse-ref">2.61.28, 31cd&ndash;33, 35&ndash;36</p>
 <blockquote class="sa" lang="sa">
-<p><span class="l"><span class="dev" lang="sa-Deva">एते न किं चिदप्याहुश्चोद्यमानापि कृष्णया ।</span><span class="lat" lang="sa-Latn">ete na kiṃ cid apy āhuś codyamānāpi kṛṣṇayā</span></span>
+<p><span class="l"><span class="dev" lang="sa-Deva">एते न किंचिदप्याहुश्चोद्यमानापि कृष्णया ।</span><span class="lat" lang="sa-Latn">ete na kiṃ cid apy āhuś codyamānāpi kṛṣṇayā</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">धर्मेण विजितां मन्ये मन्यन्ते द्रुपदात्मजाम् ॥ २८ ॥</span><span class="lat" lang="sa-Latn">dharmeṇa vijitāṃ manye manyante drupadātmajām</span></span>
 <span class="l">&hellip;</span>
 <span class="l"><span class="dev" lang="sa-Deva">यदा सभायां सर्वस्वं न्यस्तवान्पाण्डवाग्रजः ॥ ३१ ॥</span><span class="lat" lang="sa-Latn">yadā sabhāyāṃ sarvasvaṃ nyastavān pāṇḍavāgrajaḥ</span></span>
@@ -1870,7 +1870,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <p class="verse-trans">“These men have said nothing at all, though pressed by Kṛṣṇā. I take it they consider Drupada’s daughter lawfully won. &hellip; When the eldest of the Pāṇḍavas staked everything in the hall, and Draupadī was included within ‘everything’, bull of the Bharatas &mdash; how do you consider Kṛṣṇā, thus won by dharma, not won? She was named aloud, and the Pāṇḍavas consented. On what ground do you hold her to be unwon? &hellip; One husband is ordained for a woman by the gods, son of Kuru; but this one is in the power of many, and is therefore determined to be a whore. Bringing her into the hall is nothing remarkable, in my judgment &mdash; nor is her being in one garment, nor her being in none.”</p>
 <p class="verse-ref">2.61.37&ndash;38</p>
 <blockquote class="sa" lang="sa">
-<p><span class="l"><span class="dev" lang="sa-Deva">यच्चैषां द्रविणं किं चिद्या चैषा ये च पाण्डवाः ।</span><span class="lat" lang="sa-Latn">yac caiṣāṃ draviṇaṃ kiṃ cid yā caiṣā ye ca pāṇḍavāḥ</span></span>
+<p><span class="l"><span class="dev" lang="sa-Deva">यच्चैषां द्रविणं किंचिद्या चैषा ये च पाण्डवाः ।</span><span class="lat" lang="sa-Latn">yac caiṣāṃ draviṇaṃ kiṃ cid yā caiṣā ye ca pāṇḍavāḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">सौबलेनेह तत्सर्वं धर्मेण विजितं वसु ॥ ३७ ॥</span><span class="lat" lang="sa-Latn">saubaleneha tat sarvaṃ dharmeṇa vijitaṃ vasu</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">दुःशासन सुबालोऽयं विकर्णः प्राज्ञवादिकः ।</span><span class="lat" lang="sa-Latn">duḥśāsana subālo 'yaṃ vikarṇaḥ prājñavādikaḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">पाण्डवानां च वासांसि द्रौपद्याश्चाप्युपाहर ॥ ३८ ॥</span><span class="lat" lang="sa-Latn">pāṇḍavānāṃ ca vāsāṃsi draupadyāś cāpy upāhara</span></span></p>
@@ -1957,7 +1957,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <p class="verse-trans">“A man who knows and does not answer the question &mdash; from desire, from anger, or from fear &mdash; fastens on himself a thousand of Varuṇa’s nooses; and one noose is loosed at the end of a full year. &hellip; Where dharma comes into an assembly pierced by adharma, and the members of that assembly do not cut the barb out of him, they are themselves pierced. The chief man carries off half the guilt; a quarter falls on the doers; and a quarter on the members of the assembly, who do not condemn what is condemnable.”</p>
 <p class="verse-ref">2.61.81</p>
 <blockquote class="sa" lang="sa">
-<p><span class="l"><span class="dev" lang="sa-Deva">विदुरस्य वचः श्रुत्वा नोचुः किं चन पार्थिवाः ।</span><span class="lat" lang="sa-Latn">vidurasya vacaḥ śrutvā nocuḥ kiṃ cana pārthivāḥ</span></span>
+<p><span class="l"><span class="dev" lang="sa-Deva">विदुरस्य वचः श्रुत्वा नोचुः किंचन पार्थिवाः ।</span><span class="lat" lang="sa-Latn">vidurasya vacaḥ śrutvā nocuḥ kiṃ cana pārthivāḥ</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">कर्णो दुःशासनं त्वाह कृष्णां दासीं गृहान्नय ॥ ८१ ॥</span><span class="lat" lang="sa-Latn">karṇo duḥśāsanaṃ tv āha kṛṣṇāṃ dāsīṃ gṛhān naya</span></span></p>
 </blockquote>
 <p class="verse-trans">“Having heard Vidura’s speech, the kings said nothing whatsoever. But Karṇa said to Duḥśāsana: ‘Take Kṛṣṇā, the slave-woman, to the house.’”</p>
@@ -2079,7 +2079,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <p class="verse-ref">2.63.22</p>
 <blockquote class="sa" lang="sa">
 <p><span class="l"><span class="dev" lang="sa-Deva">ततो राज्ञो धृतराष्ट्रस्य गेहे गोमायुरुच्चैर्व्याहरदग्निहोत्रे ।</span><span class="lat" lang="sa-Latn">tato rājño dhṛtarāṣṭrasya gehe; gomāyur uccair vyāharad agnihotre</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">तं रासभाः प्रत्यभाषन्त राजन् समन्ततः पक्षिणश्चैव रौद्राः ॥ २२ ॥</span><span class="lat" lang="sa-Latn">taṃ rāsabhāḥ pratyabhāṣanta rājan; samantataḥ pakṣiṇaś caiva raudrāḥ</span></span></p>
+<span class="l"><span class="dev" lang="sa-Deva">तं रासभाः प्रत्यभाषन्त राजन्समन्ततः पक्षिणश्चैव रौद्राः ॥ २२ ॥</span><span class="lat" lang="sa-Latn">taṃ rāsabhāḥ pratyabhāṣanta rājan; samantataḥ pakṣiṇaś caiva raudrāḥ</span></span></p>
 </blockquote>
 <p class="verse-trans">“Then in the house of king Dhṛtarāṣṭra a jackal howled aloud at the fire-offering; and asses answered it, king, and terrible birds on every side.”</p>
 </div>
@@ -2125,7 +2125,7 @@ section > p, section > .solo, .transition, .colophon{max-width:700px}
 <p class="verse-ref">2.64.1, 3</p>
 <blockquote class="sa" lang="sa">
 <p><span class="l"><span class="dev" lang="sa-Deva">या नः श्रुता मनुष्येषु स्त्रियो रूपेण संमताः ।</span><span class="lat" lang="sa-Latn">yā naḥ śrutā manuṣyeṣu striyo rūpeṇa saṃmatāḥ</span></span>
-<span class="l"><span class="dev" lang="sa-Deva">तासामेतादृशं कर्म न कस्यां चन शुश्रुमः ॥ १ ॥</span><span class="lat" lang="sa-Latn">tāsām etādṛśaṃ karma na kasyāṃ cana śuśrumaḥ</span></span>
+<span class="l"><span class="dev" lang="sa-Deva">तासामेतादृशं कर्म न कस्यांचन शुश्रुमः ॥ १ ॥</span><span class="lat" lang="sa-Latn">tāsām etādṛśaṃ karma na kasyāṃ cana śuśrumaḥ</span></span>
 <span class="l">&hellip;</span>
 <span class="l"><span class="dev" lang="sa-Deva">अप्लवेऽम्भसि मग्नानामप्रतिष्ठे निमज्जताम् ।</span><span class="lat" lang="sa-Latn">aplave 'mbhasi magnānām apratiṣṭhe nimajjatām</span></span>
 <span class="l"><span class="dev" lang="sa-Deva">पाञ्चाली पाण्डुपुत्राणां नौरेषा पारगाभवत् ॥ ३ ॥</span><span class="lat" lang="sa-Latn">pāñcālī pāṇḍuputrāṇāṃ naur eṣā pāragābhavat</span></span></p>
