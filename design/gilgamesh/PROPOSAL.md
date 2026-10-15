@@ -11,8 +11,7 @@ All four pages use one dark lapis-and-gold style with no light theme. At 1440 px
 1. **Clay.** The light ground is unbaked clay (`#F4EFE6`), with no texture image.
 2. **Lapis lazuli.** The prologue commands the reader to take out the lapis tablet (I 27). Lapis is the accent for keys, links and controls. In the dark theme lapis is the ground and the accent is the gold of its pyrite flecks.
 3. **The ruled line.** Scribes ruled a line between sections. Each pericope opens with a hairline rule. A double rule marks where the recensions part and rejoin, and opens the colophon (*kīma labīrīšu šaṭir-ma bari*).
-4. **The decade mark.** Some first-millennium library tablets mark every tenth line in the margin. A small corner-wedge, drawn in inline SVG, stands beside every tenth line number.
-5. **The critical edition.** Sigla (SB, OB II, I 246) are set in small spaced sans. Square brackets stay in the text, and restored words take a lighter ink.
+4. **The critical edition.** Sigla (SB, OB II, I 246) are set in small spaced sans. Square brackets stay in the text, and restored words take a lighter ink. eBL half-brackets ⸢ ⸣ mark damaged signs and are shown in the Akkadian, not folded into square brackets. The composite Akkadian lines carry only square brackets in the source; the half-brackets occur in manuscript readings (eBL ATF `x#`). The mockup shows two such readings (I 1, I 2, Rm.785) beneath the composite line.
 
 ## Type
 
@@ -72,8 +71,7 @@ Six layers: Akkadian, English, Glosses (inner margin), Commentary (outer margin)
 
 ## Open questions
 
-1. Which Gilgameš manuscripts mark every tenth line? If none, drop the decade mark.
-2. eBL marks damaged signs with half-brackets ⸢ ⸣; the reader folds them into square brackets. Should the Akkadian show them?
-3. Should obverse and reverse column breaks (obv. i, rev. iv) be marked? The builders do not yet extract them.
-4. Should the reader be split into one page per tablet? Phone loading and Contents would both get simpler.
-5. Some lettered glosses sit in the outer margin (I 246, *kiṣru ša Āni*). Deliberate, or should all glosses move inside?
+1. Decided: the decade mark is dropped (no manuscript source is cited for it), and half-brackets ⸢ ⸣ are shown in the Akkadian as eBL marks them.
+2. Should obverse and reverse column breaks (obv. i, rev. iv) be marked? The builders do not yet extract them.
+3. Should the reader be split into one page per tablet? Phone loading and Contents would both get simpler.
+4. Some lettered glosses sit in the outer margin (I 246, *kiṣru ša Āni*). Deliberate, or should all glosses move inside?

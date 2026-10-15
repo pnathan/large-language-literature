@@ -79,9 +79,9 @@ The reading bar holds **Modern | Original** ("Orig." on a phone). Both readings 
 
 ## Open questions
 
-1. **Source of the Original layer.** The repo has only the modern text. The mockup's Original lines come from Smith via Project Gutenberg #70717, the edition's stated source. A full layer needs those files aligned line for line with the published text, kept under `faerie-queene/`. Agreed?
-2. **Modernization errors.** In I.i the published text has *fare away* (Smith *farre*), *lassie* (*lasie*), *vel* (*vele*), *inward fare*, *prays* (*prayse*), *hi* (*hy*), *arr* (*arre*). The mockup reproduces stanzas i–v unchanged, so *vel* appears. Rerun the rules or fix by hand?
-3. **Residue.** The I.ix argument ends "tells:[295" (a footnote marker). The Note on the Text reads "3,8563,850 stanzas, some 34,700 linesnbsp;…".
+1. **Source of the Original layer.** Decided: both Project Gutenberg sources, #70717 and #72698, are the Original-spelling source. `faerie-queene/CLAUDE.md` and `faerie-queene/README.txt` both cite them as the edition's sources (J. C. Smith, Clarendon, 1909); neither file says which one supplies which book, so that split is not stated in the repo. The mockup's Original lines come from #70717. Approved: both Gutenberg files to be committed under `faerie-queene/` in the faerie-queene work's own PR. No files are committed here.
+2. **Modernization errors.** In I.i the published text has *fare away* (Smith *farre*), *lassie* (*lasie*), *vel* (*vele*), *inward fare*, *prays* (*prayse*), *hi* (*hy*), *arr* (*arre*). The mockup reproduces stanzas i–v unchanged, so *vel* appears. Decided: the modernization errors are fixed in the faerie-queene work's own PR, not here.
+3. **Residue.** To be fixed in the same PR, not here. The I.ix argument ends "tells:[295" (a footnote marker). The Note on the Text reads "3,8563,850 stanzas, some 34,700 linesnbsp;…".
 4. **One file or seven.** A phone parses 2.8 MB to read one canto. One page per book keeps the rail and anchors.
 5. **Variants in Modern mode.** Hidden in the mockup. Should they show?
 6. **Blank screenshots.** Most supplied captures below the landing are blank, but the page renders when scrolled. It is probably a capture limit on a tall page; confirm.

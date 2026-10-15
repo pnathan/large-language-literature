@@ -9,7 +9,7 @@ The sticky index shows ordinals, not fragment numbers: "16" leads to Fr. 58. It 
 ## Period cues, and why
 
 - **Vase painting gives the palette.** Black-figure puts black glaze on clay; red-figure reverses it. The light theme is black-figure, the dark theme red-figure: two historical techniques, not one palette inverted. Added red (*miltos*), used sparingly by painters for details, colours the brackets.
-- **The papyrus decides the notation.** Rolls lose their edges first, so line-beginnings and line-ends survive in different scraps. In Fr. 58 the Cologne roll keeps beginnings and the Oxyrhynchus roll keeps ends. A coverage map shows this: one row per witness, one cell per line, each cell split into beginning and end, damage hatched.
+- **The papyrus decides the notation.** Rolls lose their edges first, so line-beginnings and line-ends survive in different scraps. In Fr. 58 the Cologne roll keeps beginnings and the Oxyrhynchus roll keeps ends. A coverage map shows this: one row per witness, one cell per line, each cell split into beginning and end, damage hatched. The mockup labels it as drawn from line-level witness notes, not per-letter bracket data.
 - **Editors' letters look different.** Inside `[ ]` and `⟨ ⟩` the Greek is muted brown and the brackets red; papyrus letters stay in full ink; underdots stay; illegible traces (`. . .`) are muted. A reader sees at once how much of a line is Sappho's.
 - **The printed critical edition gives the apparatus form.** Line number, readings, sigla, and a mark on the reading printed. The line number links to the line and highlights it.
 
@@ -46,7 +46,7 @@ Every text token meets 4.5:1; the lowest is `--supp` on `--ground`, 4.68. Dark a
 
 **Fragment.** Header: position, number and title, the project's note, sigla, previous/next. Then the coverage map, then numbered lines in a grid: number, Greek (1.25 fr), English (1 fr). Wrapped lines hang, so each verse stays one unit. A Both / Greek / English switch gives one language the full width. A notation key and a titled pager close the page.
 
-**Apparatus.** A 344 px right rail with three disclosures: Witnesses (count), Variants (count), Translator's note. Each witness shows siglum, linked name, type (papyrus roll, quotation, modern compilation), date and what it preserves. Sourcing caveats, such as the Athenaeus Greek that could not be re-fetched, get a red-ruled box.
+**Apparatus.** A 344 px right rail with three disclosures: Witnesses (count), Variants (count), Translator's note. Each witness shows siglum, linked name, type (papyrus roll or quotation), date and what it preserves. Modern compilations are not witnesses. They sit in a separate "Modern compilations (not witnesses)" note under the list and are not counted. Sourcing caveats, such as the Athenaeus Greek that could not be re-fetched, get a red-ruled box.
 
 ## Behaviour
 
@@ -64,9 +64,9 @@ Greek-key borders, columns, amphora drawings, marble, torn-paper edges, lyre ico
 
 ## Open questions
 
-1. The coverage map uses the witness notes at line level (beginning or end). The printed text shows that the opening lines' beginnings are themselves supplements. Should the map be built per letter from the bracket positions instead? That needs data the builder does not have.
+1. Coverage map: Accepted with caveat. It is drawn from the witness notes at line level (beginning or end), not from per-letter bracket data, which the builder does not have. The printed text shows that the opening lines' beginnings are themselves supplements. The caveat is visible beside the map in the mockup and must stay in the published page.
 2. "Q" for quotation is a plain-English siglum of my own. Is there a preferred abbreviation, such as *test.*?
-3. Modern compilations (Wikipedia, Wharton, Edmonds) appear in the witness lists of many fragments. Should the index count only ancient witnesses?
-4. Variants are written as paragraphs in `fragments.json`. A lemma-style apparatus needs them broken into structured records (line, lemma, readings, sources). Do this by hand, or add a field to the data?
+3. Decided: modern compilations (Wikipedia, Wharton, Edmonds) are not witnesses. They are removed from witness counts and lists, and the mockup shows them in a separate "Modern compilations (not witnesses)" note. The index counts change accordingly (for example Fr. 58 goes from 4 to 3). Other modern editions in the witness lists (Cox, Campbell, Digital Sappho, Annis) are not covered by this decision and still need review. The counts shown for the other fragments follow the data entries whose edition is Wharton, Edmonds or Wikipedia/Wikisource; the data itself is not edited here.
+4. Decided: variants will be structured. They will be stored as lemma-style records (line, lemma, readings, sources) in the data. The mockup's hand-typed variant entries are a stand-in for those records.
 5. Should the published page keep one long scroll with this chrome, or render one fragment per view with hash routing? The mockup supports both. One fragment per view makes the index state exact.
 6. On the phone, should the apparatus come before the pager? The mockup places it after.

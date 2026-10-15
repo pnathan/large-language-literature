@@ -86,5 +86,5 @@ The BORI critical notes were not consulted (`mahabharata/CLAUDE.md`), so there a
 1. **Per-verse English.** Splitting each translation at verse boundaries is editorial work. Where syntax crosses a verse (2.61.31cd–32) the split falls at a clause. Who makes the splits, and where a split misleads, do we keep one paragraph?
 2. **Commentary.** Notes became NOTE entries in the apparatus; narrative glosses became bridges. Accept, or keep a commentary column?
 3. **Verse numbers.** Devanagari lines end `॥ ४० ॥` and the margin repeats 40. Drop the margin number in Devanagari mode?
-4. **Starred passages.** List them in the apparatus once their locations are verified?
+4. **Starred passages.** Decided: list them, each marked "unverified", because the manuscript attribution has not been checked against the BORI notes. The mockup lists two in the contents block: 2.58.9d*0525_01 (the only starred reference the work notes give) and the garment-miracle insertions near 2.61.41 and 2.61.48 (references not yet recorded). The full list needs the typed text, which was not reachable here. The label changes to the manuscript siglum only after verification.
 5. **Contents depth.** Sections only, as now, or all 113 passages?

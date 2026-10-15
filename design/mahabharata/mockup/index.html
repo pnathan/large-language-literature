@@ -173,6 +173,14 @@ html[data-script="iast"] .dev{display:none}
 .ae .tag{font:600 11px/1 var(--f-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-right:.5em;position:relative;top:-1px}
 .foot .none{color:var(--ink-3);font-style:italic}
 
+.starred{margin:28px 0 0;max-width:46rem;font-size:var(--s-sm);line-height:1.5;color:var(--ink-2)}
+.starred h3{margin:0 0 6px;font:600 var(--s-xs)/1 var(--f-ui);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.starred p{margin:0 0 8px}
+.starred ul{list-style:none;margin:0;padding:0}
+.starred li{margin:0 0 8px}
+.starred .num{color:var(--rubric);font-weight:600}
+.unv{font:600 11px/1 var(--f-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--ink);border:1px solid currentColor;border-radius:3px;padding:2px 5px;margin:0 .5em 0 .3em;position:relative;top:-1px}
+
 /* layer switches */
 html[data-hide-sa] .sa, html[data-hide-sa] .cols span:first-child{display:none}
 html[data-hide-sa] .v, html[data-hide-sa] .cols{grid-template-columns:2.75rem minmax(0,38rem)}
@@ -308,6 +316,14 @@ dialog::backdrop{background:var(--shade)}
     </div>
   </div>
   <p class="toc-key">Right-hand figure: number of passages. 113 passages in all.</p>
+  <div class="starred">
+    <h3>Starred passages</h3>
+    <p>Not part of the constituted text. The typed text prints them with a <span class="num">*</span> in the reference. Manuscript attribution has not been checked against the BORI notes.</p>
+    <ul>
+      <li><span class="num">2.58.9d*0525_01</span> <span class="unv">unverified</span> Given in the work notes as an example of the starred reference form. Its text is not in the mockup.</li>
+      <li><span class="num">Near 2.61.41 and 2.61.48</span> <span class="unv">unverified</span> Insertions that add prayers and credit Dharma with the garment miracle. Exact references not yet recorded.</li>
+    </ul>
+  </div>
 </nav>
 
 <!-- ============ reading ============ -->

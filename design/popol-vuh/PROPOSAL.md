@@ -84,7 +84,7 @@ State persists in `localStorage` inside `try/catch`. Without JavaScript every re
 1. **Alignment.** Translations are stored per section. I grouped blocks by reading K'iche', Spanish and English together. The build needs a reviewed map: block → paragraph ids → English paragraph indexes.
 2. **Normalised K'iche'.** The repo has none beyond the Multepal entity keys, and I did not invent one. Adding one (say, in ALMG orthography) is for K'iche' speakers and scholars to decide.
 3. **Spanish as a fourth column?** It sits in the apparatus because it is a witness, not the object of translation.
-4. **Glottal mark.** The data uses ASCII `'` (Wuqub' Kaqix). The mockup makes English quotation marks typographic; the build must leave glottal apostrophes alone, or map all of them to ʼ U+02BC.
+4. **Glottal mark.** Decided: use ASCII `'` (as the data does, e.g. Wuqub' Kaqix). No conversion to U+02BC. The build leaves `'` untouched and does not smart-quote it; only English quotation marks and contractions become typographic.
 5. **Anchors.** The TEI puts marginal notes between lines; the apparatus cites the line before. K'iche' p34 and p58 lack `xml:id`, so s25's start folio comes from the Spanish column.
 6. **Facsimile links.** Each folio label could open the LOC page image, given a URL map per page side.
-7. **Orthography.** Titles and English mix Hunahpu/Junajpu and Quiche/K'iche'. The design exposes this; it cannot fix it.
+7. **Orthography.** Decided: the design's own titles and prose use "K'iche'" and "Hunahpu", the forms the project's source files use more often (K'iche' 1,180 vs Quiche/Quiché 659; Hunahpu 881 vs Junajpu 306, counted across `popol-vuh/`). Quoted manuscript and translation text keeps its own spelling.
