@@ -187,7 +187,8 @@ note: לָכֵן, 'therefore'. The threat against the killer is not finished: th
   the vengeance as falling on Qayin himself, not on his killer; the English follows them. אוֹת, 'sign'; its form is not told. The LXX reads οὐχ οὕτως, 'not so', for לָכֵן (as if
   לֹא כֵן), and ἑπτὰ ἐκδικούμενα παραλύσει, 'he will release seven things avenged'.
 app: לָכֵן: therefore, or 'not so' (the LXX).
-app: שִׁבְעָתַיִם: sevenfold, or after seven generations.
+app: שִׁבְעָתַיִם: after seven generations (Rashi, Ibn Ezra), or sevenfold (Radak, Chizkuni, Sforno; the
+  LXX).
 rashi: The first half is a rebuke with its penalty left unsaid: whoever kills Qayin, such and such
   will be done to him. 'Sevenfold it will be avenged': I will not take vengeance on Qayin now; after
   seven generations Lamekh his descendant will kill him (לְסוֹף שִׁבְעָה דוֹרוֹת). The sign: he

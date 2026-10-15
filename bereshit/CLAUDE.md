@@ -58,6 +58,11 @@ normative interpreters, with a Fable-model check of that revision (item 6).
   80 verses carry comments. Some comments are keyed to a neighbouring verse (for
   example, his note on לעולם of 3:22 stands under 3:6).
 
+- **Further commentators** — `src/radak.json`, `src/ramban.json`, `src/chizkuni.json`,
+  `src/sforno.json`. Sefaria API v3, `{Radak_on_Genesis|Ramban_on_Genesis|Chizkuni,_Genesis|Sforno_on_Genesis}.1.1-4.18?version=hebrew`,
+  Hebrew only, HTML stripped. Fetched 2026-10-15. Cited in apparatus section III at the
+  cruxes; they are not normative (Methodology, item 6).
+
 ## Methodology (do not violate)
 
 1. **Translate from the Hebrew, with the LXX as second witness.** Where the two

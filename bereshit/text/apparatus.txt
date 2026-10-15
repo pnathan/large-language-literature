@@ -41,6 +41,10 @@ sig: Saadia | Saadia Gaon, commentary on Genesis, Hebrew translation (Sefaria).
 sig: Rashi | Rashi on Genesis (src/rashi.json).
 sig: Rashbam | Rashbam on Genesis (Sefaria).
 sig: IE | Abraham ibn Ezra on Genesis (src/ibn-ezra.json).
+sig: Radak | David Kimhi on Genesis (src/radak.json).
+sig: Ramban | Moses ben Nahman on Genesis (src/ramban.json).
+sig: Chizk | Chizkuni on Genesis (src/chizkuni.json).
+sig: Sforno | Obadiah Sforno on Genesis (src/sforno.json).
 sig: L | Leningrad Codex, St Petersburg, Firkovich I B 19a (1008/9).
 sig: Lᵐᶠ | The masora finalis of L.
 sig: Aˢ | Aleppo Codex, as recorded by Jacob Sapir (Me'orot Nathan).
@@ -256,19 +260,25 @@ p: Differences of SP from MT in vowel letters (plene and defective spelling), th
 ## III. Readings of the tradition at the cruxes
 p: How the versions and the early interpreters read the words on which the English turns. Rashi
   and Ibn Ezra are the normative interpreters of this edition (Methodology, item 6); the others
-  are recorded for their age and for their plain-sense readings.
+  are recorded for their age and for their plain-sense readings. Radak, Ramban, Chizkuni and Sforno are
+  cited at the cruxes from the full commentaries on 1:1–4:18.
 @ 1:1
 = בְּרֵאשִׁית ] ἐν ἀρχῇ {G σ′ θ′ Jos} ; ἐν κεφαλαίῳ, 'in the head' {α′} ; in principio {Vg VL} ; בְּקַדְמִין, 'at first' {TO} ;
   מלקדמין בחכמה, 'from the beginning, with wisdom' {TN} ; מִן אַוְולָא, 'from the first' {TPsJ} ;
   בקמאותא {TSam} ; ܒܪܫܝܬ {Syr} ; 'by the רֵאשִׁית', the Torah as the architect's plan {BerR} ;
   heaven and earth counted among the works of the first day {Jub Chag} ; construct, 'at the start of creating', main clause
-  at 1:3 {Rashi} ; construct, main clause at 1:2 {IE Rashbam}
+  at 1:3 {Rashi} ; construct, main clause at 1:2 {IE Rashbam} ; absolute, 'at first' {Radak} ; absolute:
+  רֵאשִׁית need not be bound, as מֵרֵאשִׁית אַחֲרִית (Isa 46:10) {Ramban} ; 'before all' {Chizk} ; 'at the start of
+  time, the first indivisible instant, with no time before it' {Sforno}
 ~ The English 'headwaters' takes the 'head' of Aquila's κεφάλαιον; 'of time' takes the time sense of
   G, the Targums and Syr. Every ancient version reads the word absolutely, as a time (TN adds 'with wisdom'); BerR reads it
-  as the Torah. The construct reading is the medieval plain-sense reading. Rashbam rejects both 'first of all' and 'before he created'.
-= בָּרָא ] ἐποίησεν, 'made' {G} ; ἔκτισεν, 'founded' {α′ Jos} ; creavit {Vg} ; fecit {VL} ; ברא … ושכלל, 'created … and
-  perfected' {TN} ; טלמס {TSam} ; 'to cut, and set a cut boundary' {IE}
-~ The English 'carve out' follows Ibn Ezra.
+  as the Torah. The construct reading is that of Rashi, Ibn Ezra and Rashbam; Ramban and Radak read the word
+  absolutely, Ramban against Rashi's argument. Rashbam rejects both 'first of all' and 'before he created'.
+  Sforno's 'start of time' is the time sense of 'headwaters of time'.
+= בָּרָא ] ἐποίησεν, 'made' {G} ; ἔκτισεν, 'founded' {α′ Jos} ; ברא … ושכלל, 'created … and
+  perfected' {TN} ; טלמס {TSam} ; creavit {Vg} ; fecit {VL} ; 'to cut, and set a cut boundary' {IE} ; to bring out
+  being from absolute nothing, the only Hebrew word for it {Ramban Radak} ; 'made what was not' {Sforno}
+~ The English 'carve out' follows Ibn Ezra, against Ramban and Radak.
 @ 1:2
 = תֹהוּ וָבֹהוּ ] ἀόρατος καὶ ἀκατασκεύαστος, 'unseen and unfurnished' {G} ; κένωμα καὶ οὐθέν,
   'emptiness and nothing' {α′} ; ἀργὸν καὶ ἀδιάκριτον, 'idle and undistinguished' {σ′} ;
@@ -282,7 +292,8 @@ p: How the versions and the early interpreters read the words on which the Engli
 = וְרוּחַ אֱלֹהִים ] πνεῦμα θεοῦ {G α′ θ′ σ′} ; Spiritus Dei {Vg VL} ; πνεύματος … ἐπιθέοντος, 'a breath running over' {Jos} ;
   רוּחָא … מְנַשְּׁבָא, 'a wind blowing' {TO} ; ריח אלהה מנשבה {TSam} ; רוח דרחמין … מנשבא, 'a wind of
   mercy blowing' {TN} ; רוּחַ רַחֲמִין … מְנַתְבָא {TPsJ} ; the spirits that serve before him, created on the first day {Jub} ;
-  the spirit of the Messiah {BerR} ; the blowing wind {Saadia Rashbam IE} ; the throne of glory
+  the spirit of the Messiah {BerR} ; the blowing wind {Saadia Rashbam IE} ; will, or the elemental air {Radak} ;
+  the holy spirit, or the wind that gathered the waters {Chizk} ; the movers of the spheres {Sforno} ; the throne of glory
   hovering by the breath of his mouth {Rashi}
 ~ The English 'wind' stands with the Targums, Josephus and the medieval plain-sense readers.
 @ 1:3
@@ -291,48 +302,54 @@ p: How the versions and the early interpreters read the words on which the Engli
 @ 1:26
 = וְיִרְדּוּ ] ἀρχέτωσαν, 'let them rule' {G} ; ἐπικρατείτωσαν, 'let them prevail' {α′} ; וְיִשְׁלְטוּן,
   'let them have power' {TO} ; וישלטון {TSam} ; ܘܢܫܠܛܘܢ {Syr} ; praesit, 'let him preside' {Vg} ;
-  dominetur, 'let him be lord' {VL} ; ruling if worthy, going down before the beasts if not {Rashi}
+  dominetur, 'let him be lord' {VL} ; ruling if worthy, going down before the beasts if not {Rashi} ;
+  rule, by mind and by hand {Radak}
 ~ No version takes the harsh sense 'tread down'. The English 'hold sway over' stands with them.
 @ 2:6
 = וְאֵד ] πηγή, 'a spring' {G} ; ἐπιβλυσμός, 'a welling' {α′} ; עֲנָנָא, 'a cloud' {TO} ; ענן {TSam} ;
   ܡܒܘܥܐ, 'a spring' {Syr} ; fons {Vg VL} ; a cloud of glory that drew water from the ocean {TPsJ} ; he raised the deep and
-  watered the clouds {Rashi} ; like smoke {IE}
+  watered the clouds {Rashi} ; like smoke {IE} ; smoke {Chizk} ; a dew that went up {Sforno}
 ~ The English 'vapour' follows Rashi and Ibn Ezra; G, Syr, Vg and VL read a spring.
 @ 2:21
 = מִצַּלְעֹתָיו ] τῶν πλευρῶν αὐτοῦ, 'of his ribs, sides' {G} ; מֵעִלְעוֹהִי, 'of his ribs, sides' {TO TPsJ} ;
-  מן עלויו {TSam} ; ܡܢ ܐ̈ܠܥܘܗܝ {Syr} ; unam de costis eius {Vg} ; unam costarum eius {VL} ; 'from his sides' {Rashi IE}
+  מן עלויו {TSam} ; ܡܢ ܐ̈ܠܥܘܗܝ {Syr} ; unam de costis eius {Vg} ; unam costarum eius {VL} ; 'from his sides' {Rashi IE} ; 'side' or 'rib', both opinions
+  of Eruvin 18a {Radak} ; 'from between two ribs' {Chizk}
 ~ The English 'side' follows Rashi and Ibn Ezra. The Aramaic word is as open as the Hebrew, but TPsJ
   fixes the sense: the thirteenth rib of the right side.
 @ 3:15
 = יְשׁוּפְךָ ] τηρήσει, 'will watch' {G} ; יקפנך {TSam} ; ܢܕܘܫ, 'will tread' {Syr} ; 'he will remember
-  what you did to him' {TO} ; 'will crush you' {Rashi} ; 'will strike' {IE} ;
+  what you did to him' {TO} ; 'will crush you' {Rashi} ; 'will strike' {IE} ; 'and will smash your brain' {Ramban} ;
   conteret, 'will crush', with ipsa, 'she', for הוּא {Vg} ; servabit, 'will watch', after G, with
   ipsa {VL}
 @ 3:16
 = תְּשׁוּקָתֵךְ ] ἡ ἀποστροφή σου, 'your turning' {G} ; תִּאוּבְתִּיךְ, 'your longing' {TO} ; עזרותיך {TSam} ;
   ܬܬܦܢܝܢ, 'you will turn' {Syr} ; sub viri potestate eris, 'you will be under the man's power' {Vg} ;
-  conversio tua, 'your turning' {VL} ; desire, תַּאֲוָתֵךְ {Rashi} ; obedience, משמעתך {IE}
-~ The English 'thirst' takes Rashi's desire and TO's longing.
+  conversio tua, 'your turning' {VL} ; desire, תַּאֲוָתֵךְ {Rashi Radak} ; obedience, משמעתך {IE} ;
+  desire: the word means only longing, against Ibn Ezra {Ramban}
+~ The English 'thirst' takes the desire of Rashi, Ramban and Radak, and TO's longing.
 @ 4:7
 = שְׂאֵת ] יִשְׁתְּבֵיק לָךְ, 'it will be forgiven you' {TO TPsJ} ; ܩܒܿܠܬ, '(I) have accepted' or '(you) have received' {Syr} ;
   forgiveness, after the Targum {Rashi} ; the lifting of the face {IE} ; recipies, 'you will receive'
-  {Vg} ; offeras, 'you offer', after G {VL}
+  {Vg} ; offeras, 'you offer', after G {VL} ; forgiveness {Radak} ; precedence over your brother, the
+  firstborn's {Ramban} ; a gift, or the bearing of sin {Chizk} ; a rise in rank {Sforno}
 @ 4:8
 = וַיֹּאמֶר ] a speech supplied: 'let us go out to the field' {SP TSam G Syr VL} ; 'let us go out'
   {Vg} ; a dispute on judgement
-  and the world to come {TPsJ} ; words of quarrel {Rashi} ; the rebukes of the Name {IE}
+  and the world to come {TPsJ} ; words of quarrel {Rashi} ; the rebukes of the Name {IE Radak} ; 'let us go out to the field',
+  the words joined to what follows {Ramban}
 @ 4:13
 = מִנְּשֹׂא ] τοῦ ἀφεθῆναί με, 'than to be forgiven' {G} ; מִלְּמִשְׁבָּק, 'than to forgive' {TO} ;
   ממסבל, 'than to bear' {TSam} ; quam ut veniam merear, 'than that I deserve pardon' {Vg} ;
   quam ut remittatur mihi, 'than that it be remitted me' {VL} ; מִלְסוֹבְלָא, 'than to bear' {TPsJ} ; to bear, as a question {Rashi} ;
-  the punishment is too great to bear {IE}
+  the punishment is too great to bear {IE Radak Chizk} ; a confession, 'too great to forgive' {Ramban}
 @ 4:15
 = שִׁבְעָתַיִם יֻקָּם ] ἑπτὰ ἐκδικούμενα παραλύσει {G} ; ܚܕ ܒܫܒܥܐ ܢܬܦܪܥ, 'sevenfold he will be
   repaid' {Syr} ; septuplum punietur, 'will be punished sevenfold' {Vg} ; septem vindictas
   exsolvet {VL} ; לְשַׁבְעָא דָרִין יִתְפְּרַע מִינֵּיהּ, 'for seven generations it will be exacted of him'
-  {TO TPsJ} ; על תרתי שבעין {TSam} ; vengeance on Qayin after seven generations {Rashi IE}
+  {TO TPsJ} ; על תרתי שבעין {TSam} ; vengeance on Qayin after seven generations {Rashi IE} ; vengeance many times, seven doubled
+  {Radak Sforno} ; seven vengeances on his killer {Chizk}
 ~ The English 'in seven generations' follows Rashi and Ibn Ezra, and Onkelos and Pseudo-Jonathan
-  before them.
+  before them. Radak, Chizkuni and Sforno read a multiple of vengeance, with G, Syr and Vg.
 
 ## IV. The Masoretic text
 p: The Masoretic manuscripts differ from each other only in letter size, in vowel points, in

@@ -10,7 +10,8 @@ note: בְּרֵאשִׁית is a construct form, 'at the start of', with no art
   it names what the headwaters are of, the time sense that the versions read (ἐν ἀρχῇ, בְּקַדְמִין).
   In the Hebrew the construct binds to the verb, not to a noun; 'when' keeps that binding.
   The verse is then a time clause, and the main clause comes in 1:2 or in 1:3. This is the reading
-  of Rashi and of Ibn Ezra, and the English follows it. בָּרָא is used only with Divinity as
+  of Rashi and of Ibn Ezra, and the English follows it. Ramban and Radak read the word absolutely
+  (Radak: בַּתְּחִלָּה, 'at first'); Sforno reads 'at the start of time', the first instant, with no time before it. בָּרָא is used only with Divinity as
   subject, and never names a material, unlike יָצַר, 'potted' (2:7). The English gives 'carve
   out', after Ibn Ezra: to cut, and set a cut boundary. His evidence is the intensive form בֵּרֵא:
   the forest cleared to make room in Josh 17:15, and the sword in Ezek 23:47. Whether the simple
@@ -20,8 +21,8 @@ note: בְּרֵאשִׁית is a construct form, 'at the start of', with no art
   'the red earth'. The LXX reads a main clause: ἐν ἀρχῇ ἐποίησεν ὁ θεός, 'in a beginning Divinity
   made', with no article on ἀρχῇ and ἐποίησεν, 'made', for בָּרָא.
 app: בְּרֵאשִׁית: 'at the start of', a time clause (Rashi, Ibn Ezra); or 'at the start', a main clause
-  (the LXX).
-app: בָּרָא: carve out, cut, shape, or create. The root is disputed.
+  (the LXX, Ramban, Radak).
+app: בָּרָא: carve out (Ibn Ezra), or create from nothing (Ramban, Radak). The root is disputed.
 rashi: The verse does not teach the order of creation. Every רֵאשִׁית in Scripture is bound to the
   word after it, so read בְּרֵאשִׁית בְּרֹא: 'at the start of the creating of heavens and earth, when
   the earth was waste and void and dark, Divinity said: let there be light'. The main clause is
