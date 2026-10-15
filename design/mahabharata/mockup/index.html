@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="en" data-script="deva">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahābhārata Edition Mockup</title>
+<meta name="description" content="Design mockup for the Mahābhārata edition: contents, one section of the Sabhā Parva with Devanagari/IAST switching, translation, and apparatus.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* ===== tokens ===== */
+:root{
+  --paper:#F3ECDA;      /* page: dry, slightly yellowed paper */
+  --leaf:#FAF6EA;       /* raised surfaces: bar, sheets */
+  --ink:#231D16;
+  --ink-2:#5B5142;
+  --ink-3:#74684F;
+  --rule:#D3C6A8;
+  --rule-2:#A8977A;
+  --rubric:#A8341A;     /* vermilion: references, verse numbers */
+  --indigo:#2C3B6E;     /* emphasis: lemmata, focus, notes */
+  --wash:rgba(168,52,26,.08);
+  --shade:rgba(35,29,22,.32);
+
+  --f-latn:"Source Serif 4","Source Serif Pro",Georgia,"Times New Roman",serif;
+  --f-deva:"Noto Serif Devanagari","Kohinoor Devanagari","Devanagari Sangam MN","Nirmala UI",serif;
+  --f-ui:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+
+  --s-xs:13px; --s-sm:14.5px; --s-md:18px; --s-dev:21px; --s-lg:24px; --s-xl:30px; --s-xxl:40px;
+  --bar:60px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#17140F; --leaf:#201C16; --ink:#ECE3CF; --ink-2:#BCB099; --ink-3:#9A8E77;
+    --rule:#3A332A; --rule-2:#5E5444; --rubric:#EE7A5C; --indigo:#A9B6EC;
+    --wash:rgba(238,122,92,.12); --shade:rgba(0,0,0,.55);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#17140F; --leaf:#201C16; --ink:#ECE3CF; --ink-2:#BCB099; --ink-3:#9A8E77;
+  --rule:#3A332A; --rule-2:#5E5444; --rubric:#EE7A5C; --indigo:#A9B6EC;
+  --wash:rgba(238,122,92,.12); --shade:rgba(0,0,0,.55);
+  color-scheme:dark;
+}
+
+/* ===== base ===== */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 var(--s-md)/1.55 var(--f-latn);
+  font-optical-sizing:auto;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--rubric);text-underline-offset:.18em;text-decoration-thickness:1px}
+:focus-visible{outline:2px solid var(--indigo);outline-offset:2px}
+button{font:inherit;color:inherit}
+p{margin:0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.sc{font-variant-caps:all-small-caps;letter-spacing:.06em}
+.num{font-variant-numeric:tabular-nums lining-nums}
+
+/* ===== bar ===== */
+.bar{position:sticky;top:0;z-index:10;height:var(--bar);background:var(--leaf);border-bottom:1px solid var(--rule)}
+.bar-in{max-width:1320px;height:100%;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:14px}
+.home{font:500 14px/1 var(--f-ui);color:var(--ink-2);text-decoration:none;white-space:nowrap}
+.work{font-size:17px;font-weight:600;white-space:nowrap}
+.refbtn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 12px;border:1px solid transparent;border-radius:6px;background:none;cursor:pointer;white-space:nowrap}
+.refbtn:hover{border-color:var(--rule)}
+.refbtn .lab{font:500 12px/1 var(--f-ui);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.refbtn .cur{color:var(--rubric);font-weight:600;font-size:17px}
+.refbtn .chev{width:10px;height:10px;border-right:1.5px solid var(--ink-3);border-bottom:1.5px solid var(--ink-3);transform:translateY(-3px) rotate(45deg)}
+.spacer{flex:1}
+.seg{display:inline-flex;border:1px solid var(--rule-2);border-radius:7px;padding:2px;gap:2px;background:var(--paper)}
+.seg button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:68px;padding:0 12px;border:0;border-radius:5px;background:none;cursor:pointer;
+  font:500 14px/1 var(--f-ui);color:var(--ink-2)}
+.seg button[lang="sa-Deva"]{font:500 16px/1.3 var(--f-deva);padding-top:3px}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.tog{display:inline-flex;gap:4px}
+.tog button,.plain{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:0 10px;border:0;border-radius:6px;background:none;cursor:pointer;
+  font:500 14px/1 var(--f-ui);color:var(--ink-2)}
+.tog button::before{content:"";width:12px;height:12px;border:1.5px solid var(--ink-3);border-radius:2px}
+.tog button[aria-pressed="true"]{color:var(--ink)}
+.tog button[aria-pressed="true"]::before{background:var(--rubric);border-color:var(--rubric);box-shadow:inset 0 0 0 2px var(--leaf)}
+.tog button:hover,.plain:hover{background:var(--wash)}
+.theme-ico{width:16px;height:16px;border-radius:50%;border:1.5px solid var(--ink-2);background:linear-gradient(90deg,var(--ink-2) 50%,transparent 50%)}
+.viewbtn{display:none}
+
+/* ===== title page and contents ===== */
+.wrap{max-width:1320px;margin:0 auto;padding:0 24px}
+.title{padding:56px 0 8px;max-width:1040px}
+.title .back{font:500 14px/1 var(--f-ui);color:var(--ink-2);text-decoration:none;display:inline-block;padding:14px 0}
+.title h1{font-size:var(--s-xxl);font-weight:600;line-height:1.1;margin:18px 0 6px;letter-spacing:.005em}
+.title .sub{font-style:italic;font-size:21px;color:var(--ink-2)}
+.title .src{margin-top:18px;max-width:46rem;font-size:var(--s-sm);line-height:1.5;color:var(--ink-2)}
+.contents{margin:40px 0 0;border-top:2px solid var(--ink);padding-top:6px;max-width:1040px}
+.contents h2{font-size:var(--s-xs);font-family:var(--f-ui);font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);margin:6px 0 10px}
+.toc-cols{display:grid;grid-template-columns:1fr 1fr;column-gap:48px}
+.toc-part{margin:0 0 18px}
+.toc-part h3{margin:8px 0 4px;font-size:var(--s-md);font-weight:600}
+.toc-part h3 .sc{color:var(--rubric);font-weight:600;margin-right:.4em}
+.toc-part h3 i{font-weight:400;color:var(--ink-2)}
+.toc{list-style:none;margin:0;padding:0}
+.toc a{display:grid;grid-template-columns:2.2rem minmax(0,1fr) auto 2.4rem;align-items:baseline;column-gap:10px;min-height:44px;padding:10px 0;
+  border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink)}
+.toc a:hover .t{text-decoration:underline;text-decoration-color:var(--rubric)}
+.toc .n{color:var(--rubric);font-size:var(--s-sm)}
+.toc .r{color:var(--ink-2);font-size:var(--s-sm)}
+.toc .c{color:var(--ink-3);font-size:var(--s-xs);text-align:right}
+.toc a[aria-current="true"] .t{font-weight:600}
+.toc-key{font:400 var(--s-xs)/1.4 var(--f-ui);color:var(--ink-3);margin-top:-6px}
+
+/* ===== reading area ===== */
+.reading{display:grid;grid-template-columns:220px minmax(0,1fr);column-gap:56px;margin-top:64px}
+.rail{position:sticky;top:calc(var(--bar) + 24px);align-self:start;max-height:calc(100vh - var(--bar) - 48px);overflow:auto;font-size:15px}
+.rail h2{font:600 var(--s-xs)/1 var(--f-ui);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin:0 0 10px}
+.rail .p{font-weight:600;margin:14px 0 2px;font-size:14px}
+.rail .p .sc{color:var(--rubric)}
+.rail ol{list-style:none;margin:0;padding:0}
+.rail a{display:flex;justify-content:space-between;gap:8px;padding:6px 0 6px 10px;border-left:2px solid var(--rule);color:var(--ink-2);text-decoration:none;line-height:1.3}
+.rail a .r{color:var(--ink-3);font-size:13px;white-space:nowrap}
+.rail a[aria-current="true"]{border-left-color:var(--rubric);color:var(--ink)}
+.rail a:hover{color:var(--ink)}
+
+.part-h{border-top:2px solid var(--ink);padding-top:10px;margin:0 0 6px}
+.part-h .sc{color:var(--rubric);font-size:var(--s-md);font-weight:600}
+.part-h h2{margin:2px 0 0;font-size:var(--s-xl);font-weight:600;line-height:1.2}
+.part-h h2 i{font-weight:400;color:var(--ink-2)}
+.sec-h{margin:40px 0 0;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:1px solid var(--rule);padding-bottom:8px}
+.sec-h .n{color:var(--rubric);font-size:var(--s-lg);font-weight:600}
+.sec-h h3{margin:0;font-size:var(--s-lg);font-weight:600}
+.sec-h .r{margin-left:auto;color:var(--ink-2);font-size:var(--s-sm)}
+.prose{max-width:38rem;margin:18px 0 0 calc(2.75rem + 28px);color:var(--ink)}
+.prose + .prose{margin-top:10px}
+.bridge{max-width:38rem;margin:30px 0 0 calc(2.75rem + 28px);padding-left:14px;border-left:2px solid var(--rule);color:var(--ink-2);font-size:17px}
+
+/* passage */
+.psg{margin-top:44px}
+.ph{display:grid;grid-template-columns:2.75rem minmax(0,1fr);column-gap:28px;margin-bottom:14px}
+.ph .ref{grid-column:2;font-weight:600;color:var(--rubric);font-size:var(--s-md)}
+.ph .ref .sc{font-weight:400;color:var(--ink-2);margin-right:.35em}
+.ph .meta{grid-column:2;font-size:var(--s-xs);color:var(--ink-3);font-family:var(--f-ui);line-height:1.5;margin-top:2px}
+.ph .spk{grid-column:2;margin-top:8px;font-size:var(--s-sm);color:var(--ink-2)}
+.cols{display:none;grid-template-columns:2.75rem minmax(0,1fr) minmax(0,1fr);column-gap:28px;
+  font:500 var(--s-xs)/1 var(--f-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);padding-bottom:6px;border-bottom:1px solid var(--rule)}
+.cols span:first-child{grid-column:2}
+
+.v{display:grid;grid-template-columns:2.75rem minmax(0,1fr) minmax(0,1fr);column-gap:28px;padding:12px 0;border-bottom:1px solid color-mix(in srgb,var(--rule) 55%,transparent);
+  scroll-margin-top:calc(var(--bar) + 16px)}
+.vn{grid-column:1;text-align:right;color:var(--rubric);font-weight:600;font-size:var(--s-sm);padding-top:.3em}
+.sa{grid-column:2;min-width:0}
+.en{grid-column:3;min-width:0;max-width:34rem}
+.l{display:block;padding-left:1.2em;text-indent:-1.2em;overflow-wrap:break-word}
+.dev{font:400 var(--s-dev)/1.75 var(--f-deva)}
+.lat{font-size:var(--s-md);line-height:1.6;letter-spacing:.005em}
+html[data-script="deva"] .lat{display:none}
+html[data-script="iast"] .dev{display:none}
+.v.gap{padding:4px 0}
+.v.gap .sa,.v.gap .en{color:var(--ink-3)}
+.v.gap .om{font:400 var(--s-xs)/1.6 var(--f-ui);color:var(--ink-3);margin-left:.6em}
+.vapp{display:none}
+
+/* apparatus at foot of passage */
+.foot{margin:16px 0 0 calc(2.75rem + 28px);font-size:var(--s-sm);line-height:1.5;color:var(--ink-2)}
+.foot::before{content:"";display:block;width:7rem;border-top:1px solid var(--rule-2);margin-bottom:10px}
+.foot h4{margin:0 0 6px;font:600 var(--s-xs)/1 var(--f-ui);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.foot ol,.vapp ol{list-style:none;margin:0;padding:0}
+.foot li{margin:0 0 8px;max-width:52rem}
+.ae .k{color:var(--rubric);font-weight:600;margin-right:.45em}
+.ae .lem{color:var(--indigo)}
+.ae .lem .dev{font-size:16px;line-height:1.5}
+.ae .lem .lat{font-size:inherit;font-style:italic}
+.ae .br{color:var(--ink-3);margin:0 .35em}
+.ae .tag{font:600 11px/1 var(--f-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-right:.5em;position:relative;top:-1px}
+.foot .none{color:var(--ink-3);font-style:italic}
+
+/* layer switches */
+html[data-hide-sa] .sa, html[data-hide-sa] .cols span:first-child{display:none}
+html[data-hide-sa] .v, html[data-hide-sa] .cols{grid-template-columns:2.75rem minmax(0,38rem)}
+html[data-hide-sa] .en, html[data-hide-sa] .cols span:last-child{grid-column:2}
+html[data-hide-en] .en, html[data-hide-en] .cols span:last-child{display:none}
+html[data-hide-en] .v, html[data-hide-en] .cols{grid-template-columns:2.75rem minmax(0,40rem)}
+html[data-hide-app] .foot, html[data-hide-app] .vapp{display:none !important}
+
+.end{margin:64px 0 80px calc(220px + 56px + 2.75rem + 28px);font-size:var(--s-sm);color:var(--ink-3)}
+
+/* ===== dialogs ===== */
+dialog{border:1px solid var(--rule-2);border-radius:10px;background:var(--leaf);color:var(--ink);padding:0;width:min(560px,calc(100vw - 32px));max-height:min(80vh,720px)}
+dialog::backdrop{background:var(--shade)}
+.dh{display:flex;align-items:center;justify-content:space-between;padding:6px 8px 6px 20px;border-bottom:1px solid var(--rule);position:sticky;top:0;background:var(--leaf)}
+.dh h2{margin:0;font:600 var(--s-xs)/1 var(--f-ui);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.x{min-width:44px;min-height:44px;border:0;background:none;cursor:pointer;font-size:24px;line-height:1;color:var(--ink-2);border-radius:6px}
+.db{padding:4px 20px 20px}
+.db .toc-part h3{font-size:16px}
+.vrow{display:flex;flex-direction:column;gap:6px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.vrow:last-child{border-bottom:0}
+.vrow .lab{font:600 var(--s-xs)/1 var(--f-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.vrow .tog{flex-direction:column;align-items:stretch}
+.vrow .tog button{justify-content:flex-start;font-size:16px}
+.vrow .seg{display:flex}
+.vrow .seg button{flex:1}
+
+/* ===== narrower desktop ===== */
+@media (max-width:1100px){
+  .reading{grid-template-columns:minmax(0,1fr)}
+  .rail{display:none}
+  .end{margin-left:calc(2.75rem + 28px)}
+  .home,.work{display:none}
+}
+
+/* ===== phone ===== */
+@media (max-width:760px){
+  :root{--s-md:17px;--s-dev:19px;--s-xxl:34px;--s-xl:25px;--s-lg:21px;--bar:62px}
+  .bar-in{padding:0 12px;gap:6px}
+  .bar .tog,.bar .theme{display:none}
+  .refbtn{padding:0 6px;flex:1;min-width:0;justify-content:flex-start}
+  .refbtn .lab{display:none}
+  .seg button{min-width:58px;padding:0 9px}
+  .viewbtn{display:inline-flex;min-width:44px;justify-content:center;padding:0}
+  .wrap{padding:0 16px}
+  .title{padding-top:20px}
+  .title .sub{font-size:18px}
+  .toc-cols{grid-template-columns:1fr}
+  .reading{margin-top:40px}
+  .cols{display:none}
+  .ph{grid-template-columns:minmax(0,1fr)}
+  .ph .ref,.ph .meta,.ph .spk{grid-column:1}
+  .v,html[data-hide-sa] .v,html[data-hide-en] .v{grid-template-columns:1.9rem minmax(0,1fr);column-gap:10px;padding:14px 0}
+  .vn{grid-row:1}
+  .sa,.en,html[data-hide-sa] .en{grid-column:2}
+  .en{margin-top:10px;max-width:none}
+  .en::before{content:"";display:block;width:2.5rem;border-top:1px solid var(--rule-2);margin-bottom:8px}
+  .v.gap .en::before{display:none}
+  .v.gap .en{margin-top:0}
+  .prose,.bridge{margin-left:0}
+  .foot{display:none}
+  .end{margin-left:0}
+  .vapp{display:block;grid-column:2;margin-top:8px}
+  .vapp summary{display:flex;align-items:center;gap:8px;min-height:44px;cursor:pointer;list-style:none;
+    font:500 14px/1 var(--f-ui);color:var(--ink-2)}
+  .vapp summary::-webkit-details-marker{display:none}
+  .vapp summary::before{content:"";width:7px;height:7px;border-right:1.5px solid var(--rubric);border-bottom:1.5px solid var(--rubric);transform:rotate(-45deg);transition:transform .15s}
+  .vapp[open] summary::before{transform:rotate(45deg)}
+  .vapp summary .c{color:var(--rubric)}
+  .vapp ol{font-size:var(--s-sm);line-height:1.5;color:var(--ink-2);padding:2px 0 6px 15px;border-left:1px solid var(--rule-2);margin-left:3px}
+  .vapp li{margin-bottom:8px}
+  dialog.sheet{margin:auto 0 0;width:100%;max-width:100%;max-height:82vh;border-radius:14px 14px 0 0;border-bottom:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- ============ sticky bar ============ -->
+<div class="bar">
+  <div class="bar-in">
+    <a class="home" href="../">&larr; Large-Language Literature</a>
+    <span class="work">Mahābhārata</span>
+    <button class="refbtn" type="button" data-open="toc" aria-haspopup="dialog" aria-label="Contents. Current verse: 2.61.28">
+      <span class="lab">Verse</span><span class="cur num" id="curref">2.61.28</span><span class="chev" aria-hidden="true"></span>
+    </button>
+    <span class="spacer"></span>
+    <div class="seg" role="group" aria-label="Script of the Sanskrit">
+      <button type="button" data-script="deva" aria-pressed="true" lang="sa-Deva">देवनागरी</button>
+      <button type="button" data-script="iast" aria-pressed="false">IAST</button>
+    </div>
+    <div class="tog" role="group" aria-label="Show layers">
+      <button type="button" data-layer="sa" aria-pressed="true">Sanskrit</button>
+      <button type="button" data-layer="en" aria-pressed="true">English</button>
+      <button type="button" data-layer="app" aria-pressed="true">Apparatus</button>
+    </div>
+    <button class="plain theme" type="button" data-theme-toggle aria-label="Switch to dark theme"><span class="theme-ico" aria-hidden="true"></span><span class="tl">Dark</span></button>
+    <button class="plain viewbtn" type="button" data-open="view" aria-haspopup="dialog" aria-label="View settings">
+      <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h16M3 11h16M3 16h16"/><circle cx="8" cy="6" r="2" fill="var(--leaf)"/><circle cx="14" cy="11" r="2" fill="var(--leaf)"/><circle cx="7" cy="16" r="2" fill="var(--leaf)"/></svg>
+    </button>
+  </div>
+</div>
+
+<div class="wrap">
+
+<!-- ============ title + contents ============ -->
+<header class="title">
+  <a class="back" href="../">&larr; Large-Language Literature</a>
+  <h1>Mahābhārata</h1>
+  <p class="sub">Creation and the Dice Game: Ādi Parva and Sabhā Parva</p>
+  <p class="src">Sanskrit: Bhandarkar Oriental Research Institute Critical Edition (Pune, 1927–1966), checked against the GRETIL/BORI typed text (Zenodo 6467313). References are book.chapter.verse, with pāda letters for half-verses. Translations are original to this edition. The BORI critical apparatus was not consulted.</p>
+</header>
+
+<nav class="contents" id="contents" aria-label="Contents">
+  <h2>Contents</h2>
+  <div class="toc-cols" id="toc-src">
+    <div class="toc-part">
+      <h3><span class="sc">Part I</span> The Cosmic Frame <i>Ādi Parva</i></h3>
+      <ol class="toc">
+        <li><a href="#"><span class="n num"></span><span class="t">Opening verses</span><span class="r num">1.1–1.58</span><span class="c num">4</span></a></li>
+        <li><a href="#"><span class="n num">I</span><span class="t">The Weight of the World</span><span class="r num">1.58</span><span class="c num">11</span></a></li>
+        <li><a href="#"><span class="n num">II</span><span class="t">The Descent by Portions</span><span class="r num">1.61, 1.113–115</span><span class="c num">13</span></a></li>
+      </ol>
+    </div>
+    <div class="toc-part">
+      <h3><span class="sc">Part II</span> The Dice Game <i>Sabhā Parva</i></h3>
+      <ol class="toc">
+        <li><a href="#"><span class="n num">I</span><span class="t">What Duryodhana Saw</span><span class="r num">2.43–45, 2.50–51</span><span class="c num">18</span></a></li>
+        <li><a href="#"><span class="n num">II</span><span class="t">The Summons</span><span class="r num">2.52</span><span class="c num">9</span></a></li>
+        <li><a href="#"><span class="n num">III</span><span class="t">The Game</span><span class="r num">2.53–58</span><span class="c num">20</span></a></li>
+        <li><a href="#sec-hall" aria-current="true"><span class="n num">IV</span><span class="t">The Hall</span><span class="r num">2.59–63</span><span class="c num">34</span></a></li>
+        <li><a href="#"><span class="n num">V</span><span class="t">The Second Game</span><span class="r num">2.64, 2.67</span><span class="c num">4</span></a></li>
+      </ol>
+    </div>
+  </div>
+  <p class="toc-key">Right-hand figure: number of passages. 113 passages in all.</p>
+</nav>
+
+<!-- ============ reading ============ -->
+<div class="reading">
+  <aside class="rail" aria-label="Contents (short)">
+    <h2>Contents</h2>
+    <p class="p"><span class="sc">Part I</span> Ādi</p>
+    <ol>
+      <li><a href="#"><span>Opening verses</span><span class="r num">1.1</span></a></li>
+      <li><a href="#"><span>Weight of the World</span><span class="r num">1.58</span></a></li>
+      <li><a href="#"><span>Descent by Portions</span><span class="r num">1.61</span></a></li>
+    </ol>
+    <p class="p"><span class="sc">Part II</span> Sabhā</p>
+    <ol>
+      <li><a href="#"><span>What Duryodhana Saw</span><span class="r num">2.43</span></a></li>
+      <li><a href="#"><span>The Summons</span><span class="r num">2.52</span></a></li>
+      <li><a href="#"><span>The Game</span><span class="r num">2.53</span></a></li>
+      <li><a href="#sec-hall" aria-current="true"><span>The Hall</span><span class="r num">2.59</span></a></li>
+      <li><a href="#"><span>The Second Game</span><span class="r num">2.64</span></a></li>
+    </ol>
+  </aside>
+
+  <main>
+    <div class="part-h">
+      <span class="sc">Part II</span>
+      <h2>The Dice Game <i>Sabhā Parva</i></h2>
+    </div>
+
+    <section id="sec-hall" aria-labelledby="sec-hall-h">
+      <div class="sec-h"><span class="n">IV</span><h3 id="sec-hall-h">The Hall</h3><span class="r num">Sabhā Parva 2.59–63</span></div>
+      <p class="prose">From Duryodhana’s order through Draupadī’s question to the granting of the boons.</p>
+      <p class="bridge">A shout goes up praising Vikarṇa and reviling Śakuni. When it dies down, Karṇa answers, and his answer is the true voice of the hall.</p>
+
+      <!-- ===== passage A ===== -->
+      <article class="psg" aria-labelledby="pA">
+        <header class="ph">
+          <p class="ref num" id="pA"><span class="sc">Sabhā</span>2.61.28, 31cd–33, 35–36</p>
+          <p class="meta">Constituted text. Checked against the GRETIL/BORI typed text. Variant readings not collated.</p>
+          <p class="spk">Karṇa speaks.</p>
+        </header>
+        <div class="cols" aria-hidden="true"><span>Sanskrit</span><span>English</span></div>
+
+        <div class="v" data-ref="2.61.28" id="v2-61-28" role="group" aria-label="Verse 2.61.28">
+          <span class="vn num" aria-hidden="true">28</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">एते न किंचिदप्याहुश्चोद्यमानापि कृष्णया ।</span><span class="lat" lang="sa-Latn">ete na kiṃ cid apy āhuś codyamānāpi kṛṣṇayā</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">धर्मेण विजितां मन्ये मन्यन्ते द्रुपदात्मजाम् ॥ २८ ॥</span><span class="lat" lang="sa-Latn">dharmeṇa vijitāṃ manye manyante drupadātmajām</span></span>
+          </div>
+          <p class="en">“These men have said nothing at all, though pressed by Kṛṣṇā. I take it they consider Drupada’s daughter lawfully won.</p>
+        </div>
+        <div class="v gap" aria-label="29 to 31ab not printed">
+          <span class="vn" aria-hidden="true"></span>
+          <div class="sa">…<span class="om">29–31ab not printed</span></div>
+          <p class="en">…</p>
+        </div>
+        <div class="v" data-ref="2.61.31cd" id="v2-61-31" role="group" aria-label="Verse 2.61.31cd">
+          <span class="vn num" aria-hidden="true">31cd</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">यदा सभायां सर्वस्वं न्यस्तवान्पाण्डवाग्रजः ॥ ३१ ॥</span><span class="lat" lang="sa-Latn">yadā sabhāyāṃ sarvasvaṃ nyastavān pāṇḍavāgrajaḥ</span></span>
+          </div>
+          <p class="en">When the eldest of the Pāṇḍavas staked everything in the hall,</p>
+        </div>
+        <div class="v" data-ref="2.61.32" id="v2-61-32" role="group" aria-label="Verse 2.61.32">
+          <span class="vn num" aria-hidden="true">32</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">अभ्यन्तरा च सर्वस्वे द्रौपदी भरतर्षभ ।</span><span class="lat" lang="sa-Latn">abhyantarā ca sarvasve draupadī bharatarṣabha</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">एवं धर्मजितां कृष्णां मन्यसे न जितां कथम् ॥ ३२ ॥</span><span class="lat" lang="sa-Latn">evaṃ dharmajitāṃ kṛṣṇāṃ manyase na jitāṃ katham</span></span>
+          </div>
+          <p class="en">and Draupadī was included within ‘everything’, bull of the Bharatas — how do you consider Kṛṣṇā, thus won by dharma, not won?</p>
+        </div>
+        <div class="v" data-ref="2.61.33" id="v2-61-33" role="group" aria-label="Verse 2.61.33">
+          <span class="vn num" aria-hidden="true">33</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">कीर्तिता द्रौपदी वाचा अनुज्ञाता च पाण्डवैः ।</span><span class="lat" lang="sa-Latn">kīrtitā draupadī vācā anujñātā ca pāṇḍavaiḥ</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">भवत्यविजिता केन हेतुनैषा मता तव ॥ ३३ ॥</span><span class="lat" lang="sa-Latn">bhavaty avijitā kena hetunaiṣā matā tava</span></span>
+          </div>
+          <p class="en">She was named aloud, and the Pāṇḍavas consented. On what ground do you hold her to be unwon?</p>
+        </div>
+        <div class="v gap" aria-label="34 not printed">
+          <span class="vn" aria-hidden="true"></span>
+          <div class="sa">…<span class="om">34 not printed</span></div>
+          <p class="en">…</p>
+        </div>
+        <div class="v" data-ref="2.61.35" id="v2-61-35" role="group" aria-label="Verse 2.61.35">
+          <span class="vn num" aria-hidden="true">35</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">एको भर्ता स्त्रिया देवैर्विहितः कुरुनन्दन ।</span><span class="lat" lang="sa-Latn">eko bhartā striyā devair vihitaḥ kurunandana</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">इयं त्वनेकवशगा बन्धकीति विनिश्चिता ॥ ३५ ॥</span><span class="lat" lang="sa-Latn">iyaṃ tv anekavaśagā bandhakīti viniścitā</span></span>
+          </div>
+          <p class="en">One husband is ordained for a woman by the gods, son of Kuru; but this one is in the power of many, and is therefore determined to be a whore.</p>
+          <details class="vapp">
+            <summary>Apparatus <span class="c">1</span></summary>
+            <ol>
+              <li class="ae"><span class="k num">35d</span><span class="lem"><span class="dev" lang="sa-Deva">बन्धकी</span><span class="lat" lang="sa-Latn">bandhakī</span></span><span class="br">]</span><span class="tag">Note</span>a woman “tied to” many men (a guess from the root; the attested sense is unchaste woman, harlot). Bhīma uses the plural <i>bandhakyaḥ</i> earlier (2.61.1). Karṇa’s argument runs: the gods ordain one husband; she is subject to many; so she is a <i>bandhakī</i>. How coarse the word was is uncertain. The blunt English is kept because the speech is meant to degrade.</li>
+            </ol>
+          </details>
+        </div>
+        <div class="v" data-ref="2.61.36" id="v2-61-36" role="group" aria-label="Verse 2.61.36">
+          <span class="vn num" aria-hidden="true">36</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">अस्याः सभामानयनं न चित्रमिति मे मतिः ।</span><span class="lat" lang="sa-Latn">asyāḥ sabhām ānayanaṃ na citram iti me matiḥ</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">एकाम्बरधरत्वं वाप्यथ वापि विवस्त्रता ॥ ३६ ॥</span><span class="lat" lang="sa-Latn">ekāmbaradharatvaṃ vāpy atha vāpi vivastratā</span></span>
+          </div>
+          <p class="en">Bringing her into the hall is nothing remarkable, in my judgment — nor is her being in one garment, nor her being in none.”</p>
+        </div>
+
+        <aside class="foot" aria-label="Apparatus to 2.61.28–36">
+          <h4>Apparatus</h4>
+          <ol>
+            <li class="ae"><span class="k num">35d</span><span class="lem"><span class="dev" lang="sa-Deva">बन्धकी</span><span class="lat" lang="sa-Latn">bandhakī</span></span><span class="br">]</span><span class="tag">Note</span>a woman “tied to” many men (a guess from the root; the attested sense is unchaste woman, harlot). Bhīma uses the plural <i>bandhakyaḥ</i> earlier (2.61.1). Karṇa’s argument runs: the gods ordain one husband; she is subject to many; so she is a <i>bandhakī</i>. How coarse the word was is uncertain. The blunt English is kept because the speech is meant to degrade.</li>
+          </ol>
+        </aside>
+      </article>
+
+      <p class="bridge">Karṇa orders Duḥśāsana to take the garments (2.61.37–38). The five brothers strip off their own upper garments and sit down.</p>
+
+      <!-- ===== passage B ===== -->
+      <article class="psg" aria-labelledby="pB">
+        <header class="ph">
+          <p class="ref num" id="pB"><span class="sc">Sabhā</span>2.61.40–42</p>
+          <p class="meta">Constituted text. Checked against the GRETIL/BORI typed text. Variant readings not collated.</p>
+        </header>
+        <div class="cols" aria-hidden="true"><span>Sanskrit</span><span>English</span></div>
+
+        <div class="v" data-ref="2.61.40" id="v2-61-40" role="group" aria-label="Verse 2.61.40">
+          <span class="vn num" aria-hidden="true">40</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">ततो दुःशासनो राजन्द्रौपद्या वसनं बलात् ।</span><span class="lat" lang="sa-Latn">tato duḥśāsano rājan draupadyā vasanaṃ balāt</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">सभामध्ये समाक्षिप्य व्यपक्रष्टुं प्रचक्रमे ॥ ४० ॥</span><span class="lat" lang="sa-Latn">sabhāmadhye samākṣipya vyapakraṣṭuṃ pracakrame</span></span>
+          </div>
+          <p class="en">“Then Duḥśāsana, king, seizing Draupadī’s garment by force in the middle of the hall, began to pull it off.</p>
+        </div>
+        <div class="v" data-ref="2.61.41" id="v2-61-41" role="group" aria-label="Verse 2.61.41">
+          <span class="vn num" aria-hidden="true">41</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">आकृष्यमाणे वसने द्रौपद्यास्तु विशां पते ।</span><span class="lat" lang="sa-Latn">ākṛṣyamāṇe vasane draupadyās tu viśāṃ pate</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">तद्रूपमपरं वस्त्रं प्रादुरासीदनेकशः ॥ ४१ ॥</span><span class="lat" lang="sa-Latn">tadrūpam aparaṃ vastraṃ prādurāsīd anekaśaḥ</span></span>
+          </div>
+          <p class="en">And as Draupadī’s garment was being pulled, lord of peoples, another garment of the same kind appeared — again and again, many times over.</p>
+          <details class="vapp" open>
+            <summary>Apparatus <span class="c">1</span></summary>
+            <ol>
+              <li class="ae"><span class="k num">41d</span><span class="lem"><span class="dev" lang="sa-Deva">प्रादुरासीद्</span><span class="lat" lang="sa-Latn">prādurāsīd</span></span><span class="br">]</span><span class="tag">Note</span>“appeared.” In the constituted text the miracle has no stated cause: Draupadī does not pray, and no god is named when the garments appear. In the hall scene, the only mention of Kṛṣṇa before it is Duḥśāsana’s taunt at 2.60.26. The starred insertions add prayers and credit Dharma; how they spread across the recensions is not settled here.</li>
+            </ol>
+          </details>
+        </div>
+        <div class="v" data-ref="2.61.42" id="v2-61-42" role="group" aria-label="Verse 2.61.42">
+          <span class="vn num" aria-hidden="true">42</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">ततो हलहलाशब्दस्तत्रासीद्घोरनिस्वनः ।</span><span class="lat" lang="sa-Latn">tato halahalāśabdas tatrāsīd ghoranisvanaḥ</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">तदद्भुततमं लोके वीक्ष्य सर्वमहीक्षिताम् ॥ ४२ ॥</span><span class="lat" lang="sa-Latn">tad adbhutatamaṃ loke vīkṣya sarvamahīkṣitām</span></span>
+          </div>
+          <p class="en">Then there arose a terrible roar of voices there, as all the lords of earth looked upon the greatest wonder in the world.”</p>
+        </div>
+
+        <aside class="foot" aria-label="Apparatus to 2.61.40–42">
+          <h4>Apparatus</h4>
+          <ol>
+            <li class="ae"><span class="k num">41d</span><span class="lem"><span class="dev" lang="sa-Deva">प्रादुरासीद्</span><span class="lat" lang="sa-Latn">prādurāsīd</span></span><span class="br">]</span><span class="tag">Note</span>“appeared.” In the constituted text the miracle has no stated cause: Draupadī does not pray, and no god is named when the garments appear. In the hall scene, the only mention of Kṛṣṇa before it is Duḥśāsana’s taunt at 2.60.26. The starred insertions add prayers and credit Dharma; how they spread across the recensions is not settled here.</li>
+          </ol>
+        </aside>
+      </article>
+
+      <p class="bridge">Bhīma swears, in the middle of the kings, grinding one hand into the other.</p>
+
+      <!-- ===== passage C ===== -->
+      <article class="psg" aria-labelledby="pC">
+        <header class="ph">
+          <p class="ref num" id="pC"><span class="sc">Sabhā</span>2.61.44–46</p>
+          <p class="meta">Constituted text. Checked against the GRETIL/BORI typed text. Variant readings not collated.</p>
+          <p class="spk">Bhīma speaks.</p>
+        </header>
+        <div class="cols" aria-hidden="true"><span>Sanskrit</span><span>English</span></div>
+
+        <div class="v" data-ref="2.61.44" id="v2-61-44" role="group" aria-label="Verse 2.61.44">
+          <span class="vn num" aria-hidden="true">44</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">इदं मे वाक्यमादद्ध्वं क्षत्रिया लोकवासिनः ।</span><span class="lat" lang="sa-Latn">idaṃ me vākyam ādaddhvaṃ kṣatriyā lokavāsinaḥ</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">नोक्तपूर्वं नरैरन्यैर्न चान्यो यद्वदिष्यति ॥ ४४ ॥</span><span class="lat" lang="sa-Latn">noktapūrvaṃ narair anyair na cānyo yad vadiṣyati</span></span>
+          </div>
+          <p class="en">“Take up this word of mine, you warriors who dwell in the world — a thing never spoken before by other men, and which no other will speak after:</p>
+        </div>
+        <div class="v" data-ref="2.61.45" id="v2-61-45" role="group" aria-label="Verse 2.61.45">
+          <span class="vn num" aria-hidden="true">45</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">यद्येतदेवमुक्त्वा तु न कुर्यां पृथिवीश्वराः ।</span><span class="lat" lang="sa-Latn">yady etad evam uktvā tu na kuryāṃ pṛthivīśvarāḥ</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">पितामहानां सर्वेषां नाहं गतिमवाप्नुयाम् ॥ ४५ ॥</span><span class="lat" lang="sa-Latn">pitāmahānāṃ sarveṣāṃ nāhaṃ gatim avāpnuyām</span></span>
+          </div>
+          <p class="en">if, having said this, I do not do it, lords of the earth, may I not attain the destination of my ancestors.</p>
+        </div>
+        <div class="v" data-ref="2.61.46" id="v2-61-46" role="group" aria-label="Verse 2.61.46">
+          <span class="vn num" aria-hidden="true">46</span>
+          <div class="sa" lang="sa">
+            <span class="l"><span class="dev" lang="sa-Deva">अस्य पापस्य दुर्जातेर्भारतापसदस्य च ।</span><span class="lat" lang="sa-Latn">asya pāpasya durjāter bhāratāpasadasya ca</span></span>
+            <span class="l"><span class="dev" lang="sa-Deva">न पिबेयं बलाद्वक्षो भित्त्वा चेद्रुधिरं युधि ॥ ४६ ॥</span><span class="lat" lang="sa-Latn">na pibeyaṃ balād vakṣo bhittvā ced rudhiraṃ yudhi</span></span>
+          </div>
+          <p class="en">If I do not, in battle, break open the chest of this evil man, this low-born one, this outcast of the Bhāratas, and drink his blood by force —”</p>
+        </div>
+
+        <aside class="foot" aria-label="Apparatus to 2.61.44–46">
+          <h4>Apparatus</h4>
+          <p class="none">No entries for this passage.</p>
+        </aside>
+      </article>
+
+      <p class="bridge">When the heap of garments in the middle of the hall was piled high, Duḥśāsana sat down, exhausted and ashamed. Vidura raises both arms and makes a formal appeal.</p>
+    </section>
+  </main>
+</div>
+<p class="end">Mockup: one section, three passages. The published edition has 113.</p>
+</div>
+
+<!-- ============ dialogs ============ -->
+<dialog id="toc" class="sheet" aria-labelledby="toc-h">
+  <div class="dh"><h2 id="toc-h">Contents</h2><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="db" id="toc-body"></div>
+</dialog>
+
+<dialog id="view" class="sheet" aria-labelledby="view-h">
+  <div class="dh"><h2 id="view-h">View</h2><button class="x" type="button" data-close aria-label="Close">×</button></div>
+  <div class="db">
+    <div class="vrow">
+      <span class="lab">Script</span>
+      <div class="seg" role="group" aria-label="Script of the Sanskrit">
+        <button type="button" data-script="deva" aria-pressed="true" lang="sa-Deva">देवनागरी</button>
+        <button type="button" data-script="iast" aria-pressed="false">IAST</button>
+      </div>
+    </div>
+    <div class="vrow">
+      <span class="lab">Show</span>
+      <div class="tog" role="group" aria-label="Show layers">
+        <button type="button" data-layer="sa" aria-pressed="true">Sanskrit</button>
+        <button type="button" data-layer="en" aria-pressed="true">English</button>
+        <button type="button" data-layer="app" aria-pressed="true">Apparatus</button>
+      </div>
+    </div>
+    <div class="vrow">
+      <span class="lab">Theme</span>
+      <button class="plain" type="button" data-theme-toggle aria-label="Switch to dark theme"><span class="theme-ico" aria-hidden="true"></span><span class="tl">Dark</span></button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  var bar=document.querySelector('.bar');
+  var verses=[].slice.call(document.querySelectorAll('.v[data-ref]'));
+  function store(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+  function load(k){try{return localStorage.getItem(k)}catch(e){return null}}
+
+  /* keep the reader's place across a layout change */
+  function anchor(){
+    var top=bar.getBoundingClientRect().bottom+4;
+    for(var i=0;i<verses.length;i++){var r=verses[i].getBoundingClientRect(); if(r.bottom>top && r.height) return {el:verses[i],off:r.top};}
+    return null;
+  }
+  function keepPlace(fn){
+    var a=anchor(); fn();
+    if(a){var d=a.el.getBoundingClientRect().top-a.off; if(d) window.scrollBy(0,d);}
+  }
+
+  /* script */
+  function setScript(v){
+    root.setAttribute('data-script',v);
+    document.querySelectorAll('[data-script]').forEach(function(b){ if(b.tagName==='BUTTON') b.setAttribute('aria-pressed',String(b.dataset.script===v)); });
+  }
+  /* layers */
+  var layers={sa:true,en:true,app:true};
+  function applyLayers(){
+    Object.keys(layers).forEach(function(k){ root.toggleAttribute('data-hide-'+k,!layers[k]); });
+    document.querySelectorAll('[data-layer]').forEach(function(b){
+      b.setAttribute('aria-pressed',String(layers[b.dataset.layer]));
+      /* one of Sanskrit and English must stay on */
+      var last=(b.dataset.layer==='sa'&&!layers.en)||(b.dataset.layer==='en'&&!layers.sa);
+      b.disabled=last; b.style.opacity=last?'.5':'';
+    });
+  }
+  /* theme */
+  var mq=window.matchMedia('(prefers-color-scheme: dark)');
+  function isDark(){var t=root.getAttribute('data-theme'); return t?t==='dark':mq.matches;}
+  function paintTheme(){
+    var d=isDark();
+    document.querySelectorAll('[data-theme-toggle]').forEach(function(b){
+      b.querySelector('.tl').textContent=d?'Light':'Dark';
+      b.setAttribute('aria-label','Switch to '+(d?'light':'dark')+' theme');
+    });
+  }
+
+  var s=load('mbh-script'); if(s==='iast'||s==='deva') setScript(s);
+  var t=load('mbh-theme'); if(t==='light'||t==='dark') root.setAttribute('data-theme',t);
+  try{var L=JSON.parse(load('mbh-layers')||'null'); if(L) layers=Object.assign(layers,L);}catch(e){}
+  applyLayers(); paintTheme();
+  if(mq.addEventListener) mq.addEventListener('change',paintTheme);
+
+  /* contents sheet reuses the contents list */
+  document.getElementById('toc-body').innerHTML=document.getElementById('toc-src').innerHTML;
+
+  document.addEventListener('click',function(e){
+    var b=e.target.closest('button,a'); if(!b) return;
+    if(b.matches('button[data-script]')){ keepPlace(function(){setScript(b.dataset.script)}); store('mbh-script',b.dataset.script); }
+    else if(b.matches('[data-layer]')){ keepPlace(function(){layers[b.dataset.layer]=!layers[b.dataset.layer]; applyLayers();}); store('mbh-layers',JSON.stringify(layers)); }
+    else if(b.matches('[data-theme-toggle]')){ var n=isDark()?'light':'dark'; root.setAttribute('data-theme',n); store('mbh-theme',n); paintTheme(); }
+    else if(b.matches('[data-open]')){ var d=document.getElementById(b.dataset.open); if(d.showModal) d.showModal(); }
+    else if(b.matches('[data-close]')){ b.closest('dialog').close(); }
+    else if(b.closest('#toc') && b.tagName==='A'){ document.getElementById('toc').close(); }
+  });
+  document.querySelectorAll('dialog').forEach(function(d){
+    d.addEventListener('click',function(e){ if(e.target===d) d.close(); });
+  });
+
+  /* current reference in the bar */
+  var cur=document.getElementById('curref'), refbtn=document.querySelector('.refbtn'), ticking=false;
+  function track(){
+    ticking=false; var a=anchor(); if(!a) return;
+    var r=a.el.dataset.ref; if(cur.textContent!==r){ cur.textContent=r; refbtn.setAttribute('aria-label','Contents. Current verse: '+r); }
+  }
+  window.addEventListener('scroll',function(){ if(!ticking){ticking=true; requestAnimationFrame(track);} },{passive:true});
+  track();
+})();
+</script>
+</body>
+</html>
