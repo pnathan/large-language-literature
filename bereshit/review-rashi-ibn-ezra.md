@@ -177,9 +177,10 @@ A workflow ran four reviews and a skeptic per review over the whole edition:
   - 4:15 Sforno separated from Radak (his vengeance falls on Qayin, in the seventh generation);
   - apparatus: Radak on בָּרָא separated from Ramban; Ramban at 1:26; the VL plus at 1:14 shown in
     full; the Latin at 1:9; the siglum Lᴹ.
-- **Not applied, for the owner.** The Fable reviews report runs of seven or more words shared with
+- **Kept by the owner's decision (2026-10-15).** The Fable reviews report runs of seven or more words shared with
   published translations. The skeptic rejected all of them as resting on recall, and most are
   forced by the Hebrew. Two would also be closer to the Hebrew:
   - 1:29 'every tree that has fruit with seed in it' (a decided phrase): the Hebrew is 'every tree
     in which is tree-fruit seeding seed'.
   - 3:10 'I heard your voice in the garden': the Hebrew puts the object first, 'your voice I heard'.
+  The owner kept both as they stand.
