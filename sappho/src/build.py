@@ -86,11 +86,64 @@ def render_witnesses(witnesses):
     )
 
 
-def render_variants(variants):
-    if not variants or not variants.strip():
+def render_vrec(rec):
+    """One lemma-style variant record: line, lemma, readings (text + sigla), optional note."""
+    head = []
+    if rec.get("line") not in (None, ""):
+        head.append(f'<span class="vline">l. {esc(str(rec["line"]))}</span>')
+    if rec.get("lemma"):
+        head.append(f'<span class="vlemma">{esc(rec["lemma"])}</span>')
+    readings = "".join(
+        f'<li><span class="vtext">{esc(r.get("text", ""))}</span>'
+        + (f'<span class="vsig">{esc("; ".join(r.get("sigla", [])))}</span>' if r.get("sigla") else "")
+        + "</li>"
+        for r in rec.get("readings", [])
+    )
+    note = rec.get("note")
+    return (
+        '<div class="vrec">'
+        + (f'<div class="vhead">{" ".join(head)}</div>' if head else "")
+        + f"<ul>{readings}</ul>"
+        + (f'<p class="vnote">{esc(note)}</p>' if note else "")
+        + "</div>"
+    )
+
+
+def render_variants(variants, notes):
+    if not variants and not notes:
         return ""
-    paras = "".join(f"<p>{esc(p)}</p>" for p in variants.split("\n\n") if p.strip())
-    return f'<details class="variants"><summary>Textual variants</summary>{paras}</details>'
+    body = "".join(f"<p>{esc(p)}</p>" for p in notes) + "".join(render_vrec(r) for r in variants)
+    return f'<details class="variants"><summary>Textual variants</summary>{body}</details>'
+
+
+def render_modern(modern):
+    """Modern editions consulted: not witnesses, not counted."""
+    if not modern:
+        return ""
+    removed = modern.get("witnesses_removed", [])
+    mvars = modern.get("variants", [])
+    if not removed and not mvars:
+        return ""
+    items = []
+    for w in removed:
+        src = esc(w.get("source", ""))
+        edition = esc(w.get("edition", ""))
+        url = w.get("url", "")
+        link = f'<a href="{html.escape(url)}">{src}</a>' if url else src
+        items.append(
+            f'<li><span class="wsrc">{link}</span>'
+            + (f'<span class="wed">{edition}</span>' if edition else "")
+            + "</li>"
+        )
+    body = (
+        '<p class="mintro">Modern editions, compilations and transcriptions consulted. '
+        "They are not witnesses and are not counted above; readings found only in them are kept here.</p>"
+    )
+    if items:
+        body += "<ul>" + "".join(items) + "</ul>"
+    if mvars:
+        body += '<p class="mintro">Readings attested only in modern editions:</p>' + "".join(render_vrec(r) for r in mvars)
+    return f'<details class="modern"><summary>Modern editions (not witnesses)</summary>{body}</details>'
 
 
 def render_lines(lines):
@@ -111,7 +164,8 @@ def render_fragment(i, t, frag):
     tnote = t.get("translator_note", "")
     tnote_html = f'<p class="tnote"><span class="lbl">Translator&rsquo;s note.</span> {esc(tnote)}</p>' if tnote and tnote.strip() else ""
     witnesses_html = render_witnesses(frag.get("witnesses", []))
-    variants_html = render_variants(frag.get("variants", ""))
+    variants_html = render_variants(frag.get("variants", []), frag.get("variants_notes", []))
+    modern_html = render_modern(frag.get("modern_editions"))
     review = t.get("fable_review") or {}
     revised_badge = '<span class="badge" title="Flagged by Fable review, then revised">revised after review</span>' if review.get("revised") else ""
 
@@ -126,6 +180,7 @@ def render_fragment(i, t, frag):
   <div class="apparatus">
     {witnesses_html}
     {variants_html}
+    {modern_html}
     {revised_badge}
   </div>
 </section>
@@ -323,6 +378,15 @@ main{{max-width:760px;margin:0 auto;padding:40px 24px 96px}}
 .wed{{display:block;color:var(--text-light);font-size:.92em;margin-top:2px}}
 .wnote{{display:block;color:var(--text-light);font-size:.9em;margin-top:2px;line-height:1.5}}
 .variants p{{margin-top:8px;line-height:1.6}}
+.vrec{{margin-top:10px;padding-left:12px;border-left:2px solid var(--card-border)}}
+.vrec ul{{margin-top:4px}}
+.vrec li{{padding:2px 0;border-left:0;margin-bottom:0}}
+.vline{{color:var(--text-light);margin-right:8px}}
+.vlemma{{color:var(--text)}}
+.vtext{{color:var(--text)}}
+.vsig{{color:var(--text-light);margin-left:8px;font-size:.92em}}
+.vnote{{margin-top:4px;color:var(--text-light);font-size:.9em;line-height:1.5}}
+.mintro{{margin-top:8px;color:var(--text-light);line-height:1.5}}
 .badge{{
   display:inline-block;
   margin-top:10px;
