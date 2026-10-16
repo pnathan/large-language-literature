@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="en" data-k="on" data-e="on" data-a="on" data-kmode="run">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Popol Vuh Mockup</title>
+<meta name="description" content="Design mockup for the Popol Vuh edition: contents, one passage in K'iche', English and apparatus, light and dark themes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<script>
+/* Apply stored reading state before first paint. Every access is guarded. */
+(function(){var H=document.documentElement;try{var s=JSON.parse(localStorage.getItem('pv-mockup')||'{}');
+['k','e','a','kmode'].forEach(function(x){if(s[x])H.setAttribute('data-'+x,s[x]);});
+if(s.theme==='light'||s.theme==='dark')H.setAttribute('data-theme',s.theme);}catch(_){}})();
+</script>
+<style>
+/* ---------- tokens ---------- */
+:root{
+  color-scheme:light;
+  --paper:#F4EFE3;   /* laid paper */
+  --leaf:#FAF7F0;    /* raised surface: sheet, open apparatus */
+  --ink:#231C14;     /* iron-gall black */
+  --ink-2:#4C4032;   /* secondary text, Spanish, notes */
+  --ink-3:#6B5D49;   /* labels, line numbers, control borders */
+  --rubric:#9A2B1B;  /* rubrication: part labels, folio marks, current item */
+  --rule:#D6CAB2;    /* hairlines */
+  --wash:#E9E0CC;    /* hover and quiet fills */
+  --bar-h:60px;
+  --colh-h:52px;
+  --gut:4.5rem;
+  --serif:'EB Garamond','Noto Serif',Georgia,serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#16130F;
+    --leaf:#1E1A15;
+    --ink:#EAE1CF;
+    --ink-2:#C3B69D;
+    --ink-3:#9E917A;
+    --rubric:#E3907A;
+    --rule:#3A3329;
+    --wash:#29231C;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#16130F;
+  --leaf:#1E1A15;
+  --ink:#EAE1CF;
+  --ink-2:#C3B69D;
+  --ink-3:#9E917A;
+  --rubric:#E3907A;
+  --rule:#3A3329;
+  --wash:#29231C;
+}
+
+/* ---------- base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--bar-h) + 16px)}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:19px;line-height:1.6;
+  font-variant-numeric:oldstyle-nums;
+  -webkit-font-smoothing:antialiased;
+  overflow-wrap:break-word;
+}
+p{margin:0}
+a{color:inherit;text-decoration-color:var(--rule);text-underline-offset:.18em}
+a:hover{text-decoration-color:var(--rubric)}
+:focus-visible{outline:2px solid var(--rubric);outline-offset:2px;border-radius:2px}
+::selection{background:var(--rubric);color:var(--paper)}
+button{font:inherit;color:inherit}
+.sc{font-variant-caps:all-small-caps;letter-spacing:.07em;font-variant-numeric:lining-nums}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:16px;top:-60px;background:var(--ink);color:var(--paper);padding:10px 14px;z-index:50}
+.skip:focus{top:8px}
+
+/* ---------- sticky bar ---------- */
+.bar{position:sticky;top:0;z-index:20;height:var(--bar-h);background:var(--paper);border-bottom:1px solid var(--rule)}
+.bar-in{max-width:1360px;height:100%;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:12px}
+.brand{font-variant-caps:all-small-caps;letter-spacing:.12em;font-size:20px;text-decoration:none;white-space:nowrap;padding:8px 0}
+.here{
+  display:inline-flex;flex-direction:column;justify-content:center;align-items:flex-start;
+  min-height:44px;min-width:92px;padding:2px 12px;border:1px solid var(--ink-3);border-radius:6px;
+  background:transparent;cursor:pointer;line-height:1.15;text-align:left;
+  font-variant-numeric:lining-nums tabular-nums;
+}
+.here:hover{background:var(--wash)}
+.here-s{font-size:16px;font-weight:500}
+.here-f{font-size:13px;color:var(--rubric)}
+.bar-sp{flex:1}
+.regs{display:flex;gap:6px}
+.tg{
+  display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;
+  border:1px solid var(--rule);border-radius:6px;background:transparent;cursor:pointer;font-size:17px;
+}
+.tg::before{content:"";width:11px;height:11px;border:1.5px solid var(--ink-3);border-radius:2px}
+.tg[aria-pressed="true"]{border-color:var(--ink-3)}
+.tg[aria-pressed="true"]::before{background:var(--ink);border-color:var(--ink)}
+.tg[aria-pressed="false"]{color:var(--ink-3)}
+.tg:hover{background:var(--wash)}
+.tg[aria-disabled="true"]{cursor:not-allowed}
+.theme-btn{min-height:44px;padding:0 14px;border:1px solid var(--rule);border-radius:6px;background:transparent;cursor:pointer;font-size:17px;white-space:nowrap}
+.theme-btn:hover{background:var(--wash)}
+
+/* segmented controls (phone register switch, sheet settings) */
+.seg{display:flex;border:1px solid var(--ink-3);border-radius:6px;overflow:hidden}
+.seg button{
+  flex:1 1 0;min-width:0;min-height:44px;padding:0 6px;border:0;border-left:1px solid var(--ink-3);
+  background:transparent;cursor:pointer;font-size:16px;white-space:nowrap;
+}
+.seg button:first-child{border-left:0}
+.seg button[aria-checked="true"]{background:var(--ink);color:var(--paper)}
+.bar .seg{display:none;flex:1}
+
+/* ---------- section jump sheet ---------- */
+#jump{
+  position:fixed;inset:calc(var(--bar-h) + 8px) auto auto 50%;transform:translateX(-50%);margin:0;
+  width:min(680px,calc(100vw - 32px));max-height:calc(100dvh - var(--bar-h) - 24px);overflow:auto;
+  background:var(--leaf);color:var(--ink);border:1px solid var(--ink-3);border-radius:8px;padding:8px 20px 20px;
+  box-shadow:0 12px 40px rgba(0,0,0,.18);
+}
+#jump::backdrop{background:rgba(20,15,10,.28)}
+.j-top{display:flex;align-items:center;justify-content:space-between;gap:12px;position:sticky;top:-8px;background:var(--leaf);padding:8px 0;z-index:1}
+.j-top h2{margin:0;font-size:22px;font-weight:500}
+.j-close{min-width:44px;min-height:44px;border:1px solid var(--rule);border-radius:6px;background:transparent;cursor:pointer;font-size:16px;padding:0 12px}
+.j-part{margin-top:14px}
+.j-h{font-size:16px;margin-bottom:6px;color:var(--ink-2)}
+.j-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(46px,1fr));gap:6px}
+.j-grid a{
+  display:flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--rule);border-radius:5px;
+  text-decoration:none;font-size:17px;font-variant-numeric:lining-nums tabular-nums;
+}
+.j-grid a:hover{background:var(--wash);border-color:var(--ink-3)}
+.j-grid a[aria-current]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.j-set{margin-top:20px;border-top:1px solid var(--rule);padding-top:12px;display:grid;gap:12px}
+.j-set .row{display:grid;grid-template-columns:8.5rem 1fr;align-items:center;gap:12px}
+.j-set .lab{font-size:16px;color:var(--ink-2)}
+.j-set .row.app-row{display:none}
+.j-foot{margin-top:16px;font-size:16px}
+.j-foot a{display:inline-flex;align-items:center;min-height:44px}
+
+/* ---------- title block ---------- */
+.wrap{max-width:1360px;margin:0 auto;padding:0 24px}
+.back{display:inline-flex;align-items:center;min-height:44px;margin-top:8px;font-size:16px;color:var(--ink-2);text-decoration:none}
+.title{max-width:1100px;margin:0 auto;padding:28px 0 8px;text-align:center}
+.title h1{margin:0;font-weight:500;font-size:44px;line-height:1.1;font-variant-caps:all-small-caps;letter-spacing:.14em}
+.title .sub{margin-top:8px;font-size:18px;color:var(--ink-2);font-style:italic}
+.inc{margin:36px auto 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;text-align:left;border-top:1px solid var(--ink-3);border-bottom:1px solid var(--rule)}
+.inc > div{padding:16px 20px 18px}
+.inc > div + div{border-left:1px solid var(--rule)}
+.inc .lab{font-size:15px;color:var(--ink-3);margin-bottom:6px}
+.inc .lab b{font-weight:500;color:var(--rubric)}
+.inc p{font-size:20px;line-height:1.45}
+.inc .caps{letter-spacing:.06em}
+.inc-cap{margin-top:10px;font-size:15px;color:var(--ink-3);font-style:italic}
+.note{max-width:40rem;margin:32px auto 0;text-align:left;font-size:17px;line-height:1.6;color:var(--ink-2)}
+.note h2{font-size:15px;font-weight:500;color:var(--rubric);margin:0 0 6px}
+.note p + p{margin-top:10px}
+
+/* ---------- contents ---------- */
+#contents{max-width:46rem;margin:56px auto 0}
+.sec-h{text-align:center;font-weight:500;font-size:28px;margin:0 0 6px}
+.sec-sub{text-align:center;font-size:16px;color:var(--ink-3);margin-bottom:20px}
+.c-part{margin-top:28px}
+.c-part h3{margin:0;font-size:22px;font-weight:500;display:flex;gap:12px;align-items:baseline}
+.c-rom{color:var(--rubric);font-variant-caps:all-small-caps;letter-spacing:.08em;font-variant-numeric:lining-nums;min-width:1.6rem;display:inline-block}
+.c-gloss{font-size:16px;font-style:italic;color:var(--ink-2);margin:2px 0 8px calc(1.6rem + 12px)}
+.c-part ol{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.c-part li a{
+  display:grid;grid-template-columns:2.4rem minmax(0,1fr) auto;align-items:baseline;column-gap:4px;
+  min-height:44px;padding:9px 0;border-bottom:1px solid var(--rule);text-decoration:none;font-size:18px;line-height:1.35;
+}
+.c-part li a:hover{background:var(--wash)}
+.c-n{font-variant-numeric:lining-nums tabular-nums;color:var(--ink-3);font-size:15px}
+.c-t{display:flex;align-items:baseline}
+.c-t::after{content:"";flex:1 1 1rem;min-width:1rem;margin:0 .5rem;border-bottom:1px dotted var(--ink-3);transform:translateY(-.3em)}
+.c-f{font-variant-numeric:lining-nums tabular-nums;font-size:15px;color:var(--ink-2);text-align:right;min-width:2.6rem}
+.c-part a[aria-current] .c-n,.c-part a[aria-current] .c-f{color:var(--rubric)}
+.c-key{margin-top:14px;font-size:15px;color:var(--ink-3);text-align:center}
+
+/* ---------- passage ---------- */
+.passage{margin-top:72px}
+.ph{max-width:46rem;margin:0 auto 24px;text-align:center}
+.ph .part{font-size:16px;color:var(--rubric)}
+.ph h2{margin:4px 0 0;font-weight:500;font-size:32px;line-height:1.2}
+.ph .meta{margin-top:6px;font-size:16px;color:var(--ink-2);font-variant-numeric:lining-nums}
+.tnote{max-width:46rem;margin:14px auto 0;text-align:left}
+
+/* block grid: gutter | K'iche' | English | apparatus */
+.blk,.colh{
+  display:grid;column-gap:40px;
+  grid-template-columns:var(--gut) minmax(0,1fr) minmax(0,1.12fr) 19rem;
+  grid-template-areas:"gut k e app";
+}
+html[data-a="off"] .blk,html[data-a="off"] .colh{grid-template-columns:var(--gut) minmax(0,30rem) minmax(0,33rem);grid-template-areas:"gut k e";justify-content:center;column-gap:48px}
+html[data-k="off"] .blk,html[data-k="off"] .colh{grid-template-columns:var(--gut) minmax(0,36rem) 19rem;grid-template-areas:"gut e app";justify-content:center}
+html[data-e="off"] .blk,html[data-e="off"] .colh{grid-template-columns:var(--gut) minmax(0,36rem) 19rem;grid-template-areas:"gut k app";justify-content:center}
+html[data-k="off"][data-a="off"] .blk,html[data-k="off"][data-a="off"] .colh{grid-template-columns:var(--gut) minmax(0,36rem);grid-template-areas:"gut e"}
+html[data-e="off"][data-a="off"] .blk,html[data-e="off"][data-a="off"] .colh{grid-template-columns:var(--gut) minmax(0,36rem);grid-template-areas:"gut k"}
+html[data-k="off"] .reg-k,html[data-e="off"] .reg-e,html[data-a="off"] .reg-a{display:none!important}
+
+.colh{position:sticky;top:var(--bar-h);z-index:5;background:var(--paper);border-bottom:1px solid var(--ink-3);min-height:var(--colh-h);align-items:center}
+.colh > div{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:15px;color:var(--ink-3)}
+.colh .ch-k{grid-area:k}.colh .ch-e{grid-area:e}.colh .ch-a{grid-area:app}.colh .ch-g{grid-area:gut}
+.colh b{font-weight:500;color:var(--ink);font-size:17px}
+.kmode{display:flex;border:1px solid var(--rule);border-radius:6px;overflow:hidden;flex:none}
+.kmode button{min-height:44px;padding:0 10px;border:0;background:transparent;cursor:pointer;font-size:15px;color:var(--ink-2)}
+.kmode button + button{border-left:1px solid var(--rule)}
+.kmode button[aria-checked="true"]{background:var(--wash);color:var(--ink);box-shadow:inset 0 -2px 0 var(--rubric)}
+
+.blk{padding:28px 0 32px;border-bottom:1px solid var(--rule)}
+.gut{grid-area:gut}
+.gut-in{position:sticky;top:calc(var(--bar-h) + var(--colh-h) + 14px);display:flex;flex-direction:column;align-items:flex-end;text-align:right;font-variant-numeric:lining-nums}
+.gut-f{color:var(--rubric);font-size:17px;line-height:1.2}
+.gut-p{color:var(--ink-3);font-size:14px}
+.bh{display:none}
+.k{grid-area:k;min-width:0}
+.e{grid-area:e;min-width:0;hyphens:auto}
+.app{grid-area:app;min-width:0}
+.rl{display:none}
+
+/* K'iche' running text */
+.k-run p,.e p{font-size:19px;line-height:1.62}
+.e p + p{text-indent:1.4em}
+.k-run p + p{margin-top:.5em}
+.k-run{hyphens:manual}
+.pid{font-size:13px;color:var(--ink-3);font-variant-numeric:lining-nums tabular-nums;letter-spacing:.02em;margin-right:.55em;text-indent:0;display:inline-block}
+.fb{font-size:14px;color:var(--rubric);font-variant-numeric:lining-nums;white-space:nowrap;border-left:1px solid var(--rubric);padding-left:.35em;margin:0 .1em}
+html[data-kmode="run"] .k-lines{display:none}
+html[data-kmode="lines"] .k-run{display:none}
+
+/* K'iche' as written: margin | line no. | line */
+.k-lines{list-style:none;margin:0;padding:0;font-size:17.5px;line-height:1.55}
+.k-lines li{display:grid;grid-template-columns:4.6rem 1.7rem minmax(0,1fr);column-gap:8px;position:relative}
+.mgc{grid-column:1;position:absolute;left:0;top:0;width:4.6rem;padding-right:4px;text-align:right;font-style:italic;font-size:13px;line-height:1.25;color:var(--ink-2);padding-top:.25em}
+.mg{display:block}
+.ln{grid-column:2;text-align:right;font-size:12.5px;color:var(--ink-3);font-variant-numeric:lining-nums tabular-nums;padding-top:.3em}
+.ln[data-hide]{visibility:hidden}
+.lt{grid-column:3}
+.hy{color:var(--ink-3);margin-left:.15em}
+.k-lines .kl-p{display:block;margin:10px 0 2px calc(4.6rem + 1.7rem + 16px)}
+.k-lines .kl-p:first-child{margin-top:0}
+.k-lines .kl-fb{display:flex;align-items:center;gap:10px;margin:8px 0;font-size:14px;color:var(--rubric);font-variant-numeric:lining-nums}
+.k-lines .kl-fb::before,.k-lines .kl-fb::after{content:"";flex:1;border-top:1px solid var(--rubric);opacity:.45}
+
+/* apparatus */
+.app{font-size:15.5px;line-height:1.5;color:var(--ink-2)}
+.app > summary{list-style:none;cursor:pointer;display:flex;flex-direction:column;justify-content:center;min-height:44px;padding:4px 0 6px;border-bottom:1px solid var(--rule)}
+.app > summary::-webkit-details-marker{display:none}
+.app-t{font-variant-caps:all-small-caps;letter-spacing:.08em;color:var(--rubric);font-size:16px}
+.app-t::before{content:"▸";display:inline-block;width:1em;color:var(--ink-3);font-variant-caps:normal}
+.app[open] > summary .app-t::before{content:"▾"}
+.app-s{font-size:14px;color:var(--ink-3);font-variant-numeric:lining-nums}
+.app-b{padding-top:8px}
+.app h4{margin:14px 0 4px;font-weight:500;font-size:15px;color:var(--ink);font-variant-caps:all-small-caps;letter-spacing:.07em}
+.app h4:first-child{margin-top:4px}
+.h4n{font-variant-caps:normal;letter-spacing:0;font-weight:400;color:var(--ink-3);font-size:13.5px;margin-left:.3em}
+.app ul{list-style:none;margin:0;padding:0}
+.app li{padding:3px 0;border-bottom:1px dotted var(--rule)}
+.app li:last-child{border-bottom:0}
+.loc{color:var(--rubric);font-variant-numeric:lining-nums;font-size:14px;margin-right:.3em}
+.mtx{font-style:italic;color:var(--ink)}
+.kind{display:block;font-size:13.5px;color:var(--ink-3)}
+.ms{color:var(--ink)}
+.arr{color:var(--ink-3)}
+.nk{color:var(--ink-2)}
+.app p{font-variant-numeric:lining-nums}
+.sp{margin-top:12px;border-top:1px solid var(--rule)}
+.sp > summary,.tnote > summary{cursor:pointer;min-height:44px;display:flex;align-items:center;gap:.5em;color:var(--ink);list-style:none}
+.sp > summary::-webkit-details-marker,.tnote > summary::-webkit-details-marker{display:none}
+.sp > summary::before,.tnote > summary::before{content:"▸";color:var(--ink-3)}
+.sp[open] > summary::before,.tnote[open] > summary::before{content:"▾"}
+.sp p{margin-top:8px;color:var(--ink);font-size:15.5px}
+.sp p.h4n{margin:0 0 4px;font-size:13.5px;color:var(--ink-3)}
+.sp + .sp{border-top:1px solid var(--rule);margin-top:0}
+.tnote{font-size:16px;line-height:1.55;color:var(--ink-2);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.tnote > summary{justify-content:center}
+.tnote > summary span{font-variant-caps:all-small-caps;letter-spacing:.08em;color:var(--rubric)}
+.tnote p{padding:4px 0 14px}
+
+.pnav{display:flex;justify-content:space-between;gap:16px;margin:20px 0 0;font-size:17px}
+.pnav a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;border-bottom:1px solid var(--rule)}
+.pnav a:hover{border-color:var(--rubric)}
+
+footer{max-width:46rem;margin:72px auto 0;padding:24px 0 56px;border-top:1px solid var(--rule);text-align:center;font-size:16px;color:var(--ink-3)}
+footer a{display:inline-flex;align-items:center;min-height:44px}
+
+/* ---------- tablet: apparatus drops below each block ---------- */
+@media (max-width:1199.98px){
+  .blk,.colh{grid-template-columns:var(--gut) minmax(0,1fr) minmax(0,1.12fr);grid-template-areas:"gut k e" "gut app app"}
+  html[data-a="off"] .blk,html[data-a="off"] .colh{grid-template-columns:var(--gut) minmax(0,1fr) minmax(0,1.12fr);grid-template-areas:"gut k e"}
+  html[data-k="off"] .blk,html[data-k="off"] .colh{grid-template-columns:var(--gut) minmax(0,36rem);grid-template-areas:"gut e" "gut app"}
+  html[data-e="off"] .blk,html[data-e="off"] .colh{grid-template-columns:var(--gut) minmax(0,36rem);grid-template-areas:"gut k" "gut app"}
+  .colh .ch-a{display:none}
+  .app{margin-top:18px}
+  .app > summary{border:1px solid var(--rule);border-radius:6px;padding:4px 12px 6px}
+  .app[open] > summary{border-radius:6px 6px 0 0}
+  .app-b{border:1px solid var(--rule);border-top:0;border-radius:0 0 6px 6px;padding:4px 14px 12px;background:var(--leaf)}
+  .inc{grid-template-columns:1fr}
+  .inc > div + div{border-left:0;border-top:1px solid var(--rule)}
+}
+@media (max-width:1040px){ .regs .tg{padding:0 10px;font-size:16px} .brand{display:none} }
+
+/* ---------- phone ---------- */
+@media (max-width:759.98px){
+  :root{--bar-h:60px}
+  body{font-size:18px}
+  .bar-in,.wrap{padding:0 16px}
+  .bar-in{gap:8px}
+  .brand,.regs,.theme-btn,.bar-sp{display:none}
+  .bar .seg{display:flex}
+  .here{min-width:84px;padding:2px 10px}
+  .j-set .row.app-row{display:grid}
+  .j-set .row{grid-template-columns:1fr}
+  .colh{display:none}
+  .blk,html[data-a] .blk{display:block;padding:20px 0 24px}
+  .gut{display:none}
+  .bh{display:flex;justify-content:space-between;font-size:15px;color:var(--rubric);font-variant-numeric:lining-nums;margin-bottom:10px}
+  .bh span + span{color:var(--ink-3)}
+  html[data-k="on"][data-e="on"] .rl{display:block;font-size:14px;color:var(--ink-3);font-variant-caps:all-small-caps;letter-spacing:.08em;margin-bottom:2px}
+  html[data-k="on"][data-e="on"] .e{margin-top:18px;padding-top:12px;border-top:1px dotted var(--rule)}
+  .k-run p,.e p{font-size:18px;line-height:1.6}
+  .k-lines{font-size:17px}
+  .k-lines li{grid-template-columns:3.6rem 1.5rem minmax(0,1fr);column-gap:6px}
+  .k-lines .kl-p{margin-left:calc(3.6rem + 1.5rem + 12px)}
+  .mgc{font-size:12px}
+  .title{padding-top:16px}
+  .title h1{font-size:34px}
+  .inc p{font-size:18px}
+  .inc > div{padding:14px 0 16px}
+  .note{font-size:16.5px}
+  .c-part li a{font-size:17px;grid-template-columns:2rem minmax(0,1fr) auto}
+  .c-gloss{margin-left:0}
+  .c-t::after{display:none}
+  .c-part h3{line-height:1.25;font-size:21px}
+  .ph h2{font-size:27px}
+  .pnav{flex-direction:column;gap:4px}
+}
+@media (min-width:1200px){
+  .app-t{display:none}
+  .app-s::before{content:"▸\2002";color:var(--ink-3)}
+  .app[open] .app-s::before{content:"▾\2002"}
+}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+<a class="skip" href="#s01">Skip to the text</a>
+
+<header class="bar">
+  <div class="bar-in">
+    <a class="brand" href="#top">Popol Vuh</a>
+    <button class="here" type="button" popovertarget="jump" aria-haspopup="dialog" aria-label="Go to section">
+      <span class="here-s" id="here-s">Contents</span><span class="here-f" id="here-f">fol. —</span>
+    </button>
+    <div class="seg" role="radiogroup" aria-label="Text shown">
+      <button type="button" role="radio" data-seg="k" aria-checked="false">K'iche'</button>
+      <button type="button" role="radio" data-seg="e" aria-checked="false">English</button>
+      <button type="button" role="radio" data-seg="both" aria-checked="true">Both</button>
+    </div>
+    <span class="bar-sp"></span>
+    <div class="regs" role="group" aria-label="Registers">
+      <button type="button" class="tg" data-reg="k" aria-pressed="true">K'iche'</button>
+      <button type="button" class="tg" data-reg="e" aria-pressed="true">English</button>
+      <button type="button" class="tg" data-reg="a" aria-pressed="true">Apparatus</button>
+    </div>
+    <button type="button" class="theme-btn" id="theme-cycle" aria-label="Colour theme: follow system">Theme: Auto</button>
+  </div>
+</header>
+
+<div id="jump" popover role="dialog" aria-labelledby="jump-h">
+  <div class="j-top"><h2 id="jump-h">Go to section</h2><button type="button" class="j-close" popovertarget="jump" popovertargetaction="hide">Close</button></div>
+  <div class="j-part"><p class="j-h"><span class="c-rom">I</span> Creation</p><div class="j-grid"><a href="#s01" aria-label="§01 Prologue and the divine makers" title="Prologue and the divine makers" aria-current="true">01</a><a href="#c-s02" aria-label="§02 The naming of the animals" title="The naming of the animals">02</a><a href="#c-s03" aria-label="§03 The mud people and the wood people: two failed creations" title="The mud people and the wood people: two failed creations">03</a></div></div><div class="j-part"><p class="j-h"><span class="c-rom">II</span> The Hero Twins and the Lords of Xibalba</p><div class="j-grid"><a href="#c-s04" aria-label="§04 Wuqub&#x27; Kaqix, Sipakna, and Kab&#x27;raqan" title="Wuqub&#x27; Kaqix, Sipakna, and Kab&#x27;raqan">04</a><a href="#c-s05" aria-label="§05 Hunahpu and Xb&#x27;alanke move against Seven Macaw&#x27;s household" title="Hunahpu and Xb&#x27;alanke move against Seven Macaw&#x27;s household">05</a><a href="#c-s06" aria-label="§06 Sipakna and the four hundred youths" title="Sipakna and the four hundred youths">06</a><a href="#c-s07" aria-label="§07 Kab&#x27;raqan brought low" title="Kab&#x27;raqan brought low">07</a><a href="#c-s08" aria-label="§08 Jun Hunahpu, Wuqub&#x27; Hunahpu, and their sons Jun B&#x27;atz&#x27;/Jun Chowen" title="Jun Hunahpu, Wuqub&#x27; Hunahpu, and their sons Jun B&#x27;atz&#x27;/Jun Chowen">08</a><a href="#c-s09" aria-label="§09 The ballcourt and the summons of the Xibalba lords" title="The ballcourt and the summons of the Xibalba lords">09</a><a href="#c-s10" aria-label="§10 The Xibalba trial-houses and the death of the elder twins" title="The Xibalba trial-houses and the death of the elder twins">10</a><a href="#c-s11" aria-label="§11 Ixkik&#x27; and the calabash tree" title="Ixkik&#x27; and the calabash tree">11</a><a href="#c-s12" aria-label="§12 Ixkik&#x27; brought before Xmukane" title="Ixkik&#x27; brought before Xmukane">12</a><a href="#c-s13" aria-label="§13 Birth of Hunahpu and Xb&#x27;alanke" title="Birth of Hunahpu and Xb&#x27;alanke">13</a><a href="#c-s14" aria-label="§14 The younger twins as hunters" title="The younger twins as hunters">14</a><a href="#c-s15" aria-label="§15 Jun B&#x27;atz&#x27; and Jun Chowen transformed" title="Jun B&#x27;atz&#x27; and Jun Chowen transformed">15</a><a href="#c-s16" aria-label="§16 The ballgame equipment recovered; renewed summons to Xibalba" title="The ballgame equipment recovered; renewed summons to Xibalba">16</a><a href="#c-s17" aria-label="§17 The road to Xibalba and the first trial-houses" title="The road to Xibalba and the first trial-houses">17</a><a href="#c-s18" aria-label="§18 Further trial-houses" title="Further trial-houses">18</a><a href="#c-s19" aria-label="§19 The twins outwit the lords of Xibalba" title="The twins outwit the lords of Xibalba">19</a><a href="#c-s20" aria-label="§20 Defeat of Jun Kame&#x27; and Wuqub&#x27; Kame&#x27;" title="Defeat of Jun Kame&#x27; and Wuqub&#x27; Kame&#x27;">20</a></div></div><div class="j-part"><p class="j-h"><span class="c-rom">III</span> The Maize People</p><div class="j-grid"><a href="#c-s21" aria-label="§21 Paxil and K&#x27;ayala&#x27;: discovery of maize; the first four men and women" title="Paxil and K&#x27;ayala&#x27;: discovery of maize; the first four men and women">21</a><a href="#c-s22" aria-label="§22 The K&#x27;iche&#x27; lineages and their patron gods Tojil, Awilix, Jaqawitz" title="The K&#x27;iche&#x27; lineages and their patron gods Tojil, Awilix, Jaqawitz">22</a><a href="#c-s23" aria-label="§23 Departure from Tulan; the long migration" title="Departure from Tulan; the long migration">23</a><a href="#c-s24" aria-label="§24 Multiplication of languages, separation of the peoples" title="Multiplication of languages, separation of the peoples">24</a><a href="#c-s25" aria-label="§25 The wait for the dawn" title="The wait for the dawn">25</a><a href="#c-s26" aria-label="§26 Events preceding first light" title="Events preceding first light">26</a><a href="#c-s27" aria-label="§27 First dawn; the hardening of the stone gods" title="First dawn; the hardening of the stone gods">27</a></div></div><div class="j-part"><p class="j-h"><span class="c-rom">IV</span> Migrations and the Genealogy of the K'iche' Lords</p><div class="j-grid"><a href="#c-s28" aria-label="§28 Balam Ki&#x27;tze&#x27; and the first patriarchs" title="Balam Ki&#x27;tze&#x27; and the first patriarchs">28</a><a href="#c-s29" aria-label="§29 Wives obtained; further wanderings" title="Wives obtained; further wanderings">29</a><a href="#c-s30" aria-label="§30 Ajpatan, Makujutaj, and the patriarchs&#x27; sons" title="Ajpatan, Makujutaj, and the patriarchs&#x27; sons">30</a><a href="#c-s31" aria-label="§31 K&#x27;oka&#x27;ib&#x27;, K&#x27;o&#x27;akutek, K&#x27;o&#x27;ajaw and the journey to Nakxit" title="K&#x27;oka&#x27;ib&#x27;, K&#x27;o&#x27;akutek, K&#x27;o&#x27;ajaw and the journey to Nakxit">31</a><a href="#c-s32" aria-label="§32 Chi Ismachi&#x27; and the early K&#x27;iche&#x27; rulers" title="Chi Ismachi&#x27; and the early K&#x27;iche&#x27; rulers">32</a><a href="#c-s33" aria-label="§33 Founding of Q&#x27;umarkaj (Utatlan); the titled offices" title="Founding of Q&#x27;umarkaj (Utatlan); the titled offices">33</a><a href="#c-s34" aria-label="§34 Generations and offices of the lordly houses" title="Generations and offices of the lordly houses">34</a><a href="#c-s35" aria-label="§35 Wars, later kings, and the coming of the Spaniards" title="Wars, later kings, and the coming of the Spaniards">35</a><a href="#c-s36" aria-label="§36 The last rulers under Spanish rule; Ximenez&#x27;s closing colophon" title="The last rulers under Spanish rule; Ximenez&#x27;s closing colophon">36</a></div></div>
+  <div class="j-set">
+    <div class="row app-row"><span class="lab">Apparatus</span>
+      <div class="seg" role="radiogroup" aria-label="Apparatus">
+        <button type="button" role="radio" data-app="on" aria-checked="true">Shown</button>
+        <button type="button" role="radio" data-app="off" aria-checked="false">Hidden</button>
+      </div></div>
+    <div class="row"><span class="lab">K'iche' layout</span>
+      <div class="seg" role="radiogroup" aria-label="K'iche' layout">
+        <button type="button" role="radio" data-kmode-set="run" aria-checked="true">Running</button>
+        <button type="button" role="radio" data-kmode-set="lines" aria-checked="false">As written</button>
+      </div></div>
+    <div class="row"><span class="lab">Theme</span>
+      <div class="seg" role="radiogroup" aria-label="Colour theme">
+        <button type="button" role="radio" data-theme-set="auto" aria-checked="true">Auto</button>
+        <button type="button" role="radio" data-theme-set="light" aria-checked="false">Light</button>
+        <button type="button" role="radio" data-theme-set="dark" aria-checked="false">Dark</button>
+      </div></div>
+  </div>
+  <p class="j-foot"><a href="#contents">Full contents with titles and folios</a></p>
+</div>
+
+<main class="wrap" id="top">
+  <a class="back" href="../">← Large-Language Literature</a>
+
+  <section class="title" aria-labelledby="t-h1">
+    <h1 id="t-h1">Popol Vuh</h1>
+    <p class="sub">The council book of the K'iche', from Ayer MS 1515</p>
+    <div class="inc" role="group" aria-label="The opening lines in three registers">
+      <div><p class="lab sc"><b>K'iche'</b> · fol. 1r, ll. 1–2</p><p lang="quc" class="caps">ARE V XE OHER Ꜩih varal Quiche vbi.</p></div>
+      <div><p class="lab sc"><b>Ximénez’s Spanish</b> · fol. 1r</p><p lang="es">ESTE ES EL PRINCIPIO DE LAS antiguas historias aqui en el quiche.</p></div>
+      <div><p class="lab sc"><b>English</b> · this edition</p><p>This is the root of the ancient word, here — Quiche is its name.</p></div>
+    </div>
+    <p class="inc-cap">The first two lines of the manuscript, as its two columns give them, with this edition’s English.</p>
+    <div class="note">
+      <h2 class="sc">Note on the text</h2>
+      <p>This translation was made directly from the K'iche' text of Ayer MS 1515, Father Francisco Ximénez’s early-eighteenth-century transcription of an older K'iche' document, now lost. The manuscript (Newberry Library, Chicago; digitized by the Library of Congress) sets K'iche' and Ximénez’s own contemporary Spanish in parallel columns across fifty-six folios. Working text and paragraph citations come from the Multepal Project’s diplomatic transcription.</p>
+      <p>Ximénez’s Spanish is consulted only as an aid for obscure vocabulary, never as the object of translation. No modern published English translation was consulted. Gaps in the manuscript are marked rather than bridged.</p>
+    </div>
+  </section>
+
+  <section id="contents" aria-labelledby="c-h">
+    <h2 class="sec-h" id="c-h">Contents</h2>
+    <p class="sec-sub">Thirty-six sections in four parts. Right-hand figures give the folio where each section begins.</p>
+    <div class="c-part"><h3><span class="c-rom">I</span> Creation</h3><p class="c-gloss">The makers speak the world into being; two failed attempts at people.</p><ol><li id="c-s01"><a href="#s01" aria-current="true"><span class="c-n">01</span><span class="c-t">Prologue and the divine makers</span><span class="c-f"><span class="vh">folio </span>1r</span></a></li><li id="c-s02"><a href="#c-s02"><span class="c-n">02</span><span class="c-t">The naming of the animals</span><span class="c-f"><span class="vh">folio </span>2v</span></a></li><li id="c-s03"><a href="#c-s03"><span class="c-n">03</span><span class="c-t">The mud people and the wood people: two failed creations</span><span class="c-f"><span class="vh">folio </span>3v</span></a></li></ol></div><div class="c-part"><h3><span class="c-rom">II</span> The Hero Twins and the Lords of Xibalba</h3><p class="c-gloss">Hunahpu and Xb'alanke against the arrogant false gods, and against death itself.</p><ol><li id="c-s04"><a href="#c-s04"><span class="c-n">04</span><span class="c-t">Wuqub' Kaqix, Sipakna, and Kab'raqan</span><span class="c-f"><span class="vh">folio </span>5v</span></a></li><li id="c-s05"><a href="#c-s05"><span class="c-n">05</span><span class="c-t">Hunahpu and Xb'alanke move against Seven Macaw's household</span><span class="c-f"><span class="vh">folio </span>6v</span></a></li><li id="c-s06"><a href="#c-s06"><span class="c-n">06</span><span class="c-t">Sipakna and the four hundred youths</span><span class="c-f"><span class="vh">folio </span>8r</span></a></li><li id="c-s07"><a href="#c-s07"><span class="c-n">07</span><span class="c-t">Kab'raqan brought low</span><span class="c-f"><span class="vh">folio </span>9v</span></a></li><li id="c-s08"><a href="#c-s08"><span class="c-n">08</span><span class="c-t">Jun Hunahpu, Wuqub' Hunahpu, and their sons Jun B'atz'/Jun Chowen</span><span class="c-f"><span class="vh">folio </span>10v</span></a></li><li id="c-s09"><a href="#c-s09"><span class="c-n">09</span><span class="c-t">The ballcourt and the summons of the Xibalba lords</span><span class="c-f"><span class="vh">folio </span>12r</span></a></li><li id="c-s10"><a href="#c-s10"><span class="c-n">10</span><span class="c-t">The Xibalba trial-houses and the death of the elder twins</span><span class="c-f"><span class="vh">folio </span>14r</span></a></li><li id="c-s11"><a href="#c-s11"><span class="c-n">11</span><span class="c-t">Ixkik' and the calabash tree</span><span class="c-f"><span class="vh">folio </span>15v</span></a></li><li id="c-s12"><a href="#c-s12"><span class="c-n">12</span><span class="c-t">Ixkik' brought before Xmukane</span><span class="c-f"><span class="vh">folio </span>17r</span></a></li><li id="c-s13"><a href="#c-s13"><span class="c-n">13</span><span class="c-t">Birth of Hunahpu and Xb'alanke</span><span class="c-f"><span class="vh">folio </span>18r</span></a></li><li id="c-s14"><a href="#c-s14"><span class="c-n">14</span><span class="c-t">The younger twins as hunters</span><span class="c-f"><span class="vh">folio </span>20r</span></a></li><li id="c-s15"><a href="#c-s15"><span class="c-n">15</span><span class="c-t">Jun B'atz' and Jun Chowen transformed</span><span class="c-f"><span class="vh">folio </span>21v</span></a></li><li id="c-s16"><a href="#c-s16"><span class="c-n">16</span><span class="c-t">The ballgame equipment recovered; renewed summons to Xibalba</span><span class="c-f"><span class="vh">folio </span>23v</span></a></li><li id="c-s17"><a href="#c-s17"><span class="c-n">17</span><span class="c-t">The road to Xibalba and the first trial-houses</span><span class="c-f"><span class="vh">folio </span>26v</span></a></li><li id="c-s18"><a href="#c-s18"><span class="c-n">18</span><span class="c-t">Further trial-houses</span><span class="c-f"><span class="vh">folio </span>28r</span></a></li><li id="c-s19"><a href="#c-s19"><span class="c-n">19</span><span class="c-t">The twins outwit the lords of Xibalba</span><span class="c-f"><span class="vh">folio </span>29v</span></a></li><li id="c-s20"><a href="#c-s20"><span class="c-n">20</span><span class="c-t">Defeat of Jun Kame' and Wuqub' Kame'</span><span class="c-f"><span class="vh">folio </span>31r</span></a></li></ol></div><div class="c-part"><h3><span class="c-rom">III</span> The Maize People</h3><p class="c-gloss">The first true humans, shaped from white and yellow maize; the long wait for dawn.</p><ol><li id="c-s21"><a href="#c-s21"><span class="c-n">21</span><span class="c-t">Paxil and K'ayala': discovery of maize; the first four men and women</span><span class="c-f"><span class="vh">folio </span>32v</span></a></li><li id="c-s22"><a href="#c-s22"><span class="c-n">22</span><span class="c-t">The K'iche' lineages and their patron gods Tojil, Awilix, Jaqawitz</span><span class="c-f"><span class="vh">folio </span>34r</span></a></li><li id="c-s23"><a href="#c-s23"><span class="c-n">23</span><span class="c-t">Departure from Tulan; the long migration</span><span class="c-f"><span class="vh">folio </span>35v</span></a></li><li id="c-s24"><a href="#c-s24"><span class="c-n">24</span><span class="c-t">Multiplication of languages, separation of the peoples</span><span class="c-f"><span class="vh">folio </span>37r</span></a></li><li id="c-s25"><a href="#c-s25"><span class="c-n">25</span><span class="c-t">The wait for the dawn</span><span class="c-f"><span class="vh">folio </span>38r</span></a></li><li id="c-s26"><a href="#c-s26"><span class="c-n">26</span><span class="c-t">Events preceding first light</span><span class="c-f"><span class="vh">folio </span>40r</span></a></li><li id="c-s27"><a href="#c-s27"><span class="c-n">27</span><span class="c-t">First dawn; the hardening of the stone gods</span><span class="c-f"><span class="vh">folio </span>41v</span></a></li></ol></div><div class="c-part"><h3><span class="c-rom">IV</span> Migrations and the Genealogy of the K'iche' Lords</h3><p class="c-gloss">The patriarchs, their descendants, and the lords of Q'umarkaj down to the Spanish conquest.</p><ol><li id="c-s28"><a href="#c-s28"><span class="c-n">28</span><span class="c-t">Balam Ki'tze' and the first patriarchs</span><span class="c-f"><span class="vh">folio </span>43r</span></a></li><li id="c-s29"><a href="#c-s29"><span class="c-n">29</span><span class="c-t">Wives obtained; further wanderings</span><span class="c-f"><span class="vh">folio </span>44v</span></a></li><li id="c-s30"><a href="#c-s30"><span class="c-n">30</span><span class="c-t">Ajpatan, Makujutaj, and the patriarchs' sons</span><span class="c-f"><span class="vh">folio </span>46v</span></a></li><li id="c-s31"><a href="#c-s31"><span class="c-n">31</span><span class="c-t">K'oka'ib', K'o'akutek, K'o'ajaw and the journey to Nakxit</span><span class="c-f"><span class="vh">folio </span>48r</span></a></li><li id="c-s32"><a href="#c-s32"><span class="c-n">32</span><span class="c-t">Chi Ismachi' and the early K'iche' rulers</span><span class="c-f"><span class="vh">folio </span>49v</span></a></li><li id="c-s33"><a href="#c-s33"><span class="c-n">33</span><span class="c-t">Founding of Q'umarkaj (Utatlan); the titled offices</span><span class="c-f"><span class="vh">folio </span>51r</span></a></li><li id="c-s34"><a href="#c-s34"><span class="c-n">34</span><span class="c-t">Generations and offices of the lordly houses</span><span class="c-f"><span class="vh">folio </span>52v</span></a></li><li id="c-s35"><a href="#c-s35"><span class="c-n">35</span><span class="c-t">Wars, later kings, and the coming of the Spaniards</span><span class="c-f"><span class="vh">folio </span>54r</span></a></li><li id="c-s36"><a href="#c-s36"><span class="c-n">36</span><span class="c-t">The last rulers under Spanish rule; Ximenez's closing colophon</span><span class="c-f"><span class="vh">folio </span>55v</span></a></li></ol></div>
+    <p class="c-key">This mockup carries one passage, § 01. Other entries link to their own row.</p>
+  </section>
+
+  <article class="passage" id="s01" data-sec="01" aria-labelledby="s01-h">
+    <header class="ph">
+      <p class="part sc">Part I · Creation</p>
+      <h2 id="s01-h">Prologue and the divine makers</h2>
+      <p class="meta">§ 01 · Multepal p01–p05 · Ayer MS 1515, vol. 2, fol. 1r–2v</p>
+      <details class="tnote reg-a">
+        <summary><span>Translator’s note on § 01</span></summary>
+        <p>Round-6 revision responding to reviewer feedback on two points. First, the opening sentence and the tinamit/nation clause echoed Dennis Tedlock&#x27;s distinctive published wording (&quot;here in this place called Quiche&quot; and &quot;citadel of Quiche, in the nation of the Quiche people&quot;); these are reworded independently from the K&#x27;iche&#x27; &quot;varal Quiche vbi&quot; (literally &quot;here, Quiche its name&quot;) and &quot;tinamit&quot; (rendered plainly as &quot;town,&quot; as Ximenez glosses it &quot;pueblo,&quot; rather than the Tedlock-specific &quot;citadel&quot;), giving &quot;here — Quiche is its name&quot; and &quot;in the town of Quiche, among the Quiche people.&quot; Second, the K&#x27;iche&#x27; clause &quot;ilbal zac petenac chaca palo&quot; (&quot;the instrument of sight, come from across the sea&quot;) had been dropped when the ancient book&#x27;s disappearance was compressed; it is now restored in the second paragraph alongside the existing &quot;no longer a place to see it&quot; clause, translated directly from the K&#x27;iche&#x27; with the Spanish (&quot;dela otra parte de el mar es venido donde se a visto&quot;) consulted as an aid. The restored earth-creation ending from the prior revision (Earth spoken into being, mist/cloud forming, crab simile, mountains, cypresses and pines, Gucumatz&#x27;s rejoicing, water-courses dividing, Heart of Sky/Heart of Earth closing) and the plain, non-Recinos/Goetz-Morley rendering of the water-clearing command (&quot;not be an obstacle to the creatures&quot;) are unchanged from the previous round, having drawn no further objection.</p>
+      </details>
+    </header>
+
+    <div class="colh" aria-hidden="false">
+      <div class="ch-g"></div>
+      <div class="ch-k reg-k"><span><b>K'iche'</b> · MS left column</span>
+        <span class="kmode" role="radiogroup" aria-label="K'iche' layout">
+          <button type="button" role="radio" data-kmode-set="run" aria-checked="true">Running</button>
+          <button type="button" role="radio" data-kmode-set="lines" aria-checked="false">As written</button>
+        </span></div>
+      <div class="ch-e reg-e"><span><b>English</b> · this edition</span></div>
+      <div class="ch-a reg-a"><span><b>Apparatus</b></span></div>
+    </div>
+    
+<div class="blk" id="s01-a" data-folio="1r">
+  <div class="gut" aria-hidden="true"><div class="gut-in"><span class="gut-f">1r–1v</span><span class="gut-p">p01–02</span></div></div>
+  <div class="bh"><span>fol.&#8239;1r–1v</span><span>p01–02</span></div>
+  <div class="k reg-k" lang="quc">
+    <p class="rl">K'iche'</p>
+    <div class="k-run"><p><span class="pid">p01</span>ARE V XE OHER Ꜩih varal Quiche vbi.</p><p><span class="pid">p02</span>Varal xchicaꜩibah vi xchicatiquiba vi oher ꜩih, vticaribal, vxenabal puch ronohel xban, pa tinamit quiche, ramac quiche vinac; arecut xchicacam vi vcutunizaxic, vcalahobizaxic, vꜩihoxic puch euaxibal zaquiribal rumal ꜩacol bitol alom, qaholom quibi hun ahpu vuch, hun ahpu vtiu, zaquinimac ꜩÿz, tepeu, qucumaꜩ vqux cho, vqux palo, ah raxalaꜫ, ah raxaꜩel chu qhaxic, rachbixic, rachꜩihoxic rÿ iyom, mamom xpiyacoc, xmucane vbi, maꜩanel chuquenel camul yiom, camul mamom chuqhaxic pa quiche ꜩih. ta xquiꜩihoh ronohel ruq xquiban chic chizaquil qolem, zaquil ꜩih vae xchicaꜩibah chupan chic vqhabal Dios pa christianoil chic xchiquelezah rumal mahabi chic ilbal re popo vvh. ilbal zac petenac chaca palo. vꜩihoxic camuhibal ilbal zacqazlem chuqhaxic. qo nabe vuhil, oher ꜩibam puch xa eval vvach ilol re, bizol re, nim vpeoxic, vꜩihoxic puch, ta chiquiz ꜩuk ronohel cah vleu, vcah ꜩucuxic, vcah xucutaxic retaxic, vcah cheexic, vmeh camaxic, vyuccamaxic vpa cah, vpa vleu cah ꜩuc, cah xu cut chuqhaxic rumal ri ꜩacol bitol vchuch, vcahau qazlem vinaquirem, abanel, quxlanel, alay rech, quxlaay rech zaquil amaquil, zaquil al, zaquil qahol, ahbiz, ahnaoh chirech ronohel <span class="fb" data-folio="1v">fol.&#8239;1v</span> ato qol vi cah vleu cho palo</p></div>
+    <ol class="k-lines" aria-label="K'iche' text, line by line as in the manuscript"><li class="kl-p"><span class="pid">p01</span></li><li><span class="mgc"><span class="mg">cap.<br>1.del serde<br>Díos</span></span><span class="ln">1</span><span class="lt">ARE V XE OHER</span></li><li><span class="mgc"></span><span class="ln" data-hide>2</span><span class="lt">Ꜩih varal Quiche vbi.</span></li><li class="kl-p"><span class="pid">p02</span></li><li><span class="mgc"><span class="mg">1.</span></span><span class="ln">3</span><span class="lt">Varal xchicaꜩibah vi xchica<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>4</span><span class="lt">tiquiba vi oher ꜩih, vticaribal,</span></li><li><span class="mgc"></span><span class="ln">5</span><span class="lt">vxenabal puch ronohel xban,</span></li><li><span class="mgc"></span><span class="ln" data-hide>6</span><span class="lt">pa tinamit quiche, ramac qui<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>7</span><span class="lt">che vinac; arecut xchicacam</span></li><li><span class="mgc"></span><span class="ln" data-hide>8</span><span class="lt">vi vcutunizaxic, vcalahobiza<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>9</span><span class="lt">xic, vꜩihoxic puch euaxibal</span></li><li><span class="mgc"></span><span class="ln">10</span><span class="lt">zaquiribal rumal ꜩacol bitol</span></li><li><span class="mgc"></span><span class="ln" data-hide>11</span><span class="lt">alom, qaholom quibi hun ah<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>12</span><span class="lt">pu vuch, hun ahpu vtiu, za<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>13</span><span class="lt">quinimac ꜩÿz, tepeu, qucumaꜩ</span></li><li><span class="mgc"></span><span class="ln" data-hide>14</span><span class="lt">vqux cho, vqux palo, ah ra<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln">15</span><span class="lt">xalaꜫ, ah raxaꜩel chu qha<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>16</span><span class="lt">xic, rachbixic, rachꜩihoxic</span></li><li><span class="mgc"></span><span class="ln" data-hide>17</span><span class="lt">rÿ iyom, mamom xpiyacoc,</span></li><li><span class="mgc"></span><span class="ln" data-hide>18</span><span class="lt">xmucane vbi, maꜩanel chu<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>19</span><span class="lt">quenel camul yiom, camul</span></li><li><span class="mgc"><span class="mg">2</span></span><span class="ln">20</span><span class="lt">mamom chuqhaxic pa quiche</span></li><li><span class="mgc"></span><span class="ln" data-hide>21</span><span class="lt">ꜩih. ta xquiꜩihoh ronohel</span></li><li><span class="mgc"></span><span class="ln" data-hide>22</span><span class="lt">ruq xquiban chic chizaquil</span></li><li><span class="mgc"></span><span class="ln" data-hide>23</span><span class="lt">qolem, zaquil ꜩih vae xchi<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>24</span><span class="lt">caꜩibah chupan chic vqha<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln">25</span><span class="lt">bal Dios pa christianoil chic</span></li><li><span class="mgc"></span><span class="ln" data-hide>26</span><span class="lt">xchiquelezah rumal maha<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>27</span><span class="lt">bi chic ilbal re popo vvh. il<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>28</span><span class="lt">bal zac petenac chaca palo.</span></li><li><span class="mgc"></span><span class="ln" data-hide>29</span><span class="lt">vꜩihoxic camuhibal ilbal zac<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln">30</span><span class="lt">qazlem chuqhaxic. qo nabe</span></li><li><span class="mgc"></span><span class="ln" data-hide>31</span><span class="lt">vuhil, oher ꜩibam puch xa</span></li><li><span class="mgc"></span><span class="ln" data-hide>32</span><span class="lt">eval vvach ilol re, bizol re,</span></li><li><span class="mgc"></span><span class="ln" data-hide>33</span><span class="lt">nim vpeoxic, vꜩihoxic puch,</span></li><li><span class="mgc"><span class="mg">3.<br>prover.<br>Cap. 8.</span></span><span class="ln" data-hide>34</span><span class="lt">ta chiquiz ꜩuk ronohel cah</span></li><li><span class="mgc"></span><span class="ln">35</span><span class="lt">vleu, vcah ꜩucuxic, vcah</span></li><li><span class="mgc"></span><span class="ln" data-hide>36</span><span class="lt">xucutaxic retaxic, vcah</span></li><li><span class="mgc"></span><span class="ln" data-hide>37</span><span class="lt">cheexic, vmeh camaxic, vyuc<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>38</span><span class="lt">camaxic vpa cah, vpa vleu</span></li><li><span class="mgc"></span><span class="ln" data-hide>39</span><span class="lt">cah ꜩuc, cah xu cut chuqha<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln">40</span><span class="lt">xic rumal ri ꜩacol bitol</span></li><li><span class="mgc"></span><span class="ln" data-hide>41</span><span class="lt">vchuch, vcahau qazlem vi<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>42</span><span class="lt">naquirem, abanel, quxla<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>43</span><span class="lt">nel, alay rech, quxlaay</span></li><li><span class="mgc"></span><span class="ln" data-hide>44</span><span class="lt">rech zaquil amaquil, za<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln">45</span><span class="lt">quil al, zaquil qahol, ah<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>46</span><span class="lt">biz, ahnaoh chirech ronohel</span></li><li class="kl-fb" data-folio="1v"><span>fol. 1v</span></li><li><span class="mgc"></span><span class="ln">1</span><span class="lt">ato qol vi cah vleu cho palo</span></li></ol>
+  </div>
+  <div class="e reg-e" lang="en">
+    <p class="rl">English</p>
+    <p>This is the root of the ancient word, here — Quiche is its name. Here we shall write, here we shall begin the ancient word, the root and the start of everything that was done in the town of Quiche, among the Quiche people. And here we shall bring out its being shown, its being made plain, its being told — the hiding, the making clear — by the one who builds, the one who gives shape, Mother and Father, whose names are Hun Ahpu Vuch, Hun Ahpu Vtiu, Great White Coati, Tepeu, Gucumatz, the Heart of the Lake, the Heart of the Sea, He of the Green Plate, He of the Green Gourd, so they are called; and named along with them, spoken of along with them, the grandmother and the grandfather, whose names are Xpiyacoc and Xmucane, protector and shelterer, twice a midwife, twice a grandfather, as they are named in the Quiche word — when they told, when they gave account of all that they did together, within the clarity that had already come to be, within the words that had already come to be told.</p><p>This we shall write now within the word of God, within Christianity; we bring it out because there is no longer a place to see it — the instrument of sight, come from across the sea, the ancient book, the original writing whose sight is hidden from the one who looks at it, from the one who ponders it. Great is its telling and its account of when the sky and the earth were finished being formed, squared, divided into four parts, measured out, when the cord was stretched across the sky and across the earth, its four corners, its four sides, as it is told — by the one who builds, the one who gives shape, mother and father of life and of what was made, who gives breath, who gives thought, who watches over the good walk of the people, of humankind, born into clarity, begotten into clarity, one who worries over, one who knows all that lies within the sky, the earth, the lake, the sea.</p>
+  </div>
+  <details class="app reg-a" open>
+    <summary><span class="app-t">Apparatus</span><span class="app-s">fol.&#8239;1r–1v · 5 marginal notes</span></summary>
+    <div class="app-b">
+      <h4>Citation</h4>
+      <p>Multepal p01–02 · Ayer MS 1515, vol.&#8239;2, 1r, ll.&#8239;1–46; 1v, l.&#8239;1</p>
+      <h4>Marginalia</h4><ul class="marg"><li><span class="loc">1r, l.&#8239;1</span> <span class="mtx" lang="es">cap. 1.del serde Díos</span> <span class="kind">chapter heading</span></li><li><span class="loc">1r</span> <span class="mtx">1</span> <span class="kind">leaf number, Spanish column, right margin</span></li><li><span class="loc">1r, l.&#8239;3</span> <span class="mtx" lang="es">1.</span></li><li><span class="loc">1r, l.&#8239;20</span> <span class="mtx" lang="es">2</span></li><li><span class="loc">1r, l.&#8239;34</span> <span class="mtx" lang="es">3. prover. Cap. 8.</span></li></ul>
+      <details class="sp">
+        <summary>Names in this block (18)</summary>
+        <p class="h4n">Manuscript spelling → Multepal entity key</p>
+        <ul class="names"><li><span class="ms" lang="quc">tinamit quiche, pa quiche</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Tinamit K&#x27;iche&#x27;</span></li><li><span class="ms" lang="quc">ꜩacol, vchuch</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Tz&#x27;aqol</span></li><li><span class="ms" lang="quc">bitol, vcahau</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">B&#x27;itol</span></li><li><span class="ms" lang="quc">alom</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Alom</span></li><li><span class="ms" lang="quc">qaholom</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">K&#x27;ajolom</span></li><li><span class="ms" lang="quc">hun ahpu vuch</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Junajpu Wuch</span></li><li><span class="ms" lang="quc">hun ahpu vtiu</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Junajpu Utiw</span></li><li><span class="ms" lang="quc">zaquinimac ꜩÿz</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Saqi Nim Aq Sis</span></li><li><span class="ms" lang="quc">tepeu, qucumaꜩ</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Tepew Q&#x27;ukumatz</span></li><li><span class="ms" lang="quc">vqux cho</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Uk&#x27;u&#x27;x Cho</span></li><li><span class="ms" lang="quc">vqux palo</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Uk&#x27;u&#x27;x Palo</span></li><li><span class="ms" lang="quc">ah raxalaꜫ</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Ajraxa Laq</span></li><li><span class="ms" lang="quc">ah raxaꜩel</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Ajraxa Tzel</span></li><li><span class="ms" lang="quc">iyom, xmucane, maꜩanel, camul yiom</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Ixmukane</span></li><li><span class="ms" lang="quc">mamom, xpiyacoc, chuquenel, camul mamom</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Xpiyakok</span></li><li><span class="ms" lang="quc">Dios</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Dios</span></li><li><span class="ms" lang="quc">popo vvh</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Popol Wuj</span></li><li><span class="ms" lang="quc">palo</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Palo</span></li></ul>
+      </details>
+      <details class="sp">
+        <summary>Ximénez’s Spanish column</summary>
+        <div lang="es"><p><span class="pid">p01</span>ESTE ES EL PRINCIPIO DE LAS antiguas historias aqui en el quiche.</p><p><span class="pid">p02</span>Aquí escribiremos y empezaremos las antiguas historias, su principio, y comienzo de todo lo que fue hecho en el pueblo de el quiche, su pueblo de los indios quichees; y de aqui tomaremos su ser declarado, y manifestado, y su ser relatado, la esconde dura, y aclaradura, por el formador, y criador madre, y Padre que así se llaman, hun ahpu vuch. hun ahpu vtiu. Zaquinima ꜩÿz tepeu. gucumaꜩ. vguxcho. vguxpalo. (nombres , o atributos. que significan; vn tirador tacuazín. vn tirador coyote. blanco pizote. Señor fuerte culebra. corazon de la laguna. corazon de el mar.) el de el verde cagete, el de la verde hícara son llamados. y junta mente es dicho, y hablado de aquella abuela, y abuelo quesellamaban: xpiyacoc, y xmucane. nombres propios. amparadores, y cubridores dos vezes abuela, y dos vezes abuelo son dichos en las historias quichees. quando comunicaron. todo con los quehizieron despues en el estado de la claridad y en la palabra de clarídad. Esto escriuiremos ya en la ley de Díos, en la cristiandad, lo sacaremos porque ya no ay líbro comun, original donde verlo. dela otra parte de el mar es venido donde se a visto; que es dicho su ser enseñada nuestra obscuridad con la míradura dela clara vida. antigua mente avía libro original que se escrivío antigua mente; síno queesta escondido al que lo míra, y al que lo piensa. grande es su venida, y su ser enseñado. quando seacabo de formar todo el cielo, y la tierra, su ser cuadrado, su ser repartido en cuatro partes, su ser señalado, su ser amojonado con estacas, su ser medido a mecates, o cuerdas, y su ser estirada la cuerda en el zielo, y en la tierra; quees dicho de cuatro esquinas, y cuatro lados por el formador, y criador. su Madre y su Padre de la vida. y de la creazíon. que da respira zion, y resuello, paridos, y cuídados, de la paz claridad de los híjos, pensador, y entendedor detodahermosur a queay en el zielo, tierra, lagunas y mar.</p></div>
+      </details>
+    </div>
+  </details>
+</div>
+<div class="blk" id="s01-b" data-folio="1v">
+  <div class="gut" aria-hidden="true"><div class="gut-in"><span class="gut-f">1v</span><span class="gut-p">p03–04</span></div></div>
+  <div class="bh"><span>fol.&#8239;1v</span><span>p03–04</span></div>
+  <div class="k reg-k" lang="quc">
+    <p class="rl">K'iche'</p>
+    <div class="k-run"><p><span class="pid">p03</span>ARE V ꜨIHOXIC VAE Cacaꜩinin oc, caca chamam oc caꜩinonic cacazilanic, caca lolinic, catolona puch v pa cah.</p><p><span class="pid">p04</span>Vae cute nabe ꜩih nabe vchan. mahabi oꜫ hun vinac, hun chicop, ꜩiquin, car, tap, che abah, hul, zivan, quim, quichelah; xa v tu quel cah qolic. maui calah v vach vleu; xa vtuquel remanic palo vpacah, ronohel, mahabi na quila camolobic, cacoꜩobic, hun ta cazilobic camal cabantah, ca coꜩ cabantah pa cah. xma qo vinaquila qolic, yacalic; xa remanic ha, xa lianic palo, xa vtuquel remanic, xma qo vi na quilalo qolic; xa cachamanic caꜩininic chi queꜫum, chi aꜫab, xa vtuquel ri ꜩacol, bitol, tepeu, gucumaꜩ e alom, e qaholom qo pa ha zactetoh e qovi e mucutal pa cuc, pa raxon are vbinaam viri gucumaꜩ e nimac etamanel, e nimac ahnaoh chiqui qoheic; quehe cut xax qo vi ri cah qonaipuch vqux cah are vbi ri cabauil chuqhaxic.</p></div>
+    <ol class="k-lines" aria-label="K'iche' text, line by line as in the manuscript"><li class="kl-p"><span class="pid">p03</span></li><li><span class="mgc"></span><span class="ln">2</span><span class="lt">ARE V ꜨIHOXIC VAE</span></li><li><span class="mgc"></span><span class="ln" data-hide>3</span><span class="lt">Cacaꜩinin oc, caca chamam oc</span></li><li><span class="mgc"></span><span class="ln" data-hide>4</span><span class="lt">caꜩinonic cacazilanic, caca</span></li><li><span class="mgc"></span><span class="ln">5</span><span class="lt">lolinic, catolona puch v</span></li><li><span class="mgc"></span><span class="ln" data-hide>6</span><span class="lt">pa cah.</span></li><li class="kl-p"><span class="pid">p04</span></li><li><span class="mgc"></span><span class="ln">7</span><span class="lt">Vae cute nabe ꜩih nabe vch<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>8</span><span class="lt">an. mahabi oꜫ hun vinac, hun</span></li><li><span class="mgc"></span><span class="ln" data-hide>9</span><span class="lt">chicop, ꜩiquin, car, tap, che</span></li><li><span class="mgc"></span><span class="ln">10</span><span class="lt">abah, hul, zivan, quim, qui<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>11</span><span class="lt">chelah; xa v tu quel cah qolic.</span></li><li><span class="mgc"></span><span class="ln" data-hide>12</span><span class="lt">maui calah v vach vleu; xa</span></li><li><span class="mgc"></span><span class="ln" data-hide>13</span><span class="lt">vtuquel remanic palo vpa<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>14</span><span class="lt">cah, ronohel, mahabi na quila</span></li><li><span class="mgc"></span><span class="ln">15</span><span class="lt">camolobic, cacoꜩobic, hun ta</span></li><li><span class="mgc"></span><span class="ln" data-hide>16</span><span class="lt">cazilobic camal cabantah, ca</span></li><li><span class="mgc"></span><span class="ln" data-hide>17</span><span class="lt">coꜩ cabantah pa cah. xma qo</span></li><li><span class="mgc"></span><span class="ln" data-hide>18</span><span class="lt">vinaquila qolic, yacalic; xa</span></li><li><span class="mgc"></span><span class="ln" data-hide>19</span><span class="lt">remanic ha, xa lianic palo, xa</span></li><li><span class="mgc"></span><span class="ln">20</span><span class="lt">vtuquel remanic, xma qo vi na</span></li><li><span class="mgc"></span><span class="ln" data-hide>21</span><span class="lt">quilalo qolic; xa cachamanic</span></li><li><span class="mgc"></span><span class="ln" data-hide>22</span><span class="lt">caꜩininic chi queꜫum, chi aꜫab,</span></li><li><span class="mgc"></span><span class="ln" data-hide>23</span><span class="lt">xa vtuquel ri ꜩacol, bitol, te<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>24</span><span class="lt">peu, gucumaꜩ e alom, e qaho<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln">25</span><span class="lt">lom qo pa ha zactetoh e qovi</span></li><li><span class="mgc"></span><span class="ln" data-hide>26</span><span class="lt">e mucutal pa cuc, pa raxon</span></li><li><span class="mgc"></span><span class="ln" data-hide>27</span><span class="lt">are vbinaam viri gucumaꜩ</span></li><li><span class="mgc"></span><span class="ln" data-hide>28</span><span class="lt">e nimac etamanel, e nimac ah<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>29</span><span class="lt">naoh chiqui qoheic; quehe</span></li><li><span class="mgc"></span><span class="ln">30</span><span class="lt">cut xax qo vi ri cah qonaipu<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>31</span><span class="lt">ch vqux cah are vbi ri ca<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>32</span><span class="lt">bauil chuqhaxic.</span></li></ol>
+  </div>
+  <div class="e reg-e" lang="en">
+    <p class="rl">English</p>
+    <p>This, then, is the account of when all lay in suspense, all calm, in silence, in the darkness, in the night; nothing yet gathered, nothing yet come together, everything at rest, nothing stirring, and the sky lay empty. This is the first word, the first speech. There was not yet one person, one animal, bird, fish, crab, tree, stone, hollow, canyon, meadow, forest. Only the sky existed. The face of the earth had not yet appeared. Only the sea lay penned in, alone, and all that was of the sky. Nothing whatever was joined together, nothing went ‘mal,’ nothing went ‘cotz’ — these being sounds — in the sky. Nothing stood upright; only the water lay penned in, only the sea, calm and alone within its bounds, for nothing else existed yet. Only stillness and silence in the darkness, in the night. Only the one who builds, the one who gives shape, Tepeu, Gucumatz, Mother, Father, lay in the water, surrounded by clarity, hidden under green and blue feathers — and so they are called Gucumatz. Great sages, great thinkers were they in their being; and so it was that the sky existed, and the Heart of the Sky existed too, for that is the name of this god, as it is told.</p>
+  </div>
+  <details class="app reg-a" open>
+    <summary><span class="app-t">Apparatus</span><span class="app-s">fol.&#8239;1v</span></summary>
+    <div class="app-b">
+      <h4>Citation</h4>
+      <p>Multepal p03–04 · Ayer MS 1515, vol.&#8239;2, 1v, ll.&#8239;2–32</p>
+      
+      <details class="sp">
+        <summary>Names in this block (11)</summary>
+        <p class="h4n">Manuscript spelling → Multepal entity key</p>
+        <ul class="names"><li><span class="ms" lang="quc">ꜩiquin</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Tz&#x27;ikin</span></li><li><span class="ms" lang="quc">car</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Kar</span></li><li><span class="ms" lang="quc">tap</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Tap</span></li><li><span class="ms" lang="quc">palo</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Palo</span></li><li><span class="ms" lang="quc">ꜩacol</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Tz&#x27;aqol</span></li><li><span class="ms" lang="quc">bitol</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">B&#x27;itol</span></li><li><span class="ms" lang="quc">tepeu, gucumaꜩ</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Tepew Q&#x27;ukumatz</span></li><li><span class="ms" lang="quc">alom</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Alom</span></li><li><span class="ms" lang="quc">qaholom</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">K&#x27;ajolom</span></li><li><span class="ms" lang="quc">gucumaꜩ</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Q&#x27;ukumatz</span></li><li><span class="ms" lang="quc">vqux cah</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Uk&#x27;u&#x27;x Kaj</span></li></ul>
+      </details>
+      <details class="sp">
+        <summary>Ximénez’s Spanish column</summary>
+        <div lang="es"><p><span class="pid">p03</span>ESTE ES SV SER DICHO QVANDO estaba en suspenso, en calma, en silenzío, sin moverse, sin cosa sino vazío el zielo.</p><p><span class="pid">p04</span>I esta es la primera palabra, y eloquençía. aun no avía hombres, animales, pajaros, pescado, cangrejo, palo, piedra, hoyo, varranca, paja, ní monte; síno solo estaba el cíelo. no se manifestava la haz de la tierra; sino que solo estaba el mar represado, y todo lo de el cielo; aun no avía cosa alguna junta, ní sonaba nada, ní cosa alguna se meneaba, ní cosa quehízíera, mal. ní cosa quehízíera, coꜩ. estoes ruído, en el cielo. ní avía cosa que estuvíese, ní queestuviese parada empie; solo el agua represada, solo la mar sosegada, so lo ella represada, nícosa alguna avía queestuviese; solo estaba en sílencio, y sosiego, en la obscuridad, y la noche; solo estaba el críador y formador, Señor culebra fuerte, las madres, y Padres estan en el agua, en una claridad abierta y estaban cubiertos en plumas verdes, por eso se llama gucumaꜩ grandes sabíos, y de grandes entendimientos su ser. y así poreso esta el zielo, y ay tambien su corazon de el zielo, este es su nombre quese le dize a aquel ídolo.</p></div>
+      </details>
+    </div>
+  </details>
+</div>
+<div class="blk" id="s01-c" data-folio="1v">
+  <div class="gut" aria-hidden="true"><div class="gut-in"><span class="gut-f">1v–2v</span><span class="gut-p">p05</span></div></div>
+  <div class="bh"><span>fol.&#8239;1v–2v</span><span>p05</span></div>
+  <div class="k reg-k" lang="quc">
+    <p class="rl">K'iche'</p>
+    <div class="k-run"><p><span class="pid">p05</span>Ta xpe cut vꜩih varal xul cuq ri tepeu gucumaꜩ varal chi quecumal chi aꜫabal xqhau ruq ri tepeu gucumaꜩ, xe qha cut, ta xenaohinic, ta xe bizonic, xerico quib, xquicuch qui ꜩih, qui naoh, ta xcalah ta xquiquxlaah quib .+ zac taxevi xcalah puch vinac, ta xquinaohih v ꜩuquic v vinaquiric che, caam, v ꜩucuquic puch qazlem vinaquirem chi queꜫumal, chi aꜫabal, rumal ri vqux cah huracan vbi, <span class="fb" data-folio="2r">fol.&#8239;2r</span> caculha huracan nabe, vcab cut chipa caculha, roxchic raxa caculha chi e cu oxib rÿ vqux cah ta xeul cuq ri tepeu gucumaꜩ, ta xnaohixic zac qazlem, hupacha ta cha uaxoc ta caquiro puch, apachinac ꜩucul cool ta chuxoc quixnohintah. areri ha chel tah chihamatah, chivinaquir va vleu vlaquel ta curib chata cut, ta chauaxoc ta zaquiroc, cah vleu, ma ta cut v quihilabal vcalaibal rÿ caꜩac cabit ta vinaquiroc vinac ꜩac vinac bit xeqha cut ta xvinaquir cu ri vleu cumal; xaquiꜩih xqohe vi v vinaquiric chivinaquir vleu, vleuh xecha libah chi xvinaquiric; queheri xa ꜩuꜩ xa mayui v vinaquiric chic u pupuheic ta xtape pa ha ri huiub huzuc nimac huyub xuxic xaqui naual xa qui puz xbanatah vi vnaohixic huyub tacah, huzuc rach vinaquiric v quizizil, v pachahil v vach. quehe cut xquicot vi ri qucumaꜩ, vꜩ mi xatulic at vqux cah, at huracan, at pu chipicaculha, raxa caculha, xchuꜩinic caꜩac cabit xeqha cut. nabe cut xvinaquir vleuh huyub tacah, xchobochox vbe ha xbiniheic colehe racan xol tac huyub, xa chobol chic xeqohe vi ha, ta xcutuniheic nimac huyub. quehe cut v vinaquiric vlew ri ta xvinaquiric cumal ri vqu x cah vqux vleu quevchaxic rÿ cute nabe xquinohih xcolo vi ri cah, xcolo nai puch vleuh chupan ha. quehe cut vnaohixic ri ta xquinohih ta xquibizoh ruꜩinic vbana <span class="fb" data-folio="2v">fol.&#8239;2v</span> tahic cumal.</p></div>
+    <ol class="k-lines" aria-label="K'iche' text, line by line as in the manuscript"><li class="kl-p"><span class="pid">p05</span></li><li><span class="mgc"></span><span class="ln">33</span><span class="lt">Ta xpe cut vꜩih varal xul</span></li><li><span class="mgc"></span><span class="ln" data-hide>34</span><span class="lt">cuq ri tepeu gucumaꜩ varal</span></li><li><span class="mgc"></span><span class="ln">35</span><span class="lt">chi quecumal chi aꜫabal xqh<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>36</span><span class="lt">au ruq ri tepeu gucumaꜩ, xe</span></li><li><span class="mgc"></span><span class="ln" data-hide>37</span><span class="lt">qha cut, ta xenaohinic, ta xe</span></li><li><span class="mgc"></span><span class="ln" data-hide>38</span><span class="lt">bizonic, xerico quib, xquicuch</span></li><li><span class="mgc"></span><span class="ln" data-hide>39</span><span class="lt">qui ꜩih, qui naoh, ta xcalah</span></li><li><span class="mgc"></span><span class="ln">40</span><span class="lt">ta xquiquxlaah quib .+ zac taxevi</span></li><li><span class="mgc"></span><span class="ln" data-hide>41</span><span class="lt">xcalah puch vinac, ta xqui<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>42</span><span class="lt">naohih v ꜩuquic v vinaqui<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>43</span><span class="lt">ric che, caam, v ꜩucuquic pu<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>44</span><span class="lt">ch qazlem vinaquirem chi</span></li><li><span class="mgc"></span><span class="ln">45</span><span class="lt">queꜫumal, chi aꜫabal, rumal</span></li><li><span class="mgc"></span><span class="ln" data-hide>46</span><span class="lt">ri vqux cah huracan vbi,</span></li><li class="kl-fb" data-folio="2r"><span>fol. 2r</span></li><li><span class="mgc"></span><span class="ln">1</span><span class="lt">caculha huracan nabe, vcab</span></li><li><span class="mgc"></span><span class="ln" data-hide>2</span><span class="lt">cut chipa caculha, roxchic</span></li><li><span class="mgc"></span><span class="ln" data-hide>3</span><span class="lt">raxa caculha chi e cu oxib</span></li><li><span class="mgc"></span><span class="ln" data-hide>4</span><span class="lt">rÿ vqux cah ta xeul cuq ri</span></li><li><span class="mgc"></span><span class="ln">5</span><span class="lt">tepeu gucumaꜩ, ta xnaohi<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>6</span><span class="lt">xic zac qazlem, hupacha ta cha</span></li><li><span class="mgc"></span><span class="ln" data-hide>7</span><span class="lt">uaxoc ta caquiro puch, apa<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>8</span><span class="lt">chinac ꜩucul cool ta chuxoc</span></li><li><span class="mgc"></span><span class="ln" data-hide>9</span><span class="lt">quixnohintah. areri ha chel</span></li><li><span class="mgc"></span><span class="ln">10</span><span class="lt">tah chihamatah, chivinaquir</span></li><li><span class="mgc"></span><span class="ln" data-hide>11</span><span class="lt">va vleu vlaquel ta curib cha<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>12</span><span class="lt">ta cut, ta chauaxoc ta zaquiroc,</span></li><li><span class="mgc"></span><span class="ln" data-hide>13</span><span class="lt">cah vleu, ma ta cut v quihila<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>14</span><span class="lt">bal vcalaibal rÿ caꜩac ca<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln">15</span><span class="lt">bit ta vinaquiroc vinac ꜩac</span></li><li><span class="mgc"></span><span class="ln" data-hide>16</span><span class="lt">vinac bit xeqha cut ta xvi<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>17</span><span class="lt">naquir cu ri vleu cumal; xa<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>18</span><span class="lt">quiꜩih xqohe vi v vinaqui<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>19</span><span class="lt">ric chivinaquir vleu, vleuh</span></li><li><span class="mgc"></span><span class="ln">20</span><span class="lt">xecha libah chi xvinaquiric;</span></li><li><span class="mgc"></span><span class="ln" data-hide>21</span><span class="lt">queheri xa ꜩuꜩ xa mayui v</span></li><li><span class="mgc"></span><span class="ln" data-hide>22</span><span class="lt">vinaquiric chic u pupuheic</span></li><li><span class="mgc"></span><span class="ln" data-hide>23</span><span class="lt">ta xtape pa ha ri huiub hu<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>24</span><span class="lt">zuc nimac huyub xuxic xa<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln">25</span><span class="lt">qui naual xa qui puz xbana<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>26</span><span class="lt">tah vi vnaohixic huyub ta<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>27</span><span class="lt">cah, huzuc rach vinaquiric</span></li><li><span class="mgc"></span><span class="ln" data-hide>28</span><span class="lt">v quizizil, v pachahil v vach.</span></li><li><span class="mgc"></span><span class="ln" data-hide>29</span><span class="lt">quehe cut xquicot vi ri qu<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln">30</span><span class="lt">cumaꜩ, vꜩ mi xatulic at vqux</span></li><li><span class="mgc"></span><span class="ln" data-hide>31</span><span class="lt">cah, at huracan, at pu chipi<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>32</span><span class="lt">caculha, raxa caculha, xchu<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>33</span><span class="lt">ꜩinic caꜩac cabit xeqha cut.</span></li><li><span class="mgc"></span><span class="ln" data-hide>34</span><span class="lt">nabe cut xvinaquir vleuh</span></li><li><span class="mgc"></span><span class="ln">35</span><span class="lt">huyub tacah, xchobochox vbe</span></li><li><span class="mgc"></span><span class="ln" data-hide>36</span><span class="lt">ha xbiniheic colehe racan</span></li><li><span class="mgc"></span><span class="ln" data-hide>37</span><span class="lt">xol tac huyub, xa chobol chic</span></li><li><span class="mgc"></span><span class="ln" data-hide>38</span><span class="lt">xeqohe vi ha, ta xcutunihe<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>39</span><span class="lt">ic nimac huyub. quehe cut</span></li><li><span class="mgc"></span><span class="ln">40</span><span class="lt">v vinaquiric vlew ri ta xvi<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln" data-hide>41</span><span class="lt">naquiric cumal ri vqu x cah</span></li><li><span class="mgc"></span><span class="ln" data-hide>42</span><span class="lt">vqux vleu quevchaxic rÿ</span></li><li><span class="mgc"></span><span class="ln" data-hide>43</span><span class="lt">cute nabe xquinohih xcolo</span></li><li><span class="mgc"></span><span class="ln" data-hide>44</span><span class="lt">vi ri cah, xcolo nai puch v<span class="hy" aria-hidden="true">–</span></span></li><li><span class="mgc"></span><span class="ln">45</span><span class="lt">leuh chupan ha. quehe cut</span></li><li><span class="mgc"></span><span class="ln" data-hide>46</span><span class="lt">vnaohixic ri ta xquinohih ta</span></li><li><span class="mgc"></span><span class="ln" data-hide>47</span><span class="lt">xquibizoh ruꜩinic vbana</span></li><li class="kl-fb" data-folio="2v"><span>fol. 2v</span></li><li><span class="mgc"></span><span class="ln">1</span><span class="lt">tahic cumal.</span></li></ol>
+  </div>
+  <div class="e reg-e" lang="en">
+    <p class="rl">English</p>
+    <p>Then the word came here, to the one who builds and the one who gives shape, to Tepeu and Gucumatz, in the darkness, in the night; it came, and it spoke with Tepeu and Gucumatz. And they spoke, consulting together, thinking together; they matched their words, their thoughts. Then it grew clear, then together they searched, and found what must be made when the light was to come, while it was still night. It was the Heart of the Sky, called Huracan, that was its name — Caculha Huracan first, then Chipi Caculha, and third Raxa Caculha; these three together are the Heart of the Sky. They came together, then, with Tepeu and Gucumatz, and there the light and the life were thought upon: how the sowing would be done, how the dawn would be brought forth, who would provide, who would sustain.</p><p>“Let this water go, let it be cleared away, so that the earth may be produced, and have its joining together; and thus let the sky and the earth be sown and dawn. And so it will not be an obstacle to the creatures, to what we make, when men are made,” they said, before the earth was created by them.</p><p>“Earth,” they said, and at once it was made. Like a mist, like a cloud was its forming, taking shape, when the hills appeared out of the water like a crab rising up; and in an instant the great mountains came to be. Only by a wonder, only by an act of power, was this done, this forming of the cypresses and the pines upon its face. And so Gucumatz rejoiced: “Good is your coming, Heart of Sky, you Huracan, and you Chipi Caculha, Raxa Caculha; our work, our making, will be brought to completion,” they said. First the earth was made, the hills and the flatlands; the courses of the water were divided, and the streams went their way among the hills, and the water stood apart when the great mountains appeared. Thus was the making of the earth, when it was made by the Heart of Sky, the Heart of Earth, as they are called who first made fruitful the sky and made fruitful also the earth within the water, when they gave it thought, when they gave it consideration, and brought their work to its completion.</p>
+  </div>
+  <details class="app reg-a" open>
+    <summary><span class="app-t">Apparatus</span><span class="app-s">fol.&#8239;1v–2v · 1 marginal note</span></summary>
+    <div class="app-b">
+      <h4>Citation</h4>
+      <p>Multepal p05 · Ayer MS 1515, vol.&#8239;2, 1v, ll.&#8239;33–46; 2r, ll.&#8239;1–47; 2v, l.&#8239;1</p>
+      <h4>Marginalia</h4><ul class="marg"><li><span class="loc">2r</span> <span class="mtx">2</span> <span class="kind">leaf number, Spanish column, right margin</span></li></ul>
+      <details class="sp">
+        <summary>Names in this block (8)</summary>
+        <p class="h4n">Manuscript spelling → Multepal entity key</p>
+        <ul class="names"><li><span class="ms" lang="quc">tepeu gucumaꜩ</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Tepew Q&#x27;ukumatz</span></li><li><span class="ms" lang="quc">vqux cah, vqu x cah</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Uk&#x27;u&#x27;x Kaj</span></li><li><span class="ms" lang="quc">huracan</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Jun Raqan</span></li><li><span class="ms" lang="quc">caculha huracan</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Kaquilja Jun Raqan</span></li><li><span class="ms" lang="quc">chipa caculha, chipicaculha</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Ch&#x27;ipi Kaqulja</span></li><li><span class="ms" lang="quc">raxa caculha</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Raxa Kaqulja</span></li><li><span class="ms" lang="quc">qucumaꜩ</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Q&#x27;ukumatz</span></li><li><span class="ms" lang="quc">vqux vleu</span> <span class="arr" aria-hidden="true">→</span> <span class="nk" lang="quc">Uk&#x27;u&#x27;x Ulew</span></li></ul>
+      </details>
+      <details class="sp">
+        <summary>Ximénez’s Spanish column</summary>
+        <div lang="es"><p><span class="pid">p05</span>Y entonzes vino aquí su palabra, víno con los Señorestepeu, gucumaꜩ aquí en obscuridad, en la noche, y abló con tepeu gucumaꜩ. y dixeron, quando consultaron, y quando pensaron, se juntaron, hízíeron consejo, quando se declararon, y pensaron vnos a otros. y en entonzes parezíeron las críaturas, quando consultaron la hechura, y crea zíon, de los palos, mecates, y la hechura de la vida, y de la creazíon, en la obscuridad, y tinieblas, por el corazon de el zielo, que se llama huracan. (esto es de un píe nombre propío). el primero se llama: caculha huracan. (nombre pro prio quedize: rayo de vna píerna.) el segundo: chípa caculha. (nombre proprio quedize el mas pequeño de los rayos) y el tercero: raxa caculha. (nombre proprío quedize: verde rayo) con quesuertes aquel su corazon de el cielo, quevinieron con tepeu, qucumaꜩ, entonzes se consulto la vida, y la creazion; pues como se sembrara, y aclarar, quíen sera hecho alimentador, y sustentador, dad vuestro voto. esta agua salga, desembaraze para quese produzca la tierra, y sea su juntura, y así se siembre, y aclare el zielo, y la tierra, y así no les sera embarazo a las críaturas, y nuestras hechuras, quando fueren criados los hombres críaturas, y formaduras, y dixeron quando se formo la tierra por ellos, de solo dezirlo se hizo la tierra, y estuvo su ser formada. tierra dixeron, y luego al instante fue hecha. así como la neblina, y como nube su ser formada, en retazos quando se puso como cangrejo sobre el agua el zerro fuehecho. solo por milagro, y maravilla fue hecho, y en vninstante juntamente se formo su produzir zipreses, y pínabetes en su haz. y así se alegro gucumaꜩ, esta bien tu venida corazon de el zielo, tu huracan, y tu chípi caculha, raxa caculha, se perizionara, nuestra obra, y criaturas dixeron. prímeramente se crío la tierra, losmontes, y llanos. se dividieron los camínos de el agua, y anduvieron muchos arroyos entre los zeros y en señaladas partes se paro, y detuvo el agua, y entonzes se mostraron los grandes zerros. y así su ser formada la tierra, quando se crío por aquellos quese llaman el corazon de el zielo, y el cora zon de la tierra, y esto es lo primero dís currieron estando el zielo y la tierra den tro de el agua, y así su ser discurrído a quello que discurrieron, quando pensaron suser perfizionado, y suser hecho por ellos.</p></div>
+      </details>
+    </div>
+  </details>
+</div>
+    <nav class="pnav" aria-label="Passage navigation">
+      <a href="#contents">← Contents</a>
+      <a href="#c-s02">§ 02 The naming of the animals →</a>
+    </nav>
+  </article>
+
+  <footer>
+    <p><a href="../">← Large-Language Literature</a> · <a href="https://github.com/pnathan/large-language-literature">Source on GitHub</a></p>
+    <p>Design mockup. Text and transcription from the published edition and the Multepal TEI.</p>
+  </footer>
+</main>
+
+<script>
+(function(){
+  var H=document.documentElement, KEY='pv-mockup';
+  function qa(s){return Array.prototype.slice.call(document.querySelectorAll(s));}
+  var st={k:H.getAttribute('data-k')||'on',e:H.getAttribute('data-e')||'on',a:H.getAttribute('data-a')||'on',
+          kmode:H.getAttribute('data-kmode')||'run',theme:H.getAttribute('data-theme')||'auto'};
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(st));}catch(_){}}
+  function apply(){
+    H.setAttribute('data-k',st.k);H.setAttribute('data-e',st.e);H.setAttribute('data-a',st.a);H.setAttribute('data-kmode',st.kmode);
+    if(st.theme==='auto')H.removeAttribute('data-theme');else H.setAttribute('data-theme',st.theme);
+    qa('[data-reg]').forEach(function(b){
+      var on=st[b.dataset.reg]==='on';b.setAttribute('aria-pressed',on);
+      var last=(b.dataset.reg==='k'&&st.e==='off')||(b.dataset.reg==='e'&&st.k==='off');
+      b.setAttribute('aria-disabled',on&&last?'true':'false');
+    });
+    var seg=st.k==='on'&&st.e==='on'?'both':(st.k==='on'?'k':'e');
+    qa('[data-seg]').forEach(function(b){b.setAttribute('aria-checked',b.dataset.seg===seg);});
+    qa('[data-app]').forEach(function(b){b.setAttribute('aria-checked',b.dataset.app===st.a);});
+    qa('[data-kmode-set]').forEach(function(b){b.setAttribute('aria-checked',b.dataset.kmodeSet===st.kmode);});
+    qa('[data-theme-set]').forEach(function(b){b.setAttribute('aria-checked',b.dataset.themeSet===st.theme);});
+    var tc=document.getElementById('theme-cycle'),name={auto:'Auto',light:'Light',dark:'Dark'}[st.theme];
+    tc.textContent='Theme: '+name;tc.setAttribute('aria-label','Colour theme: '+(st.theme==='auto'?'follow system':name.toLowerCase())+'. Change');
+    readout();
+  }
+  document.addEventListener('click',function(ev){
+    var b=ev.target.closest('button,a');if(!b)return;
+    if(b.dataset.reg){var r=b.dataset.reg;
+      if(r!=='a'&&st[r]==='on'&&st[r==='k'?'e':'k']==='off')return; /* keep one text register */
+      st[r]=st[r]==='on'?'off':'on';}
+    else if(b.dataset.seg){st.k=b.dataset.seg==='e'?'off':'on';st.e=b.dataset.seg==='k'?'off':'on';}
+    else if(b.dataset.app){st.a=b.dataset.app;}
+    else if(b.dataset.kmodeSet){st.kmode=b.dataset.kmodeSet;}
+    else if(b.dataset.themeSet){st.theme=b.dataset.themeSet;}
+    else if(b.id==='theme-cycle'){st.theme={auto:'light',light:'dark',dark:'auto'}[st.theme];}
+    else if(b.tagName==='A'&&b.closest('#jump')){try{document.getElementById('jump').hidePopover();}catch(_){} return;}
+    else return;
+    save();apply();
+  });
+  /* Apparatus is open in the desktop margin and closed below 1200px. */
+  if(window.matchMedia('(max-width:1199.98px)').matches){qa('details.app').forEach(function(d){d.open=false;});}
+
+  /* Running readout: section and folio at the top of the reading area. */
+  var hs=document.getElementById('here-s'),hf=document.getElementById('here-f'),ticking=false;
+  function readout(){
+    ticking=false;
+    var lim=parseFloat(getComputedStyle(H).getPropertyValue('--bar-h'))+70;
+    var sec=document.getElementById('s01');
+    if(sec.getBoundingClientRect().top>lim){hs.textContent='Contents';hf.textContent='fol. —';return;}
+    var cur='1r';
+    qa('#s01 [data-folio]').forEach(function(m){
+      if(!m.getClientRects().length)return;
+      if(m.getBoundingClientRect().top<=lim)cur=m.getAttribute('data-folio');
+    });
+    hs.textContent='§ '+sec.getAttribute('data-sec');hf.textContent='fol. '+cur;
+  }
+  window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(readout);}},{passive:true});
+  apply();
+})();
+</script>
+</body>
+</html>

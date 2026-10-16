@@ -1,0 +1,2053 @@
+{
+ "about": "Per-verse English for the Mahābhārata page (docs/mahabharata/index.html). Each \"english\" is an exact substring of the passage's English paragraph (the inner HTML of p.verse-trans, HTML entities decoded). Method: split | joined | whole (one-verse passage) | omitted (no english).",
+ "passages": [
+  {
+   "passage": "1.1.27-29, 36-38",
+   "order": 0,
+   "ref_on_page": "Mahābhārata 1.1.27–29, 36–38",
+   "verses": [
+    {
+     "verse": "1.1.27",
+     "english": "When this world lay without radiance, without light, shrouded on every side in darkness, there came to be one great egg — the inexhaustible seed of all creatures.",
+     "method": "split"
+    },
+    {
+     "verse": "1.1.28",
+     "english": "They call it the great and divine cause at the beginning of the yuga, and within it, we are told, was the true light, the eternal <em>brahman</em>:",
+     "method": "split"
+    },
+    {
+     "verse": "1.1.29",
+     "english": "wondrous and unthinkable, spread evenly through everything, the unmanifest and subtle cause whose nature is both what is and what is not.",
+     "method": "split"
+    },
+    {
+     "verse": "1.1.30-35",
+     "method": "omitted"
+    },
+    {
+     "verse": "1.1.36",
+     "english": "Whatever is seen here — any being at all, standing still or moving — the whole world is drawn back together again when the yuga comes to its ruin;",
+     "method": "split"
+    },
+    {
+     "verse": "1.1.37",
+     "english": "and as the marks of the seasons, various in shape, appear again with each turning — those very same marks — so do the states of being appear again at the start of each yuga.",
+     "method": "split"
+    },
+    {
+     "verse": "1.1.38",
+     "english": "Thus this wheel, without beginning or end, maker of the gathering-in of all beings, without origin and without extinction, turns and turns again in the world.",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.56.33",
+   "order": 1,
+   "ref_on_page": "Mahābhārata 1.56.33",
+   "verses": [
+    {
+     "verse": "1.56.33",
+     "english": "In <em>dharma</em>, and in wealth, and in desire, and in liberation, O bull of the Bharatas — what is here is found elsewhere; what is not here is nowhere at all.",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "1.37.20cd-24",
+   "order": 2,
+   "ref_on_page": "Mahābhārata 1.37.20cd–24",
+   "verses": [
+    {
+     "verse": "1.37.20cd",
+     "english": "“You have not done what pleases me, child; this is not the <em>dharma</em> of ascetics.",
+     "method": "split"
+    },
+    {
+     "verse": "1.37.21",
+     "english": "We dwell within that king’s domain; protected by him in right order, I do not approve of evil done to him.",
+     "method": "split"
+    },
+    {
+     "verse": "1.37.22",
+     "english": "Whatever a king may do, such as we must always forgive him, son — for <em>dharma</em>, struck down, strikes down: there is no doubt of it.",
+     "method": "split"
+    },
+    {
+     "verse": "1.37.23",
+     "english": "If the king did not protect us, great affliction would be ours; we could not practice <em>dharma</em> at our ease, son.",
+     "method": "split"
+    },
+    {
+     "verse": "1.37.24",
+     "english": "Protected by kings whose eyes are the treatises, we practice <em>dharma</em> in abundance — and of that <em>dharma</em>, by <em>dharma</em>, a share belongs to them.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.29, 36-37, 44, 46, 47ef",
+   "order": 3,
+   "ref_on_page": "Mahābhārata 1.58.29, 36–37, 44, 46, 47ef",
+   "verses": [
+    {
+     "verse": "1.58.29",
+     "english": "With those demons born here, and still being born, O protector of the earth, this earth — the Bearer — was no longer able by herself to bear herself.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.30-35",
+     "method": "omitted"
+    },
+    {
+     "verse": "1.58.36",
+     "english": "Neither wind, O king, nor serpents, nor mountains could then bear up this earth, overrun by force by the Dānavas.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.37",
+     "english": "Then the earth, O protector of the earth, oppressed by the burden and afflicted with fear, went for refuge to the god who is grandfather of all beings.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.38-43",
+     "method": "omitted"
+    },
+    {
+     "verse": "1.58.44",
+     "english": "“For the very purpose that has brought you into my presence, Earth, bearer of treasure — for that same purpose I will set all the dwellers of heaven to their task.”",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.45",
+     "method": "omitted"
+    },
+    {
+     "verse": "1.58.46",
+     "english": "“To cast off this earth’s burden, each by his own portion — be born upon her, for the sake of the coming conflict,” he said.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.47a-d",
+     "method": "omitted"
+    },
+    {
+     "verse": "1.58.47ef",
+     "english": "“By your own portions, be born among mortals as you please.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.2",
+   "order": 4,
+   "ref_on_page": "1.58.2",
+   "verses": [
+    {
+     "verse": "1.58.2",
+     "english": "“For what purpose were these godlike great chariot-warriors brought into being on the earth? Tell me that, fortunate one, and tell it rightly.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.6",
+   "order": 5,
+   "ref_on_page": "1.58.6",
+   "verses": [
+    {
+     "verse": "1.58.6",
+     "english": "“Brahmins of severe vows came together with them season by fertile season, tiger among men — not out of desire, and not out of season.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.20cd-22",
+   "order": 6,
+   "ref_on_page": "1.58.20cd–22",
+   "verses": [
+    {
+     "verse": "1.58.20cd",
+     "english": "“Then the traders did not sell their goods by false measures.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.21",
+     "english": "Human beings did their works joined to dharma; looking upon dharma alone, devoted to dharma, they acted.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.22",
+     "english": "Every class delighted in its own proper work, O king — and so, tiger among men, dharma did not diminish anywhere.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.24",
+   "order": 7,
+   "ref_on_page": "1.58.24",
+   "verses": [
+    {
+     "verse": "1.58.24",
+     "english": "“Thus, while the Kṛta age was going correctly, the whole earth was filled — filled to bursting — with living beings.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.25-26, 28",
+   "order": 8,
+   "ref_on_page": "1.58.25–26, 28",
+   "verses": [
+    {
+     "verse": "1.58.25",
+     "english": "“Then, when the human world had risen to its height, bull of the Bharatas, the asuras were born in the field of kings.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.26",
+     "english": "Beaten again and again in battle by the Ādityas, thrown down from their lordship, they came to be here on the earth.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.27",
+     "method": "omitted"
+    },
+    {
+     "verse": "1.58.28",
+     "english": "Among cattle and horses, among asses and camels and buffalo, among the flesh-eating creatures, among elephants and among deer.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.29",
+   "order": 9,
+   "ref_on_page": "1.58.29",
+   "verses": [
+    {
+     "verse": "1.58.29",
+     "english": "“With those already born here and those still being born, O protector of the earth — this earth, the Bearer, was no longer able by herself to bear herself up.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.36-37",
+   "order": 10,
+   "ref_on_page": "1.58.36–37",
+   "verses": [
+    {
+     "verse": "1.58.36",
+     "english": "“The wind could not hold this earth up, king; the world-serpents could not; the mountains could not — overrun by the Dānavas, and overrun by force.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.37",
+     "english": "Then the earth, pained by her burden and crushed by fear, went for refuge to the god who is grandfather of all beings.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.41-42",
+   "order": 11,
+   "ref_on_page": "1.58.41–42",
+   "verses": [
+    {
+     "verse": "1.58.41",
+     "english": "“The earth’s business was already known beforehand to that Self-Existent one, whose nature is the first principle, the Highest-Standing.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.42",
+     "english": "For why would the maker of the world not know, Bhārata — completely, and without remainder — what is in the minds of the gods, the asuras, and the worlds?”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.44",
+   "order": 12,
+   "ref_on_page": "1.58.44",
+   "verses": [
+    {
+     "verse": "1.58.44",
+     "english": "“For the purpose for which you have come into my presence, treasure-bearing one — for that purpose I shall commission every last one of the dwellers in heaven.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.46, 47ef",
+   "order": 13,
+   "ref_on_page": "1.58.46, 47ef",
+   "verses": [
+    {
+     "verse": "1.58.46",
+     "english": "“To cast off the burden of this earth, each by his own separate portion — be born upon her, for conflict. So he said.",
+     "method": "split"
+    },
+    {
+     "verse": "1.58.47a-d",
+     "method": "omitted"
+    },
+    {
+     "verse": "1.58.47ef",
+     "english": "By your own portions be born among human beings, as you please.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.51",
+   "order": 14,
+   "ref_on_page": "1.58.51",
+   "verses": [
+    {
+     "verse": "1.58.51",
+     "english": "“For the cleansing of the earth Indra said to the highest of persons, ‘Descend by a portion’ — and Hari said to him, ‘So be it.’”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "1.61.66-67ab",
+   "order": 15,
+   "ref_on_page": "1.61.66–67ab",
+   "verses": [
+    {
+     "verse": "1.61.66",
+     "english": "“From Mahādeva and from Death, from Desire and from Anger — from those four gone into a single unity — was born the hero, the scorcher of foes:",
+     "method": "split"
+    },
+    {
+     "verse": "1.61.67ab",
+     "english": "Aśvatthāman of great strength, the annihilator of the enemy’s side.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.61.72",
+   "order": 16,
+   "ref_on_page": "1.61.72",
+   "verses": [
+    {
+     "verse": "1.61.72",
+     "english": "“The king called Śakuni, the great chariot-warrior in the world — know him, O king, to have come into being as Dvāpara: the crusher of enemies.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "1.61.80-81",
+   "order": 17,
+   "ref_on_page": "1.61.80–81",
+   "verses": [
+    {
+     "verse": "1.61.80",
+     "english": "“From a portion of Kali was born on earth the king Duryodhana — ill-minded, ill-judging, the unmaker of the Kurus’ fame;",
+     "method": "split"
+    },
+    {
+     "verse": "1.61.81",
+     "english": "hated by all the world, Kali in the shape of a man, the lowest of men, who had the whole earth slaughtered, by whom was kindled that great enmity that makes an end of beings.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.61.84-85",
+   "order": 18,
+   "ref_on_page": "1.61.84–85",
+   "verses": [
+    {
+     "verse": "1.61.84",
+     "english": "“Know the king Yudhiṣṭhira to be the portion of Dharma; Bhīmasena of the Wind; Arjuna of the king of the gods.",
+     "method": "split"
+    },
+    {
+     "verse": "1.61.85",
+     "english": "And the two portions of the Aśvins, unmatched on earth in their beauty — Nakula and Sahadeva, the delight of all the world.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.61.95-97",
+   "order": 19,
+   "ref_on_page": "1.61.95–97",
+   "verses": [
+    {
+     "verse": "1.61.95",
+     "english": "“A portion of Śrī — of Fortune herself — was born on the surface of the earth for the sake of delight: a blameless girl in Drupada’s line, out of the middle of the sacrificial altar.",
+     "method": "split"
+    },
+    {
+     "verse": "1.61.96",
+     "english": "Not too short, not too tall, fragrant as the blue lotus, long-eyed as the lotus, fine-hipped, with long dark hair;",
+     "method": "split"
+    },
+    {
+     "verse": "1.61.97",
+     "english": "endowed with every auspicious mark, like a beryl gem; the churner, in private, of the hearts of five lords of men.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.113.28, 30",
+   "order": 20,
+   "ref_on_page": "1.113.28, 30",
+   "verses": [
+    {
+     "verse": "1.113.28",
+     "english": "“— especially a man greedy for a son, cut off himself from begetting, as I am, woman of flawless limbs, longing to look at a son.",
+     "method": "split"
+    },
+    {
+     "verse": "1.113.29",
+     "method": "omitted"
+    },
+    {
+     "verse": "1.113.30",
+     "english": "At my appointment, then, fair-tressed one, by a twice-born man superior in austerity, you should bring forth sons endowed with good qualities. Through you, broad-hipped one, I would go to the destination of those who have sons.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.113.33-35",
+   "order": 21,
+   "ref_on_page": "1.113.33–35",
+   "verses": [
+    {
+     "verse": "1.113.33",
+     "english": "“The one they know as Durvāsas, whose resolve in dharma is hidden — that man of honed self I satisfied with every effort.",
+     "method": "split"
+    },
+    {
+     "verse": "1.113.34",
+     "english": "And the blessed one declared to me a boon joined with power of compulsion, and gave me a body of mantras, and said this to me:",
+     "method": "split"
+    },
+    {
+     "verse": "1.113.35",
+     "english": "‘Whichever god you summon with this mantra, willing or unwilling, that god will come into your power.’”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.113.39-40",
+   "order": 22,
+   "ref_on_page": "1.113.39–40",
+   "verses": [
+    {
+     "verse": "1.113.39",
+     "english": "“This very day, prepare yourself according to the rule. Summon Dharma, auspicious one — for he is the one among the gods who holds the share of merit.",
+     "method": "split"
+    },
+    {
+     "verse": "1.113.40",
+     "english": "In no way let our dharma be joined to adharma; and this world, too, will judge the thing to be dharma.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.114.4-6",
+   "order": 23,
+   "ref_on_page": "1.114.4–6",
+   "verses": [
+    {
+     "verse": "1.114.4",
+     "english": "“In Indra’s asterism, joined with the moon, in the eighth hour, the Abhijit hour, with the sun standing at midday, on a pure and honored lunar day, Kuntī bore in due time a son of abundant fame. And the moment the son was born, a bodiless voice spoke:",
+     "method": "joined",
+     "covers": [
+      "1.114.4",
+      "1.114.5"
+     ],
+     "note": "Syntax runs across 1.114.4, 1.114.5; kept as one run under the first verse."
+    },
+    {
+     "verse": "1.114.6",
+     "english": "‘This one will be the best of the upholders of dharma, without doubt — known as Yudhiṣṭhira, the first-born son of Pāṇḍu.’”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.114.13a-d",
+   "order": 24,
+   "ref_on_page": "1.114.13a–d",
+   "verses": [
+    {
+     "verse": "1.114.13a-d",
+     "english": "“— then that boy, whose body was a mass of thunderbolt, fell on the mountain; and by his falling the rock was ground to powder, into a hundred pieces, by his limbs.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "1.114.15-16",
+   "order": 25,
+   "ref_on_page": "1.114.15–16",
+   "verses": [
+    {
+     "verse": "1.114.15",
+     "english": "“When Wolf-belly had been born, Pāṇḍu thought further: ‘How might I have a still better son, the best in the world?’",
+     "method": "split"
+    },
+    {
+     "verse": "1.114.16",
+     "english": "— For this world stands upon two things: on daiva, and on the effort of a man. Of these, daiva is obtained by ordinance joined with the right time.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.115.23-24ab",
+   "order": 26,
+   "ref_on_page": "1.115.23–24ab",
+   "verses": [
+    {
+     "verse": "1.115.23",
+     "english": "“Told once, she got a pair — and by that I have been cheated. I am afraid of being outdone by her; such is the way women go.",
+     "method": "split"
+    },
+    {
+     "verse": "1.115.24ab",
+     "english": "Fool that I was, I did not understand that summoning the pair would yield a double fruit.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "1.115.25",
+   "order": 27,
+   "ref_on_page": "1.115.25",
+   "verses": [
+    {
+     "verse": "1.115.25",
+     "english": "“So Pāṇḍu’s five sons, god-given and of great strength, came into being: renowned, the increasers of the Kuru line.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.43.3-5",
+   "order": 28,
+   "ref_on_page": "2.43.3–5",
+   "verses": [
+    {
+     "verse": "2.43.3",
+     "english": "“Once, in the middle of the hall, that lord of earth came upon a crystal floor and, suspecting it was water, hitched up his clothes — his mind deceived. Then, sick at heart and turning his face away, he went on through the hall.",
+     "method": "joined",
+     "covers": [
+      "2.43.3",
+      "2.43.4ab"
+     ],
+     "note": "Syntax runs across 2.43.3, 2.43.4ab; kept as one run under the first verse."
+    },
+    {
+     "verse": "2.43.5",
+     "english": "And then, taking a pool of crystal-clear water bright with crystal lotuses to be solid ground, he fell into it with his clothes on.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.43.13",
+   "order": 29,
+   "ref_on_page": "2.43.13",
+   "verses": [
+    {
+     "verse": "2.43.13",
+     "english": "“As he went — scorched by the Pāṇḍavas’ fortune, worn out by brooding — an evil thought was born in king Duryodhana.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.43.19-21",
+   "order": 30,
+   "ref_on_page": "2.43.19–21",
+   "verses": [
+    {
+     "verse": "2.43.19",
+     "english": "“Having seen this whole earth gone under Yudhiṣṭhira’s control, conquered by the blaze of the great-souled White-Horsed one’s weapons; having seen that sacrifice of Pṛthā’s son, uncle — as Indra’s is among the gods, such was it — I am filled to the brim with a rage I cannot swallow, burning day and night. In the season when the hot months come I dry up like a little water.”",
+     "method": "joined",
+     "covers": [
+      "2.43.19",
+      "2.43.20",
+      "2.43.21"
+     ],
+     "note": "Syntax runs across 2.43.19, 2.43.20, 2.43.21; kept as one run under the first verse."
+    }
+   ]
+  },
+  {
+   "passage": "2.43.26-27",
+   "order": 31,
+   "ref_on_page": "2.43.26–27",
+   "verses": [
+    {
+     "verse": "2.43.26",
+     "english": "“Having seen a fortune of that kind, all but blazing, on the son of Pāṇḍu, I have fallen into the power of a rage I cannot bear, and I burn, unaccustomed to this.",
+     "method": "split"
+    },
+    {
+     "verse": "2.43.27",
+     "english": "I will enter fire, or I will eat poison, or I will walk into water — I am not going to be able to live.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.43.29",
+   "order": 32,
+   "ref_on_page": "2.43.29",
+   "verses": [
+    {
+     "verse": "2.43.29",
+     "english": "“So I am not a woman, and not a non-woman; not a man, and not a non-man either — I, who today put up with a fortune of that sort having come to another.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.43.31-32ab, 33-34",
+   "order": 33,
+   "ref_on_page": "2.43.31–32ab, 33–34",
+   "verses": [
+    {
+     "verse": "2.43.31",
+     "english": "“Alone, I am not able to take that royal fortune, and I see no allies; therefore I am thinking about death.",
+     "method": "split"
+    },
+    {
+     "verse": "2.43.32ab",
+     "english": "I hold daiva to be supreme, and manhood’s striving to be pointless.",
+     "method": "split"
+    },
+    {
+     "verse": "2.43.32cd",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.43.33",
+     "english": "Effort was made by me before, uncle, toward his destruction — and he passed clean through all of it and grew, like a lotus in water.",
+     "method": "split"
+    },
+    {
+     "verse": "2.43.34",
+     "english": "So I hold daiva to be supreme, and manhood’s striving to be pointless: the sons of Dhṛtarāṣṭra dwindle, and Pṛthā’s sons increase perpetually.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.44.11cd",
+   "order": 34,
+   "ref_on_page": "2.44.11cd",
+   "verses": [
+    {
+     "verse": "2.44.11cd",
+     "english": "“Joined with all of these, conquer the whole earth.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.44.14-15ab, 18-19",
+   "order": 35,
+   "ref_on_page": "2.44.14–15ab, 18–19",
+   "verses": [
+    {
+     "verse": "2.44.14",
+     "english": "“Arjuna, Vāsudeva, Bhīmasena, Yudhiṣṭhira, Nakula, Sahadeva, and Drupada with his sons — these are not to be beaten in battle by force, not even by the hosts of the gods.",
+     "method": "joined",
+     "covers": [
+      "2.44.14",
+      "2.44.15ab"
+     ],
+     "note": "Syntax runs across 2.44.14, 2.44.15ab; kept as one run under the first verse."
+    },
+    {
+     "verse": "2.44.15cd-17",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.44.18",
+     "english": "But the son of Kuntī loves dicing and does not know how to play; and once he is challenged, that lord of kings will not be able to refuse.",
+     "method": "split"
+    },
+    {
+     "verse": "2.44.19",
+     "english": "And I am skilled at the game, and I have no equal on earth or in the three worlds. Summon that son of Kuntī to dice.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.45.8-9",
+   "order": 36,
+   "ref_on_page": "2.45.8–9",
+   "verses": [
+    {
+     "verse": "2.45.8",
+     "english": "“Great lordship, my son, has all been handed over to you. Your brothers and friends do nothing you dislike.",
+     "method": "split"
+    },
+    {
+     "verse": "2.45.9",
+     "english": "You put on fine cloaks; you eat rice with meat; thoroughbreds carry you. Why are you sallow and thin?”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.45.12-14ab",
+   "order": 37,
+   "ref_on_page": "2.45.12–14ab",
+   "verses": [
+    {
+     "verse": "2.45.12",
+     "english": "“I eat and I dress myself like a sorry excuse for a man. I carry a fierce unbearable anger, waiting out the turning of time.",
+     "method": "split"
+    },
+    {
+     "verse": "2.45.13",
+     "english": "The man who cannot bear it, when enemies have overpowered his own people and stand over him, who wants to be free of the sufferings the enemy causes — he is what is called a man.",
+     "method": "split"
+    },
+    {
+     "verse": "2.45.14ab",
+     "english": "Contentment kills fortune, Bhārata, and so does self-satisfaction.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.45.30-31",
+   "order": 38,
+   "ref_on_page": "2.45.30–31",
+   "verses": [
+    {
+     "verse": "2.45.30",
+     "english": "“Whenever a full hundred thousand brahmins had been served, a signal had been set there: a conch is blown.",
+     "method": "split"
+    },
+    {
+     "verse": "2.45.31",
+     "english": "Again and again that conch sounded, and I heard that supreme sound — and then the hairs on my body stood up.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.45.43-44",
+   "order": 39,
+   "ref_on_page": "2.45.43–44",
+   "verses": [
+    {
+     "verse": "2.45.43",
+     "english": "“That steward will turn you back if he comes. And if you turn back, lord of kings, I shall die — no doubt of it.",
+     "method": "split"
+    },
+    {
+     "verse": "2.45.44",
+     "english": "When I am dead, king, be happy with Vidura; you will enjoy the whole earth. What use will you have for me?”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.45.48ab, 49",
+   "order": 40,
+   "ref_on_page": "2.45.48ab, 49",
+   "verses": [
+    {
+     "verse": "2.45.48ab",
+     "english": "“Having decided that it was for Duryodhana’s peace of mind, the lord of the earth",
+     "method": "split"
+    },
+    {
+     "verse": "2.45.48cd",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.45.49",
+     "english": "— and he never made any decision without asking Vidura; and, knowing the evils of dicing, he was dragged along by love for his son.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.45.52",
+   "order": 41,
+   "ref_on_page": "2.45.52",
+   "verses": [
+    {
+     "verse": "2.45.52",
+     "english": "“I do not welcome this resolve of yours, my lord. Act so that there is no split among your sons on account of dicing.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.45.53-54, 57",
+   "order": 42,
+   "ref_on_page": "2.45.53–54, 57",
+   "verses": [
+    {
+     "verse": "2.45.53",
+     "english": "“Steward, there will be no quarrel among my sons. The gods in heaven will be gracious to us; no doubt of it.",
+     "method": "split"
+    },
+    {
+     "verse": "2.45.54",
+     "english": "Whether it is inauspicious or auspicious, whether it is good for us or bad for us — let this friendly game go forward. This is what has been appointed; no doubt of it.",
+     "method": "split"
+    },
+    {
+     "verse": "2.45.55-56",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.45.57",
+     "english": "My resolve is not to be obstructed, Vidura; I tell you this. I hold daiva to be supreme, since it is by daiva that this comes about.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.51.12ab, 13ab",
+   "order": 43,
+   "ref_on_page": "2.51.12ab, 13ab",
+   "verses": [
+    {
+     "verse": "2.51.12ab",
+     "english": "“In dicing, the practice was laid down by the ancients; there is no transgression in it, and no armed clash.",
+     "method": "split"
+    },
+    {
+     "verse": "2.51.12cd",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.51.13ab",
+     "english": "The door of heaven is a distinguished one for those who play, and equally fitting for those who follow the practice.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.51.14-15",
+   "order": 44,
+   "ref_on_page": "2.51.14–15",
+   "verses": [
+    {
+     "verse": "2.51.14",
+     "english": "“The words you have spoken do not please me. Let what pleases you be done, lord of men. Having undertaken that word, you will burn for it afterward — words like these will not prove to accord with dharma.",
+     "method": "split"
+    },
+    {
+     "verse": "2.51.15",
+     "english": "All this was foreseen exactly so by Vidura, who follows intelligence and learning. And now it comes upon me, who am helpless: the great terror, the killer of the seed of warriors.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.51.16",
+   "order": 45,
+   "ref_on_page": "2.51.16",
+   "verses": [
+    {
+     "verse": "2.51.16",
+     "english": "“Having said this, the thoughtful Dhṛtarāṣṭra — holding daiva to be supreme and impossible to cross — loudly gave the order to his men: a king standing on his son’s word, his mind deluded by daiva.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.52.1",
+   "order": 46,
+   "ref_on_page": "2.52.1",
+   "verses": [
+    {
+     "verse": "2.52.1",
+     "english": "“Then Vidura set out with noble horses, very swift, strong, well broken — commissioned by force by king Dhṛtarāṣṭra — into the presence of the thoughtful Pāṇḍavas.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.52.5ab",
+   "order": 47,
+   "ref_on_page": "2.52.5ab",
+   "verses": [
+    {
+     "verse": "2.52.5ab",
+     "english": "“There is no gladness of mind detectable in you. Steward, have you come here in well-being?”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.52.7-9",
+   "order": 48,
+   "ref_on_page": "2.52.7–9",
+   "verses": [
+    {
+     "verse": "2.52.7",
+     "english": "“This is what the Kuru king said to you, having first asked after your health and your welfare: ‘This hall of your brothers’ is equal in form to your own hall. Come, son, and look at it.",
+     "method": "split"
+    },
+    {
+     "verse": "2.52.8",
+     "english": "Meeting with your brothers, Pṛthā’s son, let a friendly game be played there, and let there be pleasure. We shall be delighted at your coming, and all the Kurus are gathered.",
+     "method": "split"
+    },
+    {
+     "verse": "2.52.9",
+     "english": "And the gamblers appointed there by the great king Dhṛtarāṣṭra — you will see them, seated.’ That is why I have come, king. Take pleasure in it.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.52.10",
+   "order": 49,
+   "ref_on_page": "2.52.10",
+   "verses": [
+    {
+     "verse": "2.52.10",
+     "english": "“Steward, in dicing there is quarrelling for us. What man, if he were thinking, would want to dice? What do you consider the fitting thing here? We all stand on your word.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.52.11",
+   "order": 50,
+   "ref_on_page": "2.52.11",
+   "verses": [
+    {
+     "verse": "2.52.11",
+     "english": "“I know that dicing is the root of ruin, and effort was made by me to prevent it. The king sent me to you. Having heard, learned one, do here what is better.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.52.14-16",
+   "order": 51,
+   "ref_on_page": "2.52.14–16",
+   "verses": [
+    {
+     "verse": "2.52.14",
+     "english": "“Very dangerous gamblers are seated there; there are players there whose foundation is trickery. But this lies in the power of what the Ordainer has appointed — so there is no not-playing with those gamblers for me today.",
+     "method": "split"
+    },
+    {
+     "verse": "2.52.15",
+     "english": "Because of king Dhṛtarāṣṭra’s command I do not wish to refuse to go to the dice, wise one — a father is always to be desired by a son; therefore I shall do it, Vidura, as you tell me.",
+     "method": "split"
+    },
+    {
+     "verse": "2.52.16",
+     "english": "And I will not play with Śakuni unwillingly, unless the bold man challenges me in the assembly: summoned, I never turn back. That is the vow laid on me, and it is permanent.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.52.18",
+   "order": 52,
+   "ref_on_page": "2.52.18",
+   "verses": [
+    {
+     "verse": "2.52.18",
+     "english": "“Daiva steals a man’s discernment as a glare steals the eye, and a man goes along under the Ordainer’s power like one bound with cords.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.52.31-32",
+   "order": 53,
+   "ref_on_page": "2.52.31–32",
+   "verses": [
+    {
+     "verse": "2.52.31",
+     "english": "“Given leave, they entered the jewel-filled apartments; and the women, Draupadī at their head, came out and saw them.",
+     "method": "split"
+    },
+    {
+     "verse": "2.52.32",
+     "english": "Seeing the supreme prosperity of Yajñasena’s daughter, all but blazing, the daughters-in-law of Dhṛtarāṣṭra were not very glad in their minds.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.52.37cd",
+   "order": 54,
+   "ref_on_page": "2.52.37cd",
+   "verses": [
+    {
+     "verse": "2.52.37cd",
+     "english": "“— they entered the beautiful hall, which was crowded with gamblers.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.53.2-3",
+   "order": 55,
+   "ref_on_page": "2.53.2–3",
+   "verses": [
+    {
+     "verse": "2.53.2",
+     "english": "“Play is trickery, and evil; there is no warrior’s valor in it, and no settled policy. Why do you praise dicing?",
+     "method": "split"
+    },
+    {
+     "verse": "2.53.3",
+     "english": "Men do not praise a gambler’s honor when there is fraud in it. Śakuni — do not beat us that way, off the road, cruelly.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.53.11-12",
+   "order": 56,
+   "ref_on_page": "2.53.11–12",
+   "verses": [
+    {
+     "verse": "2.53.11",
+     "english": "“A learned man approaches an unlearned man by exactly that trickery, Yudhiṣṭhira; a man who knows approaches men who do not know — and people do not call that fraud.",
+     "method": "split"
+    },
+    {
+     "verse": "2.53.12",
+     "english": "If, having come to me here, you consider it fraud, then turn back from the game — if you are afraid.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.53.13",
+   "order": 57,
+   "ref_on_page": "2.53.13",
+   "verses": [
+    {
+     "verse": "2.53.13",
+     "english": "“‘Summoned, I do not turn back’ — that is the vow laid on me. And Ordinance is strong, king: I stand in the power of what is appointed.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.53.16",
+   "order": 58,
+   "ref_on_page": "2.53.16",
+   "verses": [
+    {
+     "verse": "2.53.16",
+     "english": "“For one man to play on another’s behalf seems to me irregular. You know this — take it up if you like; let it proceed even so.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.54.7",
+   "order": 59,
+   "ref_on_page": "2.54.7 (refrain; repeated at 2.54.15, 18, 23, 27, 29; 2.58.4, 6, 8, 10, 15, 21, 25, 28)",
+   "verses": [
+    {
+     "verse": "2.54.7",
+     "english": "“Hearing that, the determined one, who had taken his stand on fraud, said just this to Yudhiṣṭhira: ‘Won.’”",
+     "method": "whole"
+    }
+   ],
+   "note": "refrain; repeated at 2.54.15, 18, 23, 27, 29; 2.58.4, 6, 8, 10, 15, 21, 25, 28"
+  },
+  {
+   "passage": "2.58.1",
+   "order": 60,
+   "ref_on_page": "2.58.1",
+   "verses": [
+    {
+     "verse": "2.58.1",
+     "english": "“You have gambled away much of the Pāṇḍavas’ wealth, Yudhiṣṭhira. Declare your wealth, son of Kuntī, if you have any that is not yet lost.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.7a-d",
+   "order": 61,
+   "ref_on_page": "2.58.7a–d",
+   "verses": [
+    {
+     "verse": "2.58.7a-d",
+     "english": "“The city, the countryside, the land, together with the property of all who are not brahmins, and the men who are not brahmins — king, that is the wealth left to me.” <em>Won.</em>",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.9a-d",
+   "order": 62,
+   "ref_on_page": "2.58.9a–d",
+   "verses": [
+    {
+     "verse": "2.58.9a-d",
+     "english": "“The ornaments by which these princes here are made splendid — the earrings, the gold pieces, every body-ornament.” <em>Won.</em>",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.11",
+   "order": 63,
+   "ref_on_page": "2.58.11",
+   "verses": [
+    {
+     "verse": "2.58.11",
+     "english": "“Dark, young, red-eyed, lion-shouldered, great-armed — Nakula is my single throw; that is the wealth that belongs to me.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.14",
+   "order": 64,
+   "ref_on_page": "2.58.14",
+   "verses": [
+    {
+     "verse": "2.58.14",
+     "english": "“This Sahadeva teaches the dharmas; in this world he has gone by the name of scholar. With that prince, who does not deserve it, dear to me as though he were not dear — with him I play against you.” <em>Won.</em>",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.16",
+   "order": 65,
+   "ref_on_page": "2.58.16",
+   "verses": [
+    {
+     "verse": "2.58.16",
+     "english": "“These two sons of Mādrī, dear to you, king, have been won by me. But I think Bhīmasena and Arjuna are weightier to you.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.17",
+   "order": 66,
+   "ref_on_page": "2.58.17",
+   "verses": [
+    {
+     "verse": "2.58.17",
+     "english": "“You are certainly practicing adharma, you who pay no attention to right conduct — you who want to make a split among us, fool, when our minds are good toward each other.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.23-24",
+   "order": 67,
+   "ref_on_page": "2.58.23–24",
+   "verses": [
+    {
+     "verse": "2.58.23",
+     "english": "“He who is our leader, who leads us in battle, like the wielder of the thunderbolt, sole enemy of the demons; who looks sidelong with his brows knit together, the great-souled one, lion-shouldered, who is always past bearing anger; the man whose equal in strength does not exist, first of mace-bearers, crusher of enemies here — with that prince, who does not deserve it, with Bhīmasena I play, king.” <em>Won.</em>",
+     "method": "joined",
+     "covers": [
+      "2.58.23",
+      "2.58.24"
+     ],
+     "note": "Syntax runs across 2.58.23, 2.58.24; kept as one run under the first verse."
+    }
+   ]
+  },
+  {
+   "passage": "2.58.27",
+   "order": 68,
+   "ref_on_page": "2.58.27",
+   "verses": [
+    {
+     "verse": "2.58.27",
+     "english": "“I am the distinguished one of all my brothers, and the beloved one. I stake myself: won, we would do your work ourselves, in our own ruin.” <em>Won.</em>",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.29",
+   "order": 69,
+   "ref_on_page": "2.58.29",
+   "verses": [
+    {
+     "verse": "2.58.29",
+     "english": "“You have done the most evil thing there is, in that you have gambled yourself away. When wealth is still left, king, the losing of one’s own self is an evil act.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.31",
+   "order": 70,
+   "ref_on_page": "2.58.31",
+   "verses": [
+    {
+     "verse": "2.58.31",
+     "english": "“You do have a beloved queen — one throw not yet lost. Stake Kṛṣṇā of Pāñcāla; with her, win yourself back.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.32-35",
+   "order": 71,
+   "ref_on_page": "2.58.32–35",
+   "verses": [
+    {
+     "verse": "2.58.32",
+     "english": "“Not short and not tall, not too dark and not ruddy, her eyes reddened with passion — with her I play against you.",
+     "method": "split"
+    },
+    {
+     "verse": "2.58.33",
+     "english": "Her eyes are the petals of the autumn lotus; her fragrance is the autumn lotus; she is the attendant of the autumn lotus; in beauty she is the equal of Śrī.",
+     "method": "split"
+    },
+    {
+     "verse": "2.58.34",
+     "english": "Such a woman a man would wish for, in her freedom from cruelty, in her perfection of form, in her perfection of character.",
+     "method": "split"
+    },
+    {
+     "verse": "2.58.35",
+     "english": "She is the last to lie down and the first to wake. Down to the cowherds and the shepherds, she knows everything that has been done and not done.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.37",
+   "order": 72,
+   "ref_on_page": "2.58.37",
+   "verses": [
+    {
+     "verse": "2.58.37",
+     "english": "“With her, of such a kind, king — with the Pāñcāla woman, slender-waisted, beautiful of limb, with Draupadī — I play the throw. There, Saubala.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.38-42",
+   "order": 73,
+   "ref_on_page": "2.58.38–42",
+   "verses": [
+    {
+     "verse": "2.58.38",
+     "english": "“When that word had been spoken by the Dharma King, cries of ‘Shame! Shame!’ broke from the elders in the assembly.",
+     "method": "split"
+    },
+    {
+     "verse": "2.58.39",
+     "english": "The hall shook; talk started up among the kings; sweat came out on Bhīṣma, Droṇa, Kṛpa and the rest.",
+     "method": "split"
+    },
+    {
+     "verse": "2.58.40",
+     "english": "Vidura took hold of his head and became like a man whose strength has gone out of him; he sat brooding, face down, hissing like a snake.",
+     "method": "split"
+    },
+    {
+     "verse": "2.58.41",
+     "english": "But Dhṛtarāṣṭra, thrilled, kept asking over and over, ‘What is won? What is won?’ — he could not keep his composure.",
+     "method": "split"
+    },
+    {
+     "verse": "2.58.42",
+     "english": "Karṇa was delighted beyond measure, and Duḥśāsana and the others with him. But from the eyes of the rest of the assembly, water fell.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.58.43",
+   "order": 74,
+   "ref_on_page": "2.58.43",
+   "verses": [
+    {
+     "verse": "2.58.43",
+     "english": "“And Saubala, without any deliberation at all, wearing the look of a winner, swollen with intoxication, took up those dice again with just this: ‘Won.’”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.59.1",
+   "order": 75,
+   "ref_on_page": "2.59.1",
+   "verses": [
+    {
+     "verse": "2.59.1",
+     "english": "“Come, steward, bring Draupadī — the beloved wife, honored by the Pāṇḍavas. Let her sweep the house; let her go at once; let there be pleasure for us, with the slave-women.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.59.4",
+   "order": 76,
+   "ref_on_page": "2.59.4",
+   "verses": [
+    {
+     "verse": "2.59.4",
+     "english": "“Kṛṣṇā has not come into slavery, Bhārata. My judgment is that she was put down as a stake by a king who was no longer her master.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.5, 7",
+   "order": 77,
+   "ref_on_page": "2.60.5, 7",
+   "verses": [
+    {
+     "verse": "2.60.5",
+     "english": "“How can you say such a thing, messenger? What prince would play with his wife? Was the king so deluded, so drunk with the madness of dice — was there nothing else left to him to stake?",
+     "method": "split"
+    },
+    {
+     "verse": "2.60.6",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.60.7",
+     "english": "Go. Go to the gambler in the hall and ask him, charioteer’s son: which did you lose first, yourself or me, Bhārata? Come back when you know that; then take me, charioteer’s son.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.9",
+   "order": 78,
+   "ref_on_page": "2.60.9",
+   "verses": [
+    {
+     "verse": "2.60.9",
+     "english": "“But Yudhiṣṭhira, motionless, became like a man whose strength has gone out of him. He answered the charioteer’s son not a word, good or bad.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.12",
+   "order": 79,
+   "ref_on_page": "2.60.12",
+   "verses": [
+    {
+     "verse": "2.60.12",
+     "english": "“The assembly is calling you, princess. I think the destruction of the Kauravas has arrived. A lesser man does not protect his own prosperity — since you, a princess, are to come into the hall.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.13",
+   "order": 80,
+   "ref_on_page": "2.60.13",
+   "verses": [
+    {
+     "verse": "2.60.13",
+     "english": "“Surely the Ordainer has arranged it so: both kinds of touch, the pleasant and the painful, reach the wise man and the child. But he has declared dharma alone supreme in this world; kept guarded, it will set us at peace.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.20",
+   "order": 81,
+   "ref_on_page": "2.60.20",
+   "verses": [
+    {
+     "verse": "2.60.20",
+     "english": "“Come, come, Pāñcālī; you have been won, Kṛṣṇā. Look at Duryodhana, and let your shame go. Long-lotus-eyed one, take to the Kurus. You have been acquired by dharma. Go to the hall.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.21-22",
+   "order": 82,
+   "ref_on_page": "2.60.21–22",
+   "verses": [
+    {
+     "verse": "2.60.21",
+     "english": "“Then she stood up, sick at heart, wiped her bloodless face with her hand, and in her distress ran toward the women of the old king, the bull of the Kurus.",
+     "method": "split"
+    },
+    {
+     "verse": "2.60.22",
+     "english": "Then Duḥśāsana rushed at her at speed, in fury, roaring at her, and seized the wife of a lord of men by the hair — long, dark, and waved.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.23",
+   "order": 83,
+   "ref_on_page": "2.60.23",
+   "verses": [
+    {
+     "verse": "2.60.23",
+     "english": "“Those locks, which at the final bath of the Rājasūya, at that great rite, had been sprinkled with water purified by mantra — those, in contempt of the Pāṇḍavas’ valor, were mauled by force by the son of Dhṛtarāṣṭra.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.24",
+   "order": 84,
+   "ref_on_page": "2.60.24",
+   "verses": [
+    {
+     "verse": "2.60.24",
+     "english": "“Having laid hands on her, Duḥśāsana brought Kṛṣṇā of the very dark hair up to the hall and dragged her — a woman who had protectors, as though she had none — the way the wind drags a plantain tree that suffers it.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.26cd-27",
+   "order": 85,
+   "ref_on_page": "2.60.26cd–27",
+   "verses": [
+    {
+     "verse": "2.60.26cd",
+     "english": "“Cry out to Kṛṣṇa and Jiṣṇu and Hari and Nara for rescue — I am taking you all the same.",
+     "method": "split"
+    },
+    {
+     "verse": "2.60.27",
+     "english": "Be in your period, daughter of Yajñasena, or in one garment, or with no garment at all: you have been won at dice, and made a slave; and with slave women, desire goes as it pleases.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.29-31",
+   "order": 86,
+   "ref_on_page": "2.60.29–31",
+   "verses": [
+    {
+     "verse": "2.60.29",
+     "english": "“These men in the hall have been taught the treatises; they all perform the rites; they are all like Indra. All of them stand in the place of teachers, and are teachers. Before them I cannot bear to stand like this.",
+     "method": "split"
+    },
+    {
+     "verse": "2.60.30",
+     "english": "Man of cruel acts, of ignoble conduct — do not make me naked, do not drag me. The princes would not endure it from you, not if the gods with Indra were your allies.",
+     "method": "split"
+    },
+    {
+     "verse": "2.60.31",
+     "english": "The king, the son of Dharma, stands in dharma — and dharma is subtle, to be grasped only by the skilful. Even by a word I do not wish to give up my own good qualities and impute a fault to my husband, not so much as an atom’s worth.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.32-34",
+   "order": 87,
+   "ref_on_page": "2.60.32–34",
+   "verses": [
+    {
+     "verse": "2.60.32",
+     "english": "“But this is ignoble — that in the middle of the Kuru heroes you drag me while I am in my period. And no one here pays me any honour. Surely they have all gone over to your opinion.",
+     "method": "split"
+    },
+    {
+     "verse": "2.60.33",
+     "english": "Shame! The dharma of the Bhāratas is lost, and so is the practice of those who know the warrior’s code — for all the Kurus in this hall are watching the boundary-line of Kuru dharma being crossed.",
+     "method": "split"
+    },
+    {
+     "verse": "2.60.34",
+     "english": "Droṇa has no strength in him, and neither has Bhīṣma — nor, surely, has this great-souled king either — for the chief elders of the Kurus likewise take no notice of this terrible adharma of the king.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.35-36",
+   "order": 88,
+   "ref_on_page": "2.60.35–36",
+   "verses": [
+    {
+     "verse": "2.60.35",
+     "english": "“Speaking so, pitiably, the slender-waisted one looked sidelong at her furious husbands. And she set the Pāṇḍavas — whose bodies were already wrapped in rage — on fire, with the falling of those sidelong glances.",
+     "method": "split"
+    },
+    {
+     "verse": "2.60.36",
+     "english": "Not by the kingdom taken, nor by the wealth, nor by the chief jewels, did it become as it then became: the grief that came of Kṛṣṇā’s sidelong glance, driven by anguish and by rage.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.40-42",
+   "order": 89,
+   "ref_on_page": "2.60.40–42",
+   "verses": [
+    {
+     "verse": "2.60.40",
+     "english": "“Because of the subtlety of dharma, fortunate woman, I am not able to decide this question of yours as it should be decided. One who has nothing of his own cannot stake what belongs to another — and yet, considering that a woman is in her husband’s power … Yudhiṣṭhira would abandon the whole prosperous earth and would not abandon truth; and the Pāṇḍava has said ‘I am won.’ Therefore I cannot decide it.",
+     "method": "joined",
+     "covers": [
+      "2.60.40",
+      "2.60.41"
+     ],
+     "note": "Syntax runs across 2.60.40, 2.60.41; kept as one run under the first verse."
+    },
+    {
+     "verse": "2.60.42",
+     "english": "Śakuni has no second among men at dice, and the son of Kuntī was left by him free to play as he chose; the great-souled one does not consider it fraud. Therefore I do not answer this question of yours.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.60.43-45",
+   "order": 90,
+   "ref_on_page": "2.60.43–45",
+   "verses": [
+    {
+     "verse": "2.60.43",
+     "english": "“The king was summoned into the hall by experts — by men of ruined character, cheats, ignoble men, lovers of dicing — and he was not much practiced. How can he be called a man who was given his choice?",
+     "method": "split"
+    },
+    {
+     "verse": "2.60.44",
+     "english": "He is pure in nature and did not understand the operation of the fraud, that first man of the Kurus and Pāṇḍavas; he was beaten by all of them acting together, and only afterward did he agree to the wager.",
+     "method": "split"
+    },
+    {
+     "verse": "2.60.45",
+     "english": "And these Kurus stand in the hall, masters of their sons and of their sons’ wives. Let them all consider — and my words too — and answer this question of mine as it should be answered.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.61.20-21, 23-24",
+   "order": 91,
+   "ref_on_page": "2.61.20–21, 23–24",
+   "verses": [
+    {
+     "verse": "2.61.20",
+     "english": "“The best of men say there are four vices of kings: hunting, drink, dice, and excessive attachment to women.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.21",
+     "english": "A man attached to these acts with dharma thrown aside, and the world does not recognize an act done by a man so joined.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.22",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.61.23",
+     "english": "Furthermore, the blameless woman is held in common by all the Pāṇḍavas; and this Pāṇḍava had already been won when he made the stake;",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.24",
+     "english": "and Kṛṣṇā was named by Saubala, who wanted the stake. Weighing all of this, I hold that she has not been won.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.61.28, 31cd-33, 35-36",
+   "order": 92,
+   "ref_on_page": "2.61.28, 31cd–33, 35–36",
+   "verses": [
+    {
+     "verse": "2.61.28",
+     "english": "“These men have said nothing at all, though pressed by Kṛṣṇā. I take it they consider Drupada’s daughter lawfully won.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.29-31ab",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.61.31cd",
+     "english": "When the eldest of the Pāṇḍavas staked everything in the hall, and Draupadī was included within ‘everything’, bull of the Bharatas — how do you consider Kṛṣṇā, thus won by dharma, not won?",
+     "method": "joined",
+     "covers": [
+      "2.61.31cd",
+      "2.61.32"
+     ],
+     "note": "Syntax runs across 2.61.31cd, 2.61.32; kept as one run under the first verse."
+    },
+    {
+     "verse": "2.61.33",
+     "english": "She was named aloud, and the Pāṇḍavas consented. On what ground do you hold her to be unwon?",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.34",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.61.35",
+     "english": "One husband is ordained for a woman by the gods, son of Kuru; but this one is in the power of many, and is therefore determined to be a whore.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.36",
+     "english": "Bringing her into the hall is nothing remarkable, in my judgment — nor is her being in one garment, nor her being in none.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.61.37-38",
+   "order": 93,
+   "ref_on_page": "2.61.37–38",
+   "verses": [
+    {
+     "verse": "2.61.37",
+     "english": "“Whatever property is theirs, and this woman, and the Pāṇḍavas themselves — all of that wealth has been lawfully won here by Saubala.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.38",
+     "english": "Duḥśāsana: this Vikarṇa is a child talking like a wise man. Take away the garments of the Pāṇḍavas, and Draupadī’s too.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.61.40-42",
+   "order": 94,
+   "ref_on_page": "2.61.40–42",
+   "verses": [
+    {
+     "verse": "2.61.40",
+     "english": "“Then Duḥśāsana, king, seizing Draupadī’s garment by force in the middle of the hall, began to pull it off.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.41",
+     "english": "And as Draupadī’s garment was being pulled, lord of peoples, another garment of the same kind appeared — again and again, many times over.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.42",
+     "english": "Then there arose a terrible roar of voices there, as all the lords of earth looked upon the greatest wonder in the world.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.61.44-46",
+   "order": 95,
+   "ref_on_page": "2.61.44–46",
+   "verses": [
+    {
+     "verse": "2.61.44",
+     "english": "“Take up this word of mine, you warriors who dwell in the world — a thing never spoken before by other men, and which no other will speak after:",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.45",
+     "english": "if, having said this, I do not do it, lords of the earth, may I not attain the destination of my ancestors.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.46",
+     "english": "If I do not, in battle, break open the chest of this evil man, this low-born one, this outcast of the Bhāratas, and drink his blood by force —”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.61.52-53, 56-57",
+   "order": 96,
+   "ref_on_page": "2.61.52–53, 56–57",
+   "verses": [
+    {
+     "verse": "2.61.52",
+     "english": "“Draupadī has stated her question and cries out like a woman with no protector — and you do not answer that question. Members of the assembly, dharma is being crushed here.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.53",
+     "english": "An injured person comes into an assembly like a blazing sacrificial fire, and the members of the assembly quench that fire with truth and with dharma.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.54-55",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.61.56",
+     "english": "A man who sees dharma, who has come into an assembly and does not answer the question, receives half of the fruit that comes of a lie.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.57",
+     "english": "And a man who sees dharma, who has come into an assembly and answers falsely, obtains the whole fruit of the lie: that is settled.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.61.67-68ab, 69-70",
+   "order": 97,
+   "ref_on_page": "2.61.67–68ab, 69–70",
+   "verses": [
+    {
+     "verse": "2.61.67",
+     "english": "“A man who knows and does not answer the question — from desire, from anger, or from fear — fastens on himself a thousand of Varuṇa’s nooses;",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.68ab",
+     "english": "and one noose is loosed at the end of a full year.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.68cd",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.61.69",
+     "english": "Where dharma comes into an assembly pierced by adharma, and the members of that assembly do not cut the barb out of him, they are themselves pierced.",
+     "method": "split"
+    },
+    {
+     "verse": "2.61.70",
+     "english": "The chief man carries off half the guilt; a quarter falls on the doers; and a quarter on the members of the assembly, who do not condemn what is condemnable.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.61.81",
+   "order": 98,
+   "ref_on_page": "2.61.81",
+   "verses": [
+    {
+     "verse": "2.61.81",
+     "english": "“Having heard Vidura’s speech, the kings said nothing whatsoever. But Karṇa said to Duḥśāsana: ‘Take Kṛṣṇā, the slave-woman, to the house.’”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.62.1-2, 8-9, 13",
+   "order": 99,
+   "ref_on_page": "2.62.1–2, 8–9, 13",
+   "verses": [
+    {
+     "verse": "2.62.1",
+     "english": "“The duty that I should have performed first, the duty owed before all others, I have not performed; I have been made helpless by this strong man dragging me by force.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.2",
+     "english": "I make my salutation to these elders in the assembly of the Kurus. Let this not be my fault, that it was not done by me.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.3-7",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.62.8",
+     "english": "What is more wretched than this: that I, a woman, chaste and virtuous, plunge today into the middle of the hall? Where has the dharma of the lords of the earth gone?",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.9",
+     "english": "We have heard that in earlier times people did not lead virtuous women into an assembly. That ancient eternal dharma is destroyed among the Kauravas.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.10-12",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.62.13",
+     "english": "Whether you judge me won or not won, kings — I want to be answered on that, and I will do it, Kauravas.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.62.14-15, 17, 20-21ab",
+   "order": 100,
+   "ref_on_page": "2.62.14–15, 17, 20–21ab",
+   "verses": [
+    {
+     "verse": "2.62.14",
+     "english": "“I have told you, good woman: the ultimate course of dharma cannot be reached in this world, not even by great brahmins.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.15",
+     "english": "But whatever a strong man in the world sees as dharma — that, when dharma is in question, is what gets called dharma by others.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.16",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.62.17",
+     "english": "Surely the end of this family will come, and not long from now, since all the Kurus have gone over to greed and delusion.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.18-19",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.62.20",
+     "english": "These men here, Droṇa and the elders, people who know dharma, sit with empty bodies, bowed like men whose life-breath is gone.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.21ab",
+     "english": "But in this question, my judgment is that Yudhiṣṭhira is the authority.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.62.22",
+   "order": 101,
+   "ref_on_page": "2.62.22",
+   "verses": [
+    {
+     "verse": "2.62.22",
+     "english": "“Seeing her so, again and again, wailing like an osprey in distress, the lords of earth said not a word, good or bad, in fear of Dhṛtarāṣṭra’s son.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.62.24-25",
+   "order": 102,
+   "ref_on_page": "2.62.24–25",
+   "verses": [
+    {
+     "verse": "2.62.24",
+     "english": "“Let this question rest on the noble-natured Bhīma, on Arjuna, on Sahadeva, and on your husband Nakula, daughter of Yajñasena; let them speak the word that comes from you.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.25",
+     "english": "Let them declare in the midst of these nobles, for your sake, Pāñcālī, that Yudhiṣṭhira was not master of you; let them all make the Dharma King a liar, and you will be freed from slavery.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.62.32-34, 36",
+   "order": 103,
+   "ref_on_page": "2.62.32–34, 36",
+   "verses": [
+    {
+     "verse": "2.62.32",
+     "english": "“If this Yudhiṣṭhira, the Dharma King, our elder, were not master of this family, we would not put up with it.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.33",
+     "english": "He is master of our merits and our austerities, and master even of our lives. If he considers himself won, then we are won.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.34",
+     "english": "Otherwise no mortal man who had laid hands on these locks of the Pāñcāla woman would get away alive with his foot touching the ground.",
+     "method": "split"
+    },
+    {
+     "verse": "2.62.35",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.62.36",
+     "english": "But bound like this by the cord of dharma, I find no way through the strait; I am blocked by reverence, and by Arjuna’s restraint.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.63.1, 3ab",
+   "order": 104,
+   "ref_on_page": "2.63.1, 3ab",
+   "verses": [
+    {
+     "verse": "2.63.1",
+     "english": "“These three are said to own nothing: a slave, a student, and a woman who is not independent. You are a slave’s wife, and his property, good woman; your master is gone, and a slave’s property is itself a slave.",
+     "method": "split"
+    },
+    {
+     "verse": "2.63.2",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.63.3ab",
+     "english": "Choose another husband quickly, passionate one — one by whom you will not get slavery through dicing.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.63.22",
+   "order": 105,
+   "ref_on_page": "2.63.22",
+   "verses": [
+    {
+     "verse": "2.63.22",
+     "english": "“Then in the house of king Dhṛtarāṣṭra a jackal howled aloud at the fire-offering; and asses answered it, king, and terrible birds on every side.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.63.25",
+   "order": 106,
+   "ref_on_page": "2.63.25",
+   "verses": [
+    {
+     "verse": "2.63.25",
+     "english": "“You are a dead man, Duryodhana, you dull-witted thing — you who in the assembly of the bulls of the Kurus address a woman so, ill-disciplined creature; and above all Draupadī, a lawful wife.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.63.34-36",
+   "order": 107,
+   "ref_on_page": "2.63.34–36",
+   "verses": [
+    {
+     "verse": "2.63.34",
+     "english": "“Greed is the destruction of dharma, lord; I cannot. I do not deserve to take a third boon, best of kings.",
+     "method": "split"
+    },
+    {
+     "verse": "2.63.35",
+     "english": "They say one boon for a vaiśya, two for a kṣatriya woman, three for a king, and a hundred for a brahmin.",
+     "method": "split"
+    },
+    {
+     "verse": "2.63.36",
+     "english": "My husbands, brought low, have been carried across; and they will come to know good things, king, by pure action.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.64.1, 3",
+   "order": 108,
+   "ref_on_page": "2.64.1, 3",
+   "verses": [
+    {
+     "verse": "2.64.1",
+     "english": "“Of the women famed among men for their beauty, of whom we have heard, we have never heard of such a deed as this from any of them.",
+     "method": "split"
+    },
+    {
+     "verse": "2.64.2",
+     "method": "omitted"
+    },
+    {
+     "verse": "2.64.3",
+     "english": "For the sons of Pāṇḍu, sunk in water with no boat, going under with no footing anywhere, this Pāñcāla woman became the ship that carried them across.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.64.2",
+   "order": 109,
+   "ref_on_page": "2.64.2",
+   "verses": [
+    {
+     "verse": "2.64.2",
+     "english": "“When the Pārthas were possessed by wrath, and the Dhārtarāṣṭras exceedingly so, Draupadī — Kṛṣṇā — became the peace of the sons of Pāṇḍu.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "2.67.3-4",
+   "order": 110,
+   "ref_on_page": "2.67.3–4",
+   "verses": [
+    {
+     "verse": "2.67.3",
+     "english": "“By the appointment of the Ordainer, beings obtain the fair and the foul; there is no turning-away from those two, if it must be diced again.",
+     "method": "split"
+    },
+    {
+     "verse": "2.67.4",
+     "english": "The summons to the dice-game comes by appointment of the elder: though knowing it works destruction, I cannot step across it.”",
+     "method": "split"
+    }
+   ]
+  },
+  {
+   "passage": "2.67.7",
+   "order": 111,
+   "ref_on_page": "2.67.7",
+   "verses": [
+    {
+     "verse": "2.67.7",
+     "english": "“They sat down at their ease for the resumption of the dicing — for the destruction of the whole world, pressed down by daiva.”",
+     "method": "whole"
+    }
+   ]
+  },
+  {
+   "passage": "1.58.46",
+   "order": 112,
+   "ref_on_page": "1.58.46 (reprise)",
+   "verses": [
+    {
+     "verse": "1.58.46",
+     "english": "“To cast off the burden of this earth, each by his own separate portion — be born upon her, for conflict. So he said.”",
+     "method": "whole"
+    }
+   ],
+   "note": "reprise"
+  }
+ ]
+}

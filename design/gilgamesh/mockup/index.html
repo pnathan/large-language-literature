@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gilgameš Reader Mockup</title>
+<meta name="description" content="Design mockup for the reader's edition of the Gilgameš translation: Akkadian and English with glosses, commentary, resonances and Old Babylonian partings as separate layers.">
+<script>
+/* Runs before paint: mark JS, restore a stored theme and stored layers. Storage may be unavailable. */
+(function(){var d=document.documentElement;d.classList.add('js');
+try{var t=localStorage.getItem('gilg-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);}catch(e){}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Gentium+Book+Plus:ital,wght@0,400;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* ======================================================================
+   Tokens. Light = unfired clay and lapis. Dark = lapis with pyrite.
+   ====================================================================== */
+:root{
+  color-scheme: light;
+  --bg:#F4EFE6;          /* clay paper */
+  --bg-raised:#FBF8F2;   /* sheets, panels */
+  --bg-sunk:#EBE4D7;     /* parting field, chips */
+  --ink:#2B2520;         /* English, headings */
+  --ink-2:#4F453C;       /* Akkadian, commentary */
+  --ink-3:#6F6256;       /* restorations, line numbers, sigla */
+  --rule:#D8CDBC;        /* the ruled line */
+  --rule-2:#B5A792;      /* double ruling, strong edges */
+  --accent:#27448F;      /* lapis: keys, links, active controls */
+  --accent-wash:#E1E6F1;
+  --res:#4E5C8C;         /* resonance register (slate) */
+  --ob:#93441F;          /* Old Babylonian: fired clay */
+  --hl:#EADFC4;          /* line highlight */
+  --shadow:0 10px 30px rgba(43,37,32,.16);
+
+  --f-en:"EB Garamond","Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --f-akk:"Gentium Book Plus","Gentium Plus","Noto Serif","DejaVu Serif",Georgia,serif;
+  --f-ui:"Source Sans 3","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+
+  /* scale: 1.2 ratio from 16px, English set one step up for Garamond's small x-height */
+  --s-1:13px; --s0:14px; --s1:16px; --s2:17px; --s3:19px; --s4:23px; --s5:28px; --s6:34px;
+  --top-h:56px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#0F1530; --bg-raised:#182043; --bg-sunk:#141B3A;
+    --ink:#E9E3D3; --ink-2:#C5BEAB; --ink-3:#959CBD;
+    --rule:#28325A; --rule-2:#3C4878;
+    --accent:#D6B465; --accent-wash:#272E4E;
+    --res:#A6B3E2; --ob:#DD9870; --hl:#222B55;
+    --shadow:0 10px 30px rgba(0,0,0,.45);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#0F1530; --bg-raised:#182043; --bg-sunk:#141B3A;
+  --ink:#E9E3D3; --ink-2:#C5BEAB; --ink-3:#959CBD;
+  --rule:#28325A; --rule-2:#3C4878;
+  --accent:#D6B465; --accent-wash:#272E4E;
+  --res:#A6B3E2; --ob:#DD9870; --hl:#222B55;
+  --shadow:0 10px 30px rgba(0,0,0,.45);
+}
+
+/* ====================================================================== base */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-en);font-size:var(--s3);line-height:1.5;
+  font-variant-numeric:oldstyle-nums;}
+a{color:var(--accent)}
+p{margin:0}
+.vh{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:absolute;left:16px;top:-60px;background:var(--bg-raised);padding:10px 14px;z-index:50;font-family:var(--f-ui)}
+.skip:focus{top:8px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.r{color:var(--ink-3)}                     /* restored clay: brackets kept, ink lightened */
+.sig{font-family:var(--f-ui);font-size:var(--s-1);letter-spacing:.06em;color:var(--ink-3);font-variant-numeric:lining-nums tabular-nums;white-space:nowrap}
+i,.hw{font-family:var(--f-akk);font-style:italic}
+
+/* ====================================================================== top bar */
+.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--rule)}
+.bar{max-width:1380px;margin:0 auto;height:var(--top-h);display:flex;align-items:center;gap:12px;padding:0 32px}
+.back{font-family:var(--f-ui);font-size:var(--s0);text-decoration:none;color:var(--ink-2);display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
+.back:hover{color:var(--accent)}
+.rh{flex:1;min-width:0;text-align:center;font-family:var(--f-ui);font-size:var(--s-1);letter-spacing:.08em;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.btn,.toc>summary{font-family:var(--f-ui);font-size:var(--s0);color:var(--ink);background:transparent;border:1px solid var(--rule-2);border-radius:3px;
+  min-height:44px;min-width:44px;padding:0 14px;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer}
+.btn:hover,.toc>summary:hover{border-color:var(--accent);color:var(--accent)}
+.theme{padding:0}
+html:not(.js) .theme{display:none}
+.theme svg{width:20px;height:20px}
+
+/* layer chips */
+.layers{display:flex;gap:6px;flex-wrap:nowrap}
+.layers label{font-family:var(--f-ui);font-size:var(--s-1);letter-spacing:.02em;min-height:44px;padding:0 12px;display:inline-flex;align-items:center;gap:7px;
+  border:1px solid var(--rule-2);border-radius:3px;color:var(--ink-3);cursor:pointer;user-select:none;white-space:nowrap;background:transparent}
+.layers label::before{content:"";width:9px;height:9px;border:1.5px solid currentColor;border-radius:1px;flex:none}
+.layers .ls{display:none}
+#L-akk:checked~.top [for=L-akk],#L-en:checked~.top [for=L-en],#L-gl:checked~.top [for=L-gl],
+#L-cm:checked~.top [for=L-cm],#L-res:checked~.top [for=L-res],#L-ob:checked~.top [for=L-ob]{
+  color:var(--ink);border-color:var(--accent);background:var(--accent-wash)}
+#L-akk:checked~.top [for=L-akk]::before,#L-en:checked~.top [for=L-en]::before,#L-gl:checked~.top [for=L-gl]::before,
+#L-cm:checked~.top [for=L-cm]::before,#L-res:checked~.top [for=L-res]::before,#L-ob:checked~.top [for=L-ob]::before{background:var(--accent);border-color:var(--accent)}
+#L-akk:focus-visible~.top [for=L-akk],#L-en:focus-visible~.top [for=L-en],#L-gl:focus-visible~.top [for=L-gl],
+#L-cm:focus-visible~.top [for=L-cm],#L-res:focus-visible~.top [for=L-res],#L-ob:focus-visible~.top [for=L-ob]{outline:2px solid var(--accent);outline-offset:2px}
+
+/* contents */
+.toc{position:relative}
+.toc>summary{list-style:none}
+.toc>summary::-webkit-details-marker{display:none}
+.toc>summary::after{content:"";width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px)}
+.toc[open]>summary{border-color:var(--accent);background:var(--accent-wash)}
+.toc-panel{position:absolute;right:0;top:calc(100% + 8px);width:26rem;max-height:calc(100vh - 90px);overflow:auto;background:var(--bg-raised);
+  border:1px solid var(--rule-2);box-shadow:var(--shadow);padding:16px 20px 20px;font-family:var(--f-ui);font-size:var(--s0)}
+.toc-panel h2{font-family:var(--f-ui);font-size:var(--s-1);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin:0 0 8px}
+.toc-panel ol{list-style:none;margin:0;padding:0}
+.tb{border-top:1px solid var(--rule);padding:8px 0}
+.tbh{display:flex;gap:10px;align-items:baseline;color:var(--ink)}
+.tbh .sig{min-width:2.4em}
+.tb.absent .tbh{color:var(--ink-3)}
+.pl{margin:6px 0 0 calc(2.4em + 10px)!important}
+.pl li{padding:0}
+.pl a,.pl li.absent{display:flex;gap:10px;align-items:baseline;min-height:40px;padding:9px 0;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--rule)}
+.pl li.absent{color:var(--ink-3)}
+.pl a:hover{color:var(--accent)}
+.pl a .sig{color:var(--accent)}
+.pl .sig{min-width:5.6em}
+.toc-note{margin-top:12px;color:var(--ink-3);font-size:var(--s-1)}
+
+/* ====================================================================== page */
+main{max-width:1380px;margin:0 auto;padding:0 32px 96px}
+.th{display:grid;grid-template-columns:13rem minmax(0,1fr) 16.5rem;column-gap:2rem;padding:56px 0 36px}
+.th>div{grid-column:2}
+.kicker{font-family:var(--f-ui);font-size:var(--s-1);font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--f-en);font-weight:400;font-size:var(--s6);line-height:1.15;margin:6px 0 14px;letter-spacing:.005em}
+.headnote{font-size:var(--s2);color:var(--ink-2);max-width:38em;line-height:1.55}
+.key{margin:18px 0 0;padding:12px 0 0;border-top:1px solid var(--rule);display:flex;flex-wrap:wrap;gap:6px 22px;font-family:var(--f-ui);font-size:var(--s-1);color:var(--ink-3)}
+.key b{font-weight:600;color:var(--ink-2)}
+.key .ob{color:var(--ob)} .key .sb{color:var(--accent)}
+
+/* a pericope: inner margin | text | outer margin. The ruled line separates sections, as on the tablet. */
+.peri{display:grid;grid-template-columns:13rem minmax(0,1fr) 16.5rem;column-gap:2rem;
+  grid-template-areas:"in cap out" "in text out";border-top:1px solid var(--rule);padding:22px 0 30px;scroll-margin-top:calc(var(--top-h) + 8px)}
+.cap{grid-area:cap;margin:0 0 12px;font-weight:400;font-size:var(--s2);display:flex;gap:12px;align-items:baseline}
+.cap .ttl{font-style:italic;color:var(--ink-2)}
+.peri>.text{grid-area:text}
+.m{position:sticky;top:calc(var(--top-h) + 20px);align-self:start;font-family:var(--f-ui);font-size:var(--s0);line-height:1.5;color:var(--ink-2)}
+.m-in{grid-area:in;border-right:1px solid var(--rule);padding-right:16px}
+.m-out{grid-area:out;border-left:1px solid var(--rule);padding-left:16px}
+.note{margin:0 0 16px;padding:2px 0;scroll-margin-top:calc(var(--top-h) + 12px)}
+.note .nh{display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline;margin-bottom:2px}
+.nm{font-family:var(--f-ui);font-weight:600;font-size:var(--s-1);color:var(--accent);min-width:.9em}
+.note .hw{font-size:var(--s1);color:var(--ink)}
+.note .ref{font-size:12px;color:var(--ink-3);letter-spacing:.05em;font-variant-numeric:lining-nums}
+.note i{color:var(--ink)}
+.note-res{border-left:2px solid var(--res);padding-left:10px}
+.note-res .nm,.note-res .hw{color:var(--res)}
+.note.on{background:var(--hl);box-shadow:0 0 0 6px var(--hl)}
+
+/* a line: number | Akkadian | English | keys */
+.v{display:grid;grid-template-columns:2.6rem minmax(0,.74fr) minmax(0,1fr) 1.9rem;grid-template-areas:"n akk en mk";column-gap:1.15rem;
+  align-items:baseline;padding:3px 0;scroll-margin-top:calc(var(--top-h) + 40px);border-radius:2px}
+.v.on{background:var(--hl);box-shadow:0 0 0 4px var(--hl)}
+.n{grid-area:n;font-family:var(--f-ui);font-size:12px;color:var(--ink-3);text-align:right;font-variant-numeric:lining-nums tabular-nums;user-select:none;white-space:nowrap}
+.h{color:var(--ink-2)}                     /* eBL half-brackets, shown as the source has them */
+.ms{display:block;font-style:normal;font-family:var(--f-ui);font-size:13px;color:var(--ink-3);margin-top:2px;text-indent:0;padding-left:0}
+.ms i{font-family:var(--f-akk);font-size:var(--s2);color:var(--ink-2)}
+.akk{grid-area:akk;font-family:var(--f-akk);font-style:italic;font-size:var(--s2);color:var(--ink-2);line-height:1.45;padding-left:1em;text-indent:-1em}
+.en{grid-area:en;font-size:var(--s3);line-height:1.42;padding-left:1em;text-indent:-1em}
+.mks{grid-area:mk;display:flex;gap:2px;align-items:baseline}
+.mk{font-family:var(--f-ui);font-size:12px;font-weight:600;text-decoration:none;color:var(--accent);padding:0 2px;line-height:1}
+.mk-res{color:var(--res)}
+.mk:hover{text-decoration:underline}
+
+/* layer switching: works without JavaScript (checkbox + sibling selectors) */
+#L-akk:not(:checked)~main .akk{display:none}
+#L-en:not(:checked)~main .en{display:none}
+#L-akk:not(:checked)~#L-en:not(:checked)~main .en{display:block}   /* never show nothing */
+#L-akk:not(:checked)~main .v{grid-template-columns:2.6rem minmax(0,34rem) 1.9rem;grid-template-areas:"n en mk"}
+#L-en:not(:checked)~main .v{grid-template-columns:2.6rem minmax(0,34rem) 1.9rem;grid-template-areas:"n akk mk"}
+#L-en:not(:checked)~main .akk{font-size:var(--s3)}
+#L-gl:not(:checked)~main .m-in, #L-gl:not(:checked)~main .mk-gl{visibility:hidden}
+#L-cm:not(:checked)~main .note-cm, #L-cm:not(:checked)~main .mk-cm{display:none}
+#L-res:not(:checked)~main .note-res, #L-res:not(:checked)~main .mk-res{display:none}
+#L-ob:not(:checked)~main .parting{display:none}
+
+/* elision of omitted lines (mockup only) */
+.elision{border-top:1px solid var(--rule);padding:22px 0;text-align:center;font-family:var(--f-ui);font-size:var(--s-1);letter-spacing:.08em;color:var(--ink-3)}
+
+/* ====================================================================== partings */
+.parting{margin:8px 0 0;padding:6px 0 26px;scroll-margin-top:calc(var(--top-h) + 8px)}
+.pr{display:flex;align-items:center;gap:14px;font-family:var(--f-ui);font-size:var(--s-1);letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin:18px 0}
+.pr::before,.pr::after{content:"";flex:1;height:4px;border-top:1px solid var(--rule-2);border-bottom:1px solid var(--rule-2)}  /* double ruling */
+.parting h3{font-weight:400;font-size:var(--s5);text-align:center;margin:4px 0 8px}
+.pnote{max-width:40em;margin:0 auto 22px;text-align:center;color:var(--ink-2);font-size:var(--s2)}
+.parting .tabs{display:none}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:2.4rem;max-width:1100px;margin:0 auto;background:var(--bg-sunk);padding:20px 24px 24px;border-radius:2px}
+.wl{font-family:var(--f-ui);font-size:var(--s-1);letter-spacing:.06em;color:var(--ink-2);padding:0 0 10px;margin-bottom:8px;border-bottom:2px solid var(--accent);display:flex;gap:10px;align-items:baseline}
+.wit-ob .wl{border-bottom-color:var(--ob)}
+.sg{font-weight:600;letter-spacing:.12em;color:var(--accent)}
+.wit-ob .sg{color:var(--ob)}
+.wit .v{grid-template-columns:2.6rem minmax(0,1fr);grid-template-areas:"n akk" "n en";row-gap:1px;padding:5px 0}
+.wit .mks{display:none}
+#L-akk:not(:checked)~main .wit .v{grid-template-areas:"n en";grid-template-columns:2.6rem minmax(0,1fr)}
+#L-en:not(:checked)~main .wit .v{grid-template-areas:"n akk";grid-template-columns:2.6rem minmax(0,1fr)}
+
+/* footer colophon */
+.colophon{max-width:1380px;margin:0 auto;padding:0 32px 64px;text-align:center}
+.colophon .pr{margin-bottom:20px}
+.colophon .akkl{font-family:var(--f-akk);font-style:italic;color:var(--ink-2)}
+.colophon .enl{font-size:var(--s1);color:var(--ink-3);margin-top:4px}
+.colophon .fine{font-family:var(--f-ui);font-size:var(--s-1);color:var(--ink-3);margin-top:20px}
+
+/* bottom sheet (JS only) */
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--bg-raised);border-top:1px solid var(--rule-2);box-shadow:var(--shadow);
+  max-height:72vh;display:flex;flex-direction:column;border-radius:12px 12px 0 0;transform:translateY(105%);transition:transform .2s ease;visibility:hidden}
+.sheet.open{transform:none;visibility:visible}
+.sh-head{display:flex;align-items:center;gap:8px;padding:6px 8px 6px 16px;border-bottom:1px solid var(--rule)}
+.sh-head h2{flex:1;margin:0;font-family:var(--f-ui);font-size:var(--s0);font-weight:600;letter-spacing:.06em;color:var(--ink-2)}
+.sh-body{overflow:auto;padding:16px 16px 8px;font-family:var(--f-ui);font-size:var(--s1);line-height:1.55;color:var(--ink-2)}
+.sh-body .note .hw{font-size:var(--s2)}
+.sh-line{font-size:var(--s1);padding:0 0 12px;margin-bottom:14px;border-bottom:1px solid var(--rule)}
+.sh-line .akk{display:block;padding:0;text-indent:0}
+.sh-line .en{display:block;padding:0;text-indent:0;font-family:var(--f-en);color:var(--ink);font-size:var(--s2)}
+.sh-foot{display:flex;justify-content:space-between;gap:8px;padding:8px 16px calc(8px + env(safe-area-inset-bottom));border-top:1px solid var(--rule)}
+.scrim{position:fixed;inset:0;z-index:35;background:rgba(15,21,48,.28);display:none}
+.scrim.open{display:block}
+@media (prefers-reduced-motion:reduce){.sheet{transition:none}}
+
+/* ====================================================================== mid widths: margins fold under the text */
+@media (max-width:1180px){
+  .bar{padding:0 24px} main{padding:0 24px 96px;max-width:calc(46rem + 48px)}
+  .th{display:block}
+  .peri{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-areas:"cap cap" "text text" "in out";column-gap:2rem}
+  .m{position:static;margin-top:18px;padding-top:12px;border-top:1px dotted var(--rule-2)}
+  .m-in{border-right:0;padding-right:0}
+  .m-out{border-left:0;padding-left:0}
+  .m:empty{display:none}
+  #L-gl:not(:checked)~main .m-in{display:none}
+  .v{grid-template-columns:2.6rem minmax(0,1fr) 1.9rem;grid-template-areas:"n akk mk" "n en mk";row-gap:1px;padding:5px 0}
+  .layers .lf{display:none} .layers .ls{display:inline}
+}
+@media (max-width:900px){
+  .bar{gap:8px}
+  .rh{display:none}
+}
+
+/* ====================================================================== phone */
+@media (max-width:759px){
+  :root{--top-h:56px}
+  body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
+  .bar{padding:0 16px;gap:8px}
+  .rh{display:block;text-align:left;font-size:12px}
+  .back .bt{display:none}
+  main{padding:0 16px 48px}
+  .colophon{padding:0 16px 40px}
+  .th{padding:28px 0 20px}
+  h1{font-size:var(--s5)}
+  .headnote{font-size:var(--s1)}
+  .key{font-size:12px;gap:4px 14px}
+
+  /* layer bar becomes a fixed bottom bar */
+  .layers{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--bg-raised);border-top:1px solid var(--rule-2);
+    display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:4px;padding:6px 16px calc(6px + env(safe-area-inset-bottom))}
+  .layers label{justify-content:center;padding:0 2px;gap:5px;font-size:12.5px;min-height:48px;flex-direction:column;gap:4px;letter-spacing:0}
+  .layers label::before{width:8px;height:8px}
+
+  .toc{position:static}
+  .toc>summary{padding:0 12px}
+  .toc-panel{position:fixed;left:0;right:0;top:var(--top-h);bottom:0;width:auto;max-height:none;border:0;border-top:1px solid var(--rule);
+    box-shadow:none;padding:12px 16px calc(80px + env(safe-area-inset-bottom));z-index:31}
+  .pl{margin-left:0!important}
+  .pl .sig{min-width:5.2em}
+
+  .peri{display:block;padding:18px 0 22px}
+  .cap{flex-direction:column;gap:2px;margin-bottom:10px}
+  .v{grid-template-columns:2.35rem minmax(0,1fr) 44px;column-gap:8px;padding:6px 0;align-items:start}
+  .n{padding-top:4px;font-size:11px} 
+  .back{min-width:44px}
+  .mk:hover{text-decoration:none}
+  .layers label{border-color:transparent;background:transparent}
+  .akk{font-size:var(--s1);padding-left:.75em;text-indent:-.75em}
+  .en{font-size:18px;padding-left:.75em;text-indent:-.75em}
+  #L-akk:not(:checked)~main .v,#L-en:not(:checked)~main .v{grid-template-columns:2.35rem minmax(0,1fr) 44px}
+  #L-en:not(:checked)~main .akk{font-size:18px}
+  .mks{min-height:44px;min-width:44px;align-self:stretch;flex-direction:column;align-items:center;justify-content:flex-start;gap:4px;padding-top:2px;cursor:pointer}
+  .mks:empty{min-height:0}
+  .mk{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:22px;border:1px solid currentColor;border-radius:11px;padding:0 5px;font-size:12px}
+  .mks .mk:only-child{min-width:28px;height:28px;border-radius:14px}
+
+  /* With JS, notes live in the bottom sheet; without JS they print after the pericope. */
+  .js .peri .m{display:none}
+  .m{font-size:var(--s0)}
+
+  /* partings: one witness at a time, tabbed */
+  .cmp{display:block;padding:12px 12px 16px;margin:0 -4px}
+  .parting h3{font-size:var(--s4)}
+  .pnote{font-size:var(--s1);text-align:left}
+  .parting .tabs{display:grid;grid-template-columns:1fr 1fr;gap:0;margin:0 0 0;border:1px solid var(--rule-2);border-bottom:0;border-radius:3px 3px 0 0;overflow:hidden}
+  .tab{min-height:44px;display:flex;align-items:center;justify-content:center;font-family:var(--f-ui);font-size:var(--s0);color:var(--ink-3);cursor:pointer;background:var(--bg)}
+  .parting input:nth-of-type(1):checked~.tabs .tab:nth-child(1){background:var(--bg-sunk);color:var(--ob);font-weight:600;box-shadow:inset 0 -2px 0 var(--ob)}
+  .parting input:nth-of-type(2):checked~.tabs .tab:nth-child(2){background:var(--bg-sunk);color:var(--accent);font-weight:600;box-shadow:inset 0 -2px 0 var(--accent)}
+  .parting input:nth-of-type(1):focus-visible~.tabs .tab:nth-child(1),.parting input:nth-of-type(2):focus-visible~.tabs .tab:nth-child(2){outline:2px solid var(--accent);outline-offset:-2px}
+  .parting input:nth-of-type(1):checked~.cmp .wit:nth-child(2),.parting input:nth-of-type(2):checked~.cmp .wit:nth-child(1){display:none}
+  .wit .v{grid-template-columns:2.4rem minmax(0,1fr)}
+}
+@media (max-width:759px) and (min-width:0){ .scrim.open{display:block} }
+
+@media print{
+  .top,.layers,.sheet,.scrim{display:none!important}
+  body{background:#fff;color:#000}
+  .m{position:static}
+}
+</style>
+</head>
+<body>
+<input class="vh layer" type="checkbox" id="L-akk" checked>
+<input class="vh layer" type="checkbox" id="L-en" checked>
+<input class="vh layer" type="checkbox" id="L-gl" checked>
+<input class="vh layer" type="checkbox" id="L-cm" checked>
+<input class="vh layer" type="checkbox" id="L-res" checked>
+<input class="vh layer" type="checkbox" id="L-ob" checked>
+<a class="skip" href="#text">Skip to the text</a>
+
+<header class="top">
+  <div class="bar">
+    <a class="back" href="../" aria-label="Back to the Gilgameš editions">←&nbsp;<span class="bt">Gilgameš</span><span class="vh">editions</span></a>
+    <p class="rh"><span id="rh">SB Tablet I</span></p>
+    <nav class="layers" aria-label="Layers shown">
+      <label for="L-akk" title="Akkadian transliteration"><span class="lf">Akkadian</span><span class="ls">Akk.</span></label>
+      <label for="L-en" title="English translation"><span class="lf">English</span><span class="ls">Eng.</span></label>
+      <label for="L-gl" title="Glosses: word-senses, restorations, cruxes"><span class="lf">Glosses</span><span class="ls">Gloss</span></label>
+      <label for="L-cm" title="Commentary: structure, theology, readings against OB"><span class="lf">Commentary</span><span class="ls">Notes</span></label>
+      <label for="L-res" title="Resonances: Akkadian wordplay the English misses"><span class="lf">≈ Resonances</span><span class="ls">≈ Res.</span></label>
+      <label for="L-ob" title="Old Babylonian text at the partings"><span class="lf">OB partings</span><span class="ls">OB</span></label>
+    </nav>
+    <details class="toc">
+      <summary>Contents</summary>
+      <div class="toc-panel">
+        <h2>Twelve tablets</h2>
+        <ol><li class="tb open"><p class="tbh"><span class="sig">I</span> The Coming of Enkidu</p><ol class="pl"><li><a href="#p-I-1-28"><span class="sig">I 1–28</span> He who saw the wellspring</a></li><li class="absent"><span class="sig">I 29–46</span> Surpassing all kings</li><li class="absent"><span class="sig">I 47–60</span> Two-thirds god</li><li class="absent"><span class="sig">I 61–78</span> The tyranny</li><li class="absent"><span class="sig">I 79–98</span> The complaint to heaven</li><li><a href="#p-I-99-110"><span class="sig">I 99–110</span> Clay in the open land</a></li><li class="absent"><span class="sig">I 111–131</span> The hunter</li><li class="absent"><span class="sig">I 132–146</span> The father’s counsel</li><li class="absent"><span class="sig">I 147–164</span> Before the king</li><li class="absent"><span class="sig">I 165–175</span> At the watering-place</li><li><a href="#p-I-176-193"><span class="sig">I 176–193</span> Šamhat</a></li><li class="absent"><span class="sig">I 194–203</span> The herd turns away</li><li class="absent"><span class="sig">I 204–230</span> The invitation</li><li class="absent"><span class="sig">I 231–242</span> A man glad-and-grieving</li><li><a href="#p-I-243-270"><span class="sig">I 243–270</span> The first dream</a></li><li><a href="#parting-1"><span class="sig">OB ∥ SB</span> The dream of the meteor</a></li><li class="absent"><span class="sig">I 271–291</span> The second dream</li><li class="absent"><span class="sig">I 292–298</span> A friend, a counsellor</li></ol></li><li class="tb absent"><p class="tbh"><span class="sig">II</span> The Taming, and the Counsel of Uruk</p></li><li class="tb absent"><p class="tbh"><span class="sig">III</span> The Blessing of Ninsun</p></li><li class="tb absent"><p class="tbh"><span class="sig">IV</span> The Journey and the Five Dreams</p></li><li class="tb absent"><p class="tbh"><span class="sig">V</span> The Cedar Forest</p></li><li class="tb absent"><p class="tbh"><span class="sig">VI</span> Ištar and the Bull of Heaven</p></li><li class="tb absent"><p class="tbh"><span class="sig">VII</span> The Death of Enkidu</p></li><li class="tb absent"><p class="tbh"><span class="sig">VIII</span> The Funeral</p></li><li class="tb absent"><p class="tbh"><span class="sig">IX</span> The Road of the Sun</p></li><li class="tb absent"><p class="tbh"><span class="sig">X</span> At the Edge of the World</p></li><li class="tb absent"><p class="tbh"><span class="sig">XI</span> The Flood, the Test, and the Plant</p></li><li class="tb absent"><p class="tbh"><span class="sig">XII</span> Appendix — Enkidu and the Netherworld</p></li></ol>
+        <p class="toc-note">Mockup: only the linked pericopes of Tablet I are present.</p>
+      </div>
+    </details>
+    <button class="btn theme" type="button" id="theme" aria-label="Switch theme">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 2.5a7.5 7.5 0 0 1 0 15z" fill="currentColor"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="text">
+  <header class="th">
+    <div>
+      <p class="kicker">Tablet I</p>
+      <h1>The Coming of Enkidu</h1>
+      <p class="headnote">The prologue praises the man who brought back knowledge from before the Flood, then commands the reader onto the wall of Uruk and into the tablet-box. Gilgameš oppresses his city; the gods answer with a counterweight. Aruru pinches clay, and Enkidu is born among the herds. A hunter's complaint sets Šamhat on the road; six days and seven nights make the wild man human. Two dreams — a meteor and an axe, each loved like a wife — announce the friend.</p>
+      <p class="key"><span><b class="sb">SB</b> Standard Babylonian, first millennium BC</span><span><b class="ob">OB</b> Old Babylonian, c. 1800 BC</span><span><span class="r">[ ]</span> restored clay</span><span><span class="r">[ ... ]</span> too broken to carry</span></p>
+    </div>
+  </header>
+
+<section class="peri" id="p-I-1-28" data-ref="SB I 1–28" aria-labelledby="p-I-1-28-h">
+  <h3 class="cap" id="p-I-1-28-h"><span class="sig">SB I 1–28</span> <span class="ttl">He who saw the wellspring</span></h3>
+  <div class="text"><div class="v" id="I-1"><span class="n">1</span><span class="akk" lang="akk-Latn"><span class="r">[ša nagba īmuru i]</span>šdī māti</span><span class="en">He who saw the wellspring, the ground-course of the land,</span><span class="mks"><a class="mk mk-gl" href="#p-I-1-28-ga" data-note="p-I-1-28-ga" aria-label="Gloss a">a</a></span></div><div class="v" id="I-2"><span class="n">2</span><span class="akk" lang="akk-Latn"><span class="r">[alkakāti īd]</span>û kalāma hass<span class="r">[u]</span></span><span class="en"><span class="r">[who knew the way]</span>s, was wise in everything —</span><span class="mks"><a class="mk mk-gl" href="#p-I-1-28-gb" data-note="p-I-1-28-gb" aria-label="Gloss b">b</a></span></div><div class="v" id="I-3"><span class="n">3</span><span class="akk" lang="akk-Latn"><span class="r">[Gilgāmeš ša n]</span>agba īmuru išdī mā<span class="r">[ti]</span></span><span class="en"><span class="r">[Gilgameš, who]</span> saw the wellspring, the ground-course of the land,</span><span class="mks"></span></div><div class="v" id="I-4"><span class="n">4</span><span class="akk" lang="akk-Latn"><span class="r">[alkakāt]</span>i īdû kalāma has<span class="r">[su]</span></span><span class="en"><span class="r">[who knew the way]</span>s, was wise in everything.</span><span class="mks"></span></div><div class="v" id="I-5"><span class="n">5</span><span class="akk" lang="akk-Latn"><span class="r">[ihī]</span>ṭ-ma mithāriš par<span class="r">[akkī]</span></span><span class="en">He surveyed the shrines everywhere alike;</span><span class="mks"></span></div><div class="v" id="I-6"><span class="n">6</span><span class="akk" lang="akk-Latn"><span class="r">[naph]</span>ar nēmeqi ša kalāmi ī<span class="r">[de]</span></span><span class="en">he knew the sum of the wisdom of all things.</span><span class="mks"></span></div><div class="v" id="I-7"><span class="n">7</span><span class="akk" lang="akk-Latn"><span class="r">[ni]</span>ṣirta īmur-ma katimta ipte</span><span class="en">He saw the guarded thing, uncovered the covered,</span><span class="mks"></span></div><div class="v" id="I-8"><span class="n">8</span><span class="akk" lang="akk-Latn">ubla ṭēma ša lām abūbi</span><span class="en">brought back word of the time before the Flood.</span><span class="mks"></span></div><div class="v" id="I-9"><span class="n">9</span><span class="akk" lang="akk-Latn"><span class="r">[u]</span>rha rūqta illikam-ma anih u šupšuh</span><span class="en">He walked the long road, worn out, and was stilled.</span><span class="mks"></span></div><div class="v" id="I-10"><span class="n"><svg class="dec" viewBox="0 0 10 10" aria-hidden="true"><path d="M.8 5 9.4 .9 6.2 5 9.4 9.1Z" fill="currentColor"/></svg>10</span><span class="akk" lang="akk-Latn"><span class="r">[šak]</span>in ina narî kalu mānahti</span><span class="en">He fixed on a stone stela the whole of his labor.</span><span class="mks"></span></div><div class="v" id="I-11"><span class="n">11</span><span class="akk" lang="akk-Latn">uppiš dūra ša Uruk supūri</span><span class="en">He built up the rampart of Uruk-the-Sheepfold,</span><span class="mks"></span></div><div class="v" id="I-12"><span class="n">12</span><span class="akk" lang="akk-Latn">ša ayakki qudduši šutummi elli</span><span class="en">of hallowed Eanna, the shining storehouse.</span><span class="mks"></span></div><div class="v" id="I-13"><span class="n">13</span><span class="akk" lang="akk-Latn">amur dūršu ša kīma qê nipš<span class="r">[u]</span></span><span class="en">Look at its wall, like a thread of carded wool;</span><span class="mks"></span></div><div class="v" id="I-14"><span class="n">14</span><span class="akk" lang="akk-Latn">itaplas samītašu ša lā umaššalu mamma</span><span class="en">study its parapet, which no one can copy.</span><span class="mks"></span></div><div class="v" id="I-15"><span class="n">15</span><span class="akk" lang="akk-Latn">ṣabat-ma simmilta ša ultu ullânu</span><span class="en">Take the stair that has stood from the first days;</span><span class="mks"><a class="mk mk-gl" href="#p-I-1-28-gc" data-note="p-I-1-28-gc" aria-label="Gloss c">c</a></span></div><div class="v" id="I-16"><span class="n">16</span><span class="akk" lang="akk-Latn">qitrub ana ayakki šubat Ištar</span><span class="en">go close to Eanna, the dwelling of Ištar,</span><span class="mks"></span></div><div class="v" id="I-17"><span class="n">17</span><span class="akk" lang="akk-Latn">ša šarru arkû lā umaššalu mamma</span><span class="en">which no later king — no one at all — can copy.</span><span class="mks"></span></div><div class="v" id="I-18"><span class="n">18</span><span class="akk" lang="akk-Latn">elī-ma ina muhhi dūri ša Uruk itallak</span><span class="en">Go up on the wall of Uruk; walk its circuit.</span><span class="mks"></span></div><div class="v" id="I-19"><span class="n">19</span><span class="akk" lang="akk-Latn">temmēna hīṭ-ma libitta ṣubbi</span><span class="en">Test the platform; consider the brickwork:</span><span class="mks"></span></div><div class="v" id="I-20"><span class="n"><svg class="dec" viewBox="0 0 10 10" aria-hidden="true"><path d="M.8 5 9.4 .9 6.2 5 9.4 9.1Z" fill="currentColor"/></svg>20</span><span class="akk" lang="akk-Latn">šumma libittašu lā agurrat</span><span class="en">is its brick not brick fired in a kiln?</span><span class="mks"></span></div><div class="v" id="I-21"><span class="n">21</span><span class="akk" lang="akk-Latn">u uššīšu lā iddû sebet muntalkū</span><span class="en">Did the Seven Counsellors not lay down its footing?</span><span class="mks"></span></div><div class="v" id="I-22"><span class="n">22</span><span class="akk" lang="akk-Latn"><span class="r">[šār]</span> ālu šār kirâtu šār essû pitir bīt Ištar</span><span class="en"><span class="r">[A šār]</span> of city, a šār of orchard, a šār of clay-pit, the open ground of Ištar's house:</span><span class="mks"><a class="mk mk-gl" href="#p-I-1-28-gd" data-note="p-I-1-28-gd" aria-label="Gloss d">d</a></span></div><div class="v" id="I-23"><span class="n">23</span><span class="akk" lang="akk-Latn">šalāšat šār u pitir Uruk tamšīhu</span><span class="en">three šār and the open ground — the survey of Uruk.</span><span class="mks"></span></div><div class="v" id="I-24"><span class="n">24</span><span class="akk" lang="akk-Latn"><span class="r">[pitē-ma]</span> tupšenna ša erēni</span><span class="en"><span class="r">[Open]</span> the tablet-box of cedar;</span><span class="mks"></span></div><div class="v" id="I-25"><span class="n">25</span><span class="akk" lang="akk-Latn"><span class="r">[puṭṭe]</span>r hargallīšu ša siparri</span><span class="en"><span class="r">[undo]</span> its clasps of bronze;</span><span class="mks"></span></div><div class="v" id="I-26"><span class="n">26</span><span class="akk" lang="akk-Latn"><span class="r">[pitē-m]</span>a bāba ša niṣirtīšu</span><span class="en"><span class="r">[open]</span> the door on its guarded thing;</span><span class="mks"></span></div><div class="v" id="I-27"><span class="n">27</span><span class="akk" lang="akk-Latn"><span class="r">[išâ]</span>m-ma ṭuppi uqnî šitassi</span><span class="en"><span class="r">[lift]</span> out the tablet of lapis lazuli and read aloud</span><span class="mks"></span></div><div class="v" id="I-28"><span class="n">28</span><span class="akk" lang="akk-Latn"><span class="r">[mimm]</span>û Gilgāmeš ittallaku kalu marṣāti</span><span class="en"><span class="r">[everyth]</span>ing Gilgameš went through, all the hardship.</span><span class="mks"></span></div></div>
+  <aside class="m m-in" aria-label="Glosses to I 1–28"><div class="note note-gl" id="p-I-1-28-ga"><p class="nh"><span class="nm">a</span><b class="hw">nagbu</b><span class="ref">I 1</span></p><p class="nt"><i>nagbu</i> is both 'deep spring' and 'totality': he who saw the source, and he who saw everything. The translation keeps the water and lets the pun go.</p></div><div class="note note-gl" id="p-I-1-28-gb"><p class="nh"><span class="nm">b</span><b class="hw">[alkakāti īd]û</b><span class="ref">I 2</span></p><p class="nt">The verb is secure; the noun is restored. Older editions read <i>ša kullat īdû</i> here; the eBL text prints <i>[alkakāti]</i>, 'the ways.'</p></div><div class="note note-gl" id="p-I-1-28-gc"><p class="nh"><span class="nm">c</span><b class="hw">simmiltu</b><span class="ref">I 15</span></p><p class="nt">'Staircase,' not 'threshold' as older translations render: the ascent to Eanna is architectural and processional.</p></div><div class="note note-gl" id="p-I-1-28-gd"><p class="nh"><span class="nm">d</span><b class="hw">šār</b><span class="ref">I 22–23</span></p><p class="nt">One <i>šār</i> = 3,600, a beloved round number; here a unit of urban area. The prologue ends in a surveyor's docket — deliberately.</p></div></aside>
+  <aside class="m m-out" aria-label="Commentary to I 1–28"></aside>
+</section><div class="elision" role="separator"><span>I 29–98 not shown in this mockup</span></div>
+<section class="peri" id="p-I-99-110" data-ref="SB I 99–110" aria-labelledby="p-I-99-110-h">
+  <h3 class="cap" id="p-I-99-110-h"><span class="sig">SB I 99–110</span> <span class="ttl">Clay in the open land</span></h3>
+  <div class="text"><div class="v" id="I-99"><span class="n">99</span><span class="akk" lang="akk-Latn">arūru imtasi qātīša</span><span class="en">Aruru washed her hands,</span><span class="mks"></span></div><div class="v" id="I-100"><span class="n"><svg class="dec" viewBox="0 0 10 10" aria-hidden="true"><path d="M.8 5 9.4 .9 6.2 5 9.4 9.1Z" fill="currentColor"/></svg>100</span><span class="akk" lang="akk-Latn">ṭīda iktariṣ ittadi ina ṣē<span class="r">[ri]</span></span><span class="en">pinched off clay, cast it down in the open land.</span><span class="mks"><a class="mk mk-res" href="#p-I-99-110-r1" data-note="p-I-99-110-r1" aria-label="Resonance note">≈</a></span></div><div class="v" id="I-101"><span class="n">101</span><span class="akk" lang="akk-Latn">ina ṣēri Enkīdu ibtani qurāda</span><span class="en">In the open land she built Enkidu, a fighting man,</span><span class="mks"></span></div><div class="v" id="I-102"><span class="n">102</span><span class="akk" lang="akk-Latn">ilitti qūlti kiṣir Ninurta</span><span class="en">offspring of stillness, knotted hard by Ninurta.</span><span class="mks"><a class="mk mk-gl" href="#p-I-99-110-ga" data-note="p-I-99-110-ga" aria-label="Gloss a">a</a><a class="mk mk-res" href="#p-I-99-110-r2" data-note="p-I-99-110-r2" aria-label="Resonance note">≈</a></span></div><div class="v" id="I-103"><span class="n">103</span><span class="akk" lang="akk-Latn">šuʾʾur šārta kalu zumrīšu</span><span class="en">All his body is shaggy with hair,</span><span class="mks"></span></div><div class="v" id="I-104"><span class="n">104</span><span class="akk" lang="akk-Latn">uppuš pēreta kīma sinništi</span><span class="en">his head of hair grown out like a woman's,</span><span class="mks"></span></div><div class="v" id="I-105"><span class="n">105</span><span class="akk" lang="akk-Latn">itqī pērtīšu uhtannabā kīma Nissaba</span><span class="en">its locks sprouting rank as barley.</span><span class="mks"><a class="mk mk-gl" href="#p-I-99-110-gb" data-note="p-I-99-110-gb" aria-label="Gloss b">b</a></span></div><div class="v" id="I-106"><span class="n">106</span><span class="akk" lang="akk-Latn">lā īde nišī u mātam-ma</span><span class="en">He knows no people, no land at all;</span><span class="mks"></span></div><div class="v" id="I-107"><span class="n">107</span><span class="akk" lang="akk-Latn">(u) lubušta labiš kīma Šakkan</span><span class="en">he goes dressed like Šakkan.</span><span class="mks"></span></div><div class="v" id="I-108"><span class="n">108</span><span class="akk" lang="akk-Latn">itti ṣabâtim-ma ikkala šammī</span><span class="en">With the gazelles he eats grass;</span><span class="mks"></span></div><div class="v" id="I-109"><span class="n">109</span><span class="akk" lang="akk-Latn">itti būli mašqâ īteppir</span><span class="en">with the herd he crowds in at the watering-place;</span><span class="mks"></span></div><div class="v" id="I-110"><span class="n"><svg class="dec" viewBox="0 0 10 10" aria-hidden="true"><path d="M.8 5 9.4 .9 6.2 5 9.4 9.1Z" fill="currentColor"/></svg>110</span><span class="akk" lang="akk-Latn">itti nammaššê mê iṭīb libbašu</span><span class="en">with the beasts of the steppe his heart is glad at the water.</span><span class="mks"></span></div></div>
+  <aside class="m m-in" aria-label="Glosses to I 99–110"><div class="note note-gl" id="p-I-99-110-ga"><p class="nh"><span class="nm">a</span><b class="hw">ilitti qūlti</b><span class="ref">I 102</span></p><p class="nt">'Offspring of stillness' — or of the midnight hush, or of Silence personified. Uncertain and untranslatable; the alternative reading takes it as 'offspring of the skull/of Anu.' The strangeness is original.</p></div><div class="note note-gl" id="p-I-99-110-gb"><p class="nh"><span class="nm">b</span><b class="hw">kīma nissaba</b><span class="ref">I 105</span></p><p class="nt">Literally 'like Nissaba,' goddess of grain: his hair grows like a barley-field. So too line 58.</p></div></aside>
+  <aside class="m m-out" aria-label="Commentary to I 99–110"><div class="note note-res" id="p-I-99-110-r1"><p class="nh"><span class="nm">≈</span><b class="hw">ṭīda iktariṣ — the clay ring</b></p><p class="nt">Aruru pinches off <i>ṭiṭṭu</i>, clay, and Enkidu exists. The word closes every circle the poem opens: Enkidu “turned to clay” (X 68), the drowned world “gone back to clay” (XI 135), Ištar wishing the fatal day itself “had turned back to clay” (XI 119). Creation and annihilation are one substance; English “clay” keeps the word but not the ring.</p></div><div class="note note-res" id="p-I-99-110-r2"><p class="nh"><span class="nm">≈</span><b class="hw">kiṣir Ninurta ≈ kiṣru ša Ānu</b></p><p class="nt">Enkidu is <i>kiṣir Ninurta</i>, a “knot” of Ninurta’s strength; the dream-meteor of line 246 is <i>kiṣru ša Ānu</i>, a “lump” of Anu. One noun, <i>kiṣru</i> — knot, clot, concentration — binds the omen to the man before any interpreter speaks: the dream is solved lexically. See the note at 246.</p></div></aside>
+</section><div class="elision" role="separator"><span>I 111–175 not shown in this mockup</span></div>
+<section class="peri" id="p-I-176-193" data-ref="SB I 176–193" aria-labelledby="p-I-176-193-h">
+  <h3 class="cap" id="p-I-176-193-h"><span class="sig">SB I 176–193</span> <span class="ttl">Šamhat</span></h3>
+  <div class="text"><div class="v" id="I-176"><span class="n">176</span><span class="akk" lang="akk-Latn">īmuršū-ma Šamhat lullâ amēla</span><span class="en">Šamhat saw him — the first-made man,</span><span class="mks"><a class="mk mk-res" href="#p-I-176-193-r1" data-note="p-I-176-193-r1" aria-label="Resonance note">≈</a></span></div><div class="v" id="I-177"><span class="n">177</span><span class="akk" lang="akk-Latn">eṭla šaggāšâ ša qabalti ṣēri</span><span class="en">the murderous young male from the middle of the steppe.</span><span class="mks"></span></div><div class="v" id="I-178"><span class="n">178</span><span class="akk" lang="akk-Latn">annû šū Šamhat rummî kirimmīki</span><span class="en">"There he is, Šamhat! Loosen the fold of your arms;</span><span class="mks"></span></div><div class="v" id="I-179"><span class="n">179</span><span class="akk" lang="akk-Latn">ūrki pitê-ma kuzubki lilqe</span><span class="en">open your vulva; let him take your allure.</span><span class="mks"></span></div><div class="v" id="I-180"><span class="n"><svg class="dec" viewBox="0 0 10 10" aria-hidden="true"><path d="M.8 5 9.4 .9 6.2 5 9.4 9.1Z" fill="currentColor"/></svg>180</span><span class="akk" lang="akk-Latn">ē tašhutī leqê napīssu</span><span class="en">Do not hold back; take his breath from him.</span><span class="mks"></span></div><div class="v" id="I-181"><span class="n">181</span><span class="akk" lang="akk-Latn">immarkī-ma iṭehhâ ana kâši</span><span class="en">He will see you, and he will come close to you.</span><span class="mks"></span></div><div class="v" id="I-182"><span class="n">182</span><span class="akk" lang="akk-Latn">lubūšīki muṣṣî-ma elīki liṣlal</span><span class="en">Spread out your clothing; let him lie on you;</span><span class="mks"></span></div><div class="v" id="I-183"><span class="n">183</span><span class="akk" lang="akk-Latn">epšīšū-ma lullâ šipir sinništi</span><span class="en">work on the first-made man the work of a woman.</span><span class="mks"></span></div><div class="v" id="I-184"><span class="n">184</span><span class="akk" lang="akk-Latn">inakkiršu būlšu ša irbû ina ṣērīšu</span><span class="en">His herd will turn stranger to him, though it grew up on his steppe,</span><span class="mks"></span></div><div class="v" id="I-185"><span class="n">185</span><span class="akk" lang="akk-Latn">dādūšu ihabbubū eli ṣērīki</span><span class="en">while his lovemaking murmurs over you."</span><span class="mks"></span></div><div class="v" id="I-186"><span class="n">186</span><span class="akk" lang="akk-Latn">urtammi Šamhat dīdīša</span><span class="en">Šamhat let loose her skirts;</span><span class="mks"></span></div><div class="v" id="I-187"><span class="n">187</span><span class="akk" lang="akk-Latn">ūrša iptē-ma kuzubša ilqe</span><span class="en">she opened her vulva, and he took her allure.</span><span class="mks"></span></div><div class="v" id="I-188"><span class="n">188</span><span class="akk" lang="akk-Latn">ul išhut ilteqe napīssu</span><span class="en">She did not hold back; she took his breath from him.</span><span class="mks"></span></div><div class="v" id="I-189"><span class="n">189</span><span class="akk" lang="akk-Latn">lubūšīša umaṣṣī-ma elīšu iṣlal</span><span class="en">She spread out her clothing, and he lay on her;</span><span class="mks"></span></div><div class="v" id="I-190"><span class="n"><svg class="dec" viewBox="0 0 10 10" aria-hidden="true"><path d="M.8 5 9.4 .9 6.2 5 9.4 9.1Z" fill="currentColor"/></svg>190</span><span class="akk" lang="akk-Latn">īpussū-ma lullâ šipir sinništi</span><span class="en">she worked on the first-made man the work of a woman,</span><span class="mks"></span></div><div class="v" id="I-191"><span class="n">191</span><span class="akk" lang="akk-Latn">dādūšu ihbubū eli ṣērīša</span><span class="en">while his lovemaking murmured over her.</span><span class="mks"></span></div><div class="v" id="I-192"><span class="n">192</span><span class="akk" lang="akk-Latn">šeššet urrī (u) sebe mušâti Enkīdu tebī-ma Šamhat irehhi</span><span class="en">Six days and seven nights Enkidu, aroused, poured himself into Šamhat.</span><span class="mks"><a class="mk mk-cm" href="#p-I-176-193-ca" data-note="p-I-176-193-ca" aria-label="Note a">a</a></span></div><div class="v" id="I-193"><span class="n">193</span><span class="akk" lang="akk-Latn">ultu išbû lalâša</span><span class="en">When he was sated with her delights</span><span class="mks"><a class="mk mk-cm" href="#p-I-176-193-cb" data-note="p-I-176-193-cb" aria-label="Note b">b</a></span></div></div>
+  <aside class="m m-in" aria-label="Glosses to I 176–193"></aside>
+  <aside class="m m-out" aria-label="Commentary to I 176–193"><div class="note note-cm" id="p-I-176-193-ca"><p class="nh"><span class="nm">a</span><b class="hw">I 192</b><span class="ref">I 192</span></p><p class="nt">Six days and seven nights: the same span as Ūta-napišti's test of sleep (XI 209) and the mourning over Enkidu (X 235). The poem counts in sevens.</p></div><div class="note note-cm" id="p-I-176-193-cb"><p class="nh"><span class="nm">b</span><b class="hw">Seven nights, or six — OB II 48</b></p><p class="nt">The Old Babylonian Pennsylvania tablet counts seven days and seven nights with Šamhat; the late edition trimmed the count to six-and-seven, aligning it with its other sevens — the mourning vigil (X 235) and the test of sleep (XI 209).</p></div><div class="note note-res" id="p-I-176-193-r1"><p class="nh"><span class="nm">≈</span><b class="hw">Šamhat ≈ šamhu</b></p><p class="nt">Her name is the common adjective <i>šamhu</i>, “lush, luxuriant, magnificent” — a professional name that is also Uruk’s own epithet-family. In the OB Pennsylvania tablet the dreaming king says <i>šamhākū-ma</i>, “I walked in my luxuriance” (OB II 4–5): he struts in her name a column before he hears it. The English “Šamhat” is mute; the Akkadian ear hears “Lady Lush.”</p></div></aside>
+</section><div class="elision" role="separator"><span>I 194–242 not shown in this mockup</span></div>
+<section class="peri" id="p-I-243-270" data-ref="SB I 243–270" aria-labelledby="p-I-243-270-h">
+  <h3 class="cap" id="p-I-243-270-h"><span class="sig">SB I 243–270</span> <span class="ttl">The first dream</span></h3>
+  <div class="text"><div class="v" id="I-243"><span class="n">243</span><span class="akk" lang="akk-Latn">itbē-ma Gilgāmeš šunata ipaššar izakkara ana ummīšu</span><span class="en">Gilgameš rose to unravel a dream, saying to his mother:</span><span class="mks"></span></div><div class="v" id="I-244"><span class="n">244</span><span class="akk" lang="akk-Latn">ummī šunat aṭṭulu mušītīya</span><span class="en">"Mother, this is the dream I saw in my night:</span><span class="mks"></span></div><div class="v" id="I-245"><span class="n">245</span><span class="akk" lang="akk-Latn">ibšûnim-ma kakkabū šamê</span><span class="en">the stars of the sky came out for me,</span><span class="mks"></span></div><div class="v" id="I-246"><span class="n">246</span><span class="akk" lang="akk-Latn">kīma kiṣri ša āni imtaqquta elu ṣērīya</span><span class="en">and like a lump of the sky-rock of Anu one kept falling down at me.</span><span class="mks"><a class="mk mk-cm" href="#p-I-243-270-ca" data-note="p-I-243-270-ca" aria-label="Note a">a</a><a class="mk mk-res" href="#p-I-243-270-r1" data-note="p-I-243-270-r1" aria-label="Resonance note">≈</a></span></div><div class="v" id="I-247"><span class="n">247</span><span class="akk" lang="akk-Latn">aššīšū-ma dān elīya</span><span class="en">I lifted it: it was too strong for me;</span><span class="mks"></span></div><div class="v" id="I-248"><span class="n">248</span><span class="akk" lang="akk-Latn">ultablakkissū-ma ul eleʾʾe nussu</span><span class="en">I heaved at it: I could not shift it.</span><span class="mks"></span></div><div class="v" id="I-249"><span class="n">249</span><span class="akk" lang="akk-Latn">Uruk mātu izzaz elī<span class="r">[šu]</span></span><span class="en">The land of Uruk was standing over it,</span><span class="mks"></span></div><div class="v" id="I-250"><span class="n"><svg class="dec" viewBox="0 0 10 10" aria-hidden="true"><path d="M.8 5 9.4 .9 6.2 5 9.4 9.1Z" fill="currentColor"/></svg>250</span><span class="akk" lang="akk-Latn"><span class="r">[mātu puhhurat]</span> ina muhhīšu</span><span class="en"><span class="r">[the land gathered]</span> about it,</span><span class="mks"></span></div><div class="v" id="I-251"><span class="n">251</span><span class="akk" lang="akk-Latn"><span class="r">[īteppir umm]</span>Ānu e<span class="r">[li ṣ]</span>ērī<span class="r">[šu]</span></span><span class="en"><span class="r">[the crow]</span>d <span class="r">[pressing]</span> i<span class="r">[n up]</span>on i<span class="r">[t,]</span></span><span class="mks"></span></div><div class="v" id="I-252"><span class="n">252</span><span class="akk" lang="akk-Latn"><span class="r">[eṭlūtu uk]</span>tammarū elīšu</span><span class="en"><span class="r">[the young men hea]</span>ped up around it;</span><span class="mks"></span></div><div class="v" id="I-253"><span class="n">253</span><span class="akk" lang="akk-Latn"><span class="r">[kī šerri la]</span>ʾî unaššaqū šēp<span class="r">[īšu]</span></span><span class="en"><span class="r">[like a nursli]</span>ng infant they kissed <span class="r">[its]</span> feet.</span><span class="mks"></span></div><div class="v" id="I-254"><span class="n">254</span><span class="akk" lang="akk-Latn"><span class="r">[arāmšū-ma kī]</span>ma aššati elīšu ahbub</span><span class="en"><span class="r">[I loved it li]</span>ke a wife: I murmured over it,</span><span class="mks"></span></div><div class="v" id="I-255"><span class="n">255</span><span class="akk" lang="akk-Latn"><span class="r">[aššâššū-ma a]</span>ttadīšu ina šaplī<span class="r">[ki]</span></span><span class="en"><span class="r">[I lifted it and s]</span>et it down at <span class="r">[your]</span> feet,</span><span class="mks"></span></div><div class="v" id="I-256"><span class="n">256</span><span class="akk" lang="akk-Latn"><span class="r">[u attī tult]</span>amah&lt;ha&gt;rīšu ittīy<span class="r">[a]</span></span><span class="en"><span class="r">[and you — you ma]</span>de it equal with m<span class="r">[e."]</span></span><span class="mks"></span></div><div class="v" id="I-257"><span class="n">257</span><span class="akk" lang="akk-Latn"><span class="r">[ummi gilgām]</span>eš emqet mūdât kalāma īde izakkar ana mārīša</span><span class="en"><span class="r">[The mother of Gilgam]</span>eš, clever, expert, all-knowing, said to her son —</span><span class="mks"></span></div><div class="v" id="I-258"><span class="n">258</span><span class="akk" lang="akk-Latn"><span class="r">[Rīmat-ninsun]</span> emqet mūdât kalāma īde izakkar ana Gilgāmeš</span><span class="en"><span class="r">[Wild-Cow Ninsun,]</span> clever, expert, all-knowing, said to Gilgameš:</span><span class="mks"></span></div><div class="v" id="I-259"><span class="n">259</span><span class="akk" lang="akk-Latn">ibšûnikka kakkabū šamê</span><span class="en">"The stars of the sky came out for you;</span><span class="mks"></span></div><div class="v" id="I-260"><span class="n"><svg class="dec" viewBox="0 0 10 10" aria-hidden="true"><path d="M.8 5 9.4 .9 6.2 5 9.4 9.1Z" fill="currentColor"/></svg>260</span><span class="akk" lang="akk-Latn"><span class="r">[kī]</span>ma kiṣri ša āni imtaqqut elu ṣērīya</span><span class="en"><span class="r">[li]</span>ke a lump of the sky-rock of Anu one kept falling down at you.</span><span class="mks"></span></div><div class="v" id="I-261"><span class="n">261</span><span class="akk" lang="akk-Latn">taššīšū-ma dān elīka</span><span class="en">You lifted it: it was too strong for you;</span><span class="mks"></span></div><div class="v" id="I-262"><span class="n">262</span><span class="akk" lang="akk-Latn">tultablakkissu ul teleʾʾi nussu</span><span class="en">you heaved at it: you could not shift it;</span><span class="mks"></span></div><div class="v" id="I-263"><span class="n">263</span><span class="akk" lang="akk-Latn">taššâššū-ma taddīšu ina šaplīya</span><span class="en">you lifted it and set it down at my feet,</span><span class="mks"></span></div><div class="v" id="I-264"><span class="n">264</span><span class="akk" lang="akk-Latn">u anāku ul<span class="r">[ta]</span>mhiraššu ittī<span class="r">[ka]</span></span><span class="en">and I — I made it equal with y<span class="r">[ou;]</span></span><span class="mks"></span></div><div class="v" id="I-265"><span class="n">265</span><span class="akk" lang="akk-Latn">tarāmšūma kīma aššati tahabbub elīšu</span><span class="en">you loved it like a wife, murmuring over it:</span><span class="mks"></span></div><div class="v" id="I-266"><span class="n">266</span><span class="akk" lang="akk-Latn">illakakkum-ma dannu tappû mušēzib ibri</span><span class="en">there will come to you a strong one, a companion, the rescuer of a friend.</span><span class="mks"></span></div><div class="v" id="I-267"><span class="n">267</span><span class="akk" lang="akk-Latn">ina māti dān emūqī īšu</span><span class="en">In all the land his strength is the strongest;</span><span class="mks"></span></div><div class="v" id="I-268"><span class="n">268</span><span class="akk" lang="akk-Latn">kīma kiṣri ša āni dunnunā emūqāšu</span><span class="en">his might is as hard as a lump of the sky-rock of Anu.</span><span class="mks"></span></div><div class="v" id="I-269"><span class="n">269</span><span class="akk" lang="akk-Latn">tarâmšū-ma kīma aššati tahabbub elīšu</span><span class="en">You will love him like a wife, murmuring over him,</span><span class="mks"></span></div><div class="v" id="I-270"><span class="n"><svg class="dec" viewBox="0 0 10 10" aria-hidden="true"><path d="M.8 5 9.4 .9 6.2 5 9.4 9.1Z" fill="currentColor"/></svg>270</span><span class="akk" lang="akk-Latn">šū dannu ušezzeb kâša</span><span class="en">and he, the strong one, will time and again save you."</span><span class="mks"></span></div></div>
+  <aside class="m m-in" aria-label="Glosses to I 243–270"></aside>
+  <aside class="m m-out" aria-label="Commentary to I 243–270"><div class="note note-cm" id="p-I-243-270-ca"><p class="nh"><span class="nm">a</span><b class="hw">kiṣru ša Āni</b><span class="ref">I 246</span></p><p class="nt">A 'lump of Anu' — meteoric iron falling from the sky-god's realm; the same phrase measures Enkidu's strength at I 123 and elsewhere. One noun binds omen to man.</p></div><div class="note note-res" id="p-I-243-270-r1"><p class="nh"><span class="nm">≈</span><b class="hw">kiṣru ša Ānu ≈ kiṣir Ninurta</b></p><p class="nt">The falling “lump of Anu” repeats the noun that made Enkidu at 102 — and the fixed simile of his strength (“hard as a lump of the sky-rock of Anu,” 123, 135, 150 …) keeps the equation sounding through the whole tablet. The friend is the meteor; the omen was never obscure.</p></div></aside>
+</section>
+<section class="parting" id="parting-1" data-ref="OB ∥ SB" aria-labelledby="parting-1-h">
+  <p class="pr"><span>The two recensions part</span></p>
+  <h3 id="parting-1-h">The dream of the meteor</h3>
+  <p class="pnote">Same dream, five centuries apart. The old telling is brisk and bodily — <i>iktabit elīya</i>, “it was too heavy for me”; the late telling reads <i>dān elīya</i>, “too strong for me,” and adds the gathered land, the kissed feet, and the mother’s full oracle. Weight became strength under the redactor’s hand.</p>
+  <input type="radio" class="vh" name="pt1" id="pt1-ob" checked><input type="radio" class="vh" name="pt1" id="pt1-sb">
+  <div class="tabs" role="presentation"><label for="pt1-ob" class="tab tab-ob">Old Babylonian</label><label for="pt1-sb" class="tab tab-sb">Standard</label></div>
+  <div class="cmp"><div class="wit wit-ob"><p class="wl"><span class="sg">OB</span> OB II (Pennsylvania), 1–23</p><div class="text"><div class="v"><span class="n">1</span><span class="akk" lang="akk-Latn">itbē-ma Gilgāmeš šunatam ipaššar</span><span class="en">Gilgameš rose to unravel a dream,</span><span class="mks"></span></div><div class="v"><span class="n">2</span><span class="akk" lang="akk-Latn">issaqqaram ana ummīšu</span><span class="en">saying to his mother:</span><span class="mks"></span></div><div class="v"><span class="n">3</span><span class="akk" lang="akk-Latn">ummī ina šāt mušītīya</span><span class="en">"Mother, in the course of my night</span><span class="mks"></span></div><div class="v"><span class="n">4-5</span><span class="akk" lang="akk-Latn">šamhākū-ma attanallak ina birīt eṭlūtim</span><span class="en">I walked abroad, brimming with pride, among the young men.</span><span class="mks"></span></div><div class="v"><span class="n">6</span><span class="akk" lang="akk-Latn">ibbīšūnim-ma kakkabū šamāʾī</span><span class="en">The stars of the sky came out for me;</span><span class="mks"></span></div><div class="v"><span class="n">7</span><span class="akk" lang="akk-Latn">k<span class="r">[i]</span>ṣrum! ša Ānim imqutam ana ṣērīya</span><span class="en">a l<span class="r">[u]</span>mp of the sky-rock of Anu fell down at me.</span><span class="mks"></span></div><div class="v"><span class="n">8</span><span class="akk" lang="akk-Latn">aššīšū-ma iktabit elīya</span><span class="en">I lifted it: it was too heavy for me;</span><span class="mks"></span></div><div class="v"><span class="n">9</span><span class="akk" lang="akk-Latn">unīssū-ma nuššašu ul eltēʾi</span><span class="en">I heaved at it: I could not shift it.</span><span class="mks"></span></div><div class="v"><span class="n">10</span><span class="akk" lang="akk-Latn">Uruk mātum pahir elīšu</span><span class="en">The land of Uruk gathered about it;</span><span class="mks"></span></div><div class="v"><span class="n">11</span><span class="akk" lang="akk-Latn">eṭlūtum unaššaqū šēpīšu</span><span class="en">the young men were kissing its feet.</span><span class="mks"></span></div><div class="v"><span class="n">12-13</span><span class="akk" lang="akk-Latn">ummid-ma pūtī īmidū yâti</span><span class="en">I set my brow to it; they braced with me;</span><span class="mks"></span></div><div class="v"><span class="n">14</span><span class="akk" lang="akk-Latn">aššiaššū-ma atbalaššu ana ṣērīki</span><span class="en">I lifted it up and carried it to you."</span><span class="mks"></span></div><div class="v"><span class="n">15</span><span class="akk" lang="akk-Latn">ummi Gilgāmeš mūdeat kalāma</span><span class="en">The mother of Gilgameš, who knows everything,</span><span class="mks"></span></div><div class="v"><span class="n">16</span><span class="akk" lang="akk-Latn">issaqqaram ana Gilgāmeš</span><span class="en">said to Gilgameš:</span><span class="mks"></span></div><div class="v"><span class="n">17</span><span class="akk" lang="akk-Latn">minde Gilgāmeš ša kīma kâti</span><span class="en">"Likely, Gilgameš, one like yourself</span><span class="mks"></span></div><div class="v"><span class="n">18-19</span><span class="akk" lang="akk-Latn">ina ṣēri(m) iwwalid-ma urabbīšu šadû</span><span class="en">was born on the open land, and the hills have raised him.</span><span class="mks"></span></div><div class="v"><span class="n">20</span><span class="akk" lang="akk-Latn">tammaršū-ma tahaddu attā</span><span class="en">You will see him — and you will rejoice;</span><span class="mks"></span></div><div class="v"><span class="n">21</span><span class="akk" lang="akk-Latn">eṭlūtum unaššaqū šēpīšu</span><span class="en">the young men will be kissing his feet;</span><span class="mks"></span></div></div></div><div class="wit wit-sb"><p class="wl"><span class="sg">SB</span> SB Tablet I 243–256</p><div class="text"><div class="v"><span class="n">243</span><span class="akk" lang="akk-Latn">itbē-ma Gilgāmeš šunata ipaššar izakkara ana ummīšu</span><span class="en">Gilgameš rose to unravel a dream, saying to his mother:</span><span class="mks"></span></div><div class="v"><span class="n">244</span><span class="akk" lang="akk-Latn">ummī šunat aṭṭulu mušītīya</span><span class="en">"Mother, this is the dream I saw in my night:</span><span class="mks"></span></div><div class="v"><span class="n">245</span><span class="akk" lang="akk-Latn">ibšûnim-ma kakkabū šamê</span><span class="en">the stars of the sky came out for me,</span><span class="mks"></span></div><div class="v"><span class="n">246</span><span class="akk" lang="akk-Latn">kīma kiṣri ša āni imtaqquta elu ṣērīya</span><span class="en">and like a lump of the sky-rock of Anu one kept falling down at me.</span><span class="mks"></span></div><div class="v"><span class="n">247</span><span class="akk" lang="akk-Latn">aššīšū-ma dān elīya</span><span class="en">I lifted it: it was too strong for me;</span><span class="mks"></span></div><div class="v"><span class="n">248</span><span class="akk" lang="akk-Latn">ultablakkissū-ma ul eleʾʾe nussu</span><span class="en">I heaved at it: I could not shift it.</span><span class="mks"></span></div><div class="v"><span class="n">249</span><span class="akk" lang="akk-Latn">Uruk mātu izzaz elī<span class="r">[šu]</span></span><span class="en">The land of Uruk was standing over it,</span><span class="mks"></span></div><div class="v"><span class="n">250</span><span class="akk" lang="akk-Latn"><span class="r">[mātu puhhurat]</span> ina muhhīšu</span><span class="en"><span class="r">[the land gathered]</span> about it,</span><span class="mks"></span></div><div class="v"><span class="n">251</span><span class="akk" lang="akk-Latn"><span class="r">[īteppir umm]</span>Ānu e<span class="r">[li ṣ]</span>ērī<span class="r">[šu]</span></span><span class="en"><span class="r">[the crow]</span>d <span class="r">[pressing]</span> i<span class="r">[n up]</span>on i<span class="r">[t,]</span></span><span class="mks"></span></div><div class="v"><span class="n">252</span><span class="akk" lang="akk-Latn"><span class="r">[eṭlūtu uk]</span>tammarū elīšu</span><span class="en"><span class="r">[the young men hea]</span>ped up around it;</span><span class="mks"></span></div><div class="v"><span class="n">253</span><span class="akk" lang="akk-Latn"><span class="r">[kī šerri la]</span>ʾî unaššaqū šēp<span class="r">[īšu]</span></span><span class="en"><span class="r">[like a nursli]</span>ng infant they kissed <span class="r">[its]</span> feet.</span><span class="mks"></span></div><div class="v"><span class="n">254</span><span class="akk" lang="akk-Latn"><span class="r">[arāmšū-ma kī]</span>ma aššati elīšu ahbub</span><span class="en"><span class="r">[I loved it li]</span>ke a wife: I murmured over it,</span><span class="mks"></span></div><div class="v"><span class="n">255</span><span class="akk" lang="akk-Latn"><span class="r">[aššâššū-ma a]</span>ttadīšu ina šaplī<span class="r">[ki]</span></span><span class="en"><span class="r">[I lifted it and s]</span>et it down at <span class="r">[your]</span> feet,</span><span class="mks"></span></div></div></div></div>
+  <p class="pr pr-end"><span>The recensions rejoin</span></p>
+</section>
+</main>
+
+<footer class="colophon">
+  <p class="pr"><span>Colophon</span></p>
+  <p class="akkl" lang="akk-Latn">kīma labīrīšu šaṭir-ma bari</p>
+  <p class="enl">written and collated according to its original</p>
+  <p class="fine">Design mockup. Text, glosses and notes are taken from the published reader’s edition.</p>
+</footer>
+
+<div class="scrim" id="scrim"></div>
+<section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-title" aria-hidden="true">
+  <div class="sh-head"><h2 id="sh-title">Notes</h2><button class="btn" type="button" id="sh-close" aria-label="Close notes">Close</button></div>
+  <div class="sh-body" id="sh-body"></div>
+  <div class="sh-foot"><button class="btn" type="button" id="sh-prev">‹ Previous line</button><button class="btn" type="button" id="sh-next">Next line ›</button></div>
+</section>
+
+<script>
+(function(){
+  var d=document, root=d.documentElement;
+  var $=function(s,c){return (c||d).querySelector(s)}, $$=function(s,c){return Array.prototype.slice.call((c||d).querySelectorAll(s))};
+  var phone=window.matchMedia('(max-width:759px)');
+  function store(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+  function load(k){try{return localStorage.getItem(k)}catch(e){return null}}
+
+  /* ---- theme ---- */
+  var tb=$('#theme');
+  function current(){var t=root.getAttribute('data-theme');if(t)return t;return window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}
+  function label(){tb.setAttribute('aria-label',current()==='dark'?'Switch to light theme':'Switch to dark theme')}
+  tb.addEventListener('click',function(){var n=current()==='dark'?'light':'dark';root.setAttribute('data-theme',n);store('gilg-theme',n);label()});
+  label();
+
+  /* ---- layers: restore, keep one language on, hold reading position ---- */
+  var layers=$$('input.layer');
+  var saved=load('gilg-layers');
+  if(saved){try{var o=JSON.parse(saved);layers.forEach(function(i){if(i.id in o)i.checked=!!o[i.id]})}catch(e){}}
+  var akk=$('#L-akk'), en=$('#L-en');
+  function anchorLine(){
+    var top=$('.top').getBoundingClientRect().bottom-2, rows=$$('main .v, main .cap, main .th');
+    for(var i=0;i<rows.length;i++){var r=rows[i].getBoundingClientRect();if(r.height&&r.top>=top)return {el:rows[i],y:r.top}}
+    return null;
+  }
+  var held=null;
+  /* capture position before the checkbox flips (pointer, key, or label click) */
+  $$('.layers label').forEach(function(l){l.addEventListener('pointerdown',function(){held=anchorLine()})});
+  layers.forEach(function(i){
+    i.addEventListener('keydown',function(){held=anchorLine()});
+    i.addEventListener('change',function(){
+      if(!akk.checked&&!en.checked){(i===akk?en:akk).checked=true}
+      var a=held||anchorLine(); held=null;
+      if(a&&a.el.isConnected){var y=a.el.getBoundingClientRect().top;window.scrollBy(0,y-a.y)}
+      var o={};layers.forEach(function(x){o[x.id]=x.checked});store('gilg-layers',JSON.stringify(o));
+    });
+  });
+
+  /* ---- contents: close after choosing ---- */
+  var toc=$('.toc');
+  $$('.toc-panel a').forEach(function(a){a.addEventListener('click',function(){toc.open=false})});
+  d.addEventListener('keydown',function(e){if(e.key==='Escape'){if(toc.open){toc.open=false;$('summary',toc).focus()}closeSheet()}});
+  d.addEventListener('click',function(e){if(toc.open&&!toc.contains(e.target))toc.open=false});
+
+  /* ---- running head ---- */
+  var rh=$('#rh');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting&&e.target.dataset.ref)rh.textContent=e.target.dataset.ref})},{rootMargin:'-60px 0px -70% 0px'});
+    $$('.peri,.parting').forEach(function(s){io.observe(s)});
+  }
+
+  /* ---- keys: highlight on desktop, bottom sheet on phone ---- */
+  var sheet=$('#sheet'), scrim=$('#scrim'), body=$('#sh-body'), lastFocus=null, curRow=null;
+  function clearOn(){$$('.v.on,.note.on').forEach(function(x){x.classList.remove('on')})}
+  function visibleKeys(row){return $$('.mk',row).filter(function(m){return m.offsetParent!==null&&getComputedStyle(m).visibility!=='hidden'})}
+  function keyedRows(){return $$('main .peri .v').filter(function(r){return visibleKeys(r).length})}
+  function openSheet(row){
+    var keys=visibleKeys(row); if(!keys.length)return;
+    curRow=row; clearOn(); row.classList.add('on');
+    var n=$('.n',row).textContent.replace(/\s/g,''), tab=row.id.split('-')[0];
+    $('#sh-title').textContent='SB '+tab+' '+n;
+    var html='<div class="sh-line">';
+    if(akk.checked)html+='<span class="akk" lang="akk-Latn">'+$('.akk',row).innerHTML+'</span>';
+    if(en.checked||!akk.checked)html+='<span class="en">'+$('.en',row).innerHTML+'</span>';
+    html+='</div>';
+    keys.forEach(function(k){var note=d.getElementById(k.dataset.note);if(note){var c=note.cloneNode(true);c.removeAttribute('id');c.classList.remove('on');html+=c.outerHTML}});
+    body.innerHTML=html; body.scrollTop=0;
+    var rows=keyedRows(), i=rows.indexOf(row);
+    $('#sh-prev').disabled=i<=0; $('#sh-next').disabled=i<0||i>=rows.length-1;
+    if(!sheet.classList.contains('open'))lastFocus=d.activeElement;
+    sheet.classList.add('open'); scrim.classList.add('open'); sheet.setAttribute('aria-hidden','false');
+    var r=row.getBoundingClientRect(), want=$('.top').getBoundingClientRect().bottom+24;
+    if(r.top<want||r.bottom>window.innerHeight*0.28+r.height)window.scrollBy(0,r.top-want);
+    $('#sh-close').focus({preventScroll:true});
+  }
+  function closeSheet(){
+    if(!sheet.classList.contains('open'))return;
+    sheet.classList.remove('open'); scrim.classList.remove('open'); sheet.setAttribute('aria-hidden','true'); clearOn();
+    if(lastFocus&&lastFocus.focus)lastFocus.focus({preventScroll:true});
+  }
+  $('#sh-close').addEventListener('click',closeSheet);
+  scrim.addEventListener('click',closeSheet);
+  $('#sh-prev').addEventListener('click',function(){var rs=keyedRows(),i=rs.indexOf(curRow);if(i>0)openSheet(rs[i-1])});
+  $('#sh-next').addEventListener('click',function(){var rs=keyedRows(),i=rs.indexOf(curRow);if(i>-1&&i<rs.length-1)openSheet(rs[i+1])});
+  sheet.addEventListener('keydown',function(e){ /* keep focus inside the sheet */
+    if(e.key!=='Tab')return; var f=$$('button:not([disabled])',sheet); if(!f.length)return;
+    if(e.shiftKey&&d.activeElement===f[0]){e.preventDefault();f[f.length-1].focus()}
+    else if(!e.shiftKey&&d.activeElement===f[f.length-1]){e.preventDefault();f[0].focus()}
+  });
+
+  $$('main .peri .mks').forEach(function(cell){
+    cell.addEventListener('click',function(e){
+      var row=cell.parentNode;
+      if(phone.matches){e.preventDefault();openSheet(row);return}
+      var k=e.target.closest('.mk'); if(!k)return; e.preventDefault();
+      clearOn(); row.classList.add('on');
+      var note=d.getElementById(k.dataset.note);
+      if(note){note.classList.add('on');var r=note.getBoundingClientRect();if(r.top<70||r.bottom>window.innerHeight)note.scrollIntoView({block:'center'})}
+    });
+  });
+  /* notes point back at their lines */
+  $$('main .note').forEach(function(note){
+    function on(){clearOn();note.classList.add('on');$$('.mk[data-note="'+note.id+'"]').forEach(function(k){k.closest('.v').classList.add('on')})}
+    note.addEventListener('mouseenter',on); note.addEventListener('mouseleave',clearOn);
+  });
+  phone.addEventListener&&phone.addEventListener('change',function(){if(!phone.matches)closeSheet()});
+})();
+</script>
+</body>
+</html>

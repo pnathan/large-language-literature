@@ -62,7 +62,7 @@ def extract_paragraph(p_elem):
                 parts.append(expan.text)
             return
         if tag == "pb":
-            fid = el.get("id") or el.get("corresp") or ""
+            fid = el.get("{http://www.w3.org/XML/1998/namespace}id") or el.get("corresp") or ""
             if fid:
                 folio_ids.append(fid.lstrip("#"))
         if tag == "lb":

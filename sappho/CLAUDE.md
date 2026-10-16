@@ -21,12 +21,15 @@ authors), delivered as self-contained HTML on GitHub Pages.
    in more than one witness, the variant readings are recorded, not silently
    collapsed into a single "best" text.
 3. **Greek text is only ever taken from real, fetched, cited sources** — never
-   reconstructed from a model's memory. Public-domain critical editions
-   (Bergk's *Poetae Lyrici Graeci*, Edmonds' 1922 Loeb, Wharton's 1885
-   *Sappho*) and open papyrological publications (for 20th/21st-century finds
-   like the Brothers Poem and Kypris Poem) are acceptable sources; each Greek
-   quotation in `src/` carries its source citation and, where fetched from the
-   web, its URL.
+   reconstructed from a model's memory. Each Greek quotation in `src/` is cited
+   to an ancient witness (papyrus, quoting author, testimonium) or to an open
+   papyrological publication (for 20th/21st-century finds like the Brothers
+   Poem and Kypris Poem), with its URL where fetched from the web.
+   Modern critical editions (Bergk's *Poetae Lyrici Graeci*, Edmonds' 1922 Loeb,
+   Wharton's 1885 *Sappho*, Lobel-Page, Voigt, Campbell, Cox, and similar) are
+   not witnesses. They may be cited for provenance and conjectural restoration,
+   recorded as a "Modern editions (not witnesses)" note, never as a witness
+   reading.
 4. Every translation is reviewed by an independent Fable-model pass, checking
    fidelity to the Greek and flagging any suspicious resemblance to a known
    published translation (a sign of memorization leakage rather than genuine
