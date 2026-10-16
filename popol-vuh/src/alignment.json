@@ -1,0 +1,1259 @@
+[
+ {
+  "section": "s01",
+  "title": "Prologue and the divine makers",
+  "english_paragraph_count": 6,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p01",
+     "p02"
+    ],
+    "english_paragraphs": [
+     0,
+     1
+    ],
+    "folios": "fol. 1r–1v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "p01 is the one-line incipit; E[0] opens with it and runs into p02, E[1] ends on p02's close ('ato qol vi cah vleu cho palo'). The E[0]/E[1] break falls inside p02, so p01-p02 cannot be cut."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p03",
+     "p04"
+    ],
+    "english_paragraphs": [
+     2
+    ],
+    "folios": "fol. 1v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[2] renders p03 (suspense, silence) and p04 (the first word; Heart of Sky) in one paragraph."
+   },
+   {
+    "id": "b3",
+    "kiche_paragraphs": [
+     "p05"
+    ],
+    "english_paragraphs": [
+     3,
+     4,
+     5
+    ],
+    "folios": "fol. 1v–2v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[3] opens on p05's first sentence ('Ta xpe cut vtzih...'); E[5] ends on p05's close."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s02",
+  "title": "The naming of the animals",
+  "english_paragraph_count": 2,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p06",
+     "p07"
+    ],
+    "english_paragraphs": [
+     0,
+     1
+    ],
+    "folios": "fol. 2v–3v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] covers p06 and the first part of p07 (the address to the animals); E[1] is the rest of p07. No clean cut between p06 and p07."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s03",
+  "title": "The mud people and the wood people: two failed creations",
+  "english_paragraph_count": 2,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p08"
+    ],
+    "english_paragraphs": [
+     0
+    ],
+    "folios": "fol. 3v–4v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] ends where p08 ends (the wood people multiply); matching proportions."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p09"
+    ],
+    "english_paragraphs": [
+     1
+    ],
+    "folios": "fol. 4v–5v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] opens on p09 ('after this they were finished, destroyed') and ends on the monkey."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s04",
+  "title": "Wuqub' Kaqix, Sipakna, and Kab'raqan",
+  "english_paragraph_count": 2,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p10",
+     "p11"
+    ],
+    "english_paragraphs": [
+     0,
+     1
+    ],
+    "folios": "fol. 5v–6v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] covers p10 and p11's opening (the twins resolve on the blowguns); E[1] begins with p11's passage on Wuqub' Kaqix's sons. No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s05",
+  "title": "Junajpu and Xb'alanke move against Seven Macaw's household",
+  "english_paragraph_count": 3,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p12"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2
+    ],
+    "folios": "fol. 6v–8r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "Forced: one K'iche' paragraph in the section."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s06",
+  "title": "Sipakna and the four hundred youths",
+  "english_paragraph_count": 6,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p13"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "folios": "fol. 8r–9v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "Forced: one K'iche' paragraph in the section."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s07",
+  "title": "Kab'raqan brought low",
+  "english_paragraph_count": 11,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p14"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "folios": "fol. 9v–10v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "Forced: one K'iche' paragraph in the section."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s08",
+  "title": "Jun Junajpu, Wuqub' Junajpu, and their sons Jun B'atz'/Jun Chowen",
+  "english_paragraph_count": 2,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p15",
+     "p16"
+    ],
+    "english_paragraphs": [
+     0,
+     1
+    ],
+    "folios": "fol. 10v–12r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] finishes p15 and ends with p16's single sentence ('we shall tell the name of their father'). No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s09",
+  "title": "The ballcourt and the summons of the Xibalba lords",
+  "english_paragraph_count": 2,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p17",
+     "p18"
+    ],
+    "english_paragraphs": [
+     0,
+     1
+    ],
+    "folios": "fol. 12r–14r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] covers only the first part of p17; E[1] carries the rest of p17 (Xibalba's lords and offices) into p18. Proportions: E[0] ends at 22% against a p17/p18 boundary near 63%."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s10",
+  "title": "The Xibalba trial-houses and the death of the elder twins",
+  "english_paragraph_count": 12,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p19"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "folios": "fol. 14r–15v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "Forced: one K'iche' paragraph in the section."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s11",
+  "title": "Ixkik' and the calabash tree",
+  "english_paragraph_count": 3,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p20",
+     "p21",
+     "p22"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2
+    ],
+    "folios": "fol. 15v–17r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] = p20 heading plus most of p21; E[1] opens on the last sentence of p21 (six months, father notices) and runs into p22; E[2] is inside p22. No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s12",
+  "title": "Ixkik' brought before Xmukane",
+  "english_paragraph_count": 6,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p23"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "folios": "fol. 17r–18r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0]-E[4] translate p23; E[4] ends on its close."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p24"
+    ],
+    "english_paragraphs": [
+     5
+    ],
+    "folios": "fol. 18r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "p24 is a one-line heading ('Here we shall tell the birth of Hun Ahpu and Xbalanque'); E[5] is its translation."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s13",
+  "title": "Birth of Junajpu and Xb'alanke",
+  "english_paragraph_count": 10,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p25"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "folios": "fol. 18r–19r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[5] ends on 'the song of Hun Ahpu Monkey', the end of p25."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p26"
+    ],
+    "english_paragraphs": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "folios": "fol. 19r–20r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[6] opens 'Then they sang and played the flute and beat the drum', the start of p26."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s14",
+  "title": "The younger twins as hunters",
+  "english_paragraph_count": 12,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p27"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "folios": "fol. 20r–21v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "Forced: one K'iche' paragraph in the section."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s15",
+  "title": "Jun B'atz' and Jun Chowen transformed",
+  "english_paragraph_count": 3,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p28"
+    ],
+    "english_paragraphs": [
+     0
+    ],
+    "folios": "fol. 21v–22r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] ends with the finding of the ball (end of p28)."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p29",
+     "p30"
+    ],
+    "english_paragraphs": [
+     1,
+     2
+    ],
+    "folios": "fol. 22r–23v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] ends mid-p29 (the louse sets out); E[2] carries on through the toad episode into p30. No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s16",
+  "title": "The ballgame equipment recovered; renewed summons to Xibalba",
+  "english_paragraph_count": 12,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p31"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "folios": "fol. 23v–26v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "Forced: one K'iche' paragraph in the section."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s17",
+  "title": "The road to Xibalba and the first trial-houses",
+  "english_paragraph_count": 9,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p32"
+    ],
+    "english_paragraphs": [
+     0
+    ],
+    "folios": "fol. 26v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] is the house of cold only."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p33",
+     "p34"
+    ],
+    "english_paragraphs": [
+     1,
+     2
+    ],
+    "folios": "fol. 26v–27r",
+    "method": "inferred",
+    "confidence": "medium",
+    "note": "E[1] (jaguar house) and E[2] (fire house) are both in the K'iche' text filed under p33: the K'iche' column has an unlabelled <p> between p33 and p35 that parse_tei.py folds into p33, so p34 is flagged kiche_missing although its K'iche' is present. The English cut follows the Spanish (p33 = jaguars, p34 = fire, corresp=#p34). Folio f27-s1 for p34 comes from the pb carry in that unlabelled <p>, and the Spanish p34 agrees (f27-s1). K'iche' of p34 can only be isolated from p33 by re-parsing; kept as one block."
+   },
+   {
+    "id": "b3",
+    "kiche_paragraphs": [
+     "p35"
+    ],
+    "english_paragraphs": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "folios": "fol. 27r–28r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[3] opens on the bat house, the start of p35; E[8] ends the night."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s18",
+  "title": "Further trial-houses",
+  "english_paragraph_count": 2,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p36"
+    ],
+    "english_paragraphs": [
+     0
+    ],
+    "folios": "fol. 28r–28v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] ends where p36 ends; E[1] opens on 'the record of the death of Hun Ahpu and Xbalanque', the start of p37."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p37"
+    ],
+    "english_paragraphs": [
+     1
+    ],
+    "folios": "fol. 28v–29v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] = p37."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s19",
+  "title": "The twins outwit the lords of Xibalba",
+  "english_paragraph_count": 3,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p38"
+    ],
+    "english_paragraphs": [
+     0
+    ],
+    "folios": "fol. 29v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] ends 'all the lords of Xibalba were astonished'; proportions 20% vs 19%."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p39"
+    ],
+    "english_paragraphs": [
+     1
+    ],
+    "folios": "fol. 29v–30r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] opens 'word of it reached the ears of the lords' (p39 start) and ends with the messengers before the lords."
+   },
+   {
+    "id": "b3",
+    "kiche_paragraphs": [
+     "p40"
+    ],
+    "english_paragraphs": [
+     2
+    ],
+    "folios": "fol. 30r–31r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[2] opens 'And they arrived before the lords' (p40 start)."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s20",
+  "title": "Defeat of Jun Kame' and Wuqub' Kame'",
+  "english_paragraph_count": 3,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p41",
+     "p42",
+     "p43"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2
+    ],
+    "folios": "fol. 31r–32v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] covers p41 and most of p42; E[1] is p42's passage on the canes; E[2] opens with p42's last sentence ('our first fathers of old') and runs into p43. No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s21",
+  "title": "Paxil and K'ayala': discovery of maize; the first four men and women",
+  "english_paragraph_count": 7,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p44"
+    ],
+    "english_paragraphs": [
+     0
+    ],
+    "folios": "fol. 32v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] ends 'only a little was lacking for the sun, moon and stars' (end of p44)."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p45",
+     "p46"
+    ],
+    "english_paragraphs": [
+     1,
+     2
+    ],
+    "folios": "fol. 32v–33r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "p45 is a one-line heading ('From Paxil, from K'ayala'...'); E[1] opens with it and runs into p46 (the four animals); E[2] ends where p46 ends ('only food was their flesh'). No clean cut."
+   },
+   {
+    "id": "b3",
+    "kiche_paragraphs": [
+     "p47",
+     "p48"
+    ],
+    "english_paragraphs": [
+     3,
+     4
+    ],
+    "folios": "fol. 33r–33v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[3] opens on p47 (the four names) and runs into p48's first part (only formed, no mother, no father); E[4] is the rest of p48. No clean cut."
+   },
+   {
+    "id": "b4",
+    "kiche_paragraphs": [
+     "p49",
+     "p50"
+    ],
+    "english_paragraphs": [
+     5,
+     6
+    ],
+    "folios": "fol. 33v–34r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[6] opens with p49's last sentence ('This did not please the Builder and the Fashioner'), then p50's new counsel. No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s22",
+  "title": "The K'iche' lineages and their patron gods Tojil, Awilix, Jaqawitz",
+  "english_paragraph_count": 2,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p51",
+     "p52"
+    ],
+    "english_paragraphs": [
+     0,
+     1
+    ],
+    "folios": "fol. 34r–35v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] finishes p51 and ends with p52's sentence (Tulan Zuyva, to fetch the gods). Proportions: E[0] ends at 44% against p51/p52 near 96%."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s23",
+  "title": "Departure from Tulan; the long migration",
+  "english_paragraph_count": 3,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p53",
+     "p54",
+     "p55"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2
+    ],
+    "folios": "fol. 35v–37r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] covers p53 and the first half of p54; E[1] the rest of p54 and p55's opening (rain, Tohil brings fire from his sandal); E[2] the rest of p55. No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s24",
+  "title": "Multiplication of languages, separation of the peoples",
+  "english_paragraph_count": 4,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p56"
+    ],
+    "english_paragraphs": [
+     0,
+     1
+    ],
+    "folios": "fol. 37r–38r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] opens on p56's start (the tribes beg fire); E[1] ends on 'a great distance, it is said today', the end of p56."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p57"
+    ],
+    "english_paragraphs": [
+     2,
+     3
+    ],
+    "folios": "fol. 38r–38v",
+    "method": "inferred",
+    "confidence": "medium",
+    "note": "The K'iche' filed under p57 also holds the K'iche' of p58: it has an unlabelled <p> after p57 that parse_tei.py folds into p57 (cf. s25 p58). E[2] opens on p57 (the Mountain of Counsel), its first paragraph already reaches p58's opening (Kaqchikel and Rabinal names); E[2] continues with p58, and E[3] ends it (wives, fasting). The translator was given p58's K'iche' here, so the English for p58 sits in s24, not s25. Folios 38r-38v come from the pb carry in the K'iche' column."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s25",
+  "title": "The wait for the dawn",
+  "english_paragraph_count": 3,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p58",
+     "p59",
+     "p60"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2
+    ],
+    "folios": "fol. 38r–40r",
+    "method": "inferred",
+    "confidence": "medium",
+    "note": "p58 has no K'iche' in the section's data (kiche_missing; its K'iche' is the unlabelled <p> folded into p57, in s24) and the Spanish p58 (f38-s1, running to 38v) is the only labelled evidence for the section's start folio: K'iche' p59 itself begins on 38v. p58's English is s24 E[2] (second part) and E[3], so this block's English is p59-p60 only. E[0] opens on p59 (Tohil asks to be hidden); E[2] ends with p59's close and p60's one sentence. Folio range 38r-40r combines the Spanish p58 span with the K'iche' spans of p59-p60.",
+    "english_elsewhere": [
+     {
+      "section": "s24",
+      "paragraphs": [
+       2,
+       3
+      ],
+      "for_kiche_paragraph": "p58",
+      "note": "E[2] only in part (its second half); E[3] wholly"
+     }
+    ]
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s26",
+  "title": "Events preceding first light",
+  "english_paragraph_count": 10,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p61"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "folios": "fol. 40r–41v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "Forced: one K'iche' paragraph in the section."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s27",
+  "title": "First dawn; the hardening of the stone gods",
+  "english_paragraph_count": 3,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p62",
+     "p63",
+     "p64"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2
+    ],
+    "folios": "fol. 41v–43r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[2] opens with p62's last sentence (the sign, the pazilizib hide), then p63 (a one-line heading: the stealing of the people) and p64. No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s28",
+  "title": "Balam Ki'tze' and the first patriarchs",
+  "english_paragraph_count": 6,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p65",
+     "p66"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "folios": "fol. 43r–44v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[3] opens with p65's last sentence (the two maidens Xtah and Xpuch sent to the river) and runs into p66. No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s29",
+  "title": "Wives obtained; further wanderings",
+  "english_paragraph_count": 2,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p67"
+    ],
+    "english_paragraphs": [
+     0
+    ],
+    "folios": "fol. 44v–45v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] ends where p67 ends (the fortified summit); E[1] opens with 'the muster of all the peoples' (p68)."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p68"
+    ],
+    "english_paragraphs": [
+     1
+    ],
+    "folios": "fol. 45v–46v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] = p68."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s30",
+  "title": "Ajpatan, Makujutaj, and the patriarchs' sons",
+  "english_paragraph_count": 2,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p69"
+    ],
+    "english_paragraphs": [
+     0
+    ],
+    "folios": "fol. 46v–47r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] ends with 'we will tell of the ending and death...', the end of p69."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p70"
+    ],
+    "english_paragraphs": [
+     1
+    ],
+    "folios": "fol. 47r–48r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] = p70, ending 'the Venerable Ones'."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s31",
+  "title": "K'oka'ib', K'o'akutek, K'o'ajaw and the journey to Nakxit",
+  "english_paragraph_count": 3,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p71"
+    ],
+    "english_paragraphs": [
+     0
+    ],
+    "folios": "fol. 48r–48v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] ends with the name of the lord who ruled in the east."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p72"
+    ],
+    "english_paragraphs": [
+     1
+    ],
+    "folios": "fol. 48v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] opens 'When they came before the lord named Nakxit' and ends with the writing of Tulan."
+   },
+   {
+    "id": "b3",
+    "kiche_paragraphs": [
+     "p73"
+    ],
+    "english_paragraphs": [
+     2
+    ],
+    "folios": "fol. 48v–49v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[2] opens 'when they arrived back at their town called Hakawitz'."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s32",
+  "title": "Chi Ismachi' and the early K'iche' rulers",
+  "english_paragraph_count": 2,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p74",
+     "p75"
+    ],
+    "english_paragraphs": [
+     0,
+     1
+    ],
+    "folios": "fol. 49v–51r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] covers about a third of p74; E[1] carries on through p74 into p75. Proportions: E[0] ends at 22% against p74/p75 near 68%."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s33",
+  "title": "Founding of Q'umarkaj (Utatlan); the titled offices",
+  "english_paragraph_count": 7,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p76",
+     "p77"
+    ],
+    "english_paragraphs": [
+     0
+    ],
+    "folios": "fol. 51r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "p76 (the Cavek lords) and p77 (a closing line: nine lords, nine great houses) are one English paragraph."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p78"
+    ],
+    "english_paragraphs": [
+     1
+    ],
+    "folios": "fol. 51r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] = p78 (the Nihaib lords)."
+   },
+   {
+    "id": "b3",
+    "kiche_paragraphs": [
+     "p79",
+     "p80",
+     "p81",
+     "p82"
+    ],
+    "english_paragraphs": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "folios": "fol. 51r–52v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[2] covers p79, p80 and p81's opening sentence ('twenty-and-four lords, twenty-and-four houses'); E[5] ends with p82's first sentence (Quicab and Cauizimah). No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s34",
+  "title": "Generations and offices of the lordly houses",
+  "english_paragraph_count": 4,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p83",
+     "p84",
+     "p85"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2
+    ],
+    "folios": "fol. 52v–53v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0]-E[1] are inside p83; E[2] runs on from p83 through p84 (a one-line place-name) to p85's end. No clean cut."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p86"
+    ],
+    "english_paragraphs": [
+     3
+    ],
+    "folios": "fol. 53v–54r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[3] opens 'now we shall tell again the name of the house of the idol' (p86)."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s35",
+  "title": "Wars, later kings, and the coming of the Spaniards",
+  "english_paragraph_count": 3,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p87",
+     "p88",
+     "p89"
+    ],
+    "english_paragraphs": [
+     0,
+     1,
+     2
+    ],
+    "folios": "fol. 54r–55v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[1] opens with p87's last sentence ('now we shall name the generations'), carries p88, and closes with p89's first sentence (the Cavek lords' descent); E[2] is the rest of p89. No clean cut."
+   }
+  ],
+  "unmatched": []
+ },
+ {
+  "section": "s36",
+  "title": "The last rulers under Spanish rule; Ximenez's closing colophon",
+  "english_paragraph_count": 7,
+  "blocks": [
+   {
+    "id": "b1",
+    "kiche_paragraphs": [
+     "p90",
+     "p91"
+    ],
+    "english_paragraphs": [
+     0,
+     1
+    ],
+    "folios": "fol. 55v–56r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[0] = p90 and p91's opening (Nihaib, Balam Acab); E[1] is the rest of p91 (the generations)."
+   },
+   {
+    "id": "b2",
+    "kiche_paragraphs": [
+     "p92"
+    ],
+    "english_paragraphs": [
+     2
+    ],
+    "folios": "fol. 56r",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[2] = p92 (lords of the Nihaib great houses)."
+   },
+   {
+    "id": "b3",
+    "kiche_paragraphs": [
+     "p93",
+     "p94"
+    ],
+    "english_paragraphs": [
+     3
+    ],
+    "folios": "fol. 56r–56v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "p93 (the Nihaib houses) and p94 (descent of Ahau Quiche, a list that breaks off at '9.') are one English paragraph."
+   },
+   {
+    "id": "b4",
+    "kiche_paragraphs": [
+     "p95"
+    ],
+    "english_paragraphs": [
+     4
+    ],
+    "folios": "fol. 56v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[4] = p95 (the four great houses of Ahau Quiche)."
+   },
+   {
+    "id": "b5",
+    "kiche_paragraphs": [
+     "p96",
+     "p97"
+    ],
+    "english_paragraphs": [
+     5,
+     6
+    ],
+    "folios": "fol. 56v",
+    "method": "inferred",
+    "confidence": "high",
+    "note": "E[5] covers p96 and p97's opening (the three great councils); E[6] is p97's close ('Santa Cruz')."
+   }
+  ],
+  "unmatched": []
+ }
+]
