@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interpretive Translations · Bereshit / Genesis 1–3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Gentium+Plus&family=Inter:wght@300;400;500&family=Noto+Serif+Hebrew:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#faf8f4;--bg-card:#fff;--text:#2c2c2c;--text-dim:#6b6b6b;--text-light:#999;
+  --accent:#5a4a3a;--rule:rgba(0,0,0,.1);--card-border:rgba(0,0,0,.08);
+  --hebrew:#3d3428;--gloss-bg:#f3efe7;--greek:#4a4032;
+}
+@media(prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#1a1a1a;--bg-card:#242424;--text:#e0ddd8;--text-dim:#9a9590;--text-light:#6b6560;
+    --accent:#c4b49a;--rule:rgba(255,255,255,.1);--card-border:rgba(255,255,255,.08);
+    --hebrew:#d9cdb8;--gloss-bg:#202020;--greek:#cfc3ab;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1a1a1a;--bg-card:#242424;--text:#e0ddd8;--text-dim:#9a9590;--text-light:#6b6560;
+  --accent:#c4b49a;--rule:rgba(255,255,255,.1);--card-border:rgba(255,255,255,.08);
+  --hebrew:#d9cdb8;--gloss-bg:#202020;--greek:#cfc3ab;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size:15px;font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+header{text-align:center;padding:clamp(48px,8vh,80px) 24px 32px}
+h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:clamp(30px,5vw,44px);
+  letter-spacing:.06em;margin-bottom:10px}
+.sub{font-size:.8rem;font-weight:400;letter-spacing:.08em;text-transform:uppercase;color:var(--text-light)}
+.intro{max-width:820px;margin:24px auto 0;padding:0 24px;color:var(--text-dim);font-size:.95rem;text-align:left}
+.intro p+p{margin-top:14px}
+main{max-width:1100px;margin:0 auto;padding:0 20px 96px}
+.nav{text-align:center;margin-top:22px;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}
+.nav a{color:var(--accent);text-decoration:none;margin:0 .6em}
+.tradition-block{margin-top:64px;border-top:2px solid var(--accent);padding-top:32px}
+h2.trad-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:2rem;font-weight:500;color:var(--text);margin-bottom:12px}
+.trad-meta{font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);margin-bottom:20px}
+.commentary-box{background:var(--bg-card);border:1px solid var(--card-border);border-radius:8px;padding:24px;margin-bottom:32px;font-size:.92rem;line-height:1.75;color:var(--text-dim)}
+.commentary-box h3{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.35rem;color:var(--text);margin:20px 0 8px}
+.commentary-box h3:first-child{margin-top:0}
+.commentary-box p+p{margin-top:12px}
+.verse-list{display:flex;flex-direction:column;gap:12px;margin-top:20px}
+.v-row{display:grid;grid-template-columns:3.5em 1fr;gap:16px;padding:12px 16px;background:var(--bg-card);border-radius:6px;border:1px solid var(--card-border)}
+.v-row.gk-split{grid-template-columns:3.5em 1fr 1fr}
+.v-num{font-size:.8rem;font-weight:500;color:var(--text-light)}
+.v-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.15rem;color:var(--text);line-height:1.6}
+.v-gk{font-family:'Gentium Plus',serif;font-size:1rem;color:var(--greek);line-height:1.6}
+footer{margin-top:64px;text-align:center;border-top:1px solid var(--rule);padding-top:28px;font-size:.82rem;color:var(--text-light)}
+footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>Interpretive Translations</h1>
+  <p class="sub">Five Hermeneutical Horizons of Genesis 1–3</p>
+  <nav class="nav">
+    <a href="index.html">&larr; Back to Bereshit Text</a> ·
+    <a href="#trad-davidic">1. Davidic Oral</a> ·
+    <a href="#trad-gnostic">2. Gnostic Sethian</a> ·
+    <a href="#trad-kabbalah">3. Zoharic Kabbalah</a> ·
+    <a href="#trad-philo">4. Philonic / LXX</a> ·
+    <a href="#trad-lxxonly">5. LXX-Only Literal</a>
+  </nav>
+  <div class="intro">
+    <p>The text of Genesis 1–3 has never existed as a single static monument. Across millennia, radically opposing hermeneutical traditions have read its syntax, roots, and narrative arc through entirely different cosmological and metaphysical lenses. This collection presents five complete, verse-by-verse translation rewrites of Genesis 1–3, each accompanied by heavy historical, philological, and theological commentary explaining its underlying mechanics.</p>
+  </div>
+</header>
+<main>
+
+<!-- TRADITION 1: DAVIDIC ORAL -->
+<section class="tradition-block" id="trad-davidic">
+  <h2 class="trad-title">1. The Davidic-Era Oral Performance (c. 10th Century BCE)</h2>
+  <div class="trad-meta">Context: Early Monarchic Judah · Northwest Semitic Oral Bards · ANE Cultic Resonance</div>
+  <div class="commentary-box">
+    <h3>Linguistic and Cultural Mechanics</h3>
+    <p>To hear Genesis 1–3 as it sounded in the court of David haMelech in Hebron or Jerusalem is to enter a world structured by clan blood-feud (<em>go'el ha-dam</em>), sacred boundary stones, royal-sacred gardens, and animal tribute offerings (<em>minchah</em>). In 10th-century BCE Hebrew, abstract Latinate theology did not exist; vocabulary was physical, concrete, and kinetic.</p>
+    <p><strong>Parataxis and Rhythmic Cadence:</strong> The narrative is driven by the <em>vav</em>-consecutive (<em>vayyomer, vayya'as, vayyera</em>), creating an incessant oral driving beat ("And... and... and...") suited for a <em>moshid</em> (bard) singing accompanied by lyre (<em>kinnor</em>).</p>
+    <p><strong>Physical Root Meaning:</strong> <em>Bara</em> is not <em>creatio ex nihilo</em>, but cutting, carving, and clearing out space. <em>Raqi'a</em> is a physical metal vault hammered out (<em>raqa</em>) by a smith to keep back upper cosmic waters. <em>Tehom</em> is the roaring subterranean abyss (cognate to Akkadian <em>Tiamat</em>). <em>Nefesh chayah</em> is a living breathing throat. <em>Chatat</em> in 4:7 is a <em>rovetz</em>—a lurking threshold demon (Akkadian <em>rabisu</em>).</p>
+  </div>
+  <div class="verse-list">
+    <div class="v-row"><span class="v-num">1:1</span><span class="v-text">At the primary cutting when God carved out the heavens and the earth—</span></div>
+    <div class="v-row"><span class="v-num">1:2</span><span class="v-text">the earth was wilder-waste and empty void, with darkness over the face of the roaring deep, and the blast of God vibrating over the face of the waters.</span></div>
+    <div class="v-row"><span class="v-num">1:3</span><span class="v-text">And God said, "Let light be!" and light was.</span></div>
+    <div class="v-row"><span class="v-num">1:6</span><span class="v-text">And God said, "Let there be a beaten vault in the midst of the waters, and let it sever between waters and waters!"</span></div>
+    <div class="v-row"><span class="v-num">1:26</span><span class="v-text">And God said, "Let us make an earthling as our royal statue image, according to our likeness, and let them hold sway over fish, flyers, cattle, and all the earth!"</span></div>
+    <div class="v-row"><span class="v-num">2:7</span><span class="v-text">Then the LORD God molded the earthling out of dust from the red soil, and blew into his nostrils the blast of living breath, and the earthling became a living breathing throat.</span></div>
+    <div class="v-row"><span class="v-num">2:23</span><span class="v-text">And the earthling said: "This one, this time! Bone of my bones, and flesh of my flesh! She shall be called Woman (Ishah), for from Man (Ish) she was taken!"</span></div>
+    <div class="v-row"><span class="v-num">3:14</span><span class="v-text">And the LORD God said to the serpent: "Because you have done this, accursed are you above all cattle! Upon your belly you shall crawl, and dust you shall eat all your days!"</span></div>
+    <div class="v-row"><span class="v-num">3:24</span><span class="v-text">He drove out the earthling, and stationed east of the garden of Eden the Keruvim and the flashing, spinning blade of the sword to guard the way to the tree of life.</span></div>
+  </div>
+</section>
+
+<!-- TRADITION 2: GNOSTIC SETHIAN -->
+<section class="tradition-block" id="trad-gnostic">
+  <h2 class="trad-title">2. The Gnostic / Sethian Archontic Hermeneutic</h2>
+  <div class="trad-meta">Context: 2nd–3rd Century CE Sethian Texts · Apocryphon of John · Inverse Hermeneutics</div>
+  <div class="commentary-box">
+    <h3>The Cosmic Inverse Reading</h3>
+    <p>In Sethian and Valentinian Gnostic hermeneutics, Genesis 1–3 is read as an inverse allegory detailing the creation of a material prison by an ignorant, arrogant Demiurge named Yaldabaoth (Saklas or Samael), who was born from a flaw in the divine Pleroma (Sophia). Rather than praising the creator, this tradition demotes <em>Elohim</em> to a blind, tyrant-demon who steals divine light particles and traps them inside physical clay bodies (<em>adam</em>).</p>
+    <p><strong>Reversal of Roles:</strong> The creator's prohibition against eating from the Tree of Knowledge (<em>Gnosis</em>) is an attempt to keep humanity in a state of spiritual stupor and oblivion. The Serpent is not a devil, but the heroic instructor—a manifestation of Sophia or the Logos—sent from the higher Pleroma to give Gnosis, open human spiritual eyes, and liberate humanity from Yaldabaoth's material illusion.</p>
+  </div>
+  <div class="verse-list">
+    <div class="v-row"><span class="v-num">1:1</span><span class="v-text">In the archontic realm of beginning, the Blind Demiurge Yaldabaoth carved out the physical skies and the material prison of earth.</span></div>
+    <div class="v-row"><span class="v-num">1:2</span><span class="v-text">And the earth was a dark, formless void of ignorance, with abyss-gloom covering the face of matter, while the sorrowful Divine Spirit (Pneuma/Sophia) hovered above the waters, grieving for her fallen spark.</span></div>
+    <div class="v-row"><span class="v-num">1:26</span><span class="v-text">Then the Demiurge said to his council of low Archons, "Let us mold a physical earthling in our image, according to the reflection of the Heavenly Light we glimpsed upon the waters, so that we may trap the pneumatic spark inside a human vessel!"</span></div>
+    <div class="v-row"><span class="v-num">2:7</span><span class="v-text">And Yaldabaoth molded the physical earthling from the dust of matter, and blew into his face his psychic breath—and in doing so, unknowingly transferred the divine pneumatic spark from himself into the earthling.</span></div>
+    <div class="v-row"><span class="v-num">3:1</span><span class="v-text">Now the Serpent (the Instructor/Logos sent by Sophia) was wiser than any archontic beast. And the Serpent said to the woman, "Did Yaldabaoth truly forbid you from eating the fruit of spiritual Gnosis?"</span></div>
+    <div class="v-row"><span class="v-num">3:7</span><span class="v-text">Then the spiritual eyes of both were opened, and they realized they were trapped in gross material nakedness; so they gathered fig leaves to cover their clay bodies.</span></div>
+    <div class="v-row"><span class="v-num">3:21</span><span class="v-text">And Yaldabaoth fashioned heavy garments of skin (fleshly animal bodies) for Adam and his woman, clothing them tightly in matter.</span></div>
+  </div>
+</section>
+
+<!-- TRADITION 3: ZOHARIC KABBALAH -->
+<section class="tradition-block" id="trad-kabbalah">
+  <h2 class="trad-title">3. The Zoharic / Kabbalistic Emanational Hermeneutic</h2>
+  <div class="trad-meta">Context: 13th-Century High Kabbalah · Sefer ha-Zohar · Sphirotic Unfolding</div>
+  <div class="commentary-box">
+    <h3>Intra-Divine Dynamics in Ein Sof</h3>
+    <p>In the Zohar (Zohar 1:15a), Genesis 1–3 does not describe the external creation of physical dirt or trees. It describes the internal, intra-divine emanation of the Unknowable Infinite (<em>Ein Sof</em>) into the ten divine attributes (<em>Sphirot</em>).</p>
+    <p><strong>Syntactic Shift in 1:1:</strong> The Zohar reads <em>Bereshit bara Elohim</em> with a radical grammatical shift: <em>"By means of Bereshit [Chochmah/Wisdom], IT [Ein Sof] carved out Elohim [Binah/Understanding]!"</em> <em>Elohim</em> is the direct object, not the subject! The opening verse recounts how the Unknowable Concealed Spark etched out the Divine Mother Binah.</p>
+    <p><strong>The Fall as Uncoupling:</strong> In Genesis 2–3, Adam ha-Rishon represents the synthesis of all worlds. Eve (<em>Nukva/Shechinah</em>) was originally emanated attached back-to-back (<em>Achor be-Achor</em>) with Adam (<em>Tiferet</em>) before being separated for face-to-face union (<em>Panim el-Panim</em>). The sin of eating from the Tree of Knowledge was the uncoupling of the fruit from its root—severing the <em>Shechinah</em> from the upper Sphirot and plunging the world into exile.</p>
+  </div>
+  <div class="verse-list">
+    <div class="v-row"><span class="v-num">1:1</span><span class="v-text">By means of Primordial Wisdom (Bereshit/Chochmah), the Hidden Concealed Unknowable (Ein Sof) carved out the Divine Mother of Understanding (Elohim/Binah), emanating the total spectrum of Speech (Et: Aleph to Tav) from Heaven (Tiferet) to Earth (Malkhut).</span></div>
+    <div class="v-row"><span class="v-num">1:3</span><span class="v-text">And the Divine Mother (Elohim) spoke: "Let Light (Chesed/Lovingkindness) flash forth!" and Lovingkindness shone.</span></div>
+    <div class="v-row"><span class="v-num">2:7</span><span class="v-text">Then YHWH-Elohim molded Primordial Adam from the holy dust of the upper Red Soil (Malkhut), blowing into his nostrils the divine soul-breath (Neshamah) from the highest Crown.</span></div>
+    <div class="v-row"><span class="v-num">2:22</span><span class="v-text">And YHWH-Elohim built the female side (Nukva) into a complete holy Woman, bringing her face-to-face (Panim el-Panim) with Adam.</span></div>
+    <div class="v-row"><span class="v-num">3:6</span><span class="v-text">And the Woman saw that the tree was desirable for self-exaltation, so she took of its fruit and severed it from its divine root; and she gave also to her husband beside her, and he ate.</span></div>
+    <div class="v-row"><span class="v-num">3:21</span><span class="v-text">And YHWH-Elohim made for Adam and his wife garments of physical skin (Kotnot 'Or with Ayin), clothing them in dense matter instead of their original robes of light (Kotnot 'Or with Aleph).</span></div>
+  </div>
+</section>
+
+<!-- TRADITION 4: PHILONIC / PLATONIST WITH LXX INTEGRATED -->
+<section class="tradition-block" id="trad-philo">
+  <h2 class="trad-title">4. The Philonic / Platonist Archetypal Hermeneutic (with Integrated LXX)</h2>
+  <div class="trad-meta">Context: 1st Century CE Hellenistic Judaism · Philo of Alexandria · Intelligible World (Kosmos Noetos)</div>
+  <div class="commentary-box">
+    <h3>The Intelligible Realm and the Greek Septuagint</h3>
+    <p>Philo of Alexandria read Genesis strictly in Greek via the Septuagint (LXX). In his Platonist hermeneutic (<em>De Opificio Mundi</em>), Genesis 1 describes the creation of the <em>Kosmos Noetos</em>—the incorporeal, intelligible universe of Ideas and Archetypes existing in the Divine Reason (<em>Logos</em>). Physical, sensible creation does not occur until Genesis 2.</p>
+    <p><strong>Allegorical Triad:</strong> Adam represents the Intellect / Mind (<em>Nous</em>). Eve represents Sense-Perception (<em>Aisthesis</em>). The Serpent represents Pleasure (<em>Hedone</em>). The Fall occurs when Pleasure seduces Sense-Perception, which then drags Mind down from contemplation into sensory passion.</p>
+  </div>
+  <div class="verse-list">
+    <div class="v-row gk-split"><span class="v-num">1:1</span><span class="v-gk">ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν</span><span class="v-text">In the Divine Reason (Logos), God created the incorporeal, intelligible universe of Ideas—the archetypal heaven and the archetypal earth.</span></div>
+    <div class="v-row gk-split"><span class="v-num">1:3</span><span class="v-gk">καὶ εἶπεν ὁ θεός γενηθήτω φῶς καὶ ἐγένετο φῶς</span><span class="v-text">And God willed, "Let intelligible light exist!" and the ideal archetype of light came into being.</span></div>
+    <div class="v-row gk-split"><span class="v-num">1:27</span><span class="v-gk">καὶ ἐποίησεν ὁ θεὸς τὸν ἄνθρωπον κατ εἰκόνα θεοῦ ἐποίησεν αὐτόν</span><span class="v-text">And God created Ideal Man in His Divine Image; in the Image of God He created him—a purely incorporeal, sexless, rational Mind (Nous).</span></div>
+    <div class="v-row gk-split"><span class="v-num">2:7</span><span class="v-gk">καὶ ἔπλασεν ὁ θεὸς τὸν ἄνθρωπον χοῦν ἀπὸ τῆς γῆς</span><span class="v-text">Then God molded physical man out of matter-dust, breathing into his earthly face a ray of divine Mind (Nous), so that the physical man became an embodied soul.</span></div>
+    <div class="v-row gk-split"><span class="v-num">3:1</span><span class="v-gk">ὁ δὲ ὄφις ἦν φρονιμώτατος πάντων τῶν θηρίων</span><span class="v-text">Now the Serpent (Pleasure/Hedone) was the most insidious of all sensory impulses. And Pleasure whispered to Sense-Perception (Eve)...</span></div>
+    <div class="v-row gk-split"><span class="v-num">3:6</span><span class="v-gk">καὶ εἶδεν ἡ γυνὴ ὅτι καλὸν τὸ ξύλον εἰς βρῶσιν</span><span class="v-text">And when Sense-Perception saw that sensory indulgence was delightful, she partook of vice and seduced Mind (Adam), and Intellect succumbed to passion.</span></div>
+  </div>
+</section>
+
+<!-- TRADITION 5: LXX-ONLY LITERAL GREEK -->
+<section class="tradition-block" id="trad-lxxonly">
+  <h2 class="trad-title">5. The "LXX-Only" Literal Greek Hermeneutic</h2>
+  <div class="trad-meta">Context: Hellenistic & Early Church Greek Literalist · Zero Knowledge of Hebrew · Green/Latinate Diction</div>
+  <div class="commentary-box">
+    <h3>The Pure Greek Worldview</h3>
+    <p>This tradition approaches Genesis 1–3 strictly through the Greek text of the Septuagint, completely ignorant of Semitic underlying puns, Hebrew root constructs, or Canaanite cultural context. It reads the Greek as the original, unmediated Word of God, adopting Hellenistic philosophical and legal terminology.</p>
+    <p><strong>Linguistic & Conceptual Shifts:</strong>
+    <ul>
+      <li><em>In the beginning (En arche)</em>: Understood not as a temporal clause ("When God began..."), but as an absolute cosmic starting point or principle.</li>
+      <li><em>Firmament (Stereoma)</em>: A solid, crystalline dome or spherical vault holding back liquid cosmic oceans.</li>
+      <li><em>Paradise of Delight (Paradeisos tes tryphes)</em>: A lush royal Hellenistic walled park or enclosure.</li>
+      <li><em>Serpent (Ophis/Drakon)</em>: A crafty wild beast or dragon (<em>therion</em>).</li>
+      <li><em>Coats of Leather (Chitonas dermatinous)</em>: Literal skin tunics provided by the Lord God.</li>
+      <li><em>Seraphim & Cherubim</em>: Heavenly winged wardens set to guard the entry to the Tree of Life.</li>
+    </ul>
+    </p>
+  </div>
+  <div class="verse-list">
+    <div class="v-row gk-split"><span class="v-num">1:1</span><span class="v-gk">ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν</span><span class="v-text">In the beginning God made the heaven and the earth.</span></div>
+    <div class="v-row gk-split"><span class="v-num">1:2</span><span class="v-gk">ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου</span><span class="v-text">Now the earth was unseen and unformed, and darkness was upon the abyss, and the Spirit of God was borne above the water.</span></div>
+    <div class="v-row gk-split"><span class="v-num">1:6</span><span class="v-gk">γενηθήτω στερέωμα ἐν μέσῳ τοῦ ὕδατος</span><span class="v-text">Let there be a firmament in the midst of the water, and let it divide between water and water!</span></div>
+    <div class="v-row gk-split"><span class="v-num">1:27</span><span class="v-gk">καὶ ἐποίησεν ὁ θεὸς τὸν ἄνθρωπον κατ εἰκόνα θεοῦ</span><span class="v-text">And God made man; according to the image of God he made him; male and female he made them.</span></div>
+    <div class="v-row gk-split"><span class="v-num">2:7</span><span class="v-gk">καὶ ἔπλασεν ὁ θεὸς τὸν ἄνθρωπον χοῦν ἀπὸ τῆς γῆς</span><span class="v-text">And God molded man, dust from the earth, and breathed into his face the breath of life; and man became a living soul.</span></div>
+    <div class="v-row gk-split"><span class="v-num">2:8</span><span class="v-gk">καὶ ἐφύτευσεν κύριος ὁ θεὸς παράδεισον ἐν Εδεμ</span><span class="v-text">And the Lord God planted a paradise in Eden, in the east, and put there the man whom he had molded.</span></div>
+    <div class="v-row gk-split"><span class="v-num">3:1</span><span class="v-gk">ὁ δὲ ὄφις ἦν φρονιμώτατος πάντων τῶν θηρίων</span><span class="v-text">Now the serpent was the most prudent of all the beasts upon the earth which the Lord God had made.</span></div>
+    <div class="v-row gk-split"><span class="v-num">3:21</span><span class="v-gk">καὶ ἐποίησεν κύριος ὁ θεὸς τῷ Αδαμ καὶ τῇ γυναικὶ αὐτοῦ χιτῶνας δερματίνους</span><span class="v-text">And the Lord God made for Adam and for his wife coats of leather, and clothed them.</span></div>
+    <div class="v-row gk-split"><span class="v-num">3:24</span><span class="v-gk">καὶ ἐξέβαλεν τὸν Αδαμ καὶ κατῴκισεν αὐτὸν ἀπέναντι τοῦ παραδείσου</span><span class="v-text">And he cast out Adam and settled him opposite the paradise of delight, and stationed the Cherubim and the flaming sword that turns to guard the way of the tree of life.</span></div>
+  </div>
+</section>
+
+</main>
+<footer>
+  <p><a href="index.html">&larr; Return to Bereshit Edition</a> · Published under <a href="../../">Large-Language Literature</a></p>
+</footer>
+</body>
+</html>

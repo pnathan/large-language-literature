@@ -1,10 +1,48 @@
-# Four Complete Hermeneutical Rewrites of Genesis 1–3
+# Five Complete Hermeneutical Rewrites of Genesis 1–3
 
-This document contains full, verse-by-verse translations of Genesis Chapters 1, 2, and 3 rendered according to four distinct, historical hermeneutical traditions.
+This document contains full, verse-by-verse translations of Genesis Chapters 1, 2, and 3 rendered according to five distinct historical hermeneutical traditions.
 
 ---
 
-# I. The Gnostic / Sethian Archontic Hermeneutic
+# I. The Davidic-Era Oral Performance (c. 10th Century BCE)
+*Reflecting 10th-century BCE Northwest Semitic oral storytelling idioms and ANE cultic resonances.*
+
+## Genesis Chapter 1
+**1:1** At the primary cutting when God carved out the heavens and the earth—
+**1:2** the earth was wilder-waste and empty void, with darkness over the face of the roaring deep, and the blast of God vibrating over the face of the waters.
+**1:3** And God said, "Let light be!" and light was.
+**1:4** And God saw the light, that it was good; and God severed between the light and the darkness.
+**1:5** And God called out to the light, "Day!" and to the darkness he called out, "Night!" And evening came, and morning came: day one.
+**1:6** And God said, "Let there be a beaten vault in the midst of the waters, and let it sever between waters and waters!"
+**1:7** And God fashioned the beaten vault, and severed between the waters under the vault and the waters above the vault; and it was so.
+**1:8** And God called out to the vault, "Heavens!" And evening came, and morning came: a second day.
+**1:9** And God said, "Let the waters under the heavens be gathered to one place, and let the dry ground be seen!" and it was so.
+**1:10** And God called out to the dry ground, "Earth!" and to the gathering of waters he called out, "Seas!" And God saw that it was good.
+**1:11** And God said, "Let the earth sprout green shoots: seed-yielding herbs, fruit trees yielding fruit after their kind with their seed inside them upon the earth!" and it was so.
+**1:12** And the earth brought forth green shoots, herbs yielding seed after their kind, and trees yielding fruit with their seed inside them after their kind; and God saw that it was good.
+**1:13** And evening came, and morning came: a third day.
+**1:14** And God said, "Let there be light-bearers in the beaten vault of the heavens to sever between the day and the night, and let them serve as markers for appointed seasons, for days and for years!
+**1:15** And let them be light-bearers in the beaten vault of the heavens to give light upon the earth!" and it was so.
+**1:16** And God fashioned the two great light-bearers: the larger light-bearer to hold sway over the day, and the smaller light-bearer to hold sway over the night, and the stars.
+**1:17** And God set them in the beaten vault of the heavens to give light upon the earth,
+**1:18** and to hold sway over the day and over the night, and to sever between the light and the darkness; and God saw that it was good.
+**1:19** And evening came, and morning came: a fourth day.
+**1:20** And God said, "Let the waters swarm with swarms of living breath, and let flying creatures fly above the earth across the face of the vault of the heavens!"
+**1:21** And God carved out the great sea-monsters and every living breathing crawler with which the waters swarmed after their kinds, and every winged flyer after its kind; and God saw that it was good.
+**1:22** And God blessed them, saying, "Be fruitful and multiply, and fill the waters in the seas, and let the flyers multiply on the earth!"
+**1:23** And evening came, and morning came: a fifth day.
+**1:24** And God said, "Let the earth bring forth living breath after its kind: cattle, crawling things, and wild beasts of the earth after their kind!" and it was so.
+**1:25** And God fashioned the wild beasts of the earth after their kind, and the cattle after their kind, and every crawler of the soil after its kind; and God saw that it was good.
+**1:26** And God said, "Let us make an earthling in our image, according to our likeness, and let them hold sway over the fish of the sea, over the flyers of the heavens, over the cattle, over all the earth, and over every crawler that crawls upon the earth!"
+**1:27** And God carved out the earthling in his image: in the image of God he carved him out; male and female he carved them out.
+**1:28** And God blessed them, and God said to them, "Be fruitful and multiply, fill the earth and conquer it, and hold sway over the fish of the sea, the flyers of the heavens, and every living creature that crawls upon the earth!"
+**1:29** And God said, "Look! I have given you every seed-bearing herb upon the face of all the earth, and every tree that has seed-bearing fruit; for you it shall be for food.
+**1:30** And to every wild beast of the earth, to every flyer of the heavens, and to everything crawling upon the earth that has living breath in it, I give every green herb for food!" and it was so.
+**1:31** And God saw all that he had fashioned, and look—it was exceedingly good! And evening came, and morning came: the sixth day.
+
+---
+
+# II. The Gnostic / Sethian Archontic Hermeneutic
 *Reflecting 2nd–3rd Century CE Sethian and Valentinian Gnostic cosmic inverse texts (Apocryphon of John, Hypostasis of the Archons, On the Origin of the World).*
 
 ## Genesis Chapter 1
@@ -95,7 +133,7 @@ This document contains full, verse-by-verse translations of Genesis Chapters 1, 
 
 ---
 
-# II. The Zoharic / Kabbalistic Emanational Hermeneutic
+# III. The Zoharic / Kabbalistic Emanational Hermeneutic
 *Reflecting 13th-Century High Kabbalistic readings of the Sefer ha-Zohar (Zohar 1:15a–1:55b).*
 
 ## Genesis Chapter 1
@@ -186,13 +224,13 @@ This document contains full, verse-by-verse translations of Genesis Chapters 1, 
 
 ---
 
-# III. The Philonic / Platonist Archetypal Hermeneutic
+# IV. The Philonic / Platonist Archetypal Hermeneutic (with Integrated LXX)
 *Reflecting 1st-Century CE Hellenistic Allegorical readings of Philo of Alexandria (De Opificio Mundi, Legum Allegoriae).*
 
 ## Genesis Chapter 1
-**1:1** In the Divine Reason (*Logos*), God created the incorporeal, intelligible universe of Ideas—the archetypal heaven and the archetypal earth.
-**1:2** Now the sensible earth was as yet invisible and unformed, shrouded in noetic darkness over the face of the unshaped abyss, while the Divine Breath hovered above the primal incorporeal elements.
-**1:3** And God willed, "Let intelligible light exist!" and the ideal archetype of light came into being.
+**1:1** [ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν] In the Divine Reason (*Logos*), God created the incorporeal, intelligible universe of Ideas—the archetypal heaven and the archetypal earth.
+**1:2** [ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος] Now the sensible earth was as yet invisible and unformed, shrouded in noetic darkness over the face of the unshaped abyss, while the Divine Breath hovered above the primal incorporeal elements.
+**1:3** [καὶ εἶπεν ὁ θεός γενηθήτω φῶς] And God willed, "Let intelligible light exist!" and the ideal archetype of light came into being.
 **1:4** And God contemplated the intelligible light, that it was intrinsically good; and God separated the realm of ideal light from the darkness of formlessness.
 **1:5** And God designated the ideal light "Day," and the unformed darkness He designated "Night." And logical evening yielded to logical morning: the first noetic ordering.
 **1:6** And God willed, "Let there be an incorporeal boundary (*Vault/Division*) in the midst of the intelligible elements, separating higher ideal forms from lower matter!"
@@ -203,8 +241,8 @@ This document contains full, verse-by-verse translations of Genesis Chapters 1, 
 **1:11** And God willed, "Let the archetypal Earth sprout the invisible forms of vegetation: seed-bearing genera and species of fruit trees containing their essential rational principles (*Logoi Spermatikoi*)!" and it was so.
 **1:12** And the archetypal Earth produced ideal plant species according to their rational forms; and God contemplated that it was good.
 **1:13** And evening yielded to morning: a third noetic ordering.
-**1:14** And God willed, "Let there be ideal celestial markers in the intelligible vault of heaven to divide reason from ignorance, to serve as noetic symbols for mathematical seasons, days, and cosmic cycles!
-**1:15** Let them exist as archetypes of illumination in the vault of heaven to radiate reason upon the universe!" and it was so.
+**1:14** And God willed, "Let there be ideal celestial markers in the intelligible vault of heaven to divide reason from ignorance, to serve as noetic symbols for mathematical seasons, days, and cosmic cycles!"
+**1:15** "Let them exist as archetypes of illumination in the vault of heaven to radiate reason upon the universe!" and it was so.
 **1:16** And God established the two master archetypes of illumination: the greater archetype (*Reason/Sun*) to govern the noetic day, and the lesser archetype (*Sense-Perception/Moon*) to govern the night, along with the harmonic principles of the stars.
 **1:17** And God stationed them in the intelligible vault of heaven to illuminate the intellect,
 **1:18** to govern order and harmony and separate truth from obscurity; and God contemplated that it was good.
@@ -216,10 +254,10 @@ This document contains full, verse-by-verse translations of Genesis Chapters 1, 
 **1:24** And God willed, "Let the intelligible Earth bring forth the archetypes of land animals according to their genera: cattle, crawlers, and land beasts!" and it was so.
 **1:25** And God fashioned the species of wild beasts and cattle according to their eternal forms; and God saw that it was good.
 **1:26** And God said, "Let Us create Ideal Man (*Incorporeal Mind/Nous*) according to Our Image, matching the Divine Pattern, that he may exercise intellectual sovereignty over fish, birds, cattle, and all the earth!"
-**1:27** And God created Ideal Man in His Divine Image; in the Image of God He created him—a purely incorporeal, sexless, rational Mind (*Nous*).
+**1:27** [καὶ ἐποίησεν ὁ θεὸς τὸν ἄνθρωπον κατ εἰκόνα θεοῦ] And God created Ideal Man in His Divine Image; in the Image of God He created him—a purely incorporeal, sexless, rational Mind (*Nous*).
 **1:28** And God bestowed intellectual virtue upon Ideal Man, saying: "Increase in wisdom, fill the universe with rational order, and rule over passion and sense-perception!"
-**1:29** And God said, "Behold, I give you every intelligible seed and rational principle upon the face of the universe for your intellectual nourishment.
-**1:30** And to every living creature endowed with soul, I assign rational green herbs for sustenance!" and it was so.
+**1:29** And God said, "Behold, I give you every intelligible seed and rational principle upon the face of the universe for your intellectual nourishment."
+**1:30** "And to every living creature endowed with soul, I assign rational green herbs for sustenance!" and it was so.
 **1:31** And God surveyed the complete Intelligible World (*Kosmos Noetos*) which He had ordered, and behold—it was superlatively perfect! And evening yielded to morning: the sixth perfect noetic ordering.
 
 ## Genesis Chapter 2
@@ -229,7 +267,7 @@ This document contains full, verse-by-verse translations of Genesis Chapters 1, 
 **2:4** This is the rational account of the intelligible creation, on the day God created the physical sensible realm (*Kosmos Aisthetos*)—
 **2:5** before any physical plant was yet on earth, for God had not yet subjected matter to physical rain, and the material human mind was not yet embodied.
 **2:6** But a fountain of sensory impression welled up from matter to drench the human intellect.
-**2:7** Then God molded physical man out of matter-dust, breathing into his earthly face a ray of divine Mind (*Nous*), so that the physical man became an embodied soul.
+**2:7** [καὶ ἔπλασεν ὁ θεὸς τὸν ἄνθρωπον χוῦν ἀπὸ τῆς γῆς] Then God molded physical man out of matter-dust, breathing into his earthly face a ray of divine Mind (*Nous*), so that the physical man became an embodied soul.
 **2:8** And God planted the Garden of Virtue (*Eden*) in the Orient of Wisdom, placing there the embodied Mind.
 **2:9** And God caused to sprout every virtuous tree pleasing to contemplation: the Tree of Divine Virtue (*Life*) and the Tree of Prudence (*Knowing Good and Evil*).
 **2:10** And a central river of Wisdom flows out of Eden, dividing into four cardinal virtues (*Prudence, Courage, Temperance, Justice*):
@@ -250,7 +288,7 @@ This document contains full, verse-by-verse translations of Genesis Chapters 1, 
 **2:25** And both Mind and Sense-Perception were unclothed by passion, experiencing no shame in their original innocence.
 
 ## Genesis Chapter 3
-**3:1** Now the Serpent (*Pleasure/Hedone*) was the most insidious of all sensory impulses. And Pleasure whispered to Sense-Perception (*Eve*): "Did God truly forbid you from enjoying every sensory impression?"
+**3:1** [ὁ δὲ ὄφις ἦν φρονιμώτατος] Now the Serpent (*Pleasure/Hedone*) was the most insidious of all sensory impulses. And Pleasure whispered to Sense-Perception (*Eve*): "Did God truly forbid you from enjoying every sensory impression?"
 **3:2** And Sense-Perception said to Pleasure: "We may enjoy the fruits of virtuous contemplation,
 **3:3** but concerning the fruit of sensory excess, God warned: 'Do not partake of it, lest you succumb to moral death!'"
 **3:4** And Pleasure seduced Sense-Perception, saying: "You will not die to experience!
@@ -270,98 +308,98 @@ This document contains full, verse-by-verse translations of Genesis Chapters 1, 
 **3:18** Thorns of anxiety and thistles of passion it shall yield you.
 **3:19** By the sweat of your intellectual brow you shall seek wisdom until your body returns to dust, for material you are, and to dust your physical frame shall return!"
 **3:20** And Mind named Sense-Perception Eve (*Life*), as the mother of all sensory experiences.
-**3:21** And God made for Mind and Sense-Perception tunic-garments of physical skin (*mortal fleshly bodies*), clothing them for earthly life.
+**3:21** [χιτῶνας δερματίνους] And God made for Mind and Sense-Perception tunic-garments of physical skin (*mortal fleshly bodies*), clothing them for earthly life.
 **3:22** And God said: "Behold, Mind has gained knowledge of good and evil through experience! Now, lest he attempt to achieve immortal virtue while still enslaved to passion—"
 **3:23** So God expelled Mind from the Garden of Pure Virtue to cultivate the lower material field.
 **3:24** He drove out Mind, placing at the threshold of virtue the *Keruvim* (*Divine Power and Goodness*) and the revolving flaming sword of Reason to guard the path to the Tree of Immortal Wisdom.
 
 ---
 
-# IV. The ANE Mythological / Polemical Hermeneutic
-*Reflecting 19th–20th Century Comparative Anti-Myth / Polemical readings against Mesopotamian (Enuma Elish, Epic of Gilgamesh) and Canaanite (Baal Cycle) myths.*
+# V. The "LXX-Only" Literal Greek Hermeneutic
+*Reflecting a purely Greek / Hellenistic Literalist translator ignorant of Hebrew syntax or Semitic roots, treating the Septuagint (LXX) as the absolute primary text.*
 
 ## Genesis Chapter 1
-**1:1** At the opening of God's carving out of the heavens and the earth—
-**1:2** when the earth was mere wild waste and empty desolation, with darkness covering the face of the conquered Chaos-Abyss (*Tehom/Tiamat*), and the violent wind-blast of God sweeping across the waters—
-**1:3** God issued a royal decree: "Let light exist!" and light instantly submitted.
-**1:4** And God inspected the light, seeing that it obeyed; and God severed the light from the rebellious darkness.
-**1:5** And God summoned the light "Day," and the darkness He summoned "Night." And evening came, and morning came: day one of absolute royal decree.
-**1:6** And God decreed: "Let there be a beaten metal plate (*Raqi'a*) in the midst of the waters, hammering a barrier between water and water!"
-**1:7** And God hammered out the metal plate, forcing a division between the waters crushed underneath the plate and the waters trapped above the plate; and so it stood.
-**1:8** And God named the metal plate "Heavens." And evening came, and morning came: a second day.
-**1:9** And God decreed: "Let the waters under heaven be rounded up into one pen, so that the dry ground is exposed!" and so it stood.
-**1:10** And God named the dry ground "Earth," and the penned-up waters He named "Seas"; and God inspected his work and saw that it was obedient.
-**1:11** And God decreed: "Let the earth produce vegetation: seed-yielding grass and fruit trees making fruit after their kinds with seed inside!" and so it stood without need of fertility gods.
-**1:12** And the earth brought forth vegetation and seed-bearing trees after their kinds; and God saw that it obeyed.
+**1:1** In the beginning God made the heaven and the earth.
+**1:2** But the earth was unseen and unformed, and darkness was over the abyss, and the Spirit of God was borne above the water.
+**1:3** And God said, "Let light come to be!" and light came to be.
+**1:4** And God saw the light that it was fine, and God divided between the light and the darkness.
+**1:5** And God called the light "Day," and the darkness he called "Night." And evening came, and morning came: day one.
+**1:6** And God said, "Let there be a firmament in the midst of the water, and let it divide between water and water!" and it was so.
+**1:7** And God made the firmament, and God divided between the water which was beneath the firmament and the water above the firmament.
+**1:8** And God called the firmament "Heaven"; and God saw that it was fine. And evening came, and morning came: a second day.
+**1:9** And God said, "Let the water beneath the heaven be gathered into one gathering, and let the dry ground appear!" and it was so; and the water beneath the heaven was gathered into its gatherings, and the dry ground appeared.
+**1:10** And God called the dry ground "Earth," and the collections of the waters he called "Seas"; and God saw that it was fine.
+**1:11** And God said, "Let the earth sprout grass of pasture, seeding seed after its kind and after its likeness, and fruit-bearing timber making fruit whose seed is in itself according to its kind upon the earth!" and it was so.
+**1:12** And the earth brought forth grass of pasture seeding seed according to its kind and after its likeness, and fruit-bearing timber making fruit whose seed is in itself according to its kind upon the earth; and God saw that it was fine.
 **1:13** And evening came, and morning came: a third day.
-**1:14** And God decreed: "Let light-fixtures be hung in the metal plate of heaven to divide day from night, serving as mere clock-markers for cultic festival times, days, and years!
-**1:15** Let them be simple lamps hanging in the metal plate to give light below!" and so it stood.
-**1:16** And God constructed the two utility lamps: the larger lamp (*Sun*) to work the day shift, and the smaller lamp (*Moon*) to work the night shift, along with the tiny stars.
-**1:17** And God nailed them into the metal plate of the heavens to illuminate the earth,
-**1:18** to work day and night and separate light from dark; and God saw that the lamps functioned.
+**1:14** And God said, "Let there come to be light-luminaries in the firmament of the heaven to shine upon the earth, to divide between the day and the night, and let them be for signs, and for seasons, and for days, and for years!
+**1:15** And let them be for illumination in the firmament of the heaven, so as to shine upon the earth!" and it was so.
+**1:16** And God made the two great luminaries: the great luminary for the rulers of the day, and the lesser luminary for the rulers of the night, and the stars.
+**1:17** And God set them in the firmament of the heaven so as to shine upon the earth,
+**1:18** and to rule the day and the night, and to divide between the light and the darkness; and God saw that it was fine.
 **1:19** And evening came, and morning came: a fourth day.
-**1:20** And God decreed: "Let the waters swarm with living crawlers, and let birds fly across the face of the metal vault!"
-**1:21** And God casually carved out the great Chaos-Dragons (*Tanninim Gedolim/Leviathan*) and every swarming water-soul as simple aquatic pets alongside winged flyers; and God saw that they were powerless.
-**1:22** And God commanded them: "Be fruitful and fill the waters and land!"
+**1:20** And God said, "Let the waters bring forth creeping things of living souls, and flying creatures flying above the earth across the firmament of the heaven!" and it was so.
+**1:21** And God made the great sea-monsters (*Kete*) and every soul of living crawling creatures which the waters brought forth according to their kinds, and every winged flyer according to its kind; and God saw that they were fine.
+**1:22** And God blessed them, saying, "Grow and multiply, and fill the waters in the seas, and let the flyers multiply upon the earth!"
 **1:23** And evening came, and morning came: a fifth day.
-**1:24** And God decreed: "Let the land yield living beasts according to their kind: cattle, crawlers, and wild beasts!" and so it stood.
-**1:25** And God fashioned the wild beasts and cattle; and God saw that they were subject to Him.
-**1:26** Then God said to His Heavenly Council: "Let Us fashion an earthling as Our royal statue (*Tzelem/Image*), as Our viceroy on earth, so that human beings—not gods or kings alone—shall exercise royal dominion over fish, birds, cattle, and all the earth!"
-**1:27** And God carved out the human being as His royal viceroy statue; in the divine royal image He carved him; male and female He crowned them as co-monarchs.
-**1:28** And God blessed his human viceroys and decreed: "Be fruitful and multiply, conquer the earth and rule over the fish of the sea, the flyers of heaven, and every land beast!"
-**1:29** And God said: "Look! I grant you every seed-bearing herb and fruit tree on earth for your royal food—no sacrifice needed to feed the gods!
-**1:30** And to every land beast and bird I give green herbs for food!" and so it stood.
-**1:31** And God inspected all that He had subdued and constructed, and behold—it was totally obedient and exceedingly good! And evening came, and morning came: the sixth day.
+**1:24** And God said, "Let the earth bring forth living soul according to kind: four-footed beasts, creeping things, and wild beasts of the earth according to kind!" and it was so.
+**1:25** And God made the wild beasts of the earth according to kind, and the cattle according to kind, and all the creeping things of the earth according to their kind; and God saw that they were fine.
+**1:26** And God said, "Let us make man according to our image and after likeness, and let them rule the fish of the sea, the flyers of the heaven, the cattle, all the earth, and all the creeping things that creep upon the earth!"
+**1:27** And God made man; according to the image of God he made him; male and female he made them.
+**1:28** And God blessed them, saying, "Grow and multiply, fill the earth and master it, and rule the fish of the sea, the flyers of the heaven, all the cattle, all the earth, and all the creeping things that creep upon the earth!"
+**1:29** And God said, "Behold, I have given you every seed-bearing grass upon the face of all the earth, and every tree which has in itself fruit of seed-bearing grain; to you it shall be for food.
+**1:30** And to all the wild beasts of the earth, to all the flyers of the heaven, and to every creeping thing creeping upon the earth which has in itself a soul of life, I give every green grass for food!" and it was so.
+**1:31** And God saw all the things that he had made, and behold, they were very fine. And evening came, and morning came: the sixth day.
 
 ## Genesis Chapter 2
-**2:1** Thus were subdued the heavens and the earth, and all their host.
-**2:2** And on the seventh day God completed His royal construction, resting as supreme King on His throne.
-**2:3** And God declared the seventh day holy as a royal Sabbatical, ceasing from cosmic construction.
-**2:4** This is the royal record of the heavens and the earth when YHWH God constructed earth and sky—
-**2:5** before any wild shrub was on earth, for YHWH God had not yet opened the rain-gates, and there was no human servant to cultivate the soil.
-**2:6** But a subterranean water-surge (*Ed/Ugaritic 'Id*) welled up from the primeval abyss to drench the soil.
-**2:7** Then YHWH God molded the earthling (*Adam*) out of clay-dust from the red ground (*Adamah*), blowing into his nostrils living breath—mocking Mesopotamian myths where humans are molded from slain demon blood.
-**2:8** And YHWH God planted a royal garden in Eden, in the east, placing the earthling there as His royal gardener.
-**2:9** And YHWH God caused to sprout every majestic tree, with the Tree of Life and the Tree of Royal Judgment (*Knowing Good and Evil*) in the garden's center.
-**2:10** And a great river flowed out of Eden to irrigate the royal park, splitting into four cosmic headwaters:
-**2:11** Pishon, winding through Havilah where fine gold lies;
-**2:12** bdellium and lapis lazuli stone are there.
-**2:13** Gihon, encompassing Cush;
-**2:14** Tigris, flowing east of Asshur; and the Euphrates.
-**2:15** And YHWH God placed the earthling in the Garden of Eden to work it and guard YHWH's royal sanctuary.
-**2:16** And YHWH God commanded the earthling: "From every royal tree of the park you may eat,
-**2:17** but from the Tree of Royal Judgment (*Knowing Good and Evil*) you shall not eat, for on the day you usurp royal divine prerogative, dying you shall die!"
-**2:18** And YHWH God said, "It is not good for the earthling to be alone without an ally; I will make a matching partner for him."
-**2:19** And YHWH God molded out of clay all land beasts and birds, bringing them to the earthling to see what names he would call them as earthly ruler.
-**2:20** And the earthling named the animals, exercising authority over them, but found no matching royal equal among them.
-**2:21** So YHWH God cast a deep sleep upon the earthling, and took one of his side-ribs, closing up the flesh.
-**2:22** And YHWH God built the side-rib into a woman, bringing her to the man.
-**2:23** And the man declared: "This one at last is bone of my bones, flesh of my flesh! She shall be called Woman (*Ishah*), for from Man (*Ish*) she was taken!"
-**2:24** Therefore a man leaves his tribal family and clings to his woman, becoming one covenant flesh.
-**2:25** And both were naked-skinned, the man and his woman, feeling no shame.
+**2:1** And the heaven and the earth were brought to completion, and all the world-array (*Kosmos*) of them.
+**2:2** And God completed on the sixth day his works which he made, and he rested on the seventh day from all his works which he made.
+**2:3** And God blessed the seventh day and sanctified it, because on it he rested from all his works which God began to make.
+**2:4** This is the scroll of the origin of heaven and earth when it came to be, in the day on which God made the heaven and the earth—
+**2:5** and every green thing of the field before it came to be upon the earth, and every grass of the field before it sprang up; for God had not rained upon the earth, and there was no man to cultivate the earth.
+**2:6** But a fountain went up out of the earth and watered the whole face of the earth.
+**2:7** And God molded man, dust from the earth, and breathed into his face the breath of life; and man became a living soul.
+**2:8** And the Lord God planted a paradise in Eden, in the east, and placed there the man whom he had molded.
+**2:9** And God caused to spring up out of the earth every timber beautiful to sight and fine for eating, and the tree of life in the midst of the paradise, and the tree of knowing that which is fine and that which is evil.
+**2:10** And a river goes out of Eden to water the paradise, and from there it separates into four head-waters:
+**2:11** The name of the first is Pishon; it encompasses the whole land of Havilah, where the gold is;
+**2:12** and the gold of that land is fine; carbuncle and the emerald stone are there.
+**2:13** The name of the second river is Gihon; it encompasses the whole land of Ethiopia.
+**2:14** The name of the third river is Tigris, going opposite Assyria; and the fourth river is Euphrates.
+**2:15** And the Lord God took the man whom he had made and set him in the paradise of delight to cultivate it and guard it.
+**2:16** And the Lord God commanded Adam, saying: "From every timber in the paradise you may eat for food,
+**2:17** but from the tree of knowing fine and evil you shall not eat from it; on whatever day you eat from it, dying you shall die!"
+**2:18** And the Lord God said, "It is not fine that man should be alone; let us make for him a helper corresponding to him!"
+**2:19** And God molded further out of the earth all the wild beasts of the field and all the flyers of the heaven, and led them to Adam to see what he would call them; and whatever Adam called every living soul, that was its name.
+**2:20** And Adam gave names to all the cattle, to all the flyers of the heaven, and to all the wild beasts of the field; but for Adam there was not found a helper corresponding to him.
+**2:21** And God cast an ecstasy (*Ekstasis/Deep Trance*) upon Adam, and he slept; and he took one of his ribs and filled up flesh instead of it.
+**2:22** And the Lord God built the rib which he took from Adam into a woman, and led her to Adam.
+**2:23** And Adam said, "This now is bone out of my bones, and flesh out of my flesh; she shall be called Woman (*Gyne*), because out of her husband (*Aner*) she was taken."
+**2:24** On this account a man shall leave his father and his mother and be joined to his wife, and the two shall become into one flesh.
+**2:25** And the two were naked, both Adam and his wife, and they were not ashamed.
 
 ## Genesis Chapter 3
-**3:1** Now the serpent was craftier than any wild beast YHWH God had made—a simple animal stripped of Egyptian and Canaanite magical divinity. And it said to the woman, "Did God truly forbid you from eating of any tree in the royal park?"
-**3:2** And the woman said, "From the fruit of the park trees we may eat,
-**3:3** but from the tree in the center, God said, 'Do not eat nor touch it, lest you die!'"
-**3:4** And the serpent hissed to the woman: "Dying, you will not die!
-**3:5** For God knows that on the day you eat of it, your eyes will be opened, and you will become like gods, possessing royal judgment!"
-**3:6** And when the woman saw that the tree offered divine wisdom and royal power, she ate of its fruit and gave to her man beside her, and he ate.
-**3:7** Then the eyes of both were opened, realizing they were simple naked peasants; so they sewed fig leaves into loin-belts.
-**3:8** And they heard the sound of YHWH God pacing in the garden in the afternoon breeze, and the earthling and his woman hid among the trees.
-**3:9** And YHWH God called out to the earthling: "Where are you?"
-**3:10** And he said, "I heard Your sound in the park and was afraid because I am naked, so I hid."
-**3:11** And He said, "Who told you that you were naked? Have you eaten from the tree of royal prerogative which I forbidden?"
-**3:12** And the man said, "The woman You gave to be with me—she gave me from the tree, and I ate."
-**3:13** And YHWH God said to the woman, "What is this you have done?" And she said, "The serpent beguiled me, and I ate."
-**3:14** And YHWH God said to the serpent: "Because you have done this, accursed are you above all livestock! On your belly you shall crawl, eating dirt all your days—demoted from divine status to a crawling pest!
-**3:15** I will set enmity between you and the woman, and between your brood and her offspring; he shall crush your head, and you shall strike at his heel!"
-**3:16** To the woman He said: "I will greatly multiply your pregnancy labor; in agony you shall bear children. Your desire shall be for your man, and he shall rule over you."
-**3:17** And to the earthling He said: "Because you listened to your woman and usurped divine prerogative by eating from the forbidden tree—accursed is the soil on your account! In heavy peasant toil you shall eat from it all your days.
-**3:18** Thorns and thistles it shall sprout for you, and you shall eat peasant herbs.
-**3:19** By the sweat of your brow you shall eat bread until you return to the red soil, for dust you are, and to dust you shall return!"
-**3:20** And the man named his woman Eve (*Chavah/Living One*), for she was the mother of all human living.
-**3:21** And YHWH God made for the man and his woman tunic-garments of animal skin, clothing them.
-**3:22** And YHWH God said: "Look—the earthling has attempted to become like one of Us, usurping royal judgment! Now, lest he stretch out his hand and steal from the Tree of Life to gain immortal divine status like the gods in Gilgamesh—"
-**3:23** So YHWH God banished him from the royal Garden of Eden to farm the red soil from which he was taken.
-**3:24** He drove out the earthling, stationing at the eastern gate of Eden the fierce *Keruvim* (winged lion-sphinx guardians) and the flashing, spinning blade of the sword to block the way to the tree of divine immortality.
+**3:1** Now the serpent was the most prudent of all the beasts upon the earth which the Lord God had made. And the serpent said to the woman, "Why is it that God said, 'You shall not eat from any timber of the paradise'?"
+**3:2** And the woman said to the serpent, "From the fruit of the timber of the paradise we may eat,
+**3:3** but from the fruit of the tree which is in the midst of the paradise, God said: 'You shall not eat from it, nor shall you touch it, lest you die!'"
+**3:4** And the serpent said to the woman, "By no means shall you die by death!
+**3:5** For God knows that in whatever day you eat from it, your eyes will be opened, and you will be as gods, knowing fine and evil!"
+**3:6** And the woman saw that the tree was fine for eating, and pleasing for the eyes to see, and beautiful to contemplate; and taking of its fruit she ate, and gave also to her husband with her, and they ate.
+**3:7** And the eyes of the two were opened, and they knew that they were naked; and they sewed fig-leaves together and made for themselves waist-girdles.
+**3:8** And they heard the voice of the Lord God walking in the paradise in the afternoon breeze, and Adam and his wife hid from the face of the Lord God in the midst of the timber of the paradise.
+**3:9** And the Lord God called Adam and said to him, "Adam, where are you?"
+**3:10** And he said, "I heard your voice as you walked in the paradise, and I was afraid because I am naked, and I hid."
+**3:11** And he said to him, "Who announced to you that you were naked, unless you ate from the timber of which alone I commanded you not to eat?"
+**3:12** And Adam said, "The woman whom you gave to be with me—she gave me from the timber, and I ate."
+**3:13** And the Lord God said to the woman, "Why have you done this?" And the woman said, "The serpent deceived me, and I ate."
+**3:14** And the Lord God said to the serpent, "Because you have done this, accursed are you above all the cattle and above all the wild beasts upon the earth; upon your chest and belly you shall go, and earth you shall eat all the days of your life!
+**3:15** And I will put enmity between you and the woman, and between your seed and her seed; he shall watch for your head, and you shall watch for his heel!"
+**3:16** And to the woman he said, "I will greatly multiply your pain and your groaning; in pains you shall bring forth children, and your turning shall be to your husband, and he shall rule over you!"
+**3:17** And to Adam he said, "Because you listened to the voice of your wife and ate from the timber of which alone I commanded you not to eat from it—accursed is the earth in your labor! In pains you shall eat it all the days of your life.
+**3:18** Thorns and caltrops it shall send up for you, and you shall eat the grass of the field.
+**3:19** In the sweat of your face you shall eat your bread until you return into the earth out of which you were taken; for earth you are, and into earth you shall depart!"
+**3:20** And Adam called the name of his wife "Life" (*Zoe*), because she was mother of all the living.
+**3:21** And the Lord God made for Adam and for his wife coats of leather (*Chitonas dermatinous*), and clothed them.
+**3:22** And God said, "Behold, Adam has become as one out of us, to know fine and evil! And now, lest at any time he stretch forth his hand and take from the tree of life, and eat, and live into the age—"
+**3:23** And the Lord God sent him forth out of the paradise of delight to cultivate the earth out of which he was taken.
+**3:24** And he cast out Adam and settled him opposite the paradise of delight, and stationed the Cherubim and the flaming sword that turns to guard the way of the tree of life.
